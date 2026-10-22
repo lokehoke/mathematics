@@ -1,4 +1,4 @@
-\chapter{Корни и действительные числа}
+\chapter{Корни и действительные числа}\markright{Глава 7}
 \begin{definition}\term{Арифметический квадратный корень} (\emph{principal square root}) \(\sqrt{a}\) — неотрицательное число, квадрат которого равен \(a\). В действительных числах определён при \(a \ge  0\). При \(a>0\) уравнение \(z^2=a\) имеет два корня: \(z=\sqrt a\) и \(z=-\sqrt a\).\end{definition}
 \begin{definition}\term{Кубический корень} (\emph{cube root}) \(\sqrt[3]{a}\) — число, куб которого равен \(a\); существует для любого действительного \(a\).\end{definition}
 \begin{definition}\term{Рациональное число} (\emph{rational number}) — число вида \(\frac{p}{q}\), где \(p,\allowbreak q\) — целые и \(q \ne  0\).\end{definition}
@@ -50,9 +50,16 @@
 \]
 Таким образом, при чётном \(n\) условия для частного: \(a\geq0\), \(b>0\); при нечётном: \(a\in\mathbb R\), \(b\in\mathbb R\setminus\{0\}\).
 \end{theorem}
-\begin{proof}
-Пусть \(u=\sqrt[n]a\), \(v=\sqrt[n]b\). Тогда \((uv)^n=u^nv^n=ab\). При чётном \(n\) дополнительно \(uv\geq0\), поэтому \(uv\) — именно арифметический корень. Для частного \(v\neq0\) и \((\frac uv)^n=\frac ab\); при чётном \(n\) имеем \(\frac uv\geq0\). Снова применяем единственность корня.
-\end{proof}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[13]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-12.png}
+\end{wrapfigure}
+\textit{Доказательство.} Пусть \(u=\sqrt[n]a\), \(v=\sqrt[n]b\). Тогда \((uv)^n=u^nv^n=ab\). При чётном \(n\) дополнительно \(uv\geq0\), поэтому \(uv\) — именно арифметический корень. Для частного \(v\neq0\) и \((\frac uv)^n=\frac ab\); при чётном \(n\) имеем \(\frac uv\geq0\). Снова применяем единственность корня.\hfill\(\square\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
 
 \begin{theorem}[Корень из корня]
 Для натуральных \(m,n\geq2\) и \(a\geq0\)
@@ -123,37 +130,66 @@ a^{\frac mn}=\bigl(\sqrt[n]a\bigr)^m.
 \]
 Также \((-8)^{\frac26}=(-8)^{\frac13}=-2\), тогда как \(\sqrt[6]{(-8)^2}=2\). Условие \(a>0\) в теореме о свойствах рациональных степеней существенно.
 
-\clearpage\section*{Графики}
+\Needspace{.4\textheight}\section*{Графики}
 \begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-roots.pdf}\par\small Корни нечётной и чётной степени\end{center}
 \Needspace{7\baselineskip}\section*{Задачи}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=10pt]
-\Needspace{3\baselineskip}\item[\textbf{7.1.}] Вычисли \(\sqrt{81}\) и \(\sqrt[3]{- 27}\).
-\Needspace{3\baselineskip}\item[\textbf{7.2.}] Вычисли \(\sqrt{\frac{49}{100}}\).
-\Needspace{3\baselineskip}\item[\textbf{7.3.}] Упрости \(\sqrt{72}\).
-\Needspace{3\baselineskip}\item[\textbf{7.4.}] Упрости \(\sqrt{200} - \sqrt{50}\).
-\Needspace{3\baselineskip}\item[\textbf{7.5.}] Внеси множитель под корень: \(3 \sqrt{5}\).
-\Needspace{3\baselineskip}\item[\textbf{7.6.}] Вычисли \(\sqrt{12} \cdot  \sqrt{3}\).
-\Needspace{3\baselineskip}\item[\textbf{7.7.}] Вычисли \(\frac{\sqrt{75}}{\sqrt{3}}\).
-\Needspace{3\baselineskip}\item[\textbf{7.8.}] Вычисли \(\sqrt{(- 7)^{2}}\).
-\Needspace{3\baselineskip}\item[\textbf{7.9.}] Между какими соседними целыми числами находится \(\sqrt{30}\)?
-\Needspace{3\baselineskip}\item[\textbf{7.10.}] Сравни \(\sqrt{7}\) и \(2,7\).
-\Needspace{3\baselineskip}\item[\textbf{7.11.}] Какие числа рациональные: \(\sqrt{16},\allowbreak \sqrt{2},\allowbreak - \frac{3}{7},\allowbreak 0{,}(3),\allowbreak \pi \)?
-\Needspace{3\baselineskip}\item[\textbf{7.12.}] Существуют ли \(\sqrt{- 9}\) и \(\sqrt[3]{- 8}\) в действительных числах?
-\Needspace{3\baselineskip}\item[\textbf{7.13.}] Из жизни. Квадратная комната имеет площадь \(49\) м\(^{2}\). Найди длину её стороны.
-\Needspace{3\baselineskip}\item[\textbf{7.14.}] Из жизни. Лестница стоит у стены: её основание в \(3\) м от стены, верх на высоте \(4\) м. Найди длину лестницы. Считай стену и землю перпендикулярными.
-\begin{center}\includegraphics[width=.7\linewidth,height=45mm,keepaspectratio]{images/diagram-ladder.pdf}\end{center}
-\Needspace{3\baselineskip}\item[\textbf{7.15.}] Из жизни. У кубического контейнера объём \(0,125\) м\(^{3}\). Найди длину ребра в метрах и сантиметрах.
-\Needspace{3\baselineskip}\item[\textbf{7.16.}\starmark] Упрости: \(\sqrt{48} + \sqrt{75} - \sqrt{147}\).
-\Needspace{3\baselineskip}\item[\textbf{7.17.}\starmark] Проверь без десятичных приближений утверждение \(\sqrt{2} + \sqrt{3} > \sqrt{10}\). Докажи его или опровергни.
-\Needspace{3\baselineskip}\item[\textbf{7.18.}\starmark] У прямоугольника площадь \(48\) м\(^{2}\), одна сторона втрое длиннее другой. Найди обе стороны и диагональ.
-\Needspace{3\baselineskip}\item[\textbf{7.19.}] Докажите равенство \(\sqrt[n]{x^n}=|x|\) для любого действительного \(x\) и любого чётного натурального \(n\geq2\).
-\Needspace{3\baselineskip}\item[\textbf{7.20.}] Докажите, что для нечётного натурального \(n\geq3\) и любого действительного \(a\) выполнено \(\sqrt[n]{-a}=-\sqrt[n]a\).
-\Needspace{3\baselineskip}\item[\textbf{7.21.}] Вычислите \(\sqrt[4]{81}\), \(\sqrt[5]{-32}\) и \(\sqrt[6]{64}\).
-\Needspace{3\baselineskip}\item[\textbf{7.22.}] Какие из выражений \(\sqrt[4]{-16}\), \(\sqrt[3]{-64}\), \(\sqrt[6]{0}\) определены в действительных числах? Вычислите определённые.
-\Needspace{3\baselineskip}\item[\textbf{7.23.}] Упростите \(\sqrt[6]{x^6}\) и \(\sqrt[5]{x^5}\) для действительного \(x\).
-\Needspace{3\baselineskip}\item[\textbf{7.24.}] Упростите \(\sqrt[4]{48}\) и вычислите \(\frac{\sqrt[3]{54}}{\sqrt[3]2}\).
-\Needspace{3\baselineskip}\item[\textbf{7.25.}] Вычислите \((-32)^{\frac25}\), \((-8)^{-\frac13}\) и \(16^{-\frac34}\).
-\Needspace{3\baselineskip}\item[\textbf{7.26.}] Решите в действительных числах \(\sqrt[4]{x+7}=2\) и \(\sqrt[3]{2x-1}=-3\).
-\Needspace{3\baselineskip}\item[\textbf{7.27.}\starmark] Найдите область определения \(f(x)=\frac1{\sqrt[4]{x-2}}+\sqrt[3]{x+1}\).
-\Needspace{3\baselineskip}\item[\textbf{7.28.}\starmark] Решите \(\sqrt[4]{(x-1)^4}=2-x\) в действительных числах.
-\end{enumerate}
+\begingroup\setlength{\parskip}{3pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.1.} Вычисли \(\sqrt{81}\) и \(\sqrt[3]{- 27}\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.2.} Вычисли \(\sqrt{\dfrac{49}{100}}\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.3.} Упрости \(\sqrt{72}\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.4.} Упрости \(\sqrt{200} - \sqrt{50}\).\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-22.png}
+\end{wrapfigure}
+\textbf{7.5.} Внеси множитель под корень: \(3 \sqrt{5}\).\par
+
+\textbf{7.6.} Вычисли \(\sqrt{12} \cdot  \sqrt{3}\).\par
+
+\textbf{7.7.} Вычисли \(\dfrac{\sqrt{75}}{\sqrt{3}}\).\par
+
+\textbf{7.8.} Вычисли \(\sqrt{(- 7)^{2}}\).\par
+
+\textbf{7.9.} Между какими соседними целыми числами находится \(\sqrt{30}\)?\par
+
+\textbf{7.10.} Сравни \(\sqrt{7}\) и \(2{,}7\).\par
+
+\textbf{7.11.} Какие числа рациональные: \(\sqrt{16},\allowbreak \sqrt{2},\allowbreak - \dfrac{3}{7},\allowbreak 0{,}(3),\allowbreak \pi \)?\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.12.} Существуют ли \(\sqrt{- 9}\) и \(\sqrt[3]{- 8}\) в действительных числах?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.13.} Из жизни. Квадратная комната имеет площадь \(49\) м\(^{2}\). Найди длину её стороны.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.14.} Из жизни. Лестница стоит у стены: её основание в \(3\) м от стены, верх на высоте \(4\) м. Найди длину лестницы. Считай стену и землю перпендикулярными.\begin{center}\includegraphics[width=.7\linewidth,height=45mm,keepaspectratio]{images/diagram-ladder.pdf}\end{center}\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.15.} Из жизни. У кубического контейнера объём \(0{,}125\) м\(^{3}\). Найди длину ребра в метрах и сантиметрах.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.16.}\starmark{} Упрости: \(\sqrt{48} + \sqrt{75} - \sqrt{147}\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.17.}\starmark{} Проверь без десятичных приближений утверждение \(\sqrt{2} + \sqrt{3} > \sqrt{10}\). Докажи его или опровергни.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.18.}\starmark{} У прямоугольника площадь \(48\) м\(^{2}\), одна сторона втрое длиннее другой. Найди обе стороны и диагональ.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.19.} Докажите равенство \(\sqrt[n]{x^n}=|x|\) для любого действительного \(x\) и любого чётного натурального \(n\geq2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.20.} Докажите, что для нечётного натурального \(n\geq3\) и любого действительного \(a\) выполнено \(\sqrt[n]{-a}=-\sqrt[n]a\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{7.21.} Вычислите \(\sqrt[4]{81}\), \(\sqrt[5]{-32}\) и \(\sqrt[6]{64}\).\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-15.png}
+\end{wrapfigure}
+\textbf{7.22.} Какие из выражений \(\sqrt[4]{-16}\), \(\sqrt[3]{-64}\), \(\sqrt[6]{0}\) определены в действительных числах? Вычислите определённые.\par
+
+\textbf{7.23.} Упростите \(\sqrt[6]{x^6}\) и \(\sqrt[5]{x^5}\) для действительного \(x\).\par
+
+\textbf{7.24.} Упростите \(\sqrt[4]{48}\) и вычислите \(\dfrac{\sqrt[3]{54}}{\sqrt[3]2}\).\par
+
+\textbf{7.25.} Вычислите \((-32)^{\dfrac25}\), \((-8)^{-\dfrac13}\) и \(16^{-\dfrac34}\).\par
+
+\textbf{7.26.} Решите в действительных числах \(\sqrt[4]{x+7}=2\) и \(\sqrt[3]{2x-1}=-3\).\par
+
+\textbf{7.27.}\starmark{} Найдите область определения \(f(x)=\dfrac1{\sqrt[4]{x-2}}+\sqrt[3]{x+1}\).\par
+
+\textbf{7.28.}\starmark{} Решите \(\sqrt[4]{(x-1)^4}=2-x\) в действительных числах.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\endgroup

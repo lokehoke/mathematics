@@ -1,0 +1,327 @@
+[
+  {
+    "kind": "intro",
+    "chapter": 0,
+    "art": 1,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 1,
+    "start": "В доказательстве методом",
+    "end": "\\begin{definition}",
+    "art": 2,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 1,
+    "start": "\\textbf{Коммутативность}",
+    "end": "\\textbf{Противоположное число.}",
+    "art": 3,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 1,
+    "index": 2,
+    "art": 4,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 1,
+    "start": 9,
+    "end": 15,
+    "art": 5,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 2,
+    "index": 1,
+    "art": 6,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 2,
+    "art": 7,
+    "side": "r",
+    "start": "Запись с тремя вертикальными точками",
+    "end": "\\begin{definition}"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 2,
+    "start": 16,
+    "end": 22,
+    "art": 8,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 3,
+    "start": 6,
+    "end": 12,
+    "art": 10,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 4,
+    "start": 6,
+    "end": 12,
+    "art": 14,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 5,
+    "start": 6,
+    "end": 12,
+    "art": 21,
+    "side": "r",
+    "parskip": 2
+  },
+  {
+    "kind": "tasks",
+    "chapter": 6,
+    "start": 7,
+    "end": 13,
+    "art": 11,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 7,
+    "index": 3,
+    "art": 12,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 7,
+    "art": 15,
+    "side": "l",
+    "start": 22,
+    "end": 28
+  },
+  {
+    "kind": "tasks",
+    "chapter": 7,
+    "start": 5,
+    "end": 11,
+    "art": 22,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 8,
+    "start": 7,
+    "end": 13,
+    "art": 19,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 9,
+    "start": 7,
+    "end": 13,
+    "art": 16,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 10,
+    "index": 2,
+    "art": 17,
+    "side": "l",
+    "include_after": true
+  },
+  {
+    "kind": "proof",
+    "chapter": 10,
+    "index": 4,
+    "art": 18,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 10,
+    "start": 14,
+    "end": 20,
+    "art": 29,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 11,
+    "index": 3,
+    "art": 9,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 11,
+    "index": 5,
+    "art": 24,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 11,
+    "start": 7,
+    "end": 13,
+    "art": 39,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 12,
+    "index": 2,
+    "art": 13,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 12,
+    "index": 5,
+    "art": 20,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 12,
+    "start": 7,
+    "end": 13,
+    "art": 30,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 13,
+    "index": 1,
+    "art": 25,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 13,
+    "start": 5,
+    "end": 11,
+    "art": 38,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 14,
+    "index": 1,
+    "art": 28,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 14,
+    "start": 6,
+    "end": 12,
+    "art": 40,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 15,
+    "art": 26,
+    "side": "r",
+    "start": "\\(\\sin ^{2}",
+    "end": "\\section*{Прямоугольный треугольник}"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 15,
+    "start": 6,
+    "end": 12,
+    "art": 27,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 16,
+    "art": 23,
+    "side": "r",
+    "start": "\\(\\forall ",
+    "end": "\\section*{Свойства и способы доказательства}"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 16,
+    "start": 6,
+    "end": 12,
+    "art": 32,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 2,
+    "start": 32,
+    "end": 39,
+    "art": 37,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 4,
+    "start": 13,
+    "end": 20,
+    "art": 41,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 1,
+    "start": 18,
+    "end": 26,
+    "art": 42,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 8,
+    "start": 13,
+    "end": 20,
+    "art": 31,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 10,
+    "start": 13,
+    "end": 20,
+    "art": 33,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 12,
+    "start": 13,
+    "end": 20,
+    "art": 34,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 14,
+    "start": 21,
+    "end": 28,
+    "art": 35,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 16,
+    "start": 19,
+    "end": 26,
+    "art": 36,
+    "side": "l"
+  }
+]

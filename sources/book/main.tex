@@ -4,8 +4,8 @@
 \usepackage[russian]{babel}
 \usepackage{amsmath,amssymb,amsthm,unicode-math}
 \setmathfont[Scale=1.05]{latinmodern-math.otf}
-\usepackage[margin=24mm,headheight=16pt]{geometry}
-\usepackage{enumitem,needspace,microtype,graphicx,longtable}
+\usepackage[left=24mm,right=24mm,top=24mm,bottom=24mm,headheight=16pt]{geometry}
+\usepackage{enumitem,needspace,microtype,graphicx,longtable,wrapfig}
 \usepackage[table]{xcolor}
 \usepackage[normalem]{ulem}
 \usepackage{titlesec,fancyhdr,tikz}
@@ -18,41 +18,28 @@
 \definecolor{Warm}{HTML}{FBF0DB}
 \definecolor{Paper}{HTML}{FFFCF6}
 \definecolor{Ink}{HTML}{292B29}
-\titleformat{\chapter}[display]{\color{Navy}\bfseries}{\large ГЛАВА \thechapter}{10pt}{\Huge}
+\titleformat{\chapter}[display]{\color{Navy}\bfseries\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000}{\large ГЛАВА \thechapter}{10pt}{\Huge}
 \titlespacing*{\chapter}{0pt}{0pt}{24pt}
-\titleformat{\section}{\Large\bfseries\color{Navy}}{}{0pt}{}
-\titleformat{\subsection}{\large\bfseries\color{Teal}}{}{0pt}{}
+\titleformat{\section}{\Large\bfseries\color{Navy}\raggedright\hyphenpenalty=10000}{}{0pt}{}
+\titleformat{\subsection}{\large\bfseries\color{Teal}\raggedright\hyphenpenalty=10000}{}{0pt}{}
 \setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
 \setlength{\emergencystretch}{3em}\linespread{1.12}\sloppy
-\everymath{\displaystyle}
+\everymath{\textstyle}
+\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000\raggedbottom
 \newtheoremstyle{colordef}{8pt}{8pt}{\normalfont}{}{\color{Teal}\bfseries}{.}{.5em}{}
 \theoremstyle{colordef}\newtheorem{definition}{Определение}[chapter]
 \theoremstyle{plain}\newtheorem{theorem}{Теорема}[chapter]
 \newtheorem{lemma}[theorem]{Лемма}
 \theoremstyle{definition}\newtheorem{axiom}{Аксиома}[chapter]
 \newtheorem*{example}{Пример}
-\tcolorboxenvironment{definition}{enhanced,breakable,colback=Tint,colframe=Teal,boxrule=.3pt,arc=1mm,left=2mm,right=2mm,top=1mm,bottom=1mm}
+\tcolorboxenvironment{definition}{enhanced,colback=Tint,colframe=Teal,boxrule=.3pt,arc=1mm,left=2mm,right=2mm,top=1mm,bottom=1mm}
 \tcolorboxenvironment{theorem}{enhanced,breakable,colback=Warm,colframe=Coral,boxrule=.3pt,arc=1mm,left=2mm,right=2mm,top=1mm,bottom=1mm}
 \AtBeginDocument{\renewcommand{\setminus}{\smallsetminus}}
 \newcommand{\term}[1]{{\color{Navy}\uline{#1}}}
 \newcommand{\starmark}{\ensuremath{\textcolor{Coral}{{}^{\ast}}}}
-\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для Насти}\fancyhead[R]{\small\color{Teal}\thechapter}\fancyfoot[C]{\thepage}
+\newsavebox{\CatFlowBox}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для Насти}\fancyhead[R]{\small\color{Teal}\rightmark}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{.3pt}
-
-\newif\ifcatdecor\catdecorfalse
-\AddToHook{shipout/foreground}{%
- \ifcatdecor\ifodd\value{page}%
- \begin{tikzpicture}[remember picture,overlay]
- \pgfmathtruncatemacro{\catindex}{mod(\value{page},3)}
- \ifcase\catindex
- \node[anchor=south east,inner sep=0] at ([xshift=-4mm,yshift=4mm]current page.south east){\includegraphics[width=26mm,height=18mm,keepaspectratio]{images/margin-gray.png}};
- \or
- \node[anchor=south west,inner sep=0] at ([xshift=4mm,yshift=4mm]current page.south west){\includegraphics[width=28mm,height=18mm,keepaspectratio]{images/margin-ginger.png}};
- \or
- \node[anchor=east,inner sep=0] at ([xshift=-2mm]current page.east){\includegraphics[width=19mm,height=23mm,keepaspectratio]{images/margin-white.png}};
- \fi
- \end{tikzpicture}%
- \fi\fi}
 
 \begin{document}
 \pagecolor{Paper}\color{Ink}
@@ -63,18 +50,26 @@
 \node[anchor=north,text width=.86\paperwidth,align=center,text=Navy] at ([yshift=-23mm]current page.north){\fontsize{29}{36}\selectfont\bfseries Алгебра перед\\математическим\\анализом\\[7mm]{\fontsize{25}{30}\selectfont для Насти}};
 \node[anchor=north,text width=.8\paperwidth,align=center,text=Navy] at ([yshift=-93mm]current page.north){\large От аксиом Пеано до функций и доказательств};
 \end{tikzpicture}\null\end{titlepage}
-\catdecortrue
+
 \frontmatter
 \hypersetup{pageanchor=true}
-\chapter*{Как читать эту книгу}
+\markright{}\chapter*{Как читать эту книгу}
 \addcontentsline{toc}{chapter}{Как читать эту книгу}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[13]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-01.png}
+\end{wrapfigure}
 Эта книга начинается с устройства натуральных чисел и постепенно переходит к алгебре, комбинаторике, последовательностям и функциям. Здесь 16 глав и 385 задач с ответами. Определения сопровождаются английскими терминами, теоремы — доказательствами. Звёздочка \starmark{} отмечает повышенную сложность.
 
 Сначала прочитай определения и примеры, затем попробуй решить задачи самостоятельно. Дроби сокращай до несократимого вида; в уравнениях находи все допустимые корни. В заданиях на доказательство нескольких численных проверок недостаточно. Ответы в конце помогут проверить вычисления и ход рассуждения.
 
 Изображения в теории показывают точные графики; художественные иллюстрации не заменяют математические условия. В рисунках к задачам длины и масштабы задаются подписями.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 \begingroup\small\linespread{1}\selectfont\setlength{\parskip}{0pt}\tableofcontents\endgroup
-\input{symbols.tex}
+\markright{Обозначения}\input{symbols.tex}
 \mainmatter
 \input{chapters/chapter-01.tex}
 \input{chapters/chapter-02.tex}
@@ -92,438 +87,567 @@
 \input{chapters/chapter-14.tex}
 \input{chapters/chapter-15.tex}
 \input{chapters/chapter-16.tex}
-\backmatter\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}
+\backmatter\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}
 \section*{Глава 1. Числа и свойства арифметических действий}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{1.1.}] \(- 8 < - 3;\allowbreak 0 > - 5;\allowbreak - 4 < 4\).
-\item[\textbf{1.2.}] \(- 12\).
-\item[\textbf{1.3.}] \(3\).
-\item[\textbf{1.4.}] \(- 3\).
-\item[\textbf{1.5.}] \(- 8\).
-\item[\textbf{1.6.}] \(7\). Делить на ноль нельзя.
-\item[\textbf{1.7.}] \(- 14\).
-\item[\textbf{1.8.}] \(- 20\).
-\item[\textbf{1.9.}] \(- 26\).
-\item[\textbf{1.10.}] \(- 4\). В записи \(- 2^{2}\) степень относится только к двойке.
-\item[\textbf{1.11.}] \(- 2 {}^{\circ} C\).
-\item[\textbf{1.12.}] На уровне \(2\).
-\item[\textbf{1.13.}] \(115\) очков.
-\item[\textbf{1.14.}\starmark] \(3\). Скобки равны \(8\) и \(3\), поэтому \(- 6 + 9 = 3\).
-\item[\textbf{1.15.}\starmark] \((18 - 6) : (3 + 1) = 3\).
-\item[\textbf{1.16.}\starmark] \(8\) верных и \(4\) неверных: \(8 \cdot  5 - 4 \cdot  3 = 28\).
-\item[\textbf{1.17.}] База \(n=0\): \(0=0\). Переход: если сумма до \(n\) равна \(\frac{n(n+1)}2\), то сумма до \(n+1\) равна \(\frac{n(n+1)}2+(n+1)=\frac{(n+1)(n+2)}2\).
-\item[\textbf{1.18.}] База \(n=1\): \(1=1^2\). При переходе добавляется следующее нечётное число \(2n+1\), а \(n^2+(2n+1)=(n+1)^2\).
-\item[\textbf{1.19.}\starmark] База \(n=0\): обе части нулевые. Переход: \(\frac{n(n+1)(2n+1)}6+(n+1)^2=\frac{(n+1)(n+2)(2n+3)}6\). Это нужная формула с \(n+1\) вместо \(n\).
-\item[\textbf{1.20.}] База \(n=0\): \(1=2-1\). Переход: к сумме до \(n\) добавляется \(2^{n+1}\), поэтому новая сумма равна \((2^{n+1}-1)+2^{n+1}=2^{n+2}-1\).
-\item[\textbf{1.21.}] База \(n=0\): \(1\ge1\). Если \(3^n\ge2n+1\), то \(3^{n+1}\ge3(2n+1)=6n+3\ge2n+3=2(n+1)+1\), поскольку \(n\ge0\).
-\item[\textbf{1.22.}] База \(n=4\): \(16=16\). Если \(2^n\ge n^2\), то \(2^{n+1}\ge2n^2\ge(n+1)^2\). Последнее неравенство верно при \(n\ge4\), так как \(2n^2-(n+1)^2=(n-1)^2-2\ge7>0\).
-\item[\textbf{1.23.}\starmark] База \(n=0\): обе части нулевые. Переход: \(\frac{n^2(n+1)^2}{4}+(n+1)^3=\frac{(n+1)^2(n+2)^2}{4}=\left(\frac{(n+1)(n+2)}2\right)^2\).
-\item[\textbf{1.24.}\starmark] База \(n=1\): равенство. По предположению \((1+x)^n\ge1+nx\). Умножая на \(1+x\ge0\), сохраняем направление неравенства: \((1+x)^{n+1}\ge(1+nx)(1+x)=1+(n+1)x+nx^2\ge1+(n+1)x\). Без неотрицательности множителя направление могло бы измениться.
-\item[\textbf{1.25.}] Из коммутативности \(x+a=0\). Тогда \(x=x+0=x+(a+y)=(x+a)+y=0+y=y\).
-\item[\textbf{1.26.}] Если один множитель нулевой, произведение равно нулю. Обратно: пусть \(ab=0\). При \(a=0\) утверждение уже выполнено. При \(a\ne0\) умножим равенство на \(\frac1a\) и воспользуемся ассоциативностью: \(b=\frac1a(ab)=\frac1a\cdot0=0\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{1.1.} \(- 8 < - 3;\allowbreak 0 > - 5;\allowbreak - 4 < 4\).\par
+\textbf{1.2.} \(- 12\).\par
+\textbf{1.3.} \(3\).\par
+\textbf{1.4.} \(- 3\).\par
+\textbf{1.5.} \(- 8\).\par
+\textbf{1.6.} \(7\). Делить на ноль нельзя.\par
+\textbf{1.7.} \(- 14\).\par
+\textbf{1.8.} \(- 20\).\par
+\textbf{1.9.} \(- 26\).\par
+\textbf{1.10.} \(- 4\). В записи \(- 2^{2}\) степень относится только к двойке.\par
+\textbf{1.11.} \(- 2 {}^{\circ} C\).\par
+\textbf{1.12.} На уровне \(2\).\par
+\textbf{1.13.} \(115\) очков.\par
+\textbf{1.14.}\starmark{} \(3\). Скобки равны \(8\) и \(3\), поэтому \(- 6 + 9 = 3\).\par
+\textbf{1.15.}\starmark{} \((18 - 6) : (3 + 1) = 3\).\par
+\textbf{1.16.}\starmark{} \(8\) верных и \(4\) неверных: \(8 \cdot  5 - 4 \cdot  3 = 28\).\par
+\textbf{1.17.} База \(n=0\): \(0=0\). Переход: если сумма до \(n\) равна \(\frac{n(n+1)}2\), то сумма до \(n+1\) равна \(\frac{n(n+1)}2+(n+1)=\frac{(n+1)(n+2)}2\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-42.png}
+\end{wrapfigure}
+\textbf{1.18.} База \(n=1\): \(1=1^2\). При переходе добавляется следующее нечётное число \(2n+1\), а \(n^2+(2n+1)=(n+1)^2\).\par
+
+\textbf{1.19.}\starmark{} База \(n=0\): обе части нулевые. Переход: \(\frac{n(n+1)(2n+1)}6+(n+1)^2=\frac{(n+1)(n+2)(2n+3)}6\). Это нужная формула с \(n+1\) вместо \(n\).\par
+
+\textbf{1.20.} База \(n=0\): \(1=2-1\). Переход: к сумме до \(n\) добавляется \(2^{n+1}\), поэтому новая сумма равна \((2^{n+1}-1)+2^{n+1}=2^{n+2}-1\).\par
+
+\textbf{1.21.} База \(n=0\): \(1\ge1\). Если \(3^n\ge2n+1\), то \(3^{n+1}\ge3(2n+1)=6n+3\ge2n+3=2(n+1)+1\), поскольку \(n\ge0\).\par
+
+\textbf{1.22.} База \(n=4\): \(16=16\). Если \(2^n\ge n^2\), то \(2^{n+1}\ge2n^2\ge(n+1)^2\). Последнее неравенство верно при \(n\ge4\), так как \(2n^2-(n+1)^2=(n-1)^2-2\ge7>0\).\par
+
+\textbf{1.23.}\starmark{} База \(n=0\): обе части нулевые. Переход: \(\frac{n^2(n+1)^2}{4}+(n+1)^3=\frac{(n+1)^2(n+2)^2}{4}=\left(\frac{(n+1)(n+2)}2\right)^2\).\par
+
+\textbf{1.24.}\starmark{} База \(n=1\): равенство. По предположению \((1+x)^n\ge1+nx\). Умножая на \(1+x\ge0\), сохраняем направление неравенства: \((1+x)^{n+1}\ge(1+nx)(1+x)=1+(n+1)x+nx^2\ge1+(n+1)x\). Без неотрицательности множителя направление могло бы измениться.\par
+
+\textbf{1.25.} Из коммутативности \(x+a=0\). Тогда \(x=x+0=x+(a+y)=(x+a)+y=0+y=y\).\par
+
+\textbf{1.26.} Если один множитель нулевой, произведение равно нулю. Обратно: пусть \(ab=0\). При \(a=0\) утверждение уже выполнено. При \(a\ne0\) умножим равенство на \(\frac1a\) и воспользуемся ассоциативностью: \(b=\frac1a(ab)=\frac1a\cdot0=0\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\endgroup
 \section*{Глава 2. Делимость, простые числа, НОД и НОК}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{2.1.}] \(1,\allowbreak 2,\allowbreak 3,\allowbreak 4,\allowbreak 6,\allowbreak 9,\allowbreak 12,\allowbreak 18,\allowbreak 36\).
-\item[\textbf{2.2.}] \(1,\allowbreak 2,\allowbreak 3,\allowbreak 4,\allowbreak 6,\allowbreak 8,\allowbreak 12,\allowbreak 16,\allowbreak 24,\allowbreak 48\).
-\item[\textbf{2.3.}] \(1,\allowbreak 2,\allowbreak 5,\allowbreak 10\).
-\item[\textbf{2.4.}] \(21,\allowbreak 28,\allowbreak 35,\allowbreak 42,\allowbreak 49,\allowbreak 56\).
-\item[\textbf{2.5.}] \(104\).
-\item[\textbf{2.6.}] Простые: \(17,\allowbreak 31,\allowbreak 53\). Составные: \(25,\allowbreak 39,\allowbreak 49,\allowbreak 51\).
-\item[\textbf{2.7.}] \(23,\allowbreak 29,\allowbreak 31,\allowbreak 37\).
-\item[\textbf{2.8.}] Нет: такое натуральное число не меньше \(10\) и имеет делитель \(2\), отличный от \(1\) и самого числа.
-\item[\textbf{2.9.}] Нет, например \(9 = 3 \cdot  3\).
-\item[\textbf{2.10.}] На \(3\) и на \(9\) делятся \(126,\allowbreak 234,\allowbreak 405,\allowbreak 702;\allowbreak 517\) не делится ни на \(3\), ни на \(9\).
-\item[\textbf{2.11.}] \(230,\allowbreak 480\).
-\item[\textbf{2.12.}] \(2,\allowbreak 5,\allowbreak 8\).
-\item[\textbf{2.13.}] \(0\) или \(9\).
-\item[\textbf{2.14.}] \(0,\allowbreak 6\).
-\item[\textbf{2.15.}] \(2^{3} \cdot  3^{2}\).
-\item[\textbf{2.16.}] \(2 \cdot  3 \cdot  5^{2}\).
-\item[\textbf{2.17.}] \(2^{2} \cdot  3^{2} \cdot  7\).
-\item[\textbf{2.18.}] \(90 = 2 \cdot  3^{2} \cdot  5\).
-\item[\textbf{2.19.}] НОД \(= 12\); НОК \(= 72\).
-\item[\textbf{2.20.}] НОД \(= 9\); НОК \(= 90\).
-\item[\textbf{2.21.}] НОД \(= 1\); НОК \(= 120\).
-\item[\textbf{2.22.}] НОД \(= 6\); НОК \(= 180\).
-\item[\textbf{2.23.}] \(12\) наборов, в каждом \(2\) карандаша и \(3\) ручки.
-\item[\textbf{2.24.}] В 9:36.
-\item[\textbf{2.25.}] Сторона \(12\) см; \(35\) квадратов.
-\item[\textbf{2.26.}] \(1,\allowbreak 2,\allowbreak 3,\allowbreak 4,\allowbreak 6,\allowbreak 8,\allowbreak 12,\allowbreak 24\).
-\item[\textbf{2.27.}] \(6,\allowbreak 12,\allowbreak 18,\allowbreak 24,\allowbreak 30\).
-\item[\textbf{2.28.}] \(2,\allowbreak 13,\allowbreak 29\). Число \(1\) не простое и не составное.
-\item[\textbf{2.29.}] На все перечисленные.
-\item[\textbf{2.30.}] \(2^{2} \cdot  3 \cdot  7\).
-\item[\textbf{2.31.}] НОД \(= 6\); НОК \(= 36\).
-\item[\textbf{2.32.}] \(14\) подарков; по \(3\) яблока и \(4\) мандарина.
-\item[\textbf{2.33.}] Через \(24\) секунды.
-\item[\textbf{2.34.}] Нет: \(97\) — простое число.
-\item[\textbf{2.35.}\starmark] \(73\): НОК\((6,8,\allowbreak 9) = 72\), затем прибавляем \(1\).
-\item[\textbf{2.36.}\starmark] \(36\). Решение: \(\frac{6 \cdot 180}{30} = 36\).
-\item[\textbf{2.37.}\starmark] \(3150\) и \(3555\). Сумма цифр равна соответственно \(9\) и \(18\).
-\item[\textbf{2.38.}] Если \(d\mid a\) и \(d\mid b\), то \(a=du\), \(b=dv\), поэтому \(a-b=d(u-v)\) и \(d\mid(a-b)\). Обратно, если \(d\mid b\) и \(d\mid(a-b)\), то \(d\mid((a-b)+b)=a\). Множества общих делителей совпадают, значит, совпадают и их наибольшие элементы.
-\item[\textbf{2.39.}] Если \(a=1\) или \(b=1\), вывод немедленно следует из условия. Иначе разложим оба множителя на простые. Их произведение даёт разложение \(ab\). Поскольку \(p\mid ab\), число \(p\) входит в разложение произведения; по единственности разложения оно входит в разложение хотя бы одного множителя. Значит, \(p\) делит этот множитель.
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{2.1.} \(1,\allowbreak 2,\allowbreak 3,\allowbreak 4,\allowbreak 6,\allowbreak 9,\allowbreak 12,\allowbreak 18,\allowbreak 36\).\par
+\textbf{2.2.} \(1,\allowbreak 2,\allowbreak 3,\allowbreak 4,\allowbreak 6,\allowbreak 8,\allowbreak 12,\allowbreak 16,\allowbreak 24,\allowbreak 48\).\par
+\textbf{2.3.} \(1,\allowbreak 2,\allowbreak 5,\allowbreak 10\).\par
+\textbf{2.4.} \(21,\allowbreak 28,\allowbreak 35,\allowbreak 42,\allowbreak 49,\allowbreak 56\).\par
+\textbf{2.5.} \(104\).\par
+\textbf{2.6.} Простые: \(17,\allowbreak 31,\allowbreak 53\). Составные: \(25,\allowbreak 39,\allowbreak 49,\allowbreak 51\).\par
+\textbf{2.7.} \(23,\allowbreak 29,\allowbreak 31,\allowbreak 37\).\par
+\textbf{2.8.} Нет: такое натуральное число не меньше \(10\) и имеет делитель \(2\), отличный от \(1\) и самого числа.\par
+\textbf{2.9.} Нет, например \(9 = 3 \cdot  3\).\par
+\textbf{2.10.} На \(3\) и на \(9\) делятся \(126,\allowbreak 234,\allowbreak 405,\allowbreak 702;\allowbreak 517\) не делится ни на \(3\), ни на \(9\).\par
+\textbf{2.11.} \(230,\allowbreak 480\).\par
+\textbf{2.12.} \(2,\allowbreak 5,\allowbreak 8\).\par
+\textbf{2.13.} \(0\) или \(9\).\par
+\textbf{2.14.} \(0,\allowbreak 6\).\par
+\textbf{2.15.} \(2^{3} \cdot  3^{2}\).\par
+\textbf{2.16.} \(2 \cdot  3 \cdot  5^{2}\).\par
+\textbf{2.17.} \(2^{2} \cdot  3^{2} \cdot  7\).\par
+\textbf{2.18.} \(90 = 2 \cdot  3^{2} \cdot  5\).\par
+\textbf{2.19.} НОД \(= 12\); НОК \(= 72\).\par
+\textbf{2.20.} НОД \(= 9\); НОК \(= 90\).\par
+\textbf{2.21.} НОД \(= 1\); НОК \(= 120\).\par
+\textbf{2.22.} НОД \(= 6\); НОК \(= 180\).\par
+\textbf{2.23.} \(12\) наборов, в каждом \(2\) карандаша и \(3\) ручки.\par
+\textbf{2.24.} В 9:36.\par
+\textbf{2.25.} Сторона \(12\) см; \(35\) квадратов.\par
+\textbf{2.26.} \(1,\allowbreak 2,\allowbreak 3,\allowbreak 4,\allowbreak 6,\allowbreak 8,\allowbreak 12,\allowbreak 24\).\par
+\textbf{2.27.} \(6,\allowbreak 12,\allowbreak 18,\allowbreak 24,\allowbreak 30\).\par
+\textbf{2.28.} \(2,\allowbreak 13,\allowbreak 29\). Число \(1\) не простое и не составное.\par
+\textbf{2.29.} На все перечисленные.\par
+\textbf{2.30.} \(2^{2} \cdot  3 \cdot  7\).\par
+\textbf{2.31.} НОД \(= 6\); НОК \(= 36\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-37.png}
+\end{wrapfigure}
+\textbf{2.32.} \(14\) подарков; по \(3\) яблока и \(4\) мандарина.\par
+
+\textbf{2.33.} Через \(24\) секунды.\par
+
+\textbf{2.34.} Нет: \(97\) — простое число.\par
+
+\textbf{2.35.}\starmark{} \(73\): НОК\((6,8,\allowbreak 9) = 72\), затем прибавляем \(1\).\par
+
+\textbf{2.36.}\starmark{} \(36\). Решение: \(\frac{6 \cdot 180}{30} = 36\).\par
+
+\textbf{2.37.}\starmark{} \(3150\) и \(3555\). Сумма цифр равна соответственно \(9\) и \(18\).\par
+
+\textbf{2.38.} Если \(d\mid a\) и \(d\mid b\), то \(a=du\), \(b=dv\), поэтому \(a-b=d(u-v)\) и \(d\mid(a-b)\). Обратно, если \(d\mid b\) и \(d\mid(a-b)\), то \(d\mid((a-b)+b)=a\). Множества общих делителей совпадают, значит, совпадают и их наибольшие элементы.\par
+
+\textbf{2.39.} Если \(a=1\) или \(b=1\), вывод немедленно следует из условия. Иначе разложим оба множителя на простые. Их произведение даёт разложение \(ab\). Поскольку \(p\mid ab\), число \(p\) входит в разложение произведения; по единственности разложения оно входит в разложение хотя бы одного множителя. Значит, \(p\) делит этот множитель.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\endgroup
 \section*{Глава 3. Обыкновенные дроби}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{3.1.}] \(\frac{3}{4}\).
-\item[\textbf{3.2.}] \(3 \frac{2}{5}\).
-\item[\textbf{3.3.}] \(\frac{17}{7}\).
-\item[\textbf{3.4.}] \(\frac{5}{8} > \frac{7}{12}\).
-\item[\textbf{3.5.}] \(- \frac{1}{12}\).
-\item[\textbf{3.6.}] \(\frac{31}{45}\).
-\item[\textbf{3.7.}] \(- \frac{2}{3}\).
-\item[\textbf{3.8.}] \(\frac{3}{2}\).
-\item[\textbf{3.9.}] \(\frac{1}{2}\).
-\item[\textbf{3.10.}] \(1\).
-\item[\textbf{3.11.}] \(\frac{2}{3}\).
-\item[\textbf{3.12.}] \(32\) страницы.
-\item[\textbf{3.13.}] \(\frac{17}{12}\) кг, или \(1 \frac{5}{12}\) кг.
-\item[\textbf{3.14.}] \(6\) стаканов.
-\item[\textbf{3.15.}] \(9\) км.
-\item[\textbf{3.16.}\starmark] \(-\frac{1}{4}\). Решение: \((-\frac{1}{12}) : (\frac{1}{9}) + \frac{1}{2} = -\frac{3}{4} + \frac{1}{2} = -\frac{1}{4}\).
-\item[\textbf{3.17.}\starmark] \(180\) страниц: осталось \((\frac{2}{3}) \cdot  (\frac{3}{5}) = \frac{2}{5}\) книги.
-\item[\textbf{3.18.}\starmark] \(30\) л: осталось \((\frac{3}{4}) \cdot  (\frac{2}{3}) = \frac{1}{2}\) бака.
-\item[\textbf{3.19.}] Умножение равенства дробей на ненулевое число \(bd\) даёт \(ad=bc\). Обратно, деление \(ad=bc\) на \(bd\ne0\) даёт равенство дробей.
-\item[\textbf{3.20.}] Для каждого \(k\ge1\) имеем \(\frac1{k(k+1)}=\frac1k-\frac1{k+1}\). При сложении соседние дроби взаимно уничтожаются: \(\left(1-\frac12\right)+\left(\frac12-\frac13\right)+\cdots+\left(\frac1n-\frac1{n+1}\right)=1-\frac1{n+1}=\frac n{n+1}\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{3.1.} \(\frac{3}{4}\).\par
+\textbf{3.2.} \(3 \frac{2}{5}\).\par
+\textbf{3.3.} \(\frac{17}{7}\).\par
+\textbf{3.4.} \(\frac{5}{8} > \frac{7}{12}\).\par
+\textbf{3.5.} \(- \frac{1}{12}\).\par
+\textbf{3.6.} \(\frac{31}{45}\).\par
+\textbf{3.7.} \(- \frac{2}{3}\).\par
+\textbf{3.8.} \(\frac{3}{2}\).\par
+\textbf{3.9.} \(\frac{1}{2}\).\par
+\textbf{3.10.} \(1\).\par
+\textbf{3.11.} \(\frac{2}{3}\).\par
+\textbf{3.12.} \(32\) страницы.\par
+\textbf{3.13.} \(\frac{17}{12}\) кг, или \(1 \frac{5}{12}\) кг.\par
+\textbf{3.14.} \(6\) стаканов.\par
+\textbf{3.15.} \(9\) км.\par
+\textbf{3.16.}\starmark{} \(-\frac{1}{4}\). Решение: \((-\frac{1}{12}) : (\frac{1}{9}) + \frac{1}{2} = -\frac{3}{4} + \frac{1}{2} = -\frac{1}{4}\).\par
+\textbf{3.17.}\starmark{} \(180\) страниц: осталось \((\frac{2}{3}) \cdot  (\frac{3}{5}) = \frac{2}{5}\) книги.\par
+\textbf{3.18.}\starmark{} \(30\) л: осталось \((\frac{3}{4}) \cdot  (\frac{2}{3}) = \frac{1}{2}\) бака.\par
+\textbf{3.19.} Умножение равенства дробей на ненулевое число \(bd\) даёт \(ad=bc\). Обратно, деление \(ad=bc\) на \(bd\ne0\) даёт равенство дробей.\par
+\textbf{3.20.} Для каждого \(k\ge1\) имеем \(\frac1{k(k+1)}=\frac1k-\frac1{k+1}\). При сложении соседние дроби взаимно уничтожаются: \(\left(1-\frac12\right)+\left(\frac12-\frac13\right)+\cdots+\left(\frac1n-\frac1{n+1}\right)=1-\frac1{n+1}=\frac n{n+1}\).\par
+\endgroup
 \section*{Глава 4. Десятичные дроби и проценты}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{4.1.}] \(3,836\).
-\item[\textbf{4.2.}] \(5,53\).
-\item[\textbf{4.3.}] \(0,12\).
-\item[\textbf{4.4.}] \(60\).
-\item[\textbf{4.5.}] \(0,875\).
-\item[\textbf{4.6.}] \(\frac{1}{8}\).
-\item[\textbf{4.7.}] \(0{,}(6)\).
-\item[\textbf{4.8.}] \(3,14;\allowbreak 3,142\).
-\item[\textbf{4.9.}] \(36\).
-\item[\textbf{4.10.}] \(180\).
-\item[\textbf{4.11.}] На \(15 \%\).
-\item[\textbf{4.12.}] \(960\) рублей; снижение на \(4 \%\).
-\item[\textbf{4.13.}] \(225\) рублей.
-\item[\textbf{4.14.}] \(4080\) рублей.
-\item[\textbf{4.15.}] \(13,33\) км; после округления \(13,3\) км.
-\item[\textbf{4.16.}\starmark] \(3000\) рублей: \(\frac{2160}{0,8 \cdot  0,9}\).
-\item[\textbf{4.17.}\starmark] На \(20 \%\). Решение: \(\frac{25}{125} = 0{,}2 = 20 \%\).
-\item[\textbf{4.18.}\starmark] \(16 \%\). Решение: \(\frac{20 + 60}{500} \cdot 100 \% = 16 \%\).
-\item[\textbf{4.19.}] Если исходная цена \(S>0\), конечная цена равна \(S\left(1+\frac p{100}\right)\left(1+\frac q{100}\right)=S\left(1+\frac{p+q}{100}+\frac{pq}{10000}\right)\). Прибавка, делённая на \(S\) и умноженная на \(100\), равна \(p+q+\frac{pq}{100}\).
-\item[\textbf{4.20.}\starmark] Если \(\frac pq=\frac m{10^k}\), то \(p10^k=mq\). Поскольку \(p\) и \(q\) взаимно просты, все простые множители \(q\), с их кратностями, должны входить в \(10^k=2^k5^k\). Поэтому \(q=2^{\alpha}5^{\beta}\). Обратно, при таком знаменателе возьмём \(k=\max(\alpha,\beta)\) и домножим числитель и знаменатель на \(2^{k-\alpha}5^{k-\beta}\). Знаменатель станет \(10^k\), а значит, дробь имеет конечную десятичную запись.
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{4.1.} \(3{,}836\).\par
+\textbf{4.2.} \(5{,}53\).\par
+\textbf{4.3.} \(0{,}12\).\par
+\textbf{4.4.} \(60\).\par
+\textbf{4.5.} \(0{,}875\).\par
+\textbf{4.6.} \(\frac{1}{8}\).\par
+\textbf{4.7.} \(0{,}(6)\).\par
+\textbf{4.8.} \(3{,}14;\allowbreak 3{,}142\).\par
+\textbf{4.9.} \(36\).\par
+\textbf{4.10.} \(180\).\par
+\textbf{4.11.} На \(15 \%\).\par
+\textbf{4.12.} \(960\) рублей; снижение на \(4 \%\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-41.png}
+\end{wrapfigure}
+\textbf{4.13.} \(225\) рублей.\par
+
+\textbf{4.14.} \(4080\) рублей.\par
+
+\textbf{4.15.} \(13{,}33\) км; после округления \(13{,}3\) км.\par
+
+\textbf{4.16.}\starmark{} \(3000\) рублей: \(\frac{2160}{0{,}8 \cdot  0{,}9}\).\par
+
+\textbf{4.17.}\starmark{} На \(20 \%\). Решение: \(\frac{25}{125} = 0{,}2 = 20 \%\).\par
+
+\textbf{4.18.}\starmark{} \(16 \%\). Решение: \(\frac{20 + 60}{500} \cdot 100 \% = 16 \%\).\par
+
+\textbf{4.19.} Если исходная цена \(S>0\), конечная цена равна \(S\left(1+\frac p{100}\right)\left(1+\frac q{100}\right)=S\left(1+\frac{p+q}{100}+\frac{pq}{10000}\right)\). Прибавка, делённая на \(S\) и умноженная на \(100\), равна \(p+q+\frac{pq}{100}\).\par
+
+\textbf{4.20.}\starmark{} Если \(\frac pq=\frac m{10^k}\), то \(p10^k=mq\). Поскольку \(p\) и \(q\) взаимно просты, все простые множители \(q\), с их кратностями, должны входить в \(10^k=2^k5^k\). Поэтому \(q=2^{\alpha}5^{\beta}\). Обратно, при таком знаменателе возьмём \(k=\max(\alpha,\beta)\) и домножим числитель и знаменатель на \(2^{k-\alpha}5^{k-\beta}\). Знаменатель станет \(10^k\), а значит, дробь имеет конечную десятичную запись.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\endgroup
 \section*{Глава 5. Отношения и пропорции}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{5.1.}] \(3 : 4\).
-\item[\textbf{5.2.}] \(x = 12\).
-\item[\textbf{5.3.}] \(x = 6\).
-\item[\textbf{5.4.}] \(24\) и \(40\).
-\item[\textbf{5.5.}] \(750\) г.
-\item[\textbf{5.6.}] \(288\) рублей.
-\item[\textbf{5.7.}] \(3,5\) км.
-\item[\textbf{5.8.}] За \(4\) дня.
-\item[\textbf{5.9.}] \(2\) часа.
-\item[\textbf{5.10.}] \(0,6\) л сока; \(0,9\) л воды.
-\item[\textbf{5.11.}] \(y = 12\); удвоится.
-\item[\textbf{5.12.}] \(y = 4\); уменьшится вдвое.
-\item[\textbf{5.13.}] \(750\) г.
-\item[\textbf{5.14.}] За \(6\) часов.
-\item[\textbf{5.15.}] \(0,25\) л сиропа и \(1,75\) л воды.
-\item[\textbf{5.16.}\starmark] \(10\) дней: \(6 \cdot  8 \cdot  \frac{5}{4 \cdot  6}\).
-\item[\textbf{5.17.}\starmark] \(7\) л: \(\frac{2 k}{5 k + 3} = \frac{1}{4}\) даёт \(k = 1\).
-\item[\textbf{5.18.}\starmark] При равных временах \(75\) км/ч. При равных расстояниях \(72\) км/ч: \(\frac{2}{\frac{1}{60} + \frac{1}{90}}\).
-\item[\textbf{5.19.}] Из условия \(a=kb\), \(c=kd\). Тогда \(\frac{a+c}{b+d}=\frac{k(b+d)}{b+d}=k\); деление допустимо, поскольку \(b+d>0\).
-\item[\textbf{5.20.}\starmark] Из исходного неравенства следует \(bc-ad>0\). Разности равны \(\frac{a+c}{b+d}-\frac ab=\frac{bc-ad}{b(b+d)}>0\) и \(\frac cd-\frac{a+c}{b+d}=\frac{bc-ad}{d(b+d)}>0\). Обе границы доказаны.
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{5.1.} \(3 : 4\).\par
+\textbf{5.2.} \(x = 12\).\par
+\textbf{5.3.} \(x = 6\).\par
+\textbf{5.4.} \(24\) и \(40\).\par
+\textbf{5.5.} \(750\) г.\par
+\textbf{5.6.} \(288\) рублей.\par
+\textbf{5.7.} \(3,5\) км.\par
+\textbf{5.8.} За \(4\) дня.\par
+\textbf{5.9.} \(2\) часа.\par
+\textbf{5.10.} \(0{,}6\) л сока; \(0{,}9\) л воды.\par
+\textbf{5.11.} \(y = 12\); удвоится.\par
+\textbf{5.12.} \(y = 4\); уменьшится вдвое.\par
+\textbf{5.13.} \(750\) г.\par
+\textbf{5.14.} За \(6\) часов.\par
+\textbf{5.15.} \(0{,}25\) л сиропа и \(1{,}75\) л воды.\par
+\textbf{5.16.}\starmark{} \(10\) дней: \(6 \cdot  8 \cdot  \frac{5}{4 \cdot  6}\).\par
+\textbf{5.17.}\starmark{} \(7\) л: \(\frac{2 k}{5 k + 3} = \frac{1}{4}\) даёт \(k = 1\).\par
+\textbf{5.18.}\starmark{} При равных временах \(75\) км/ч. При равных расстояниях \(72\) км/ч: \(\frac{2}{\frac{1}{60} + \frac{1}{90}}\).\par
+\textbf{5.19.} Из условия \(a=kb\), \(c=kd\). Тогда \(\frac{a+c}{b+d}=\frac{k(b+d)}{b+d}=k\); деление допустимо, поскольку \(b+d>0\).\par
+\textbf{5.20.}\starmark{} Из исходного неравенства следует \(bc-ad>0\). Разности равны \(\frac{a+c}{b+d}-\frac ab=\frac{bc-ad}{b(b+d)}>0\) и \(\frac cd-\frac{a+c}{b+d}=\frac{bc-ad}{d(b+d)}>0\). Обе границы доказаны.\par
+\endgroup
 \section*{Глава 6. Степени с целым показателем}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{6.1.}] \(32\).
-\item[\textbf{6.2.}] \(81\) и \(- 81\).
-\item[\textbf{6.3.}] \(\frac{9}{8}\).
-\item[\textbf{6.4.}] \(5^{7}\).
-\item[\textbf{6.5.}] \(2^{5}\).
-\item[\textbf{6.6.}] \(3^{8}\).
-\item[\textbf{6.7.}] \(\frac{9}{4}\).
-\item[\textbf{6.8.}] \(100\).
-\item[\textbf{6.9.}] \(5,6 \cdot  10^{- 4}\).
-\item[\textbf{6.10.}] \(720000\).
-\item[\textbf{6.11.}] \(a^{3}\).
-\item[\textbf{6.12.}] \(- 1\).
-\item[\textbf{6.13.}] \(2^{8} = 256\) бактерий.
-\item[\textbf{6.14.}] \(10^{6}\) м\(^{2}\) \(= 1000000\) м\(^{2}\).
-\item[\textbf{6.15.}] \(1,2 \cdot  10^{9}\) байт.
-\item[\textbf{6.16.}\starmark] \(16 = 2^{4}\).
-\item[\textbf{6.17.}\starmark] \(\frac{9}{2}\). Решение: \(\frac{3^{4} \cdot 2}{3^{2} \cdot 4} = \frac{9}{2}\).
-\item[\textbf{6.18.}\starmark] Сначала \(2\) МБ; через \(6\) дней \(1458\) МБ.
-\item[\textbf{6.19.}] \(a^m\) содержит \(m\) множителей \(a\), а \(a^n\) — ещё \(n\). По сочетательному свойству их произведение состоит из \(m+n\) таких множителей, то есть равно \(a^{m+n}\).
-\item[\textbf{6.20.}] \(a^{-m}a^{-n}=\frac1{a^m}\frac1{a^n}=\frac1{a^{m+n}}=a^{-(m+n)}\). Все знаменатели ненулевые, поскольку \(a\neq0\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{6.1.} \(32\).\par
+\textbf{6.2.} \(81\) и \(- 81\).\par
+\textbf{6.3.} \(\frac{9}{8}\).\par
+\textbf{6.4.} \(5^{7}\).\par
+\textbf{6.5.} \(2^{5}\).\par
+\textbf{6.6.} \(3^{8}\).\par
+\textbf{6.7.} \(\frac{9}{4}\).\par
+\textbf{6.8.} \(100\).\par
+\textbf{6.9.} \(5{,}6 \cdot  10^{- 4}\).\par
+\textbf{6.10.} \(720000\).\par
+\textbf{6.11.} \(a^{3}\).\par
+\textbf{6.12.} \(- 1\).\par
+\textbf{6.13.} \(2^{8} = 256\) бактерий.\par
+\textbf{6.14.} \(10^{6}\) м\(^{2}\) \(= 1000000\) м\(^{2}\).\par
+\textbf{6.15.} \(1{,}2 \cdot  10^{9}\) байт.\par
+\textbf{6.16.}\starmark{} \(16 = 2^{4}\).\par
+\textbf{6.17.}\starmark{} \(\frac{9}{2}\). Решение: \(\frac{3^{4} \cdot 2}{3^{2} \cdot 4} = \frac{9}{2}\).\par
+\textbf{6.18.}\starmark{} Сначала \(2\) МБ; через \(6\) дней \(1458\) МБ.\par
+\textbf{6.19.} \(a^m\) содержит \(m\) множителей \(a\), а \(a^n\) — ещё \(n\). По сочетательному свойству их произведение состоит из \(m+n\) таких множителей, то есть равно \(a^{m+n}\).\par
+\textbf{6.20.} \(a^{-m}a^{-n}=\frac1{a^m}\frac1{a^n}=\frac1{a^{m+n}}=a^{-(m+n)}\). Все знаменатели ненулевые, поскольку \(a\neq0\).\par
+\endgroup
 \section*{Глава 7. Корни и действительные числа}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{7.1.}] \(9;\allowbreak - 3\).
-\item[\textbf{7.2.}] \(\frac{7}{10}\).
-\item[\textbf{7.3.}] \(6 \sqrt{2}\).
-\item[\textbf{7.4.}] \(5 \sqrt{2}\).
-\item[\textbf{7.5.}] \(\sqrt{45}\).
-\item[\textbf{7.6.}] \(6\).
-\item[\textbf{7.7.}] \(5\).
-\item[\textbf{7.8.}] \(7\).
-\item[\textbf{7.9.}] Между \(5\) и \(6\).
-\item[\textbf{7.10.}] \(\sqrt{7} < 2,7\), так как \(7 < 2,7^{2} = 7,29\).
-\item[\textbf{7.11.}] \(\sqrt{16},\allowbreak - \frac{3}{7},\allowbreak 0{,}(3)\).
-\item[\textbf{7.12.}] \(\sqrt{- 9}\) не существует; \(\sqrt[3]{- 8} = - 2\).
-\item[\textbf{7.13.}] \(7\) м.
-\item[\textbf{7.14.}] \(5\) м.
-\item[\textbf{7.15.}] \(0,5\) м, или \(50\) см.
-\item[\textbf{7.16.}\starmark] \(2\sqrt{3}\). Решение: \(4\sqrt{3} + 5\sqrt{3} - 7\sqrt{3} = 2\sqrt{3}\).
-\item[\textbf{7.17.}\starmark] Квадрат левой части \(5 + 2 \sqrt{6} < 10\), поскольку \(\sqrt{6} < \frac{5}{2}\). Поэтому исходное утверждение неверно: \(\sqrt{2} + \sqrt{3} < \sqrt{10}\).
-\item[\textbf{7.18.}\starmark] \(4\) м и \(12\) м; диагональ \(4 \sqrt{10}\) м.
-\item[\textbf{7.19.}] \(|x|\geq0\) и \(|x|^n=x^n\). По определению арифметического корня единственное неотрицательное число с такой \(n\)-й степенью равно \(|x|\).
-\item[\textbf{7.20.}] Если \(u=\sqrt[n]a\), то \((-u)^n=-u^n=-a\), так как \(n\) нечётно. По единственности нечётного корня \(\sqrt[n]{-a}=-u\).
-\item[\textbf{7.21.}] \(3\), \(-2\), \(2\) соответственно.
-\item[\textbf{7.22.}] \(\sqrt[4]{-16}\) не определено в \(\mathbb R\); \(\sqrt[3]{-64}=-4\); \(\sqrt[6]0=0\).
-\item[\textbf{7.23.}] \(\sqrt[6]{x^6}=|x|\), \(\sqrt[5]{x^5}=x\).
-\item[\textbf{7.24.}] \(\sqrt[4]{48}=2\sqrt[4]3\); \(\frac{\sqrt[3]{54}}{\sqrt[3]2}=\sqrt[3]{27}=3\).
-\item[\textbf{7.25.}] \(4\), \(-\frac12\), \(\frac18\) соответственно. В первых двух выражениях знаменатели несократимых показателей нечётны.
-\item[\textbf{7.26.}] Первое уравнение: \(x+7=16\), поэтому \(x=9\). Второе: \(2x-1=-27\), поэтому \(x=-13\). Подстановка подтверждает оба ответа.
-\item[\textbf{7.27.}\starmark] Для четвёртого корня требуется \(x-2\geq0\), а знаменатель исключает \(x=2\). Кубический корень ограничений не добавляет. Область определения: \((2;+\infty)\).
-\item[\textbf{7.28.}\starmark] Получаем \(|x-1|=2-x\), поэтому \(x\leq2\). При \(x<1\) равенство \(1-x=2-x\) невозможно; при \(1\leq x\leq2\) получаем \(x-1=2-x\), откуда \(x=\frac32\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{7.1.} \(9;\allowbreak - 3\).\par
+\textbf{7.2.} \(\frac{7}{10}\).\par
+\textbf{7.3.} \(6 \sqrt{2}\).\par
+\textbf{7.4.} \(5 \sqrt{2}\).\par
+\textbf{7.5.} \(\sqrt{45}\).\par
+\textbf{7.6.} \(6\).\par
+\textbf{7.7.} \(5\).\par
+\textbf{7.8.} \(7\).\par
+\textbf{7.9.} Между \(5\) и \(6\).\par
+\textbf{7.10.} \(\sqrt{7} < 2{,}7\), так как \(7 < 2{,}7^{2} = 7{,}29\).\par
+\textbf{7.11.} \(\sqrt{16},\allowbreak - \frac{3}{7},\allowbreak 0{,}(3)\).\par
+\textbf{7.12.} \(\sqrt{- 9}\) не существует; \(\sqrt[3]{- 8} = - 2\).\par
+\textbf{7.13.} \(7\) м.\par
+\textbf{7.14.} \(5\) м.\par
+\textbf{7.15.} \(0{,}5\) м, или \(50\) см.\par
+\textbf{7.16.}\starmark{} \(2\sqrt{3}\). Решение: \(4\sqrt{3} + 5\sqrt{3} - 7\sqrt{3} = 2\sqrt{3}\).\par
+\textbf{7.17.}\starmark{} Квадрат левой части \(5 + 2 \sqrt{6} < 10\), поскольку \(\sqrt{6} < \frac{5}{2}\). Поэтому исходное утверждение неверно: \(\sqrt{2} + \sqrt{3} < \sqrt{10}\).\par
+\textbf{7.18.}\starmark{} \(4\) м и \(12\) м; диагональ \(4 \sqrt{10}\) м.\par
+\textbf{7.19.} \(|x|\geq0\) и \(|x|^n=x^n\). По определению арифметического корня единственное неотрицательное число с такой \(n\)-й степенью равно \(|x|\).\par
+\textbf{7.20.} Если \(u=\sqrt[n]a\), то \((-u)^n=-u^n=-a\), так как \(n\) нечётно. По единственности нечётного корня \(\sqrt[n]{-a}=-u\).\par
+\textbf{7.21.} \(3\), \(-2\), \(2\) соответственно.\par
+\textbf{7.22.} \(\sqrt[4]{-16}\) не определено в \(\mathbb R\); \(\sqrt[3]{-64}=-4\); \(\sqrt[6]0=0\).\par
+\textbf{7.23.} \(\sqrt[6]{x^6}=|x|\), \(\sqrt[5]{x^5}=x\).\par
+\textbf{7.24.} \(\sqrt[4]{48}=2\sqrt[4]3\); \(\frac{\sqrt[3]{54}}{\sqrt[3]2}=\sqrt[3]{27}=3\).\par
+\textbf{7.25.} \(4\), \(-\frac12\), \(\frac18\) соответственно. В первых двух выражениях знаменатели несократимых показателей нечётны.\par
+\textbf{7.26.} Первое уравнение: \(x+7=16\), поэтому \(x=9\). Второе: \(2x-1=-27\), поэтому \(x=-13\). Подстановка подтверждает оба ответа.\par
+\textbf{7.27.}\starmark{} Для четвёртого корня требуется \(x-2\geq0\), а знаменатель исключает \(x=2\). Кубический корень ограничений не добавляет. Область определения: \((2;+\infty)\).\par
+\textbf{7.28.}\starmark{} Получаем \(|x-1|=2-x\), поэтому \(x\leq2\). При \(x<1\) равенство \(1-x=2-x\) невозможно; при \(1\leq x\leq2\) получаем \(x-1=2-x\), откуда \(x=\frac32\).\par
+\endgroup
 \section*{Глава 8. Модуль и числовые промежутки}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{8.1.}] \(11\).
-\item[\textbf{8.2.}] \(3\).
-\item[\textbf{8.3.}] \(11\).
-\item[\textbf{8.4.}] \(| - 6 | > | 5 |\).
-\item[\textbf{8.5.}] \((- 2;\allowbreak 3]\).
-\item[\textbf{8.6.}] \(- 4 \le  x < 1\).
-\item[\textbf{8.7.}] \(- 2,\allowbreak - 1,\allowbreak 0,\allowbreak 1,\allowbreak 2\).
-\item[\textbf{8.8.}] \((1;\allowbreak 4]\).
-\item[\textbf{8.9.}] \((- \infty ;\allowbreak 5)\).
-\item[\textbf{8.10.}] \(x = - 5\) или \(x = 5\).
-\item[\textbf{8.11.}] \(- 1 < x < 5\).
-\item[\textbf{8.12.}] \(| x |;\allowbreak 4\).
-\item[\textbf{8.13.}] На \(40 {}^{\circ} C\).
-\item[\textbf{8.14.}] \(| x - 50 | \le  0,2;\allowbreak [49,8;\allowbreak 50,2]\) мм.
-\item[\textbf{8.15.}] \(120 \le  h < 190;\allowbreak [120;\allowbreak 190)\); при \(190\) см нельзя.
-\item[\textbf{8.16.}\starmark] \(x = - 2\) или \(x = 4\). Между \(- 1\) и \(3\) сумма равна \(4\).
-\item[\textbf{8.17.}\starmark] \(- 2,\allowbreak - 1,\allowbreak 2,\allowbreak 3\): допустимый отрезок \([- 2;\allowbreak 3]\), исключаются \(0\) и \(1\).
-\item[\textbf{8.18.}\starmark] \((20;\allowbreak 23]\): пересечение \([17;\allowbreak 23]\) и \((20;\allowbreak 28)\).
-\item[\textbf{8.19.}] Из \(|a|=|(a-b)+b|\leq|a-b|+|b|\) следует \(|a|-|b|\leq|a-b|\). После перестановки \(a,b\) получаем \(|b|-|a|\leq|a-b|\). Вместе эти два неравенства дают требуемое.
-\item[\textbf{8.20.}] Для любого \(u\) и \(r\geq0\) условие \(|u|\leq r\) равносильно \(-r\leq u\leq r\), что проверяется по случаям \(u\geq0\) и \(u<0\). Подставляем \(u=x-a\) и прибавляем \(a\) к обеим границам.
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{8.1.} \(11\).\par
+\textbf{8.2.} \(3\).\par
+\textbf{8.3.} \(11\).\par
+\textbf{8.4.} \(| - 6 | > | 5 |\).\par
+\textbf{8.5.} \((- 2;\allowbreak 3]\).\par
+\textbf{8.6.} \(- 4 \le  x < 1\).\par
+\textbf{8.7.} \(- 2,\allowbreak - 1,\allowbreak 0,\allowbreak 1,\allowbreak 2\).\par
+\textbf{8.8.} \((1;\allowbreak 4]\).\par
+\textbf{8.9.} \((- \infty ;\allowbreak 5)\).\par
+\textbf{8.10.} \(x = - 5\) или \(x = 5\).\par
+\textbf{8.11.} \(- 1 < x < 5\).\par
+\textbf{8.12.} \(| x |;\allowbreak 4\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-31.png}
+\end{wrapfigure}
+\textbf{8.13.} На \(40 {}^{\circ} C\).\par
+
+\textbf{8.14.} \(| x - 50 | \le  0{,}2;\allowbreak [49{,}8;\allowbreak 50{,}2]\) мм.\par
+
+\textbf{8.15.} \(120 \le  h < 190;\allowbreak [120;\allowbreak 190)\); при \(190\) см нельзя.\par
+
+\textbf{8.16.}\starmark{} \(x = - 2\) или \(x = 4\). Между \(- 1\) и \(3\) сумма равна \(4\).\par
+
+\textbf{8.17.}\starmark{} \(- 2,\allowbreak - 1,\allowbreak 2,\allowbreak 3\): допустимый отрезок \([- 2;\allowbreak 3]\), исключаются \(0\) и \(1\).\par
+
+\textbf{8.18.}\starmark{} \((20;\allowbreak 23]\): пересечение \([17;\allowbreak 23]\) и \((20;\allowbreak 28)\).\par
+
+\textbf{8.19.} Из \(|a|=|(a-b)+b|\leq|a-b|+|b|\) следует \(|a|-|b|\leq|a-b|\). После перестановки \(a,b\) получаем \(|b|-|a|\leq|a-b|\). Вместе эти два неравенства дают требуемое.\par
+
+\textbf{8.20.} Для любого \(u\) и \(r\geq0\) условие \(|u|\leq r\) равносильно \(-r\leq u\leq r\), что проверяется по случаям \(u\geq0\) и \(u<0\). Подставляем \(u=x-a\) и прибавляем \(a\) к обеим границам.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\endgroup
 \section*{Глава 9. Преобразование алгебраических выражений}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{9.1.}] \(4 x - 17\).
-\item[\textbf{9.2.}] \(6 a + 2 b\).
-\item[\textbf{9.3.}] \(x^{2} + 6 x + 9\).
-\item[\textbf{9.4.}] \(4 x^{2} - 1\).
-\item[\textbf{9.5.}] \(3 x (2 x - 3)\).
-\item[\textbf{9.6.}] \((x - 4) (x + 4)\).
-\item[\textbf{9.7.}] \((x + 2) (x + 3)\).
-\item[\textbf{9.8.}] \(x + 1\) при \(x \ne  1\).
-\item[\textbf{9.9.}] \(\frac{7}{2 x},\allowbreak x \ne  0\).
-\item[\textbf{9.10.}] \(\frac{a}{b},\allowbreak a \ne  0\) и \(b \ne  0\).
-\item[\textbf{9.11.}] \(\frac{x - 2}{x + 2},\allowbreak x \ne  - 2\).
-\item[\textbf{9.12.}] \(\sqrt{5} + 2\).
-\item[\textbf{9.13.}] \(3 x + 2 (x - 100) = 5 x - 200\) рублей.
-\item[\textbf{9.14.}] \(x^{2} + 7 x + 10\) м\(^{2}\).
-\item[\textbf{9.15.}] \((x + 3)^{2} - x^{2} = 6 x + 9\) м\(^{2}\).
-\item[\textbf{9.16.}\starmark] \(\frac{x + 3}{x + 2},\allowbreak x \ne  3\) и \(x \ne  - 2\).
-\item[\textbf{9.17.}\starmark] \(1\) при \(x \ne  - 1\) и \(x \ne  1\).
-\item[\textbf{9.18.}\starmark] Разность равна \(4 ab\); при данных значениях \(39964\).
-\item[\textbf{9.19.}] После раскрытия квадратов левая часть равна \(a^2+2ab+b^2+a^2-2ab+b^2=2a^2+2b^2\).
-\item[\textbf{9.20.}] Общий знаменатель равен \((x-1)(x+1)=x^2-1\), а числитель разности — \((x+1)-(x-1)=2\). При \(x=1\) или \(x=-1\) один из исходных знаменателей нулевой, поэтому эти значения исключаются.
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{9.1.} \(4 x - 17\).\par
+\textbf{9.2.} \(6 a + 2 b\).\par
+\textbf{9.3.} \(x^{2} + 6 x + 9\).\par
+\textbf{9.4.} \(4 x^{2} - 1\).\par
+\textbf{9.5.} \(3 x (2 x - 3)\).\par
+\textbf{9.6.} \((x - 4) (x + 4)\).\par
+\textbf{9.7.} \((x + 2) (x + 3)\).\par
+\textbf{9.8.} \(x + 1\) при \(x \ne  1\).\par
+\textbf{9.9.} \(\frac{7}{2 x},\allowbreak x \ne  0\).\par
+\textbf{9.10.} \(\frac{a}{b},\allowbreak a \ne  0\) и \(b \ne  0\).\par
+\textbf{9.11.} \(\frac{x - 2}{x + 2},\allowbreak x \ne  - 2\).\par
+\textbf{9.12.} \(\sqrt{5} + 2\).\par
+\textbf{9.13.} \(3 x + 2 (x - 100) = 5 x - 200\) рублей.\par
+\textbf{9.14.} \(x^{2} + 7 x + 10\) м\(^{2}\).\par
+\textbf{9.15.} \((x + 3)^{2} - x^{2} = 6 x + 9\) м\(^{2}\).\par
+\textbf{9.16.}\starmark{} \(\frac{x + 3}{x + 2},\allowbreak x \ne  3\) и \(x \ne  - 2\).\par
+\textbf{9.17.}\starmark{} \(1\) при \(x \ne  - 1\) и \(x \ne  1\).\par
+\textbf{9.18.}\starmark{} Разность равна \(4 ab\); при данных значениях \(39964\).\par
+\textbf{9.19.} После раскрытия квадратов левая часть равна \(a^2+2ab+b^2+a^2-2ab+b^2=2a^2+2b^2\).\par
+\textbf{9.20.} Общий знаменатель равен \((x-1)(x+1)=x^2-1\), а числитель разности — \((x+1)-(x-1)=2\). При \(x=1\) или \(x=-1\) один из исходных знаменателей нулевой, поэтому эти значения исключаются.\par
+\endgroup
 \section*{Глава 10. Комбинаторика и бином Ньютона}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{10.1.}] \(5+3=8\) способов: группы книг не пересекаются, поэтому применяется правило суммы.
-\item[\textbf{10.2.}] \(4\cdot3\cdot2=24\) комплекта по правилу произведения.
-\item[\textbf{10.3.}] а) Порядок важен, повторений нет: размещение без повторений. б) Порядок не важен, повторений нет: сочетание без повторений. в) Порядок важен, повторения разрешены: размещение с повторениями. г) Порядок не важен, повторения разрешены: сочетание с повторениями.
-\item[\textbf{10.4.}] \(120\), \(1\), \(42\); в последнем выражении сокращаются множители от \(1\) до \(5\), остаётся \(7\cdot6\).
-\item[\textbf{10.5.}] \(6!=720\) способов.
-\item[\textbf{10.6.}] \(\frac{5!}{2!2!}=30\): буквы Т и О встречаются по два раза.
-\item[\textbf{10.7.}] \(A_8^3=8\cdot7\cdot6=336\) вариантов.
-\item[\textbf{10.8.}] \(\binom83=\frac{8!}{3!5!}=56\) выборов.
-\item[\textbf{10.9.}] \(10^4=10000\) кодов: для каждой позиции независимо есть \(10\) вариантов.
-\item[\textbf{10.10.}] \(9\cdot9\cdot8\cdot7=4536\). Для первой цифры есть \(9\) ненулевых вариантов; для второй снова \(9\) вариантов, включая ноль и исключая уже выбранную цифру.
-\item[\textbf{10.11.}] \(\overline C_4^3=\binom{4+3-1}{3}=\binom63=20\) выборов.
-\item[\textbf{10.12.}] Нужно посчитать тройки \((x_1,x_2,x_3)\) неотрицательных целых чисел с суммой \(7\). По методу звёздочек и перегородок ответ \(\binom{7+3-1}{3-1}=\binom92=36\).
-\item[\textbf{10.13.}] \(\binom n2=\frac{n(n-1)}2=45\), значит, \(n(n-1)=90\). Подходит \(n=10\). Другого решения при \(n\ge2\) нет: произведение \(n(n-1)\) строго возрастает с ростом \(n\).
-\item[\textbf{10.14.}] \(\binom83=\binom72+\binom73=21+35=56\).
-\item[\textbf{10.15.}] \(x^4+8x^3+24x^2+32x+16\).
-\item[\textbf{10.16.}] \(\binom73\,2^4=35\cdot16=560\).
-\item[\textbf{10.17.}] При \(n=0\) обе части равны \(1\). При \(n\ge1\) подставим \(a=b=1\) в бином Ньютона: получим сумму всех коэффициентов и \(2^n\). Есть и подсчёт двумя способами: каждое из \(n\) различных элементов можно включить или не включить в подмножество, всего \(2^n\) вариантов; группировка по числу выбранных элементов даёт левую часть.
-\item[\textbf{10.18.}\starmark] В группе может быть \(2\), \(3\) или \(4\) девушки. Эти случаи не пересекаются. Ответ: \(\binom42\binom63+\binom43\binom62+\binom44\binom61=120+60+6=186\).
-\item[\textbf{10.19.}\starmark] Из \(10^5\) кодов вычтем \(9^5\) кодов без нуля и \(9^5\) кодов без единицы. Коды, в которых нет ни нуля, ни единицы, были вычтены дважды; их \(8^5\), поэтому их нужно прибавить один раз. Ответ: \(10^5-2\cdot9^5+8^5=14670\).
-\item[\textbf{10.20.}\starmark] Разделим \(m+n\) различных элементов на две непересекающиеся группы размеров \(m\) и \(n\). Всего выбрать \(r\) элементов можно \(\binom{m+n}{r}\) способами. Если из первой группы взято ровно \(k\) элементов, из второй нужно взять \(r-k\); вариантов \(\binom mk\binom n{r-k}\). Суммирование по всем \(k\) даёт левую часть. Невозможные случаи дают ноль по условленному обозначению.
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{10.1.} \(5+3=8\) способов: группы книг не пересекаются, поэтому применяется правило суммы.\par
+\textbf{10.2.} \(4\cdot3\cdot2=24\) комплекта по правилу произведения.\par
+\textbf{10.3.} а) Порядок важен, повторений нет: размещение без повторений. б) Порядок не важен, повторений нет: сочетание без повторений. в) Порядок важен, повторения разрешены: размещение с повторениями. г) Порядок не важен, повторения разрешены: сочетание с повторениями.\par
+\textbf{10.4.} \(120\), \(1\), \(42\); в последнем выражении сокращаются множители от \(1\) до \(5\), остаётся \(7\cdot6\).\par
+\textbf{10.5.} \(6!=720\) способов.\par
+\textbf{10.6.} \(\frac{5!}{2!2!}=30\): буквы Т и О встречаются по два раза.\par
+\textbf{10.7.} \(A_8^3=8\cdot7\cdot6=336\) вариантов.\par
+\textbf{10.8.} \(\binom83=\frac{8!}{3!5!}=56\) выборов.\par
+\textbf{10.9.} \(10^4=10000\) кодов: для каждой позиции независимо есть \(10\) вариантов.\par
+\textbf{10.10.} \(9\cdot9\cdot8\cdot7=4536\). Для первой цифры есть \(9\) ненулевых вариантов; для второй снова \(9\) вариантов, включая ноль и исключая уже выбранную цифру.\par
+\textbf{10.11.} \(\overline C_4^3=\binom{4+3-1}{3}=\binom63=20\) выборов.\par
+\textbf{10.12.} Нужно посчитать тройки \((x_1,x_2,x_3)\) неотрицательных целых чисел с суммой \(7\). По методу звёздочек и перегородок ответ \(\binom{7+3-1}{3-1}=\binom92=36\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-33.png}
+\end{wrapfigure}
+\textbf{10.13.} \(\binom n2=\frac{n(n-1)}2=45\), значит, \(n(n-1)=90\). Подходит \(n=10\). Другого решения при \(n\ge2\) нет: произведение \(n(n-1)\) строго возрастает с ростом \(n\).\par
+
+\textbf{10.14.} \(\binom83=\binom72+\binom73=21+35=56\).\par
+
+\textbf{10.15.} \(x^4+8x^3+24x^2+32x+16\).\par
+
+\textbf{10.16.} \(\binom73\,2^4=35\cdot16=560\).\par
+
+\textbf{10.17.} При \(n=0\) обе части равны \(1\). При \(n\ge1\) подставим \(a=b=1\) в бином Ньютона: получим сумму всех коэффициентов и \(2^n\). Есть и подсчёт двумя способами: каждое из \(n\) различных элементов можно включить или не включить в подмножество, всего \(2^n\) вариантов; группировка по числу выбранных элементов даёт левую часть.\par
+
+\textbf{10.18.}\starmark{} В группе может быть \(2\), \(3\) или \(4\) девушки. Эти случаи не пересекаются. Ответ: \(\binom42\binom63+\binom43\binom62+\binom44\binom61=120+60+6=186\).\par
+
+\textbf{10.19.}\starmark{} Из \(10^5\) кодов вычтем \(9^5\) кодов без нуля и \(9^5\) кодов без единицы. Коды, в которых нет ни нуля, ни единицы, были вычтены дважды; их \(8^5\), поэтому их нужно прибавить один раз. Ответ: \(10^5-2\cdot9^5+8^5=14670\).\par
+
+\textbf{10.20.}\starmark{} Разделим \(m+n\) различных элементов на две непересекающиеся группы размеров \(m\) и \(n\). Всего выбрать \(r\) элементов можно \(\binom{m+n}{r}\) способами. Если из первой группы взято ровно \(k\) элементов, из второй нужно взять \(r-k\); вариантов \(\binom mk\binom n{r-k}\). Суммирование по всем \(k\) даёт левую часть. Невозможные случаи дают ноль по условленному обозначению.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\endgroup
 \section*{Глава 11. Уравнения, системы и неравенства}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{11.1.}] \(x = 6\).
-\item[\textbf{11.2.}] \(x = - 5\).
-\item[\textbf{11.3.}] \(x = 2\) или \(3\).
-\item[\textbf{11.4.}] \(x = - 2\) или \(2\).
-\item[\textbf{11.5.}] \(x = 5\); ОДЗ: \(x \ne  2\).
-\item[\textbf{11.6.}] \(x = 4,\allowbreak y = 3\).
-\item[\textbf{11.7.}] \(x < - 4\).
-\item[\textbf{11.8.}] \([- 3;\allowbreak 3]\).
-\item[\textbf{11.9.}] \((- \infty ;\allowbreak - 2) \cup  (1;\allowbreak + \infty )\).
-\item[\textbf{11.10.}] \((- 1;\allowbreak 3]\).
-\item[\textbf{11.11.}] \(x = - 2\) или \(3\).
-\item[\textbf{11.12.}] \(x=2\). ОДЗ: \(x\ge-2\). Для выполнения равенства необходимо \(x\ge0\). После возведения в квадрат кандидаты \(2\) и \(-1\); проверка исключает \(-1\).
-\item[\textbf{11.13.}] \(12\) км.
-\item[\textbf{11.14.}] \(120\) рублей.
-\item[\textbf{11.15.}] \(5\) билетов.
-\item[\textbf{11.16.}\starmark] \(x = 3\). После возведения в квадрат корни \(3\) и \(- 1;\allowbreak - 1\) посторонний.
-\item[\textbf{11.17.}\starmark] \(x < - 3\): дробь после переноса равна \(- \frac{5}{x + 3}\).
-\item[\textbf{11.18.}\starmark] \(5\) м и \(12\) м: \(x (17 - x) = 60\).
-\item[\textbf{11.19.}] По формуле корней \(x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\). Их сумма равна \(-\frac ba\), произведение — \(\frac{b^2-(b^2-4ac)}{4a^2}=\frac ca\). При нулевом дискриминанте обе записи обозначают один и тот же корень, взятый дважды.
-\item[\textbf{11.20.}] Уравнение равносильно \((2ax+b)^2=D\), так как \(4a(ax^2+bx+c)=(2ax+b)^2-D\) и \(4a\neq0\). Квадрат действительного числа неотрицателен, поэтому \(D\geq0\) необходимо. При \(D\geq0\) числа \(x=\frac{-b\pm\sqrt D}{2a}\) удовлетворяют равенству, поэтому условие достаточно.
-\item[\textbf{11.21.}] \(x^3-8=(x-2)(x^2+2x+4)\). Второй множитель равен \((x+1)^2+3>0\), поэтому единственный действительный корень \(x=2\).
-\item[\textbf{11.22.}] \(x^3+27=(x+3)(x^2-3x+9)\). Второй множитель равен \((x-\frac32)^2+\frac{27}4>0\), поэтому \(x=-3\).
-\item[\textbf{11.23.}] \(x^3-6x^2+11x-6=(x-1)(x-2)(x-3)\). Корни: \(1,2,3\).
-\item[\textbf{11.24.}] Группировка даёт \(x^2(2x-3)-4(2x-3)=(2x-3)(x-2)(x+2)\). Корни: \(-2,\frac32,2\).
-\item[\textbf{11.25.}\starmark] Получаем \(t^3-3t-2=(t-2)(t+1)^2=0\). Поэтому \(t=2\) или \(t=-1\), а \(x=4\) или \(x=1\). Корень \(x=1\) имеет кратность \(2\).
-\item[\textbf{11.26.}] При \(u=x^2\geq0\) получаем \((u-1)(u-4)=0\). Поэтому \(x=-2,-1,1,2\).
-\item[\textbf{11.27.}] \(u^2+3u-4=(u-1)(u+4)=0\). Значение \(u=-4\) невозможно для \(u=x^2\). При \(u=1\) получаем \(x=-1\) или \(x=1\).
-\item[\textbf{11.28.}\starmark] \(x\neq0\). Получаем \(t^2-5t+4=0\), откуда \(t=1\) или \(t=4\). Значение \(1\) не подходит, а \(t=4\) даёт \(x^2-4x+1=0\). Ответ: \(x=2-\sqrt3\) или \(x=2+\sqrt3\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{11.1.} \(x = 6\).\par
+\textbf{11.2.} \(x = - 5\).\par
+\textbf{11.3.} \(x = 2\) или \(3\).\par
+\textbf{11.4.} \(x = - 2\) или \(2\).\par
+\textbf{11.5.} \(x = 5\); ОДЗ: \(x \ne  2\).\par
+\textbf{11.6.} \(x = 4,\allowbreak y = 3\).\par
+\textbf{11.7.} \(x < - 4\).\par
+\textbf{11.8.} \([- 3;\allowbreak 3]\).\par
+\textbf{11.9.} \((- \infty ;\allowbreak - 2) \cup  (1;\allowbreak + \infty )\).\par
+\textbf{11.10.} \((- 1;\allowbreak 3]\).\par
+\textbf{11.11.} \(x = - 2\) или \(3\).\par
+\textbf{11.12.} \(x=2\). ОДЗ: \(x\ge-2\). Для выполнения равенства необходимо \(x\ge0\). После возведения в квадрат кандидаты \(2\) и \(-1\); проверка исключает \(-1\).\par
+\textbf{11.13.} \(12\) км.\par
+\textbf{11.14.} \(120\) рублей.\par
+\textbf{11.15.} \(5\) билетов.\par
+\textbf{11.16.}\starmark{} \(x = 3\). После возведения в квадрат корни \(3\) и \(- 1;\allowbreak - 1\) посторонний.\par
+\textbf{11.17.}\starmark{} \(x < - 3\): дробь после переноса равна \(- \frac{5}{x + 3}\).\par
+\textbf{11.18.}\starmark{} \(5\) м и \(12\) м: \(x (17 - x) = 60\).\par
+\textbf{11.19.} По формуле корней \(x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\). Их сумма равна \(-\frac ba\), произведение — \(\frac{b^2-(b^2-4ac)}{4a^2}=\frac ca\). При нулевом дискриминанте обе записи обозначают один и тот же корень, взятый дважды.\par
+\textbf{11.20.} Уравнение равносильно \((2ax+b)^2=D\), так как \(4a(ax^2+bx+c)=(2ax+b)^2-D\) и \(4a\neq0\). Квадрат действительного числа неотрицателен, поэтому \(D\geq0\) необходимо. При \(D\geq0\) числа \(x=\frac{-b\pm\sqrt D}{2a}\) удовлетворяют равенству, поэтому условие достаточно.\par
+\textbf{11.21.} \(x^3-8=(x-2)(x^2+2x+4)\). Второй множитель равен \((x+1)^2+3>0\), поэтому единственный действительный корень \(x=2\).\par
+\textbf{11.22.} \(x^3+27=(x+3)(x^2-3x+9)\). Второй множитель равен \((x-\frac32)^2+\frac{27}4>0\), поэтому \(x=-3\).\par
+\textbf{11.23.} \(x^3-6x^2+11x-6=(x-1)(x-2)(x-3)\). Корни: \(1,2,3\).\par
+\textbf{11.24.} Группировка даёт \(x^2(2x-3)-4(2x-3)=(2x-3)(x-2)(x+2)\). Корни: \(-2,\frac32,2\).\par
+\textbf{11.25.}\starmark{} Получаем \(t^3-3t-2=(t-2)(t+1)^2=0\). Поэтому \(t=2\) или \(t=-1\), а \(x=4\) или \(x=1\). Корень \(x=1\) имеет кратность \(2\).\par
+\textbf{11.26.} При \(u=x^2\geq0\) получаем \((u-1)(u-4)=0\). Поэтому \(x=-2,-1,1,2\).\par
+\textbf{11.27.} \(u^2+3u-4=(u-1)(u+4)=0\). Значение \(u=-4\) невозможно для \(u=x^2\). При \(u=1\) получаем \(x=-1\) или \(x=1\).\par
+\textbf{11.28.}\starmark{} \(x\neq0\). Получаем \(t^2-5t+4=0\), откуда \(t=1\) или \(t=4\). Значение \(1\) не подходит, а \(t=4\) даёт \(x^2-4x+1=0\). Ответ: \(x=2-\sqrt3\) или \(x=2+\sqrt3\).\par
+\endgroup
 \section*{Глава 12. Последовательности и прогрессии}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{12.1.}] \(1,4,7,10,13\); \(a_{10}=28\).
-\item[\textbf{12.2.}] \(-1,\frac12,-\frac13,\frac14\). Член \(a_{25}\) отрицателен, \(a_{26}\) положителен.
-\item[\textbf{12.3.}] \(2,3,5,9,17\).
-\item[\textbf{12.4.}] \(d=4\), \(a_n=3+4(n-1)=4n-1\).
-\item[\textbf{12.5.}] \(a_8=7+7(-3)=-14\).
-\item[\textbf{12.6.}] \(d=\frac{35-11}{9-3}=4\), \(a_1=11-2\cdot4=3\).
-\item[\textbf{12.7.}] \(a_{20}=43\), \(S_{20}=\frac{20(5+43)}2=480\).
-\item[\textbf{12.8.}] \(q=-2\), \(a_n=3(-2)^{n-1}\), \(a_6=-96\).
-\item[\textbf{12.9.}] \(a_5=81(\frac13)^4=1\).
-\item[\textbf{12.10.}] \(q^3=\frac{48}{6}=8\), поэтому \(q=2\), \(a_1=3\).
-\item[\textbf{12.11.}] \(128=2^7\), поэтому слагаемых \(8\). Сумма \(S_8=\frac{1-2^8}{1-2}=255\).
-\item[\textbf{12.12.}] \(q=-\frac13\), \(|q|<1\), поэтому \(S=\frac{18}{1+\frac13}=\frac{27}{2}\).
-\item[\textbf{12.13.}] В двенадцатую неделю \(650\) рублей; всего \(\frac{12(100+650)}2=4500\) рублей.
-\item[\textbf{12.14.}] В последнем ряду \(12+19\cdot2=50\) мест; всего \(\frac{20(12+50)}2=620\) мест.
-\item[\textbf{12.15.}] За седьмой день \(2\cdot2^6=128\) монет; всего \(\frac{2(2^7-1)}{2-1}=254\) монеты.
-\item[\textbf{12.16.}] Первый член равен \(1\), последний — \(2N-1\), слагаемых \(N\). Поэтому \(S_N=\frac{N(1+2N-1)}2=N^2\).
-\item[\textbf{12.17.}] \(S_{2k}=0\), \(S_{2k-1}=a\). Если бы существовал предел \(S\), для \(\varepsilon=\frac{|a|}{3}\) все поздние суммы удовлетворяли бы \(|S_N-S|<\varepsilon\). Среди них есть и \(0\), и \(a\), поэтому \(|a|\leq|a-S|+|S|<\frac{2|a|}{3}\), что невозможно при \(a\neq0\).
-\item[\textbf{12.18.}\starmark] Положим \(b_n=a_n+1\). Тогда \(b_1=4\), \(b_{n+1}=2b_n\), откуда \(a_n=4\cdot2^{n-1}-1\). Поэтому \(S_{10}=4(2^{10}-1)-10=4082\).
-\item[\textbf{12.19.}\starmark] Из \(2a_1+5d=34\) получаем \(a_3=17-\frac d2\), \(a_4=17+\frac d2\). Тогда \(289-\frac{d^2}{4}=280\), то есть \(d=6\), поскольку \(d>0\). Отсюда \(a_1=2\), \(S_{10}=290\).
-\item[\textbf{12.20.}\starmark] \(q=\frac14\), \(S=\frac{256}{3}\), \(R_N=\frac{256}{3}\cdot4^{-N}\). При \(N=4\) остаток \(\frac13\), при \(N=5\) — \(\frac1{12}<\frac1{10}\). Остатки положительны и убывают, поэтому минимальное \(N=5\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{12.1.} \(1,4,7,10,13\); \(a_{10}=28\).\par
+\textbf{12.2.} \(-1,\frac12,-\frac13,\frac14\). Член \(a_{25}\) отрицателен, \(a_{26}\) положителен.\par
+\textbf{12.3.} \(2,3,5,9,17\).\par
+\textbf{12.4.} \(d=4\), \(a_n=3+4(n-1)=4n-1\).\par
+\textbf{12.5.} \(a_8=7+7(-3)=-14\).\par
+\textbf{12.6.} \(d=\frac{35-11}{9-3}=4\), \(a_1=11-2\cdot4=3\).\par
+\textbf{12.7.} \(a_{20}=43\), \(S_{20}=\frac{20(5+43)}2=480\).\par
+\textbf{12.8.} \(q=-2\), \(a_n=3(-2)^{n-1}\), \(a_6=-96\).\par
+\textbf{12.9.} \(a_5=81(\frac13)^4=1\).\par
+\textbf{12.10.} \(q^3=\frac{48}{6}=8\), поэтому \(q=2\), \(a_1=3\).\par
+\textbf{12.11.} \(128=2^7\), поэтому слагаемых \(8\). Сумма \(S_8=\frac{1-2^8}{1-2}=255\).\par
+\textbf{12.12.} \(q=-\frac13\), \(|q|<1\), поэтому \(S=\frac{18}{1+\frac13}=\frac{27}{2}\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-34.png}
+\end{wrapfigure}
+\textbf{12.13.} В двенадцатую неделю \(650\) рублей; всего \(\frac{12(100+650)}2=4500\) рублей.\par
+
+\textbf{12.14.} В последнем ряду \(12+19\cdot2=50\) мест; всего \(\frac{20(12+50)}2=620\) мест.\par
+
+\textbf{12.15.} За седьмой день \(2\cdot2^6=128\) монет; всего \(\frac{2(2^7-1)}{2-1}=254\) монеты.\par
+
+\textbf{12.16.} Первый член равен \(1\), последний — \(2N-1\), слагаемых \(N\). Поэтому \(S_N=\frac{N(1+2N-1)}2=N^2\).\par
+
+\textbf{12.17.} \(S_{2k}=0\), \(S_{2k-1}=a\). Если бы существовал предел \(S\), для \(\varepsilon=\frac{|a|}{3}\) все поздние суммы удовлетворяли бы \(|S_N-S|<\varepsilon\). Среди них есть и \(0\), и \(a\), поэтому \(|a|\leq|a-S|+|S|<\frac{2|a|}{3}\), что невозможно при \(a\neq0\).\par
+
+\textbf{12.18.}\starmark{} Положим \(b_n=a_n+1\). Тогда \(b_1=4\), \(b_{n+1}=2b_n\), откуда \(a_n=4\cdot2^{n-1}-1\). Поэтому \(S_{10}=4(2^{10}-1)-10=4082\).\par
+
+\textbf{12.19.}\starmark{} Из \(2a_1+5d=34\) получаем \(a_3=17-\frac d2\), \(a_4=17+\frac d2\). Тогда \(289-\frac{d^2}{4}=280\), то есть \(d=6\), поскольку \(d>0\). Отсюда \(a_1=2\), \(S_{10}=290\).\par
+
+\textbf{12.20.}\starmark{} \(q=\frac14\), \(S=\frac{256}{3}\), \(R_N=\frac{256}{3}\cdot4^{-N}\). При \(N=4\) остаток \(\frac13\), при \(N=5\) — \(\frac1{12}<\frac1{10}\). Остатки положительны и убывают, поэтому минимальное \(N=5\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\endgroup
 \section*{Глава 13. Функции и графики}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{13.1.}] \(- 7,\allowbreak - 3,\allowbreak 3\).
-\item[\textbf{13.2.}] Все действительные \(x\), кроме \(4\).
-\item[\textbf{13.3.}] \([- 3;\allowbreak + \infty )\).
-\item[\textbf{13.4.}] \(x = - 2\) и \(2\).
-\item[\textbf{13.5.}] При \(x > 2\).
-\item[\textbf{13.6.}] С осью \(y\): \((0;\allowbreak 1)\); с осью \(x\): \((-\frac{1}{2};\allowbreak 0)\).
-\item[\textbf{13.7.}] Вершина \((2;\allowbreak - 1)\); сдвиг \(y = x^{2}\) на \(2\) вправо и на \(1\) вниз.
-\item[\textbf{13.8.}] Убывает на \((- \infty ;\allowbreak 0]\), возрастает на \([0;\allowbreak + \infty )\).
-\item[\textbf{13.9.}] \(f\) нечётная; \(g\) чётная.
-\item[\textbf{13.10.}] \((x + 1)^{2};\allowbreak x^{2} + 1\).
-\item[\textbf{13.11.}] \([2;\allowbreak + \infty )\).
-\item[\textbf{13.12.}] \((- 1;\allowbreak 1)\) и \((2;\allowbreak 4)\).
-\item[\textbf{13.13.}] \(C (0) = 200,\allowbreak C (2) = 500,\allowbreak C (4) = 800\) рублей; луч из точки \((0;\allowbreak 200)\).
-\item[\textbf{13.14.}] \(V (t) = 60 - 5 t;\allowbreak 0 \le  t \le  12\); бак пуст через \(12\) минут.
-\item[\textbf{13.15.}] Равны при \(5\) км; при \(2\) км дешевле \(B\): \(80\) против \(140\); при \(8\) км дешевле \(A\): \(260\) против \(320\) рублей.
-\item[\textbf{13.16.}\starmark] \([1;\allowbreak 3) \cup  (3;\allowbreak + \infty )\).
-\item[\textbf{13.17.}\starmark] Вершина \((2;\allowbreak 1);\allowbreak x \in  [- 1;\allowbreak 5]\).
-\item[\textbf{13.18.}\starmark] \(S = x (10 - x) = 25 - (x - 5)^{2},\allowbreak 0 < x < 10\). Максимум \(25\) м\(^{2}\) при сторонах \(5\) м.
-\item[\textbf{13.19.}\starmark] Из \(ax_1+b=ax_2+b\) следует \(a(x_1-x_2)=0\), а затем \(x_1=x_2\): функция инъективна. Для каждого \(y\in\mathbb R\) подходит \(x=\frac{y-b}{a}\): функция сюръективна. Поэтому \(f^{-1}(y)=\frac{y-b}{a}\). Подстановка даёт \(f^{-1}(f(x))=\frac{ax+b-b}{a}=x\) и \(f(f^{-1}(y))=a\frac{y-b}{a}+b=y\).
-\item[\textbf{13.20.}\starmark] Если \(f(g(x_1))=f(g(x_2))\), инъективность \(f\) даёт \(g(x_1)=g(x_2)\), а инъективность \(g\) — \(x_1=x_2\). Для сюръекций возьмём любой \(z\in Z\): найдётся \(y\in Y\) с \(f(y)=z\), а затем \(x\in X\) с \(g(x)=y\). Тогда \((f\circ g)(x)=z\), что доказывает сюръективность.
-\item[\textbf{13.21.}] График — две полупрямые с общей вершиной \((0;-2)\), проходящие через \((-2;0)\) и \((2;0)\). Область значений \([-2;+\infty)\). Это сюръекция: для каждого \(y\ge-2\) можно взять \(x=y+2\). Инъекции нет, поскольку \(f(-1)=f(1)=-1\); биекции и обратного отображения на всей \(\mathbb R\) нет.
-\item[\textbf{13.22.}\starmark] Для \(f\) область определения \([-1;+\infty)\), область значений \([2;+\infty)\). Из \(y-2=\sqrt{x+1}\), где \(y\ge2\), следует \(x=(y-2)^2-1\). Поэтому \(f^{-1}(x)=(x-2)^2-1\) при \(x\ge2\). Точки графика \(f\): \((-1;2),(0;3),(3;4),(8;5)\); точки обратного графика: \((2;-1),(3;0),(4;3),(5;8)\). Координаты меняются местами, что подтверждает симметрию.
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{13.1.} \(- 7,\allowbreak - 3,\allowbreak 3\).\par
+\textbf{13.2.} Все действительные \(x\), кроме \(4\).\par
+\textbf{13.3.} \([- 3;\allowbreak + \infty )\).\par
+\textbf{13.4.} \(x = - 2\) и \(2\).\par
+\textbf{13.5.} При \(x > 2\).\par
+\textbf{13.6.} С осью \(y\): \((0;\allowbreak 1)\); с осью \(x\): \((-\frac{1}{2};\allowbreak 0)\).\par
+\textbf{13.7.} Вершина \((2;\allowbreak - 1)\); сдвиг \(y = x^{2}\) на \(2\) вправо и на \(1\) вниз.\par
+\textbf{13.8.} Убывает на \((- \infty ;\allowbreak 0]\), возрастает на \([0;\allowbreak + \infty )\).\par
+\textbf{13.9.} \(f\) нечётная; \(g\) чётная.\par
+\textbf{13.10.} \((x + 1)^{2};\allowbreak x^{2} + 1\).\par
+\textbf{13.11.} \([2;\allowbreak + \infty )\).\par
+\textbf{13.12.} \((- 1;\allowbreak 1)\) и \((2;\allowbreak 4)\).\par
+\textbf{13.13.} \(C (0) = 200,\allowbreak C (2) = 500,\allowbreak C (4) = 800\) рублей; луч из точки \((0;\allowbreak 200)\).\par
+\textbf{13.14.} \(V (t) = 60 - 5 t;\allowbreak 0 \le  t \le  12\); бак пуст через \(12\) минут.\par
+\textbf{13.15.} Равны при \(5\) км; при \(2\) км дешевле \(B\): \(80\) против \(140\); при \(8\) км дешевле \(A\): \(260\) против \(320\) рублей.\par
+\textbf{13.16.}\starmark{} \([1;\allowbreak 3) \cup  (3;\allowbreak + \infty )\).\par
+\textbf{13.17.}\starmark{} Вершина \((2;\allowbreak 1);\allowbreak x \in  [- 1;\allowbreak 5]\).\par
+\textbf{13.18.}\starmark{} \(S = x (10 - x) = 25 - (x - 5)^{2},\allowbreak 0 < x < 10\). Максимум \(25\) м\(^{2}\) при сторонах \(5\) м.\par
+\textbf{13.19.}\starmark{} Из \(ax_1+b=ax_2+b\) следует \(a(x_1-x_2)=0\), а затем \(x_1=x_2\): функция инъективна. Для каждого \(y\in\mathbb R\) подходит \(x=\frac{y-b}{a}\): функция сюръективна. Поэтому \(f^{-1}(y)=\frac{y-b}{a}\). Подстановка даёт \(f^{-1}(f(x))=\frac{ax+b-b}{a}=x\) и \(f(f^{-1}(y))=a\frac{y-b}{a}+b=y\).\par
+\textbf{13.20.}\starmark{} Если \(f(g(x_1))=f(g(x_2))\), инъективность \(f\) даёт \(g(x_1)=g(x_2)\), а инъективность \(g\) — \(x_1=x_2\). Для сюръекций возьмём любой \(z\in Z\): найдётся \(y\in Y\) с \(f(y)=z\), а затем \(x\in X\) с \(g(x)=y\). Тогда \((f\circ g)(x)=z\), что доказывает сюръективность.\par
+\textbf{13.21.} График — две полупрямые с общей вершиной \((0;-2)\), проходящие через \((-2;0)\) и \((2;0)\). Область значений \([-2;+\infty)\). Это сюръекция: для каждого \(y\ge-2\) можно взять \(x=y+2\). Инъекции нет, поскольку \(f(-1)=f(1)=-1\); биекции и обратного отображения на всей \(\mathbb R\) нет.\par
+\textbf{13.22.}\starmark{} Для \(f\) область определения \([-1;+\infty)\), область значений \([2;+\infty)\). Из \(y-2=\sqrt{x+1}\), где \(y\ge2\), следует \(x=(y-2)^2-1\). Поэтому \(f^{-1}(x)=(x-2)^2-1\) при \(x\ge2\). Точки графика \(f\): \((-1;2),(0;3),(3;4),(8;5)\); точки обратного графика: \((2;-1),(3;0),(4;3),(5;8)\). Координаты меняются местами, что подтверждает симметрию.\par
+\endgroup
 \section*{Глава 14. Степенные, показательные и логарифмические функции}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{14.1.}] Обе: все действительные числа, кроме \(0\); ветви в \(I\) и \(III\) четвертях.
-\item[\textbf{14.2.}] Обе: \([0;\allowbreak + \infty )\); график проходит через \((0;\allowbreak 0),\allowbreak (1;\allowbreak 1),\allowbreak (4;\allowbreak 2)\).
-\item[\textbf{14.3.}] \(x = - 3\).
-\item[\textbf{14.4.}] \(x = 5\).
-\item[\textbf{14.5.}] \(x = 3\).
-\item[\textbf{14.6.}] \(x < 3\).
-\item[\textbf{14.7.}] \(3\).
-\item[\textbf{14.8.}] \(- 2\).
-\item[\textbf{14.9.}] \(x = 9\); ОДЗ: \(x > 1\).
-\item[\textbf{14.10.}] \(x < 5\).
-\item[\textbf{14.11.}] \(3\).
-\item[\textbf{14.12.}] Первое меньше второго в первой паре; первое больше второго во второй паре.
-\item[\textbf{14.13.}] \(10000\) рублей.
-\item[\textbf{14.14.}] Через \(4\) часа.
-\item[\textbf{14.15.}] \(10\) шагов в заданной модели.
-\item[\textbf{14.16.}\starmark] \(x = 0\) или \(x = 2\). Подстановка \(t = 2^{x}\) даёт \(t^{2} - 5t + 4 = 0\), откуда \(t = 1\) или \(t = 4\).
-\item[\textbf{14.17.}\starmark] \(x = 3\): ОДЗ \(x > 1;\allowbreak x^{2} - 1 = 8\); отрицательный корень исключается.
-\item[\textbf{14.18.}\starmark] \(3\) года: \(1,1^{3} = 1,331\), а через \(2\) года сумма \(12100\) рублей.
-\item[\textbf{14.19.}\starmark] По формуле смены основания произведение равно \(\frac{\ln b}{\ln a}\cdot\frac{\ln a}{\ln b}=1\). При \(a=1\) или \(b=1\) один из логарифмов имел бы недопустимое основание; соответствующий знаменатель в этой записи был бы нулём.
-\item[\textbf{14.20.}\starmark] Квадрат неотрицателен: \((e^{x/2}-e^{-x/2})^2=e^x+e^{-x}-2\ge0\). Поэтому \(\cosh x=\frac{e^x+e^{-x}}2\ge1\). Равенство возможно ровно при \(e^{x/2}=e^{-x/2}\); инъективность экспоненты даёт \(x=0\).
-\item[\textbf{14.21.}] Соответственно \(1\), \(0\), \(3\), \(5\).
-\item[\textbf{14.22.}] ОДЗ: \(x>1\). Равенство равносильно \(x-1=e^2\), поэтому \(x=1+e^2\); этот корень удовлетворяет ОДЗ.
-\item[\textbf{14.23.}] Первое выражение равно \(\log_2 8=3\). Во втором \(2\ln3=\ln9\), поэтому значение равно \(e^0=1\).
-\item[\textbf{14.24.}] При \(n=2\): \(1000(\frac32)^2=2250\) рублей. При \(n=4\): \(1000(\frac54)^4=2441{,}40625\), то есть \(2441{,}41\) рубля. Предельная сумма \(1000e\approx2718{,}28\) рубля.
-\item[\textbf{14.25.}] Поскольку \(e^{\ln2}=2\), а \(e^{-\ln2}=\frac12\), получаем \(\sinh(\ln2)=\frac34\), \(\cosh(\ln2)=\frac54\). Проверка: \((\frac54)^2-(\frac34)^2=\frac{25-9}{16}=1\).
-\item[\textbf{14.26.}\starmark] Имеем \(t>0\) и \(\frac{t-\frac1t}{2}=\frac34\), откуда \(2t^2-3t-2=0\). Корни \(t=2\), \(t=-\frac12\); отрицательный не подходит. Поэтому \(x=\ln2\).
-\item[\textbf{14.27.}\starmark] При \(t=e^x>0\) получаем \(\frac{t+\frac1t}{2}=\frac54\), то есть \(2t^2-5t+2=0\). Оба корня положительны: \(t=2\) и \(t=\frac12\). Ответ: \(x=\ln2\) или \(x=-\ln2\).
-\item[\textbf{14.28.}] Для \(\sinh\) точки равны \((-\ln2;-\frac34),(0;0),(\ln2;\frac34)\); график нечётен и возрастает, ниже оси при \(x<0\), выше при \(x>0\). Для \(\cosh\) точки \((-\ln2;\frac54),(0;1),(\ln2;\frac54)\); график чётен, весь лежит не ниже прямой \(y=1\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{14.1.} Обе: все действительные числа, кроме \(0\); ветви в \(I\) и \(III\) четвертях.\par
+\textbf{14.2.} Обе: \([0;\allowbreak + \infty )\); график проходит через \((0;\allowbreak 0),\allowbreak (1;\allowbreak 1),\allowbreak (4;\allowbreak 2)\).\par
+\textbf{14.3.} \(x = - 3\).\par
+\textbf{14.4.} \(x = 5\).\par
+\textbf{14.5.} \(x = 3\).\par
+\textbf{14.6.} \(x < 3\).\par
+\textbf{14.7.} \(3\).\par
+\textbf{14.8.} \(- 2\).\par
+\textbf{14.9.} \(x = 9\); ОДЗ: \(x > 1\).\par
+\textbf{14.10.} \(x < 5\).\par
+\textbf{14.11.} \(3\).\par
+\textbf{14.12.} Первое меньше второго в первой паре; первое больше второго во второй паре.\par
+\textbf{14.13.} \(10000\) рублей.\par
+\textbf{14.14.} Через \(4\) часа.\par
+\textbf{14.15.} \(10\) шагов в заданной модели.\par
+\textbf{14.16.}\starmark{} \(x = 0\) или \(x = 2\). Подстановка \(t = 2^{x}\) даёт \(t^{2} - 5t + 4 = 0\), откуда \(t = 1\) или \(t = 4\).\par
+\textbf{14.17.}\starmark{} \(x = 3\): ОДЗ \(x > 1;\allowbreak x^{2} - 1 = 8\); отрицательный корень исключается.\par
+\textbf{14.18.}\starmark{} \(3\) года: \(1,1^{3} = 1,331\), а через \(2\) года сумма \(12100\) рублей.\par
+\textbf{14.19.}\starmark{} По формуле смены основания произведение равно \(\frac{\ln b}{\ln a}\cdot\frac{\ln a}{\ln b}=1\). При \(a=1\) или \(b=1\) один из логарифмов имел бы недопустимое основание; соответствующий знаменатель в этой записи был бы нулём.\par
+\textbf{14.20.}\starmark{} Квадрат неотрицателен: \((e^{x/2}-e^{-x/2})^2=e^x+e^{-x}-2\ge0\). Поэтому \(\cosh x=\frac{e^x+e^{-x}}2\ge1\). Равенство возможно ровно при \(e^{x/2}=e^{-x/2}\); инъективность экспоненты даёт \(x=0\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-35.png}
+\end{wrapfigure}
+\textbf{14.21.} Соответственно \(1\), \(0\), \(3\), \(5\).\par
+
+\textbf{14.22.} ОДЗ: \(x>1\). Равенство равносильно \(x-1=e^2\), поэтому \(x=1+e^2\); этот корень удовлетворяет ОДЗ.\par
+
+\textbf{14.23.} Первое выражение равно \(\log_2 8=3\). Во втором \(2\ln3=\ln9\), поэтому значение равно \(e^0=1\).\par
+
+\textbf{14.24.} При \(n=2\): \(1000(\frac32)^2=2250\) рублей. При \(n=4\): \(1000(\frac54)^4=2441{,}40625\), то есть \(2441{,}41\) рубля. Предельная сумма \(1000e\approx2718{,}28\) рубля.\par
+
+\textbf{14.25.} Поскольку \(e^{\ln2}=2\), а \(e^{-\ln2}=\frac12\), получаем \(\sinh(\ln2)=\frac34\), \(\cosh(\ln2)=\frac54\). Проверка: \((\frac54)^2-(\frac34)^2=\frac{25-9}{16}=1\).\par
+
+\textbf{14.26.}\starmark{} Имеем \(t>0\) и \(\frac{t-\frac1t}{2}=\frac34\), откуда \(2t^2-3t-2=0\). Корни \(t=2\), \(t=-\frac12\); отрицательный не подходит. Поэтому \(x=\ln2\).\par
+
+\textbf{14.27.}\starmark{} При \(t=e^x>0\) получаем \(\frac{t+\frac1t}{2}=\frac54\), то есть \(2t^2-5t+2=0\). Оба корня положительны: \(t=2\) и \(t=\frac12\). Ответ: \(x=\ln2\) или \(x=-\ln2\).\par
+
+\textbf{14.28.} Для \(\sinh\) точки равны \((-\ln2;-\frac34),(0;0),(\ln2;\frac34)\); график нечётен и возрастает, ниже оси при \(x<0\), выше при \(x>0\). Для \(\cosh\) точки \((-\ln2;\frac54),(0;1),(\ln2;\frac54)\); график чётен, весь лежит не ниже прямой \(y=1\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\endgroup
 \section*{Глава 15. Тригонометрия}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{15.1.}] \(\frac{\pi }{6},\allowbreak \frac{\pi }{2},\allowbreak \frac{5 \pi }{6}\).
-\item[\textbf{15.2.}] \(45 {}^{\circ}\) и \(210 {}^{\circ}\).
-\item[\textbf{15.3.}] \(\frac{1}{2};\allowbreak \frac{1}{2};\allowbreak 1\).
-\item[\textbf{15.4.}] \(\sin \) положителен, \(\cos \) отрицателен.
-\item[\textbf{15.5.}] \(- \frac{1}{2};\allowbreak \frac{1}{2}\).
-\item[\textbf{15.6.}] \(3\).
-\item[\textbf{15.7.}] \(\cos  x = \frac{4}{5};\allowbreak \tan  x = \frac{3}{4}\).
-\item[\textbf{15.8.}] \(\sin  x;\allowbreak - \cos  x\).
-\item[\textbf{15.9.}] \(0,\allowbreak \pi ,\allowbreak 2 \pi \).
-\item[\textbf{15.10.}] \(\frac{\pi }{3},\allowbreak \frac{5 \pi }{3}\).
-\item[\textbf{15.11.}] Нули: \(0,\allowbreak \pi ,\allowbreak 2 \pi \); максимум \(1\) при \(\frac{\pi }{2}\); минимум \(- 1\) при \(\frac{3 \pi }{2}\).
-\item[\textbf{15.12.}] \(\pi \).
-\item[\textbf{15.13.}] \(6\) м.
-\item[\textbf{15.14.}] \(5\) м.
-\item[\textbf{15.15.}] \(12\) м, \(22\) м, \(2\) м соответственно.
-\item[\textbf{15.16.}\starmark] \(\frac{\pi}{6},\allowbreak \frac{\pi}{2},\allowbreak \frac{5\pi}{6}\). После решения квадратного уравнения получаем \(\sin x = \frac{1}{2}\) или \(\sin x = 1\).
-\item[\textbf{15.17.}\starmark] \(4 \sqrt{3}\) м.
-\item[\textbf{15.18.}\starmark] Минимум \(3\) м, максимум \(27\) м; первый максимум при \(t = 20\) с.
-\item[\textbf{15.19.}\starmark] Пусть \(\alpha=\arcsin t\). Тогда \(\alpha\in[-\frac\pi2;\frac\pi2]\) и \(\sin\alpha=t\). Угол \(-\alpha\) лежит в том же промежутке, причём \(\sin(-\alpha)=-t\). По единственности угла в определении \(\arcsin(-t)=-\alpha=-\arcsin t\).
-\item[\textbf{15.20.}\starmark] Пусть \(\alpha=\arccos t\in[0;\pi]\). Тогда \(\pi-\alpha\in[0;\pi]\) и \(\cos(\pi-\alpha)=-\cos\alpha=-t\). По определению арккосинуса \(\arccos(-t)=\pi-\alpha\).
-\item[\textbf{15.21.}] Соответственно \(0\), \(\frac\pi6\), \(-\frac\pi3\). Все углы входят в \([-\frac\pi2;\frac\pi2]\).
-\item[\textbf{15.22.}] Соответственно \(\frac{2\pi}3\), \(0\), \(\frac\pi2\). Все углы входят в \([0;\pi]\).
-\item[\textbf{15.23.}] Соответственно \(-\frac\pi4\), \(\frac\pi3\), \(0\).
-\item[\textbf{15.24.}\starmark] Получаем \(\arcsin\frac12=\frac\pi6\), \(\arccos\frac12=\frac\pi3\), \(\arctan(-1)=-\frac\pi4\). Исходные углы не лежат в соответствующих диапазонах обратных функций, поэтому механически сокращать функции нельзя.
-\item[\textbf{15.25.}] Оба значения равны \(\frac45\). Угол арксинуса лежит в \([-\frac\pi2;\frac\pi2]\), где косинус неотрицателен; угол арккосинуса лежит в \([0;\pi]\), где синус неотрицателен. В обоих случаях по основному тождеству модуль искомого значения равен \(\sqrt{1-\frac9{25}}=\frac45\).
-\item[\textbf{15.26.}] Из \(-1\le2x-1\le1\) получаем ОДЗ \(0\le x\le1\). Синус обеих частей даёт \(2x-1=\frac12\), поэтому \(x=\frac34\). Правая часть исходного уравнения принадлежит диапазону арксинуса; подстановка подтверждает корень.
-\item[\textbf{15.27.}] Уравнение определено для всех действительных \(x\). Поскольку \(-\frac\pi4\in(-\frac\pi2;\frac\pi2)\), получаем \(x-2=\tan(-\frac\pi4)=-1\). Ответ: \(x=1\).
-\item[\textbf{15.28.}] Точки \((-1;-\frac\pi4),(0;0),(1;\frac\pi4)\). Область определения \(\mathbb R\), область значений \((-\frac\pi2;\frac\pi2)\). Функция нечётная и строго возрастает; график приближается к прямым \(y=-\frac\pi2\) слева и \(y=\frac\pi2\) справа, но не достигает их. Значение \(\frac\pi2\) невозможно.
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{15.1.} \(\frac{\pi }{6},\allowbreak \frac{\pi }{2},\allowbreak \frac{5 \pi }{6}\).\par
+\textbf{15.2.} \(45 {}^{\circ}\) и \(210 {}^{\circ}\).\par
+\textbf{15.3.} \(\frac{1}{2};\allowbreak \frac{1}{2};\allowbreak 1\).\par
+\textbf{15.4.} \(\sin \) положителен, \(\cos \) отрицателен.\par
+\textbf{15.5.} \(- \frac{1}{2};\allowbreak \frac{1}{2}\).\par
+\textbf{15.6.} \(3\).\par
+\textbf{15.7.} \(\cos  x = \frac{4}{5};\allowbreak \tan  x = \frac{3}{4}\).\par
+\textbf{15.8.} \(\sin  x;\allowbreak - \cos  x\).\par
+\textbf{15.9.} \(0,\allowbreak \pi ,\allowbreak 2 \pi \).\par
+\textbf{15.10.} \(\frac{\pi }{3},\allowbreak \frac{5 \pi }{3}\).\par
+\textbf{15.11.} Нули: \(0,\allowbreak \pi ,\allowbreak 2 \pi \); максимум \(1\) при \(\frac{\pi }{2}\); минимум \(- 1\) при \(\frac{3 \pi }{2}\).\par
+\textbf{15.12.} \(\pi \).\par
+\textbf{15.13.} \(6\) м.\par
+\textbf{15.14.} \(5\) м.\par
+\textbf{15.15.} \(12\) м, \(22\) м, \(2\) м соответственно.\par
+\textbf{15.16.}\starmark{} \(\frac{\pi}{6},\allowbreak \frac{\pi}{2},\allowbreak \frac{5\pi}{6}\). После решения квадратного уравнения получаем \(\sin x = \frac{1}{2}\) или \(\sin x = 1\).\par
+\textbf{15.17.}\starmark{} \(4 \sqrt{3}\) м.\par
+\textbf{15.18.}\starmark{} Минимум \(3\) м, максимум \(27\) м; первый максимум при \(t = 20\) с.\par
+\textbf{15.19.}\starmark{} Пусть \(\alpha=\arcsin t\). Тогда \(\alpha\in[-\frac\pi2;\frac\pi2]\) и \(\sin\alpha=t\). Угол \(-\alpha\) лежит в том же промежутке, причём \(\sin(-\alpha)=-t\). По единственности угла в определении \(\arcsin(-t)=-\alpha=-\arcsin t\).\par
+\textbf{15.20.}\starmark{} Пусть \(\alpha=\arccos t\in[0;\pi]\). Тогда \(\pi-\alpha\in[0;\pi]\) и \(\cos(\pi-\alpha)=-\cos\alpha=-t\). По определению арккосинуса \(\arccos(-t)=\pi-\alpha\).\par
+\textbf{15.21.} Соответственно \(0\), \(\frac\pi6\), \(-\frac\pi3\). Все углы входят в \([-\frac\pi2;\frac\pi2]\).\par
+\textbf{15.22.} Соответственно \(\frac{2\pi}3\), \(0\), \(\frac\pi2\). Все углы входят в \([0;\pi]\).\par
+\textbf{15.23.} Соответственно \(-\frac\pi4\), \(\frac\pi3\), \(0\).\par
+\textbf{15.24.}\starmark{} Получаем \(\arcsin\frac12=\frac\pi6\), \(\arccos\frac12=\frac\pi3\), \(\arctan(-1)=-\frac\pi4\). Исходные углы не лежат в соответствующих диапазонах обратных функций, поэтому механически сокращать функции нельзя.\par
+\textbf{15.25.} Оба значения равны \(\frac45\). Угол арксинуса лежит в \([-\frac\pi2;\frac\pi2]\), где косинус неотрицателен; угол арккосинуса лежит в \([0;\pi]\), где синус неотрицателен. В обоих случаях по основному тождеству модуль искомого значения равен \(\sqrt{1-\frac9{25}}=\frac45\).\par
+\textbf{15.26.} Из \(-1\le2x-1\le1\) получаем ОДЗ \(0\le x\le1\). Синус обеих частей даёт \(2x-1=\frac12\), поэтому \(x=\frac34\). Правая часть исходного уравнения принадлежит диапазону арксинуса; подстановка подтверждает корень.\par
+\textbf{15.27.} Уравнение определено для всех действительных \(x\). Поскольку \(-\frac\pi4\in(-\frac\pi2;\frac\pi2)\), получаем \(x-2=\tan(-\frac\pi4)=-1\). Ответ: \(x=1\).\par
+\textbf{15.28.} Точки \((-1;-\frac\pi4),(0;0),(1;\frac\pi4)\). Область определения \(\mathbb R\), область значений \((-\frac\pi2;\frac\pi2)\). Функция нечётная и строго возрастает; график приближается к прямым \(y=-\frac\pi2\) слева и \(y=\frac\pi2\) справа, но не достигает их. Значение \(\frac\pi2\) невозможно.\par
+\endgroup
 \section*{Глава 16. Множества, логика и доказательства}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=6pt]
-\item[\textbf{16.1.}] Пересечение: \(\{3\}\); объединение: \(\{1,\allowbreak 2,\allowbreak 3,\allowbreak 4\}\).
-\item[\textbf{16.2.}] \(\forall  x \in  \mathbb{R} : x^{2} \ge  0\).
-\item[\textbf{16.3.}] Существует целое \(x\), квадрат которого равен \(9\). Верно: \(x = 3\) или \(- 3\).
-\item[\textbf{16.4.}] Нет: при \(x = 0\) квадрат равен \(0\).
-\item[\textbf{16.5.}] В наборе есть хотя бы одно число, которое не положительно \((\le  0)\).
-\item[\textbf{16.6.}] Прямая верна; обратная нет, контрпример \(6\).
-\item[\textbf{16.7.}] Необходимое, но недостаточное: \(2\) чётно, но на \(6\) не делится.
-\item[\textbf{16.8.}] \(2 m + 2 n = 2 (m + n)\), где \(m,\allowbreak n \in  \mathbb{Z}\).
-\item[\textbf{16.9.}] Пусть \(n=2k+1\), где \(k\in\mathbb Z\). Тогда \(n^2=2(2k^2+2k)+1\); число \(2k^2+2k\) целое, поэтому \(n^2\) нечётно.
-\item[\textbf{16.10.}] Контрпример: \(a = 1,\allowbreak b = - 1\).
-\item[\textbf{16.11.}] База \(n = 1\) верна. Если сумма до \(k\) равна \(\frac{k (k + 1)}{2}\), то после прибавления \(k + 1\) получаем \((k + 1) \frac{k + 2}{2}\).
-\item[\textbf{16.12.}] Доказательство как в задаче \(9\). Контрапозиция: если \(n^{2}\) чётно, то \(n\) чётно.
-\item[\textbf{16.13.}] Нет: напиток мог быть куплен отдельно.
-\item[\textbf{16.14.}] Хотя бы один любят \(16\); ни один не любят \(4\).
-\item[\textbf{16.15.}] Достаточно одного автобуса этого маршрута, который не низкопольный. Отрицание: существует такой автобус.
-\item[\textbf{16.16.}\starmark] Оба языка изучают \(4\); только английский \(14\).
-\item[\textbf{16.17.}\starmark] При делении любого целого числа на \(3\) возможны остатки \(0,1,2\). Остатки квадратов: \(0,\allowbreak 1,\allowbreak 1\). Нулевой остаток возможен только при остатке \(0\) у самого числа.
-\item[\textbf{16.18.}\starmark] База: \(1 = 1^{2}\). Переход: \(k^{2} + (2 k + 1) = (k + 1)^{2}\).
-\item[\textbf{16.19.}\starmark] Для любого \(x\) условие \(x\in A\setminus B\) равносильно одновременному выполнению \(x\in A\) и \(x\notin B\). Поскольку \(A\subseteq U\), это равносильно \(x\in A\) и \(x\in U\setminus B\), то есть \(x\in A\cap(U\setminus B)\). Все переходы обратимы, следовательно, множества равны.
-\item[\textbf{16.20.}\starmark] Элемент \(x\) принадлежит левой части тогда и только тогда, когда он принадлежит \(A\) и хотя бы одному из \(B,C\). Это означает: \(x\) принадлежит одновременно \(A,B\) или одновременно \(A,C\), что равносильно принадлежности правой части. На диаграмме слева выделяют часть объединения \(B\cup C\), лежащую внутри \(A\); справа объединяют области \(A\cap B\) и \(A\cap C\). Получается одна и та же область.
-\item[\textbf{16.21.}] Соответственно: верно, верно, неверно, верно. Для третьей записи контрпример — элемент \(4\in C\), которого нет в \(B\). Пустое множество является подмножеством любого множества.
-\item[\textbf{16.22.}] \(\mathcal P(\{a,b\})=\{\varnothing,\{a\},\{b\},\{a,b\}\}\). Множество из четырёх элементов имеет \(2^4=16\) подмножеств, включая пустое множество и само себя.
-\item[\textbf{16.23.}] Соответственно: \(\{6,8\}\), \(\{1,3\}\), \(\{1,3,6,8\}\), \(\{1,3,5,7\}\), \(\{5,6,7,8\}\).
-\item[\textbf{16.24.}] \(A\times B=\{(1,3),(2,3)\}\), \(B\times A=\{(3,1),(3,2)\}\). Множества различны: например, \((1,3)\) принадлежит только первому. В каждом по два элемента.
-\item[\textbf{16.25.}] Если \(U\) — вся группа, \(A\) — занимающиеся английским, \(B\) — музыкой, то \(A\triangle B=\{\text{Аня},\text{Боря},\text{Даша}\}\), а \(U\setminus(A\cup B)=\{\text{Глеб}\}\).
-\item[\textbf{16.26.}\starmark] Свободно выбирается подмножество множества \(\{\text{Глеб},\text{Даша},\text{Егор}\}\) из трёх человек. К нему всегда добавляют Аню и Борю. Каждому такому подмножеству соответствует ровно одна допустимая команда, поэтому команд \(2^3=8\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{16.1.} Пересечение: \(\{3\}\); объединение: \(\{1,\allowbreak 2,\allowbreak 3,\allowbreak 4\}\).\par
+\textbf{16.2.} \(\forall  x \in  \mathbb{R} : x^{2} \ge  0\).\par
+\textbf{16.3.} Существует целое \(x\), квадрат которого равен \(9\). Верно: \(x = 3\) или \(- 3\).\par
+\textbf{16.4.} Нет: при \(x = 0\) квадрат равен \(0\).\par
+\textbf{16.5.} В наборе есть хотя бы одно число, которое не положительно \((\le  0)\).\par
+\textbf{16.6.} Прямая верна; обратная нет, контрпример \(6\).\par
+\textbf{16.7.} Необходимое, но недостаточное: \(2\) чётно, но на \(6\) не делится.\par
+\textbf{16.8.} \(2 m + 2 n = 2 (m + n)\), где \(m,\allowbreak n \in  \mathbb{Z}\).\par
+\textbf{16.9.} Пусть \(n=2k+1\), где \(k\in\mathbb Z\). Тогда \(n^2=2(2k^2+2k)+1\); число \(2k^2+2k\) целое, поэтому \(n^2\) нечётно.\par
+\textbf{16.10.} Контрпример: \(a = 1,\allowbreak b = - 1\).\par
+\textbf{16.11.} База \(n = 1\) верна. Если сумма до \(k\) равна \(\frac{k (k + 1)}{2}\), то после прибавления \(k + 1\) получаем \((k + 1) \frac{k + 2}{2}\).\par
+\textbf{16.12.} Доказательство как в задаче \(9\). Контрапозиция: если \(n^{2}\) чётно, то \(n\) чётно.\par
+\textbf{16.13.} Нет: напиток мог быть куплен отдельно.\par
+\textbf{16.14.} Хотя бы один любят \(16\); ни один не любят \(4\).\par
+\textbf{16.15.} Достаточно одного автобуса этого маршрута, который не низкопольный. Отрицание: существует такой автобус.\par
+\textbf{16.16.}\starmark{} Оба языка изучают \(4\); только английский \(14\).\par
+\textbf{16.17.}\starmark{} При делении любого целого числа на \(3\) возможны остатки \(0,1,2\). Остатки квадратов: \(0,\allowbreak 1,\allowbreak 1\). Нулевой остаток возможен только при остатке \(0\) у самого числа.\par
+\textbf{16.18.}\starmark{} База: \(1 = 1^{2}\). Переход: \(k^{2} + (2 k + 1) = (k + 1)^{2}\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-36.png}
+\end{wrapfigure}
+\textbf{16.19.}\starmark{} Для любого \(x\) условие \(x\in A\setminus B\) равносильно одновременному выполнению \(x\in A\) и \(x\notin B\). Поскольку \(A\subseteq U\), это равносильно \(x\in A\) и \(x\in U\setminus B\), то есть \(x\in A\cap(U\setminus B)\). Все переходы обратимы, следовательно, множества равны.\par
+
+\textbf{16.20.}\starmark{} Элемент \(x\) принадлежит левой части тогда и только тогда, когда он принадлежит \(A\) и хотя бы одному из \(B,C\). Это означает: \(x\) принадлежит одновременно \(A,B\) или одновременно \(A,C\), что равносильно принадлежности правой части. На диаграмме слева выделяют часть объединения \(B\cup C\), лежащую внутри \(A\); справа объединяют области \(A\cap B\) и \(A\cap C\). Получается одна и та же область.\par
+
+\textbf{16.21.} Соответственно: верно, верно, неверно, верно. Для третьей записи контрпример — элемент \(4\in C\), которого нет в \(B\). Пустое множество является подмножеством любого множества.\par
+
+\textbf{16.22.} \(\mathcal P(\{a,b\})=\{\varnothing,\{a\},\{b\},\{a,b\}\}\). Множество из четырёх элементов имеет \(2^4=16\) подмножеств, включая пустое множество и само себя.\par
+
+\textbf{16.23.} Соответственно: \(\{6,8\}\), \(\{1,3\}\), \(\{1,3,6,8\}\), \(\{1,3,5,7\}\), \(\{5,6,7,8\}\).\par
+
+\textbf{16.24.} \(A\times B=\{(1,3),(2,3)\}\), \(B\times A=\{(3,1),(3,2)\}\). Множества различны: например, \((1,3)\) принадлежит только первому. В каждом по два элемента.\par
+
+\textbf{16.25.} Если \(U\) — вся группа, \(A\) — занимающиеся английским, \(B\) — музыкой, то \(A\triangle B=\{\text{Аня},\text{Боря},\text{Даша}\}\), а \(U\setminus(A\cup B)=\{\text{Глеб}\}\).\par
+
+\textbf{16.26.}\starmark{} Свободно выбирается подмножество множества \(\{\text{Глеб},\text{Даша},\text{Егор}\}\) из трёх человек. К нему всегда добавляют Аню и Борю. Каждому такому подмножеству соответствует ровно одна допустимая команда, поэтому команд \(2^3=8\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\endgroup
 \end{document}

@@ -1,4 +1,4 @@
-\chapter{Делимость, простые числа, НОД и НОК}
+\chapter{Делимость, простые числа, НОД и НОК}\markright{Глава 2}
 \section*{Делимость и кратность}
 
 \begin{definition}
@@ -10,6 +10,11 @@ b=ak.
 При этом \(a\) называют \term{делителем} (\emph{divisor}) числа \(b\).
 \end{definition}
 
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-07.png}
+\end{wrapfigure}
 Запись с тремя вертикальными точками \(b\mathrel{\vdots}a\) читается:
 «\(b\) делится на \(a\) нацело».
 В университетских курсах также используют запись \(a\mid b\): «\(a\) делит \(b\)».
@@ -19,7 +24,9 @@ b=ak.
 \qquad 12=4\cdot3.
 \]
 Здесь знак \(\Longleftrightarrow\) означает, что записи выражают одно и то же утверждение.
-
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 \begin{definition}
 \term{Кратное} (\emph{multiple}) числа \(a\ne0\) --- целое число \(b\), которое можно представить как \(b=ak\)
 с целым \(k\). Иначе говоря, \(b\) кратно \(a\), если \(b\mathrel{\vdots}a\).
@@ -83,7 +90,16 @@ b=ak.
 Каждое натуральное число больше \(1\) можно представить произведением простых чисел.
 Такое разложение единственно с точностью до перестановки множителей.
 \end{theorem}
-\begin{proof}Существование докажем индукцией по числу: простое число уже разложено; составное имеет вид \(ab\), где \(1<a,b<n\), и к обоим множителям применяется предположение индукции. Для единственности используем следующий факт: если простое \(p\) делит \(ab\), то оно делит \(a\) или \(b\). Если \(p\nmid a\), то \(\gcd(p,a)=1\); обратная подстановка в алгоритме Евклида даёт целые \(u,v\) с \(up+va=1\). Умножение на \(b\) показывает, что \(p\mid b\). Теперь первый простой множитель одного разложения обязан совпасть с одним из множителей другого; сократим его и повторим. Все множители совпадут с точностью до порядка.\end{proof}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[13]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-06.png}
+\end{wrapfigure}
+\textit{Доказательство.} Существование докажем индукцией по числу: простое число уже разложено; составное имеет вид \(ab\), где \(1<a,b<n\), и к обоим множителям применяется предположение индукции. Для единственности используем следующий факт: если простое \(p\) делит \(ab\), то оно делит \(a\) или \(b\). Если \(p\nmid a\), то \(\gcd(p,a)=1\); обратная подстановка в алгоритме Евклида даёт целые \(u,v\) с \(up+va=1\). Умножение на \(b\) показывает, что \(p\mid b\). Теперь первый простой множитель одного разложения обязан совпасть с одним из множителей другого; сократим его и повторим. Все множители совпадут с точностью до порядка.\hfill\(\square\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
 
 Например,
 \[
@@ -153,44 +169,59 @@ b=ak.
 Например, \(123\mathrel{\vdots}3\), поскольку \(1+2+3=6\),
 но \(123\) не делится на \(9\), поскольку \(6\) не делится на \(9\).
 \Needspace{7\baselineskip}\section*{Задачи}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=10pt]
-\Needspace{3\baselineskip}\item[\textbf{2.1.}] Выпиши все положительные делители \(36\).
-\Needspace{3\baselineskip}\item[\textbf{2.2.}] Выпиши все положительные делители \(48\).
-\Needspace{3\baselineskip}\item[\textbf{2.3.}] Найди общие положительные делители \(20\) и \(30\).
-\Needspace{3\baselineskip}\item[\textbf{2.4.}] Выпиши кратные \(7\) между \(20\) и \(60\).
-\Needspace{3\baselineskip}\item[\textbf{2.5.}] Найди наименьшее трёхзначное число, кратное \(8\).
-\Needspace{3\baselineskip}\item[\textbf{2.6.}] Раздели на простые и составные: \(17,\allowbreak 25,\allowbreak 31,\allowbreak 39,\allowbreak 49,\allowbreak 51,\allowbreak 53\).
-\Needspace{3\baselineskip}\item[\textbf{2.7.}] Выпиши простые числа от \(20\) до \(40\).
-\Needspace{3\baselineskip}\item[\textbf{2.8.}] Может ли простое число оканчиваться на \(0\)? Объясни.
-\Needspace{3\baselineskip}\item[\textbf{2.9.}] Любое ли нечётное число простое? Приведи контрпример.
-\Needspace{3\baselineskip}\item[\textbf{2.10.}] Какие числа делятся на \(3\), а какие на \(9\): \(126,\allowbreak 234,\allowbreak 405,\allowbreak 517,\allowbreak 702\)?
-\Needspace{3\baselineskip}\item[\textbf{2.11.}] Какие числа делятся на \(2\) и на \(5\) одновременно: \(125,\allowbreak 230,\allowbreak 342,\allowbreak 480,\allowbreak 705\)?
-\Needspace{3\baselineskip}\item[\textbf{2.12.}] Какие цифры можно поставить вместо \(\square \) в \(43 \square \), чтобы число делилось на \(3\)?
-\Needspace{3\baselineskip}\item[\textbf{2.13.}] Какая цифра вместо \(\square \) в \(7 \square  2\) даёт делимость на \(9\)?
-\Needspace{3\baselineskip}\item[\textbf{2.14.}] Какие цифры вместо \(\square \) в \(12 \square \) дают делимость на \(2\) и на \(3\)?
-\Needspace{3\baselineskip}\item[\textbf{2.15.}] Разложи \(72\) на простые множители.
-\Needspace{3\baselineskip}\item[\textbf{2.16.}] Разложи \(150\) на простые множители.
-\Needspace{3\baselineskip}\item[\textbf{2.17.}] Разложи \(252\) на простые множители.
-\Needspace{3\baselineskip}\item[\textbf{2.18.}] Заверши разложение \(90 = 2 \cdot  5 \cdot  9\) на простые множители.
-\Needspace{3\baselineskip}\item[\textbf{2.19.}] Найди НОД и НОК чисел \(24\) и \(36\).
-\Needspace{3\baselineskip}\item[\textbf{2.20.}] Найди НОД и НОК чисел \(18\) и \(45\).
-\Needspace{3\baselineskip}\item[\textbf{2.21.}] Найди НОД и НОК чисел \(8\) и \(15\).
-\Needspace{3\baselineskip}\item[\textbf{2.22.}] Найди НОД и НОК чисел \(12,\allowbreak 18\) и \(30\).
-\Needspace{3\baselineskip}\item[\textbf{2.23.}] Из \(24\) карандашей и \(36\) ручек собери максимум одинаковых наборов, использовав всё. Сколько наборов и что в каждом?
-\Needspace{3\baselineskip}\item[\textbf{2.24.}] Автобусы отправились вместе в 9:00. Интервалы отправления: \(12\) и \(18\) минут. Когда следующее совместное отправление?
-\Needspace{3\baselineskip}\item[\textbf{2.25.}] Прямоугольник \(60 \times  84\) см разрежь без остатка на одинаковые квадраты наибольшей стороны. Найди сторону и число квадратов.
-\Needspace{3\baselineskip}\item[\textbf{2.26.}] Выпиши все положительные делители \(24\).
-\Needspace{3\baselineskip}\item[\textbf{2.27.}] Выпиши первые пять положительных кратных \(6\).
-\Needspace{3\baselineskip}\item[\textbf{2.28.}] Какие из чисел \(1,\allowbreak 2,\allowbreak 9,\allowbreak 13,\allowbreak 21,\allowbreak 29\) простые?
-\Needspace{3\baselineskip}\item[\textbf{2.29.}] На какие числа из списка \(2,\allowbreak 3,\allowbreak 5,\allowbreak 9,\allowbreak 10\) делится \(450\)?
-\Needspace{3\baselineskip}\item[\textbf{2.30.}] Разложи \(84\) на простые множители.
-\Needspace{3\baselineskip}\item[\textbf{2.31.}] Найди НОД и НОК чисел \(12\) и \(18\).
-\Needspace{3\baselineskip}\item[\textbf{2.32.}] Из жизни. Для праздника есть \(42\) яблока и \(56\) мандаринов. Их нужно разложить без остатка в максимальное число одинаковых подарков. Сколько подарков получится и что будет в каждом?
-\Needspace{3\baselineskip}\item[\textbf{2.33.}] Из жизни. Два индикатора загорелись одновременно. Один загорается каждые \(8\) секунд, другой каждые \(12\) секунд. Через сколько секунд они впервые снова загорятся вместе?
-\Needspace{3\baselineskip}\item[\textbf{2.34.}] Из жизни. В коробке \(97\) деталей. Можно ли разложить их в одинаковые группы больше одной детали, получив больше одной группы, без остатка?
-\Needspace{3\baselineskip}\item[\textbf{2.35.}\starmark] Найди наименьшее натуральное число, которое при делении на \(6,\allowbreak 8\) и \(9\) даёт остаток \(1\) и при этом больше \(1\).
-\Needspace{3\baselineskip}\item[\textbf{2.36.}\starmark] НОД двух положительных целых чисел равен \(6\), НОК равен \(180\). Одно число \(30\). Найди второе.
-\Needspace{3\baselineskip}\item[\textbf{2.37.}\starmark] Найди все цифры \(a\) и \(b\), чтобы четырёхзначное число \(\overline{3a5b}\) делилось на \(5\) и на \(9\).
-\Needspace{3\baselineskip}\item[\textbf{2.38.}] Пусть \(a>b>0\) --- целые числа. Докажи равенство \(\gcd(a,b)=\gcd(b,a-b)\), показав, что пары имеют одни и те же положительные общие делители.
-\Needspace{3\baselineskip}\item[\textbf{2.39.}] Пусть \(p\) --- простое число, \(a,b\) --- положительные целые числа. Используя основную теорему арифметики, докажи: если \(p\mid ab\), то \(p\mid a\) или \(p\mid b\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{3pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.1.} Выпиши все положительные делители \(36\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.2.} Выпиши все положительные делители \(48\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.3.} Найди общие положительные делители \(20\) и \(30\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.4.} Выпиши кратные \(7\) между \(20\) и \(60\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.5.} Найди наименьшее трёхзначное число, кратное \(8\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.6.} Раздели на простые и составные: \(17,\allowbreak 25,\allowbreak 31,\allowbreak 39,\allowbreak 49,\allowbreak 51,\allowbreak 53\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.7.} Выпиши простые числа от \(20\) до \(40\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.8.} Может ли простое число оканчиваться на \(0\)? Объясни.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.9.} Любое ли нечётное число простое? Приведи контрпример.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.10.} Какие числа делятся на \(3\), а какие на \(9\): \(126,\allowbreak 234,\allowbreak 405,\allowbreak 517,\allowbreak 702\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.11.} Какие числа делятся на \(2\) и на \(5\) одновременно: \(125,\allowbreak 230,\allowbreak 342,\allowbreak 480,\allowbreak 705\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.12.} Какие цифры можно поставить вместо \(\square \) в \(43 \square \), чтобы число делилось на \(3\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.13.} Какая цифра вместо \(\square \) в \(7 \square  2\) даёт делимость на \(9\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.14.} Какие цифры вместо \(\square \) в \(12 \square \) дают делимость на \(2\) и на \(3\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.15.} Разложи \(72\) на простые множители.\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-08.png}
+\end{wrapfigure}
+\textbf{2.16.} Разложи \(150\) на простые множители.\par
+
+\textbf{2.17.} Разложи \(252\) на простые множители.\par
+
+\textbf{2.18.} Заверши разложение \(90 = 2 \cdot  5 \cdot  9\) на простые множители.\par
+
+\textbf{2.19.} Найди НОД и НОК чисел \(24\) и \(36\).\par
+
+\textbf{2.20.} Найди НОД и НОК чисел \(18\) и \(45\).\par
+
+\textbf{2.21.} Найди НОД и НОК чисел \(8\) и \(15\).\par
+
+\textbf{2.22.} Найди НОД и НОК чисел \(12,\allowbreak 18\) и \(30\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.23.} Из \(24\) карандашей и \(36\) ручек собери максимум одинаковых наборов, использовав всё. Сколько наборов и что в каждом?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.24.} Автобусы отправились вместе в 9:00. Интервалы отправления: \(12\) и \(18\) минут. Когда следующее совместное отправление?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.25.} Прямоугольник \(60 \times  84\) см разрежь без остатка на одинаковые квадраты наибольшей стороны. Найди сторону и число квадратов.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.26.} Выпиши все положительные делители \(24\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.27.} Выпиши первые пять положительных кратных \(6\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.28.} Какие из чисел \(1,\allowbreak 2,\allowbreak 9,\allowbreak 13,\allowbreak 21,\allowbreak 29\) простые?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.29.} На какие числа из списка \(2,\allowbreak 3,\allowbreak 5,\allowbreak 9,\allowbreak 10\) делится \(450\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.30.} Разложи \(84\) на простые множители.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.31.} Найди НОД и НОК чисел \(12\) и \(18\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.32.} Из жизни. Для праздника есть \(42\) яблока и \(56\) мандаринов. Их нужно разложить без остатка в максимальное число одинаковых подарков. Сколько подарков получится и что будет в каждом?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.33.} Из жизни. Два индикатора загорелись одновременно. Один загорается каждые \(8\) секунд, другой каждые \(12\) секунд. Через сколько секунд они впервые снова загорятся вместе?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.34.} Из жизни. В коробке \(97\) деталей. Можно ли разложить их в одинаковые группы больше одной детали, получив больше одной группы, без остатка?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.35.}\starmark{} Найди наименьшее натуральное число, которое при делении на \(6,\allowbreak 8\) и \(9\) даёт остаток \(1\) и при этом больше \(1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.36.}\starmark{} НОД двух положительных целых чисел равен \(6\), НОК равен \(180\). Одно число \(30\). Найди второе.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.37.}\starmark{} Найди все цифры \(a\) и \(b\), чтобы четырёхзначное число \(\overline{3a5b}\) делилось на \(5\) и на \(9\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.38.} Пусть \(a>b>0\) --- целые числа. Докажи равенство \(\gcd(a,b)=\gcd(b,a-b)\), показав, что пары имеют одни и те же положительные общие делители.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{2.39.} Пусть \(p\) --- простое число, \(a,b\) --- положительные целые числа. Используя основную теорему арифметики, докажи: если \(p\mid ab\), то \(p\mid a\) или \(p\mid b\).\par\end{minipage}\par
+\endgroup

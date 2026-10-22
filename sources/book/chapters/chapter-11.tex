@@ -1,4 +1,4 @@
-\chapter{Уравнения, системы и неравенства}
+\chapter{Уравнения, системы и неравенства}\markright{Глава 11}
 \begin{definition}\term{Корень уравнения} (\emph{root; solution of an equation}) — допустимое значение неизвестного, при котором равенство верно.\end{definition}
 \begin{definition}\term{Решение неравенства} (\emph{solution of an inequality}) — значение неизвестного, при котором указанное сравнение верно.\end{definition}
 \begin{definition}\term{Решение системы} (\emph{solution of a system}) — значения неизвестных, которые удовлетворяют всем её условиям одновременно.\end{definition}
@@ -13,7 +13,7 @@
 При возведении уравнения в квадрат могут появиться посторонние корни: проверь найденные значения в исходном условии.\par
 {\small\textit{Пример: \(- 2 x > 6\) даёт \(x < - 3\). Уравнение \(\sqrt{x + 2} = x\) требует \(x \ge  0\) ещё до возведения в квадрат.}}\par
 
-% Дополнение к главе 15. Только действительные решения; формулы Кардано и Феррари не используются.
+% Дополнение к главе 11. Только действительные решения; формулы Кардано и Феррари не используются.
 \subsection*{Многочлены и уравнения третьей степени}
 \begin{definition}
 \term{Многочлен} (polynomial) от \(x\) — выражение
@@ -59,13 +59,20 @@ x^k-r^k=(x-r)(x^{k-1}+x^{k-2}r+\cdots+r^{k-1}).
 \begin{theorem}[Рациональный корень]
 Пусть коэффициенты \(P(x)=a_nx^n+\cdots+a_0\) целые, \(a_n\neq0\), \(a_0\neq0\). Если \(\frac pq\) — \term{рациональный корень} (rational root), причём \(p,q\) взаимно просты и \(q>0\), то \(p\) делит \(a_0\), а \(q\) делит \(a_n\).
 \end{theorem}
-\begin{proof}
-Подстановка \(\frac pq\) и умножение на \(q^n\) дают
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-09.png}
+\end{wrapfigure}
+\textit{Доказательство.} Подстановка \(\frac pq\) и умножение на \(q^n\) дают
 \[
 a_np^n+a_{n-1}p^{n-1}q+\cdots+a_1pq^{n-1}+a_0q^n=0.
 \]
-Все слагаемые, кроме последнего, делятся на \(p\), поэтому \(p\) делит \(a_0q^n\). Поскольку \(p\) и \(q^n\) взаимно просты, \(p\) делит \(a_0\). Аналогично \(q\) делит \(a_np^n\), а значит, делит \(a_n\). Использованное свойство взаимной простоты следует из разложения на простые множители: множители делителя, отсутствующие в одном сомножителе, должны целиком входить в другой.
-\end{proof}
+Все слагаемые, кроме последнего, делятся на \(p\), поэтому \(p\) делит \(a_0q^n\). Поскольку \(p\) и \(q^n\) взаимно просты, \(p\) делит \(a_0\). Аналогично \(q\) делит \(a_np^n\), а значит, делит \(a_n\). Использованное свойство взаимной простоты следует из разложения на простые множители: множители делителя, отсутствующие в одном сомножителе, должны целиком входить в другой.\hfill\(\square\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
 
 Если старший коэффициент равен \(1\), рациональный корень может быть только целым делителем свободного члена. Проверяем кандидатов подстановкой, а найденный множитель \(x-r\) отделяем по теореме Безу. Если свободный член нулевой, сначала выносим \(x\). Отсутствие рациональных корней не означает отсутствия действительных: например, \(x^3-2=0\) имеет корень \(\sqrt[3]2\).
 
@@ -124,13 +131,20 @@ at^2+bt+c-2a=0,\qquad |t|\geq2.
 \]
 Для каждого допустимого \(t\) решают \(x^2-tx+1=0\).
 \end{theorem}
-\begin{proof}
-При \(x=0\) левая часть исходного уравнения равна \(a\neq0\), поэтому деление на \(x^2\) допустимо. Получаем
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-24.png}
+\end{wrapfigure}
+\textit{Доказательство.} При \(x=0\) левая часть исходного уравнения равна \(a\neq0\), поэтому деление на \(x^2\) допустимо. Получаем
 \[
 a\left(x^2+\frac1{x^2}\right)+b\left(x+\frac1x\right)+c=0.
 \]
-Из \(t=x+\frac1x\) следует \(x^2+\frac1{x^2}=t^2-2\), что даёт квадратное уравнение для \(t\). Обратная подстановка равносильна \(x^2-tx+1=0\). Его дискриминант \(t^2-4\) неотрицателен ровно при \(|t|\geq2\); свободный член \(1\) исключает нулевой корень. Значит, указанное условие необходимо и достаточно.
-\end{proof}
+Из \(t=x+\frac1x\) следует \(x^2+\frac1{x^2}=t^2-2\), что даёт квадратное уравнение для \(t\). Обратная подстановка равносильна \(x^2-tx+1=0\). Его дискриминант \(t^2-4\) неотрицателен ровно при \(|t|\geq2\); свободный член \(1\) исключает нулевой корень. Значит, указанное условие необходимо и достаточно.\hfill\(\square\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
 
 \begin{example}
 Для \(x^4-3x^3+2x^2-3x+1=0\) получаем \(t^2-3t=0\), то есть \(t=0\) или \(t=3\). Значение \(t=0\) не удовлетворяет \(|t|\geq2\). При \(t=3\) имеем \(x^2-3x+1=0\), откуда
@@ -140,33 +154,48 @@ x=\frac{3-\sqrt5}{2}\quad\text{или}\quad x=\frac{3+\sqrt5}{2}.
 \end{example}
 
 \Needspace{7\baselineskip}\section*{Задачи}
-\begin{enumerate}[label={},leftmargin=3.2em,itemsep=10pt]
-\Needspace{3\baselineskip}\item[\textbf{11.1.}] Реши \(3 x - 7 = 11\).
-\Needspace{3\baselineskip}\item[\textbf{11.2.}] Реши \(2 (x - 3) = 5 x + 9\).
-\Needspace{3\baselineskip}\item[\textbf{11.3.}] Реши \(x^{2} - 5 x + 6 = 0\).
-\Needspace{3\baselineskip}\item[\textbf{11.4.}] Реши \(2 x^{2} - 8 = 0\).
-\Needspace{3\baselineskip}\item[\textbf{11.5.}] Реши \(\frac{x + 1}{x - 2} = 2\).
-\Needspace{3\baselineskip}\item[\textbf{11.6.}] Реши систему: \(x + y = 7;\allowbreak x - y = 1\).
-\Needspace{3\baselineskip}\item[\textbf{11.7.}] Реши \(- 3 x > 12\).
-\Needspace{3\baselineskip}\item[\textbf{11.8.}] Реши \(x^{2} - 9 \le  0\).
-\Needspace{3\baselineskip}\item[\textbf{11.9.}] Реши \((x - 1) (x + 2) > 0\).
-\Needspace{3\baselineskip}\item[\textbf{11.10.}] Реши \(\frac{x - 3}{x + 1} \le  0\).
-\Needspace{3\baselineskip}\item[\textbf{11.11.}] Реши \(| 2 x - 1 | = 5\).
-\Needspace{3\baselineskip}\item[\textbf{11.12.}] Реши \(\sqrt{x + 2} = x\).
-\Needspace{3\baselineskip}\item[\textbf{11.13.}] Из жизни. Поездка на такси стоит \(150\) рублей за подачу и \(30\) рублей за километр. Счёт составил \(510\) рублей. Какое расстояние проехали?
-\Needspace{3\baselineskip}\item[\textbf{11.14.}] Из жизни. За \(3\) одинаковых блокнота и ручку стоимостью \(80\) рублей заплатили \(440\) рублей. Сколько стоит блокнот?
-\Needspace{3\baselineskip}\item[\textbf{11.15.}] Из жизни. Для покупки билетов по \(350\) рублей выделено \(2000\) рублей. Какое максимальное целое число билетов можно купить?
-\Needspace{3\baselineskip}\item[\textbf{11.16.}\starmark] Реши \(\sqrt{2 x + 3} = x\).
-\Needspace{3\baselineskip}\item[\textbf{11.17.}\starmark] Реши \(\frac{x - 2}{x + 3} \ge  1\).
-\Needspace{3\baselineskip}\item[\textbf{11.18.}\starmark] У прямоугольного участка периметр \(34\) м, площадь \(60\) м\(^{2}\). Найди стороны.
-\Needspace{3\baselineskip}\item[\textbf{11.19.}] Докажите формулы Виета: если \(x_1,x_2\) — действительные корни \(ax^2+bx+c=0\), \(a\neq0\), с учётом кратности, то \(x_1+x_2=-\frac ba\), \(x_1x_2=\frac ca\).
-\Needspace{3\baselineskip}\item[\textbf{11.20.}] Докажите, что квадратное уравнение \(ax^2+bx+c=0\), \(a\neq0\), имеет действительный корень тогда и только тогда, когда \(D=b^2-4ac\geq0\). Используйте выделение полного квадрата.
-\Needspace{3\baselineskip}\item[\textbf{11.21.}] Решите в действительных числах \(x^3-8=0\), разложив разность кубов на множители.
-\Needspace{3\baselineskip}\item[\textbf{11.22.}] Решите в действительных числах \(x^3+27=0\), разложив сумму кубов на множители.
-\Needspace{3\baselineskip}\item[\textbf{11.23.}] Решите \(x^3-6x^2+11x-6=0\). Найдите целый корень, затем выделите соответствующий линейный множитель.
-\Needspace{3\baselineskip}\item[\textbf{11.24.}] Решите \(2x^3-3x^2-8x+12=0\) в действительных числах.
-\Needspace{3\baselineskip}\item[\textbf{11.25.}\starmark] В уравнении \(x^3-6x^2+9x-4=0\) сделайте замену \(x=t+2\). Решите полученное уравнение и вернитесь к \(x\).
-\Needspace{3\baselineskip}\item[\textbf{11.26.}] Решите биквадратное уравнение \(x^4-5x^2+4=0\).
-\Needspace{3\baselineskip}\item[\textbf{11.27.}] Решите в действительных числах \(x^4+3x^2-4=0\), проверив допустимость найденных значений \(x^2\).
-\Needspace{3\baselineskip}\item[\textbf{11.28.}\starmark] Решите возвратное уравнение \(x^4-5x^3+6x^2-5x+1=0\). Для каждого корня уравнения относительно \(t=x+\frac1x\) проверьте условие \(|t|\geq2\).
-\end{enumerate}
+\begingroup\setlength{\parskip}{3pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.1.} Реши \(3 x - 7 = 11\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.2.} Реши \(2 (x - 3) = 5 x + 9\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.3.} Реши \(x^{2} - 5 x + 6 = 0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.4.} Реши \(2 x^{2} - 8 = 0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.5.} Реши \(\dfrac{x + 1}{x - 2} = 2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.6.} Реши систему: \(x + y = 7;\allowbreak x - y = 1\).\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-39.png}
+\end{wrapfigure}
+\textbf{11.7.} Реши \(- 3 x > 12\).\par
+
+\textbf{11.8.} Реши \(x^{2} - 9 \le  0\).\par
+
+\textbf{11.9.} Реши \((x - 1) (x + 2) > 0\).\par
+
+\textbf{11.10.} Реши \(\dfrac{x - 3}{x + 1} \le  0\).\par
+
+\textbf{11.11.} Реши \(| 2 x - 1 | = 5\).\par
+
+\textbf{11.12.} Реши \(\sqrt{x + 2} = x\).\par
+
+\textbf{11.13.} Из жизни. Поездка на такси стоит \(150\) рублей за подачу и \(30\) рублей за километр. Счёт составил \(510\) рублей. Какое расстояние проехали?\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.14.} Из жизни. За \(3\) одинаковых блокнота и ручку стоимостью \(80\) рублей заплатили \(440\) рублей. Сколько стоит блокнот?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.15.} Из жизни. Для покупки билетов по \(350\) рублей выделено \(2000\) рублей. Какое максимальное целое число билетов можно купить?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.16.}\starmark{} Реши \(\sqrt{2 x + 3} = x\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.17.}\starmark{} Реши \(\dfrac{x - 2}{x + 3} \ge  1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.18.}\starmark{} У прямоугольного участка периметр \(34\) м, площадь \(60\) м\(^{2}\). Найди стороны.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.19.} Докажите формулы Виета: если \(x_1,x_2\) — действительные корни \(ax^2+bx+c=0\), \(a\neq0\), с учётом кратности, то \(x_1+x_2=-\dfrac ba\), \(x_1x_2=\dfrac ca\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.20.} Докажите, что квадратное уравнение \(ax^2+bx+c=0\), \(a\neq0\), имеет действительный корень тогда и только тогда, когда \(D=b^2-4ac\geq0\). Используйте выделение полного квадрата.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.21.} Решите в действительных числах \(x^3-8=0\), разложив разность кубов на множители.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.22.} Решите в действительных числах \(x^3+27=0\), разложив сумму кубов на множители.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.23.} Решите \(x^3-6x^2+11x-6=0\). Найдите целый корень, затем выделите соответствующий линейный множитель.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.24.} Решите \(2x^3-3x^2-8x+12=0\) в действительных числах.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.25.}\starmark{} В уравнении \(x^3-6x^2+9x-4=0\) сделайте замену \(x=t+2\). Решите полученное уравнение и вернитесь к \(x\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.26.} Решите биквадратное уравнение \(x^4-5x^2+4=0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.27.} Решите в действительных числах \(x^4+3x^2-4=0\), проверив допустимость найденных значений \(x^2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{11.28.}\starmark{} Решите возвратное уравнение \(x^4-5x^3+6x^2-5x+1=0\). Для каждого корня уравнения относительно \(t=x+\dfrac1x\) проверьте условие \(|t|\geq2\).\par\end{minipage}\par
+\endgroup
