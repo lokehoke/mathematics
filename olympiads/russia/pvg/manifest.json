@@ -1,0 +1,1953 @@
+{
+  "contest": "Покори Воробьёвы горы — математика",
+  "id": "pvg",
+  "subject": "mathematics",
+  "started_at": "2026-10-22T15:41:13.641521+00:00",
+  "updated_at": "2026-10-22T15:41:20.197805+00:00",
+  "scope": {
+    "name": "Покори Воробьёвы горы — математика",
+    "seeds": [
+      "https://pvg.mk.ru/"
+    ],
+    "domains": [
+      "pvg.mk.ru",
+      "www.mk.ru"
+    ],
+    "scope": "(?:.*pvg.*|.*archive.*|.*arhiv.*|.*zadani.*|.*math.*)",
+    "math_only": false,
+    "depth": 4
+  },
+  "seeds": [
+    "https://pvg.mk.ru/"
+  ],
+  "crawl_limits": {
+    "max_pages": 2400,
+    "max_depth": 6
+  },
+  "coverage_status": "partial",
+  "documents": [
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math11tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math10tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math9tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math78tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math56tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/appeals/appeals_math.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "5-7",
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "Заключительный этап",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/efcf01bab176-appeals_math.pdf",
+      "sha256": "24e74977382d4fe86a971dc3cd0aa76ec30c4d8c6c09440a91080059bfb82e13",
+      "bytes": 161837,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/stage2/appeals/appeals_math.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/docs/appeal_sample.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/news/page7/",
+      "year": null,
+      "stage": null,
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "Образцом апелляции",
+      "heading": "Предварительные результаты по математике",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/f3175e0a1337-appeal_sample.pdf",
+      "sha256": "ea8d4028694aeab51a79d24a72d256baaf4fbd254b6c9f477a5f1ef0319d3b78",
+      "bytes": 437063,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/docs/appeal_sample.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/2016stage1/tgrades/math5_9tgrd_corrected.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/news/page26/",
+      "year": "2016",
+      "stage": null,
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "размещены правильные технические баллы",
+      "heading": "Измененение в результатах олимпиады по математике среди 5-9 классов",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2020-2021gg/stage2/keys/math10_11stage2_keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2020-2021/",
+      "year": "2020/2021",
+      "stage": "final",
+      "classes": "10-11",
+      "document_type": "mathematics_material",
+      "label": "10-11 классы",
+      "heading": "Архив за 2020-2021 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/12b12cdb7644-math10_11stage2_keys.pdf",
+      "sha256": "e040b5ce8a33182c4d4903aa21a19e5320fee698fe44a98fb3dfce25972898f8",
+      "bytes": 274241,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/archive/2020-2021gg/stage2/keys/math10_11stage2_keys.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2020-2021gg/stage2/keys/math5_9stage2_keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2020-2021/",
+      "year": "2020/2021",
+      "stage": "final",
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "5-9 классы",
+      "heading": "Архив за 2020-2021 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/a9abda256738-math5_9stage2_keys.pdf",
+      "sha256": "8fb6361f1578adfa2cab4bcf5f4d958c2e1a6d7fc8009943a525f0e96f5aa07d",
+      "bytes": 300668,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/archive/2020-2021gg/stage2/keys/math5_9stage2_keys.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2020-2021gg/stage1/keys/math1011keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2020-2021/",
+      "year": "2020/2021",
+      "stage": null,
+      "classes": "10-11",
+      "document_type": "mathematics_material",
+      "label": "10-11 классы",
+      "heading": "Архив за 2020-2021 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/c32ea2a9587d-math1011keys.pdf",
+      "sha256": "bc09f67aa957e46c8305af39c5bd4307d31fe52e33cfff40a25aa6fa993bf465",
+      "bytes": 136874,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/archive/2020-2021gg/stage1/keys/math1011keys.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2020-2021gg/stage1/keys/math59keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2020-2021/",
+      "year": "2020/2021",
+      "stage": null,
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "5-9 классы",
+      "heading": "Архив за 2020-2021 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/d2ebbae873a8-math59keys.pdf",
+      "sha256": "c08fdbf4bb150adaaffe195c98b38ebadba25dd828b1ac923b53265515451bd2",
+      "bytes": 1143492,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/archive/2020-2021gg/stage1/keys/math59keys.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage2/keys/pvg_math1011_keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2021-2022/",
+      "year": "2021/2022",
+      "stage": "final",
+      "classes": "10-11",
+      "document_type": "mathematics_material",
+      "label": "10-11 классы",
+      "heading": "Архив за 2021-2022 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/e2cb94617512-pvg_math1011_keys.zip",
+      "sha256": "6b0b7274ac5331696688ee718b63c0a06296899fe8d172e976d841b6b817739c",
+      "bytes": 789349,
+      "content_type": "application/zip",
+      "final_url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage2/keys/pvg_math1011_keys.zip",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage2/keys/pvg_math59_keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2021-2022/",
+      "year": "2021/2022",
+      "stage": "final",
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "5-9 классы",
+      "heading": "Архив за 2021-2022 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/594c8bc16a51-pvg_math59_keys.zip",
+      "sha256": "b647b03aab7e82bee372df587e793dafb1966763cf04627e8dc03bd29a77685e",
+      "bytes": 936206,
+      "content_type": "application/zip",
+      "final_url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage2/keys/pvg_math59_keys.zip",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage1/keys/math1011keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2021-2022/",
+      "year": "2021/2022",
+      "stage": null,
+      "classes": "10-11",
+      "document_type": "mathematics_material",
+      "label": "10-11 классы",
+      "heading": "Архив за 2021-2022 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/6c71194fd7e1-math1011keys.pdf",
+      "sha256": "5c0e65abca1cac690765b1ca25299b7d809718324843fe70292067b309f277df",
+      "bytes": 153250,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage1/keys/math1011keys.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage1/keys/math9keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2021-2022/",
+      "year": "2021/2022",
+      "stage": null,
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Архив за 2021-2022 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/16d026f95d02-math9keys.pdf",
+      "sha256": "87f829cec123fe8924ab235d422486688a4d71cbef565ab00d87e18aa4b02780",
+      "bytes": 304561,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage1/keys/math9keys.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage1/keys/math78keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2021-2022/",
+      "year": "2021/2022",
+      "stage": null,
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Архив за 2021-2022 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/c9dd9d98c6aa-math78keys.pdf",
+      "sha256": "be2ea3091bde27f400a29e8da3c4fb1c5d1364e3a06b2a12f68f4532a3f2a71c",
+      "bytes": 304134,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage1/keys/math78keys.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage1/keys/math56keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2021-2022/",
+      "year": "2021/2022",
+      "stage": null,
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Архив за 2021-2022 год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/5de8c3b43929-math56keys.pdf",
+      "sha256": "dcba6cc390f31f815695d26c2feee2370b3ff02f3bf67cf90354d8239444a840",
+      "bytes": 285601,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/archive/2021-2022gg/stage1/keys/math56keys.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage2/keys/math11keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2022-2023/",
+      "year": "2022/2023",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Архив за 2022-2023 год",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage2/keys/math510keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2022-2023/",
+      "year": "2022/2023",
+      "stage": null,
+      "classes": "5-10",
+      "document_type": "mathematics_material",
+      "label": "5-10 классы",
+      "heading": "Архив за 2022-2023 год",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage1/keys/math11stage1keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2022-2023/",
+      "year": "2022/2023",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Архив за 2022-2023 год",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage1/keys/math510stage1keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2022-2023/",
+      "year": "2022/2023",
+      "stage": null,
+      "classes": "5-10",
+      "document_type": "mathematics_material",
+      "label": "5-10 классы",
+      "heading": "Архив за 2022-2023 год",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage2/keys/math11keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2023-2024/",
+      "year": "2023/2024",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Архив за 2023-2024 год",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage2/keys/math510keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2023-2024/",
+      "year": "2023/2024",
+      "stage": null,
+      "classes": "5-10",
+      "document_type": "mathematics_material",
+      "label": "5-10 классы",
+      "heading": "Архив за 2023-2024 год",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage1/keys/math11stage1keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2023-2024/",
+      "year": "2023/2024",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Архив за 2023-2024 год",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage1/keys/math510stage1keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2023-2024/",
+      "year": "2023/2024",
+      "stage": null,
+      "classes": "5-10",
+      "document_type": "mathematics_material",
+      "label": "5-10 классы",
+      "heading": "Архив за 2023-2024 год",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math11keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math10keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math9keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math78keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math56keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math11stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math10stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math9stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math78stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math56stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/math10_11stage2_keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys2019/",
+      "year": null,
+      "stage": "final",
+      "classes": "10-11",
+      "document_type": "mathematics_material",
+      "label": "10-11 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/math5_9stage2_keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys2019/",
+      "year": null,
+      "stage": "final",
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "5-9 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math10_11key.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys2018/",
+      "year": null,
+      "stage": "qualifying",
+      "classes": "10-11",
+      "document_type": "mathematics_material",
+      "label": "10-11 классы",
+      "heading": "Ответы на задания отборочного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math5_9key.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys2018/",
+      "year": null,
+      "stage": "qualifying",
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "5-9 классы",
+      "heading": "Ответы на задания отборочного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math11tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math10tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math9tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math78tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math56tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Заключительный этап",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/appeals/appeals_math.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "Заключительный этап",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/795fad03b548-appeals_math.pdf",
+      "sha256": "24e74977382d4fe86a971dc3cd0aa76ec30c4d8c6c09440a91080059bfb82e13",
+      "bytes": 161837,
+      "content_type": "application/pdf",
+      "final_url": "https://pvg.mk.ru/media/stage2/appeals/appeals_math.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    }
+  ],
+  "indexes": [
+    {
+      "url": "https://pvg.mk.ru/",
+      "local_path": "olympiads/russia/pvg/indexes/9da138b73a80-index.html",
+      "sha256": "39f75b9fe62a790fa32c29e333d45554c0d3cc00a71a3c92bdc67eb1f6f690ec",
+      "bytes": 15713,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/about/",
+      "local_path": "olympiads/russia/pvg/indexes/cbd39cf2ba22-index.html",
+      "sha256": "7bdc9ae1aca35c9498787cd67c4048ae6ef38b26fa83b2860580fe5487d09a40",
+      "bytes": 16193,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/about/gusev/",
+      "local_path": "olympiads/russia/pvg/indexes/fe46a4338361-index.html",
+      "sha256": "db26373bce31df9b2ca356f9715cc15d6be3284d4aa8c8f66e040023f2ff3d6b",
+      "bytes": 18239,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/about/sadovnichy/",
+      "local_path": "olympiads/russia/pvg/indexes/48bc8fa06079-index.html",
+      "sha256": "ff2086903284b162f7c5c9fde340b1dda87c8ecc91e80e3c227237888b541617",
+      "bytes": 16430,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/",
+      "local_path": "olympiads/russia/pvg/indexes/167440d86184-index.html",
+      "sha256": "a633993959b12412cefb542c61f35b3fc82e56fde7d52e9e6e0733c9fb41a870",
+      "bytes": 23381,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/archive/archive/",
+      "local_path": "olympiads/russia/pvg/indexes/69c7a1586154-index.html",
+      "sha256": "e224af85fc4a32c7e41d156490f27cb63beace65a9226eca8df433a7e3728388",
+      "bytes": 13116,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/stage1info/",
+      "local_path": "olympiads/russia/pvg/indexes/de46da48ca32-index.html",
+      "sha256": "be76f61cf32608319850641e383639032a8c7b9c2e617a8aa5d5ff368cf73454",
+      "bytes": 23527,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/stage2info/",
+      "local_path": "olympiads/russia/pvg/indexes/ef5d25a313b5-index.html",
+      "sha256": "ab7b76294dd9b102b4ec5472b2d0d1fea89c86717688d754f9e9e5f474c3fda6",
+      "bytes": 21797,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page1/",
+      "local_path": "olympiads/russia/pvg/indexes/5757223318db-index.html",
+      "sha256": "4d7d7bcda07fcec45f7c1135a4e6e6673301fb86a650146c71c4d283ae96dfa8",
+      "bytes": 23381,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page2/",
+      "local_path": "olympiads/russia/pvg/indexes/52e616a5d78d-index.html",
+      "sha256": "0ee26a5e23fa00199d9e980a6cf26e4f7848b5c89b68363c92f80ff20c8c7b07",
+      "bytes": 24500,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page3/",
+      "local_path": "olympiads/russia/pvg/indexes/e811550aa877-index.html",
+      "sha256": "5b96f47f8970970cc83a129d353e60fbae9a4cca0c0556ad7a90d0328936751c",
+      "bytes": 23651,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page4/",
+      "local_path": "olympiads/russia/pvg/indexes/3838d0a2e3f8-index.html",
+      "sha256": "510708d9c34667188aa452b7e4c2ba674b40af14a1a7e5fee057f681eaa838ca",
+      "bytes": 24891,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page5/",
+      "local_path": "olympiads/russia/pvg/indexes/2ff93b63ef23-index.html",
+      "sha256": "cc48f2516b56ba994283e208a2f6b651c28b10f3798d16f73b7023747a3cb951",
+      "bytes": 25863,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page6/",
+      "local_path": "olympiads/russia/pvg/indexes/d7bbd15763db-index.html",
+      "sha256": "d8b04c40d1c742a8adf55ce587d79cd55b3ab0b4c0e510bda1052d7240a8df77",
+      "bytes": 23963,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page7/",
+      "local_path": "olympiads/russia/pvg/indexes/020110d44077-index.html",
+      "sha256": "9dca7a9fe2dc164b235f3146f2867078b7e1013fcaa3458d85ba1d35f5b063a7",
+      "bytes": 21538,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page8/",
+      "local_path": "olympiads/russia/pvg/indexes/8169068c2cd9-index.html",
+      "sha256": "56b2efdf0de5233d445f2b4fd25269d23772c9fa5de1946aed0c543b4ce9fbde",
+      "bytes": 29159,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page9/",
+      "local_path": "olympiads/russia/pvg/indexes/172c883f147d-index.html",
+      "sha256": "9d7c5e2e3393173238019e4c07eec556c47473d3b8c287cbe0544fa9229f63e6",
+      "bytes": 23740,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page10/",
+      "local_path": "olympiads/russia/pvg/indexes/84ea09e53eeb-index.html",
+      "sha256": "0415e38a9e77acc6885a6b0baad9e9eee403dbdf0233c39ce93dbabd5d628d39",
+      "bytes": 23842,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page11/",
+      "local_path": "olympiads/russia/pvg/indexes/eec0a2c85565-index.html",
+      "sha256": "90ecbc6c3bab28e9b4af112f71438b3c1c2644c146da483df3e04aaf4f9fdbbb",
+      "bytes": 20481,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page12/",
+      "local_path": "olympiads/russia/pvg/indexes/d2e887f65d8e-index.html",
+      "sha256": "d5d661dd94b38b97001d6188badcec70a81d33746ec10fb83e21c6b690a13a65",
+      "bytes": 24316,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page13/",
+      "local_path": "olympiads/russia/pvg/indexes/d4a2930f88e1-index.html",
+      "sha256": "787ef4331c198e1a720c417914c573776723dabae753a7803069c76617a46f16",
+      "bytes": 21918,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page14/",
+      "local_path": "olympiads/russia/pvg/indexes/1e79d2266745-index.html",
+      "sha256": "54c3c413d71ddf7a0eb658122fcf32d692b85a4415f21c7255efd80322bd90a1",
+      "bytes": 21600,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page15/",
+      "local_path": "olympiads/russia/pvg/indexes/c4d236d8bfcb-index.html",
+      "sha256": "fcfae0a155f59d92e1e8d7313620588075a99284544a1a0ef674277b9f28459c",
+      "bytes": 26055,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page16/",
+      "local_path": "olympiads/russia/pvg/indexes/4c13ff5dfaf7-index.html",
+      "sha256": "49a6b8673c0b449d464fff844ccfc641cfaeaf339d39ba79cd08dd56460719c3",
+      "bytes": 26220,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page17/",
+      "local_path": "olympiads/russia/pvg/indexes/5aad72b4794e-index.html",
+      "sha256": "dcc7be9c7bf9693f5cb2671fb3659f808f7cfa797b2118a7f8c0095ae02a7e4e",
+      "bytes": 23253,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page18/",
+      "local_path": "olympiads/russia/pvg/indexes/dbad027ae596-index.html",
+      "sha256": "75c13c07b4386db48035caf8423ec55b40b7d1c4cfc26e15769f0b599904913d",
+      "bytes": 24786,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page19/",
+      "local_path": "olympiads/russia/pvg/indexes/f572c0faa692-index.html",
+      "sha256": "6d1a0130aa8c2377f7d50a20818967a9aeb667c8d932b4b378ef5748e405baac",
+      "bytes": 22974,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page20/",
+      "local_path": "olympiads/russia/pvg/indexes/c889a18c95a9-index.html",
+      "sha256": "3d55401cbe384ff89bc4c2dcd4c391fa919bc32f9825afa00abc7f2c73928390",
+      "bytes": 22708,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page21/",
+      "local_path": "olympiads/russia/pvg/indexes/1c071fc05281-index.html",
+      "sha256": "8a72f291d213b2e0c4c4015dfbc0b1b4612a400309d0e6fd40f6a5c0ca2e15ed",
+      "bytes": 27568,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page22/",
+      "local_path": "olympiads/russia/pvg/indexes/8a85c77f7c44-index.html",
+      "sha256": "c710a5ea2da17dd99b52a95966e61b9aef2e92a8fa9d0cb045ae5dae078c4c65",
+      "bytes": 24926,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page23/",
+      "local_path": "olympiads/russia/pvg/indexes/b42d929c6497-index.html",
+      "sha256": "0fdc42d0a77f1eb8018386fce3a6bc6b6bf63dd85d39bc53b0b88acca3661b97",
+      "bytes": 23151,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page24/",
+      "local_path": "olympiads/russia/pvg/indexes/0d474ab8ee80-index.html",
+      "sha256": "a2bdfa1f5a2de640adca276516242f76990f0b785a5a67fb2a28d0ee5905e253",
+      "bytes": 27090,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page25/",
+      "local_path": "olympiads/russia/pvg/indexes/0b9bee30a56c-index.html",
+      "sha256": "489effb054476dc716bdbbf046297763d7894c27b1b7bc2261197dd478b8d278",
+      "bytes": 24969,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page26/",
+      "local_path": "olympiads/russia/pvg/indexes/2fa490cc6ee8-index.html",
+      "sha256": "b37f3f25b4ce75e7e813f6551b6fb19741fa213119bb075fdfb7d10c689b7586",
+      "bytes": 24871,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page27/",
+      "local_path": "olympiads/russia/pvg/indexes/536eb60f35e7-index.html",
+      "sha256": "1d4d19105cfbd6ee30aa39876131c5895b5cf327c089df1a89ca63c489e3d80a",
+      "bytes": 26379,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page28/",
+      "local_path": "olympiads/russia/pvg/indexes/ad81c9dfaf55-index.html",
+      "sha256": "c6c137cc86d30ea7f471aec600140245cace5528353a419b750fab4ee47c578f",
+      "bytes": 25102,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/news/page29/",
+      "local_path": "olympiads/russia/pvg/indexes/942d21316ff0-index.html",
+      "sha256": "7a2a6f8a295f775de0d8e106dc862a2def2e3fc266ff3871a4d6ed54e0e1d5cd",
+      "bytes": 18204,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/archive/2020-2021/",
+      "local_path": "olympiads/russia/pvg/indexes/0c16fc24aefb-index.html",
+      "sha256": "41ad3923ffa9ade1b6ba3a30b2021ea34f38a9229d3daad192e908cd1529a8ad",
+      "bytes": 23950,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/archive/2021-2022/",
+      "local_path": "olympiads/russia/pvg/indexes/ae2c94ba6ec7-index.html",
+      "sha256": "032b7743dbb47cd0219046b0c8b19e6b84942b8dbc6c2beccbf52765ed5bff35",
+      "bytes": 24100,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/archive/2022-2023/",
+      "local_path": "olympiads/russia/pvg/indexes/746d0f7ec6fc-index.html",
+      "sha256": "064dec47655be311a29e315cb65e71cd28600b119df6c282a998dade1683f938",
+      "bytes": 22356,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/archive/2023-2024/",
+      "local_path": "olympiads/russia/pvg/indexes/794ae62be63f-index.html",
+      "sha256": "b15c74bf9b8438d09f65c4041bad2e774d2cae3097c5da5bf9aebe20a81d2558",
+      "bytes": 22527,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/keys_stage1/",
+      "local_path": "olympiads/russia/pvg/indexes/5fc02b23eb08-index.html",
+      "sha256": "d10ecc22a52f76f940c4e56459aa5219937d306ccc9cbb3627bc608659ccacc6",
+      "bytes": 16776,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/keys_stage2/",
+      "local_path": "olympiads/russia/pvg/indexes/4aa74e424534-index.html",
+      "sha256": "54f99e2d7c08a8a6f783c4ebc1c21c595bbb4572dee0322fb81de0d214609086",
+      "bytes": 16569,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/stage2info/",
+      "local_path": "olympiads/russia/pvg/indexes/0afd945d10e8-index.html",
+      "sha256": "dd1238c8a5ad3235b75c753c67f03d9c2914d1ddbc1bb9c7587c2839a517caf1",
+      "bytes": 21797,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/stage2info",
+      "local_path": "olympiads/russia/pvg/indexes/0ad5da54ac49-stage2info.html",
+      "sha256": "a19bf5b42f7f0c1625adbf09f1ebcfc8f98c32be01a58e169023f256f8bedbba",
+      "bytes": 21797,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/keys2019/",
+      "local_path": "olympiads/russia/pvg/indexes/dd0b281474ae-index.html",
+      "sha256": "913bd1d3a171eb10b099082488d8dc6a0691a6a9dde3c9ec2b5d2cf6f11d8f81",
+      "bytes": 15900,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/keys2018/",
+      "local_path": "olympiads/russia/pvg/indexes/181da030d1f8-index.html",
+      "sha256": "3c89be1a1fe076fc2c3e86f2e68c70da68b2286c70e115638856740c004bbe9d",
+      "bytes": 15725,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/tasks/",
+      "local_path": "olympiads/russia/pvg/indexes/dc2c695ca6cb-index.html",
+      "sha256": "2df91fba1bbac2c757139aa21919ed47537eb8ce097a112f71d5eb2ea5dfea9a",
+      "bytes": 15720,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://pvg.mk.ru/?next=/tasks/",
+      "local_path": "olympiads/russia/pvg/indexes/1fa405637700-index.html",
+      "sha256": "9422831222ad180283d584a9482533fe6da9476b89fafc806acfacb80fb11b98",
+      "bytes": 15720,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/",
+      "local_path": "olympiads/russia/pvg/indexes/5780772371de-index.html",
+      "sha256": "8a290d4e4ac9b164fafcfcd696e6bc8e83f2230207189bb3193005baa95bc243",
+      "bytes": 15713,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/about/",
+      "local_path": "olympiads/russia/pvg/indexes/3046029bdb64-index.html",
+      "sha256": "5486511360716c5f2648419fa9d9068a5638a217194c8c755aac65437f10ac8b",
+      "bytes": 16193,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/about/gusev/",
+      "local_path": "olympiads/russia/pvg/indexes/83be4def990f-index.html",
+      "sha256": "d75a2d607df44e702acdb433a33c48bade51e5a3609e86932a819f09c4ec3649",
+      "bytes": 18239,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/about/sadovnichy/",
+      "local_path": "olympiads/russia/pvg/indexes/0b199daf9275-index.html",
+      "sha256": "409d56e4654deed5d0a1360328352c60a38c8d05964c545e48156433836d0afa",
+      "bytes": 16430,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/",
+      "local_path": "olympiads/russia/pvg/indexes/5b0d94ab5cdc-index.html",
+      "sha256": "5fd0fe00c2918a2b2c2dda0abc61fc3cfae36e92f707a7af9004cc3f71597be5",
+      "bytes": 23381,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/archive/archive/",
+      "local_path": "olympiads/russia/pvg/indexes/25d42a0d15fd-index.html",
+      "sha256": "7142a7d42987f4d743f1682b17d80d885458aed6848ff209c419aecd12b5302e",
+      "bytes": 13116,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/stage1info/",
+      "local_path": "olympiads/russia/pvg/indexes/ab221a793673-index.html",
+      "sha256": "4fbbc6aadece02e318c94c232ccc222f21702cc7deb4d9618814511de2e1e90f",
+      "bytes": 23527,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/keys_stage2/",
+      "local_path": "olympiads/russia/pvg/indexes/149faa0655c3-index.html",
+      "sha256": "50901a3e073fb84b452c1855a67784d68f4581c70a726c55aea22697f4a39078",
+      "bytes": 16569,
+      "status": "downloaded",
+      "role": "archive_index"
+    }
+  ],
+  "failures": [
+    {
+      "ok": false,
+      "url": "https://pvg.mk.ru/stage2/",
+      "status": 404,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "ok": false,
+      "url": "https://pvg.mk.ru/keys2015/",
+      "status": 404,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ],
+  "discovered_documents": 46,
+  "pending_pages": 0,
+  "pending_documents": [
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math11tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math10tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math9tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math78tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/tgrades/math56tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/2016stage1/tgrades/math5_9tgrd_corrected.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/news/page26/",
+      "year": "2016",
+      "stage": null,
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "размещены правильные технические баллы",
+      "heading": "Измененение в результатах олимпиады по математике среди 5-9 классов"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage2/keys/math11keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2022-2023/",
+      "year": "2022/2023",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Архив за 2022-2023 год"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage2/keys/math510keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2022-2023/",
+      "year": "2022/2023",
+      "stage": null,
+      "classes": "5-10",
+      "document_type": "mathematics_material",
+      "label": "5-10 классы",
+      "heading": "Архив за 2022-2023 год"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage1/keys/math11stage1keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2022-2023/",
+      "year": "2022/2023",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Архив за 2022-2023 год"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage1/keys/math510stage1keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2022-2023/",
+      "year": "2022/2023",
+      "stage": null,
+      "classes": "5-10",
+      "document_type": "mathematics_material",
+      "label": "5-10 классы",
+      "heading": "Архив за 2022-2023 год"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage2/keys/math11keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2023-2024/",
+      "year": "2023/2024",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Архив за 2023-2024 год"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage2/keys/math510keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2023-2024/",
+      "year": "2023/2024",
+      "stage": null,
+      "classes": "5-10",
+      "document_type": "mathematics_material",
+      "label": "5-10 классы",
+      "heading": "Архив за 2023-2024 год"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage1/keys/math11stage1keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2023-2024/",
+      "year": "2023/2024",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Архив за 2023-2024 год"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage1/keys/math510stage1keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/archive/2023-2024/",
+      "year": "2023/2024",
+      "stage": null,
+      "classes": "5-10",
+      "document_type": "mathematics_material",
+      "label": "5-10 классы",
+      "heading": "Архив за 2023-2024 год"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math11keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math10keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math9keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math78keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math56keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage1/",
+      "year": "2024/2025",
+      "stage": "qualifying",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math11stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math10stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math9stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math78stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/2025/math56stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math11tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math10tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math9tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math78tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/tgrades/math56tg.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/stage2info/",
+      "year": null,
+      "stage": "final",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Заключительный этап"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/math10_11stage2_keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys2019/",
+      "year": null,
+      "stage": "final",
+      "classes": "10-11",
+      "document_type": "mathematics_material",
+      "label": "10-11 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage2/keys/math5_9stage2_keys.zip",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys2019/",
+      "year": null,
+      "stage": "final",
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "5-9 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math10_11key.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys2018/",
+      "year": null,
+      "stage": "qualifying",
+      "classes": "10-11",
+      "document_type": "mathematics_material",
+      "label": "10-11 классы",
+      "heading": "Ответы на задания отборочного этапа"
+    },
+    {
+      "url": "https://pvg.mk.ru/media/stage1/keys/math5_9key.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://pvg.mk.ru/keys2018/",
+      "year": null,
+      "stage": "qualifying",
+      "classes": "5-9",
+      "document_type": "mathematics_material",
+      "label": "5-9 классы",
+      "heading": "Ответы на задания отборочного этапа"
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "verified_date": "2026-10-22",
+  "academic_year": "2026/2027",
+  "legal_basis": {
+    "order_number": 521,
+    "order_date": "2026-08-31",
+    "publication_number": "0001202609300016",
+    "publication_date": "2026-09-30",
+    "official_publication_url": "http://publication.pravo.gov.ru/document/0001202609300016"
+  },
+  "table_source": {
+    "url": "https://rsr-olymp.ru/archive/2026",
+    "local_path": "research/legal/official-source-0.html",
+    "sha256": "3ed0f953cd4aa76d85a594c09f9427c0d6d827ecf41e9f6f3b7d38792359a246",
+    "extraction": "Official RSOSh HTML table, accounting for row-spanned contest IDs and names; linked original legal PDF saved separately."
+  },
+  "profile_count": 25,
+  "contest_count": 22,
+  "mathematics_only_profile_count": 22,
+  "mathematics_profiles": [
+    {
+      "register_id": 6,
+      "contest": "Всероссийская олимпиада школьников «Высшая проба»",
+      "official_url": "http://olymp.hse.ru/mmo",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 1,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "hse"
+      ],
+      "archive_discovery": [
+        {
+          "id": "hse",
+          "manifest": "olympiads/russia/hse/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 133,
+          "failed_documents": 0,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 11,
+      "contest": "Всесибирская открытая олимпиада школьников",
+      "official_url": "https://sesc.nsu.ru/olymp-vsesib/",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "vsesib"
+      ],
+      "archive_discovery": [
+        {
+          "id": "vsesib",
+          "manifest": "olympiads/russia/vsesib/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 191,
+          "failed_documents": 0,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 12,
+      "contest": "Герценовская олимпиада школьников",
+      "official_url": "https://www.herzen.spb.ru/abiturients/olimpiady/olimp-rsosh/",
+      "profile": "образование и педагогика",
+      "subjects": "физика, химия, математика, русский язык, обществознание, история, информатика, география, биология",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": false,
+      "archive_ids": [],
+      "archive_discovery": [],
+      "scope_note": "Mixed education/pedagogy profile; official organizer discovered, no separately verified mathematics archive in this run."
+    },
+    {
+      "register_id": 16,
+      "contest": "Международная олимпиада Иннополиса",
+      "official_url": "https://dovuz.innopolis.university/innopolis-open",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "innopolis"
+      ],
+      "archive_discovery": [
+        {
+          "id": "innopolis",
+          "status": "downloaded_partial",
+          "downloaded_materials": 21,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
+          "failed_documents": 0
+        }
+      ]
+    },
+    {
+      "register_id": 19,
+      "contest": "Международная олимпиада школьников Уральского федерального университета «Изумруд»",
+      "official_url": "https://dovuz.urfu.ru/olymps/izumrud",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "izumrud"
+      ],
+      "archive_discovery": [
+        {
+          "id": "izumrud",
+          "status": "downloaded_partial",
+          "downloaded_materials": 8,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
+          "failed_documents": 0
+        }
+      ]
+    },
+    {
+      "register_id": 20,
+      "contest": "Межрегиональная олимпиада школьников «Будущие исследователи - будущее науки»",
+      "official_url": "https://bibn.unn.ru",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "bibn"
+      ],
+      "archive_discovery": [
+        {
+          "id": "bibn",
+          "status": "official_source_discovered_download_pending"
+        }
+      ]
+    },
+    {
+      "register_id": 21,
+      "contest": "Межрегиональная олимпиада школьников имени И.Я. Верченко",
+      "official_url": "https://v-olymp.ru/",
+      "profile": "математика и криптография",
+      "subjects": "математика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "verchenko"
+      ],
+      "archive_discovery": [
+        {
+          "id": "verchenko",
+          "status": "official_source_discovered_download_pending"
+        }
+      ]
+    },
+    {
+      "register_id": 26,
+      "contest": "Московская олимпиада школьников",
+      "official_url": "https://мош.цпм.рф",
+      "profile": "вероятность и статистика",
+      "subjects": "математика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "mos_probability"
+      ],
+      "archive_discovery": [
+        {
+          "id": "mos_probability",
+          "status": "downloaded_partial",
+          "downloaded_materials": 98,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
+          "failed_documents": 95
+        }
+      ]
+    },
+    {
+      "register_id": 26,
+      "contest": "Московская олимпиада школьников",
+      "official_url": "https://мош.цпм.рф",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 1,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "mmo"
+      ],
+      "archive_discovery": [
+        {
+          "id": "mmo",
+          "manifest": "olympiads/russia/mmo/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 176,
+          "failed_documents": 20,
+          "failed_pages": 33,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 29,
+      "contest": "Объединенная межвузовская олимпиада школьников",
+      "official_url": "https://olympiads.mccme.ru/omo/",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "ommo"
+      ],
+      "archive_discovery": [
+        {
+          "id": "ommo",
+          "manifest": "olympiads/russia/ommo/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 71,
+          "failed_documents": 3,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 30,
+      "contest": "Олимпиада Курчатов",
+      "official_url": "https://olimpiadakurchatov.ru",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "kurchatov"
+      ],
+      "archive_discovery": [
+        {
+          "id": "kurchatov",
+          "manifest": "olympiads/russia/kurchatov/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 65,
+          "failed_documents": 1,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 35,
+      "contest": "Олимпиада школьников «Ломоносов»",
+      "official_url": "https://olymp.msu.ru",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 1,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "lomonosov"
+      ],
+      "archive_discovery": [
+        {
+          "id": "lomonosov",
+          "manifest": "olympiads/russia/lomonosov/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 15,
+          "failed_documents": 13,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 37,
+      "contest": "Олимпиада школьников «Покори Воробьевы горы!»",
+      "official_url": "https://pvg.mk.ru",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 1,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "pvg"
+      ],
+      "archive_discovery": [
+        {
+          "id": "pvg",
+          "manifest": "olympiads/russia/pvg/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 12,
+          "failed_documents": 33,
+          "failed_pages": 2,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 38,
+      "contest": "Олимпиада школьников «Физтех»",
+      "official_url": "https://olymp-online.mipt.ru",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 1,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "phystech"
+      ],
+      "archive_discovery": [
+        {
+          "id": "phystech",
+          "manifest": "olympiads/russia/phystech/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 27,
+          "failed_documents": 0,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 38,
+      "contest": "Олимпиада школьников «Физтех»",
+      "official_url": "https://olymp-online.mipt.ru",
+      "profile": "научно-технический",
+      "subjects": "математика, физика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": false,
+      "archive_ids": [
+        "phystech"
+      ],
+      "archive_discovery": [
+        {
+          "id": "phystech",
+          "manifest": "olympiads/russia/phystech/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 27,
+          "failed_documents": 0,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ],
+      "scope_note": "Mixed official profile. Only separately identifiable mathematics documents may be downloaded; no claim that this profile is a pure mathematics olympiad."
+    },
+    {
+      "register_id": 39,
+      "contest": "Олимпиада школьников «Шаг в будущее»",
+      "official_url": "https://olymp.bmstu.ru",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "shag"
+      ],
+      "archive_discovery": [
+        {
+          "id": "shag",
+          "manifest": "olympiads/russia/shag/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 161,
+          "failed_documents": 0,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 43,
+      "contest": "Олимпиада школьников Санкт-Петербургского государственного университета",
+      "official_url": "http://www.olympiada.spbu.ru/",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 1,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "spbu"
+      ],
+      "archive_discovery": [
+        {
+          "id": "spbu",
+          "manifest": "olympiads/russia/spbu/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 6,
+          "failed_documents": 0,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 43,
+      "contest": "Олимпиада школьников Санкт-Петербургского государственного университета",
+      "official_url": "http://www.olympiada.spbu.ru/",
+      "profile": "инженерные системы",
+      "subjects": "математика, астрономия, химия, управление в технических системах",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": false,
+      "archive_ids": [
+        "spbu"
+      ],
+      "archive_discovery": [
+        {
+          "id": "spbu",
+          "manifest": "olympiads/russia/spbu/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 6,
+          "failed_documents": 0,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ],
+      "scope_note": "Mixed official profile. Only separately identifiable mathematics documents may be downloaded; no claim that this profile is a pure mathematics olympiad."
+    },
+    {
+      "register_id": 45,
+      "contest": "Олимпиада Юношеской математической школы",
+      "official_url": "http://yumsh.spbu.ru",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "yumsh"
+      ],
+      "archive_discovery": [
+        {
+          "id": "yumsh",
+          "manifest": "olympiads/russia/yumsh/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 207,
+          "failed_documents": 1,
+          "failed_pages": 1,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 47,
+      "contest": "Открытая олимпиада школьников",
+      "official_url": "https://olymp.itmo.ru/",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "itmo"
+      ],
+      "archive_discovery": [
+        {
+          "id": "itmo",
+          "status": "official_source_discovered_download_pending"
+        }
+      ]
+    },
+    {
+      "register_id": 52,
+      "contest": "Отраслевая физико-математическая олимпиада школьников «Росатом»",
+      "official_url": "https://olymp.mephi.ru/rosatom_it/",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "rosatom"
+      ],
+      "archive_discovery": [
+        {
+          "id": "rosatom",
+          "manifest": "olympiads/russia/rosatom/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 96,
+          "failed_documents": 0,
+          "failed_pages": 0,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 55,
+      "contest": "Санкт-Петербургская олимпиада школьников",
+      "official_url": "https://www.pdmi.ras.ru/~olymp",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 1,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "petersburg"
+      ],
+      "archive_discovery": [
+        {
+          "id": "petersburg",
+          "manifest": "olympiads/russia/petersburg/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 398,
+          "failed_documents": 0,
+          "failed_pages": 1,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 58,
+      "contest": "Турнир городов",
+      "official_url": "http://www.turgor.ru/",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 1,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "turgor"
+      ],
+      "archive_discovery": [
+        {
+          "id": "turgor",
+          "manifest": "olympiads/russia/turgor/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 1313,
+          "failed_documents": 206,
+          "failed_pages": 5,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+        }
+      ]
+    },
+    {
+      "register_id": 59,
+      "contest": "Турнир имени М.В. Ломоносова",
+      "official_url": "http://turlom.olimpiada.ru/",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "turlom"
+      ],
+      "archive_discovery": [
+        {
+          "id": "turlom",
+          "status": "downloaded_partial",
+          "downloaded_materials": 45,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
+          "failed_documents": 3
+        }
+      ]
+    },
+    {
+      "register_id": 60,
+      "contest": "Университетская олимпиада школьников «Бельчонок»",
+      "official_url": "https://dovuz.sfu-kras.ru/abiturientu-sfu/olimpiady/belchonok/",
+      "profile": "математика",
+      "subjects": "математика",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "mathematics_only": true,
+      "archive_ids": [
+        "belchonok"
+      ],
+      "archive_discovery": [
+        {
+          "id": "belchonok",
+          "status": "downloaded_partial",
+          "downloaded_materials": 66,
+          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
+          "failed_documents": 0
+        }
+      ]
+    }
+  ],
+  "related_profiles_excluded_from_pure_math_scope": [
+    {
+      "register_id": 3,
+      "contest": "Всероссийская междисциплинарная олимпиада школьников 8–11 классов «Национальная технологическая олимпиада»",
+      "official_url": "http://ntcontest.ru",
+      "profile": "искусственный интеллект",
+      "subjects": "математика и механика, компьютерные и информационные науки, информатика и вычислительная техника, информационная безопасность",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "scope_note": "Related to mathematics/mechanics or a broad interdisciplinary degree group; excluded from mathematics-only downloads unless a separate mathematics profile is identified."
+    },
+    {
+      "register_id": 3,
+      "contest": "Всероссийская междисциплинарная олимпиада школьников 8–11 классов «Национальная технологическая олимпиада»",
+      "official_url": "http://ntcontest.ru",
+      "profile": "автоматизация бизнес-процессов",
+      "subjects": "математика и механика, компьютерные и информационные науки, информатика и вычислительная техника, информационная безопасность, электроника, радиотехника и системы связи, управление в технических системах, экономика и управление",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "scope_note": "Related to mathematics/mechanics or a broad interdisciplinary degree group; excluded from mathematics-only downloads unless a separate mathematics profile is identified."
+    },
+    {
+      "register_id": 3,
+      "contest": "Всероссийская междисциплинарная олимпиада школьников 8–11 классов «Национальная технологическая олимпиада»",
+      "official_url": "http://ntcontest.ru",
+      "profile": "программная инженерия в финансовых технологиях",
+      "subjects": "математика и механика, компьютерные и информационные науки, информатика и вычислительная техника, информационная безопасность, электроника, радиотехника и системы связи, фотоника, приборостроение, оптические и биотехнические системы и технологии, электро- и теплоэнергетика, машиностроение, авиационная и ракетно-космическая техника, управление в технических системах",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "scope_note": "Related to mathematics/mechanics or a broad interdisciplinary degree group; excluded from mathematics-only downloads unless a separate mathematics profile is identified."
+    },
+    {
+      "register_id": 3,
+      "contest": "Всероссийская междисциплинарная олимпиада школьников 8–11 классов «Национальная технологическая олимпиада»",
+      "official_url": "http://ntcontest.ru",
+      "profile": "интеллектуальные энергетические системы",
+      "subjects": "математика и механика, компьютерные и информационные науки, информатика и вычислительная техника, информационная безопасность, электроника, радиотехника и системы связи, электро- и теплоэнергетика, управление в технических системах, экономика и управление",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "scope_note": "Related to mathematics/mechanics or a broad interdisciplinary degree group; excluded from mathematics-only downloads unless a separate mathematics profile is identified."
+    },
+    {
+      "register_id": 35,
+      "contest": "Олимпиада школьников «Ломоносов»",
+      "official_url": "https://olymp.msu.ru",
+      "profile": "космонавтика",
+      "subjects": "математика и механика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "scope_note": "Related to mathematics/mechanics or a broad interdisciplinary degree group; excluded from mathematics-only downloads unless a separate mathematics profile is identified."
+    },
+    {
+      "register_id": 35,
+      "contest": "Олимпиада школьников «Ломоносов»",
+      "official_url": "https://olymp.msu.ru",
+      "profile": "механика и математическое моделирование",
+      "subjects": "математика и механика",
+      "level": 2,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "scope_note": "Related to mathematics/mechanics or a broad interdisciplinary degree group; excluded from mathematics-only downloads unless a separate mathematics profile is identified."
+    },
+    {
+      "register_id": 43,
+      "contest": "Олимпиада школьников Санкт-Петербургского государственного университета",
+      "official_url": "http://www.olympiada.spbu.ru/",
+      "profile": "математическое моделирование и искусственный интеллект",
+      "subjects": "информатика и вычислительная техника",
+      "level": 3,
+      "source_url": "https://rsr-olymp.ru/archive/2026",
+      "scope_note": "Related to mathematics/mechanics or a broad interdisciplinary degree group; excluded from mathematics-only downloads unless a separate mathematics profile is identified."
+    }
+  ],
+  "separate_vsosh": {
+    "contest": "Всероссийская олимпиада школьников по математике",
+    "archive_id": "vsosh",
+    "ministry_register_level": null,
+    "note": "Separate federal olympiad system; school, municipal, regional, final stages. It is not an I/II/III-level entry of the RSOSh ministry register. Admission rights for final-stage winners/prize-winners must be distinguished from the listed olympiads."
+  },
+  "additional_archives_not_asserted_to_be_in_2026_register": [
+    "sammat",
+    "mekhmat"
+  ],
+  "legal_sources": [
+    {
+      "id": "register-2026-27",
+      "title": "Приказ Минобрнауки России от 31.08.2026 №521, перечень2026/27",
+      "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202609300016",
+      "local_path": "research/legal/official-source-5.pdf",
+      "status": "downloaded",
+      "bytes": 3539174,
+      "sha256": "3271e8c2d0e257a93b8bc757d54d51663af41eb65fdf0dc0faad692004abcffe"
+    },
+    {
+      "id": "conduct-2026",
+      "title": "Приказ Минобрнауки России от16.01.2026 №16, порядок олимпиад",
+      "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202602240023",
+      "local_path": "research/legal/order-16-2026.pdf",
+      "status": "downloaded",
+      "bytes": 1022887,
+      "sha256": "b9b2b13b23df7f9232e05217cd52ba3785a243a4366d780a061dab5c5a562a5f"
+    },
+    {
+      "id": "admissions-821",
+      "title": "Приказ Минобрнауки России от27.11.2024 №821, первоначальная официальная публикация",
+      "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202411290031",
+      "local_path": "research/legal/admissions-order-821-official.pdf",
+      "status": "downloaded",
+      "bytes": 4036874,
+      "sha256": "bba9407bb2c1493a462fab469815044bfba7ce0c8bfd3f043910a12ca9a90891"
+    },
+    {
+      "id": "rsr-participants",
+      "title": "Памятка РСОШ для участников, обновлена29.05.2026",
+      "url": "https://rsr-olymp.ru/part",
+      "local_path": "research/legal/rsr-part.html",
+      "status": "downloaded",
+      "bytes": 9094,
+      "sha256": "aaca879a06882cd78a9d6c2ede22fc983ef5aad7edd4ba8db77c637c6cba58c2"
+    },
+    {
+      "id": "rsr-admissions",
+      "title": "РСОШ: проверка дипломов приёмными комиссиями,2026",
+      "url": "https://rsr-olymp.ru/pk",
+      "local_path": "research/legal/rsr-pk.html",
+      "status": "downloaded",
+      "bytes": 8718,
+      "sha256": "695cee56b2785cd8d90b78610d5fadc5e8ec860cd0a793408dd8c3decaf1cc77"
+    },
+    {
+      "id": "msu-example",
+      "title": "Пример правил конкретного вуза: ВМК МГУ, приём2026; это не общая федеральная льгота",
+      "url": "https://pk.cs.msu.ru/privilege",
+      "local_path": "research/legal/msu-cs-benefits.html",
+      "status": "downloaded",
+      "bytes": 143606,
+      "sha256": "eb85f1c22f011e922c2f62428c9808a3158b529941495158afa06c9c1641c9d2"
+    }
+  ],
+  "admission_rules_notes": [
+    {
+      "text": "Inclusion and level in the federal register do not by themselves determine a university admission benefit; each university publishes its own recognized olympiads, programs, diploma categories, eligible school grades and confirmation thresholds.",
+      "source_url": "https://rsr-olymp.ru/part"
+    },
+    {
+      "text": "RSOSh participant notice for2026 states that listed-olympiad benefits normally require75EGEpoints or a higher threshold fixed by the university. This condition must not be transferred automatically to the separate final-stage VsOSh right.",
+      "source_url": "https://rsr-olymp.ru/part"
+    },
+    {
+      "text": "The linked university example is for admission2026, while the register is for academic year2026/27. Do not present the example as the university rules for admission2027.",
+      "source_url": "https://pk.cs.msu.ru/privilege"
+    }
+  ],
+  "archive_inventory_updated_at": "2026-10-22T17:20:55.761910+00:00",
+  "archive_summary": "research/archive-resume-summary-2026-10-22.json"
+}

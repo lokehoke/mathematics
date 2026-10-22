@@ -1,0 +1,41 @@
+{
+  "contest": "Олимпиада имени И.Я. Верченко — математика и криптография",
+  "id": "verchenko",
+  "subject": "mathematics",
+  "started_at": "2026-10-22T15:41:44.088265+00:00",
+  "updated_at": "2026-10-22T15:41:45.105911+00:00",
+  "scope": {
+    "name": "Олимпиада имени И.Я. Верченко — математика и криптография",
+    "seeds": [
+      "https://v-olymp.ru/"
+    ],
+    "domains": [
+      "v-olymp.ru",
+      "www.v-olymp.ru"
+    ],
+    "scope": ".*(?:math|matem|математ|verchen|верчен|archive|arhiv|задани|zadani).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "seeds": [
+    "https://v-olymp.ru/"
+  ],
+  "crawl_limits": {
+    "max_pages": 2400,
+    "max_depth": 6
+  },
+  "coverage_status": "partial",
+  "documents": [],
+  "indexes": [],
+  "failures": [
+    {
+      "ok": false,
+      "url": "https://v-olymp.ru/",
+      "status": null,
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)>"
+    }
+  ],
+  "discovered_documents": 0,
+  "pending_pages": 0,
+  "pending_documents": []
+}

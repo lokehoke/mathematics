@@ -1,0 +1,51 @@
+{
+  "contest": "Будущие исследователи — будущее науки — математика",
+  "id": "bibn",
+  "subject": "mathematics",
+  "started_at": "2026-10-22T15:41:43.401059+00:00",
+  "updated_at": "2026-10-22T15:41:44.078975+00:00",
+  "scope": {
+    "name": "Будущие исследователи — будущее науки — математика",
+    "seeds": [
+      "https://bibn.unn.ru/"
+    ],
+    "domains": [
+      "bibn.unn.ru",
+      "www.unn.ru"
+    ],
+    "scope": ".*(?:calendar|archive|math|математ|задани|zadani).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "seeds": [
+    "https://bibn.unn.ru/"
+  ],
+  "crawl_limits": {
+    "max_pages": 2400,
+    "max_depth": 6
+  },
+  "coverage_status": "all_links_within_declared_scope_processed",
+  "documents": [],
+  "indexes": [
+    {
+      "url": "https://bibn.unn.ru/",
+      "local_path": "olympiads/russia/bibn/indexes/d3ee518a934e-index.html",
+      "sha256": "cb1a23098ad5e681143062b45ba9ec6fcf106e847afc7737aa8e48fd673b3bc8",
+      "bytes": 50841,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/archive",
+      "local_path": "olympiads/russia/bibn/indexes/63575a0b122c-archive.html",
+      "sha256": "d191eb7136f90b209a47173c7aa3fe3dc39727fbb41271e0025b5972b3e9da53",
+      "bytes": 49870,
+      "status": "downloaded",
+      "role": "archive_index"
+    }
+  ],
+  "failures": [],
+  "discovered_documents": 0,
+  "pending_pages": 0,
+  "pending_documents": []
+}

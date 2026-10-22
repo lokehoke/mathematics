@@ -1,0 +1,20 @@
+{
+  "status": "paused_at_user_request",
+  "active_process": null,
+  "stopped_pid": 595064,
+  "stopped_exec_session": 32445,
+  "pending_recipes": [
+    "kalva",
+    "msu-algebra",
+    "vso-bauman",
+    "kazakhstan",
+    "ucsd"
+  ],
+  "resume_command": "python3 scripts/download_university.py --resume --only kalva,msu-algebra,vso-bauman,kazakhstan,ucsd,itmo",
+  "queue_records": 90,
+  "manifest_records": 1247,
+  "downloaded": 1213,
+  "validated_pdf_headers": 236,
+  "sha256_or_header_errors": [],
+  "parse_errors_before_compaction": []
+}

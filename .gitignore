@@ -12,6 +12,9 @@ __pycache__/
 sources/book/main.pdf
 /tmp/
 /research/international_cache/
+/research/itmo-public-app.js
+/research/legal/*.pdf
+/research/legal/*.html
 
 # Preserve downloaded originals locally; version manifests and resumable queues.
 /olympiads/**

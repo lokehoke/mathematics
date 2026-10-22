@@ -1,0 +1,40 @@
+{
+  "contest": "Механико-математический факультет МГУ — школьные математические олимпиады",
+  "id": "mekhmat",
+  "subject": "mathematics",
+  "started_at": "2026-10-22T15:41:39.330953+00:00",
+  "updated_at": "2026-10-22T15:41:39.988547+00:00",
+  "scope": {
+    "name": "Механико-математический факультет МГУ — школьные математические олимпиады",
+    "seeds": [
+      "https://math.msu.ru/olimpiady"
+    ],
+    "domains": [
+      "math.msu.ru"
+    ],
+    "scope": ".*(?:olimp|олимп|archive|arhiv|zadani|задач).*",
+    "math_only": true,
+    "depth": 3
+  },
+  "seeds": [
+    "https://math.msu.ru/olimpiady"
+  ],
+  "crawl_limits": {
+    "max_pages": 2400,
+    "max_depth": 6
+  },
+  "coverage_status": "partial",
+  "documents": [],
+  "indexes": [],
+  "failures": [
+    {
+      "ok": false,
+      "url": "https://math.msu.ru/olimpiady",
+      "status": 404,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ],
+  "discovered_documents": 0,
+  "pending_pages": 0,
+  "pending_documents": []
+}

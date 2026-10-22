@@ -1,0 +1,313 @@
+{
+  "contest": "Олимпиада школьников СПбГУ — математика",
+  "id": "spbu",
+  "subject": "mathematics",
+  "started_at": "2026-10-22T15:41:20.512106+00:00",
+  "updated_at": "2026-10-22T15:41:20.698163+00:00",
+  "scope": {
+    "name": "Олимпиада школьников СПбГУ — математика",
+    "seeds": [
+      "https://olympiada.spbu.ru/",
+      "https://sch-olymp.spbu.ru/"
+    ],
+    "domains": [
+      "olympiada.spbu.ru",
+      "sch-olymp.spbu.ru",
+      "spbu.ru"
+    ],
+    "scope": "(?:.*matemat.*|.*math.*|.*arkhiv.*|.*arhiv.*|.*archive.*|.*material.*|.*zadani.*|.*past.*)",
+    "math_only": false,
+    "depth": 4
+  },
+  "seeds": [
+    "https://olympiada.spbu.ru/",
+    "https://sch-olymp.spbu.ru/"
+  ],
+  "crawl_limits": {
+    "max_pages": 2400,
+    "max_depth": 6
+  },
+  "coverage_status": "all_links_within_declared_scope_processed",
+  "documents": [
+    {
+      "url": "https://olympiada.spbu.ru/images/copy/2023_2024/math.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "2023–2024 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/aa267e0a4686-math.zip",
+      "sha256": "4b026a18d1bfeab22e6e7a972255e36b7acc4c89f0cb6eaec460868b9e3e292c",
+      "bytes": 107925640,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/copy/2023_2024/math.zip",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://olympiada.spbu.ru/images/copy/2023_2024/modeling.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математическое моделирование и искусственный интеллект",
+      "heading": "2023–2024 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/52e18c0cfd9e-modeling.zip",
+      "sha256": "5853c5b266bb5d162f09ce46517b58301e599103e4e44fd38dd55d076991c9e6",
+      "bytes": 939838,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/copy/2023_2024/modeling.zip",
+      "archive_review": {
+        "category": "excluded_other_profile",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": "Mathematical modelling/artificial intelligence is a separate profile, not the requested pure mathematics profile.",
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://olympiada.spbu.ru/images/copy/2022_2023/math.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "2022–2023 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/25c6b4050dec-math.zip",
+      "sha256": "91a73f4bf6319b3be470fe85ce1d3564a8c0074b1bea8791e076fde13786c08c",
+      "bytes": 28111839,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/copy/2022_2023/math.zip",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://olympiada.spbu.ru/images/copy/2022_2023/modeling.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математическое моделирование и искусственный интеллект",
+      "heading": "2022–2023 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/634e347ab2ba-modeling.zip",
+      "sha256": "0fda0a68b5b99ea441e01f1ea7c801c7b46b0268a94445c817b42268fd1eb85c",
+      "bytes": 1306362,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/copy/2022_2023/modeling.zip",
+      "archive_review": {
+        "category": "excluded_other_profile",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": "Mathematical modelling/artificial intelligence is a separate profile, not the requested pure mathematics profile.",
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://olympiada.spbu.ru/images/copy/2021_2022/math_2022.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2021",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "2021–2022 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/cf5a32137e92-math_2022.zip",
+      "sha256": "c3004329baa5d8cb82b274e23680f826763a8c59154559b0ef2b0f848c52f85b",
+      "bytes": 61761033,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/copy/2021_2022/math_2022.zip",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://olympiada.spbu.ru/images/archive/2023_2024/math.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "2023–2024 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/60462d68454c-math.zip",
+      "sha256": "7e3ee0d51f09308d78af03bf9db0b9c70eef839221d6ae58f9300bbb0be768fd",
+      "bytes": 1740691,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/archive/2023_2024/math.zip",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://olympiada.spbu.ru/images/archive/2023_2024/modeling.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математическое моделирование и искусственный интеллект",
+      "heading": "2023–2024 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/4a4f44a0b395-modeling.zip",
+      "sha256": "a53b50f3cf09e7e3fe2beade998984bd59192710151402a55fe3754181c15f5e",
+      "bytes": 1287252,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/archive/2023_2024/modeling.zip",
+      "archive_review": {
+        "category": "excluded_other_profile",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": "Mathematical modelling/artificial intelligence is a separate profile, not the requested pure mathematics profile.",
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://olympiada.spbu.ru/images/archive/2022_2023/math.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "2022–2023 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/97ba30349a67-math.zip",
+      "sha256": "5c76e0b10c84ab1c7d3e46c297ea3b56cd963dbf18d05d8f972c85c719510888",
+      "bytes": 2142847,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/archive/2022_2023/math.zip",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://olympiada.spbu.ru/images/archive/2022_2023/modeling.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математическое моделирование и искусственный интеллект",
+      "heading": "2022–2023 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/706adfb94dd2-modeling.zip",
+      "sha256": "e97194982d9bf01c0eb3f321cf2d63ceb0b52a4106661addecd203bb34bb139e",
+      "bytes": 1220931,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/archive/2022_2023/modeling.zip",
+      "archive_review": {
+        "category": "excluded_other_profile",
+        "accepted_material": false,
+        "document_type": "unclassified_mathematics_material",
+        "reason": "Mathematical modelling/artificial intelligence is a separate profile, not the requested pure mathematics profile.",
+        "sha256_verified": null
+      }
+    },
+    {
+      "url": "https://olympiada.spbu.ru/images/archive/2021_2022/math_archive_2022.zip",
+      "contest": "Олимпиада школьников СПбГУ — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiada.spbu.ru/arkhiv.html",
+      "year": "2021",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "2021–2022 учебный год",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/spbu/documents/37259a03b097-math_archive_2022.zip",
+      "sha256": "5331b4ae1ecb88ae80dd489d9d4d57278c2388991189ba83d2bc67968423c46e",
+      "bytes": 1658430,
+      "content_type": "application/zip",
+      "final_url": "https://olympiada.spbu.ru/images/archive/2021_2022/math_archive_2022.zip",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "unclassified_mathematics_material",
+        "reason": null,
+        "sha256_verified": true
+      }
+    }
+  ],
+  "indexes": [
+    {
+      "url": "https://olympiada.spbu.ru/",
+      "local_path": "olympiads/russia/spbu/indexes/61c88fd1f04d-index.html",
+      "sha256": "c2dbfae32efeb83544d8f9fb566930ae70e6bbe30abcef5b4d498908b4541ac3",
+      "bytes": 18300,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://sch-olymp.spbu.ru/",
+      "local_path": "olympiads/russia/spbu/indexes/daac5fdf3c1f-index.html",
+      "sha256": "89dfe856f017d942dd15bc6ed3939de5595aa594e4fe70bc7add1ecc2f708cd3",
+      "bytes": 240468,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://olympiada.spbu.ru/arkhiv.html",
+      "local_path": "olympiads/russia/spbu/indexes/3fe337d06972-arkhiv.html",
+      "sha256": "5a9699b862c5559cf0f659610eeca6357a3f93804f74047cfa65dd5948b93269",
+      "bytes": 35860,
+      "status": "downloaded",
+      "role": "archive_index"
+    }
+  ],
+  "failures": [],
+  "discovered_documents": 6,
+  "pending_pages": 0,
+  "pending_documents": []
+}

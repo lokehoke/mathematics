@@ -1,0 +1,17 @@
+{
+  "status": "current_resume_pass_completed",
+  "reason": "User resumed public archive collection; current CLI discovery/download passes completed. Remaining gaps are preserved, not declared complete.",
+  "completed_pdf_files": 528,
+  "manifest": "olympiads/international/manifest.jsonl",
+  "pending_discovered_documents": [],
+  "resume_commands": [
+    "python3 scripts/download_international.py --contests MEMO BMO supplements SKMO society",
+    "python3 scripts/download_international.py --contests RMM"
+  ],
+  "notes": [
+    "The former paused queue was processed. The 528 successful international records include byte-identical copies; use the current summary for deduplicated counts.",
+    "Remaining inaccessible documents and missing official solutions are in the unified continuation queue."
+  ],
+  "current_summary": "research/archive-resume-summary-2026-10-22.json",
+  "current_continuation_queue": "research/archive-continuation-queue-2026-10-22.json"
+}

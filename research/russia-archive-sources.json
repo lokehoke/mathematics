@@ -1,0 +1,336 @@
+{
+  "mmo": {
+    "name": "Московская математическая олимпиада",
+    "seeds": [
+      "https://mmo.mccme.ru/"
+    ],
+    "domains": [
+      "mmo.mccme.ru"
+    ],
+    "scope": ".*",
+    "math_only": true,
+    "depth": 5
+  },
+  "turgor": {
+    "name": "Математический Турнир городов",
+    "seeds": [
+      "https://turgor.ru/problems/",
+      "https://olympiads.mccme.ru/turgor/turgor.htm"
+    ],
+    "domains": [
+      "www.turgor.ru",
+      "turgor.ru",
+      "olympiads.mccme.ru"
+    ],
+    "scope": "(?:.*turgor.*|.*problems.*|.*\\d.*)",
+    "math_only": true,
+    "depth": 5
+  },
+  "vsosh": {
+    "name": "Всероссийская олимпиада школьников по математике",
+    "seeds": [
+      "https://olympiads.mccme.ru/vmo/",
+      "https://matholymp.ru/"
+    ],
+    "domains": [
+      "matholymp.ru",
+      "www.matholymp.ru",
+      "vos.olimpiada.ru",
+      "olympiads.mccme.ru"
+    ],
+    "scope": ".*(?:/vmo/|/mmo/okrug/|matholymp).*",
+    "math_only": true,
+    "depth": 5
+  },
+  "hse": {
+    "name": "Высшая проба — математика",
+    "seeds": [
+      "https://olymp.hse.ru/mmo/tasks-math"
+    ],
+    "domains": [
+      "olymp.hse.ru",
+      "www.hse.ru",
+      "hse.ru"
+    ],
+    "scope": ".*tasks-math.*",
+    "math_only": true,
+    "depth": 1
+  },
+  "lomonosov": {
+    "name": "Ломоносов — математика",
+    "seeds": [
+      "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let"
+    ],
+    "domains": [
+      "olymp.msu.ru"
+    ],
+    "scope": "(?:.*zadaniya.*|.*archive.*)",
+    "math_only": false,
+    "depth": 2
+  },
+  "pvg": {
+    "name": "Покори Воробьёвы горы — математика",
+    "seeds": [
+      "https://pvg.mk.ru/"
+    ],
+    "domains": [
+      "pvg.mk.ru",
+      "www.mk.ru"
+    ],
+    "scope": "(?:.*pvg.*|.*archive.*|.*arhiv.*|.*zadani.*|.*math.*)",
+    "math_only": false,
+    "depth": 4
+  },
+  "phystech": {
+    "name": "Физтех — математика",
+    "seeds": [
+      "https://olymp.mipt.ru/olympiad/samples",
+      "https://olymp-online.mipt.ru/page/primery-zadanij"
+    ],
+    "domains": [
+      "olymp.mipt.ru",
+      "olymp-online.mipt.ru",
+      "mipt.ru"
+    ],
+    "scope": "(?:.*fizteh.*|.*archive.*|.*arhiv.*|.*samples.*|.*primery.*|.*задани.*|.*математ.*|.*math.*)",
+    "math_only": false,
+    "depth": 4
+  },
+  "spbu": {
+    "name": "Олимпиада школьников СПбГУ — математика",
+    "seeds": [
+      "https://olympiada.spbu.ru/",
+      "https://sch-olymp.spbu.ru/"
+    ],
+    "domains": [
+      "olympiada.spbu.ru",
+      "sch-olymp.spbu.ru",
+      "spbu.ru"
+    ],
+    "scope": "(?:.*matemat.*|.*math.*|.*arkhiv.*|.*arhiv.*|.*archive.*|.*material.*|.*zadani.*|.*past.*)",
+    "math_only": false,
+    "depth": 4
+  },
+  "petersburg": {
+    "name": "Санкт-Петербургская олимпиада по математике",
+    "seeds": [
+      "http://www.pdmi.ras.ru/~olymp/",
+      "https://www.pdmi.ras.ru/~olymp/"
+    ],
+    "domains": [
+      "www.pdmi.ras.ru",
+      "pdmi.ras.ru"
+    ],
+    "scope": ".*/~olymp/.*",
+    "math_only": true,
+    "depth": 5
+  },
+  "sammat": {
+    "name": "САММАТ — математика",
+    "seeds": [
+      "https://sammat.samgtu.ru/sammat",
+      "https://sammat.samgtu.ru/"
+    ],
+    "domains": [
+      "sammat.samgtu.ru"
+    ],
+    "scope": ".*",
+    "math_only": true,
+    "depth": 4
+  },
+  "yumsh": {
+    "name": "Олимпиада ЮМШ",
+    "seeds": [
+      "https://yumsh.ru/cms/yumsh-olymp/archive"
+    ],
+    "domains": [
+      "yumsh.ru",
+      "www.yumsh.ru",
+      "yumsh.spbu.ru"
+    ],
+    "scope": ".*(?:olymp|олимп|archive|arhiv|задач).*",
+    "math_only": true,
+    "depth": 4
+  },
+  "kurchatov": {
+    "name": "Олимпиада Курчатов — математика",
+    "seeds": [
+      "https://olimpiadakurchatov.ru/",
+      "https://kurchatov.olimpiada.ru/"
+    ],
+    "domains": [
+      "olimpiadakurchatov.ru",
+      "kurchatov.olimpiada.ru"
+    ],
+    "scope": ".*(?:math|математ|archive|arhiv|task|zadani|year|\\d{4}).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "mekhmat": {
+    "name": "Механико-математический факультет МГУ — школьные математические олимпиады",
+    "seeds": [
+      "https://math.msu.ru/olimpiady"
+    ],
+    "domains": [
+      "math.msu.ru"
+    ],
+    "scope": ".*(?:olimp|олимп|archive|arhiv|zadani|задач).*",
+    "math_only": true,
+    "depth": 3
+  },
+  "vsesib": {
+    "name": "Всесибирская открытая олимпиада — математика",
+    "seeds": [
+      "https://sesc.nsu.ru/olymp-vsesib/sections/maths/"
+    ],
+    "domains": [
+      "sesc.nsu.ru"
+    ],
+    "scope": ".*(?:olymp-vsesib/sections/maths|math|математ|archive|arhiv).*",
+    "math_only": true,
+    "depth": 4
+  },
+  "innopolis": {
+    "name": "Innopolis Open — математика",
+    "seeds": [
+      "https://dovuz.innopolis.university/innopolis-open"
+    ],
+    "domains": [
+      "dovuz.innopolis.university",
+      "innopolis.university"
+    ],
+    "scope": ".*(?:innopolis-open|math|matem|archive|arhiv).*",
+    "math_only": false,
+    "depth": 3
+  },
+  "izumrud": {
+    "name": "Изумруд — математика",
+    "seeds": [
+      "https://dovuz.urfu.ru/olymps/izumrud"
+    ],
+    "domains": [
+      "dovuz.urfu.ru",
+      "izumrud.urfu.ru"
+    ],
+    "scope": ".*(?:izumrud|math|matem|archive|arhiv).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "bibn": {
+    "name": "Будущие исследователи — будущее науки — математика",
+    "seeds": [
+      "https://bibn.unn.ru/"
+    ],
+    "domains": [
+      "bibn.unn.ru",
+      "www.unn.ru"
+    ],
+    "scope": ".*(?:calendar|archive|math|математ|задани|zadani).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "verchenko": {
+    "name": "Олимпиада имени И.Я. Верченко — математика и криптография",
+    "seeds": [
+      "https://v-olymp.ru/"
+    ],
+    "domains": [
+      "v-olymp.ru",
+      "www.v-olymp.ru"
+    ],
+    "scope": ".*(?:math|matem|математ|verchen|верчен|archive|arhiv|задани|zadani).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "ommo": {
+    "name": "Объединённая межвузовская олимпиада — математика",
+    "seeds": [
+      "https://olympiads.mccme.ru/ommo/",
+      "https://olympiads.mccme.ru/omo/"
+    ],
+    "domains": [
+      "olympiads.mccme.ru"
+    ],
+    "scope": ".*/(?:ommo|omo)/.*",
+    "math_only": true,
+    "depth": 5
+  },
+  "shag": {
+    "name": "Шаг в будущее — математика",
+    "seeds": [
+      "https://olymp.bmstu.ru/ru/mathematics-olymp"
+    ],
+    "domains": [
+      "olymp.bmstu.ru"
+    ],
+    "scope": ".*(?:mathemat|archive|arhiv|задач|задани|zadani).*",
+    "math_only": true,
+    "depth": 3
+  },
+  "itmo": {
+    "name": "Открытая олимпиада ИТМО — математика",
+    "seeds": [
+      "https://olymp.itmo.ru/"
+    ],
+    "domains": [
+      "olymp.itmo.ru"
+    ],
+    "scope": ".*(?:math|математ|archive|arhiv|school|past|задач|задани).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "rosatom": {
+    "name": "Росатом — математика",
+    "seeds": [
+      "https://olymp.mephi.ru/rosatom_it/"
+    ],
+    "domains": [
+      "olymp.mephi.ru"
+    ],
+    "scope": ".*(?:rosatom|math|математ|archive|arhiv|задач|задани).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "turlom": {
+    "name": "Турнир имени М.В. Ломоносова — математика",
+    "seeds": [
+      "https://turlom.olimpiada.ru/",
+      "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/архив/",
+      "https://olympiads.mccme.ru/turlom/"
+    ],
+    "domains": [
+      "turlom.olimpiada.ru",
+      "xn--k1acfgjg.xn--l1afu.xn--p1ai",
+      "olympiads.mccme.ru"
+    ],
+    "scope": ".*(?:/archives/|/turlom/).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "belchonok": {
+    "name": "Бельчонок — математика",
+    "seeds": [
+      "https://dovuz.sfu-kras.ru/abiturientu-sfu/olimpiady/belchonok/"
+    ],
+    "domains": [
+      "dovuz.sfu-kras.ru",
+      "sfu-kras.ru"
+    ],
+    "scope": ".*/abiturientu-sfu/olimpiady/belchonok/.*",
+    "math_only": false,
+    "depth": 4
+  },
+  "mos_probability": {
+    "name": "Московская олимпиада по вероятности и статистике",
+    "seeds": [
+      "https://ptlab.mccme.ru/node/2904"
+    ],
+    "domains": [
+      "xn--l1ae4a.xn--l1afu.xn--p1ai",
+      "ptlab.mccme.ru"
+    ],
+    "scope": ".*(?:/olymp/pt|ptlab\\.mccme\\.ru/node/|вероят|статист).*",
+    "math_only": true,
+    "depth": 4
+  }
+}

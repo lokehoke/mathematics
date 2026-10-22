@@ -1,0 +1,56 @@
+[
+  {
+    "id": "register-2026-27",
+    "title": "Приказ Минобрнауки России от 31.08.2026 №521, перечень2026/27",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202609300016",
+    "local_path": "research/legal/official-source-5.pdf",
+    "status": "downloaded",
+    "bytes": 3539174,
+    "sha256": "3271e8c2d0e257a93b8bc757d54d51663af41eb65fdf0dc0faad692004abcffe"
+  },
+  {
+    "id": "conduct-2026",
+    "title": "Приказ Минобрнауки России от16.01.2026 №16, порядок олимпиад",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202602240023",
+    "local_path": "research/legal/order-16-2026.pdf",
+    "status": "downloaded",
+    "bytes": 1022887,
+    "sha256": "b9b2b13b23df7f9232e05217cd52ba3785a243a4366d780a061dab5c5a562a5f"
+  },
+  {
+    "id": "admissions-821",
+    "title": "Приказ Минобрнауки России от27.11.2024 №821, первоначальная официальная публикация",
+    "url": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202411290031",
+    "local_path": "research/legal/admissions-order-821-official.pdf",
+    "status": "downloaded",
+    "bytes": 4036874,
+    "sha256": "bba9407bb2c1493a462fab469815044bfba7ce0c8bfd3f043910a12ca9a90891"
+  },
+  {
+    "id": "rsr-participants",
+    "title": "Памятка РСОШ для участников, обновлена29.05.2026",
+    "url": "https://rsr-olymp.ru/part",
+    "local_path": "research/legal/rsr-part.html",
+    "status": "downloaded",
+    "bytes": 9094,
+    "sha256": "aaca879a06882cd78a9d6c2ede22fc983ef5aad7edd4ba8db77c637c6cba58c2"
+  },
+  {
+    "id": "rsr-admissions",
+    "title": "РСОШ: проверка дипломов приёмными комиссиями,2026",
+    "url": "https://rsr-olymp.ru/pk",
+    "local_path": "research/legal/rsr-pk.html",
+    "status": "downloaded",
+    "bytes": 8718,
+    "sha256": "695cee56b2785cd8d90b78610d5fadc5e8ec860cd0a793408dd8c3decaf1cc77"
+  },
+  {
+    "id": "msu-example",
+    "title": "Пример правил конкретного вуза: ВМК МГУ, приём2026; это не общая федеральная льгота",
+    "url": "https://pk.cs.msu.ru/privilege",
+    "local_path": "research/legal/msu-cs-benefits.html",
+    "status": "downloaded",
+    "bytes": 143606,
+    "sha256": "eb85f1c22f011e922c2f62428c9808a3158b529941495158afa06c9c1641c9d2"
+  }
+]

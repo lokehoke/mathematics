@@ -1,0 +1,48 @@
+{
+  "contest": "САММАТ — математика",
+  "id": "sammat",
+  "subject": "mathematics",
+  "started_at": "2026-10-22T15:41:22.359140+00:00",
+  "updated_at": "2026-10-22T15:41:34.552976+00:00",
+  "scope": {
+    "name": "САММАТ — математика",
+    "seeds": [
+      "https://sammat.samgtu.ru/sammat",
+      "https://sammat.samgtu.ru/"
+    ],
+    "domains": [
+      "sammat.samgtu.ru"
+    ],
+    "scope": ".*",
+    "math_only": true,
+    "depth": 4
+  },
+  "seeds": [
+    "https://sammat.samgtu.ru/sammat",
+    "https://sammat.samgtu.ru/"
+  ],
+  "crawl_limits": {
+    "max_pages": 2400,
+    "max_depth": 6
+  },
+  "coverage_status": "partial",
+  "documents": [],
+  "indexes": [],
+  "failures": [
+    {
+      "ok": false,
+      "url": "https://sammat.samgtu.ru/sammat",
+      "status": null,
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "ok": false,
+      "url": "https://sammat.samgtu.ru/",
+      "status": null,
+      "error": "URLError: <urlopen error timed out>"
+    }
+  ],
+  "discovered_documents": 0,
+  "pending_pages": 0,
+  "pending_documents": []
+}

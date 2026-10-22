@@ -1,0 +1,42 @@
+{
+  "contest": "Открытая олимпиада ИТМО — математика",
+  "id": "itmo",
+  "subject": "mathematics",
+  "started_at": "2026-10-22T15:42:14.590808+00:00",
+  "updated_at": "2026-10-22T15:42:14.592917+00:00",
+  "scope": {
+    "name": "Открытая олимпиада ИТМО — математика",
+    "seeds": [
+      "https://olymp.itmo.ru/"
+    ],
+    "domains": [
+      "olymp.itmo.ru"
+    ],
+    "scope": ".*(?:math|математ|archive|arhiv|school|past|задач|задани).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "seeds": [
+    "https://olymp.itmo.ru/"
+  ],
+  "crawl_limits": {
+    "max_pages": 2400,
+    "max_depth": 6
+  },
+  "coverage_status": "all_links_within_declared_scope_processed",
+  "documents": [],
+  "indexes": [
+    {
+      "url": "https://olymp.itmo.ru/",
+      "local_path": "olympiads/russia/itmo/indexes/e513086ca112-index.html",
+      "sha256": "654d425491eb4f278c675506e6c36d9a8b0f0e5d07e93ad4153478e4a201ac54",
+      "bytes": 36385,
+      "status": "downloaded",
+      "role": "archive_index"
+    }
+  ],
+  "failures": [],
+  "discovered_documents": 0,
+  "pending_pages": 0,
+  "pending_documents": []
+}

@@ -1,0 +1,396 @@
+{
+  "contest": "Изумруд — математика",
+  "id": "izumrud",
+  "subject": "mathematics",
+  "started_at": "2026-10-22T15:41:42.928651+00:00",
+  "updated_at": "2026-10-22T15:41:43.400623+00:00",
+  "scope": {
+    "name": "Изумруд — математика",
+    "seeds": [
+      "https://dovuz.urfu.ru/olymps/izumrud"
+    ],
+    "domains": [
+      "dovuz.urfu.ru",
+      "izumrud.urfu.ru"
+    ],
+    "scope": ".*(?:izumrud|math|matem|archive|arhiv).*",
+    "math_only": false,
+    "depth": 4
+  },
+  "seeds": [
+    "https://dovuz.urfu.ru/olymps/izumrud"
+  ],
+  "crawl_limits": {
+    "max_pages": 2400,
+    "max_depth": 6
+  },
+  "coverage_status": "all_links_within_declared_scope_processed",
+  "documents": [
+    {
+      "url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/2025/mathematics.pdf",
+      "contest": "Изумруд — математика",
+      "subject": "mathematics",
+      "source_page": "https://dovuz.urfu.ru/olymps/izumrud/tasks",
+      "year": "2025",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "Математика",
+      "heading": "Задания и решения прошлых лет",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/izumrud/documents/bfa4b807d90a-mathematics.pdf",
+      "sha256": "0c3cb9d94ff7403670e048612b07eb756b42d691bdbdca0c0128aa9579c10518",
+      "bytes": 3043369,
+      "content_type": "application/pdf",
+      "final_url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/2025/mathematics.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "problems",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/2024/mathematics.pdf",
+      "contest": "Изумруд — математика",
+      "subject": "mathematics",
+      "source_page": "https://dovuz.urfu.ru/olymps/izumrud/tasks",
+      "year": "2024",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "Математика",
+      "heading": "Задания и решения прошлых лет",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/izumrud/documents/d2b7a961ad27-mathematics.pdf",
+      "sha256": "99b5a1df3228a4f50c02d26b44ebc0e850c8dad77868095a89d6a0c8c5f86568",
+      "bytes": 1623574,
+      "content_type": "application/pdf",
+      "final_url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/2024/mathematics.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "problems",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/2023/mathematics.pdf",
+      "contest": "Изумруд — математика",
+      "subject": "mathematics",
+      "source_page": "https://dovuz.urfu.ru/olymps/izumrud/tasks",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "Математика",
+      "heading": "Задания и решения прошлых лет",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/izumrud/documents/cf044880dd14-mathematics.pdf",
+      "sha256": "8a5c5e1f00081ae758e6da4a4128920cfe90cb04ccdfcfabe2c0db8fa725f973",
+      "bytes": 184640,
+      "content_type": "application/pdf",
+      "final_url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/2023/mathematics.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "problems",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/2022/mathematics.pdf",
+      "contest": "Изумруд — математика",
+      "subject": "mathematics",
+      "source_page": "https://dovuz.urfu.ru/olymps/izumrud/tasks",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "Математика",
+      "heading": "Задания и решения прошлых лет",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/izumrud/documents/5abd372ffe77-mathematics.pdf",
+      "sha256": "f9c2b9569e3728993f48fb69633c41fe941dc00159abbe2ec690692308cffcdc",
+      "bytes": 537443,
+      "content_type": "application/pdf",
+      "final_url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/2022/mathematics.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "problems",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/methodical/mathematics.pdf",
+      "contest": "Изумруд — математика",
+      "subject": "mathematics",
+      "source_page": "https://dovuz.urfu.ru/olymps/izumrud/tasks",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "Математика",
+      "heading": "Методические материалы",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/izumrud/documents/bb3ecf6b3e51-mathematics.pdf",
+      "sha256": "4b6c19f334c13e317c6cc9bb0d845dd4a76d793b71954ea022804253bd4d7284",
+      "bytes": 119336,
+      "content_type": "application/pdf",
+      "final_url": "https://dovuz.urfu.ru/olymp_izumrud_tasks/methodical/mathematics.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "problems",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymp_izumrud_student_tasks/2025/mathematics_and_computer_science.pdf",
+      "contest": "Изумруд — математика",
+      "subject": "mathematics",
+      "source_page": "https://dovuz.urfu.ru/olymps/izumrud-student/tasks",
+      "year": "2025",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "Математика и информатика Задание, ответы и решение Открыть",
+      "heading": "Задания и решения прошлых лет",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/izumrud/documents/d4af1cf13a0d-mathematics_and_computer_science.pdf",
+      "sha256": "b4bb8974f5fd1cf5b4325fe96ebdc6d1aea8535109b016039510db8a3637cefa",
+      "bytes": 1047605,
+      "content_type": "application/pdf",
+      "final_url": "https://dovuz.urfu.ru/olymp_izumrud_student_tasks/2025/mathematics_and_computer_science.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "problems_and_solutions",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymp_izumrud_student_tasks/2024/mathematics_and_computer_science.pdf",
+      "contest": "Изумруд — математика",
+      "subject": "mathematics",
+      "source_page": "https://dovuz.urfu.ru/olymps/izumrud-student/tasks",
+      "year": "2024",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "Математика и информатика Задание, ответы и решение Открыть",
+      "heading": "Задания и решения прошлых лет",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/izumrud/documents/57f46b4c8b86-mathematics_and_computer_science.pdf",
+      "sha256": "76ac3c1cf46d36a70951b663ef0ed096f26cda9cfd254d23ffdd0799f662ecd1",
+      "bytes": 1160544,
+      "content_type": "application/pdf",
+      "final_url": "https://dovuz.urfu.ru/olymp_izumrud_student_tasks/2024/mathematics_and_computer_science.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "problems_and_solutions",
+        "reason": null,
+        "sha256_verified": true
+      }
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymp_izumrud_student_tasks/methodical/mathematics_and_computer_science.pdf",
+      "contest": "Изумруд — математика",
+      "subject": "mathematics",
+      "source_page": "https://dovuz.urfu.ru/olymps/izumrud-student/tasks",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "Математика и информатика Методические материалы для подготовки Открыть",
+      "heading": "Методические материалы по профилям",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/izumrud/documents/87a509bda02f-mathematics_and_computer_science.pdf",
+      "sha256": "7136d1aec0f93ac2b00b702fd3ca8bf66bf2b67228e2e8b8aaaf7dff5282f100",
+      "bytes": 55877,
+      "content_type": "application/pdf",
+      "final_url": "https://dovuz.urfu.ru/olymp_izumrud_student_tasks/methodical/mathematics_and_computer_science.pdf",
+      "archive_review": {
+        "category": "material",
+        "accepted_material": true,
+        "document_type": "problems",
+        "reason": null,
+        "sha256_verified": true
+      }
+    }
+  ],
+  "indexes": [
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud",
+      "local_path": "olympiads/russia/izumrud/indexes/16dd9f3cee41-izumrud.html",
+      "sha256": "f3f640350632e7051b309692c25764ca38affc626acd19b0b1f758718b55827e",
+      "bytes": 99396,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/index",
+      "local_path": "olympiads/russia/izumrud/indexes/423c6c3c4650-index.html",
+      "sha256": "474c34c82773d7dde55c883420715bb6bd591ad39e05c63650084d4468640a27",
+      "bytes": 89889,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
+      "local_path": "olympiads/russia/izumrud/indexes/a5531e46205b-registration.html",
+      "sha256": "1484abffe297eac210c371c954d4197b73bec4d5d7ea6d113c59885ce520fff6",
+      "bytes": 50330,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud/internal-stage",
+      "local_path": "olympiads/russia/izumrud/indexes/6e9ea16436c3-internal-stage.html",
+      "sha256": "b2fc0d117012a4c0a544bfd532fcf540044a13037cdfe8f0e9996ccd1a389070",
+      "bytes": 54051,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud/documents",
+      "local_path": "olympiads/russia/izumrud/indexes/71761113df63-documents.html",
+      "sha256": "bda0a803d18415da514df98a3fd891c098e5c69d6134a6d7b02a002be53771e7",
+      "bytes": 50325,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud/appeals",
+      "local_path": "olympiads/russia/izumrud/indexes/244184816740-appeals.html",
+      "sha256": "c31b2e2975585bbfc9e17cfe7bf8701121ff3d29e3a110c5ac0aad857d93d911",
+      "bytes": 51407,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud/reglament",
+      "local_path": "olympiads/russia/izumrud/indexes/de506d3df0b5-reglament.html",
+      "sha256": "ca6f7d0f117339cf07a35eb29b4026e6cc2ade5cc8b3b4ff6976c69dd7c25914",
+      "bytes": 58058,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud/tasks",
+      "local_path": "olympiads/russia/izumrud/indexes/62c07f4477a8-tasks.html",
+      "sha256": "870f05d8a79af8694e3cec522e00ea034bcc9c4d6a020eaa611757c320eb8dab",
+      "bytes": 87200,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud/criteria",
+      "local_path": "olympiads/russia/izumrud/indexes/a387c0b170f0-criteria.html",
+      "sha256": "e9fc05555a69cffd5702723a48ba2915e295815924dc3ed46ad37cffcc6fde47",
+      "bytes": 154199,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud/archive-winners",
+      "local_path": "olympiads/russia/izumrud/indexes/365aeeaa9f9b-archive-winners.html",
+      "sha256": "f31d34585beeb97c168cf62718487d657d548066554f21f3b0f22a39ffb49423",
+      "bytes": 40604,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/registration",
+      "local_path": "olympiads/russia/izumrud/indexes/dbefb20b7258-registration.html",
+      "sha256": "2547587ef0fe826c1ee41f646d2a102d82c017d541da1782088f283914b23fca",
+      "bytes": 50722,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/internal-stage",
+      "local_path": "olympiads/russia/izumrud/indexes/89d70a099475-internal-stage.html",
+      "sha256": "744d2472f67005c22669047467e20ca1076e6cd2c6c9b09eefed6d6a5baff03e",
+      "bytes": 54100,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/documents",
+      "local_path": "olympiads/russia/izumrud/indexes/23ce27ac6633-documents.html",
+      "sha256": "8f386cce00b2e4e6dce11a4505eaaee6d542d38f6973e22eb3e78bb628bfeb87",
+      "bytes": 50441,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/appeals",
+      "local_path": "olympiads/russia/izumrud/indexes/131537a1de55-appeals.html",
+      "sha256": "4cb8a38e59e1d9faf7dbc07f9deb5fda13a2d7844606fcd348b742f0d21d7d56",
+      "bytes": 51661,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/reglament",
+      "local_path": "olympiads/russia/izumrud/indexes/bff2b4e60ec5-reglament.html",
+      "sha256": "5a6c851b15bfc095114cea7d82c1064369f3e35058cc777a573ad04d9682f373",
+      "bytes": 48376,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/tasks",
+      "local_path": "olympiads/russia/izumrud/indexes/f429df16a762-tasks.html",
+      "sha256": "6ada18b5c24ea82e8e782f351dbf826b4d82b275d338681b353bcc27a6a68ad1",
+      "bytes": 78992,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/criteria",
+      "local_path": "olympiads/russia/izumrud/indexes/2247a979f488-criteria.html",
+      "sha256": "344e3fcb9f9409914f9542825a831540fe0222016b45abdee5a7fed15eba5f8f",
+      "bytes": 112831,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/start-stage",
+      "local_path": "olympiads/russia/izumrud/indexes/28791f266dc7-start-stage.html",
+      "sha256": "44ecc924cd3332a5dfb24451730cf71854f86ce24f7b459ecfe92c00804f631b",
+      "bytes": 46986,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/final-stage",
+      "local_path": "olympiads/russia/izumrud/indexes/032c363ff3b5-final-stage.html",
+      "sha256": "72d4a8b895e77723cc73d84d726c2eff7fa7997da1f65ff8e1457100b2c39cff",
+      "bytes": 54076,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://dovuz.urfu.ru/olymps/izumrud-student/archive-winners",
+      "local_path": "olympiads/russia/izumrud/indexes/96b5bea45a96-archive-winners.html",
+      "sha256": "fdfd1d9b5cf0c6222e2155d665700bef553168d4d95dced569ac53cf1451e83e",
+      "bytes": 40867,
+      "status": "downloaded",
+      "role": "archive_index"
+    }
+  ],
+  "failures": [],
+  "discovered_documents": 8,
+  "pending_pages": 0,
+  "pending_documents": []
+}
