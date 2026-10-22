@@ -262,7 +262,7 @@ for entry in [v for v in flow if v['kind']=='reference']:
  a=tables.index(entry['start']);b=tables.index(entry['end'],a)
  tables=tables[:a]+catblock(tables[a:b].strip().removesuffix('%').strip(),entry)+tables[b:]
 tables=tables.replace('REFERENCE_END','')
-(BOOK/'reference-tables.tex').write_text(tables)
+(BOOK/'reference-tables.tex').write_text(tables.rstrip()+'\n')
 main += [r'\backmatter\input{reference-tables.tex}',r'\clearpage\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}']
 for i,c in enumerate(ordered,1):
  main += [r'\section*{Глава '+str(i)+'. '+c['title']+'}']
