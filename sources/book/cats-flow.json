@@ -31,10 +31,9 @@
     "side": "l"
   },
   {
-    "kind": "tasks",
+    "kind": "proof",
     "chapter": 1,
-    "start": 9,
-    "end": 15,
+    "index": 3,
     "art": 5,
     "side": "r"
   },
@@ -188,15 +187,15 @@
   {
     "kind": "proof",
     "chapter": 12,
-    "index": 5,
+    "index": 6,
     "art": 20,
     "side": "r"
   },
   {
     "kind": "tasks",
     "chapter": 12,
-    "start": 7,
-    "end": 13,
+    "start": 16,
+    "end": 24,
     "art": 30,
     "side": "l"
   },
@@ -555,5 +554,235 @@
     "start": 15,
     "end": 21,
     "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 73,
+    "start": "Уравнение \\(x^2+1=0\\)",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 74,
+    "start": "Переход от действительных чисел к комплексным расширяет",
+    "end": "\\section*",
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 75,
+    "start": "Геометрическая запись разделяет две характеристики числа",
+    "end": "\\section*",
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 76,
+    "start": "При извлечении комплексных корней важно",
+    "end": "\\section*",
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 23,
+    "art": 77,
+    "start": 7,
+    "end": 13,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 23,
+    "art": 78,
+    "start": 17,
+    "end": 22,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 16,
+    "art": 81,
+    "start": "Логический переключатель хранит",
+    "end": "\\section*",
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 16,
+    "art": 82,
+    "start": "Дерево вывода удобно читать",
+    "end": "\\subsection*",
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 16,
+    "art": 83,
+    "start": 27,
+    "end": 32,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 16,
+    "art": 84,
+    "start": 27,
+    "end": 32,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 24,
+    "art": 85,
+    "start": "Комплексное число описывает пару действительных координат",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 24,
+    "art": 86,
+    "start": "Трёхмерный вектор становится частью алгебры",
+    "end": "\\begin{theorem}",
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 24,
+    "art": 87,
+    "start": 6,
+    "end": 12,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 24,
+    "art": 88,
+    "start": 8,
+    "end": 14,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 25,
+    "art": 89,
+    "start": "Удвоение числа координат можно повторить",
+    "end": "\\begin{definition}",
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 25,
+    "art": 90,
+    "start": "После потери ассоциативности скобки становятся частью выражения",
+    "end": "\\section*",
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 25,
+    "art": 91,
+    "start": 6,
+    "end": 12,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 25,
+    "art": 92,
+    "start": 7,
+    "end": 13,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 14,
+    "art": 93,
+    "side": "r",
+    "start": "Другая модель — цепная линия",
+    "end": "% HYPERBOLIC_APPLICATION_END"
+  },
+  {
+    "kind": "proof",
+    "chapter": 15,
+    "art": 94,
+    "side": "r",
+    "index": 1
+  },
+  {
+    "kind": "proof",
+    "chapter": 16,
+    "art": 95,
+    "side": "l",
+    "index": 2
+  },
+  {
+    "kind": "prose",
+    "chapter": 1,
+    "art": 99,
+    "side": "r",
+    "start": "После базы и перехода заключаем",
+    "end": "\\section*{Первый пример применения метода}"
+  },
+  {
+    "kind": "reference",
+    "chapter": 0,
+    "art": 96,
+    "side": "r",
+    "start": "Таблица симметрична",
+    "end": "% TRIG_TABLE_START"
+  },
+  {
+    "kind": "reference",
+    "chapter": 0,
+    "art": 97,
+    "side": "l",
+    "start": "Правило цепочки учитывает",
+    "end": "\\section*{Степени и логарифмы}"
+  },
+  {
+    "kind": "reference",
+    "chapter": 0,
+    "art": 98,
+    "side": "r",
+    "start": "Формулы сложения дают значения",
+    "end": "REFERENCE_END"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 79,
+    "side": "r",
+    "start": "Общая формула решения должна работать",
+    "end": "\\begin{definition}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 80,
+    "side": "l",
+    "start": "При решении четвёртой степени удобно",
+    "end": "\\begin{definition}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 100,
+    "side": "r",
+    "start": "Нельзя независимо взять любые кубические корни",
+    "end": "\\section*{Приведение уравнения четвёртой степени}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 101,
+    "side": "l",
+    "start": "Для вычисления корня резольвенты можно непосредственно",
+    "end": "\\section*{Граница радикальных формул}"
   }
 ]

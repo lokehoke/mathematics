@@ -13,7 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 BOOK=ROOT/'sources/book'
 source=Path(sys.argv[1]) if len(sys.argv)>1 else BOOK/'main.pdf'
 output=Path(sys.argv[2]) if len(sys.argv)>2 else ROOT/'research/book-flow-layout-check.json'
-lookup={hashlib.sha256(Image.open(p).convert('RGB').tobytes()).hexdigest():int(p.stem[-2:]) for p in (BOOK/'images/unique').glob('art-*.png')}
+lookup={hashlib.sha256(Image.open(p).convert('RGB').tobytes()).hexdigest():int(p.stem.removeprefix('art-')) for p in (BOOK/'images/unique').glob('art-*.png')}
 expected_art={entry['art'] for entry in json.loads((BOOK/'cats-flow.json').read_text())}
 placements=[];overlaps=[];box_overlaps=[];outside=[];sparse=[];labels=Counter()
 with pdfplumber.open(source) as pdf:

@@ -15,7 +15,7 @@ subprocess.run([sys.executable,str(ROOT/'scripts/make_symbols.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/assemble_book.py')],check=True)
 subprocess.run([args.tectonic,'--keep-logs','--keep-intermediates','main.tex'],cwd=BOOK,check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/verify_book_layout.py')],check=True)
-target=ROOT/'rendered/algebra-for-nastya.pdf'
+target=ROOT/'rendered/algebra-for-beloved-kitten.pdf'
 gs=shutil.which('gs')
 if gs and not args.skip_optimize:
     # Only the reading copy is downsampled. Original transparent artwork stays

@@ -42,6 +42,7 @@ c=chapters[0];cut=c['theory'].rfind(r'\begin{definition}',0,c['theory'].index(r'
 c['theory']=(TMP/'peano.tex').read_text()+'\n'+c['theory'][cut:]
 chapters[6]['theory']+='\n'+(TMP/'roots-n.tex').read_text()
 chapters[9]['theory']+='\n'+(TMP/'polynomial-equations.tex').read_text()
+chapters[0]['theory']+='\n'+(TMP/'induction-worked-example.tex').read_text()
 comb=json.loads((TMP/'combinatorics.json').read_text());comb['old']=None
 prog=json.loads((TMP/'sequences-progressions.json').read_text());prog['old']=None
 prog['tasks'][17]['a']=r'Положим \(b_n=a_n+1\). Тогда '+prog['tasks'][17]['a']
@@ -80,10 +81,15 @@ for c in ordered:
  c['theory']=re.sub(r'\\\((.*?)\\\)',lambda m:('\n'+r'\['+m[1]+r'\]'+'\n') if len(m[1])>100 and (r'\sum' in m[1] or r'\prod' in m[1]) else m[0],c['theory'],flags=re.S)
 # All exercise instructions are embedded in their statements, with no repeated hints.
 assert len(ordered)==16
-assert sum(len(c['tasks']) for c in ordered)==385
+assert sum(len(c['tasks']) for c in ordered)==392
+# Logic is extended after legacy reference remapping so its current chapter
+# references and proof annotations retain their intended meaning.
+logic=json.loads((TMP/'logic-extension.json').read_text())
+ordered[15]['theory']+='\n'+logic['theory']
+ordered[15]['tasks']+=logic['tasks']
 # Append the approved university introductions after remapping legacy chapter
 # references. Their chapter numbers already refer to the current edition.
-extension_paths=['new-chapters-17-18.json','new-chapters-19-20.json','new-chapter-21.json','new-chapter-22.json']
+extension_paths=['new-chapters-17-18.json','new-chapters-19-20.json','new-chapter-21.json','new-chapter-22.json','new-chapter-23.json','new-chapter-24.json','new-chapter-25.json']
 missing=[name for name in extension_paths if not (TMP/name).exists()]
 assert not missing,'Missing approved chapters: '+', '.join(missing)
 for name in extension_paths:
@@ -94,6 +100,9 @@ for name in extension_paths:
    c['old']=None
    c['theory']=c['theory'].replace(r'\subsubsection*',r'\section*').replace(r'\boldsymbol',r'\symbf')
    ordered.append(c)
+polynomial=json.loads((TMP/'polynomial-formulas-full.json').read_text())
+ordered[22]['theory']+='\n'+polynomial['theory']
+ordered[22]['tasks']+=polynomial['tasks']
 count=sum(len(c['tasks']) for c in ordered)
 for c in ordered:
  for task in c['tasks']:
@@ -202,49 +211,59 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \newcommand{\term}[1]{{\color{Navy}\uline{#1}}}
 \newcommand{\starmark}{\ensuremath{\textcolor{Coral}{{}^{\ast}}}}
 \newsavebox{\CatFlowBox}
-\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для Насти}\fancyhead[R]{\small\color{Teal}\rightmark}\fancyfoot[C]{\thepage}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для любимого котеночка}\fancyhead[R]{\small\color{Teal}\rightmark}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{.3pt}
 
 \begin{document}
 \pagecolor{Paper}\color{Ink}
-\hypersetup{pageanchor=false}
+\hypersetup{pageanchor=false,pdftitle={Алгебра перед математическим анализом для любимого котеночка},pdfsubject={Числа, алгебра, функции и введение в анализ}}
 \begin{titlepage}\thispagestyle{empty}\thispdfpagelabel{Обложка}
 \begin{tikzpicture}[remember picture,overlay]
 \node[inner sep=0] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{images/cover-two-cats.png}};
-\node[anchor=north,text width=.86\paperwidth,align=center,text=Navy] at ([yshift=-23mm]current page.north){\fontsize{29}{36}\selectfont\bfseries Алгебра перед\\математическим\\анализом\\[7mm]{\fontsize{25}{30}\selectfont для Насти}};
-\node[anchor=north,text width=.8\paperwidth,align=center,text=Navy] at ([yshift=-93mm]current page.north){\large От аксиом Пеано до производных и полей};
+\node[anchor=north,text width=.86\paperwidth,align=center,text=Navy] at ([yshift=-23mm]current page.north){\fontsize{29}{36}\selectfont\bfseries Алгебра перед\\математическим\\анализом\\[7mm]{\fontsize{25}{30}\selectfont для любимого котеночка}};
+\node[anchor=north,text width=.8\paperwidth,align=center,text=Navy] at ([yshift=-93mm]current page.north){\large Числа, функции и первые идеи высшей математики};
 \end{tikzpicture}\null\end{titlepage}
 
 \pagenumbering{arabic}
 \hypersetup{pageanchor=true}
 \markright{Содержание}
 \begingroup\small\linespread{1}\selectfont\setlength{\parskip}{0pt}\tableofcontents\endgroup
-\markright{Обозначения}\input{symbols.tex}
+\input{symbols.tex}
+\input{data/alphabets.tex}
 '''
 (BOOK/'main.tex').write_text(header)
 main=[]
 for i,c in enumerate(ordered,1):
  atlas_intro=''
  theory=c['theory']
- if i==14 and r'График \(\sinh x\)' in theory:
-  theory,atlas_intro=theory.split(r'График \(\sinh x\)',1)
-  atlas_intro=r'График \(\sinh x\)'+atlas_intro
+ if i==14 and r'График \(\operatorname{sh} x\)' in theory:
+  theory,atlas_intro=theory.split(r'График \(\operatorname{sh} x\)',1)
+  atlas_intro=r'График \(\operatorname{sh} x\)'+atlas_intro
  theory=theory_cats(theory,i)
  out=[r'\chapter{'+c['title']+'}'+r'\markright{Глава '+str(i)+'}',theory]
  atlas={7:('atlas-roots.pdf','Корни нечётной и чётной степени'),13:('atlas-algebra.pdf','Базовые алгебраические функции'),14:('atlas-exponential.pdf','Показательные, логарифмические и гиперболические функции'),15:('atlas-trigonometry.pdf','Тригонометрические и обратные функции'),18:('atlas-linear.pdf','Сумма векторов и образ единичного квадрата'),19:('atlas-limits.pdf','Пределы, значение в точке и непрерывность'),20:('atlas-derivative.pdf','Производная как предел наклонов и линейное приближение')}
+ atlas[23]=('atlas-complex.pdf','Сопряжение и корни на комплексной плоскости')
  if i in atlas:
   path,cap=atlas[i]
-  if i not in (7,13,18,20):out.append(r'\clearpage')
+  if i not in (7,13,18,20,23):out.append(r'\clearpage')
   # Keep the heading and caption with their atlas, including when the whole
   # block moves to the next page after a long proof.
   out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Графики}')
   if atlas_intro:out.append(atlas_intro)
   h='.65' if atlas_intro else ('.70' if i==13 else '.79')
   out.append(r'\begin{center}\includegraphics[width=\textwidth,height='+h+r'\textheight,keepaspectratio]{images/'+path+'}'+r'\par\small '+cap+r'\end{center}\end{minipage}\par')
+ if i==15:
+  out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Тангенс на большом промежутке}\includegraphics[width=\linewidth]{images/graph-tangent.pdf}\par Пунктиром отмечены прямые \(x=\frac\pi2+\pi k\), \(k\in\mathbb Z\), где тангенс не определён. Соседние ветви повторяются с периодом \(\pi\); через разрывы график не соединяется.\end{minipage}\par')
  out += [r'\Needspace{7\baselineskip}\section*{Задачи}']
  out += task_section(i,c['tasks'])
  path=f'chapters/chapter-{i:02d}.tex';(BOOK/path).write_text('\n'.join(out)+'\n');main.append(r'\input{'+path+'}')
-main += [r'\backmatter\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}']
+tables=(TMP/'reference-tables.tex').read_text()
+for entry in [v for v in flow if v['kind']=='reference']:
+ a=tables.index(entry['start']);b=tables.index(entry['end'],a)
+ tables=tables[:a]+catblock(tables[a:b].strip().removesuffix('%').strip(),entry)+tables[b:]
+tables=tables.replace('REFERENCE_END','')
+(BOOK/'reference-tables.tex').write_text(tables)
+main += [r'\backmatter\input{reference-tables.tex}',r'\clearpage\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}']
 for i,c in enumerate(ordered,1):
  main += [r'\section*{Глава '+str(i)+'. '+c['title']+'}']
  main += task_section(i,c['tasks'],answers=True)

@@ -44,7 +44,7 @@ ax.plot([-2,0],[0,0],color=TEAL,lw=2);ax.plot([0,2],[1,1],color=OCHRE,lw=2)
 point(ax,0,0,False);point(ax,0,1,True,OCHRE)
 ax.text(-1.8,.2,r'$\lim_{x\to0-}f(x)=0$',color=TEAL)
 ax.text(.2,1.2,r'$\lim_{x\to0+}f(x)=1$',color=OCHRE)
-ax=axs[1,0];setup(ax,r'$f(x)=1/x$: поведение у нуля',(-2,2),(-5,5))
+ax=axs[1,0];setup(ax,r'$f(x)=\frac{1}{x}$: поведение у нуля',(-2,2),(-5,5))
 for a,b in [(-2,-.04),(.04,2)]:
     x=np.linspace(a,b,400);ax.plot(x,1/x,color=TEAL,lw=2)
 ax.text(.35,3.8,r'$x\to0+:\ f(x)\to+\infty$',fontsize=9,color=NAVY)

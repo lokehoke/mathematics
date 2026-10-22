@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 BOOK=Path(__file__).resolve().parents[1]/'sources/book'
 groups=json.loads((BOOK/'data/symbols-groups.json').read_text())
-out=[r'\chapter*{Справочник обозначений}',
+out=[r'\chapter*{Справочник обозначений}\markright{Обозначения}',
  r'\addcontentsline{toc}{chapter}{Справочник обозначений}',
  r'\begingroup\small\renewcommand{\arraystretch}{1.35}\setlength{\tabcolsep}{4pt}\arrayrulecolor{Teal}\setlength{\arrayrulewidth}{.35pt}']
 for group in groups:

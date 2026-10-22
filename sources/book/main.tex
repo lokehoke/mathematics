@@ -38,24 +38,25 @@
 \newcommand{\term}[1]{{\color{Navy}\uline{#1}}}
 \newcommand{\starmark}{\ensuremath{\textcolor{Coral}{{}^{\ast}}}}
 \newsavebox{\CatFlowBox}
-\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для Насти}\fancyhead[R]{\small\color{Teal}\rightmark}\fancyfoot[C]{\thepage}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для любимого котеночка}\fancyhead[R]{\small\color{Teal}\rightmark}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{.3pt}
 
 \begin{document}
 \pagecolor{Paper}\color{Ink}
-\hypersetup{pageanchor=false}
+\hypersetup{pageanchor=false,pdftitle={Алгебра перед математическим анализом для любимого котеночка},pdfsubject={Числа, алгебра, функции и введение в анализ}}
 \begin{titlepage}\thispagestyle{empty}\thispdfpagelabel{Обложка}
 \begin{tikzpicture}[remember picture,overlay]
 \node[inner sep=0] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{images/cover-two-cats.png}};
-\node[anchor=north,text width=.86\paperwidth,align=center,text=Navy] at ([yshift=-23mm]current page.north){\fontsize{29}{36}\selectfont\bfseries Алгебра перед\\математическим\\анализом\\[7mm]{\fontsize{25}{30}\selectfont для Насти}};
-\node[anchor=north,text width=.8\paperwidth,align=center,text=Navy] at ([yshift=-93mm]current page.north){\large От аксиом Пеано до производных и полей};
+\node[anchor=north,text width=.86\paperwidth,align=center,text=Navy] at ([yshift=-23mm]current page.north){\fontsize{29}{36}\selectfont\bfseries Алгебра перед\\математическим\\анализом\\[7mm]{\fontsize{25}{30}\selectfont для любимого котеночка}};
+\node[anchor=north,text width=.8\paperwidth,align=center,text=Navy] at ([yshift=-93mm]current page.north){\large Числа, функции и первые идеи высшей математики};
 \end{tikzpicture}\null\end{titlepage}
 
 \pagenumbering{arabic}
 \hypersetup{pageanchor=true}
 \markright{Содержание}
 \begingroup\small\linespread{1}\selectfont\setlength{\parskip}{0pt}\tableofcontents\endgroup
-\markright{Обозначения}\input{symbols.tex}
+\input{symbols.tex}
+\input{data/alphabets.tex}
 \input{chapters/chapter-01.tex}
 \input{chapters/chapter-02.tex}
 \input{chapters/chapter-03.tex}
@@ -78,7 +79,11 @@
 \input{chapters/chapter-20.tex}
 \input{chapters/chapter-21.tex}
 \input{chapters/chapter-22.tex}
-\backmatter\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}
+\input{chapters/chapter-23.tex}
+\input{chapters/chapter-24.tex}
+\input{chapters/chapter-25.tex}
+\backmatter\input{reference-tables.tex}
+\clearpage\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}
 \section*{Глава 1. Числа и свойства арифметических действий}
 \begingroup\setlength{\parskip}{4pt}
 \textbf{1.1.} \(- 8 < - 3;\allowbreak 0 > - 5;\allowbreak - 4 < 4\).\par
@@ -492,6 +497,10 @@
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
+\textbf{12.21.} Супремум и наибольший элемент равны \(5\); инфимум равен \(-2\), наименьшего элемента нет.\par
+\textbf{12.22.} \(\sup A=2\), достигается при \(n=1\). Все элементы больше \(1\), но для любого \(\varepsilon>0\) можно выбрать \(n>\frac1\varepsilon\), получив \(1+\frac1n<1+\varepsilon\). Поэтому \(\inf A=1\notin A\).\par
+\textbf{12.23.} Нижние грани: \(( -\infty;-3]\), верхние: \([7;+\infty)\). \(\inf A=-3\), \(\sup A=7\). Обе грани являются элементами \(A\).\par
+\textbf{12.24.} Пусть \(m=\inf A\). Число \(c+m\) — нижняя грань сдвинутого множества. Если \(b\) — другая нижняя грань, то \(b-c\) — нижняя грань \(A\), поэтому \(b-c\le m\), то есть \(b\le c+m\).\par
 \endgroup
 \section*{Глава 13. Функции и графики}
 \begingroup\setlength{\parskip}{4pt}
@@ -539,7 +548,7 @@
 \textbf{14.17.}\starmark{} \(x = 3\): ОДЗ \(x > 1;\allowbreak x^{2} - 1 = 8\); отрицательный корень исключается.\par
 \textbf{14.18.}\starmark{} \(3\) года: \(1,1^{3} = 1,331\), а через \(2\) года сумма \(12100\) рублей.\par
 \textbf{14.19.}\starmark{} По формуле смены основания произведение равно \(\frac{\ln b}{\ln a}\cdot\frac{\ln a}{\ln b}=1\). При \(a=1\) или \(b=1\) один из логарифмов имел бы недопустимое основание; соответствующий знаменатель в этой записи был бы нулём.\par
-\textbf{14.20.}\starmark{} Квадрат неотрицателен: \((e^{x/2}-e^{-x/2})^2=e^x+e^{-x}-2\ge0\). Поэтому \(\cosh x=\frac{e^x+e^{-x}}2\ge1\). Равенство возможно ровно при \(e^{x/2}=e^{-x/2}\); инъективность экспоненты даёт \(x=0\).\par
+\textbf{14.20.}\starmark{} Квадрат неотрицателен: \((e^{x/2}-e^{-x/2})^2=e^x+e^{-x}-2\ge0\). Поэтому \(\operatorname{ch} x=\frac{e^x+e^{-x}}2\ge1\). Равенство возможно ровно при \(e^{x/2}=e^{-x/2}\); инъективность экспоненты даёт \(x=0\).\par
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
 \begin{wrapfigure}[12]{r}{54mm}
@@ -553,17 +562,20 @@
 
 \textbf{14.24.} При \(n=2\): \(1000(\frac32)^2=2250\) рублей. При \(n=4\): \(1000(\frac54)^4=2441{,}40625\), то есть \(2441{,}41\) рубля. Предельная сумма \(1000e\approx2718{,}28\) рубля.\par
 
-\textbf{14.25.} Поскольку \(e^{\ln2}=2\), а \(e^{-\ln2}=\frac12\), получаем \(\sinh(\ln2)=\frac34\), \(\cosh(\ln2)=\frac54\). Проверка: \((\frac54)^2-(\frac34)^2=\frac{25-9}{16}=1\).\par
+\textbf{14.25.} Поскольку \(e^{\ln2}=2\), а \(e^{-\ln2}=\frac12\), получаем \(\operatorname{sh}(\ln2)=\frac34\), \(\operatorname{ch}(\ln2)=\frac54\). Проверка: \((\frac54)^2-(\frac34)^2=\frac{25-9}{16}=1\).\par
 
 \textbf{14.26.}\starmark{} Имеем \(t>0\) и \(\frac{t-\frac1t}{2}=\frac34\), откуда \(2t^2-3t-2=0\). Корни \(t=2\), \(t=-\frac12\); отрицательный не подходит. Поэтому \(x=\ln2\).\par
 
 \textbf{14.27.}\starmark{} При \(t=e^x>0\) получаем \(\frac{t+\frac1t}{2}=\frac54\), то есть \(2t^2-5t+2=0\). Оба корня положительны: \(t=2\) и \(t=\frac12\). Ответ: \(x=\ln2\) или \(x=-\ln2\).\par
 
-\textbf{14.28.} Для \(\sinh\) точки равны \((-\ln2;-\frac34),(0;0),(\ln2;\frac34)\); график нечётен и возрастает, ниже оси при \(x<0\), выше при \(x>0\). Для \(\cosh\) точки \((-\ln2;\frac54),(0;1),(\ln2;\frac54)\); график чётен, весь лежит не ниже прямой \(y=1\).\par
+\textbf{14.28.} Для \(\operatorname{sh}\) точки равны \((-\ln2;-\frac34),(0;0),(\ln2;\frac34)\); график нечётен и возрастает, ниже оси при \(x<0\), выше при \(x>0\). Для \(\operatorname{ch}\) точки \((-\ln2;\frac54),(0;1),(\ln2;\frac54)\); график чётен, весь лежит не ниже прямой \(y=1\).\par
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
+\textbf{14.29.} \(\operatorname{ch}(\ln2)=\frac{2+\frac12}{2}=\frac54\), поэтому \(y=1\) м. При \(x=-4\ln2\) высота та же по чётности.\par
+\textbf{14.30.}\starmark{} Для \(t=\frac xa\) имеем \(\operatorname{ch}t-1=\frac{(e^t-1)^2}{2e^t}\ge0\). Равенство возможно ровно при \(e^t=1\), то есть \(t=0\), а значит \(x=0\). Минимум \(y=0\).\par
+\textbf{14.31.} \(X=\frac{3+\frac13}{2}=\frac53\), \(Y=\frac{3-\frac13}{2}=\frac43\). Разность квадратов \(\frac{25-16}{9}=1\).\par
 \endgroup
 \section*{Глава 15. Тригонометрия}
 \begingroup\setlength{\parskip}{4pt}
@@ -573,7 +585,7 @@
 \textbf{15.4.} \(\sin \) положителен, \(\cos \) отрицателен.\par
 \textbf{15.5.} \(- \frac{1}{2};\allowbreak \frac{1}{2}\).\par
 \textbf{15.6.} \(3\).\par
-\textbf{15.7.} \(\cos  x = \frac{4}{5};\allowbreak \tan  x = \frac{3}{4}\).\par
+\textbf{15.7.} \(\cos  x = \frac{4}{5};\allowbreak \operatorname{tg}  x = \frac{3}{4}\).\par
 \textbf{15.8.} \(\sin  x;\allowbreak - \cos  x\).\par
 \textbf{15.9.} \(0,\allowbreak \pi ,\allowbreak 2 \pi \).\par
 \textbf{15.10.} \(\frac{\pi }{3},\allowbreak \frac{5 \pi }{3}\).\par
@@ -590,10 +602,10 @@
 \textbf{15.21.} Соответственно \(0\), \(\frac\pi6\), \(-\frac\pi3\). Все углы входят в \([-\frac\pi2;\frac\pi2]\).\par
 \textbf{15.22.} Соответственно \(\frac{2\pi}3\), \(0\), \(\frac\pi2\). Все углы входят в \([0;\pi]\).\par
 \textbf{15.23.} Соответственно \(-\frac\pi4\), \(\frac\pi3\), \(0\).\par
-\textbf{15.24.}\starmark{} Получаем \(\arcsin\frac12=\frac\pi6\), \(\arccos\frac12=\frac\pi3\), \(\arctan(-1)=-\frac\pi4\). Исходные углы не лежат в соответствующих диапазонах обратных функций, поэтому механически сокращать функции нельзя.\par
+\textbf{15.24.}\starmark{} Получаем \(\arcsin\frac12=\frac\pi6\), \(\arccos\frac12=\frac\pi3\), \(\operatorname{arctg}(-1)=-\frac\pi4\). Исходные углы не лежат в соответствующих диапазонах обратных функций, поэтому механически сокращать функции нельзя.\par
 \textbf{15.25.} Оба значения равны \(\frac45\). Угол арксинуса лежит в \([-\frac\pi2;\frac\pi2]\), где косинус неотрицателен; угол арккосинуса лежит в \([0;\pi]\), где синус неотрицателен. В обоих случаях по основному тождеству модуль искомого значения равен \(\sqrt{1-\frac9{25}}=\frac45\).\par
 \textbf{15.26.} Из \(-1\le2x-1\le1\) получаем ОДЗ \(0\le x\le1\). Синус обеих частей даёт \(2x-1=\frac12\), поэтому \(x=\frac34\). Правая часть исходного уравнения принадлежит диапазону арксинуса; подстановка подтверждает корень.\par
-\textbf{15.27.} Уравнение определено для всех действительных \(x\). Поскольку \(-\frac\pi4\in(-\frac\pi2;\frac\pi2)\), получаем \(x-2=\tan(-\frac\pi4)=-1\). Ответ: \(x=1\).\par
+\textbf{15.27.} Уравнение определено для всех действительных \(x\). Поскольку \(-\frac\pi4\in(-\frac\pi2;\frac\pi2)\), получаем \(x-2=\operatorname{tg}(-\frac\pi4)=-1\). Ответ: \(x=1\).\par
 \textbf{15.28.} Точки \((-1;-\frac\pi4),(0;0),(1;\frac\pi4)\). Область определения \(\mathbb R\), область значений \((-\frac\pi2;\frac\pi2)\). Функция нечётная и строго возрастает; график приближается к прямым \(y=-\frac\pi2\) слева и \(y=\frac\pi2\) справа, но не достигает их. Значение \(\frac\pi2\) невозможно.\par
 \endgroup
 \section*{Глава 16. Множества, логика и доказательства}
@@ -640,6 +652,36 @@
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-84.png}
+\end{wrapfigure}
+\textbf{16.27.} Получаем соответственно \(0,1,1\). В первой формуле \(\neg r=0\). Во второй \(p\uparrow q=1\), а \(1\to1=1\). В третьей \(p\oplus r=0\), поэтому \(0\downarrow0=1\).\par
+
+\textbf{16.28.} Да. Сравни значения двух импликаций: \[\begin{array}{c|c|c|c|c}p&q&p\to q&\neg q\to\neg p&\text{вся формула}\\\hline0&0&1&1&1\\0&1&1&1&1\\1&0&0&0&1\\1&1&1&1&1\end{array}\] Это семантическая проверка контрапозиции.\par
+
+\textbf{16.29.} Первая — тавтология, вторая — противоречие. Третья не относится ни к одному из этих классов: при \(p=1,q=0\) её значение \(1\), а при \(p=q=0\) — \(0\).\par
+
+\textbf{16.30.} Получается \((\neg p\lor q)\land(\neg q\lor p)\). Это формула, равносильная \(p\leftrightarrow q\): оба выражения истинны ровно при одинаковых значениях \(p,q\).\par
+
+\textbf{16.31.} Первое неверно: \(p=0,q=1\). Второе верно: из истинности \(p\land q\) следует \(p=1\), поэтому \(p\lor r\) истинно при любом значении \(r\).\par
+
+\textbf{16.32.} Сначала отрицание внешней конъюнкции даёт \(\neg(p\lor q)\lor\neg r\). Затем отрицание внутренней дизъюнкции даёт \((\neg p\land\neg q)\lor\neg r\). Каждый переход является логической равносильностью.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{16.33.} Правило: \(o\leftrightarrow((p\land q)\land\neg r)\). Значения \(o\): \(1,0,0\). Закрытая дверь не доказывает включение блокировки: при \(p=1,q=0,r=0\) дверь закрыта без блокировки.\par
+\textbf{16.34.} Правило: \(l\leftrightarrow(p\oplus q)\). Если положения одинаковы, изменение одного делает их разными, и лампа загорается. Если положения различны, изменение одного делает их одинаковыми, и лампа гаснет. Эти случаи исчерпывают все четыре пары значений.\par
+\textbf{16.35.} 1. \(\Gamma\vdash p\land q\) — \(\mathrm{Ax}\). 2. \(\Gamma\vdash q\) — \(\land E_2\), шаг 1. 3. \(\Gamma\vdash p\) — \(\land E_1\), шаг 1. 4. \(\Gamma\vdash p\to r\) — \(\mathrm{Ax}\). 5. \(\Gamma\vdash r\) — \(\to E\), шаги 4 и 3. 6. \(\Gamma\vdash q\land r\) — \(\land I\), шаги 2 и 5.\par
+\textbf{16.36.} Получаем дерево \[\frac{\displaystyle\frac{\{p,q\}\vdash p}{\{p\}\vdash q\to p}\;(\to I)}{\varnothing\vdash p\to(q\to p)}\;(\to I).\] Верхний лист законен по \(\mathrm{Ax}\), так как \(p\in\{p,q\}\). Сначала снимается добавленное \(q\), затем \(p\). Правило \(\to I\) требует вывода при разрешённом дополнительном предположении, но не требует его фактического использования.\par
+\textbf{16.37.} Положим \(\Delta=\Gamma\cup\{p\}\). По \(\mathrm{Ax}\) доступны \(\Delta\vdash p\), \(\Delta\vdash p\to q\), \(\Delta\vdash q\to r\). Из первых двух по \(\to E\) получаем \(\Delta\vdash q\), затем из \(q\to r\) и \(q\) ещё раз по \(\to E\) — \(\Delta\vdash r\). Правило \(\to I\) снимает временное \(p\) и даёт \(\Gamma\vdash p\to r\).\par
+\textbf{16.38.}\starmark{} По \(\mathrm{Ax}\) имеем \(\Gamma\vdash p\lor q\). В контексте \(\Gamma,p\) по \(\mathrm{Ax}\) доступны \(p,p\to r\); modus ponens даёт \(\Gamma,p\vdash r\). Аналогично получаем \(\Gamma,q\vdash r\). По \(\lor E\) заключаем \(\Gamma\vdash r\), снимая дополнительные предположения в двух ветвях. Выбирать одну часть нельзя: из истинности дизъюнкции неизвестно, какая именно часть истинна.\par
+\textbf{16.39.}\starmark{} Обозначим \(H=p\land(q\lor r)\), \(D=(p\land q)\lor(p\land r)\), \(\Delta=\{H\}\). По \(\mathrm{Ax}\) и \(\land E_1,\land E_2\) получаем \(\Delta\vdash p\) и \(\Delta\vdash q\lor r\). В контексте \(\Delta,q\) из посылки \(H\) снова по \(\land E_1\) получаем \(p\), а \(q\) доступно по \(\mathrm{Ax}\); по \(\land I\) и \(\lor I_1\) получаем \(\Delta,q\vdash D\). Аналогично в контексте \(\Delta,r\) правила \(\land E_1,\mathrm{Ax},\land I,\lor I_2\) дают \(\Delta,r\vdash D\). По \(\lor E\) получаем \(\Delta\vdash D\). Правило \(\to I\) снимает \(H\), и открытых посылок не остаётся.\par
+\textbf{16.40.} Modus ponens использует условие импликации, а ученик использует её заключение. При \(p=0,q=1\) обе посылки \(p\to q,q\) истинны, но \(p\) ложно. Поэтому семантического следования нет. Если бы формальный вывод существовал, теорема о сохранении истины дала бы это следование. Полученное противоречие исключает такой вывод.\par
+\textbf{16.41.}\starmark{} Подходят \(p\uparrow p\), \((p\uparrow q)\uparrow(p\uparrow q)\) и \((p\uparrow p)\uparrow(q\uparrow q)\). Первая формула равна по значению \(\neg(p\land p)=\neg p\). Вторая отрицает \(\neg(p\land q)\), возвращая \(p\land q\). Третья имеет значение \(\neg(\neg p\land\neg q)\), то есть \(p\lor q\) по закону де Моргана.\par
+\textbf{16.42.}\starmark{} Положим \(t=p\downarrow q\), \(u=p\downarrow t\), \(w=q\downarrow t\), \(s=u\downarrow w\). Ответ: \(s\downarrow s\). Здесь \(u\equiv\neg p\land q\), \(w\equiv p\land\neg q\), поэтому \(s\downarrow s\equiv u\lor w\equiv p\oplus q\). Проверка: \[\begin{array}{c|c|c|c|c|c|c}p&q&t&u&w&s&s\downarrow s\\\hline0&0&1&0&0&1&0\\0&1&0&1&0&0&1\\1&0&0&0&1&0&1\\1&1&0&0&0&1&0\end{array}\]\par
 \endgroup
 \section*{Глава 17. Неравенства, оценки и методы доказательства}
 \begingroup\setlength{\parskip}{4pt}
@@ -907,5 +949,134 @@
 \textbf{22.26.}\starmark{} В поле \(x(x-1)=0\), поэтому \(x=0\) или \(x=1\). По модулю \(6\) проверка шести классов даёт \([0],[1],[3],[4]\). Дополнительные решения возможны из-за делителей нуля.\par
 \textbf{22.27.}\starmark{} По распределительности \((a+b)^2=a^2+ab+ba+b^2\). В коммутативном кольце \(ab=ba\), и средние слагаемые объединяются. В общем кольце заменить \(ab+ba\) на \(2ab\) нельзя.\par
 \textbf{22.28.}\starmark{} \((s\circ t)(1)=s(1)=2\), \((t\circ s)(1)=t(2)=3\). Отображения различны, значит, операция композиции в \(S_3\) некоммутативна.\par
+\endgroup
+\section*{Глава 23. Комплексные числа}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{23.1.} Сумма \((2;2)\), то есть \(2+2i\). Произведение \((4\cdot(-2)-(-5)\cdot7;4\cdot7+(-5)\cdot(-2))=(27;38)\), то есть \(27+38i\).\par
+\textbf{23.2.} Равенство частей даёт \(2a-1=7\), \(b+3=-4\). Поэтому \(a=4\), \(b=-7\).\par
+\textbf{23.3.} \(\operatorname{Re}z=-3\) и \(\operatorname{Im}z=\sqrt2\) — оба действительные. Их комбинация \(\operatorname{Re}z+i\operatorname{Im}z=-3+\sqrt2\,i=z\) не является действительным числом.\par
+\textbf{23.4.} Из \(i^4=1\) следует \(i^{2027}=i^3=-i\), \(i^{2028}=1\). Ответ: \(1-i\).\par
+\textbf{23.5.} \(\overline z=-8-15i\), \(-z=8-15i\), \(|z|=\sqrt{64+225}=17\), \(z\overline z=289\).\par
+\textbf{23.6.} Умножение на сопряжённое знаменателя даёт \(\frac{(7+9i)(2+i)}5=\frac{5+25i}5=1+5i\).\par
+\textbf{23.7.} \(\frac1{3-4i}=\frac{3+4i}{25}\). Произведение равно \(\frac{(3-4i)(3+4i)}{25}=\frac{9+16}{25}=1\).\par
+\textbf{23.8.} \(2-i\ne0\), поэтому решение единственно: \(z=\frac{(4+7i)(2+i)}5=\frac{1+18i}5\).\par
+\textbf{23.9.} Для \(z=a+bi\) условия дают \(2a=8\), \(2bi=-6i\), то есть \(a=4\), \(b=-3\). Ответ: \(z=4-3i\).\par
+\textbf{23.10.} Если \(z=a+bi\), то \(z+\overline z=2a\), \(z-\overline z=2bi\). Деление на ненулевые \(2\) и \(2i\) даёт соответственно \(a\) и \(b\).\par
+\textbf{23.11.} Для \(z=a+bi\) первое равенство эквивалентно \(2bi=0\), то есть \(b=0\). Второе эквивалентно \(2a=0\), то есть \(a=0\). Ноль удовлетворяет обоим условиям, в частности, включён во второе утверждение.\par
+\textbf{23.12.} Для \(z=a+bi\) квадраты модулей всех трёх чисел равны \(a^2+b^2\): смена знаков координат не меняет их квадратов. Все модули неотрицательны, поэтому сами модули равны.\par
+\textbf{23.13.} Конечная точка \((1-2i)+(3+5i)+(-2+i)=2+4i\). Итоговое перемещение относительно старта равно \(1+6i\), его длина \(\sqrt{37}\). Это расстояние от старта, а не сумма длин двух перемещений.\par
+\textbf{23.14.} Расстояние \(|z_2-z_1|=|6-8i|=10\). Середина \(\frac{z_1+z_2}{2}=1+i\).\par
+\textbf{23.15.} Это окружность с центром \((1;-4)\) и радиусом \(3\). Уравнение: \((x-1)^2+(y+4)^2=9\).\par
+\textbf{23.16.} Все числа \(z=-2+yi\), где \(-\sqrt5\le y\le\sqrt5\): условие модуля равносильно \(4+y^2\le9\). На плоскости это замкнутый вертикальный отрезок.\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[10]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-78.png}
+\end{wrapfigure}
+\textbf{23.17.} \(\arg(-4i)=\{-\frac\pi2+2\pi k:k\in\mathbb Z\}\), \(\operatorname{Arg}(-4i)=-\frac\pi2\). Аргумент нуля не определён: у нулевого вектора нет направления.\par
+
+\textbf{23.18.} Модуль \(6\), число во второй четверти: \(z=6(\cos\frac{2\pi}3+i\sin\frac{2\pi}3)\). Все аргументы \(\{\frac{2\pi}3+2\pi k:k\in\mathbb Z\}\), главный \(\frac{2\pi}3\).\par
+
+\textbf{23.19.} У произведения модуль \(12\), угол \(\frac\pi2\), поэтому \(zw=12i\). У частного модуль \(\frac34\), угол \(-\frac\pi6\), поэтому \(\frac zw=\frac{3\sqrt3}{8}-\frac38i\).\par
+
+\textbf{23.20.} Повороту по часовой стрелке соответствует \(-i\), увеличению — \(2\); общий множитель \(-2i\). Новая точка \((-2i)(-1+2i)=4+2i\), расстояние \(\sqrt{20}=2\sqrt5\).\par
+
+\textbf{23.21.} Относительно центра точка задаётся \(z-c=3\), после поворота — \(3i\). Прибавляя центр, получаем \(1+4i\). Формула \(iz\) вращала бы вокруг нуля и дала бы другое число \(-1+4i\).\par
+
+\textbf{23.22.} \(iz_1-iz_2=i(z_1-z_2)\). Модуль произведения равен произведению модулей, а \(|i|=1\), поэтому расстояние не меняется.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{23.23.} \(\sqrt3+i=2(\cos\frac\pi6+i\sin\frac\pi6)\). Шестая степень равна \(2^6(\cos\pi+i\sin\pi)=-64\).\par
+\textbf{23.24.} \(1-i\ne0\). Его квадрат равен \(-2i\), четвёртая степень — \(-4\). Значит, \((1-i)^{-4}=-\frac14\).\par
+\textbf{23.25.} \((z-7i)(z+7i)=0\), поэтому \(z=7i\) или \(z=-7i\). Ни одно решение не является действительным.\par
+\textbf{23.26.} \(D=36-100=-64\). Все решения \(z=\frac{-6\pm8i}{2}=-3\pm4i\); они сопряжены.\par
+\textbf{23.27.} \((z-5)(z+7)=0\). Поле не имеет делителей нуля, поэтому все решения — \(5\) и \(-7\). Оба действительные; других комплексных решений разложение не допускает.\par
+\textbf{23.28.}\starmark{} Модуль корней \(3\), углы \(\frac\pi3,\pi,\frac{5\pi}3\). Все три решения: \(\frac32+\frac{3\sqrt3}{2}i\), \(-3\), \(\frac32-\frac{3\sqrt3}{2}i\). Углы различны по модулю \(2\pi\), поэтому значения различны.\par
+\textbf{23.29.}\starmark{} Модуль корней \(2\), углы \(\frac\pi4,\frac{3\pi}4,\frac{5\pi}4,\frac{7\pi}4\). Алгебраически это четыре числа \(\sqrt2+i\sqrt2\), \(-\sqrt2+i\sqrt2\), \(-\sqrt2-i\sqrt2\), \(\sqrt2-i\sqrt2\). Они образуют вершины квадрата на окружности радиуса \(2\).\par
+\textbf{23.30.}\starmark{} \((z^2+1)(z^2+4)=0\). Значит, \(z^2=-1\) или \(z^2=-4\). Все решения: \(i,-i,2i,-2i\). В отличие от действительной подстановки \(u=x^2\), здесь нельзя требовать \(u\ge0\) для комплексного \(z\).\par
+\textbf{23.31.}\starmark{} Получаем \(a^2-b^2=5\), \(2ab=12\). Кроме того, \(|z|^2=|5+12i|=13\), то есть \(a^2+b^2=13\). Отсюда \(a^2=9\), \(b^2=4\); условие \(ab=6\) оставляет \((a,b)=(3,2)\) и \((-3,-2)\). Все решения: \(3+2i\), \(-3-2i\); их квадраты действительно равны \(5+12i\).\par
+\textbf{23.32.}\starmark{} Пусть \(z=x+yi\). Из \(x^2+y^2=25\) и \((x-6)^2+y^2=25\) вычитанием получаем \(x=3\), затем \(y^2=16\). Ответы \(3+4i\) и \(3-4i\). Это две точки пересечения окружностей радиуса \(5\) с центрами \(0\) и \(6\); они симметричны относительно действительной оси.\par
+\textbf{23.33.} Подстановка \(x=y+2\) даёт \(y^3+3y=0\). Поэтому \(y=0\) или \(y^2=-3\). Все решения: \(2\), \(2+i\sqrt3\), \(2-i\sqrt3\).\par
+\textbf{23.34.} \(\Delta=5\). Можно взять \(u=\frac{1+\sqrt5}{2}\), поскольку \(u^3=2+\sqrt5\), и \(v=-\frac1u=\frac{1-\sqrt5}{2}\). Их сумма \(1\). Разложение \((y-1)(y^2+y+4)=0\) даёт все корни \(1\), \(\frac{-1+i\sqrt{15}}2\), \(\frac{-1-i\sqrt{15}}2\).\par
+\textbf{23.35.} Здесь \(p=0\), \(q=8\), так что непосредственно решаем \(x^3=-8\). Все корни: \(-2\), \(1+i\sqrt3\), \(1-i\sqrt3\). Они получаются умножением выбранного корня \(-2\) на кубические корни из единицы; дополнительное деление не нужно.\par
+\textbf{23.36.} \(\Delta=8^2+(-4)^3=0\). Имеем \(y^3-12y+16=(y-2)^2(y+4)\). Корень \(2\) двойной, \(-4\) простой.\par
+\textbf{23.37.} Разложение \(y(y^2+p)=0\) даёт \(0\) и два противоположных квадратных корня из \(-p\). При \(p\ne0\) это три различных значения, каждое простое. При \(p=0\) остаётся только \(0\), кратность три. Вместе с каждым корнем присутствует противоположный, что и означает указанную симметрию.\par
+\textbf{23.38.}\starmark{} Для \(T=y^2\) получаем \(T=-1\pm2i\). Положим \(a=\sqrt{\frac{\sqrt5-1}{2}}\), \(b=\sqrt{\frac{\sqrt5+1}{2}}\). Тогда \(a^2-b^2=-1\), \(2ab=2\). Все четыре корня: \(a+bi\), \(-a-bi\), \(a-bi\), \(-a+bi\).\par
+\textbf{23.39.} Резольвента \(z^3+4z^2-4z-1=0\) действительно имеет корень \(1\). Берём \(s=1\), \(t=1\), \(u=2\). Разложение: \((y^2+y+1)(y^2-y+2)=0\). Корни: \(\frac{-1\pm i\sqrt3}{2}\) и \(\frac{1\pm i\sqrt7}{2}\), по два значения в каждой паре.\par
+\textbf{23.40.}\starmark{} Резольвента \(z^3-6z^2+9z-4=(z-1)^2(z-4)\). При \(z=1\), \(s=1\) получаем \((y^2+y-2)(y^2-y)\). При \(z=4\), \(s=2\) получаем \((y^2+2y)(y^2-2y+1)\). Оба произведения равны \(y(y+2)(y-1)^2\). Корни \(0,-2\) простые, \(1\) двойной.\par
+\textbf{23.41.} После выделения \((y-a)^3\) оставшийся множитель имеет вид \(y-b\). Коэффициент при кубе равен \(-(3a+b)=0\), откуда \(b=-3a\). Раскрытие даёт \(p=-6a^2\), \(q=8a^3\), \(r=-3a^4\). Четвёртый корень \(-3a\) совпадает с \(a\) только при \(a=0\); тогда \(P(y)=y^4\). При \(a\ne0\) кратность \(a\) ровно три.\par
+\textbf{23.42.}\starmark{} \(\Delta=-\frac34\). Берём \(s=\frac{\sqrt3}{2}i\), \(u=\cos\frac{2\pi}{9}+i\sin\frac{2\pi}{9}\); тогда \(u^3=-\frac12+\frac{\sqrt3}{2}i\). Поскольку \(-\frac p3=1\), выбираем \(v=\frac1u=\overline u\). Все корни: \(y_k=2\cos(\frac{2\pi}{9}+\frac{2\pi k}{3})\), \(k=0,1,2\). Согласованные слагаемые в каждой сумме сопряжены, поэтому суммы действительны. Три угла дают различные значения; подстановка через формулу тройного угла подтверждает каждый корень.\par
+\endgroup
+\section*{Глава 24. Кватернионы и повороты в пространстве}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{24.1.} Соответственно \(k,-k,i,-i,j,-j\). Все три пары меняют знак и дают разные результаты.\par
+\textbf{24.2.} \(p+q=4+i-j+4k\), \(p-q=-2+3i-j-4k\).\par
+\textbf{24.3.} Первое произведение \(1+i+j+k\), второе \(1+i+j-k\).\par
+\textbf{24.4.} \(i^2+ij+ji+j^2=-2\). Смешанные произведения \(k\) и \(-k\) сокращаются; коммутативности нет.\par
+\textbf{24.5.} \(\overline q=1-2i+2j-4k\), \(N(q)=25\), \(|q|=5\), \(q^{-1}=\frac{1-2i+2j-4k}{25}\).\par
+\textbf{24.6.} Так как \(i^{-1}=-i\), первое решение \(x=(-i)j=-k\), второе \(x=j(-i)=k\). Подстановка даёт \(i(-k)=j\), \(ki=j\).\par
+\textbf{24.7.} Пара равна \((1+2i_{\mathbb C},3-4i_{\mathbb C})\), поэтому \(M(q)=\begin{pmatrix}1+2i_{\mathbb C}&3-4i_{\mathbb C}\\-3-4i_{\mathbb C}&1-2i_{\mathbb C}\end{pmatrix}\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[10]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-88.png}
+\end{wrapfigure}
+\textbf{24.8.} В первой сумме мнимые координаты сокращаются. Дважды изменив знаки трёх мнимых координат, получаем исходные координаты.\par
+
+\textbf{24.9.} Из \(pq=0\) следует \(N(p)N(q)=0\). Для ненулевых \(p,q\) оба квадрата нормы положительны, что невозможно.\par
+
+\textbf{24.10.} \((ij)k=k^2=-1\), \(i(jk)=i^2=-1\). Равенство согласуется с ассоциативностью.\par
+
+\textbf{24.11.} При \(\cos\theta=0\), \(\sin\theta=1\) получаем \((1,2,3)\). Длина до и после равна \(\sqrt{14}\).\par
+
+\textbf{24.12.} Можно взять \(q=k\), соответствующий \(\theta=\pi\). Тогда \(ki(-k)=j(-k)=-i\).\par
+
+\textbf{24.13.} Сопряжение сохраняет действительный множитель \(-1\), поэтому \((-q)v\overline{-q}=(-q)v(-\overline q)=qv\overline q\).\par
+
+\textbf{24.14.}\starmark{} По ассоциативности \(p(qv\overline q)\overline p=(pq)v(\overline q\,\overline p)=(pq)v\overline{pq}\). Сначала применяется \(T_q\), затем \(T_p\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{24.15.}\starmark{} Для \(q=a+bi+cj+dk\) разность \(qi-iq=2dj-2ck\). Она равна нулю ровно при \(c=d=0\). Ответ: все \(a+bi\), где \(a,b\in\mathbb R\).\par
+\textbf{24.16.}\starmark{} Коммутирование с \(i\) даёт \(q=a+bi\). Условие \(qj=jq\) теперь даёт \(2bk=0\), значит \(b=0\). Обратно, действительные числа коммутируют со всеми элементами по определению умножения.\par
+\textbf{24.17.}\starmark{} Квадраты основных слагаемых дают \(-x^2-y^2-z^2\). Для каждой пары смешанные произведения взаимно уничтожаются: \(ij+ji=jk+kj=ki+ik=0\).\par
+\textbf{24.18.}\starmark{} По ассоциативности \((pq)(q^{-1}p^{-1})=p(qq^{-1})p^{-1}=1\); аналогично произведение в обратном порядке равно \(1\). Следовательно, это двусторонний обратный.\par
+\endgroup
+\section*{Глава 25. Октонионы: когда важны скобки}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{25.1.} \(x=e_0+2e_1+3e_6-e_7\).\par
+\textbf{25.2.} \((i,0)(0,1)=(0,i)=e_5\); \((0,1)(i,0)=(0,-i)=-e_5\).\par
+\textbf{25.3.} Каждый квадрат равен \(-e_0=-1\): для пары \((0,b)\) первая компонента квадрата равна \(-\overline b b\), вторая нулевая; у \(b=1,i,j,k\) квадрат нормы равен \(1\).\par
+\textbf{25.4.} \(x+y=(3+i-k,1+2j)\), \(x-y=(-1+i+k,-1)\).\par
+\textbf{25.5.} \(\overline x=(1-i,-j)\), \(N_{\mathbb O}(x)=3\), \(|x|=\sqrt3\), обратный \(\frac13(1-i,-j)\).\par
+\textbf{25.6.} \(e_2e_4=e_6\), первое тройное произведение \(e_7\), второе \(-e_7\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-92.png}
+\end{wrapfigure}
+\textbf{25.7.} Первый равен \(2e_7\). Второй равен нулю: все три элемента принадлежат ассоциативной копии \(\mathbb H\); непосредственно обе расстановки скобок дают \(-1\).\par
+
+\textbf{25.8.} Сопряжение сохраняет координату \(x_0\) и меняет знаки остальных семи. Двойное изменение знаков возвращает \(x\), а в сумме мнимые координаты сокращаются.\par
+
+\textbf{25.9.} Для \(r=1,2,3\) это следует из кватернионной таблицы, для \(r=4,5,6,7\) — из вычисленных квадратов: \(e_r^2=-1\). Следовательно, произведение \(e_r\) и \(-e_r\) в каждом порядке равно \(1\).\par
+
+\textbf{25.10.} Нет: мультипликативность требует \(N_{\mathbb O}(xy)=65\). При точной арифметике хотя бы одно вычисление ошибочно.\par
+
+\textbf{25.11.} \(xy=(j-\overline k i,k+i\overline j)=(j+ki,k-ij)=(2j,0)\). Его квадрат нормы \(4\), а каждый вход имеет квадрат нормы \(2\). Проверка даёт \(4=2\cdot2\).\par
+
+\textbf{25.12.} В обоих случаях \(y=-e_4\), поскольку \(e_4^2=-1\). Единственность следует из теоремы об однозначной разрешимости.\par
+
+\textbf{25.13.}\starmark{} Например, \([x+x^{\prime},y,z]=((x+x^{\prime})y)z-(x+x^{\prime})(yz)=[x,y,z]+[x^{\prime},y,z]\) по дистрибутивности. Действительный множитель выносится по билинейности. Те же раскрытия работают для второго и третьего аргументов.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{25.14.}\starmark{} Для \(x=(a,b)\), \(y=(c,d)\) левая часть равна \((\overline c\,\overline a-\overline b d,-da-b\overline c)\). Произведение \((\overline c,-d)(\overline a,-b)\) по определению даёт ровно ту же пару.\par
+\textbf{25.15.}\starmark{} Дистрибутивность даёт \(x(y-z)=0\). Поэтому \(N_{\mathbb O}(x)N_{\mathbb O}(y-z)=0\). Первый множитель положителен, значит, второй нулевой, то есть \(y=z\).\par
+\textbf{25.16.}\starmark{} В \(\mathbb C\) верны оба свойства. В \(\mathbb H\) ассоциативность верна, коммутативность нарушается: \(ij=k\), \(ji=-k\). В \(\mathbb O\) нет ни одного из этих двух свойств для всех элементов: некоммутативность наследуется из \(\mathbb H\), а ассоциативность опровергается тройкой \(e_1,e_2,e_4\).\par
 \endgroup
 \end{document}

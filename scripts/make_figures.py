@@ -21,16 +21,25 @@ def plot_page(name,items):
 plot_page('atlas-algebra',[
  ('$y=x$',lambda x:x,(-3,3),(-3,3),None),('$y=x^2$',lambda x:x*x,(-3,3),(-.5,8),None),
  ('$y=x^3$',lambda x:x**3,(-2,2),(-8,8),None),('$y=|x|$',abs,(-3,3),(-.5,3.5),None),
- ('$y=\\sqrt{x}$',np.sqrt,(0,5),(-.3,2.5),None),('$y=1/x$',lambda x:1/x,(-4,4),(-4,4),[(-4,-.08),(.08,4)])])
+ ('$y=\\sqrt{x}$',np.sqrt,(0,5),(-.3,2.5),None),(r'$y=\frac{1}{x}$',lambda x:1/x,(-4,4),(-4,4),[(-4,-.08),(.08,4)])])
 plot_page('atlas-exponential',[
- ('$y=2^x$',lambda x:2.**x,(-3,3),(-.5,8.5),None),('$y=(1/2)^x$',lambda x:.5**x,(-3,3),(-.5,8.5),None),
+ ('$y=2^x$',lambda x:2.**x,(-3,3),(-.5,8.5),None),(r'$y=(\frac{1}{2})^x$',lambda x:.5**x,(-3,3),(-.5,8.5),None),
  ('$y=e^x$',np.exp,(-3,2),(-.5,8),None),('$y=\\ln x$',np.log,(.05,5),(-3.5,2),None),
- ('$y=\\sinh x$',np.sinh,(-2,2),(-4,4),None),('$y=\\cosh x$',np.cosh,(-2,2),(0,4.5),None)])
+ ('$y=\\operatorname{sh} x$',np.sinh,(-2,2),(-4,4),None),('$y=\\operatorname{ch} x$',np.cosh,(-2,2),(0,4.5),None)])
 plot_page('atlas-trigonometry',[
  ('$y=\\sin x$',np.sin,(-2*np.pi,2*np.pi),(-1.3,1.3),None),('$y=\\cos x$',np.cos,(-2*np.pi,2*np.pi),(-1.3,1.3),None),
- ('$y=\\tan x$',np.tan,(-np.pi,np.pi),(-4,4),[(-np.pi,-np.pi/2-.03),(-np.pi/2+.03,np.pi/2-.03),(np.pi/2+.03,np.pi)]),
+ ('$y=\\operatorname{tg} x$',np.tan,(-2*np.pi,2*np.pi),(-4,4),[(max(-2*np.pi,k*np.pi-np.pi/2+.025),min(2*np.pi,k*np.pi+np.pi/2-.025)) for k in range(-2,3)]),
  ('$y=\\arcsin x$',np.arcsin,(-1,1),(-1.8,1.8),None),('$y=\\arccos x$',np.arccos,(-1,1),(-.2,3.4),None),
- ('$y=\\arctan x$',np.arctan,(-5,5),(-1.8,1.8),None)])
+ ('$y=\\operatorname{arctg} x$',np.arctan,(-5,5),(-1.8,1.8),None)])
+# A separate wide plot makes periodic branches and discontinuities legible.
+fig,ax=plt.subplots(figsize=(9,4.7),constrained_layout=True)
+axes(ax,'$y=\\operatorname{tg}x$',(-3*np.pi,3*np.pi),(-4,4))
+for k in range(-3,4):
+ a=max(-3*np.pi,k*np.pi-np.pi/2+.02);b=min(3*np.pi,k*np.pi+np.pi/2-.02)
+ x=np.linspace(a,b,600);ax.plot(x,np.tan(x),color=TEAL,lw=2)
+for k in range(-3,3):ax.axvline(np.pi/2+k*np.pi,color=CORAL,lw=1,ls='--',alpha=.8)
+ax.set_xticks(np.arange(-3,4)*np.pi, ['$-3\\pi$','$-2\\pi$','$-\\pi$','$0$','$\\pi$','$2\\pi$','$3\\pi$'])
+ax.set_yticks([-3,-2,-1,0,1,2,3]);fig.savefig(ROOT/'graph-tangent.pdf');plt.close(fig)
 fig,axs=plt.subplots(1,2,figsize=(8,3.4),constrained_layout=True)
 for ax,title,fun,xl,yl in [(axs[0],'$y=\\sqrt[3]{x}$',np.cbrt,(-8,8),(-2.5,2.5)),(axs[1],'$y=\\sqrt[4]{x}$',lambda x:x**.25,(0,16),(-.2,2.5))]:
  axes(ax,title,xl,yl);x=np.linspace(*xl,700);ax.plot(x,fun(x),color=TEAL,lw=2)

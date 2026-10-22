@@ -43,18 +43,37 @@
 Положим \(r=\log_a u\); тогда \(u=a^r\). По правилу логарифма степени \(\ln u=r\ln a\). Поскольку \(a\ne1\), число \(\ln a\ne0\), и деление даёт первую формулу. Далее \(\ln(a^x)=x\ln a\); применив экспоненту к обеим частям, получаем вторую формулу.
 \end{proof}
 \section*{Гиперболические функции}
-\begin{definition}\term{Гиперболический синус} (hyperbolic sine) — функция \(\sinh x=\frac{e^x-e^{-x}}2\), определённая для всех действительных \(x\).\end{definition}
-\begin{definition}\term{Гиперболический косинус} (hyperbolic cosine) — функция \(\cosh x=\frac{e^x+e^{-x}}2\), определённая для всех действительных \(x\). В русских текстах также встречаются обозначения \(\operatorname{sh}x\) и \(\operatorname{ch}x\).\end{definition}
+\begin{definition}\term{Гиперболический синус} (hyperbolic sine) — функция \(\operatorname{sh} x=\frac{e^x-e^{-x}}2\), определённая для всех действительных \(x\).\end{definition}
+\begin{definition}\term{Гиперболический косинус} (hyperbolic cosine) — функция \(\operatorname{ch} x=\frac{e^x+e^{-x}}2\), определённая для всех действительных \(x\).\end{definition}
 \begin{theorem}[Основное тождество и чётность]
-Для любого действительного \(x\) выполнено \(\cosh^2x-\sinh^2x=1\), \(\sinh(-x)=-\sinh x\), \(\cosh(-x)=\cosh x\).
+Для любого действительного \(x\) выполнено \(\operatorname{ch}^2x-\operatorname{sh}^2x=1\), \(\operatorname{sh}(-x)=-\operatorname{sh} x\), \(\operatorname{ch}(-x)=\operatorname{ch} x\).
 \end{theorem}
 \begin{proof}
-Вычитаем квадраты по определениям: \(\cosh^2x-\sinh^2x=\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}=e^xe^{-x}=1\). При замене \(x\) на \(-x\) два слагаемых в числителях меняются местами: разность меняет знак, а сумма сохраняется. Это доказывает обе формулы чётности.
+Вычитаем квадраты по определениям: \(\operatorname{ch}^2x-\operatorname{sh}^2x=\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}=e^xe^{-x}=1\). При замене \(x\) на \(-x\) два слагаемых в числителях меняются местами: разность меняет знак, а сумма сохраняется. Это доказывает обе формулы чётности.
 \end{proof}
+\section*{Зачем нужны гиперболические функции}
+В геометрии параметризация \(X=\operatorname{ch}t\), \(Y=\operatorname{sh}t\) даёт точки правой ветви гиперболы \(X^2-Y^2=1\), поскольку \(\operatorname{ch}t>0\). Это аналог связи косинуса и синуса с окружностью, но с разностью квадратов вместо суммы.
+
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-93.png}
+\end{wrapfigure}
+Другая модель — цепная линия (\emph{catenary}). Идеальная гибкая однородная нерастяжимая цепь в равновесии под собственным весом в однородном поле тяжести, подвешенная за концы на одинаковой высоте, при подходящем выборе координат имеет профиль
+\[
+y=a\left(\operatorname{ch}\frac xa-1\right),\qquad a>0.
+\]
+Оси \(x,y\) и параметр \(a\) измеряются в единицах длины, поэтому аргумент \(\frac xa\) безразмерен. Начало координат расположено в нижней точке цепи. Например, при \(a=2\) м и \(x=2\ln2\) м получаем \(y=2(\frac{2+\frac12}{2}-1)=\frac12\) м. Вывод физической модели требует механики; здесь мы исследуем заданную функцию.
+
+У модели минимум \(y=0\) при \(x=0\): для \(u=e^t>0\) неравенство \(u+\frac1u\ge2\) следует из \(\frac{(u-1)^2}{u}\ge0\). Значит, \(\operatorname{ch}t\ge1\), причём равенство возможно только при \(t=0\). График симметричен относительно вертикальной оси по чётности \(\operatorname{ch}\).
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+% HYPERBOLIC_APPLICATION_END
 
 \clearpage
 \par\noindent\begin{minipage}{\linewidth}\section*{Графики}
-График \(\sinh x\) нечётен, строго возрастает и проходит через \((0;0)\). Возрастание видно без производных: при \(y>x\) одновременно \(e^y>e^x\) и \(-e^{-y}>-e^{-x}\). График \(\cosh x\) чётен и проходит через \((0;1)\); его наименьшее значение равно \(1\). Для \(0\le x<y\) равенство \(\cosh y-\cosh x=2\sinh\frac{y+x}{2}\sinh\frac{y-x}{2}>0\), получаемое раскрытием определений, показывает возрастание на \([0;+\infty)\); из чётности следует убывание на \((-\infty;0]\). Таким образом, график имеет плавную форму цепи с минимумом в \((0;1)\), но не совпадает с параболой.
+График \(\operatorname{sh} x\) нечётен, строго возрастает и проходит через \((0;0)\). Возрастание видно без производных: при \(y>x\) одновременно \(e^y>e^x\) и \(-e^{-y}>-e^{-x}\). График \(\operatorname{ch} x\) чётен и проходит через \((0;1)\); его наименьшее значение равно \(1\). Для \(0\le x<y\) равенство \(\operatorname{ch} y-\operatorname{ch} x=2\operatorname{sh}\frac{y+x}{2}\operatorname{sh}\frac{y-x}{2}>0\), получаемое раскрытием определений, показывает возрастание на \([0;+\infty)\); из чётности следует убывание на \((-\infty;0]\). Таким образом, график имеет плавную форму цепи с минимумом в \((0;1)\), но не совпадает с параболой.
 
 \begin{center}\includegraphics[width=\textwidth,height=.65\textheight,keepaspectratio]{images/atlas-exponential.pdf}\par\small Показательные, логарифмические и гиперболические функции\end{center}\end{minipage}\par
 \Needspace{7\baselineskip}\section*{Задачи}
@@ -93,13 +112,16 @@
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.17.}\starmark{} Реши \(\log _{2} (x - 1) + \log _{2} (x + 1) = 3\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.18.}\starmark{} Вклад в учебной модели ежегодно увеличивается на \(10 \%\) без пополнений и снятий. Найди наименьшее целое число лет, через которое \(10000\) рублей станут не меньше \(13310\) рублей.\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.19.}\starmark{} Докажи, что для \(a,b>0\), \(a\ne1\), \(b\ne1\) выполнено \(\log_a b\cdot\log_b a=1\). Объясни, почему нужны ограничения \(a\ne1\) и \(b\ne1\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.20.}\starmark{} Докажи, что \(\cosh x\ge1\) для всех действительных \(x\). При каком \(x\) достигается равенство? Используй квадрат разности \(e^{x/2}-e^{-x/2}\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.20.}\starmark{} Докажи, что \(\operatorname{ch} x\ge1\) для всех действительных \(x\). При каком \(x\) достигается равенство? Используй квадрат разности \(e^{x/2}-e^{-x/2}\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.21.} Вычисли \(\exp0\), \(\ln1\), \(\ln(e^3)\), \(\exp(\ln5)\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.22.} Реши уравнение \(\ln(x-1)=2\), начав с области допустимых значений.\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.23.} Без десятичного приближения найди \(\dfrac{\ln8}{\ln2}\) и \(e^{2\ln3-\ln9}\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.24.} В учебной модели начальная сумма \(1000\) рублей увеличивается за год в \((1+\dfrac1n)^n\) раза. Найди сумму при \(n=2\) и \(n=4\), округлив до копеек. К какому значению приближаются суммы при неограниченном увеличении \(n\)? Используй \(e\approx2{,}718281828\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.25.} Вычисли в точном виде \(\sinh(\ln2)\) и \(\cosh(\ln2)\). Проверь для этих значений основное гиперболическое тождество.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.26.}\starmark{} Реши \(\sinh x=\dfrac34\), сделав замену \(t=e^x\). Укажи допустимые значения \(t\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.27.}\starmark{} Реши \(\cosh x=\dfrac54\), используя определения гиперболических функций.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.28.} Построй эскизы графиков \(y=\sinh x\) и \(y=\cosh x\) в одной системе координат. Используй точки с аргументами \(-\ln2\), \(0\), \(\ln2\); отметь чётность и положение графиков относительно оси абсцисс.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.25.} Вычисли в точном виде \(\operatorname{sh}(\ln2)\) и \(\operatorname{ch}(\ln2)\). Проверь для этих значений основное гиперболическое тождество.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.26.}\starmark{} Реши \(\operatorname{sh} x=\dfrac34\), сделав замену \(t=e^x\). Укажи допустимые значения \(t\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.27.}\starmark{} Реши \(\operatorname{ch} x=\dfrac54\), используя определения гиперболических функций.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.28.} Построй эскизы графиков \(y=\operatorname{sh} x\) и \(y=\operatorname{ch} x\) в одной системе координат. Используй точки с аргументами \(-\ln2\), \(0\), \(\ln2\); отметь чётность и положение графиков относительно оси абсцисс.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.29.} В модели цепи \(y=4(\operatorname{ch}\dfrac x4-1)\) все длины даны в метрах. Найди высоту при \(x=4\ln2\), а также высоту в симметричной точке.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.30.}\starmark{} Докажи, что профиль \(y=a(\operatorname{ch}\dfrac xa-1)\), \(a>0\), достигает единственного минимума в нуле. Используй определения, без производной.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.31.} На гиперболе задана точка \((X,Y)=(\operatorname{ch}t,\operatorname{sh}t)\), где \(t=\ln3\). Найди координаты и проверь \(X^2-Y^2=1\).\par\end{minipage}\par
 \endgroup

@@ -1,4 +1,4 @@
-\chapter*{Справочник обозначений}
+\chapter*{Справочник обозначений}\markright{Обозначения}
 \addcontentsline{toc}{chapter}{Справочник обозначений}
 \begingroup\small\renewcommand{\arraystretch}{1.35}\setlength{\tabcolsep}{4pt}\arrayrulecolor{Teal}\setlength{\arrayrulewidth}{.35pt}
 \Needspace{7\baselineskip}\section*{Числа и числовые множества}
@@ -9,13 +9,11 @@
 \hline\endlastfoot
 \(\displaystyle 0\)&ноль&Нейтральный элемент сложения: \(a+0=a\).\\\hline
 \(\displaystyle 1\)&единица&Нейтральный элемент умножения: \(a\cdot1=a\).\\\hline
-\(\displaystyle \mathbb N\)&натуральные числа&В этой книге \(\{1,2,3,\ldots\}\).\\\hline
+\(\displaystyle \mathbb N\)&натуральные числа&\(\{1,2,3,\ldots\}\).\\\hline
 \(\displaystyle \mathbb N_0\)&натуральные числа с нулём&\(\{0,1,2,3,\ldots\}\).\\\hline
 \(\displaystyle \mathbb Z\)&целые числа&\(\{\ldots,-2,-1,0,1,2,\ldots\}\).\\\hline
 \(\displaystyle \mathbb Q\)&рациональные числа&Числа \(\frac pq\), где \(p\in\mathbb Z\), \(q\in\mathbb Z\), \(q\ne0\).\\\hline
 \(\displaystyle \mathbb R\)&действительные числа&Числа числовой прямой, включая рациональные и иррациональные.\\\hline
-\(\displaystyle \mathbb R^2\)&эр в квадрате&Множество упорядоченных пар действительных чисел.\\\hline
-\(\displaystyle \mathbb R^3\)&эр в кубе&Множество упорядоченных троек действительных чисел.\\\hline
 \(\displaystyle \mathbb R^n\)&эр в степени эн&Множество упорядоченных наборов из \(n\) действительных координат.\\\hline
 \end{longtable}
 \Needspace{7\baselineskip}\section*{Действия и сравнения чисел}
@@ -70,7 +68,7 @@
 \(\displaystyle \varnothing\)&пустое множество&Множество без элементов.\\\hline
 \(\displaystyle U\)&универсальное множество&Заранее выбранное множество рассматриваемых объектов.\\\hline
 \(\displaystyle A\subseteq B\)&а является подмножеством б&Каждый элемент \(A\) принадлежит \(B\); равенство допускается.\\\hline
-\(\displaystyle A\subsetneq B\)&а — собственное подмножество б&\(A\subseteq B\), но \(A\ne B\).\\\hline
+\(\displaystyle A\subset B\)&а — собственное подмножество б&\(A\subseteq B\), но \(A\ne B\).\\\hline
 \(\displaystyle A\cup B\)&объединение а и б&Элементы хотя бы одного из множеств.\\\hline
 \(\displaystyle A\cap B\)&пересечение а и б&Элементы, принадлежащие обоим множествам.\\\hline
 \(\displaystyle A\setminus B\)&разность а и б&Элементы \(A\), не принадлежащие \(B\).\\\hline
@@ -78,8 +76,7 @@
 \(\displaystyle A\triangle B\)&симметрическая разность&Элементы ровно одного из двух множеств.\\\hline
 \(\displaystyle A\times B\)&декартово произведение&Все упорядоченные пары с первой координатой из \(A\), второй из \(B\).\\\hline
 \(\displaystyle (a,b)\)&упорядоченная пара&Порядок координат важен.\\\hline
-\(\displaystyle \mathcal P(A)\)&множество всех подмножеств а&Все множества \(B\), для которых \(B\subseteq A\).\\\hline
-\(\displaystyle 2^A\)&множество всех подмножеств а&Другое распространённое обозначение \(\mathcal P(A)\).\\\hline
+\(\displaystyle \mathcal P(A)=2^A\)&множество всех подмножеств а&Все множества \(B\), для которых \(B\subseteq A\).\\\hline
 \(\displaystyle |A|\)&число элементов а&Для конечного множества; смысл отличается от модуля числа.\\\hline
 \end{longtable}
 \Needspace{7\baselineskip}\section*{Промежутки числовой прямой}
@@ -102,13 +99,22 @@
 \hline\endlastfoot
 \(\displaystyle \forall\)&для любого&Квантор всеобщности.\\\hline
 \(\displaystyle \exists\)&существует&Квантор существования.\\\hline
-\(\displaystyle P\Rightarrow Q\)&из пэ следует ку&Если \(P\) истинно, то \(Q\) истинно.\\\hline
-\(\displaystyle P\Longleftrightarrow Q\)&пэ равносильно ку&Каждое утверждение следует из другого.\\\hline
+\(\displaystyle \to,\ \Rightarrow\)&импликация&Если \(P\) истинно, то \(Q\) истинно.\\\hline
+\(\displaystyle \leftrightarrow,\ \Longleftrightarrow\)&тогда и только тогда&Каждое утверждение следует из другого.\\\hline
 \(\displaystyle \neg P\)&не пэ&Отрицание утверждения \(P\).\\\hline
 \(\displaystyle P\land Q\)&пэ и ку&Оба утверждения истинны.\\\hline
 \(\displaystyle P\lor Q\)&пэ или ку&Хотя бы одно утверждение истинно.\\\hline
 \(\displaystyle \square\)&конец доказательства&В конце доказательства; в отдельных заданиях пустой квадрат может обозначать неизвестную цифру.\\\hline
 \(\displaystyle \ast\)&звёздочка&Задача повышенной сложности.\\\hline
+\(\displaystyle P\oplus Q\)&исключающее или&Истинно, когда истинно ровно одно из двух утверждений.\\\hline
+\(\displaystyle P\uparrow Q\)&штрих Шеффера&Отрицание конъюнкции: \(\neg(P\land Q)\).\\\hline
+\(\displaystyle P\downarrow Q\)&стрелка Пирса&Отрицание дизъюнкции: \(\neg(P\lor Q)\).\\\hline
+\(\displaystyle \top\)&истина&Логическая константа истины.\\\hline
+\(\displaystyle \bot\)&ложь&Логическая константа лжи.\\\hline
+\(\displaystyle \Gamma\vdash A\)&из гаммы выводится а&Синтаксическая выводимость в указанной системе правил.\\\hline
+\(\displaystyle \Gamma\models A\)&из гаммы семантически следует а&При каждой оценке, делающей все посылки истинными, заключение истинно.\\\hline
+\(\displaystyle A\equiv B\)&формулы а и б равносильны&Формулы имеют одно истинностное значение при каждой оценке.\\\hline
+\(\displaystyle v\models A\)&оценка вэ удовлетворяет а&Формула \(A\) истинна при оценке \(v\).\\\hline
 \end{longtable}
 \Needspace{7\baselineskip}\section*{Суммы, комбинаторика и последовательности}
 \begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
@@ -122,14 +128,14 @@
 \(\displaystyle n!\)&эн факториал&\(1\cdot2\cdots n\) при \(n\ge1\); отдельно \(0!=1\).\\\hline
 \(\displaystyle P_n\)&число перестановок&Перестановки \(n\) различных элементов: \(n!\).\\\hline
 \(\displaystyle A_n^k\)&число размещений&Выбор \(k\) из \(n\) различных объектов с учётом порядка.\\\hline
-\(\displaystyle \binom nk\)&число сочетаний из эн по ка&Выбор \(k\) из \(n\) без учёта порядка.\\\hline
-\(\displaystyle C_n^k\)&число сочетаний из эн по ка&Другая запись биномиального коэффициента.\\\hline
+\(\displaystyle \binom nk=C_n^k\)&число сочетаний из эн по ка&Выбор \(k\) из \(n\) без учёта порядка.\\\hline
 \(\displaystyle a_n\)&энный член последовательности&Значение последовательности с номером \(n\).\\\hline
 \(\displaystyle d\)&разность прогрессии&В арифметической прогрессии \(a_{n+1}=a_n+d\).\\\hline
 \(\displaystyle q\)&знаменатель прогрессии&В геометрической прогрессии \(a_{n+1}=q a_n\).\\\hline
 \(\displaystyle S_n\)&энная частичная сумма&Сумма первых \(n\) членов последовательности.\\\hline
 \(\displaystyle \lim_{n\to\infty}a_n\)&предел последовательности&Число, к которому члены становятся сколь угодно близки при больших \(n\).\\\hline
 \(\displaystyle \sup A\)&точная верхняя грань а&Наименьшая из верхних границ множества \(A\), если она существует.\\\hline
+\(\displaystyle \inf A\)&точная нижняя грань а&Наибольшая из нижних границ непустого множества \(A\), если она существует.\\\hline
 \end{longtable}
 \Needspace{7\baselineskip}\section*{Функции, экспонента и логарифмы}
 \begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
@@ -143,8 +149,8 @@
 \(\displaystyle f\circ g\)&композиция эф и жэ&\((f\circ g)(x)=f(g(x))\); сначала выполняется \(g\).\\\hline
 \(\displaystyle f^{-1}\)&обратная функция&Обратное отображение; обычно это не \(\frac1f\).\\\hline
 \(\displaystyle e\)&число е&Основание натурального логарифма; \(e=\lim_{n\to\infty}(1+\frac1n)^n\).\\\hline
-\(\displaystyle \exp x\)&экспонента от икс&Другое обозначение \(e^x\).\\\hline
-\(\displaystyle \ln x\)&натуральный логарифм&Логарифм по основанию \(e\); \(x>0\).\\\hline
+\(\displaystyle e^x=\exp x\)&экспонента от икс&Показательная функция с основанием \(e\).\\\hline
+\(\displaystyle \ln x=\log_e x\)&натуральный логарифм&Логарифм по основанию \(e\); \(x>0\).\\\hline
 \(\displaystyle \log_a x\)&логарифм икс по основанию а&\(a>0\), \(a\ne1\), \(x>0\).\\\hline
 \end{longtable}
 \Needspace{7\baselineskip}\section*{Тригонометрические и гиперболические функции}
@@ -154,15 +160,14 @@
 \hline\endfoot
 \hline\endlastfoot
 \(\displaystyle \pi\)&число пи&Отношение длины окружности к её диаметру.\\\hline
-\(\displaystyle \alpha\)&альфа&Греческая буква, часто обозначающая угол.\\\hline
 \(\displaystyle \sin x\)&синус икс&Вертикальная координата на единичной окружности.\\\hline
 \(\displaystyle \cos x\)&косинус икс&Горизонтальная координата на единичной окружности.\\\hline
-\(\displaystyle \tan x\)&тангенс икс&\(\frac{\sin x}{\cos x}\) при \(\cos x\ne0\); также пишут tg.\\\hline
+\(\displaystyle \operatorname{tg} x\)&тангенс икс&\(\frac{\sin x}{\cos x}\) при \(\cos x\ne0\).\\\hline
 \(\displaystyle \arcsin x\)&арксинус икс&Обратная к синусу на \([-\frac\pi2;\frac\pi2]\).\\\hline
 \(\displaystyle \arccos x\)&арккосинус икс&Обратная к косинусу на \([0;\pi]\).\\\hline
-\(\displaystyle \arctan x\)&арктангенс икс&Обратная к тангенсу на \((-\frac\pi2;\frac\pi2)\); также arctg.\\\hline
-\(\displaystyle \sinh x\)&гиперболический синус&\(\frac{e^x-e^{-x}}2\); также sh.\\\hline
-\(\displaystyle \cosh x\)&гиперболический косинус&\(\frac{e^x+e^{-x}}2\); также ch.\\\hline
+\(\displaystyle \operatorname{arctg} x\)&арктангенс икс&Обратная к тангенсу на \((-\frac\pi2;\frac\pi2)\).\\\hline
+\(\displaystyle \operatorname{sh} x\)&гиперболический синус&\(\frac{e^x-e^{-x}}2\).\\\hline
+\(\displaystyle \operatorname{ch} x\)&гиперболический косинус&\(\frac{e^x+e^{-x}}2\).\\\hline
 \end{longtable}
 \Needspace{7\baselineskip}\section*{Векторы и матрицы}
 \begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
@@ -170,15 +175,13 @@
 \hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
 \hline\endfoot
 \hline\endlastfoot
-\(\displaystyle \vec v\)&вектор вэ&Направленная величина; в координатах задаётся парой или тройкой чисел.\\\hline
+\(\displaystyle \vec v=\symbf v\)&вектор вэ; два способа записи&Направленная величина; в координатах задаётся парой или тройкой чисел.\\\hline
 \(\displaystyle \lVert v\rVert\)&длина вектора вэ&Евклидова длина, например \(\sqrt{x^2+y^2}\) для \(v=(x,y)\).\\\hline
 \(\displaystyle a_{ij}\)&элемент а с индексами и, жэ&Элемент матрицы в строке \(i\), столбце \(j\).\\\hline
 \(\displaystyle AB\)&произведение матриц а и б&Определено, если число столбцов \(A\) равно числу строк \(B\).\\\hline
 \(\displaystyle I_2\)&единичная матрица порядка два&\(\begin{pmatrix}1&0\\0&1\end{pmatrix}\).\\\hline
 \(\displaystyle \det A\)&определитель матрицы а&Для \(A=\begin{pmatrix}a&b\\c&d\end{pmatrix}\) равен \(ad-bc\).\\\hline
 \(\displaystyle A^{-1}\)&обратная матрица&\(AA^{-1}=A^{-1}A=I\); существует не у всякой квадратной матрицы.\\\hline
-\(\displaystyle \lambda\)&лямбда&Греческая буква; часто обозначает скаляр или свободный параметр.\\\hline
-\(\displaystyle \symbf v\)&вектор вэ&Жирная буква также обозначает вектор.\\\hline
 \(\displaystyle \symbf 0\)&нулевой вектор&Вектор, все координаты которого равны нулю.\\\hline
 \(\displaystyle \symbf u\cdot\symbf v\)&скалярное произведение векторов&Для \(\symbf u=(u_1,u_2)\), \(\symbf v=(v_1,v_2)\): число \(u_1v_1+u_2v_2\).\\\hline
 \(\displaystyle \operatorname{rank} A\)&ранг матрицы а&Число ведущих элементов в ступенчатом виде матрицы.\\\hline
@@ -215,6 +218,37 @@
 \(\displaystyle S_n\)&симметрическая группа степени эн&Все перестановки \(\{1,\ldots,n\}\); число элементов этой группы равно \(n!\).\\\hline
 \(\displaystyle \mathrm M_2(\mathbb R)\)&матрицы два на два над эр&Кольцо действительных матриц размера \(2\times2\).\\\hline
 \(\displaystyle \mathbb F_p\)&поле из пэ элементов&При простом \(p\): поле вычетов \(\mathbb Z/p\mathbb Z\).\\\hline
-\(\displaystyle \varphi\)&фи&Греческая буква; часто обозначает отображение, например гомоморфизм.\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Комплексные числа}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle \mathbb C\)&комплексные числа&Числа вида \(a+bi\), где \(a,b\in\mathbb R\).\\\hline
+\(\displaystyle i\)&мнимая единица&Комплексное число, для которого \(i^2=-1\).\\\hline
+\(\displaystyle a+bi\)&а плюс бэ и&Алгебраическая форма комплексного числа.\\\hline
+\(\displaystyle \operatorname{Re}z\)&действительная часть зет&Число \(a\) в записи \(z=a+bi\).\\\hline
+\(\displaystyle \operatorname{Im}z\)&мнимая часть зет&Действительное число \(b\) в записи \(z=a+bi\); множитель \(i\) в мнимую часть не входит.\\\hline
+\(\displaystyle \overline z\)&зет с чертой&Комплексное сопряжение: при \(z=a+bi\) получаем \(\overline z=a-bi\).\\\hline
+\(\displaystyle |z|\)&модуль комплексного числа&При \(z=a+bi\): \(\sqrt{a^2+b^2}\). Расстояние до начала координат.\\\hline
+\(\displaystyle \arg z\)&аргументы зет&Все углы направления ненулевого \(z\); различаются на \(2\pi k\), \(k\in\mathbb Z\). У нуля аргумент не определён.\\\hline
+\(\displaystyle \operatorname{Arg}z\)&главный аргумент зет&Для \(z\ne0\): единственный аргумент из \((-\pi;\pi]\); это принятое в книге соглашение.\\\hline
+\(\displaystyle r(\cos\varphi+i\sin\varphi)\)&тригонометрическая форма&Для \(z\ne0\) здесь \(r=|z|>0\), а \(\varphi\) — один из аргументов.\\\hline
+\(\displaystyle e^{i\varphi}\)&е в степени и фи&Экспоненциальная запись \(\cos\varphi+i\sin\varphi\) для действительного \(\varphi\).\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Кватернионы и октонионы}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle \mathbb H\)&кватернионы&Вещественная алгебра размерности 4 с некоммутативным ассоциативным умножением.\\\hline
+\(\displaystyle \mathbb O\)&октонионы&Вещественная алгебра размерности 8; умножение не ассоциативно.\\\hline
+\(\displaystyle j\)&кватернионная единица жэ&\(j^2=-1\), \(ij=k\), \(ji=-k\).\\\hline
+\(\displaystyle k\)&кватернионная единица ка&\(k=ij\), \(k^2=-1\).\\\hline
+\(\displaystyle N(q)=|q|^2\)&квадрат нормы&Сумма квадратов действительных координат кватерниона или октониона.\\\hline
+\(\displaystyle e_0,\ldots,e_7\)&базис октонионов&Восемь базисных элементов в выбранном соглашении; \(e_0=1\).\\\hline
+\(\displaystyle [x,y,z]\)&ассоциатор&Разность \((xy)z-x(yz)\); измеряет зависимость от расстановки скобок.\\\hline
 \end{longtable}
 \endgroup
