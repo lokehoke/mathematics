@@ -26,7 +26,7 @@
 \includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-28.png}
 \end{wrapfigure}
 \textit{Доказательство.} По биному Ньютона \(a_n=\sum_{k=0}^n\frac1{k!}\prod_{j=0}^{k-1}(1-\frac jn)\). Знак \(\sum\) означает сложение слагаемых, \(\prod\) — перемножение множителей; при \(k=0\) произведение принимается равным \(1\). При замене \(n\) на \(n+1\) все множители уже имеющихся слагаемых не уменьшаются и добавляется новое положительное слагаемое. Поэтому \(a_{n+1}>a_n\).
-Для \(k\ge2\) имеем \(k!\ge2\cdot3^{k-2}\), поскольку все множители от \(3\) до \(k\) не меньше \(3\). Множители под знаком \(\prod\) лежат в \((0;1]\), поэтому при \(n\ge2\) получаем \(a_n\le2+\frac12\sum_{j=0}^{n-2}(\frac13)^j<2+\frac12\cdot\frac1{1-\frac13}=\frac{11}{4}\); также \(a_1=2<\frac{11}{4}\). По теореме о монотонной ограниченной последовательности предел существует. Он не меньше \(a_2=\frac94>2\) и не больше \(\frac{11}{4}<3\).\hfill\(\square\)
+Для \(k\ge2\) имеем \(k!\ge2\cdot3^{k-2}\), поскольку все множители от \(3\) до \(k\) не меньше \(3\). Множители под знаком \(\prod\) лежат в \((0;1]\), поэтому при \(n\ge2\) получаем \(a_n\le2+\frac12\sum_{j=0}^{n-2}(\frac13)^j<2+\frac12\cdot\frac1{1-\frac13}=\frac{11}{4}\); также \(a_1=2<\frac{11}{4}\). По теореме о монотонной ограниченной последовательности предел существует. Он не меньше \(a_2=\frac94>2\) и не больше \(\frac{11}{4}<3\).\hfill\(\blacksquare\)
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
@@ -51,6 +51,36 @@
 \begin{proof}
 Вычитаем квадраты по определениям: \(\operatorname{ch}^2x-\operatorname{sh}^2x=\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}=e^xe^{-x}=1\). При замене \(x\) на \(-x\) два слагаемых в числителях меняются местами: разность меняет знак, а сумма сохраняется. Это доказывает обе формулы чётности.
 \end{proof}
+\section*{Гиперболические тангенс и котангенс}
+\begin{definition}\term{Гиперболический тангенс} (\emph{hyperbolic tangent}) — функция \(\operatorname{th}x=\frac{\operatorname{sh}x}{\operatorname{ch}x}\), \(x\in\mathbb R\). Знаменатель всегда положителен. В англоязычной литературе обычно пишут \(\tanh x\).\end{definition}
+\begin{definition}\term{Гиперболический котангенс} (\emph{hyperbolic cotangent}) — функция \(\operatorname{cth}x=\frac{\operatorname{ch}x}{\operatorname{sh}x}\), \(x\ne0\). В англоязычной литературе обычно пишут \(\coth x\).\end{definition}
+\begin{theorem}[Рациональные выражения через экспоненту]
+При \(t=e^{2x}>0\) имеем
+\[
+\operatorname{th}x=\frac{t-1}{t+1},\qquad
+\operatorname{cth}x=\frac{t+1}{t-1}\quad(x\ne0).
+\]
+Обе функции нечётны. Множество значений \(\operatorname{th}\) равно \((-1;1)\), а \(\operatorname{cth}\) — \((-\infty;-1)\cup(1;+\infty)\).
+\end{theorem}
+\begin{proof}
+Подставим определения \(\operatorname{sh}\), \(\operatorname{ch}\) и умножим числитель и знаменатель на \(e^x\). Нечётность следует из нечётности \(\operatorname{sh}\) и чётности \(\operatorname{ch}\). При \(t>0\) выполнено \(|t-1|<t+1\), что даёт указанные строгие границы. Обратно, для \(-1<y<1\) число \(t=\frac{1+y}{1-y}>0\) даёт \(\operatorname{th}(\frac12\ln t)=y\). При \(|y|>1\) число \(t=\frac{y+1}{y-1}>0\) отлично от \(1\) и даёт \(\operatorname{cth}(\frac12\ln t)=y\). Поэтому все указанные значения достигаются.
+\end{proof}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-97.png}
+\end{wrapfigure}
+Гиперболический тангенс ограничен, хотя его аргумент может расти без границ. Например, заданная модель сигнала \(s(t)=2\operatorname{th}t\) всегда даёт \(-2<s(t)<2\). Значения приближаются к границам, но не достигают их при конечном \(t\). В отличие от обычного тангенса, у \(\operatorname{th}\) на действительной прямой нет полюсов и нет ненулевого периода. У \(\operatorname{cth}\) область определения разрывается в нуле; это нужно учитывать до сокращения выражений и решения уравнений. Периодические ветви обычного котангенса и две ветви гиперболического котангенса имеют разное происхождение.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\begin{theorem}[Тождества и монотонность]
+Для действительного \(x\) выполнено \(1-\operatorname{th}^2x=\frac1{\operatorname{ch}^2x}\); при \(x\ne0\) — \(\operatorname{cth}^2x-1=\frac1{\operatorname{sh}^2x}\). Функция \(\operatorname{th}\) строго возрастает на \(\mathbb R\), а \(\operatorname{cth}\) строго убывает на каждом из промежутков \((-\infty;0)\), \((0;+\infty)\).
+\end{theorem}
+\begin{proof}
+Разделим равенство \(\operatorname{ch}^2x-\operatorname{sh}^2x=1\) соответственно на \(\operatorname{ch}^2x\) и \(\operatorname{sh}^2x\). Для монотонности пусть \(0<t_1<t_2\). Разность значений \(\frac{t-1}{t+1}\) равна \(\frac{2(t_2-t_1)}{(t_2+1)(t_1+1)}>0\). Разность значений \(\frac{t+1}{t-1}\) равна \(-\frac{2(t_2-t_1)}{(t_2-1)(t_1-1)}<0\), если \(t_1,t_2\) лежат по одну сторону от \(1\). Экспонента \(e^{2x}\) строго возрастает, что даёт все утверждения. Неограниченность аргумента и строгая монотонность также исключают ненулевой период \(\operatorname{th}\).
+\end{proof}
+
 \section*{Зачем нужны гиперболические функции}
 В геометрии параметризация \(X=\operatorname{ch}t\), \(Y=\operatorname{sh}t\) даёт точки правой ветви гиперболы \(X^2-Y^2=1\), поскольку \(\operatorname{ch}t>0\). Это аналог связи косинуса и синуса с окружностью, но с разностью квадратов вместо суммы.
 
@@ -70,12 +100,27 @@ y=a\left(\operatorname{ch}\frac xa-1\right),\qquad a>0.
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 % HYPERBOLIC_APPLICATION_END
+График \(\operatorname{sh} x\) нечётен, строго возрастает и проходит через \((0;0)\). Возрастание видно без производных: при \(y>x\) одновременно \(e^y>e^x\) и \(-e^{-y}>-e^{-x}\). График \(\operatorname{ch} x\) чётен и проходит через \((0;1)\); его наименьшее значение равно \(1\). Для \(0\le x<y\) равенство \(\operatorname{ch} y-\operatorname{ch} x=2\operatorname{sh}\frac{y+x}{2}\operatorname{sh}\frac{y-x}{2}>0\), получаемое раскрытием определений, показывает возрастание на \([0;+\infty)\); из чётности следует убывание на \((-\infty;0]\). Таким образом, график имеет плавную форму цепи с минимумом в \((0;1)\), но не совпадает с параболой.
+
+\section*{Правила степеней и логарифмов с условиями}
+Для \(a,b>0\) и действительных \(r,s\) действуют
+\[
+a^{r+s}=a^ra^s,\qquad (a^r)^s=a^{rs},\qquad (ab)^r=a^rb^r.
+\]
+Ограничение на основания существенно: для отрицательного основания произвольная действительная степень может не определяться. При \(a>0\), \(a\ne1\), \(u,v>0\)
+\[
+\begin{gathered}
+\log_a(uv)=\log_a u+\log_a v,\quad
+\log_a\frac uv=\log_a u-\log_a v,\\
+\log_a(u^r)=r\log_a u.
+\end{gathered}
+\]
+Например, если \(s=\log_a u\), \(t=\log_a v\), то \(uv=a^sa^t=a^{s+t}\), поэтому логарифм произведения равен \(s+t\). Для частного используется \(u\,v^{-1}\), а для степени — \((a^s)^r=a^{sr}\). Равенство \(\log_a(u+v)=\log_a u+\log_a v\) отсюда не следует и в общем случае неверно: при \(a=2,u=v=1\) слева \(1\), справа \(0\).
 
 \clearpage
 \par\noindent\begin{minipage}{\linewidth}\section*{Графики}
-График \(\operatorname{sh} x\) нечётен, строго возрастает и проходит через \((0;0)\). Возрастание видно без производных: при \(y>x\) одновременно \(e^y>e^x\) и \(-e^{-y}>-e^{-x}\). График \(\operatorname{ch} x\) чётен и проходит через \((0;1)\); его наименьшее значение равно \(1\). Для \(0\le x<y\) равенство \(\operatorname{ch} y-\operatorname{ch} x=2\operatorname{sh}\frac{y+x}{2}\operatorname{sh}\frac{y-x}{2}>0\), получаемое раскрытием определений, показывает возрастание на \([0;+\infty)\); из чётности следует убывание на \((-\infty;0]\). Таким образом, график имеет плавную форму цепи с минимумом в \((0;1)\), но не совпадает с параболой.
-
-\begin{center}\includegraphics[width=\textwidth,height=.65\textheight,keepaspectratio]{images/atlas-exponential.pdf}\par\small Показательные, логарифмические и гиперболические функции\end{center}\end{minipage}\par
+\begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-exponential.pdf}\par\small Показательные, логарифмические и гиперболические функции\end{center}\end{minipage}\par
+\par\noindent\begin{minipage}{\linewidth}\section*{Гиперболические тангенс и котангенс}\includegraphics[width=\linewidth]{images/atlas-hyperbolic-ratios.pdf}\par Горизонтальные пунктирные прямые — асимптоты \(y=1\) и \(y=-1\). Функция \(\operatorname{th}x\) определена на всей прямой; у \(\operatorname{cth}x\) есть разрыв при \(x=0\).\end{minipage}\par
 \Needspace{7\baselineskip}\section*{Задачи}
 \begingroup\setlength{\parskip}{3pt}
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.1.} Построй \(y = \dfrac{1}{x}\). Укажи область определения и область значений.\par\end{minipage}\par
@@ -124,4 +169,26 @@ y=a\left(\operatorname{ch}\frac xa-1\right),\qquad a>0.
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.29.} В модели цепи \(y=4(\operatorname{ch}\dfrac x4-1)\) все длины даны в метрах. Найди высоту при \(x=4\ln2\), а также высоту в симметричной точке.\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.30.}\starmark{} Докажи, что профиль \(y=a(\operatorname{ch}\dfrac xa-1)\), \(a>0\), достигает единственного минимума в нуле. Используй определения, без производной.\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.31.} На гиперболе задана точка \((X,Y)=(\operatorname{ch}t,\operatorname{sh}t)\), где \(t=\ln3\). Найди координаты и проверь \(X^2-Y^2=1\).\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[13]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-132.png}
+\end{wrapfigure}
+\textbf{14.32.} Найди \(\operatorname{th}0\), \(\operatorname{th}(\ln2)\), \(\operatorname{cth}(\ln2)\).\par
+
+\textbf{14.33.} Вычисли \(\operatorname{th}(-\ln3)\) и \(\operatorname{cth}(-\ln3)\).\par
+
+\textbf{14.34.} Реши \(\operatorname{th}x=\dfrac12\) на действительной прямой.\par
+
+\textbf{14.35.} Реши \(\operatorname{cth}x=2\), проверив область определения.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.36.} Какие из уравнений \(\operatorname{th}x=1\), \(\operatorname{th}x=-\dfrac32\), \(\operatorname{cth}x=\dfrac12\) имеют действительные решения?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.37.} Построй эскизы \(y=\operatorname{th}x\) и \(y=\operatorname{cth}x\). Отметь область определения, нечётность и горизонтальные асимптоты.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.38.} В заданной модели \(s(t)=2\operatorname{th}t\) найди момент \(t\ge0\), когда \(s(t)=1\), и объясни, достигается ли уровень \(2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.39.} Докажи \(\operatorname{cth}x\operatorname{th}x=1\). Укажи все допустимые \(x\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.40.}\starmark{} Докажи формулу \(\operatorname{th}(x+y)=\dfrac{\operatorname{th}x+\operatorname{th}y}{1+\operatorname{th}x\operatorname{th}y}\). Почему знаменатель ненулевой?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.41.}\starmark{} При \(a>0\) реши неравенство \(|\operatorname{th}x|\le\operatorname{th}a\).\par\end{minipage}\par
 \endgroup

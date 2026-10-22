@@ -48,17 +48,71 @@
 \begin{wrapfigure}[11]{r}{54mm}
 \includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-94.png}
 \end{wrapfigure}
-\textit{Доказательство.} Пусть \(\alpha=\arcsin t\); тогда \(\alpha\in[-\frac\pi2;\frac\pi2]\) и \(\sin\alpha=t\). Угол \(\beta=\frac\pi2-\alpha\) принадлежит \([0;\pi]\), а \(\cos\beta=\sin\alpha=t\). По единственности угла в определении арккосинуса \(\beta=\arccos t\), откуда следует нужное равенство.\hfill\(\square\)
+\textit{Доказательство.} Пусть \(\alpha=\arcsin t\); тогда \(\alpha\in[-\frac\pi2;\frac\pi2]\) и \(\sin\alpha=t\). Угол \(\beta=\frac\pi2-\alpha\) принадлежит \([0;\pi]\), а \(\cos\beta=\sin\alpha=t\). По единственности угла в определении арккосинуса \(\beta=\arccos t\), откуда следует нужное равенство.\hfill\(\blacksquare\)
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
 В некоторых источниках обозначения \(\sin^{-1}t\), \(\cos^{-1}t\), \(\operatorname{tg}^{-1}t\) означают обратные функции. Чтобы не путать их с обратными числами \(\frac1{\sin t}\), \(\frac1{\cos t}\), \(\frac1{\operatorname{tg} t}\), здесь используем только записи \(\arcsin\), \(\arccos\), \(\operatorname{arctg}\).
 
+\section*{Котангенс и формулы сложения}
+\begin{definition}\term{Котангенс} (\emph{cotangent}) — функция \(\operatorname{ctg}x=\frac{\cos x}{\sin x}\), определённая при \(x\ne\pi k\), \(k\in\mathbb Z\). В англоязычной литературе обычно пишут \(\cot x\).\end{definition}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-98.png}
+\end{wrapfigure}
+Котангенс удобно рассматривать по отдельным промежуткам между соседними точками \(\pi k\). На каждом таком промежутке имеется одна непрерывная ветвь. Сдвиг на \(\pi\) меняет знаки и синуса, и косинуса, поэтому их отношение сохраняется. В прямоугольном треугольнике котангенс острого угла равен отношению прилежащего катета к противолежащему. Запись \(\operatorname{ctg}x=\frac1{\operatorname{tg}x}\) допустима только тогда, когда оба выражения определены: например, при \(x=\frac\pi2\) котангенс равен нулю, а тангенс вообще не определён.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\begin{theorem}[Основные свойства котангенса]
+Функция \(\operatorname{ctg}\) нечётна и имеет период \(\pi\). Её нули равны \(\frac\pi2+\pi k\). При \(\sin x\ne0\) выполнено \(1+\operatorname{ctg}^2x=\frac1{\sin^2x}\). На \((0;\pi)\) функция строго убывает.
+\end{theorem}
+\begin{proof}
+Первые свойства следуют из знаков, периодичности и нулей синуса и косинуса; тождество получается делением \(\sin^2x+\cos^2x=1\) на \(\sin^2x\). Для \(0<x<y<\pi\) имеем
+\[
+\operatorname{ctg}x-\operatorname{ctg}y=\frac{\sin(y-x)}{\sin x\sin y}>0.
+\]
+Здесь использована формула синуса разности, доказанная ниже; все три синуса положительны.
+\end{proof}
+\begin{theorem}[Формулы сложения и двойного угла]
+Для любых действительных \(x,y\)
+\[
+\begin{aligned}
+\sin(x+y)&=\sin x\cos y+\cos x\sin y,\\
+\cos(x+y)&=\cos x\cos y-\sin x\sin y.
+\end{aligned}
+\]
+Замена \(y\) на \(-y\) даёт формулы разности; при \(y=x\) получаем \(\sin2x=2\sin x\cos x\), \(\cos2x=\cos^2x-\sin^2x\).
+\end{theorem}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-133.png}
+\end{wrapfigure}
+\textit{Доказательство.} При повороте плоскости вокруг нуля на угол \(x\) вектор \((1,0)\) переходит в \((\cos x,\sin x)\), а перпендикулярный ему вектор \((0,1)\) — в \((-\sin x,\cos x)\). Поворот сохраняет сложение векторов и умножение на действительное число: это видно по повороту параллелограмма и направленных отрезков на одной прямой. Поэтому образ \((\cos y,\sin y)\) равен
+\[
+(\cos x\cos y-\sin x\sin y,\;\sin x\cos y+\cos x\sin y).
+\]
+Но последовательные повороты на \(y\) и \(x\) дают поворот на \(x+y\). Сравнение координат доказывает обе формулы. Нечётность синуса и чётность косинуса дают разность; подстановка \(y=x\) — двойной угол.\hfill\(\blacksquare\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\begin{theorem}[Сложение тангенсов]
+Если \(\cos x\ne0\), \(\cos y\ne0\), \(\cos(x+y)\ne0\), то
+\[
+\operatorname{tg}(x+y)=\frac{\operatorname{tg}x+\operatorname{tg}y}{1-\operatorname{tg}x\operatorname{tg}y}.
+\]
+\end{theorem}
+\begin{proof}Разделим формулы сложения синуса и косинуса друг на друга, а затем числитель и знаменатель на \(\cos x\cos y\). Последний знаменатель равен \(\frac{\cos(x+y)}{\cos x\cos y}\ne0\).\end{proof}
+
 \clearpage
 \par\noindent\begin{minipage}{\linewidth}\section*{Графики}
 \begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-trigonometry.pdf}\par\small Тригонометрические и обратные функции\end{center}\end{minipage}\par
 \par\noindent\begin{minipage}{\linewidth}\section*{Тангенс на большом промежутке}\includegraphics[width=\linewidth]{images/graph-tangent.pdf}\par Пунктиром отмечены прямые \(x=\frac\pi2+\pi k\), \(k\in\mathbb Z\), где тангенс не определён. Соседние ветви повторяются с периодом \(\pi\); через разрывы график не соединяется.\end{minipage}\par
+\par\noindent\begin{minipage}{\linewidth}\section*{Котангенс на большом промежутке}\includegraphics[width=\linewidth]{images/graph-cotangent.pdf}\par Пунктирные прямые \(x=\pi k\), \(k\in\mathbb Z\), не входят в область определения. Каждая ветвь строго убывает; период равен \(\pi\).\end{minipage}\par
 \Needspace{7\baselineskip}\section*{Задачи}
 \begingroup\setlength{\parskip}{3pt}
 \noindent\begin{minipage}[t]{\linewidth}\textbf{15.1.} Переведи \(30 {}^{\circ},\allowbreak 90 {}^{\circ}\) и \(150 {}^{\circ}\) в радианы.\par\end{minipage}\par
@@ -104,4 +158,25 @@
 \noindent\begin{minipage}[t]{\linewidth}\textbf{15.26.} Реши \(\arcsin(2x-1)=\dfrac\pi6\). Сначала найди область допустимых значений.\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{15.27.} Реши \(\operatorname{arctg}(x-2)=-\dfrac\pi4\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{15.28.} Построй эскиз \(y=\operatorname{arctg} x\), отметив точки с аргументами \(-1\), \(0\), \(1\). Укажи область определения, область значений и чётность. Может ли значение функции быть равным \(\dfrac\pi2\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{15.29.} Найди \(\operatorname{ctg}\dfrac\pi6\), \(\operatorname{ctg}\dfrac\pi4\), \(\operatorname{ctg}\dfrac\pi3\), \(\operatorname{ctg}\dfrac\pi2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{15.30.} Укажи область определения и нули \(f(x)=\operatorname{ctg}(2x)\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{15.31.} Реши \(\operatorname{ctg}x=\sqrt3\).\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[13]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-134.png}
+\end{wrapfigure}
+\textbf{15.32.} В прямоугольном треугольнике катет, прилежащий к острому углу \(\alpha\), равен \(6\) см, противолежащий — \(8\) см. Найди \(\operatorname{ctg}\alpha\) и гипотенузу.\par
+
+\textbf{15.33.} Построй графики \(y=\operatorname{ctg}x\) и \(y=\operatorname{ctg}(x-\dfrac\pi4)\) на нескольких периодах.\par
+
+\textbf{15.34.} Докажи \(\operatorname{tg}x\operatorname{ctg}x=1\). Почему равенство нельзя подставлять при \(x=\dfrac\pi2\)?\par
+
+\textbf{15.35.}\starmark{} Вычисли точно \(\sin\dfrac{5\pi}{12}\) и \(\cos\dfrac{5\pi}{12}\), используя \(\dfrac{5\pi}{12}=\dfrac\pi4+\dfrac\pi6\).\par
+
+\textbf{15.36.}\starmark{} Докажи \(\operatorname{ctg}(x+y)=\dfrac{\operatorname{ctg}x\operatorname{ctg}y-1}{\operatorname{ctg}x+\operatorname{ctg}y}\), явно указав условия.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
 \endgroup

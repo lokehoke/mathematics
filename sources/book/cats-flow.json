@@ -730,30 +730,6 @@
     "end": "\\section*{Первый пример применения метода}"
   },
   {
-    "kind": "reference",
-    "chapter": 0,
-    "art": 96,
-    "side": "r",
-    "start": "Таблица симметрична",
-    "end": "% TRIG_TABLE_START"
-  },
-  {
-    "kind": "reference",
-    "chapter": 0,
-    "art": 97,
-    "side": "l",
-    "start": "Правило цепочки учитывает",
-    "end": "\\section*{Степени и логарифмы}"
-  },
-  {
-    "kind": "reference",
-    "chapter": 0,
-    "art": 98,
-    "side": "r",
-    "start": "Формулы сложения дают значения",
-    "end": "REFERENCE_END"
-  },
-  {
     "kind": "prose",
     "chapter": 23,
     "art": 79,
@@ -784,5 +760,297 @@
     "side": "l",
     "start": "Для вычисления корня резольвенты можно непосредственно",
     "end": "\\section*{Граница радикальных формул}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 20,
+    "art": 96,
+    "side": "r",
+    "start": "Правило цепочки позволяет вычислять",
+    "end": "\\begin{theorem}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 14,
+    "art": 97,
+    "side": "l",
+    "start": "Гиперболический тангенс ограничен",
+    "end": "\\begin{theorem}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 15,
+    "art": 98,
+    "side": "r",
+    "start": "Котангенс удобно рассматривать",
+    "end": "\\begin{theorem}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 26,
+    "start": "Вектор можно складывать с другим вектором",
+    "end": "\\begin{definition}",
+    "art": 102,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 26,
+    "start": "Координаты зависят от выбора базиса",
+    "end": "\\begin{theorem}",
+    "art": 103,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 26,
+    "start": "Ортонормированный базис особенно удобен",
+    "end": "% END_THEORY_26",
+    "art": 104,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 26,
+    "index": 1,
+    "art": 105,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 26,
+    "start": 6,
+    "end": 9,
+    "art": 106,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 26,
+    "start": 8,
+    "end": 11,
+    "art": 107,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 27,
+    "start": "Матрица обычно меняет и длину",
+    "end": "\\begin{definition}",
+    "art": 108,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 27,
+    "start": "При повторении преобразования можно использовать",
+    "end": "\\section*",
+    "art": 109,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 27,
+    "start": "Квадратичная форма описывает зависимость второго порядка",
+    "end": "\\begin{theorem}",
+    "art": 110,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 27,
+    "index": 1,
+    "art": 111,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 27,
+    "start": 6,
+    "end": 9,
+    "art": 112,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 27,
+    "start": 8,
+    "end": 11,
+    "art": 113,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 28,
+    "start": "Рациональные числа позволяют приближать длины",
+    "end": "\\section*",
+    "art": 114,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 28,
+    "start": "На прямой стандартное расстояние равно",
+    "end": "На \\(\\mathbb R^n\\)",
+    "art": 115,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 28,
+    "start": "Замкнутость всегда рассматривается относительно",
+    "end": "\\section*",
+    "art": 116,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 28,
+    "start": "На отрезке непрерывность даёт сразу",
+    "end": "\\begin{theorem}",
+    "art": 117,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 28,
+    "start": 6,
+    "end": 9,
+    "art": 118,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 28,
+    "start": 8,
+    "end": 11,
+    "art": 119,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 29,
+    "start": "Если скорость меняется со временем",
+    "end": "\\begin{definition}",
+    "art": 120,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 29,
+    "start": "Всегда \\(L(f,P)",
+    "end": "\\section*",
+    "art": 121,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 29,
+    "start": "Первообразная и определённый интеграл отвечают",
+    "end": "\\begin{theorem}",
+    "art": 122,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 29,
+    "start": "При вычислении интеграла полезно смотреть",
+    "end": "\\begin{theorem}",
+    "art": 123,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 29,
+    "start": 6,
+    "end": 9,
+    "art": 124,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 29,
+    "start": 8,
+    "end": 11,
+    "art": 125,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 30,
+    "start": "Запись бесконечной суммы требует",
+    "end": "\\begin{theorem}",
+    "art": 126,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 30,
+    "start": "При знакопеременных слагаемых соседние",
+    "end": "\\section*",
+    "art": 127,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 30,
+    "start": "Для каждого фиксированного",
+    "end": "\\begin{definition}",
+    "art": 128,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 30,
+    "index": 1,
+    "art": 129,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 30,
+    "start": 6,
+    "end": 9,
+    "art": 130,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 30,
+    "start": 8,
+    "end": 11,
+    "art": 131,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 14,
+    "start": 32,
+    "end": 35,
+    "art": 132,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 15,
+    "index": 3,
+    "art": 133,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 15,
+    "start": 32,
+    "end": 36,
+    "art": 134,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 15,
+    "start": 24,
+    "end": 28,
+    "art": 135,
+    "side": "l"
   }
 ]

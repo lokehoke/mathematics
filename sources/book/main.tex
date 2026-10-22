@@ -37,6 +37,8 @@
 \AtBeginDocument{\renewcommand{\setminus}{\smallsetminus}}
 \newcommand{\term}[1]{{\color{Navy}\uline{#1}}}
 \newcommand{\starmark}{\ensuremath{\textcolor{Coral}{{}^{\ast}}}}
+\renewcommand{\qedsymbol}{\ensuremath{\blacksquare}}
+\newcommand{\tablemath}[1]{\begingroup\setbox0=\hbox{\(\displaystyle #1\)}\rule[-\dimexpr\dp0+4pt\relax]{0pt}{\dimexpr\ht0+\dp0+8pt\relax}\box0\endgroup}
 \newsavebox{\CatFlowBox}
 \pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для любимого котеночка}\fancyhead[R]{\small\color{Teal}\rightmark}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{.3pt}
@@ -57,6 +59,7 @@
 \begingroup\small\linespread{1}\selectfont\setlength{\parskip}{0pt}\tableofcontents\endgroup
 \input{symbols.tex}
 \input{data/alphabets.tex}
+\input{data/reference-tables.tex}
 \input{chapters/chapter-01.tex}
 \input{chapters/chapter-02.tex}
 \input{chapters/chapter-03.tex}
@@ -82,8 +85,12 @@
 \input{chapters/chapter-23.tex}
 \input{chapters/chapter-24.tex}
 \input{chapters/chapter-25.tex}
-\backmatter\input{reference-tables.tex}
-\clearpage\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}
+\input{chapters/chapter-26.tex}
+\input{chapters/chapter-27.tex}
+\input{chapters/chapter-28.tex}
+\input{chapters/chapter-29.tex}
+\input{chapters/chapter-30.tex}
+\backmatter\clearpage\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}
 \section*{Глава 1. Числа и свойства арифметических действий}
 \begingroup\setlength{\parskip}{4pt}
 \textbf{1.1.} \(- 8 < - 3;\allowbreak 0 > - 5;\allowbreak - 4 < 4\).\par
@@ -576,6 +583,16 @@
 \textbf{14.29.} \(\operatorname{ch}(\ln2)=\frac{2+\frac12}{2}=\frac54\), поэтому \(y=1\) м. При \(x=-4\ln2\) высота та же по чётности.\par
 \textbf{14.30.}\starmark{} Для \(t=\frac xa\) имеем \(\operatorname{ch}t-1=\frac{(e^t-1)^2}{2e^t}\ge0\). Равенство возможно ровно при \(e^t=1\), то есть \(t=0\), а значит \(x=0\). Минимум \(y=0\).\par
 \textbf{14.31.} \(X=\frac{3+\frac13}{2}=\frac53\), \(Y=\frac{3-\frac13}{2}=\frac43\). Разность квадратов \(\frac{25-16}{9}=1\).\par
+\textbf{14.32.} Соответственно \(0\), \(\frac35\), \(\frac53\), поскольку \(e^{2\ln2}=4\).\par
+\textbf{14.33.} \(-\frac45\) и \(-\frac54\): используем \(e^{2\ln3}=9\) и нечётность.\par
+\textbf{14.34.} Для \(t=e^{2x}\) получаем \(\frac{t-1}{t+1}=\frac12\), откуда \(t=3\). Единственное решение \(x=\frac12\ln3\).\par
+\textbf{14.35.} \(\frac{t+1}{t-1}=2\) даёт \(t=3\), то есть \(x=\frac12\ln3\ne0\).\par
+\textbf{14.36.} Ни одно: первые два значения не принадлежат \((-1;1)\), последнее — множеству \(\{|y|>1\}\).\par
+\textbf{14.37.} Для \(\operatorname{th}\): вся прямая, нечётность, возрастание, значения \((-1;1)\); пределы при \(x\to\pm\infty\) равны \(\pm1\). Для \(\operatorname{cth}\): \(x\ne0\), нечётность, убывание на каждой ветви, те же пределы на бесконечностях и вертикальная асимптота \(x=0\). Всё следует из дробей через \(t=e^{2x}\).\par
+\textbf{14.38.} \(t=\frac12\ln3\). Уровень \(2\) при конечном \(t\) не достигается, поскольку \(\operatorname{th}t<1\).\par
+\textbf{14.39.} При \(x\ne0\) обе функции определены, и произведение двух взаимно обратных дробей равно \(1\). При \(x=0\) исходное произведение не определено.\par
+\textbf{14.40.}\starmark{} Положим \(A=e^{2x}\), \(B=e^{2y}\). После приведения к общему знаменателю числитель равен \(\frac{2(AB-1)}{(A+1)(B+1)}\), знаменатель — \(\frac{2(AB+1)}{(A+1)(B+1)}>0\). Их частное равно \(\frac{AB-1}{AB+1}=\operatorname{th}(x+y)\).\par
+\textbf{14.41.}\starmark{} Из нечётности и строгого возрастания следует \(-a\le x\le a\). Все концы включены.\par
 \endgroup
 \section*{Глава 15. Тригонометрия}
 \begingroup\setlength{\parskip}{4pt}
@@ -602,11 +619,32 @@
 \textbf{15.21.} Соответственно \(0\), \(\frac\pi6\), \(-\frac\pi3\). Все углы входят в \([-\frac\pi2;\frac\pi2]\).\par
 \textbf{15.22.} Соответственно \(\frac{2\pi}3\), \(0\), \(\frac\pi2\). Все углы входят в \([0;\pi]\).\par
 \textbf{15.23.} Соответственно \(-\frac\pi4\), \(\frac\pi3\), \(0\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-135.png}
+\end{wrapfigure}
 \textbf{15.24.}\starmark{} Получаем \(\arcsin\frac12=\frac\pi6\), \(\arccos\frac12=\frac\pi3\), \(\operatorname{arctg}(-1)=-\frac\pi4\). Исходные углы не лежат в соответствующих диапазонах обратных функций, поэтому механически сокращать функции нельзя.\par
+
 \textbf{15.25.} Оба значения равны \(\frac45\). Угол арксинуса лежит в \([-\frac\pi2;\frac\pi2]\), где косинус неотрицателен; угол арккосинуса лежит в \([0;\pi]\), где синус неотрицателен. В обоих случаях по основному тождеству модуль искомого значения равен \(\sqrt{1-\frac9{25}}=\frac45\).\par
+
 \textbf{15.26.} Из \(-1\le2x-1\le1\) получаем ОДЗ \(0\le x\le1\). Синус обеих частей даёт \(2x-1=\frac12\), поэтому \(x=\frac34\). Правая часть исходного уравнения принадлежит диапазону арксинуса; подстановка подтверждает корень.\par
+
 \textbf{15.27.} Уравнение определено для всех действительных \(x\). Поскольку \(-\frac\pi4\in(-\frac\pi2;\frac\pi2)\), получаем \(x-2=\operatorname{tg}(-\frac\pi4)=-1\). Ответ: \(x=1\).\par
+
 \textbf{15.28.} Точки \((-1;-\frac\pi4),(0;0),(1;\frac\pi4)\). Область определения \(\mathbb R\), область значений \((-\frac\pi2;\frac\pi2)\). Функция нечётная и строго возрастает; график приближается к прямым \(y=-\frac\pi2\) слева и \(y=\frac\pi2\) справа, но не достигает их. Значение \(\frac\pi2\) невозможно.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{15.29.} \(\sqrt3,1,\frac{\sqrt3}3,0\).\par
+\textbf{15.30.} Область: \(x\ne\frac{\pi k}{2}\). Нули: \(x=\frac\pi4+\frac{\pi k}{2}\), \(k\in\mathbb Z\).\par
+\textbf{15.31.} \(x=\frac\pi6+\pi k\), \(k\in\mathbb Z\). Единственность на \((0;\pi)\) следует из строгого убывания.\par
+\textbf{15.32.} \(\operatorname{ctg}\alpha=\frac34\), гипотенуза \(10\) см.\par
+\textbf{15.33.} Первый график имеет асимптоты \(x=\pi k\), нули \(x=\frac\pi2+\pi k\), период \(\pi\). Второй сдвинут вправо на \(\frac\pi4\); асимптоты \(\frac\pi4+\pi k\), нули \(\frac{3\pi}4+\pi k\).\par
+\textbf{15.34.} Для \(\sin x\cos x\ne0\) произведение дробей равно \(1\). При \(x=\frac\pi2\) тангенс не определён, поэтому произведение не существует.\par
+\textbf{15.35.}\starmark{} \(\sin\frac{5\pi}{12}=\frac{\sqrt6+\sqrt2}{4}\), \(\cos\frac{5\pi}{12}=\frac{\sqrt6-\sqrt2}{4}\).\par
+\textbf{15.36.}\starmark{} Требуются \(\sin x\ne0\), \(\sin y\ne0\), \(\sin(x+y)\ne0\). Делим формулы косинуса и синуса суммы на \(\sin x\sin y\). Знаменатель равен \(\frac{\sin(x+y)}{\sin x\sin y}\ne0\).\par
 \endgroup
 \section*{Глава 16. Множества, логика и доказательства}
 \begingroup\setlength{\parskip}{4pt}
@@ -858,6 +896,12 @@
 \textbf{20.24.}\starmark{} \(f'(x)=1-\frac{16}{x^2}\), стационарная точка \(x=4\). Для всех \(x>0\) имеем \(f(x)-8=\frac{(x-4)^2}{x}\ge0\). Минимум \(8\) достигается только при \(x=4\).\par
 \textbf{20.25.}\starmark{} Положим \(r=\sqrt{4+h}\). Тогда \(r-2=\frac h{r+2}\), откуда \(2+\frac h4-r=\frac h4-\frac h{r+2}=\frac{h(r-2)}{4(r+2)}=\frac{h^2}{4(r+2)^2}\). При \(h\ge0\) имеем \(r\ge2\), поэтому знаменатель не меньше \(64\); числитель неотрицателен.\par
 \textbf{20.26.}\starmark{} Из первой касательной \(d=1\), \(c=-2\). Вторая даёт \(p(1)=3\), \(p'(1)=4\), поэтому \(a+b=4\), \(3a+2b=6\). Получаем \(a=-2\), \(b=6\). Ответ: \(p(x)=-2x^3+6x^2-2x+1\). Подстановка даёт обе заданные точки и оба наклона.\par
+\textbf{20.27.} \(20x(2x^2+1)^4\).\par
+\textbf{20.28.} \(-\frac3{\sin^2(3x)}\); \(x\ne\frac{\pi k}{3}\), \(k\in\mathbb Z\).\par
+\textbf{20.29.} \(\frac{2x}{\operatorname{ch}^2(x^2)}\), все действительные \(x\).\par
+\textbf{20.30.} \(-\frac2{\operatorname{sh}^2(2x+1)}\), \(x\ne-\frac12\).\par
+\textbf{20.31.} Оба способа дают \(\frac{x^2-2x-1}{(x-1)^2}=1-\frac2{(x-1)^2}\), \(x\ne1\).\par
+\textbf{20.32.}\starmark{} Применяем правило цепочки к \(f\circ(g\circ h)\), а затем к \(g\circ h\). Все промежуточные аргументы должны принадлежать областям определения.\par
 \endgroup
 \section*{Глава 21. Остатки, сравнения и целочисленные уравнения}
 \begingroup\setlength{\parskip}{4pt}
@@ -1078,5 +1122,198 @@
 \textbf{25.14.}\starmark{} Для \(x=(a,b)\), \(y=(c,d)\) левая часть равна \((\overline c\,\overline a-\overline b d,-da-b\overline c)\). Произведение \((\overline c,-d)(\overline a,-b)\) по определению даёт ровно ту же пару.\par
 \textbf{25.15.}\starmark{} Дистрибутивность даёт \(x(y-z)=0\). Поэтому \(N_{\mathbb O}(x)N_{\mathbb O}(y-z)=0\). Первый множитель положителен, значит, второй нулевой, то есть \(y=z\).\par
 \textbf{25.16.}\starmark{} В \(\mathbb C\) верны оба свойства. В \(\mathbb H\) ассоциативность верна, коммутативность нарушается: \(ij=k\), \(ji=-k\). В \(\mathbb O\) нет ни одного из этих двух свойств для всех элементов: некоммутативность наследуется из \(\mathbb H\), а ассоциативность опровергается тройкой \(e_1,e_2,e_4\).\par
+\endgroup
+\section*{Глава 26. Векторные пространства, базисы и линейные отображения}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{26.1.} Да: сумма и умножение на скаляр сохраняют условие. Каждый вектор равен \(x(1,-1)\); базис \(((1,-1))\), размерность \(1\).\par
+\textbf{26.2.} Только \(y=2x\). Первое множество не содержит нуля; третье не замкнуто относительно умножения на \(-1\).\par
+\textbf{26.3.} \((5,1)=3u+2v\).\par
+\textbf{26.4.} Нет: \(2(1,2,3)-(2,4,6)=0\).\par
+\textbf{26.5.} Из \(a+c=0,b+c=0,a+b=0\) следует \(a=b=c=0\). Три независимых вектора образуют базис: матрица системы имеет три ведущих элемента.\par
+\textbf{26.6.} \((1,3)\), поскольку \((4,-2)=1(1,1)+3(1,-1)\).\par
+\textbf{26.7.} Координаты \((3,-2,5)\), размерность \(3\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[13]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-107.png}
+\end{wrapfigure}
+\textbf{26.8.} \((t,t^2)\): свободный коэффициент равен нулю. Размерность \(2\).\par
+
+\textbf{26.9.} \(6\). Базис состоит из шести матриц \(E_{ij}\) с одной единицей на месте \((i,j)\) и нулями на остальных местах.\par
+
+\textbf{26.10.} Ядро: \(\operatorname{span}((-1,1,-1))\), размерность \(1\). Образ равен \(\mathbb R^2\): для \((a,b)\) подходит \((a,0,b)\). Его размерность \(2\), и \(3=1+2\).\par
+
+\textbf{26.11.} Нет: \(T(0,0)=(1,0)\ne0\), тогда как всякое линейное отображение переводит ноль в ноль.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{26.12.} Например, \((2,1,0)\) и \((-1,0,1)\). Они лежат в ядре и независимы. Ядро двумерно.\par
+\textbf{26.13.} Скалярное произведение \(0\), нормы \(\sqrt6\), \(2\sqrt2\); векторы ортогональны.\par
+\textbf{26.14.} \((\frac35,\frac45,0)\). На прямой два единичных вектора: этот и противоположный.\par
+\textbf{26.15.} Пересечение содержит ноль. Если \(u,v\) лежат в обоих подпространствах, то любая \(au+bv\) лежит в каждом из них, следовательно, и в пересечении.\par
+\textbf{26.16.} Две координатные оси. Векторы \((1,0)\), \((0,1)\) лежат в объединении, их сумма \((1,1)\) — нет.\par
+\textbf{26.17.} Коэффициент при нулевом векторе можно взять равным \(1\), остальные — нулю. У пустого списка нет ненулевого набора коэффициентов, поэтому он независим.\par
+\textbf{26.18.} Размерность ядра \(4-2=2\); инъективность невозможна.\par
+\textbf{26.19.}\starmark{} Пространство имеет базис \((1,t,t^2,t^3)\) из четырёх элементов. Независимый список не может быть длиннее порождающего.\par
+\textbf{26.20.}\starmark{} Линейность следует из производной суммы и постоянного множителя. Ядро — постоянные многочлены. Любой \(a+bt+ct^2\) есть производная \(at+\frac b2t^2+\frac c3t^3\), поэтому образ равен \(\mathcal P_2\). Размерности \(1\) и \(3\).\par
+\textbf{26.21.} Длина \(10\); скалярные проекции \(6\) и \(8\).\par
+\textbf{26.22.}\starmark{} По формуле размерностей нулевое ядро равносильно тому, что размерность образа равна размерности пространства назначения. Подпространство с такой размерностью совпадает со всем пространством: его базис уже является базисом назначения.\par
+\endgroup
+\section*{Глава 27. Собственные значения и квадратичные формы}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{27.1.} Значения \(2,5\); подпространства соответственно \(\operatorname{span}((1,0))\), \(\operatorname{span}((0,1))\).\par
+\textbf{27.2.} \(\chi_A(\lambda)=\lambda^2-4\lambda+3\). Для \(1\) подходит \((1,-1)\), для \(3\) — \((1,1)\).\par
+\textbf{27.3.} Нулевой вектор исключён определением. Нулевое значение возможно: у \(\operatorname{diag}(0,1)\) вектор \((1,0)\) отвечает значению \(0\).\par
+\textbf{27.4.} Характеристический многочлен \(\lambda^2+1\). Над \(\mathbb R\) значений нет, над \(\mathbb C\) — \(i,-i\).\par
+\textbf{27.5.} База \(m=1\) дана. Из \(A^mv=\lambda^mv\) следует \(A^{m+1}v=A(\lambda^mv)=\lambda^mAv=\lambda^{m+1}v\).\par
+\textbf{27.6.} Можно взять \(P=\frac1{\sqrt2}\begin{pmatrix}1&1\\-1&1\end{pmatrix}\), \(D=\operatorname{diag}(1,3)\). Тогда \(A=PDP^{\mathrm T}\).\par
+\textbf{27.7.} Единственное собственное значение \(1\), а \(\ker(J-I)=\{(x,0)\}\) одномерно. Двух собственных векторов для базиса нет.\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-113.png}
+\end{wrapfigure}
+\textbf{27.8.} \((1,0)=\frac12(1,-1)+\frac12(1,1)\), поэтому \(x_n=(\frac{1+3^n}{2},\frac{3^n-1}{2})\).\par
+
+\textbf{27.9.} \(x=-y,y=x\) дают \(x=y=0\); \(z\) произвольно. Ненулевые векторы оси \(z\) отвечают значению \(1\).\par
+
+\textbf{27.10.} Из симметрии \(\langle Au,v\rangle=\langle u,Av\rangle\). Следовательно, \((\lambda-\mu)\langle u,v\rangle=0\); разность ненулевая, поэтому скалярное произведение равно нулю.\par
+
+\textbf{27.11.} Такая матрица равна \(cI\), поэтому \(Av=cv\) для любого \(v\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{27.12.}\starmark{} \((1,-1)\) — собственный вектор со значением \(2\), поэтому ответ \(2^n(1,-1)\).\par
+\textbf{27.13.} \(\begin{pmatrix}3&-2\\-2&5\end{pmatrix}\); коэффициент при \(xy\) равен удвоенному внедиагональному элементу.\par
+\textbf{27.14.} Положительно определена: \(a=3>0\), \(ac-b^2=15-4=11>0\).\par
+\textbf{27.15.} Соответственно положительно определённая, отрицательно определённая, неопределённая, положительно полуопределённая (но не определённая).\par
+\textbf{27.16.} \((x+2y)^2+3y^2\); минимум \(3y^2\) при \(x=-2y\).\par
+\textbf{27.17.} Значения \(1,3\). Главные направления \((1,-1)\) и \((1,1)\); в ортонормированных координатах форма равна \(v^2+3u^2\).\par
+\textbf{27.18.}\starmark{} Минимум \(1\) на направлении \((1,-1)\), максимум \(3\) на направлении \((1,1)\), при нормировке до длины \(1\). В главных координатах \(E=v^2+3u^2\), \(u^2+v^2=1\).\par
+\textbf{27.19.} Ровно при \(|t|<1\), поскольку определитель \(1-t^2\). При \(|t|=1\) форма — квадрат \((x\pm y)^2\), а при \(|t|>1\) неопределённа.\par
+\textbf{27.20.} Матрица \(\begin{pmatrix}0&\frac12\\\frac12&0\end{pmatrix}\) имеет определитель \(-\frac14\ne0\). Значения в \((1,1)\) и \((1,-1)\) равны \(1\) и \(-1\).\par
+\textbf{27.21.} \(3u^2+v^2=1\), где \(u=\frac{x+y}{\sqrt2},v=\frac{x-y}{\sqrt2}\). Полуоси \(\frac1{\sqrt3}\) и \(1\).\par
+\textbf{27.22.} Ортогональная замена приводит к \(\lambda_1u_1^2+\lambda_2u_2^2\). При ненулевом векторе хотя бы один квадрат положителен, а оба коэффициента положительны.\par
+\textbf{27.23.}\starmark{} Необходимость первых двух условий следует из координатных векторов. При \(a>0\) выделение квадрата даёт необходимость и достаточность третьего. Если \(a=0\), неотрицательность для всех \(x\) при \(y=1\) требует \(b=0\); условие определителя тоже даёт \(b=0\), и остаётся \(cy^2\ge0\).\par
+\textbf{27.24.}\starmark{} Окружность, гипербола и две прямые \(x=\pm1\). Ограничена только окружность.\par
+\endgroup
+\section*{Глава 28. Полнота и метрические пространства}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{28.1.} При \(m,n\ge N\): \(\left|\frac1m-\frac1n\right|\le\frac1N\). Достаточно взять натуральное \(N>\frac1\varepsilon\).\par
+\textbf{28.2.} Нет. При \(\varepsilon=1\) после любого номера есть чётный и нечётный индексы; разность членов по модулю равна \(2\).\par
+\textbf{28.3.} При \(m,n\ge201\) разность по модулю не больше \(\frac2{201}<0{,}01\). Подходит \(N=201\).\par
+\textbf{28.4.} Оба достаточно точных усечения отличаются от \(\sqrt2\) меньше чем на \(10^{-k}\), поэтому отличаются друг от друга меньше чем на \(2\cdot10^{-k}\). Любой рациональный предел был бы и действительным пределом, то есть равнялся бы иррациональному \(\sqrt2\), что невозможно.\par
+\textbf{28.5.} \(d_2=5\), \(d_1=7\), \(d_\infty=4\).\par
+\textbf{28.6.} Внутренность круга \(x^2+y^2<1\); внутренность ромба \(|x|+|y|<1\); открытый квадрат \(\max(|x|,|y|)<1\). Границы не входят.\par
+\textbf{28.7.} Первые два шара равны \(\{a\}\), третий — всему пространству.\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-119.png}
+\end{wrapfigure}
+\textbf{28.8.} Нет: для \(x=0,y=1,z=2\) неравенство треугольника потребовало бы \(4\le1+1\).\par
+
+\textbf{28.9.} Для каждого \(j\): \(|x_j-z_j|\le|x_j-y_j|+|y_j-z_j|\le d_\infty(x,y)+d_\infty(y,z)\). Взятие максимума слева даёт требуемое.\par
+
+\textbf{28.10.} \((0;1)\) открыто, но не замкнуто; \([0;1]\) замкнуто, но не открыто; \([0;1)\) ни открыто, ни замкнуто. \(\varnothing\) и \(\mathbb R\) одновременно открыты и замкнуты.\par
+
+\textbf{28.11.} \([0;1]\) и \(\mathbb Z\) полны как замкнутые подмножества \(\mathbb R\). Интервал \((0;1)\) не полон: \(\frac1{n+1}\to0\notin(0;1)\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{28.12.} Чётные индексы дают \(x_{2k}=1+\frac1{2k}\to1\); нечётные — \(x_{2k-1}=-1+\frac1{2k-1}\to-1\).\par
+\textbf{28.13.} Множество — открытый интервал, а не замкнутый отрезок. Максимума нет: для каждого \(x<1\) точка \(\frac{x+1}2\) принадлежит интервалу и имеет большее значение. Супремум равен \(1\).\par
+\textbf{28.14.} \(f(x)=(x-1)^2+2\). Минимум \(2\) при \(x=1\), максимум \(6\) при \(x=3\).\par
+\textbf{28.15.} \(\delta=\frac\varepsilon3\), поскольку \(|f(x)-f(y)|=3|x-y|\).\par
+\textbf{28.16.} \(|x^2-y^2|=|x-y||x+y|\le4|x-y|\). Подходит \(\delta=\frac\varepsilon4\).\par
+\textbf{28.17.} К \((0,0)\). Расстояния равны соответственно \(\frac3n\), \(\frac{\sqrt5}n\), \(\frac2n\); все стремятся к нулю.\par
+\textbf{28.18.} Вдоль улиц \(7\) единиц, по прямой \(5\). Это \(d_1\) и \(d_2\); для такой сетки обход неизбежен.\par
+\textbf{28.19.}\starmark{} Условие Коши с \(\varepsilon=\frac12\) означает, что после некоторого номера все члены совпадают. Такая последовательность сходится к своему постоянному хвосту.\par
+\textbf{28.20.}\starmark{} Каждая координата последовательности Коши сама является действительной последовательностью Коши и имеет предел. Для заданного \(\varepsilon\) выберем номер с точностью \(\varepsilon\) в каждой из конечного числа координат и возьмём максимум этих номеров. Тогда максимум координатных ошибок меньше \(\varepsilon\).\par
+\textbf{28.21.}\starmark{} Расстояние между точками равно \(\frac1{n(n+1)}\to0\), а разность значений по модулю всегда \(1\). Для \(\varepsilon=\frac12\) ни одно общее \(\delta>0\) не подходит.\par
+\textbf{28.22.}\starmark{} Для заданного \(\varepsilon\) возьмём общее \(\delta\) из равномерной непрерывности. У последовательности Коши после некоторого номера все расстояния меньше \(\delta\), поэтому расстояния между соответствующими значениями меньше \(\varepsilon\).\par
+\textbf{28.23.}\starmark{} Иначе для некоторого \(\varepsilon>0\) можно выбрать подпоследовательность с \(|x_{n_k}-a|\ge\varepsilon\). Она ограничена, поэтому имеет сходящуюся подпоследовательность. Её предел \(b\) удовлетворяет \(|b-a|\ge\varepsilon\), вопреки условию.\par
+\textbf{28.24.} Для \(x\in B_r(a)\) число \(s=r-d(x,a)>0\). Если \(d(y,x)<s\), то \(d(y,a)\le d(y,x)+d(x,a)<r\). Значит, \(B_s(x)\subseteq B_r(a)\).\par
+\endgroup
+\section*{Глава 29. Интеграл Римана и первообразная}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{29.1.} \(L=0\cdot1+1\cdot1=1\), \(U=1\cdot1+2\cdot1=3\). Сам интеграл равен \(2\).\par
+\textbf{29.2.} \(L=\frac{0+1+4+9}{64}=\frac7{32}\), \(U=\frac{1+4+9+16}{64}=\frac{15}{32}\). Действительно, \(\frac7{32}<\frac13<\frac{15}{32}\).\par
+\textbf{29.3.} \(9;\ 4;\ 0\).\par
+\textbf{29.4.} Площадь \(\int_{-1}^1|x|\,dx=1\); ориентированный интеграл \(\int_{-1}^1x\,dx=0\).\par
+\textbf{29.5.} \([x^3-x^2+x]_0^1=1\).\par
+\textbf{29.6.} \(1\) и \(1\).\par
+\textbf{29.7.} \(15\) и \(-7\).\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-125.png}
+\end{wrapfigure}
+\textbf{29.8.} \(F(x)=x^4-2x+C\), \(C\in\mathbb R\).\par
+
+\textbf{29.9.} \(F(x)=x^2+4\).\par
+
+\textbf{29.10.} \((\operatorname{sh}x)'=\operatorname{ch}x\); определённый интеграл равен \(\operatorname{sh}(\ln2)=\frac{2-\frac12}2=\frac34\).\par
+
+\textbf{29.11.} \(\int_0^3(2t+1)\,dt=[t^2+t]_0^3=12\) м. Скорость положительна, поэтому это также пройденный путь.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{29.12.} \(\int_0^2(1+x)\,dx=4\) кг.\par
+\textbf{29.13.} \(\frac13\cdot[\frac{x^3}3]_0^3=3\).\par
+\textbf{29.14.} \(A'(x)=x^2+1\), \(A(1)=0\).\par
+\textbf{29.15.} При \(u=x^2\) пределы \(0,1\), поэтому \(\int_0^1e^u\,du=e-1\).\par
+\textbf{29.16.} \([xe^x]_0^1-\int_0^1e^x\,dx=e-(e-1)=1\).\par
+\textbf{29.17.} Нет: функция не определена и не ограничена у нуля. Теорема Ньютона — Лейбница на этом отрезке неприменима. Симметричное сокращение не создаёт интеграл Римана.\par
+\textbf{29.18.} Интегрируем неравенства \(-M\le f\le M\): \(-M(b-a)\le\int_a^b f\le M(b-a)\).\par
+\textbf{29.19.}\starmark{} Если \(f(c)>0\), по непрерывности на некотором подотрезке положительной длины выполнено \(f(x)>\frac{f(c)}2\). Тогда интеграл на нём положителен, на остальных частях неотрицателен. Получаем противоречие нулевому интегралу.\par
+\textbf{29.20.} Для любых точек \(a<b\) внутри интервала теорема Лагранжа для \(F-G\) даёт \((F-G)(b)-(F-G)(a)=0\). Значит, значения одинаковы во всех точках.\par
+\textbf{29.21.}\starmark{} Производная интеграла по верхнему пределу равна косинусу этого предела. Затем правило цепочки даёт \(2x\cos(x^2)\).\par
+\textbf{29.22.}\starmark{} Это производная \(e^{\sin t}\), поэтому ответ \(e^{\sin\pi}-e^{\sin0}=0\). Теорема замены использует правило цепочки и значения на концах; монотонности в её условиях нет.\par
+\textbf{29.23.}\starmark{} \(L_n=\frac{b^2}{n^2}\sum_{k=0}^{n-1}k=\frac{b^2(n-1)}{2n}\), \(U_n=\frac{b^2}{n^2}\sum_{k=1}^nk=\frac{b^2(n+1)}{2n}\). Их разность \(\frac{b^2}n\to0\), оба предела равны \(\frac{b^2}2\).\par
+\textbf{29.24.}\starmark{} Положим \(A(x)=\int_a^x f(t)\,dt\). Эта функция непрерывна на отрезке и дифференцируема внутри, поэтому по теореме Лагранжа \(A(b)-A(a)=A^{\prime}(c)(b-a)\) для некоторого \(c\in(a;b)\). Здесь \(A(a)=0\), \(A^{\prime}(c)=f(c)\), что даёт требуемое равенство.\par
+\endgroup
+\section*{Глава 30. Числовые и степенные ряды}
+\begingroup\setlength{\parskip}{4pt}
+\textbf{30.1.} \(\frac12,\frac34,\frac78,\frac{15}{16}\); \(S_N=1-2^{-N}\to1\).\par
+\textbf{30.2.} Нет: \(a_n\to1\ne0\).\par
+\textbf{30.3.} \(\frac1{n(n+1)}=\frac1n-\frac1{n+1}\); \(S_N=1-\frac1{N+1}\to1\).\par
+\textbf{30.4.} Первый и четвёртый сходятся, второй и третий расходятся по признаку для \(p\)-рядов.\par
+\textbf{30.5.} \(0<\frac1{n^2+5}\le\frac1{n^2}\), а ряд справа сходится.\par
+\textbf{30.6.} При \(n\ge1\): \(2n+1\le3n\), значит, \(\frac1{2n+1}\ge\frac1{3n}\). Последний ряд — постоянное положительное кратное гармонического.\par
+\textbf{30.7.} Условной: признак Лейбница даёт сходимость, а ряд модулей гармонический и расходится.\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[10]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-131.png}
+\end{wrapfigure}
+\textbf{30.8.} Абсолютно сходится, поскольку \(\sum\frac1{n^2}\) сходится.\par
+
+\textbf{30.9.} Нужно \(\frac1{N+1}\le0{,}01\), то есть \(N\ge99\). Наименьшее по этой оценке — \(99\).\par
+
+\textbf{30.10.} В первом случае отношение \(\frac3{n+1}\to0\): ряд сходится. Во втором \(\frac{n+1}3\to+\infty\): расходится.\par
+
+\textbf{30.11.} Отношение \(\frac{n^2}{(n+1)^2}\to1\). Сходимость следует из признака для \(p\)-ряда при \(p=2>1\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\textbf{30.12.} \(|x|<\frac12\), сумма \(\frac1{1-2x}\); на обоих концах члены не стремятся к нулю.\par
+\textbf{30.13.} Радиус \(1\): для \(x\ne0\) отношение модулей стремится к \(|x|\). При \(x=1\) гармонический ряд расходится, при \(x=-1\) ряд сходится по Лейбницу. Область \([-1;1)\).\par
+\textbf{30.14.} Радиус \(1\), на обоих концах абсолютная сходимость по сравнению с \(\sum\frac1{n^2}\). Область \([-1;1]\).\par
+\textbf{30.15.} При любом фиксированном \(x\ne0\) отношение модулей равно \(\frac{|x|}{n+1}\to0\); в нуле остаётся постоянный член. Радиус \(+\infty\).\par
+\textbf{30.16.} При \(x\ne0\) отношение модулей \((n+1)|x|\to+\infty\), поэтому ряд расходится. В нуле сходится к \(1\); радиус \(0\).\par
+\textbf{30.17.} Предел \(2\) л. После \(N\) порций остаток \(2^{1-N}\) л; \(N=8\) даёт \(\frac1{128}<0{,}01\), а \(N=7\) ещё недостаточно.\par
+\textbf{30.18.} Сумма \(\frac9{1-\frac13}=\frac{27}2\) см. Остаток \(\frac{27}2\cdot3^{-5}=\frac1{18}\) см.\par
+\textbf{30.19.} После последнего изменённого номера все частичные суммы двух рядов отличаются на одну постоянную. Поэтому одна последовательность частичных сумм имеет конечный предел тогда и только тогда, когда другая его имеет.\par
+\textbf{30.20.} Для конечных частичных сумм \(S_N=\alpha A_N+\beta B_N\). Переход к пределу по правилам пределов даёт утверждение.\par
+\textbf{30.21.}\starmark{} Для \(n\ge N+1\ge2\) имеем \(\frac1{n^2}\le\frac1{n(n-1)}=\frac1{n-1}-\frac1n\). После суммирования и предельного перехода хвост не больше \(\frac1N\).\par
+\textbf{30.22.}\starmark{} Гармонический ряд: \(a_n=\frac1n\to0\), а группировка по степеням двойки даёт \(S_{2^m}\ge1+\frac m2\to+\infty\).\par
+\textbf{30.23.}\starmark{} Отношение модулей стремится к \(\frac{|x-2|}3\), значит, центр \(2\), радиус \(3\). При \(x=-1\) ряд знакопеременный гармонический и сходится, при \(x=5\) гармонический и расходится. Область \([-1;5)\).\par
+\textbf{30.24.}\starmark{} Члены в точке \(a+2\) ограничены: \(|c_n|2^n\le M\). В точке \(a-1\) модуль члена не больше \(M2^{-n}\), значит, есть абсолютная сходимость. На противоположном конце гарантии нет: ряд \(\sum_{n=1}^\infty\frac{(-1)^n(x-a)^n}{n2^n}\) при \(a+2\) сходится по Лейбницу, а при \(a-2\) становится гармоническим.\par
 \endgroup
 \end{document}

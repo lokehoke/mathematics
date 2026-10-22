@@ -30,7 +30,7 @@ S_N=\frac{N(a_1+a_N)}{2}=\frac N2\bigl(2a_1+(N-1)d\bigr).
 \begin{wrapfigure}[12]{l}{54mm}
 \includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-13.png}
 \end{wrapfigure}
-\textit{Доказательство.} Запишем одну и ту же сумму в прямом и обратном порядке. При сложении получим \(2S_N=(a_1+a_N)+(a_2+a_{N-1})+\cdots+(a_N+a_1)\). В каждой из \(N\) скобок сумма равна \(2a_1+(N-1)d=a_1+a_N\). Деление на \(2\) даёт первую формулу, а подстановка общего члена — вторую. Рассуждение не зависит от чётности \(N\).\hfill\(\square\)
+\textit{Доказательство.} Запишем одну и ту же сумму в прямом и обратном порядке. При сложении получим \(2S_N=(a_1+a_N)+(a_2+a_{N-1})+\cdots+(a_N+a_1)\). В каждой из \(N\) скобок сумма равна \(2a_1+(N-1)d=a_1+a_N\). Деление на \(2\) даёт первую формулу, а подстановка общего члена — вторую. Рассуждение не зависит от чётности \(N\).\hfill\(\blacksquare\)
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
@@ -96,7 +96,7 @@ S_N=\frac{a_1(1-q^N)}{1-q}.
 \end{wrapfigure}
 \textit{Доказательство.} Для неубывающей последовательности супремум \(L\) существует по аксиоме полноты. Выберем любое \(\varepsilon>0\). Число \(L-\varepsilon\) не является верхней гранью, поэтому существует номер \(N\), для которого \(a_N>L-\varepsilon\). При всех \(n\geq N\) по монотонности \(a_n\geq a_N\), а по свойству верхней грани \(a_n\leq L\). Значит, \(L-\varepsilon<a_n\leq L\), то есть \(|a_n-L|<\varepsilon\). Это и означает \(a_n\to L\).
 
-Для невозрастающей и ограниченной снизу последовательности \((a_n)\) последовательность \((-a_n)\) не убывает и ограничена сверху. Уже доказанный случай даёт \(-a_n\to B\), откуда \(a_n\to-B\), поскольку \(|a_n-(-B)|=|-a_n-B|\).\hfill\(\square\)
+Для невозрастающей и ограниченной снизу последовательности \((a_n)\) последовательность \((-a_n)\) не убывает и ограничена сверху. Уже доказанный случай даёт \(-a_n\to B\), откуда \(a_n\to-B\), поскольку \(|a_n-(-B)|=|-a_n-B|\).\hfill\(\blacksquare\)
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}

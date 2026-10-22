@@ -81,7 +81,7 @@ for c in ordered:
  c['theory']=re.sub(r'\\\((.*?)\\\)',lambda m:('\n'+r'\['+m[1]+r'\]'+'\n') if len(m[1])>100 and (r'\sum' in m[1] or r'\prod' in m[1]) else m[0],c['theory'],flags=re.S)
 # All exercise instructions are embedded in their statements, with no repeated hints.
 assert len(ordered)==16
-assert sum(len(c['tasks']) for c in ordered)==392
+assert sum(len(c['tasks']) for c in ordered)==410
 # Logic is extended after legacy reference remapping so its current chapter
 # references and proof annotations retain their intended meaning.
 logic=json.loads((TMP/'logic-extension.json').read_text())
@@ -89,7 +89,7 @@ ordered[15]['theory']+='\n'+logic['theory']
 ordered[15]['tasks']+=logic['tasks']
 # Append the approved university introductions after remapping legacy chapter
 # references. Their chapter numbers already refer to the current edition.
-extension_paths=['new-chapters-17-18.json','new-chapters-19-20.json','new-chapter-21.json','new-chapter-22.json','new-chapter-23.json','new-chapter-24.json','new-chapter-25.json']
+extension_paths=['new-chapters-17-18.json','new-chapters-19-20.json','new-chapter-21.json','new-chapter-22.json','new-chapter-23.json','new-chapter-24.json','new-chapter-25.json']+[f'new-chapter-{i}.json' for i in range(26,31)]
 missing=[name for name in extension_paths if not (TMP/name).exists()]
 assert not missing,'Missing approved chapters: '+', '.join(missing)
 for name in extension_paths:
@@ -138,7 +138,7 @@ def theory_cats(theory,chapter):
   ordinal+=1
   entry=next((v for v in entries if v['index']==ordinal),None)
   if not entry:return m[0]
-  body=r'\textit{Доказательство.} '+m[1].strip()+r'\hfill\(\square\)'
+  body=r'\textit{Доказательство.} '+m[1].strip()+r'\hfill\(\blacksquare\)'
   if entry.get('include_after'):return catblock(body+'\n\n'+m[2].strip(),entry)
   return catblock(body,entry)+m[2]
  theory=re.sub(r'\\begin\{proof\}(.*?)\\end\{proof\}((?:(?!\\begin\{|\\(?:sub)?section).)*)',proof,theory,flags=re.S)
@@ -210,6 +210,8 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \AtBeginDocument{\renewcommand{\setminus}{\smallsetminus}}
 \newcommand{\term}[1]{{\color{Navy}\uline{#1}}}
 \newcommand{\starmark}{\ensuremath{\textcolor{Coral}{{}^{\ast}}}}
+\renewcommand{\qedsymbol}{\ensuremath{\blacksquare}}
+\newcommand{\tablemath}[1]{\begingroup\setbox0=\hbox{\(\displaystyle #1\)}\rule[-\dimexpr\dp0+4pt\relax]{0pt}{\dimexpr\ht0+\dp0+8pt\relax}\box0\endgroup}
 \newsavebox{\CatFlowBox}
 \pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для любимого котеночка}\fancyhead[R]{\small\color{Teal}\rightmark}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{.3pt}
@@ -230,22 +232,27 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \begingroup\small\linespread{1}\selectfont\setlength{\parskip}{0pt}\tableofcontents\endgroup
 \input{symbols.tex}
 \input{data/alphabets.tex}
+\input{data/reference-tables.tex}
 '''
 (BOOK/'main.tex').write_text(header)
 main=[]
 for i,c in enumerate(ordered,1):
  atlas_intro=''
  theory=c['theory']
- if i==14 and r'График \(\operatorname{sh} x\)' in theory:
-  theory,atlas_intro=theory.split(r'График \(\operatorname{sh} x\)',1)
-  atlas_intro=r'График \(\operatorname{sh} x\)'+atlas_intro
  theory=theory_cats(theory,i)
  out=[r'\chapter{'+c['title']+'}'+r'\markright{Глава '+str(i)+'}',theory]
  atlas={7:('atlas-roots.pdf','Корни нечётной и чётной степени'),13:('atlas-algebra.pdf','Базовые алгебраические функции'),14:('atlas-exponential.pdf','Показательные, логарифмические и гиперболические функции'),15:('atlas-trigonometry.pdf','Тригонометрические и обратные функции'),18:('atlas-linear.pdf','Сумма векторов и образ единичного квадрата'),19:('atlas-limits.pdf','Пределы, значение в точке и непрерывность'),20:('atlas-derivative.pdf','Производная как предел наклонов и линейное приближение')}
  atlas[23]=('atlas-complex.pdf','Сопряжение и корни на комплексной плоскости')
+ atlas.update({
+  26:('atlas-spaces.pdf','Базис, координаты и ядро линейного отображения'),
+  27:('atlas-quadratic.pdf','Собственные направления и главные оси квадратичной формы'),
+  28:('atlas-metric.pdf','Единичные шары для трёх метрик на плоскости'),
+  29:('atlas-integral.pdf','Суммы Дарбу и ориентированная площадь'),
+  30:('atlas-series.pdf','Частичные суммы и проверка концов промежутка сходимости'),
+ })
  if i in atlas:
   path,cap=atlas[i]
-  if i not in (7,13,18,20,23):out.append(r'\clearpage')
+  if i not in (7,13,18,20,23,26,27,28,29,30):out.append(r'\clearpage')
   # Keep the heading and caption with their atlas, including when the whole
   # block moves to the next page after a long proof.
   out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Графики}')
@@ -254,16 +261,13 @@ for i,c in enumerate(ordered,1):
   out.append(r'\begin{center}\includegraphics[width=\textwidth,height='+h+r'\textheight,keepaspectratio]{images/'+path+'}'+r'\par\small '+cap+r'\end{center}\end{minipage}\par')
  if i==15:
   out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Тангенс на большом промежутке}\includegraphics[width=\linewidth]{images/graph-tangent.pdf}\par Пунктиром отмечены прямые \(x=\frac\pi2+\pi k\), \(k\in\mathbb Z\), где тангенс не определён. Соседние ветви повторяются с периодом \(\pi\); через разрывы график не соединяется.\end{minipage}\par')
+  out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Котангенс на большом промежутке}\includegraphics[width=\linewidth]{images/graph-cotangent.pdf}\par Пунктирные прямые \(x=\pi k\), \(k\in\mathbb Z\), не входят в область определения. Каждая ветвь строго убывает; период равен \(\pi\).\end{minipage}\par')
+ if i==14:
+  out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Гиперболические тангенс и котангенс}\includegraphics[width=\linewidth]{images/atlas-hyperbolic-ratios.pdf}\par Горизонтальные пунктирные прямые — асимптоты \(y=1\) и \(y=-1\). Функция \(\operatorname{th}x\) определена на всей прямой; у \(\operatorname{cth}x\) есть разрыв при \(x=0\).\end{minipage}\par')
  out += [r'\Needspace{7\baselineskip}\section*{Задачи}']
  out += task_section(i,c['tasks'])
  path=f'chapters/chapter-{i:02d}.tex';(BOOK/path).write_text('\n'.join(out)+'\n');main.append(r'\input{'+path+'}')
-tables=(TMP/'reference-tables.tex').read_text()
-for entry in [v for v in flow if v['kind']=='reference']:
- a=tables.index(entry['start']);b=tables.index(entry['end'],a)
- tables=tables[:a]+catblock(tables[a:b].strip().removesuffix('%').strip(),entry)+tables[b:]
-tables=tables.replace('REFERENCE_END','')
-(BOOK/'reference-tables.tex').write_text(tables.rstrip()+'\n')
-main += [r'\backmatter\input{reference-tables.tex}',r'\clearpage\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}']
+main += [r'\backmatter\clearpage\markright{Ответы}\chapter*{Ответы и краткие решения}\addcontentsline{toc}{chapter}{Ответы и краткие решения}']
 for i,c in enumerate(ordered,1):
  main += [r'\section*{Глава '+str(i)+'. '+c['title']+'}']
  main += task_section(i,c['tasks'],answers=True)
