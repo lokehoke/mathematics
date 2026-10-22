@@ -14,6 +14,7 @@ BOOK=ROOT/'sources/book'
 source=Path(sys.argv[1]) if len(sys.argv)>1 else BOOK/'main.pdf'
 output=Path(sys.argv[2]) if len(sys.argv)>2 else ROOT/'research/book-flow-layout-check.json'
 lookup={hashlib.sha256(Image.open(p).convert('RGB').tobytes()).hexdigest():int(p.stem[-2:]) for p in (BOOK/'images/unique').glob('art-*.png')}
+expected_art={entry['art'] for entry in json.loads((BOOK/'cats-flow.json').read_text())}
 placements=[];overlaps=[];box_overlaps=[];outside=[];sparse=[];labels=Counter()
 with pdfplumber.open(source) as pdf:
  page_count=len(pdf.pages)
@@ -51,4 +52,4 @@ result={'pages':page_count,'unique_art':len({p['art'] for p in placements}),'art
 output.parent.mkdir(parents=True,exist_ok=True);output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({k:v for k,v in result.items() if k not in ['placements','sparse_pages_for_visual_review']},ensure_ascii=False))
 print('Sparse pages:',[(v['page'],v['characters']) for v in sparse])
-if len(placements)!=42 or len({p['art'] for p in placements})!=42 or overlaps or box_overlaps or outside or wrong_labels:sys.exit(1)
+if len(placements)!=len(expected_art) or {p['art'] for p in placements}!=expected_art or overlaps or box_overlaps or outside or wrong_labels:sys.exit(1)

@@ -11,6 +11,7 @@ parser.add_argument('--tectonic',default='tectonic')
 parser.add_argument('--skip-optimize',action='store_true')
 args=parser.parse_args()
 
+subprocess.run([sys.executable,str(ROOT/'scripts/make_symbols.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/assemble_book.py')],check=True)
 subprocess.run([args.tectonic,'--keep-logs','--keep-intermediates','main.tex'],cwd=BOOK,check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/verify_book_layout.py')],check=True)

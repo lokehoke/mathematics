@@ -1,62 +1,220 @@
 \chapter*{Справочник обозначений}
 \addcontentsline{toc}{chapter}{Справочник обозначений}
-Обозначения вводятся постепенно. Здесь можно быстро найти чтение символа; точные определения и условия применения приводятся в главах.
-\renewcommand{\arraystretch}{1.3}
-\small
-\begin{longtable}{@{}p{.17\textwidth}p{.31\textwidth}p{.45\textwidth}@{}}
-\rowcolor{Tint}\textbf{Символ}&\textbf{Как читать}&\textbf{Что означает и пример}\\\endfirsthead
-\rowcolor{Tint}\textbf{Символ}&\textbf{Как читать}&\textbf{Что означает и пример}\\\endhead
-\(=,\ne\)&равно; не равно&Равенство или различие: \(2+3=5\), \(0\ne1\).\\
-\(<,>,\le,\ge\)&меньше; больше; не больше; не меньше&Сравнения: \(x\le3\) включает случай \(x=3\).\\
-\(\approx\)&приблизительно равно&Округление: \(\sqrt2\approx1{,}414\).\\
-\(+, -,\cdot,:\)&плюс; минус; умножить; разделить&\(6:3=2\); \(ab=a\cdot b\).\\
-\(\frac ab\)&а разделить на б&Дробь, всегда \(b\ne0\).\\
-\(\pm\)&плюс или минус&\(x=\pm2\) означает два значения \(-2\) и \(2\).\\
-\(a^n,a^{-n}\)&а в степени эн&Степень; при отрицательном показателе \(a\ne0\).\\
-\(\sqrt a,\sqrt[n]a\)&квадратный корень; корень энной степени&Для чётного \(n\) в действительных числах требуется \(a\ge0\).\\
-\(|a|\)&модуль а&Расстояние до нуля: \(|-3|=3\).\\
-\(a\mathrel{\vdots}b\)&а делится на б нацело&\(12\mathrel{\vdots}4\); делитель \(b\ne0\).\\
-\(a\mid b\)&а делит б&\(4\mid12\). Порядок чисел противоположен записи с тремя точками.\\
-\(a\nmid b\)&а не делит б&\(5\nmid12\).\\
-\(\gcd,\operatorname{lcm}\)&джи-си-ди; эл-си-эм&НОД и НОК; например, \(\gcd(12,18)=6\).\\
-\(\mathbb N,\mathbb N_0\)&натуральные; натуральные с нулём&В этой книге \(\mathbb N=\{1,2,\ldots\}\), \(\mathbb N_0=\{0,1,2,\ldots\}\).\\
-\(\mathbb Z,\mathbb Q,\mathbb R\)&целые; рациональные; действительные&\(-2\in\mathbb Z\), \(\frac12\in\mathbb Q\), \(\sqrt2\in\mathbb R\).\\
-\(\in,\notin\)&принадлежит; не принадлежит&\(2\in\{1,2,3\}\), \(4\notin\{1,2,3\}\).\\
-\(\{\ldots\}\)&множество элементов&Фигурные скобки: \(A=\{1,2,3\}\).\\
-\(\varnothing,U\)&пустое множество; универсум&\(\varnothing\) не содержит элементов; \(U\) задаёт рассматриваемые объекты.\\
-\(A\subseteq B\)&а является подмножеством б&Каждый элемент \(A\) принадлежит \(B\); равенство разрешено.\\
-\(A\subsetneq B\)&собственное подмножество&\(A\subseteq B\) и \(A\ne B\). Запись \(\subset\) в книгах бывает неоднозначной.\\
-\(A\cup B,A\cap B\)&объединение; пересечение&Элементы хотя бы одного; элементы обоих множеств.\\
-\(A\setminus B\)&разность множеств&Элементы \(A\), не принадлежащие \(B\).\\
-\(A^c\)&дополнение а&\(U\setminus A\); зависит от выбранного универсума.\\
-\(A\triangle B\)&симметрическая разность&Элементы ровно одного из \(A,B\).\\
-\(A\times B\)&декартово произведение&Множество упорядоченных пар \((a,b)\), где \(a\in A,b\in B\).\\
-\(\mathcal P(A),2^A\)&множество всех подмножеств&Для \(A=\{1\}\): \(\mathcal P(A)=\{\varnothing,\{1\}\}\).\\
-\(|A|\)&число элементов а&Для конечного множества; отличается по контексту от модуля числа.\\
-\((a;b),[a;b]\)&интервал; отрезок&Круглая скобка исключает конец, квадратная включает.\\
-\(\infty\)&бесконечность&Не действительное число; в границах промежутков всегда круглая скобка.\\
-\(\forall,\exists\)&для любого; существует&\(\forall x\in\mathbb R\;x^2\ge0\).\\
-\(\Rightarrow,\Longleftrightarrow\)&следует; равносильно&Импликация; каждое из двух утверждений следует из другого.\\
-\(\neg P\)&не пэ&Отрицание утверждения \(P\).\\
-\(\land,\lor\)&и; или&Оба условия; хотя бы одно из условий.\\
-\(S(n)\)&следующее за эн&Операция следования в аксиомах Пеано; \(S(0)=1\).\\
-\(\sum_{k=1}^{n}a_k\)&сумма по ка от одного до эн&\(a_1+a_2+\ldots+a_n\).\\
-\(\prod_{k=1}^{n}a_k\)&произведение по ка&\(a_1a_2\cdots a_n\).\\
-\(n!\)&эн факториал&\(1\cdot2\cdots n\), отдельно \(0!=1\).\\
-\(P_n,A_n^k\)&перестановки; размещения&Порядок выбранных объектов важен.\\
-\(\binom nk,C_n^k\)&число сочетаний из эн по ка&Выбор \(k\) объектов из \(n\) без учёта порядка.\\
-\(a_n,d,q,S_n\)&энный член; разность; знаменатель; сумма&Основные обозначения для последовательностей и прогрессий.\\
-\(\lim_{n\to\infty}a_n=L\)&предел последовательности равен эль&Члены становятся сколь угодно близки к \(L\) при больших \(n\).\\
-\(f:X\to Y\)&эф из икс в игрек&Отображение с областью определения \(X\) и множеством назначения \(Y\).\\
-\(f(x),f\circ g\)&значение функции; композиция&\((f\circ g)(x)=f(g(x))\).\\
-\(f^{-1}\)&обратная функция&Обратное отображение; обычно это не \(1/f\).\\
-\(\exp x,e^x,\ln x\)&экспонента; е в степени икс; натуральный логарифм&\(\ln\) — логарифм по основанию \(e\).\\
-\(\log_a x\)&логарифм икс по основанию а&\(a>0,a\ne1,x>0\).\\
-\(\pi,\alpha\)&пи; альфа&\(\pi\) — отношение длины окружности к диаметру; \(\alpha\) часто обозначает угол.\\
-\(\sin,\cos,\tan\)&синус; косинус; тангенс&В русской литературе тангенс также обозначают \(\operatorname{tg}\).\\
-\(\arcsin\), \(\arccos\), \(\arctan\)&арксинус; арккосинус; арктангенс&Обратные функции на выбранных промежутках; \(\arctan\) также \(\operatorname{arctg}\).\\
-\(\sinh,\cosh\)&гиперболический синус; гиперболический косинус&Другие записи: \(\operatorname{sh},\operatorname{ch}\).\\
-\(\ast\)&звёздочка&Задача повышенной сложности.\\
-\(\square\)&конец доказательства&После доказательства; в заданиях пустой квадрат может обозначать неизвестную цифру.\\
+\begingroup\small\renewcommand{\arraystretch}{1.35}\setlength{\tabcolsep}{4pt}\arrayrulecolor{Teal}\setlength{\arrayrulewidth}{.35pt}
+\Needspace{7\baselineskip}\section*{Числа и числовые множества}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle 0\)&ноль&Нейтральный элемент сложения: \(a+0=a\).\\\hline
+\(\displaystyle 1\)&единица&Нейтральный элемент умножения: \(a\cdot1=a\).\\\hline
+\(\displaystyle \mathbb N\)&натуральные числа&В этой книге \(\{1,2,3,\ldots\}\).\\\hline
+\(\displaystyle \mathbb N_0\)&натуральные числа с нулём&\(\{0,1,2,3,\ldots\}\).\\\hline
+\(\displaystyle \mathbb Z\)&целые числа&\(\{\ldots,-2,-1,0,1,2,\ldots\}\).\\\hline
+\(\displaystyle \mathbb Q\)&рациональные числа&Числа \(\frac pq\), где \(p\in\mathbb Z\), \(q\in\mathbb Z\), \(q\ne0\).\\\hline
+\(\displaystyle \mathbb R\)&действительные числа&Числа числовой прямой, включая рациональные и иррациональные.\\\hline
+\(\displaystyle \mathbb R^2\)&эр в квадрате&Множество упорядоченных пар действительных чисел.\\\hline
+\(\displaystyle \mathbb R^3\)&эр в кубе&Множество упорядоченных троек действительных чисел.\\\hline
+\(\displaystyle \mathbb R^n\)&эр в степени эн&Множество упорядоченных наборов из \(n\) действительных координат.\\\hline
 \end{longtable}
-\normalsize
+\Needspace{7\baselineskip}\section*{Действия и сравнения чисел}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle +\)&плюс&Сложение: \(2+3=5\).\\\hline
+\(\displaystyle -\)&минус&Вычитание или противоположное число: \(5-2=3\), \(-a\).\\\hline
+\(\displaystyle \cdot\)&умножить&Умножение: \(ab=a\cdot b\).\\\hline
+\(\displaystyle :\)&разделить&Деление: \(6:3=2\); делитель ненулевой.\\\hline
+\(\displaystyle \frac ab\)&дробь а на б&Частное; знаменатель \(b\ne0\).\\\hline
+\(\displaystyle =\)&равно&Равенство двух выражений.\\\hline
+\(\displaystyle \ne\)&не равно&Выражения имеют разные значения.\\\hline
+\(\displaystyle <\)&меньше&Строгое сравнение.\\\hline
+\(\displaystyle >\)&больше&Строгое сравнение.\\\hline
+\(\displaystyle \le\)&меньше или равно&Нестрогое сравнение; равенство допускается.\\\hline
+\(\displaystyle \ge\)&больше или равно&Нестрогое сравнение; равенство допускается.\\\hline
+\(\displaystyle \approx\)&приблизительно равно&Например, \(\sqrt2\approx1{,}414\).\\\hline
+\(\displaystyle \pm\)&плюс или минус&\(x=\pm2\) означает \(x=-2\) или \(x=2\).\\\hline
+\(\displaystyle a^n\)&а в степени эн&Степень с натуральным показателем; \(a^0=1\) при \(a\ne0\).\\\hline
+\(\displaystyle a^{-n}\)&а в степени минус эн&При \(n\in\mathbb N\), \(a\ne0\): \(a^{-n}=\frac1{a^n}\).\\\hline
+\(\displaystyle \sqrt a\)&квадратный корень из а&Неотрицательное число с квадратом \(a\); требуется \(a\ge0\).\\\hline
+\(\displaystyle \sqrt[n]a\)&корень энной степени&Для чётного \(n\) берётся неотрицательный корень и требуется \(a\ge0\).\\\hline
+\(\displaystyle |a|\)&модуль а&Расстояние от \(a\) до нуля.\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Делимость и сравнения по модулю}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle a\mathrel{\vdots}b\)&а делится на б нацело&\(a=bk\) для целого \(k\); \(b\ne0\).\\\hline
+\(\displaystyle a\mid b\)&а делит б&\(b=ak\) для целого \(k\); порядок обратен записи с тремя точками.\\\hline
+\(\displaystyle a\nmid b\)&а не делит б&Число \(b\) не кратно \(a\).\\\hline
+\(\displaystyle \gcd(a,b)\)&наибольший общий делитель&НОД; английское greatest common divisor.\\\hline
+\(\displaystyle \operatorname{lcm}(a,b)\)&наименьшее общее кратное&НОК; английское least common multiple.\\\hline
+\(\displaystyle a\equiv b\pmod m\)&а сравнимо с б по модулю эм&\(m\mid(a-b)\), где \(m\) — положительное целое.\\\hline
+\(\displaystyle [a]_m\)&класс а по модулю эм&Все целые числа \(a+mk\), \(k\in\mathbb Z\).\\\hline
+\(\displaystyle \mathbb Z/m\mathbb Z\)&целые по модулю эм&Множество классов вычетов по модулю \(m\).\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Множества и пары}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle x\in A\)&икс принадлежит а&\(x\) — элемент множества \(A\).\\\hline
+\(\displaystyle x\notin A\)&икс не принадлежит а&\(x\) не является элементом \(A\).\\\hline
+\(\displaystyle \{\ldots\}\)&множество перечисленных элементов&Фигурные скобки: \(\{1,2,3\}\).\\\hline
+\(\displaystyle \varnothing\)&пустое множество&Множество без элементов.\\\hline
+\(\displaystyle U\)&универсальное множество&Заранее выбранное множество рассматриваемых объектов.\\\hline
+\(\displaystyle A\subseteq B\)&а является подмножеством б&Каждый элемент \(A\) принадлежит \(B\); равенство допускается.\\\hline
+\(\displaystyle A\subsetneq B\)&а — собственное подмножество б&\(A\subseteq B\), но \(A\ne B\).\\\hline
+\(\displaystyle A\cup B\)&объединение а и б&Элементы хотя бы одного из множеств.\\\hline
+\(\displaystyle A\cap B\)&пересечение а и б&Элементы, принадлежащие обоим множествам.\\\hline
+\(\displaystyle A\setminus B\)&разность а и б&Элементы \(A\), не принадлежащие \(B\).\\\hline
+\(\displaystyle A^c\)&дополнение а&\(U\setminus A\); зависит от выбранного универсума.\\\hline
+\(\displaystyle A\triangle B\)&симметрическая разность&Элементы ровно одного из двух множеств.\\\hline
+\(\displaystyle A\times B\)&декартово произведение&Все упорядоченные пары с первой координатой из \(A\), второй из \(B\).\\\hline
+\(\displaystyle (a,b)\)&упорядоченная пара&Порядок координат важен.\\\hline
+\(\displaystyle \mathcal P(A)\)&множество всех подмножеств а&Все множества \(B\), для которых \(B\subseteq A\).\\\hline
+\(\displaystyle 2^A\)&множество всех подмножеств а&Другое распространённое обозначение \(\mathcal P(A)\).\\\hline
+\(\displaystyle |A|\)&число элементов а&Для конечного множества; смысл отличается от модуля числа.\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Промежутки числовой прямой}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle (a;b)\)&открытый интервал&\(a<x<b\); концы исключены.\\\hline
+\(\displaystyle [a;b]\)&отрезок&\(a\le x\le b\); оба конца включены.\\\hline
+\(\displaystyle [a;b)\)&полуинтервал&\(a\le x<b\); левый конец включён, правый исключён.\\\hline
+\(\displaystyle (a;b]\)&полуинтервал&\(a<x\le b\); левый конец исключён, правый включён.\\\hline
+\(\displaystyle \infty\)&бесконечность&Не действительное число; у бесконечной границы промежутка ставят круглую скобку.\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Логика и доказательства}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle \forall\)&для любого&Квантор всеобщности.\\\hline
+\(\displaystyle \exists\)&существует&Квантор существования.\\\hline
+\(\displaystyle P\Rightarrow Q\)&из пэ следует ку&Если \(P\) истинно, то \(Q\) истинно.\\\hline
+\(\displaystyle P\Longleftrightarrow Q\)&пэ равносильно ку&Каждое утверждение следует из другого.\\\hline
+\(\displaystyle \neg P\)&не пэ&Отрицание утверждения \(P\).\\\hline
+\(\displaystyle P\land Q\)&пэ и ку&Оба утверждения истинны.\\\hline
+\(\displaystyle P\lor Q\)&пэ или ку&Хотя бы одно утверждение истинно.\\\hline
+\(\displaystyle \square\)&конец доказательства&В конце доказательства; в отдельных заданиях пустой квадрат может обозначать неизвестную цифру.\\\hline
+\(\displaystyle \ast\)&звёздочка&Задача повышенной сложности.\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Суммы, комбинаторика и последовательности}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle S(n)\)&следующее за эн&Операция следования в аксиомах Пеано; \(S(0)=1\).\\\hline
+\(\displaystyle \sum_{k=1}^{n}a_k\)&сумма по ка от одного до эн&\(a_1+\cdots+a_n\).\\\hline
+\(\displaystyle \prod_{k=1}^{n}a_k\)&произведение по ка&\(a_1\cdots a_n\).\\\hline
+\(\displaystyle n!\)&эн факториал&\(1\cdot2\cdots n\) при \(n\ge1\); отдельно \(0!=1\).\\\hline
+\(\displaystyle P_n\)&число перестановок&Перестановки \(n\) различных элементов: \(n!\).\\\hline
+\(\displaystyle A_n^k\)&число размещений&Выбор \(k\) из \(n\) различных объектов с учётом порядка.\\\hline
+\(\displaystyle \binom nk\)&число сочетаний из эн по ка&Выбор \(k\) из \(n\) без учёта порядка.\\\hline
+\(\displaystyle C_n^k\)&число сочетаний из эн по ка&Другая запись биномиального коэффициента.\\\hline
+\(\displaystyle a_n\)&энный член последовательности&Значение последовательности с номером \(n\).\\\hline
+\(\displaystyle d\)&разность прогрессии&В арифметической прогрессии \(a_{n+1}=a_n+d\).\\\hline
+\(\displaystyle q\)&знаменатель прогрессии&В геометрической прогрессии \(a_{n+1}=q a_n\).\\\hline
+\(\displaystyle S_n\)&энная частичная сумма&Сумма первых \(n\) членов последовательности.\\\hline
+\(\displaystyle \lim_{n\to\infty}a_n\)&предел последовательности&Число, к которому члены становятся сколь угодно близки при больших \(n\).\\\hline
+\(\displaystyle \sup A\)&точная верхняя грань а&Наименьшая из верхних границ множества \(A\), если она существует.\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Функции, экспонента и логарифмы}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle f:X\to Y\)&эф из икс в игрек&Отображение с областью определения \(X\) и множеством назначения \(Y\).\\\hline
+\(\displaystyle x\mapsto f(x)\)&икс переходит в эф от икс&Правило, сопоставляющее аргументу значение функции.\\\hline
+\(\displaystyle f(x)\)&эф от икс&Значение функции при аргументе \(x\).\\\hline
+\(\displaystyle f\circ g\)&композиция эф и жэ&\((f\circ g)(x)=f(g(x))\); сначала выполняется \(g\).\\\hline
+\(\displaystyle f^{-1}\)&обратная функция&Обратное отображение; обычно это не \(\frac1f\).\\\hline
+\(\displaystyle e\)&число е&Основание натурального логарифма; \(e=\lim_{n\to\infty}(1+\frac1n)^n\).\\\hline
+\(\displaystyle \exp x\)&экспонента от икс&Другое обозначение \(e^x\).\\\hline
+\(\displaystyle \ln x\)&натуральный логарифм&Логарифм по основанию \(e\); \(x>0\).\\\hline
+\(\displaystyle \log_a x\)&логарифм икс по основанию а&\(a>0\), \(a\ne1\), \(x>0\).\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Тригонометрические и гиперболические функции}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle \pi\)&число пи&Отношение длины окружности к её диаметру.\\\hline
+\(\displaystyle \alpha\)&альфа&Греческая буква, часто обозначающая угол.\\\hline
+\(\displaystyle \sin x\)&синус икс&Вертикальная координата на единичной окружности.\\\hline
+\(\displaystyle \cos x\)&косинус икс&Горизонтальная координата на единичной окружности.\\\hline
+\(\displaystyle \tan x\)&тангенс икс&\(\frac{\sin x}{\cos x}\) при \(\cos x\ne0\); также пишут tg.\\\hline
+\(\displaystyle \arcsin x\)&арксинус икс&Обратная к синусу на \([-\frac\pi2;\frac\pi2]\).\\\hline
+\(\displaystyle \arccos x\)&арккосинус икс&Обратная к косинусу на \([0;\pi]\).\\\hline
+\(\displaystyle \arctan x\)&арктангенс икс&Обратная к тангенсу на \((-\frac\pi2;\frac\pi2)\); также arctg.\\\hline
+\(\displaystyle \sinh x\)&гиперболический синус&\(\frac{e^x-e^{-x}}2\); также sh.\\\hline
+\(\displaystyle \cosh x\)&гиперболический косинус&\(\frac{e^x+e^{-x}}2\); также ch.\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Векторы и матрицы}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle \vec v\)&вектор вэ&Направленная величина; в координатах задаётся парой или тройкой чисел.\\\hline
+\(\displaystyle \lVert v\rVert\)&длина вектора вэ&Евклидова длина, например \(\sqrt{x^2+y^2}\) для \(v=(x,y)\).\\\hline
+\(\displaystyle a_{ij}\)&элемент а с индексами и, жэ&Элемент матрицы в строке \(i\), столбце \(j\).\\\hline
+\(\displaystyle AB\)&произведение матриц а и б&Определено, если число столбцов \(A\) равно числу строк \(B\).\\\hline
+\(\displaystyle I_2\)&единичная матрица порядка два&\(\begin{pmatrix}1&0\\0&1\end{pmatrix}\).\\\hline
+\(\displaystyle \det A\)&определитель матрицы а&Для \(A=\begin{pmatrix}a&b\\c&d\end{pmatrix}\) равен \(ad-bc\).\\\hline
+\(\displaystyle A^{-1}\)&обратная матрица&\(AA^{-1}=A^{-1}A=I\); существует не у всякой квадратной матрицы.\\\hline
+\(\displaystyle \lambda\)&лямбда&Греческая буква; часто обозначает скаляр или свободный параметр.\\\hline
+\(\displaystyle \symbf v\)&вектор вэ&Жирная буква также обозначает вектор.\\\hline
+\(\displaystyle \symbf 0\)&нулевой вектор&Вектор, все координаты которого равны нулю.\\\hline
+\(\displaystyle \symbf u\cdot\symbf v\)&скалярное произведение векторов&Для \(\symbf u=(u_1,u_2)\), \(\symbf v=(v_1,v_2)\): число \(u_1v_1+u_2v_2\).\\\hline
+\(\displaystyle \operatorname{rank} A\)&ранг матрицы а&Число ведущих элементов в ступенчатом виде матрицы.\\\hline
+\(\displaystyle \Delta\)&дельта&В главе о матрицах: обозначение определителя; например, \(\Delta=ad-bc\) для матрицы два на два.\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Предел функции и производная}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle \varepsilon\)&эпсилон&Положительная допустимая погрешность в определении предела.\\\hline
+\(\displaystyle \delta\)&дельта&Положительный размер окрестности аргумента.\\\hline
+\(\displaystyle |x-a|<\delta\)&икс находится в дельта-окрестности а&Расстояние до \(a\) меньше \(\delta\).\\\hline
+\(\displaystyle x\to a\)&икс стремится к а&Аргумент приближается к точке \(a\).\\\hline
+\(\displaystyle x\to a-\)&икс стремится к а слева&Рассматриваются значения \(x<a\).\\\hline
+\(\displaystyle x\to a+\)&икс стремится к а справа&Рассматриваются значения \(x>a\).\\\hline
+\(\displaystyle \lim_{x\to a}f(x)\)&предел эф от икс при икс к а&Предел в точке; значение \(f(a)\) может отсутствовать или отличаться от предела.\\\hline
+\(\displaystyle h\)&приращение аргумента&Небольшое изменение: вместо \(a\) берут \(a+h\).\\\hline
+\(\displaystyle f'(a)\)&производная эф в точке а&Предел \(\lim_{h\to0}\frac{f(a+h)-f(a)}h\), если он существует и конечен.\\\hline
+\(\displaystyle y-f(a)=f'(a)(x-a)\)&уравнение касательной&Касательная к графику дифференцируемой функции в точке с абсциссой \(a\).\\\hline
+\end{longtable}
+\Needspace{7\baselineskip}\section*{Алгебраические структуры}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\(\displaystyle a*b\)&а звёздочка б&Результат заданной бинарной операции; это не обязательно обычное умножение.\\\hline
+\(\displaystyle e_G\)&нейтральный элемент группы жэ&Элемент, не меняющий другие элементы при операции.\\\hline
+\(\displaystyle a^{-1}\)&обратный к а&В группе: \(a*a^{-1}=a^{-1}*a=e\).\\\hline
+\(\displaystyle \operatorname{id}_X\)&тождественное отображение икс&Оставляет каждый элемент \(X\) на месте.\\\hline
+\(\displaystyle \operatorname{Sym}(X)\)&группа перестановок икс&Все биекции множества \(X\) в себя с операцией композиции.\\\hline
+\(\displaystyle S_n\)&симметрическая группа степени эн&Все перестановки \(\{1,\ldots,n\}\); число элементов этой группы равно \(n!\).\\\hline
+\(\displaystyle \mathrm M_2(\mathbb R)\)&матрицы два на два над эр&Кольцо действительных матриц размера \(2\times2\).\\\hline
+\(\displaystyle \mathbb F_p\)&поле из пэ элементов&При простом \(p\): поле вычетов \(\mathbb Z/p\mathbb Z\).\\\hline
+\(\displaystyle \varphi\)&фи&Греческая буква; часто обозначает отображение, например гомоморфизм.\\\hline
+\end{longtable}
+\endgroup

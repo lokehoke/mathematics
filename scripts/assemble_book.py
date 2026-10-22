@@ -80,10 +80,25 @@ for c in ordered:
  c['theory']=re.sub(r'\\\((.*?)\\\)',lambda m:('\n'+r'\['+m[1]+r'\]'+'\n') if len(m[1])>100 and (r'\sum' in m[1] or r'\prod' in m[1]) else m[0],c['theory'],flags=re.S)
 # All exercise instructions are embedded in their statements, with no repeated hints.
 assert len(ordered)==16
+assert sum(len(c['tasks']) for c in ordered)==385
+# Append the approved university introductions after remapping legacy chapter
+# references. Their chapter numbers already refer to the current edition.
+extension_paths=['new-chapters-17-18.json','new-chapters-19-20.json','new-chapter-21.json','new-chapter-22.json']
+missing=[name for name in extension_paths if not (TMP/name).exists()]
+assert not missing,'Missing approved chapters: '+', '.join(missing)
+for name in extension_paths:
+ path=TMP/name
+ if path.exists():
+  content=json.loads(path.read_text())
+  for c in content if isinstance(content,list) else [content]:
+   c['old']=None
+   c['theory']=c['theory'].replace(r'\subsubsection*',r'\section*').replace(r'\boldsymbol',r'\symbf')
+   ordered.append(c)
 count=sum(len(c['tasks']) for c in ordered)
-assert count==385,count
 for c in ordered:
- for task in c['tasks']:assert task.get('q') and task.get('a')
+ for task in c['tasks']:
+  assert task.get('q') and task.get('a')
+  task['q']=re.sub(r'^\s*Из\s+жизни[.:]\s*','',task['q'],flags=re.I)
 (BOOK/'book-data.json').write_text(json.dumps(ordered,ensure_ascii=False,indent=2)+'\n')
 # Artwork wraps real paragraphs inside a short unbreakable block. This avoids
 # wrapfig's documented incompatibility with list environments and keeps a cat
@@ -154,7 +169,7 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \usepackage{amsmath,amssymb,amsthm,unicode-math}
 \setmathfont[Scale=1.05]{latinmodern-math.otf}
 \usepackage[left=24mm,right=24mm,top=24mm,bottom=24mm,headheight=16pt]{geometry}
-\usepackage{enumitem,needspace,microtype,graphicx,longtable,wrapfig}
+\usepackage{enumitem,needspace,microtype,graphicx,longtable,wrapfig,array}
 \usepackage[table]{xcolor}
 \usepackage[normalem]{ulem}
 \usepackage{titlesec,fancyhdr,tikz}
@@ -193,30 +208,19 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \begin{document}
 \pagecolor{Paper}\color{Ink}
 \hypersetup{pageanchor=false}
-\begin{titlepage}\thispagestyle{empty}
+\begin{titlepage}\thispagestyle{empty}\thispdfpagelabel{Обложка}
 \begin{tikzpicture}[remember picture,overlay]
-\node[inner sep=0] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{images/cover-cats.png}};
+\node[inner sep=0] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{images/cover-two-cats.png}};
 \node[anchor=north,text width=.86\paperwidth,align=center,text=Navy] at ([yshift=-23mm]current page.north){\fontsize{29}{36}\selectfont\bfseries Алгебра перед\\математическим\\анализом\\[7mm]{\fontsize{25}{30}\selectfont для Насти}};
-\node[anchor=north,text width=.8\paperwidth,align=center,text=Navy] at ([yshift=-93mm]current page.north){\large От аксиом Пеано до функций и доказательств};
+\node[anchor=north,text width=.8\paperwidth,align=center,text=Navy] at ([yshift=-93mm]current page.north){\large От аксиом Пеано до производных и полей};
 \end{tikzpicture}\null\end{titlepage}
 
-\frontmatter
+\pagenumbering{arabic}
 \hypersetup{pageanchor=true}
-\markright{}\chapter*{Как читать эту книгу}
-\addcontentsline{toc}{chapter}{Как читать эту книгу}
-Эта книга начинается с устройства натуральных чисел и постепенно переходит к алгебре, комбинаторике, последовательностям и функциям. Здесь 16 глав и 385 задач с ответами. Определения сопровождаются английскими терминами, теоремы — доказательствами. Звёздочка \starmark{} отмечает повышенную сложность.
-
-Сначала прочитай определения и примеры, затем попробуй решить задачи самостоятельно. Дроби сокращай до несократимого вида; в уравнениях находи все допустимые корни. В заданиях на доказательство нескольких численных проверок недостаточно. Ответы в конце помогут проверить вычисления и ход рассуждения.
-
-Изображения в теории показывают точные графики; художественные иллюстрации не заменяют математические условия. В рисунках к задачам длины и масштабы задаются подписями.
+\markright{Содержание}
 \begingroup\small\linespread{1}\selectfont\setlength{\parskip}{0pt}\tableofcontents\endgroup
 \markright{Обозначения}\input{symbols.tex}
-\mainmatter
 '''
-intro_entry=next((v for v in flow if v['kind']=='intro'),None)
-if intro_entry:
- a=header.index('Эта книга начинается');b=header.index(r'\begingroup\small',a)
- header=header[:a]+catblock(header[a:b].strip(),intro_entry)+header[b:]
 (BOOK/'main.tex').write_text(header)
 main=[]
 for i,c in enumerate(ordered,1):
@@ -227,14 +231,16 @@ for i,c in enumerate(ordered,1):
   atlas_intro=r'График \(\sinh x\)'+atlas_intro
  theory=theory_cats(theory,i)
  out=[r'\chapter{'+c['title']+'}'+r'\markright{Глава '+str(i)+'}',theory]
- atlas={7:('atlas-roots.pdf','Корни нечётной и чётной степени'),13:('atlas-algebra.pdf','Базовые алгебраические функции'),14:('atlas-exponential.pdf','Показательные, логарифмические и гиперболические функции'),15:('atlas-trigonometry.pdf','Тригонометрические и обратные функции')}
+ atlas={7:('atlas-roots.pdf','Корни нечётной и чётной степени'),13:('atlas-algebra.pdf','Базовые алгебраические функции'),14:('atlas-exponential.pdf','Показательные, логарифмические и гиперболические функции'),15:('atlas-trigonometry.pdf','Тригонометрические и обратные функции'),18:('atlas-linear.pdf','Сумма векторов и образ единичного квадрата'),19:('atlas-limits.pdf','Пределы, значение в точке и непрерывность'),20:('atlas-derivative.pdf','Производная как предел наклонов и линейное приближение')}
  if i in atlas:
   path,cap=atlas[i]
-  if i==7:out.append(r'\Needspace{.4\textheight}\section*{Графики}')
-  else:out.append(r'\clearpage\section*{Графики}')
+  if i not in (7,13,18,20):out.append(r'\clearpage')
+  # Keep the heading and caption with their atlas, including when the whole
+  # block moves to the next page after a long proof.
+  out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Графики}')
   if atlas_intro:out.append(atlas_intro)
-  h='.65' if atlas_intro else '.79'
-  out.append(r'\begin{center}\includegraphics[width=\textwidth,height='+h+r'\textheight,keepaspectratio]{images/'+path+'}'+r'\par\small '+cap+r'\end{center}')
+  h='.65' if atlas_intro else ('.70' if i==13 else '.79')
+  out.append(r'\begin{center}\includegraphics[width=\textwidth,height='+h+r'\textheight,keepaspectratio]{images/'+path+'}'+r'\par\small '+cap+r'\end{center}\end{minipage}\par')
  out += [r'\Needspace{7\baselineskip}\section*{Задачи}']
  out += task_section(i,c['tasks'])
  path=f'chapters/chapter-{i:02d}.tex';(BOOK/path).write_text('\n'.join(out)+'\n');main.append(r'\input{'+path+'}')

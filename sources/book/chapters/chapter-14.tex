@@ -52,10 +52,11 @@
 Вычитаем квадраты по определениям: \(\cosh^2x-\sinh^2x=\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}=e^xe^{-x}=1\). При замене \(x\) на \(-x\) два слагаемых в числителях меняются местами: разность меняет знак, а сумма сохраняется. Это доказывает обе формулы чётности.
 \end{proof}
 
-\clearpage\section*{Графики}
+\clearpage
+\par\noindent\begin{minipage}{\linewidth}\section*{Графики}
 График \(\sinh x\) нечётен, строго возрастает и проходит через \((0;0)\). Возрастание видно без производных: при \(y>x\) одновременно \(e^y>e^x\) и \(-e^{-y}>-e^{-x}\). График \(\cosh x\) чётен и проходит через \((0;1)\); его наименьшее значение равно \(1\). Для \(0\le x<y\) равенство \(\cosh y-\cosh x=2\sinh\frac{y+x}{2}\sinh\frac{y-x}{2}>0\), получаемое раскрытием определений, показывает возрастание на \([0;+\infty)\); из чётности следует убывание на \((-\infty;0]\). Таким образом, график имеет плавную форму цепи с минимумом в \((0;1)\), но не совпадает с параболой.
 
-\begin{center}\includegraphics[width=\textwidth,height=.65\textheight,keepaspectratio]{images/atlas-exponential.pdf}\par\small Показательные, логарифмические и гиперболические функции\end{center}
+\begin{center}\includegraphics[width=\textwidth,height=.65\textheight,keepaspectratio]{images/atlas-exponential.pdf}\par\small Показательные, логарифмические и гиперболические функции\end{center}\end{minipage}\par
 \Needspace{7\baselineskip}\section*{Задачи}
 \begingroup\setlength{\parskip}{3pt}
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.1.} Построй \(y = \dfrac{1}{x}\). Укажи область определения и область значений.\par\end{minipage}\par
@@ -85,9 +86,9 @@
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.13.} Из жизни. В учебной модели стоимость оборудования каждый год уменьшается вдвое: \(S (t) = 80000 \cdot  (\dfrac{1}{2})^{t}\) рублей. Найди стоимость через \(3\) года.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.14.} Из жизни. Модель роста культуры: \(N (t) = 500 \cdot  2^{t}\), где \(t\) — число часов. Через сколько часов станет \(8000\) клеток?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.15.} Из жизни. Для двоичного поиска в массиве из \(2^{k}\) элементов используют модель из \(k\) шагов. Сколько шагов даёт эта модель для \(1024\) элементов?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.13.} В учебной модели стоимость оборудования каждый год уменьшается вдвое: \(S (t) = 80000 \cdot  (\dfrac{1}{2})^{t}\) рублей. Найди стоимость через \(3\) года.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.14.} Модель роста культуры: \(N (t) = 500 \cdot  2^{t}\), где \(t\) — число часов. Через сколько часов станет \(8000\) клеток?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.15.} Для двоичного поиска в массиве из \(2^{k}\) элементов используют модель из \(k\) шагов. Сколько шагов даёт эта модель для \(1024\) элементов?\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.16.}\starmark{} Реши \(4^{x} - 5 \cdot  2^{x} + 4 = 0\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.17.}\starmark{} Реши \(\log _{2} (x - 1) + \log _{2} (x + 1) = 3\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{14.18.}\starmark{} Вклад в учебной модели ежегодно увеличивается на \(10 \%\) без пополнений и снятий. Найди наименьшее целое число лет, через которое \(10000\) рублей станут не меньше \(13310\) рублей.\par\end{minipage}\par

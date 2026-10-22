@@ -1,9 +1,11 @@
 [
   {
-    "kind": "intro",
-    "chapter": 0,
+    "kind": "prose",
+    "chapter": 18,
     "art": 1,
-    "side": "r"
+    "side": "r",
+    "start": "Пара чисел может описывать",
+    "end": "\\begin{definition}"
   },
   {
     "kind": "prose",
@@ -203,7 +205,8 @@
     "chapter": 13,
     "index": 1,
     "art": 25,
-    "side": "r"
+    "side": "r",
+    "include_after": true
   },
   {
     "kind": "tasks",
@@ -322,6 +325,235 @@
     "start": 19,
     "end": 26,
     "art": 36,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 17,
+    "art": 43,
+    "start": "Работа с оценками начинается",
+    "end": "\\section*{Знаки",
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 17,
+    "art": 44,
+    "start": "Выбор инварианта начинается",
+    "end": "\\begin{theorem}",
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 17,
+    "art": 67,
+    "index": 3,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 17,
+    "art": 45,
+    "start": 8,
+    "end": 14,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 17,
+    "art": 46,
+    "start": 20,
+    "end": 25,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 18,
+    "art": 47,
+    "start": "Матричная запись помогает",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 18,
+    "art": 48,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 18,
+    "art": 68,
+    "index": 5,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 18,
+    "art": 49,
+    "start": 17,
+    "end": 23,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 18,
+    "art": 50,
+    "start": 20,
+    "end": 25,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 19,
+    "art": 51,
+    "start": "Предел описывает не отдельное измерение",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 19,
+    "art": 52,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 19,
+    "art": 69,
+    "start": "Докажем, например, что",
+    "end": "\\begin{theorem}",
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 19,
+    "art": 53,
+    "start": 12,
+    "end": 18,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 19,
+    "art": 54,
+    "start": 18,
+    "end": 23,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 20,
+    "art": 55,
+    "start": "Если известны два показания",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 20,
+    "art": 56,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 20,
+    "art": 70,
+    "index": 6,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 20,
+    "art": 57,
+    "start": 12,
+    "end": 18,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 20,
+    "art": 58,
+    "start": 18,
+    "end": 23,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 21,
+    "art": 59,
+    "index": 1,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 21,
+    "art": 60,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 21,
+    "art": 71,
+    "index": 6,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 21,
+    "art": 61,
+    "start": 9,
+    "end": 15,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 21,
+    "art": 62,
+    "start": 21,
+    "end": 26,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 22,
+    "art": 63,
+    "start": "В главе 1 мы перечислили",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 22,
+    "art": 64,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 22,
+    "art": 72,
+    "index": 6,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 22,
+    "art": 65,
+    "start": 9,
+    "end": 15,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 22,
+    "art": 66,
+    "start": 15,
+    "end": 21,
     "side": "l"
   }
 ]

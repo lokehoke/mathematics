@@ -10,3 +10,14 @@ __pycache__/
 .venv/
 .tmp/
 sources/book/main.pdf
+/tmp/
+/research/international_cache/
+
+# Preserve downloaded originals locally; version manifests and resumable queues.
+/olympiads/**
+!/olympiads/**/
+!/olympiads/**/manifest.json
+!/olympiads/**/manifest.jsonl
+!/olympiads/**/queue.jsonl
+!/olympiads/**/pause-state.json
+!/olympiads/**/README.md

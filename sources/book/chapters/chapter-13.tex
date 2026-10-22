@@ -34,19 +34,19 @@
 \includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-25.png}
 \end{wrapfigure}
 \textit{Доказательство.} Если \(f\) — биекция, сюръективность обеспечивает существование прообраза каждого \(y\), а инъективность — его единственность. Выбирая этот прообраз, получаем \(g=f^{-1}\) и оба равенства. Обратно, пусть оба равенства выполнены. Из \(f(x_1)=f(x_2)\) после применения \(g\) следует \(x_1=x_2\), поэтому \(f\) инъективно. Для каждого \(y\in Y\) равенство \(f(g(y))=y\) даёт прообраз, поэтому \(f\) сюръективно.\hfill\(\square\)
+
+Важен выбор множества назначения: \(x\mapsto x^2\) из \(\mathbb R\) в \(\mathbb R\) не является сюръекцией, а из \(\mathbb R\) в \([0;+\infty)\) является. Оба отображения неинъективны. Ограничив аргументы множеством \([0;+\infty)\), получаем биекцию \(x\mapsto x^2\) на \([0;+\infty)\), обратную функции \(y\mapsto\sqrt y\).
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-
-Важен выбор множества назначения: \(x\mapsto x^2\) из \(\mathbb R\) в \(\mathbb R\) не является сюръекцией, а из \(\mathbb R\) в \([0;+\infty)\) является. Оба отображения неинъективны. Ограничив аргументы множеством \([0;+\infty)\), получаем биекцию \(x\mapsto x^2\) на \([0;+\infty)\), обратную функции \(y\mapsto\sqrt y\).
 \begin{example}
 Функция \(f(x)=3x+2\) задаёт биекцию \(\mathbb R\to\mathbb R\). Из \(y=3x+2\) находим \(x=\frac{y-2}{3}\), поэтому \(f^{-1}(y)=\frac{y-2}{3}\). Проверка: \(f^{-1}(f(x))=x\) и \(f(f^{-1}(y))=y\). Графики обратных числовых функций симметричны относительно прямой \(y=x\): точке \((x;y)\) первого графика соответствует точка \((y;x)\) второго.
 \end{example}
 \begin{definition}\term{Композиция отображений} (composition) \(g:X\to Y\) и \(f:Y\to Z\) — отображение \(f\circ g:X\to Z\), заданное правилом \((f\circ g)(x)=f(g(x))\). Сначала применяют \(g\), затем \(f\).\end{definition}
 Если формулы заданы на своих естественных областях, область определения \(f\circ g\) состоит из тех \(x\) из области определения \(g\), для которых \(g(x)\) входит в область определения \(f\). Например, при \(f(u)=\sqrt u\), \(g(x)=2x-1\) композиция \(f(g(x))=\sqrt{2x-1}\) определена при \(x\ge\frac12\), а \(g(f(x))=2\sqrt x-1\) — при \(x\ge0\).
 
-\clearpage\section*{Графики}
-\begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-algebra.pdf}\par\small Базовые алгебраические функции\end{center}
+\par\noindent\begin{minipage}{\linewidth}\section*{Графики}
+\begin{center}\includegraphics[width=\textwidth,height=.70\textheight,keepaspectratio]{images/atlas-algebra.pdf}\par\small Базовые алгебраические функции\end{center}\end{minipage}\par
 \Needspace{7\baselineskip}\section*{Задачи}
 \begingroup\setlength{\parskip}{3pt}
 \noindent\begin{minipage}[t]{\linewidth}\textbf{13.1.} Для \(f (x) = 2 x - 3\) найди \(f (- 2),\allowbreak f (0),\allowbreak f (3)\).\par\end{minipage}\par
@@ -76,9 +76,9 @@
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
 \noindent\begin{minipage}[t]{\linewidth}\textbf{13.12.} Найди точки пересечения \(y = x^{2}\) и \(y = x + 2\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{13.13.} Из жизни. Стоимость аренды велосипеда описана формулой \(C (t) = 200 + 150 t\) рублей, где \(t \ge  0\) — время в часах. Найди стоимость для \(0,\allowbreak 2\) и \(4\) часов и построй график.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{13.14.} Из жизни. В баке \(60\) л воды. Её расходуют со скоростью \(5\) л в минуту, не доливая. Запиши объём \(V (t)\), укажи допустимое время и момент опустошения.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{13.15.} Из жизни. Два тарифа доставки: \(A (x) = 100 + 20 x\) и \(B (x) = 40 x\) рублей, где \(x \ge  0\) — расстояние в километрах. При каком расстоянии цены равны? Какой тариф дешевле при \(2\) км и при \(8\) км?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{13.13.} Стоимость аренды велосипеда описана формулой \(C (t) = 200 + 150 t\) рублей, где \(t \ge  0\) — время в часах. Найди стоимость для \(0,\allowbreak 2\) и \(4\) часов и построй график.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{13.14.} В баке \(60\) л воды. Её расходуют со скоростью \(5\) л в минуту, не доливая. Запиши объём \(V (t)\), укажи допустимое время и момент опустошения.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{13.15.} Два тарифа доставки: \(A (x) = 100 + 20 x\) и \(B (x) = 40 x\) рублей, где \(x \ge  0\) — расстояние в километрах. При каком расстоянии цены равны? Какой тариф дешевле при \(2\) км и при \(8\) км?\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{13.16.}\starmark{} Найди область определения \(f (x) = \dfrac{\sqrt{x - 1}}{x - 3}\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{13.17.}\starmark{} Построй \(y = | x - 2 | + 1\) и найди все \(x\), для которых \(y \le  4\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{13.18.}\starmark{} Из куска проволоки длиной \(20\) м делают прямоугольник. Вырази площадь через сторону \(x\) и найди наибольшую площадь.\par\end{minipage}\par
