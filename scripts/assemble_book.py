@@ -99,11 +99,13 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \usepackage{titlesec,fancyhdr,tikz}
 \usepackage[breakable,skins]{tcolorbox}
 \usepackage[unicode,hidelinks]{hyperref}
-\definecolor{Navy}{HTML}{183F58}
-\definecolor{Teal}{HTML}{168C90}
-\definecolor{Coral}{HTML}{C35E43}
-\definecolor{Tint}{HTML}{EDF6F5}
-\definecolor{Warm}{HTML}{FFF4E7}
+\definecolor{Navy}{HTML}{233F4A}
+\definecolor{Teal}{HTML}{5A7B77}
+\definecolor{Coral}{HTML}{AE7046}
+\definecolor{Tint}{HTML}{F1F2E7}
+\definecolor{Warm}{HTML}{FBF0DB}
+\definecolor{Paper}{HTML}{FFFCF6}
+\definecolor{Ink}{HTML}{292B29}
 \titleformat{\chapter}[display]{\color{Navy}\bfseries}{\large ГЛАВА \thechapter}{10pt}{\Huge}
 \titlespacing*{\chapter}{0pt}{0pt}{24pt}
 \titleformat{\section}{\Large\bfseries\color{Navy}}{}{0pt}{}
@@ -124,7 +126,24 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \newcommand{\starmark}{\ensuremath{\textcolor{Coral}{{}^{\ast}}}}
 \pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для Насти}\fancyhead[R]{\small\color{Teal}\thechapter}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{.3pt}
+
+\newif\ifcatdecor\catdecorfalse
+\AddToHook{shipout/foreground}{%
+ \ifcatdecor\ifodd\value{page}%
+ \begin{tikzpicture}[remember picture,overlay]
+ \pgfmathtruncatemacro{\catindex}{mod(\value{page},3)}
+ \ifcase\catindex
+ \node[anchor=south east,inner sep=0] at ([xshift=-4mm,yshift=4mm]current page.south east){\includegraphics[width=26mm,height=18mm,keepaspectratio]{images/margin-gray.png}};
+ \or
+ \node[anchor=south west,inner sep=0] at ([xshift=4mm,yshift=4mm]current page.south west){\includegraphics[width=28mm,height=18mm,keepaspectratio]{images/margin-ginger.png}};
+ \or
+ \node[anchor=east,inner sep=0] at ([xshift=-2mm]current page.east){\includegraphics[width=19mm,height=23mm,keepaspectratio]{images/margin-white.png}};
+ \fi
+ \end{tikzpicture}%
+ \fi\fi}
+
 \begin{document}
+\pagecolor{Paper}\color{Ink}
 \hypersetup{pageanchor=false}
 \begin{titlepage}\thispagestyle{empty}
 \begin{tikzpicture}[remember picture,overlay]
@@ -132,6 +151,7 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \node[anchor=north,text width=.86\paperwidth,align=center,text=Navy] at ([yshift=-23mm]current page.north){\fontsize{29}{36}\selectfont\bfseries Алгебра перед\\математическим\\анализом\\[7mm]{\fontsize{25}{30}\selectfont для Насти}};
 \node[anchor=north,text width=.8\paperwidth,align=center,text=Navy] at ([yshift=-93mm]current page.north){\large От аксиом Пеано до функций и доказательств};
 \end{tikzpicture}\null\end{titlepage}
+\catdecortrue
 \frontmatter
 \hypersetup{pageanchor=true}
 \chapter*{Как читать эту книгу}

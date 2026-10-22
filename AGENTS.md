@@ -13,7 +13,7 @@ This repository contains a Russian mathematics textbook and an archive of public
 ## Book
 
 Keep the agreed title: «Алгебра перед математическим анализом для Насти».
-Use proper LaTeX mathematics, term-only underlining, English equivalents for definitions, numbered theorems and readable color illustrations. Preserve existing exercises when adding material. Include answers and proofs for theoretical exercises. Build from `sources/book/main.tex`; put the deliverable in `rendered/`. Inspect rendered pages after layout changes. Do not run the obsolete plain-text-to-LaTeX converter from earlier drafts.
+Use proper LaTeX mathematics, term-only underlining, English equivalents for definitions, numbered theorems and readable color illustrations. Match the cover palette (cream paper, navy, muted teal, ochre). Keep watercolor cats as margin/corner ornaments every other page; do not insert them between text lines or overlap the text block or page numbers. Preserve existing exercises when adding material. Include answers and proofs for theoretical exercises. Build from `sources/book/main.tex`; put the deliverable in `rendered/`. Inspect rendered pages after layout changes. Do not run the obsolete plain-text-to-LaTeX converter from earlier drafts.
 
 ## Olympiad archive
 

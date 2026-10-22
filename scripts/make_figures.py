@@ -5,8 +5,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle,Circle,Arc
 ROOT=Path(__file__).resolve().parents[1]/'sources/book/images';ROOT.mkdir(exist_ok=True)
-plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.titlesize':13,'axes.spines.top':False,'axes.spines.right':False,'savefig.bbox':'tight','figure.facecolor':'white'})
-NAVY='#183f58';TEAL='#168c90';CORAL='#d46a4c';GOLD='#d9a238'
+plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.titlesize':13,'axes.spines.top':False,'axes.spines.right':False,'savefig.bbox':'tight','figure.facecolor':'#fffcf6','axes.facecolor':'#fffcf6'})
+NAVY='#233f4a';TEAL='#5a7b77';CORAL='#ae7046';GOLD='#c39b55'
 def axes(ax,title,xlim,ylim):
  ax.set_title(title,color=NAVY,pad=12);ax.set_xlim(xlim);ax.set_ylim(ylim)
  ax.axhline(0,color='#70818c',lw=.8);ax.axvline(0,color='#70818c',lw=.8)
