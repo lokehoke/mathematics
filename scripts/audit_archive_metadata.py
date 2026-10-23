@@ -41,6 +41,11 @@ def main():
    if joined or len(headings)>=2:
     if r.get('document_type') not in ('solutions','tasks_and_solutions'):
      edits['document_type']='tasks_and_solutions'
+   # Generic score rubrics and diploma thresholds are not worked solutions.
+   if re.search(r'Критерии\s+определения\s+победителей',text[:400],re.I):
+    edits['document_type']='administrative';edits['document_role']='administrative'
+   elif cid=='spbu' and re.search(r'критери',text[:300],re.I) and re.search(r'общую.*схему оценивания|по следующим принципам|различные темы в рамках программ',text,re.I|re.S):
+    if not joined and len(headings)<2:edits['document_type']='marking_scheme'
    for match in re.finditer(r'\b((?:19|20)\d{2})\s*[-/–—]\s*(\d{4}|\d{2})(?!\d)',text[:650]):
     first=int(match[1]);second=int(match[2]);second=first//100*100+second if second<100 else second
     context=text[max(0,match.start()-180):match.end()+100]

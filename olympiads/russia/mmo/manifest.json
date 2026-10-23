@@ -132,10 +132,10 @@
       "contest": "Московская математическая олимпиада",
       "subject": "mathematics",
       "source_page": "https://mmo.mccme.ru/books/index.htm",
-      "year": "1935/1957",
+      "year": "1935-1957",
       "stage": null,
       "classes": null,
-      "document_type": "mathematics_material",
+      "document_type": "tasks_and_solutions",
       "label": "PDF, 1.7 M",
       "heading": "лОЙЗЙ УЕТЙЙ «нПУЛПЧУЛБС НБФЕНБФЙЮЕУЛБС ПМЙНРЙБДБ»",
       "status": "downloaded",
@@ -150,17 +150,40 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "covers_years": [
+        1935,
+        1936,
+        1937,
+        1938,
+        1939,
+        1940,
+        1941,
+        1945,
+        1946,
+        1947,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957
+      ],
+      "coverage_evidence": "PDF title and publisher abstract on page 2; official archive war-year exclusions."
     },
     {
       "url": "https://mmo.mccme.ru/books/mmo-93-05.pdf",
       "contest": "Московская математическая олимпиада",
       "subject": "mathematics",
       "source_page": "https://mmo.mccme.ru/books/index.htm",
-      "year": "2006",
+      "year": "1993-2005",
       "stage": null,
       "classes": null,
-      "document_type": "mathematics_material",
+      "document_type": "tasks_and_solutions",
       "label": "PDF, 1.9 M",
       "heading": "лОЙЗЙ УЕТЙЙ «нПУЛПЧУЛБС НБФЕНБФЙЮЕУЛБС ПМЙНРЙБДБ»",
       "status": "downloaded",
@@ -175,7 +198,23 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "covers_years": [
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005
+      ],
+      "coverage_evidence": "PDF title and publisher abstract on page 2; 2006 is publication year, not contest year."
     },
     {
       "url": "https://mmo.mccme.ru/prasolov/mo/c-print.ps",
@@ -185,7 +224,7 @@
       "year": "1935/1989",
       "stage": null,
       "classes": null,
-      "document_type": "mathematics_material",
+      "document_type": "tasks",
       "label": "c-print.ps",
       "heading": "нПУЛПЧУЛБС НБФЕНБФЙЮЕУЛБС ПМЙНРЙБДБ 1935–1989",
       "status": "downloaded",
@@ -200,7 +239,62 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "covers_years": [
+        1935,
+        1936,
+        1937,
+        1938,
+        1939,
+        1940,
+        1941,
+        1945,
+        1946,
+        1947,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957,
+        1958,
+        1959,
+        1960,
+        1961,
+        1962,
+        1963,
+        1964,
+        1965,
+        1966,
+        1967,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989
+      ],
+      "coverage_evidence": "https://mmo.mccme.ru/prasolov/index.htm; editions 1935–1941 and 1945–1989"
     },
     {
       "url": "https://mmo.mccme.ru/prasolov/mo/c-print.ps.zip",
@@ -210,7 +304,7 @@
       "year": "1935/1989",
       "stage": null,
       "classes": null,
-      "document_type": "mathematics_material",
+      "document_type": "tasks",
       "label": "c-print.ps.zip",
       "heading": "нПУЛПЧУЛБС НБФЕНБФЙЮЕУЛБС ПМЙНРЙБДБ 1935–1989",
       "status": "downloaded",
@@ -225,7 +319,62 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "covers_years": [
+        1935,
+        1936,
+        1937,
+        1938,
+        1939,
+        1940,
+        1941,
+        1945,
+        1946,
+        1947,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957,
+        1958,
+        1959,
+        1960,
+        1961,
+        1962,
+        1963,
+        1964,
+        1965,
+        1966,
+        1967,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989
+      ],
+      "coverage_evidence": "https://mmo.mccme.ru/prasolov/index.htm; editions 1935–1941 and 1945–1989"
     },
     {
       "url": "https://mmo.mccme.ru/prasolov/mo-ready/c-print.ps",
@@ -235,7 +384,7 @@
       "year": "1935/1989",
       "stage": null,
       "classes": null,
-      "document_type": "mathematics_material",
+      "document_type": "tasks_and_solutions",
       "label": "c-print.ps",
       "heading": "нПУЛПЧУЛБС НБФЕНБФЙЮЕУЛБС ПМЙНРЙБДБ 1935–1989",
       "status": "downloaded",
@@ -250,7 +399,29 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "covers_years": [
+        1935,
+        1936,
+        1937,
+        1938,
+        1939,
+        1940,
+        1941,
+        1945,
+        1946,
+        1947,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1956
+      ],
+      "coverage_evidence": "https://mmo.mccme.ru/prasolov/index.htm; almost all problems with solutions for these years",
+      "coverage_completeness": "partial within listed years"
     },
     {
       "url": "https://mmo.mccme.ru/prasolov/mo-ready/c-print.ps.zip",
@@ -260,7 +431,7 @@
       "year": "1935/1989",
       "stage": null,
       "classes": null,
-      "document_type": "mathematics_material",
+      "document_type": "tasks_and_solutions",
       "label": "c-print.ps.zip",
       "heading": "нПУЛПЧУЛБС НБФЕНБФЙЮЕУЛБС ПМЙНРЙБДБ 1935–1989",
       "status": "downloaded",
@@ -275,7 +446,29 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "covers_years": [
+        1935,
+        1936,
+        1937,
+        1938,
+        1939,
+        1940,
+        1941,
+        1945,
+        1946,
+        1947,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1956
+      ],
+      "coverage_evidence": "https://mmo.mccme.ru/prasolov/index.htm; almost all problems with solutions for these years",
+      "coverage_completeness": "partial within listed years"
     },
     {
       "url": "https://mmo.mccme.ru/archive/82-07.pdf",
@@ -4856,6 +5049,1693 @@
       "ok": false,
       "status": "failed",
       "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/80-07.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1980",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: XLIII 01.03.1980 JPG JPG JPG JPG до 1990 не было 11 кл.",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/80-08.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1980",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: XLIII 01.03.1980 JPG JPG JPG JPG до 1990 не было 11 кл.",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/80-09.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1980",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: XLIII 01.03.1980 JPG JPG JPG JPG до 1990 не было 11 кл.",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/80-10.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1980",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: XLIII 01.03.1980 JPG JPG JPG JPG до 1990 не было 11 кл.",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/81-10.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1981",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: XLIV 1981 Ищем… JPG",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/83-07.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1983",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: XLVI 13.03.1983 JPG Ищем… JPG (95) PDF",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/83-09.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1983",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: XLVI 13.03.1983 JPG Ищем… JPG (95) PDF",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/88-07_09.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1988",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LI 28.02.1988 JPG (122) PDF JPG (231) PDF",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/89-07_09.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1989",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LII 05.03.1989 JPG JPG JPG JPG",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/89-08_10.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1989",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LII 05.03.1989 JPG JPG JPG JPG",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/90-08.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1990",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LIII 4?.03.1990 JPG JPG JPG JPG",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/90-09.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1990",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LIII 4?.03.1990 JPG JPG JPG JPG",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/90-10.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1990",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LIII 4?.03.1990 JPG JPG JPG JPG",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/archive/90-11.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1990",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/archive/vars80.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LIII 4?.03.1990 JPG JPG JPG JPG",
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://mmo.mccme.ru/1993/mod/93-08.txt",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1993",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "txt",
+      "source_page": "https://mmo.mccme.ru/problems93-10.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LVI 18.04.1993 txt txt txt txt",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/e3519cf20d2c-93-08.txt",
+      "sha256": "aeb5886d36b820c8eaca206448137db32128f199b2e724b910ac3b29dd07b7fe",
+      "bytes": 1647,
+      "final_url": "https://mmo.mccme.ru/1993/mod/93-08.txt",
+      "content_type": "text/plain"
+    },
+    {
+      "url": "https://mmo.mccme.ru/1993/mod/93-09.txt",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1993",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "txt",
+      "source_page": "https://mmo.mccme.ru/problems93-10.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LVI 18.04.1993 txt txt txt txt",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/b1f2379a2613-93-09.txt",
+      "sha256": "23af698d929a3788e0410269261536fde177bd5841d23fe303e0a053283c4054",
+      "bytes": 1219,
+      "final_url": "https://mmo.mccme.ru/1993/mod/93-09.txt",
+      "content_type": "text/plain"
+    },
+    {
+      "url": "https://mmo.mccme.ru/1993/mod/93-10.txt",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1993",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "txt",
+      "source_page": "https://mmo.mccme.ru/problems93-10.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LVI 18.04.1993 txt txt txt txt",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/e330def2f8e0-93-10.txt",
+      "sha256": "c7686f766fe885fe812ee872406195ca1779d9c949ad0a1f7aae5f53510a9ce7",
+      "bytes": 2547,
+      "final_url": "https://mmo.mccme.ru/1993/mod/93-10.txt",
+      "content_type": "text/plain"
+    },
+    {
+      "url": "https://mmo.mccme.ru/1993/mod/93-11.txt",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1993",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "txt",
+      "source_page": "https://mmo.mccme.ru/problems93-10.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LVI 18.04.1993 txt txt txt txt",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/b8a8b91a13ec-93-11.txt",
+      "sha256": "06a7940754005993bea83308c4c6988853f6b797441336690022f6334b7dc38d",
+      "bytes": 1606,
+      "final_url": "https://mmo.mccme.ru/1993/mod/93-11.txt",
+      "content_type": "text/plain"
+    },
+    {
+      "url": "https://mmo.mccme.ru/1998/98-1.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1998",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/problems93-10.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LXI 01.03.1998 JPG JPG JPG JPG",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/ecdd1b19cbc4-98-1.jpg",
+      "sha256": "cc7e2a1d675ccd87a9b60fdb864165542662476a78ef6828cf8911ac8812ddb0",
+      "bytes": 949533,
+      "final_url": "https://mmo.mccme.ru/1998/98-1.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://mmo.mccme.ru/1998/98-2.jpg",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": "1998",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "JPG",
+      "source_page": "https://mmo.mccme.ru/problems93-10.htm",
+      "source_status": "official organizer",
+      "metadata_evidence": "Year taken from annual table row: LXI 01.03.1998 JPG JPG JPG JPG",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/34004c7497d4-98-2.jpg",
+      "sha256": "a19d8efd56a4bdf6eff76d9f938ff8cdf7e8602e8408d62ebc740985cb4841d8",
+      "bytes": 653005,
+      "final_url": "https://mmo.mccme.ru/1998/98-2.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79565",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1990,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170292",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/0a176ff2fd45-view_problem_details_new.php.html",
+      "sha256": "e41edcf70efc9d7007c69e07a9a9f0ab3fa4af58100bbc89d9b3972bdc18a768",
+      "bytes": 8046,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79570",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1990,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170292",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/07bb52342b58-view_problem_details_new.php.html",
+      "sha256": "7e1efb927406fde8c707c74c8ddd99887a898b7863ff95e179b742f7ed012eb8",
+      "bytes": 8834,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79576",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1990,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170292",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/15c58ec73b96-view_problem_details_new.php.html",
+      "sha256": "7c7607a5e8f85b5ce245aecd7589ec4fe11b5fd38fd63cc1c85749be5ab4d40b",
+      "bytes": 9233,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79571",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1990,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170292",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/4dd06afb0420-view_problem_details_new.php.html",
+      "sha256": "c939ca9896c1f3ebfbafcf00bed2c5e117604080ac5ef32760f1d57c5ec9e232",
+      "bytes": 9020,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79580",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1990,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170292",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/3c7ce01e5e17-view_problem_details_new.php.html",
+      "sha256": "a337c63b7bf0818a6fa622348fcdf176747997e925215c41740ee36e3f53cc48",
+      "bytes": 9792,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79585",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/8df30964a534-view_problem_details_new.php.html",
+      "sha256": "c59e8a63b6b6c655497b46b8605277c21c0008e667fb88b72a69822c21cfc801",
+      "bytes": 7843,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79587",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/043e68f5fb6e-view_problem_details_new.php.html",
+      "sha256": "673a63455ee9c6e34d8159320b0ada666d11a8db5cde5e4210b8112964f75208",
+      "bytes": 12931,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79588",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/6d73e905b8a2-view_problem_details_new.php.html",
+      "sha256": "39c6a98ea0f9a0c9911fd1910ced532f15754f4608586bfb9857f8433d6adc5d",
+      "bytes": 9078,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79589",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/2845edb838b8-view_problem_details_new.php.html",
+      "sha256": "1a4c016bfd4796168e7064beeeff07cd80a95bc21d18b4ba0ca0baf18d697efe",
+      "bytes": 11430,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79590",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/9041d4fdb79f-view_problem_details_new.php.html",
+      "sha256": "ad8e647d046fadda9cff1e8c9e811658d5001705696a233c7db45d192275dbc1",
+      "bytes": 8519,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79605",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/2dd1efdf5caf-view_problem_details_new.php.html",
+      "sha256": "3a5f0dff6587fb6206fe5d0fabbb138c7e52cb5d299891db4551774ff5411507",
+      "bytes": 8149,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79607",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/d927cdb9b7e9-view_problem_details_new.php.html",
+      "sha256": "47ce0459d2e1f7173866da332a04d6b401a1af6eeba07cfce41f4cb290a6e633",
+      "bytes": 8353,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79611",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/6865547d6600-view_problem_details_new.php.html",
+      "sha256": "aa2d65ba8c97bbff7a01619574eac81ebb2fc83ad794561c3332dd35b312f38f",
+      "bytes": 8052,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79624",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/f5365d3c473e-view_problem_details_new.php.html",
+      "sha256": "8101e01e0c6fe4681377fb45063217bafafeabc57c33179e0838baa79a8152ce",
+      "bytes": 10730,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79606",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/c309e49f5721-view_problem_details_new.php.html",
+      "sha256": "f4a493ae7166ddd8e880e1acaa00d961be6d4d58da53ccf2191333c0b1979188",
+      "bytes": 9656,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79593",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/f5519ca6c2f0-view_problem_details_new.php.html",
+      "sha256": "3d5f258055f463c3187efafa987e148ea39bef82bef111c19fda37ee9438cbb4",
+      "bytes": 11824,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79596",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/14acd378232f-view_problem_details_new.php.html",
+      "sha256": "831767202403af63bf246bfebf021c1058d0c46ffaae5368270b8c3ee5d11dde",
+      "bytes": 10231,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79603",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/09b1ebdff484-view_problem_details_new.php.html",
+      "sha256": "07a1372ab4a23e654ced662196f3310a92c304a84acf39258c708144a402582c",
+      "bytes": 12539,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79604",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/14ca8d4e663d-view_problem_details_new.php.html",
+      "sha256": "e7702ac096bfad133c34589b8eaf6d5bcb8f52c3f92e1f60682cd20c59873b93",
+      "bytes": 11277,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79586",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/f6e10b729373-view_problem_details_new.php.html",
+      "sha256": "90bb78471871f4458d655f712995794e2f1ca0b87fe35fc6f414ca5e65118f7b",
+      "bytes": 12918,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79592",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/cd69318872f6-view_problem_details_new.php.html",
+      "sha256": "87cd213463a9d6b4a9e4324c6f23608c26f2e94a82518a0682482ce6757e53cf",
+      "bytes": 12251,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79595",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/cf776d29c8a2-view_problem_details_new.php.html",
+      "sha256": "08cc515d1fc99acb974bfa9e58ecb4bd37aab5045df42f08e168bc958319ee7d",
+      "bytes": 9721,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79599",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/64b8d97ede02-view_problem_details_new.php.html",
+      "sha256": "c3124ef8f1c6534fcff18b09c0cdabb28afa07680a1d7f7ca5cfa57335ea572f",
+      "bytes": 12734,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79594",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/11a673799618-view_problem_details_new.php.html",
+      "sha256": "f214b0dce83188cd4f6621cd1612fdbab6fae21ac08cd59a385c371e8018d8cf",
+      "bytes": 10924,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79598",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/6e12c0c4bb9f-view_problem_details_new.php.html",
+      "sha256": "c3f3574cdfb8b1ddc7e6158eb7271d626993d5ea641d8a8bcf13991e370132f0",
+      "bytes": 13587,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79600",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/5f0262c5e452-view_problem_details_new.php.html",
+      "sha256": "b9fd33e2ffac4b594f743779f9b65ced522ca4911f90459817223222c755e395",
+      "bytes": 11412,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79602",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/8161bd662582-view_problem_details_new.php.html",
+      "sha256": "3f73050b014a011d44fc8f82d0cd27cb0e2d13b25ca69f10f12e5577225bf546",
+      "bytes": 10172,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=53137",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/9546e3c6fcaf-view_problem_details_new.php.html",
+      "sha256": "da64bc472dac992bb0a36d79e1bd48e5786bd36110220bf3a88a4d9c13a77161",
+      "bytes": 21516,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79591",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/97868e767c24-view_problem_details_new.php.html",
+      "sha256": "baefcdcbb5acb453a40f1aa5cd241299c9a77dae581060403b07aed0f60e7c50",
+      "bytes": 13107,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79601",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1991,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170317&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/2965be6b7b4c-view_problem_details_new.php.html",
+      "sha256": "b714119665668395722f8c997a7c4accd931b3ccac2735d15e57177462776cee",
+      "bytes": 13697,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=108166",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/3d73b8bddab5-view_problem_details_new.php.html",
+      "sha256": "e266f958bca9faf7d34c109ca361d2ea6d5832f1bee46bdad84391a302aa6e69",
+      "bytes": 11116,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79618",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/80eaa909470f-view_problem_details_new.php.html",
+      "sha256": "b15c0a7d8a4ca06ce3bd40fd401d7f84df46e700025e2738b42040829d91af06",
+      "bytes": 10452,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79621",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/719f4a94bfad-view_problem_details_new.php.html",
+      "sha256": "e234d6e0fe0ad1c8cb4a56d652ae799cb6102f79e460dafb0320659f013b6d50",
+      "bytes": 11616,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=108167",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/1dcbd2dd0f82-view_problem_details_new.php.html",
+      "sha256": "4b9486b0fb79a0d14976b1ab2981d89e3e0e8f1c65a598375c726900218e33c5",
+      "bytes": 11527,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79608",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=10",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/aae7b3f68c9f-view_problem_details_new.php.html",
+      "sha256": "381e19e11cfc6f718c5185a46356d98fb99cfbe7bec0adea5587485cd53edb05",
+      "bytes": 11101,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79610",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/55ba06402e63-view_problem_details_new.php.html",
+      "sha256": "2a1d9bf582c7db848880c8426be8f9f6eeafc05f9240b1314f0f4ba7b4091ed6",
+      "bytes": 7990,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79616",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/1d11f95551a4-view_problem_details_new.php.html",
+      "sha256": "eea48ee572138a9db3102126afe6a122403aaca0256053ce50e3bc9de32cc67d",
+      "bytes": 8122,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79622",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/55a76e49dfb4-view_problem_details_new.php.html",
+      "sha256": "4b33c825bee1dfd56010b22d0b44da0fffbb12313b4dfa6726bd96059ca48950",
+      "bytes": 12647,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79628",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/d1c40eb967ba-view_problem_details_new.php.html",
+      "sha256": "1cb25501cd10222cf5ce4d811fb5f5f0939da8d43a2a6bea91b7e328484ebe5e",
+      "bytes": 11619,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79620",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=15",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/444b507f9003-view_problem_details_new.php.html",
+      "sha256": "4589e2767e59ba939a21f619301f19c6c8d2dc12570c9dc4849d8847625b786f",
+      "bytes": 12249,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79625",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=20",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/842fccfb79fc-view_problem_details_new.php.html",
+      "sha256": "a2b693a7f7a75e5c910281bb13f7a3b4b2c243d9040ffefa484845bbdf4c8616",
+      "bytes": 10101,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79626",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_or_solutions_html",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=20",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/ba1659c2cdba-view_problem_details_new.php.html",
+      "sha256": "768c3e2da0e6fe28075eec656e234272faa97d31f27b70333087751d737dcb07",
+      "bytes": 12922,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79614",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/c9ce8e2e6b42-view_problem_details_new.php.html",
+      "sha256": "b2417648ef41aaf559f58fc41bc1c89f8261c0b2e4c80c2bde557d9bebc9b023",
+      "bytes": 9443,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79623",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/0ca8c34a6f18-view_problem_details_new.php.html",
+      "sha256": "b51d9818c01a352d02540b5d4a6a395fd21685319c53d6eb538b23a5ebb15372",
+      "bytes": 10710,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79617",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/b0b9f77a4f7d-view_problem_details_new.php.html",
+      "sha256": "e66401532cea2c27417d49f381a05f6dcdb41cda263750bb02e9cab87fba0902",
+      "bytes": 10771,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79612",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/8602e6315d89-view_problem_details_new.php.html",
+      "sha256": "7ea4a4532dce1f3e591f650bf78769dab820fca73584d1e6fcd24667d4822d4a",
+      "bytes": 9591,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
+    },
+    {
+      "url": "https://problems.ru/view_problem_details_new.php?id=79613",
+      "contest": "Московская математическая олимпиада",
+      "subject": "mathematics",
+      "year": 1992,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "source_page": "https://problems.ru/view_by_source_new.php?parent=170342&start=5",
+      "source_status": "MCCME public problem database",
+      "coverage_completeness": "individual problem; not a complete variant",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mmo/documents/e963c866ac2d-view_problem_details_new.php.html",
+      "sha256": "c8a957ea72efa145ee8d9cbf298cef331ca6222201202b91df58300f2bb9411f",
+      "bytes": 8565,
+      "supporting_assets": [
+        {
+          "url": "https://problems.ru/images/into_basket.gif",
+          "path": "olympiads/russia/mmo/supporting-assets/7183db85d932-into_basket.gif",
+          "sha256": "18286e3e4ca595dcf5959112704b57d465a95ee77aa421de01bfaa7c56d8ac66"
+        },
+        {
+          "url": "https://problems.ru/images/ed.png",
+          "path": "olympiads/russia/mmo/supporting-assets/0dd5c8659e9b-ed.png",
+          "sha256": "0bd7610dbfe973c276203ca2ff193354272bc6de72f07f9106f6071d261c0d30"
+        }
+      ],
+      "content_validation": "Contest and year in page text; solution heading checked"
     }
   ],
   "indexes": [
@@ -6457,5 +8337,19 @@
       "label": "okrm2001.zip",
       "heading": "Окружной тур 28 января 2001"
     }
-  ]
+  ],
+  "scan_recovery": {
+    "links": 20,
+    "downloaded": 6
+  },
+  "individual_problem_recovery": {
+    "years": [
+      1990,
+      1991,
+      1992
+    ],
+    "discovered": 47,
+    "downloaded": 47,
+    "coverage": "Individual tasks; full original variants not asserted"
+  }
 }

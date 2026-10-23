@@ -37,6 +37,10 @@ class Links(HTMLParser):
   if t=='a' and self.cur:self.links.append((self.cur[0],''.join(self.cur[1]).strip()));self.cur=None
 
 def links(data,url):
+ # Resolve relative links against the redirected page, including a trailing slash.
+ for row in list(ROWS.values()):
+  if row.get('url')==norm(url) and row.get('final_url'):
+   url=row['final_url'];break
  p=Links();p.feed(data.decode('utf-8','replace'))
  return [(norm(urljoin(url,h)),t) for h,t in p.links if not h.startswith(('mailto:','javascript:','#'))]
 

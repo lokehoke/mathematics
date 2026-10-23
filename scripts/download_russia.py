@@ -229,7 +229,7 @@ def crawl(cid,cfg,max_pages=4000,max_depth=None,workers=8,pending_only=False):
             except ImportError:pass
             # HTML task/solution pages are primary published materials too.
             partner_index=(cid=='verchenko' and urlsplit(u).netloc=='olimpiada.ru')
-            if page_math and not partner_index and POS.search(unquote(u)) and not re.search(r'archive|arhiv|архив|past|problems/?$|tasks/?$',u,re.I) and d>0:
+            if page_math and not partner_index and POS.search(unquote(u)) and not re.search(r'archive|arhiv|архив|past|allproblems\.php|problems/?$|tasks/?$',u,re.I) and d>0:
                 records[u]=dict(url=u,contest=cfg['name'],subject='mathematics',status='downloaded',local_path=str(path.relative_to(ROOT)),sha256=hashlib.sha256(b).hexdigest(),bytes=len(b),document_type='tasks_or_solutions_html',**{k:v for k,v in metadata(u,'',parser.heading,'').items() if k!='document_type'})
             for href,label,h,c in parser.items:
                 v=canonical(urljoin(res['final_url'],href))

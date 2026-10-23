@@ -271,34 +271,24 @@ def discover_society():
 
 
 def discover_skmo():
-    src='https://skmo.sk/dokumenty.php';s,b=page(src)
-    urls={}
-    for o in s.select('select[name=rocnik] option[value]'):
-        value=o['value']
-        if not value.isdigit() or int(value)==0:continue
-        y=year_of(o.get_text(' ',strip=True))
-        if y and 2007<=y<=2026:urls[y]=urljoin(b,'dokumenty.php?rocnik='+value)
-    for u,t,a in links(s,b):
-        if '?rocnik=' in u:
-            ry=re.search(r'rocnik=(\d+)',u)
-            if ry:
-                y=1951+int(ry[1])
-                if 2007<=y<=2026:urls[y]=u
-    def one(entry):
-        y,u=entry
+    # Annual index URLs identify school-year editions. Paper URLs are taken
+    # exclusively from their actual table cells, never synthesized.
+    def one(y):
+        u='https://skmo.sk/dokumenty.php?rocnik='+str(y-1951)
         try:
             ss,bb=page(u)
             for tr in ss.find_all('tr'):
-                text=tr.get_text(' ',strip=True);low=text.lower()
-                if 'memo' not in low or any(w in low for w in ['kvalifik','sústred','sustred','výber','vyber','reprezent']):continue
-                if re.search(r'\bimo\b',low):continue
-                if not any(w in low for w in ['zadan','riešen','riesen','solution','booklet','problem']):continue
-                for v,t,a in links(tr,bb):
-                    if 'dokument.php?id=' in v or '.pdf' in v.lower():
-                        register('MEMO',y,'problems_and_solutions' if any(w in low for w in ['riešen','riesen','solution']) else 'problems',
-                                 v,u,'en' if any(w in low for w in ['anglick','english',' en)']) else 'sk',context=text[:600])
+                cells=tr.find_all(['td','th'],recursive=False)
+                if not cells or cells[0].get_text(' ',strip=True).upper()!='MEMO':continue
+                for position,cell in enumerate(cells[1:],1):
+                    if position>2:continue  # standings are not contest papers
+                    for v,t,a in links(cell,bb):
+                        if 'dokument.php?id=' in v or '.pdf' in v.lower():
+                            register('MEMO',y,'solutions' if position==2 else 'problems',v,u,'sk',
+                                source_authority='Slovak Mathematical Olympiad commission',
+                                metadata_evidence='MEMO row; column riešenia' if position==2 else 'MEMO row; column zadania')
         except Exception as e:gap('MEMO',y,'index',u,str(e))
-    with ThreadPoolExecutor(max_workers=5) as pool:list(pool.map(one,urls.items()))
+    with ThreadPoolExecutor(max_workers=5) as pool:list(pool.map(one,range(2007,2027)))
 
 
 def classify_leader_text(text):

@@ -1,0 +1,2609 @@
+{
+  "changes": [
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/3b1cfe179fec-kriterii_rosatom_zaklyuchitelnyy_25_26_1.pdf",
+      "date": "2026-10-23T10:04:22.385733+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "7"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/51874f0f3eff-7_math_reg.pdf",
+      "date": "2026-10-23T10:04:22.450775+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "13 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/315d7409a7d1-rosatom_math_8_merged.pdf",
+      "date": "2026-10-23T10:04:22.459004+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/7daab1a7fe72-8_math_region.pdf",
+      "date": "2026-10-23T10:04:22.469488+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/f3603ac9b2fe-8_math_reg.pdf",
+      "date": "2026-10-23T10:04:22.486608+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/db8297455675-9_math_reg.pdf",
+      "date": "2026-10-23T10:04:22.519608+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/f8ff7d79914e-rosatom_2022-23_math_7.pdf",
+      "date": "2026-10-23T10:04:22.601219+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/d8f41dc07719-rosatom_2022-23_math_8.pdf",
+      "date": "2026-10-23T10:04:22.614700+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/0bdc28cd3026-rosatom_2022-23_math_9.pdf",
+      "date": "2026-10-23T10:04:22.623754+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/8abbd14347ee-rosatom_2022-23_math_10.pdf",
+      "date": "2026-10-23T10:04:22.640355+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/d8d6265ec9a2-rosatom_2022-23_math_11_1.pdf",
+      "date": "2026-10-23T10:04:22.656298+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/71c110df17af-rosatom_2022-23_math_11_2.pdf",
+      "date": "2026-10-23T10:04:22.674094+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/ff2a354c18d7-otbor_rosatom_2022-23_math_7.pdf",
+      "date": "2026-10-23T10:04:22.689179+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "11 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/d4720d1e2db2-otbor_rosatom_2022-23_math_8.pdf",
+      "date": "2026-10-23T10:04:22.700321+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/879daf59286d-otbor_rosatom_2022-23_math_9.pdf",
+      "date": "2026-10-23T10:04:22.715746+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/c6ff7013558f-otbor_rosatom_2022-23_math_10.pdf",
+      "date": "2026-10-23T10:04:22.730445+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/2a9d47cd9034-otbor_rosatom_2022-23_math_11.pdf",
+      "date": "2026-10-23T10:04:22.745817+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/c6c122245c71-otbor_rosatom_2022-23_math_11_2.pdf",
+      "date": "2026-10-23T10:04:22.761905+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/396d1cbb28ad-otbor_rosatom_2022-23_math_11_3.pdf",
+      "date": "2026-10-23T10:04:22.779847+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/816e976e71bd-_otbor_rosatom_2021-22_matematika_8.pdf",
+      "date": "2026-10-23T10:04:22.858994+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/4364cd72afc2-_otbor_rosatom_2021-22_matematika_9.pdf",
+      "date": "2026-10-23T10:04:22.872122+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/fed4ff8a53ce-_otbor_rosatom_2021-22_matematika_10.pdf",
+      "date": "2026-10-23T10:04:22.884184+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/70fd98dff3f2-_otbor_rosatom_2021-22_matematika_11.pdf",
+      "date": "2026-10-23T10:04:22.928742+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "classes": "11",
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/a721c8919a39-rosatom_2020-21_math_7.pdf",
+      "date": "2026-10-23T10:04:22.938829+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/07b3f5ed9d0c-rosatom_2020-21_math_10_2.pdf",
+      "date": "2026-10-23T10:04:22.977394+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/4903b9a4656c-Росатом_2019-20_Математика_7_1.pdf",
+      "date": "2026-10-23T10:04:23.070083+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "classes": "7",
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/02949e447c30-Росатом_2019-20_Математика_8_1.pdf",
+      "date": "2026-10-23T10:04:23.111939+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "classes": "8",
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/7cdb5c9fca1b-Росатом_2019-20_Математика_9_1.pdf",
+      "date": "2026-10-23T10:04:23.161105+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/3b12b8ef8ad2-Росатом_2019-20_Математика_9_2.pdf",
+      "date": "2026-10-23T10:04:23.184654+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "classes": "9",
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/09a2f4ac6cee-Отбор_Росатом_2019-20_Математика_7.pdf",
+      "date": "2026-10-23T10:04:23.262534+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/56d8712f2476-Отбор_Росатом_2019-20_Математика_9.pdf",
+      "date": "2026-10-23T10:04:23.286044+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/f34df97d2ac3-Отбор_Росатом_2019-20_Математика_11_1.pdf",
+      "date": "2026-10-23T10:04:23.362604+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "11"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/64336d9efa90-Отбор_Росатом_2019-20_Математика_11_2.pdf",
+      "date": "2026-10-23T10:04:23.413435+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "11"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/f691f02717be-Росатом_2018-19_Математика_7.pdf",
+      "date": "2026-10-23T10:04:23.424944+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/23c810b48cf3-Росатом_2018-19_Математика_11_3.pdf",
+      "date": "2026-10-23T10:04:23.515769+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/b562dc138863-Отбор_Росатом_2018-19_Математика_7.pdf",
+      "date": "2026-10-23T10:04:23.525980+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/1d7194b90df4-Отбор_Росатом_2018-19_Математика_8.pdf",
+      "date": "2026-10-23T10:04:23.537506+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/9f4f2b30f6f6-Отбор_Росатом_2018-19_Математика_9.pdf",
+      "date": "2026-10-23T10:04:23.550059+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/ce3076879ae4-Отбор_Росатом_2018-19_Математика_11_1.pdf",
+      "date": "2026-10-23T10:04:23.619110+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "11"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/e1d927f2bd7c-Отбор_Росатом_2018-19_Математика_11_2.pdf",
+      "date": "2026-10-23T10:04:23.675712+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "11"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/eec29581eeb6-Отбор_Росатом_2018-19_Математика_11_3.pdf",
+      "date": "2026-10-23T10:04:23.724571+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/74d73c0d9c21-Росатом_2017-18_Математика_7.pdf",
+      "date": "2026-10-23T10:04:23.734563+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "8 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/16e820840eea-Росатом_2017-18_Математика_8.pdf",
+      "date": "2026-10-23T10:04:23.752706+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/718c04691aec-Росатом_2017-18_Математика_9.pdf",
+      "date": "2026-10-23T10:04:23.764024+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/24d5ac00f744-Росатом_2017-18_Математика_10.pdf",
+      "date": "2026-10-23T10:04:23.778162+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/0186bc056a26-Росатом_2017-18_Математика_11_1.pdf",
+      "date": "2026-10-23T10:04:23.791056+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/c5e5a30fbb2d-Росатом_2017-18_Математика_11_2.pdf",
+      "date": "2026-10-23T10:04:23.805811+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/cf7d9ee0003d-Росатом_2017-18_Математика_11_3.pdf",
+      "date": "2026-10-23T10:04:23.819700+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/46ab9dd20fa6-Математика 7 класс.pdf",
+      "date": "2026-10-23T10:04:23.836934+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": "2016/17"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/6361b2ec727a-Математика 8 класс.pdf",
+      "date": "2026-10-23T10:04:23.849462+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": "2016/17"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/2f070793a263-Математика 9 класс.pdf",
+      "date": "2026-10-23T10:04:23.866887+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": "2016/17"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/7fccfc6217a4-Математика 10 класс.pdf",
+      "date": "2026-10-23T10:04:23.883697+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": "2016/17"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/3ad32405dbcb-Математика 11 класс 1.pdf",
+      "date": "2026-10-23T10:04:23.897279+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": "2016/17"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/338809c22ef6-Математика 11 класс 2.pdf",
+      "date": "2026-10-23T10:04:23.913519+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": "2016/17"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/a7888bc3bfa3-Математика 11 класс 3.pdf",
+      "date": "2026-10-23T10:04:23.933384+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": "2016/17"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/6b5486c9e50b-Математика 11 класс 4.pdf",
+      "date": "2026-10-23T10:04:23.953393+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": "2016/17"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/8955492dddcd-Ломоносов-2016-2017-Математика.pdf",
+      "date": "2026-10-23T10:04:24.984647+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material",
+        "year": "2016/17"
+      },
+      "updated": {
+        "classes": "5, 6, 7, 8, 9, 10, 11",
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "22 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/8c99537322a7-Ломоносов-2014-2015-Математика.pdf",
+      "date": "2026-10-23T10:04:25.641038+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks",
+        "year": "2014/15"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2014/2015"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/b24d05b34dd6-Ломоносов-2013-2014-Математика.PDF",
+      "date": "2026-10-23T10:04:25.966512+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "tasks",
+        "year": "2013/14"
+      },
+      "updated": {
+        "classes": "7, 8, 9, 10, 11",
+        "document_type": "tasks_and_solutions",
+        "year": "2013/2014"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/14c628ed2bc3-348-tasks-math-11-final-24-25.pdf",
+      "date": "2026-10-23T10:04:25.998084+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/efcf01bab176-appeals_math.pdf",
+      "date": "2026-10-23T10:04:26.342433+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": null
+      },
+      "updated": {
+        "year": "2022/2023"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/12b12cdb7644-math10_11stage2_keys.pdf",
+      "date": "2026-10-23T10:04:26.359895+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/a9abda256738-math5_9stage2_keys.pdf",
+      "date": "2026-10-23T10:04:26.369002+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "13 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/d2ebbae873a8-math59keys.pdf",
+      "date": "2026-10-23T10:04:26.385579+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/16d026f95d02-math9keys.pdf",
+      "date": "2026-10-23T10:04:26.405752+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/c9dd9d98c6aa-math78keys.pdf",
+      "date": "2026-10-23T10:04:26.413790+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/5de8c3b43929-math56keys.pdf",
+      "date": "2026-10-23T10:04:26.421695+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "8 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/795fad03b548-appeals_math.pdf",
+      "date": "2026-10-23T10:04:26.435089+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": null
+      },
+      "updated": {
+        "year": "2022/2023"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/4edd39139a7e-443-tasks-math-10-11-final-24-25.pdf",
+      "date": "2026-10-23T10:04:26.754876+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2024/2025"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/368eecfa092f-443-krit-math-10-11-final-24-25.pdf",
+      "date": "2026-10-23T10:04:26.763749+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2024/2025"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/9386b4139d6e-443-sol-math-10-11-final-24-25.pdf",
+      "date": "2026-10-23T10:04:26.776533+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2024/2025"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/a465fccb5b46-443-taskssol-math-10-11-otbor-23-24.pdf",
+      "date": "2026-10-23T10:04:26.793396+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2023/2024"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/1200f0616ac9-443-tasks-math-10-11-final-23-24.pdf",
+      "date": "2026-10-23T10:04:26.808527+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2023/2024"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/4e19c144c7ed-443-taskssol-math-10-11-otbor-22-23.pdf",
+      "date": "2026-10-23T10:04:26.842742+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2022/2023"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/e78c8b31ad59-443-tasks-math-10-11-final-22-23.pdf",
+      "date": "2026-10-23T10:04:26.864868+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2022/2023"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/c47c5b2a86e3-443-sol-math-10-11-final-22-23.pdf",
+      "date": "2026-10-23T10:04:26.882550+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2022/2023"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/c3c7d892cc55-3l7mtpoame4j43kkevcbbsclitleg1d4.pdf",
+      "date": "2026-10-23T10:04:27.443339+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material",
+        "year": "2023"
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+        "document_type": "tasks_and_solutions",
+        "year": "2022/2023"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/b61e6b93b517-hvzxe170zzcb5l29ocr3c14qkeemy9h4.pdf",
+      "date": "2026-10-23T10:04:27.554437+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": null
+      },
+      "updated": {
+        "year": "2023/2024"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/4d86cda67a38-9hvlsbxvfa1jjm89cb681kx3j0v0ejse.pdf",
+      "date": "2026-10-23T10:04:27.746338+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material",
+        "year": null
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 11",
+        "document_type": "tasks_and_solutions",
+        "year": "2023/2024"
+      },
+      "solution_evidence": "8 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/1ce69027df06-w1lejgkwb79w0qcya46444viuc8rf9fv.pdf",
+      "date": "2026-10-23T10:04:27.755333+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": null
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2023/2024"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/951ce0530789-sudaklgthp3d5ceyott7pmhmw1he2fcu.pdf",
+      "date": "2026-10-23T10:04:27.801641+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/bb3303dfae96-55oenlzwre1ywluho19uo5flui2pz4bh.pdf",
+      "date": "2026-10-23T10:04:28.016972+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material",
+        "year": null
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+        "document_type": "tasks_and_solutions",
+        "year": "2024/2025"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/8b006a4e529a-0obxozrge62jod80d2rbrvo55xnxcas6.pdf",
+      "date": "2026-10-23T10:04:28.181048+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/e580a8b8e2d0-5k9mmrhxec8s7xo2j5zn11x4mbzl4shw.pdf",
+      "date": "2026-10-23T10:04:28.366670+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material",
+        "year": null
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+        "document_type": "tasks_and_solutions",
+        "year": "2025/2026"
+      },
+      "solution_evidence": "9 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/04fc14162aa0-3l7mtpoame4j43kkevcbbsclitleg1d4.pdf",
+      "date": "2026-10-23T10:04:28.746914+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material",
+        "year": "2023"
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+        "document_type": "tasks_and_solutions",
+        "year": "2022/2023"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/5be08906724c-w1lejgkwb79w0qcya46444viuc8rf9fv.pdf",
+      "date": "2026-10-23T10:04:28.804608+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material",
+        "year": null
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2023/2024"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/4252cc51079e-sudaklgthp3d5ceyott7pmhmw1he2fcu.pdf",
+      "date": "2026-10-23T10:04:28.850126+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/9e104a55aa12-55oenlzwre1ywluho19uo5flui2pz4bh.pdf",
+      "date": "2026-10-23T10:04:29.072377+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material",
+        "year": null
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+        "document_type": "tasks_and_solutions",
+        "year": "2024/2025"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/a408d4444d50-0obxozrge62jod80d2rbrvo55xnxcas6.pdf",
+      "date": "2026-10-23T10:04:29.120292+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/8a50dddeecc4-5k9mmrhxec8s7xo2j5zn11x4mbzl4shw.pdf",
+      "date": "2026-10-23T10:04:29.314386+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "document_type": "mathematics_material",
+        "year": null
+      },
+      "updated": {
+        "classes": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+        "document_type": "tasks_and_solutions",
+        "year": "2025/2026"
+      },
+      "solution_evidence": "9 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/fe686db23dbb-14287979-tasks-math-11-complect3-final-18-9.pdf",
+      "date": "2026-10-23T10:10:36.016799+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/eb32819756f4-8643552-tasks-math-11-final-17-18.pdf",
+      "date": "2026-10-23T10:10:36.091315+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/4e62a4ac8862-7122147-tasks-11-dist-16-7.pdf",
+      "date": "2026-10-23T10:10:36.113840+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "11 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/515ce8fa442b-4016169-tasks-math-10-11-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:39.493405+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/f7502ec0fde2-4016169-ans-math-10-11-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:39.503390+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "13 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/3897bf039c49-5_16969-ans-math-11-otbor-10-1.pdf",
+      "date": "2026-10-23T10:10:39.613656+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010"
+      },
+      "updated": {
+        "year": "2010/2011"
+      },
+      "solution_evidence": "16 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/2417b603a061-5_16969-ans-math-7-otbor-10-1.pdf",
+      "date": "2026-10-23T10:10:40.135106+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010"
+      },
+      "updated": {
+        "year": "2010/2011"
+      },
+      "solution_evidence": "12 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/efa8d95f6b45-5_16969-tasks-math-7-final-10-1.pdf",
+      "date": "2026-10-23T10:10:40.143639+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010"
+      },
+      "updated": {
+        "year": "2010/2011"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/3381c4b830a1-5_16969-ans-math-7-9-final-10-1.pdf",
+      "date": "2026-10-23T10:10:40.153495+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010"
+      },
+      "updated": {
+        "year": "2010/2011"
+      },
+      "solution_evidence": "11 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/3e9b150d8812-5_16969-ans-math-8-otbor-10-1.pdf",
+      "date": "2026-10-23T10:10:40.170676+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010"
+      },
+      "updated": {
+        "year": "2010/2011"
+      },
+      "solution_evidence": "16 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/d8de489ffe4a-5_16969-tasks-math-8-final-10-1.pdf",
+      "date": "2026-10-23T10:10:40.178324+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010"
+      },
+      "updated": {
+        "year": "2010/2011"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/667a0f8f8aa7-5_16969-ans-math-9-10-otbor-10-1.pdf",
+      "date": "2026-10-23T10:10:40.197737+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010"
+      },
+      "updated": {
+        "year": "2010/2011"
+      },
+      "solution_evidence": "14 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/d5b1aeb8ba59-5_16969-tasks-math-9-final-10-1.pdf",
+      "date": "2026-10-23T10:10:40.207525+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010"
+      },
+      "updated": {
+        "year": "2010/2011"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/2657d21ac8fc-7122186-tasks-10-11-final-16-7.pdf",
+      "date": "2026-10-23T10:10:40.698019+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "pvg",
+      "path": "olympiads/russia/pvg/documents/d45197e1b818-7122186-tasks-7-8-tur1-16-7.pdf",
+      "date": "2026-10-23T10:10:41.267729+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks",
+        "year": "2016"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "15 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/920e39299b6a-7122136-tasksans-math-10-11-otbor-16-7.pdf",
+      "date": "2026-10-23T10:10:41.900268+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/7da0eb555466-5551139-tasks-math-10-11-otbor-15-6.pdf",
+      "date": "2026-10-23T10:10:41.929267+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/1ab8d2adf81f-5551139-ans-math-10-11-otbor-15-6.pdf",
+      "date": "2026-10-23T10:10:41.937934+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/34b4fe6feef7-5551139-ans-math-10-11-final-15-6.pdf",
+      "date": "2026-10-23T10:10:41.947499+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/a9b971b6af1a-4016354-tasks-math-10-11-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:41.956223+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/8113808737ee-4016354-ans-math-10-11-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:41.962781+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2010/2011"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/c006e0312d80-7122136-tasksans-math-6-9-otbor-16-7.pdf",
+      "date": "2026-10-23T10:10:42.190170+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/f73b7d49f304-7122136-tasksans-math-6-7-final-16-7.pdf",
+      "date": "2026-10-23T10:10:42.196698+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/5f48e06b291d-7122136-tasksans-math-8-9-final-16-7.pdf",
+      "date": "2026-10-23T10:10:42.208096+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/f0e347ff1af2-5551139-tasks-math-6-9-otbor-15-6.pdf",
+      "date": "2026-10-23T10:10:42.217979+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/1ef773d61e56-5551139-ans-math-6-9-otbor-15-6.pdf",
+      "date": "2026-10-23T10:10:42.228888+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/d2256f86933d-5551139-tasks-math-6-9-final-15-6.pdf",
+      "date": "2026-10-23T10:10:42.247058+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks",
+        "year": "2015"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2015/2016"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/8fbc2a89b444-5551139-ans-math-6-9-final-15-6.pdf",
+      "date": "2026-10-23T10:10:42.255372+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/cbd6add8455b-4016354-tasks-math-6-9-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:42.265396+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/5510248718e9-4016354-ans-math-6-9-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:42.275373+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/c60390771e7b-4016354-tasks-math-6-9-final-14-5.pdf",
+      "date": "2026-10-23T10:10:42.286996+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/000869f1e769-4016354-ans-math-6-9-final-14-5.pdf",
+      "date": "2026-10-23T10:10:42.296273+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/b4464ba49ce8-7128042-tasks-5-tur1-16-7.pdf",
+      "date": "2026-10-23T10:10:43.947192+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/65915c774daf-7128042-ans-5-tur1-16-7.pdf",
+      "date": "2026-10-23T10:10:43.958087+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "8 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/b1ae338cddc7-7128042-tasks-5-tur2-16-7.pdf",
+      "date": "2026-10-23T10:10:43.965390+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks",
+        "year": "2016"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions",
+        "year": "2016/2017"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/9836666f8da9-7128042-ans-5-tur2-16-7.pdf",
+      "date": "2026-10-23T10:10:43.975599+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/0da037ac8f90-5551067-tasks-math-5-otbor-15-6.pdf",
+      "date": "2026-10-23T10:10:44.116817+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "belchonok",
+      "path": "olympiads/russia/belchonok/documents/fca3c7dbab2e-5551067-tasks-math-5-final-15-6.pdf",
+      "date": "2026-10-23T10:10:44.142550+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/7ce1c377fefd-18474410-tasks-math-11-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:45.263621+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/b16a57429338-18474410-sol-math-11-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:45.276705+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/9c44ef1ce8ad-18474410-tasks-math-11-final-2021.pdf",
+      "date": "2026-10-23T10:10:45.283711+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/6419d28218af-18474410-sol-math-11-final-2021.pdf",
+      "date": "2026-10-23T10:10:45.299039+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/21781cc5a273-5_7661-tasks-math-11-zaoch_tur-9-10.pdf",
+      "date": "2026-10-23T10:10:45.565508+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2009"
+      },
+      "updated": {
+        "year": "2009/2010"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/317749847667-5_7661-tasks-math-11-final-9-10.pdf",
+      "date": "2026-10-23T10:10:45.572398+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2009"
+      },
+      "updated": {
+        "year": "2009/2010"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/06b7de084f05-18474410-tasks-math-7-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:46.173438+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/9e15f0848ffa-18474410-sol-math-7-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:46.182949+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/25597db1b610-18474410-tasks-math-7-final-2021.pdf",
+      "date": "2026-10-23T10:10:46.189984+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/7fa33bce8f15-18474410-sol-math-7-final-2021.pdf",
+      "date": "2026-10-23T10:10:46.201511+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/8bafc98f5e84-18474410-tasks-math-8-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:46.209190+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/ea5fbfd87929-18474410-sol-math-8-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:46.217886+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/627f524ae185-18474410-tasks-math-8-final-2021.pdf",
+      "date": "2026-10-23T10:10:46.225775+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/8278923a99b6-18474410-sol-math-8-final-2021.pdf",
+      "date": "2026-10-23T10:10:46.239290+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/206431df1642-18474410-tasks-math-9-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:46.247240+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/4de43ab4560b-18474410-sol-math-9-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:46.263075+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/e0e0e44504ce-18474410-tasks-math-9-final-2021.pdf",
+      "date": "2026-10-23T10:10:46.269102+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/0825e5ebf245-18474410-sol-math-9-final-2021.pdf",
+      "date": "2026-10-23T10:10:46.281749+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/c03d3eab69e7-18474410-tasks-math-10-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:46.292339+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/34b7274d16e3-18474410-sol-math-10-otbor-2021.pdf",
+      "date": "2026-10-23T10:10:46.307587+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/ca7bd8260ff1-18474410-tasks-math-10-final-2021.pdf",
+      "date": "2026-10-23T10:10:46.314109+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/ee5d74938d30-18474410-sol-math-10-final-2021.pdf",
+      "date": "2026-10-23T10:10:46.330727+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/4baf71a7aa8a-5_22534-tasks-math-7-final-2011-2.pdf",
+      "date": "2026-10-23T10:10:47.144562+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2011"
+      },
+      "updated": {
+        "year": "2011/2012"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/d8954d958fbb-5_22534-tasks-math-9-final-2011-2.pdf",
+      "date": "2026-10-23T10:10:47.175756+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2011"
+      },
+      "updated": {
+        "year": "2011/2012"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/bf7264115832-5_7661-tasks-math-9-10-zaoch_tur-9-10.pdf",
+      "date": "2026-10-23T10:10:47.214512+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2009"
+      },
+      "updated": {
+        "year": "2009/2010"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/00e2468d4a17-5_7661-tasks-math-9-10-final-9-10.pdf",
+      "date": "2026-10-23T10:10:47.221738+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2009"
+      },
+      "updated": {
+        "year": "2009/2010"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/0112891aa767-5_7661-ans-math-9-10-final-9-10.pdf",
+      "date": "2026-10-23T10:10:47.229072+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2009"
+      },
+      "updated": {
+        "year": "2009/2010"
+      },
+      "solution_evidence": "8 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/a7a5cbe1c467-4016204-task-cript-11-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:47.597869+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/16cd809dd8ad-4016204-ans-cript-11-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:47.609248+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/dd9f1cee7004-4016204-task-cript-11-final-14-5.pdf",
+      "date": "2026-10-23T10:10:47.624544+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/0169d74351a3-4016204-ans-cript-11-final-14-5.pdf",
+      "date": "2026-10-23T10:10:47.640907+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/9291cd0273f8-3040167-tasks-cryp-11-final-12-3.pdf",
+      "date": "2026-10-23T10:10:47.648983+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/d2c41f4989bf-3040167-ans-cryp-11-final-12-3.pdf",
+      "date": "2026-10-23T10:10:47.660336+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/661d202e84e0-4016204-task-cript-9-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:48.402540+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/c5597c3cb674-4016204-ans-cript-9-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:48.411608+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/1be72b6342d4-4016204-task-cript-9-final-14-5.pdf",
+      "date": "2026-10-23T10:10:48.425583+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/887c3ceb7beb-4016204-ans-cript-9-final-14-5.pdf",
+      "date": "2026-10-23T10:10:48.439234+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/4eca0aeea219-4016204-task-cript-10-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:48.447056+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/f2a3df265796-4016204-ans-cript-10-otbor-14-5.pdf",
+      "date": "2026-10-23T10:10:48.457021+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/e99517b3d927-4016204-task-cript-10-final-14-5.pdf",
+      "date": "2026-10-23T10:10:48.468995+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/c9dcff9fad35-3040167-tasks-cryp-10-final-12-3.pdf",
+      "date": "2026-10-23T10:10:48.495708+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/308865b0bdbf-3040167-ans-cryp-10-final-12-3.pdf",
+      "date": "2026-10-23T10:10:48.511600+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/924ee53e6a60-443-krit-math-6-11-otbor-24-25.pdf",
+      "date": "2026-10-23T10:13:32.634119+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks_and_solutions"
+      },
+      "updated": {
+        "document_type": "marking_scheme"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/368eecfa092f-443-krit-math-10-11-final-24-25.pdf",
+      "date": "2026-10-23T10:13:32.647980+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks_and_solutions"
+      },
+      "updated": {
+        "document_type": "marking_scheme"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/199c2ce1b1e3-443-krit-math-6-11-final-23-24.pdf",
+      "date": "2026-10-23T10:13:32.685885+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks_and_solutions"
+      },
+      "updated": {
+        "document_type": "marking_scheme"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/8644e4eec7db-443-krit-math-6-11-final-22-23.pdf",
+      "date": "2026-10-23T10:13:32.733569+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks_and_solutions"
+      },
+      "updated": {
+        "document_type": "marking_scheme"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/0aec95f6a9c6-443-krit-math-6-7-final-24-25.pdf",
+      "date": "2026-10-23T10:13:32.771895+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks_and_solutions"
+      },
+      "updated": {
+        "document_type": "marking_scheme"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/b90196ff81db-443-krit-math-8-9-final-24-25.pdf",
+      "date": "2026-10-23T10:13:32.804927+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks_and_solutions"
+      },
+      "updated": {
+        "document_type": "marking_scheme"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/0d5c91793239-23219692-krit-math-6-11-otbor-21-22.pdf",
+      "date": "2026-10-23T10:13:32.947352+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks_and_solutions"
+      },
+      "updated": {
+        "document_type": "marking_scheme"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "spbu",
+      "path": "olympiads/russia/spbu/documents/4e6b91e195b3-23219692-krit-math-6-11-final-21-22.pdf",
+      "date": "2026-10-23T10:13:32.961253+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks_and_solutions"
+      },
+      "updated": {
+        "document_type": "marking_scheme"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/3b1cfe179fec-kriterii_rosatom_zaklyuchitelnyy_25_26_1.pdf",
+      "date": "2026-10-23T10:13:33.352701+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "solutions",
+        "document_role": null
+      },
+      "updated": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    }
+  ],
+  "errors": []
+}

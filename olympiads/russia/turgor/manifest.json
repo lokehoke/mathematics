@@ -37,7 +37,7 @@
       "year": "1980/2004",
       "stage": null,
       "classes": null,
-      "document_type": "mathematics_material",
+      "document_type": "tasks",
       "label": "ьФП ЦЕ БТИЙЧ, ЪБРБЛПЧБООЩК Zip-ПН",
       "heading": "нЕЦДХОБТПДОЩК НБФЕНБФЙЮЕУЛЙК фХТОЙТ зПТПДПЧ",
       "status": "downloaded",
@@ -52,7 +52,35 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "covers_years": [
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004
+      ],
+      "coverage_evidence": "Preserved ZIP contains tgarhiv.htm titled Turniri Gorodov 1 - 25 (1980-2004), with problem statements."
     },
     {
       "url": "https://olympiads.mccme.ru/turgor/20/turgor20.zip",
@@ -222,12 +250,14 @@
       "local_path": "olympiads/russia/turgor/indexes/c619cddeea6e-allproblems.php.html",
       "sha256": "5231e5a2865fe1ca6905b64199351cdfe24009a34cbeeddc13cac5c67665ff72",
       "bytes": 60576,
-      "document_type": "tasks_or_solutions_html",
+      "document_type": "index",
       "year": "1980/2026",
       "stage": null,
       "classes": null,
       "label": "",
-      "heading": "Все задачи всех турниров (с первого по сорок седьмой) за 1980-2026 годы"
+      "heading": "Все задачи всех турниров (с первого по сорок седьмой) за 1980-2026 годы",
+      "document_role": "archive_index",
+      "classification_evidence": "Contains annual archive navigation and links to variants; not the problem statements."
     },
     {
       "url": "https://turgor.ru/problems/probl_begin.php",
@@ -282,12 +312,14 @@
       "local_path": "olympiads/russia/turgor/indexes/239bdd6d17e1-allproblems.php.html",
       "sha256": "733e14f2c13429c80ae91fce97d3687eb262d482e5b7f21bd865e9b0a5d9e2e2",
       "bytes": 48935,
-      "document_type": "tasks_or_solutions_html",
+      "document_type": "index",
       "year": "1980/2023",
       "stage": null,
       "classes": null,
       "label": "",
-      "heading": "All problems of all the Tournaments (from the first to fourty fifth), 1980-2023"
+      "heading": "All problems of all the Tournaments (from the first to fourty fifth), 1980-2023",
+      "document_role": "archive_index",
+      "classification_evidence": "Contains annual archive navigation and links to variants; not the problem statements."
     },
     {
       "url": "https://turgor.ru/problems/35/index.php",
@@ -927,12 +959,14 @@
       "local_path": "olympiads/russia/turgor/indexes/d17e18ee70a2-allproblems.php.html",
       "sha256": "5231e5a2865fe1ca6905b64199351cdfe24009a34cbeeddc13cac5c67665ff72",
       "bytes": 60576,
-      "document_type": "tasks_or_solutions_html",
+      "document_type": "index",
       "year": "1980/2026",
       "stage": null,
       "classes": null,
       "label": "",
-      "heading": "Все задачи всех турниров (с первого по сорок седьмой) за 1980-2026 годы"
+      "heading": "Все задачи всех турниров (с первого по сорок седьмой) за 1980-2026 годы",
+      "document_role": "archive_index",
+      "classification_evidence": "Contains annual archive navigation and links to variants; not the problem statements."
     },
     {
       "url": "https://www.turgor.ru/en/problems/36/index.php",
@@ -6343,12 +6377,14 @@
       "local_path": "olympiads/russia/turgor/indexes/808ef7d3cfbf-allproblems.php.html",
       "sha256": "733e14f2c13429c80ae91fce97d3687eb262d482e5b7f21bd865e9b0a5d9e2e2",
       "bytes": 48935,
-      "document_type": "tasks_or_solutions_html",
+      "document_type": "index",
       "year": "1980/2023",
       "stage": null,
       "classes": null,
       "label": "",
-      "heading": "All problems of all the Tournaments (from the first to fourty fifth), 1980-2023"
+      "heading": "All problems of all the Tournaments (from the first to fourty fifth), 1980-2023",
+      "document_role": "archive_index",
+      "classification_evidence": "Contains annual archive navigation and links to variants; not the problem statements."
     },
     {
       "url": "https://www.turgor.ru/problems/34/res_mos.php",
@@ -50688,12 +50724,14 @@
       "local_path": "olympiads/russia/turgor/indexes/93c16ba87996-allproblems.php.html",
       "sha256": "733e14f2c13429c80ae91fce97d3687eb262d482e5b7f21bd865e9b0a5d9e2e2",
       "bytes": 48935,
-      "document_type": "tasks_or_solutions_html",
+      "document_type": "index",
       "year": "1980/2023",
       "stage": null,
       "classes": null,
       "label": "",
-      "heading": "All problems of all the Tournaments (from the first to fourty fifth), 1980-2023"
+      "heading": "All problems of all the Tournaments (from the first to fourty fifth), 1980-2023",
+      "document_role": "archive_index",
+      "classification_evidence": "Contains annual archive navigation and links to variants; not the problem statements."
     },
     {
       "url": "https://www.turgor.ru/problems/34/stat.php",

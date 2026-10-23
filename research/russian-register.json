@@ -140,8 +140,8 @@
           "id": "bibn",
           "manifest": "olympiads/russia/bibn/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 117,
-          "failed_documents": 4,
+          "downloaded_materials": 325,
+          "failed_documents": 23,
           "failed_pages": 5
         }
       ]
@@ -209,8 +209,8 @@
           "id": "mmo",
           "manifest": "olympiads/russia/mmo/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 182,
-          "failed_documents": 20,
+          "downloaded_materials": 235,
+          "failed_documents": 34,
           "failed_pages": 32
         }
       ]
@@ -278,8 +278,8 @@
           "id": "lomonosov",
           "manifest": "olympiads/russia/lomonosov/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 15,
-          "failed_documents": 13,
+          "downloaded_materials": 128,
+          "failed_documents": 49,
           "failed_pages": 0
         }
       ]
@@ -301,8 +301,8 @@
           "id": "pvg",
           "manifest": "olympiads/russia/pvg/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 13,
-          "failed_documents": 38,
+          "downloaded_materials": 128,
+          "failed_documents": 66,
           "failed_pages": 2
         }
       ]
@@ -394,8 +394,8 @@
           "id": "spbu",
           "manifest": "olympiads/russia/spbu/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 6,
-          "failed_documents": 0,
+          "downloaded_materials": 86,
+          "failed_documents": 2,
           "failed_pages": 0
         }
       ]
@@ -417,8 +417,8 @@
           "id": "spbu",
           "manifest": "olympiads/russia/spbu/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 6,
-          "failed_documents": 0,
+          "downloaded_materials": 86,
+          "failed_documents": 2,
           "failed_pages": 0
         }
       ],
@@ -487,8 +487,8 @@
           "id": "rosatom",
           "manifest": "olympiads/russia/rosatom/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 96,
-          "failed_documents": 0,
+          "downloaded_materials": 348,
+          "failed_documents": 3,
           "failed_pages": 0
         }
       ]
@@ -533,7 +533,7 @@
           "id": "turgor",
           "manifest": "olympiads/russia/turgor/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 2775,
+          "downloaded_materials": 2770,
           "failed_documents": 98,
           "failed_pages": 101
         }
@@ -579,8 +579,8 @@
           "id": "belchonok",
           "manifest": "olympiads/russia/belchonok/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 99,
-          "failed_documents": 33,
+          "downloaded_materials": 256,
+          "failed_documents": 37,
           "failed_pages": 0
         }
       ]

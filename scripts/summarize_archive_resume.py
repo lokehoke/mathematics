@@ -16,7 +16,7 @@ BASELINE=ROOT/'research/archive-resume-baseline-2026-10-22.json'
 TYPES={'tasks':'problems','tasks_and_solutions':'problems_and_solutions',
        'tasks_or_solutions_html':'unclassified_mathematics_html',
        'mathematics_material':'unclassified_mathematics_material'}
-ADMIN=re.compile(r'protocol|protokol|(?:^|[/_-])prots|jury\.pdf|program(?:ma|m|_)|программ|положени|регламент|согласие|персональн|список\s+(?:побед|приз|участ)|регистрац|результат|winners|statistic|poster|flyer|logo|/doc/norm/|/diplom',re.I)
+ADMIN=re.compile(r'competitionrules|protocol|protokol|(?:^|[/_-])prots|jury\.pdf|program(?:ma|m|_)|программ|положени|регламент|согласие|персональн|список\s+(?:побед|приз|участ)|регистрац|результат|winners|statistic|poster|flyer|logo|/doc/norm/|/diplom',re.I)
 POS=re.compile(r'задач|задани|услов|решени|ответ|problem|solution|question|marking',re.I)
 
 def loads(p): return json.loads(p.read_text())
@@ -44,7 +44,8 @@ def normalized(x):
     url=r.get('url',r.get('source',''))
     label=r.get('label','');s=unquote(url+' '+label).replace('\xad','')
     category='material';reason=None
-    if typ=='index' or r.get('document_role')=='archive_index': category='index'
+    if typ=='administrative' or r.get('document_role')=='administrative':category='administrative'
+    elif typ=='index' or r.get('document_role')=='archive_index': category='index'
     elif typ in ('leader_report_candidate','leader_report_without_verified_papers'):
         category='supplementary_reading';reason='Delegation report not verified to reproduce contest statements.'
     elif re.search(r'\.xlsx?(?:\.zip)?$',urlsplit(url).path,re.I):
@@ -74,7 +75,7 @@ def normalized(x):
             category='supplementary_reading';reason='General probability curriculum/lesson page rather than an olympiad archive page.'
     success=r.get('status')=='downloaded' and x.get('file_exists',False)
     return dict(region=region,contest=cid,source_contest=r.get('contest'),source_url=url,
-        source_page=r.get('source_page'),manifest=x['manifest'],path=path,
+        source_page=r.get('source_page'),source_status=r.get('source_status'),source_authority=r.get('source_authority'),final_url=r.get('final_url'),derived_retrieval_url=r.get('derived_retrieval_url'),manifest=x['manifest'],path=path,
         sha256=r.get('sha256'),year=r.get('year'),covers_years=r.get('covers_years',[]),
         covers_contests=r.get('covers_contests',[]),stage=r.get('stage',r.get('round')),
         classes=r.get('classes',r.get('age_group')),document_type=typ,
@@ -102,6 +103,7 @@ def years_of(rows):
     ys=set()
     for r in rows:
         ys.update(r.get('covers_years',[]))
+        if r.get('covers_years'):continue
         text=str(r.get('year',''))
         match=re.fullmatch(r'((?:19|20)\d{2})(?:[/-]((?:19|20)?\d{2}))?',text)
         if match:
@@ -117,8 +119,11 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--date', default='2026-10-22', help='Date label for this pass; historical reports are preserved.')
     parser.add_argument('--baseline', help='Baseline JSON captured from pre-pass manifests.')
+    parser.add_argument('--suffix', default='', help='Distinct report label, preserving earlier passes.')
     args=parser.parse_args()
+    if args.suffix and not re.fullmatch(r'[a-z0-9-]+',args.suffix):parser.error('Invalid suffix')
     stamp=datetime.date.fromisoformat(args.date).isoformat()
+    stamp += ('-'+args.suffix) if args.suffix else ''
     BASELINE=ROOT/(args.baseline or f'research/archive-resume-baseline-{stamp}.json')
     previous_path=ROOT/f'research/archive-resume-summary-{stamp}.json'
     previous=loads(previous_path) if previous_path.exists() else None
@@ -162,6 +167,7 @@ def main():
         m=loads(p)
         index_errors.extend(dict(contest=p.parent.name,**r) for r in m.get('failures',[]))
         index_errors.extend(dict(contest=p.parent.name,**r) for r in m.get('public_api_failures',[]))
+        index_errors.extend(dict(contest=p.parent.name,**r) for r in m.get('secondary_archive_pass',{}).get('failures',[]))
         pending_discovered.extend(dict(contest_id=p.parent.name,**r) for r in m.get('pending_documents',[]))
     queue=dict(created_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
         active_download_processes=[],failed_or_unavailable_records=[r for r in now if r['status']!='downloaded'],
