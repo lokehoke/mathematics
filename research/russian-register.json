@@ -37,8 +37,7 @@
           "status": "downloaded_partial",
           "downloaded_materials": 133,
           "failed_documents": 0,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ]
     },
@@ -59,10 +58,9 @@
           "id": "vsesib",
           "manifest": "olympiads/russia/vsesib/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 191,
+          "downloaded_materials": 192,
           "failed_documents": 0,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ]
     },
@@ -94,10 +92,11 @@
       "archive_discovery": [
         {
           "id": "innopolis",
+          "manifest": "olympiads/russia/innopolis/manifest.json",
           "status": "downloaded_partial",
           "downloaded_materials": 21,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
-          "failed_documents": 0
+          "failed_documents": 0,
+          "failed_pages": 0
         }
       ]
     },
@@ -116,10 +115,11 @@
       "archive_discovery": [
         {
           "id": "izumrud",
+          "manifest": "olympiads/russia/izumrud/manifest.json",
           "status": "downloaded_partial",
           "downloaded_materials": 8,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
-          "failed_documents": 0
+          "failed_documents": 0,
+          "failed_pages": 0
         }
       ]
     },
@@ -138,7 +138,11 @@
       "archive_discovery": [
         {
           "id": "bibn",
-          "status": "official_source_discovered_download_pending"
+          "manifest": "olympiads/russia/bibn/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 117,
+          "failed_documents": 4,
+          "failed_pages": 5
         }
       ]
     },
@@ -157,7 +161,11 @@
       "archive_discovery": [
         {
           "id": "verchenko",
-          "status": "official_source_discovered_download_pending"
+          "manifest": "olympiads/russia/verchenko/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 116,
+          "failed_documents": 18,
+          "failed_pages": 2
         }
       ]
     },
@@ -176,10 +184,11 @@
       "archive_discovery": [
         {
           "id": "mos_probability",
+          "manifest": "olympiads/russia/mos_probability/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 98,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
-          "failed_documents": 95
+          "downloaded_materials": 121,
+          "failed_documents": 95,
+          "failed_pages": 2
         }
       ]
     },
@@ -200,10 +209,9 @@
           "id": "mmo",
           "manifest": "olympiads/russia/mmo/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 176,
+          "downloaded_materials": 182,
           "failed_documents": 20,
-          "failed_pages": 33,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 32
         }
       ]
     },
@@ -224,10 +232,9 @@
           "id": "ommo",
           "manifest": "olympiads/russia/ommo/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 71,
-          "failed_documents": 3,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "downloaded_materials": 72,
+          "failed_documents": 13,
+          "failed_pages": 4
         }
       ]
     },
@@ -250,8 +257,7 @@
           "status": "downloaded_partial",
           "downloaded_materials": 65,
           "failed_documents": 1,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ]
     },
@@ -274,8 +280,7 @@
           "status": "downloaded_partial",
           "downloaded_materials": 15,
           "failed_documents": 13,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ]
     },
@@ -296,10 +301,9 @@
           "id": "pvg",
           "manifest": "olympiads/russia/pvg/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 12,
-          "failed_documents": 33,
-          "failed_pages": 2,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "downloaded_materials": 13,
+          "failed_documents": 38,
+          "failed_pages": 2
         }
       ]
     },
@@ -320,10 +324,9 @@
           "id": "phystech",
           "manifest": "olympiads/russia/phystech/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 27,
+          "downloaded_materials": 34,
           "failed_documents": 0,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ]
     },
@@ -344,10 +347,9 @@
           "id": "phystech",
           "manifest": "olympiads/russia/phystech/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 27,
+          "downloaded_materials": 34,
           "failed_documents": 0,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ],
       "scope_note": "Mixed official profile. Only separately identifiable mathematics documents may be downloaded; no claim that this profile is a pure mathematics olympiad."
@@ -371,8 +373,7 @@
           "status": "downloaded_partial",
           "downloaded_materials": 161,
           "failed_documents": 0,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ]
     },
@@ -395,8 +396,7 @@
           "status": "downloaded_partial",
           "downloaded_materials": 6,
           "failed_documents": 0,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ]
     },
@@ -419,8 +419,7 @@
           "status": "downloaded_partial",
           "downloaded_materials": 6,
           "failed_documents": 0,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ],
       "scope_note": "Mixed official profile. Only separately identifiable mathematics documents may be downloaded; no claim that this profile is a pure mathematics olympiad."
@@ -444,8 +443,7 @@
           "status": "downloaded_partial",
           "downloaded_materials": 207,
           "failed_documents": 1,
-          "failed_pages": 1,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 1
         }
       ]
     },
@@ -464,7 +462,11 @@
       "archive_discovery": [
         {
           "id": "itmo",
-          "status": "official_source_discovered_download_pending"
+          "manifest": "olympiads/russia/itmo/manifest.json",
+          "status": "downloaded_partial",
+          "downloaded_materials": 11,
+          "failed_documents": 0,
+          "failed_pages": 0
         }
       ]
     },
@@ -487,8 +489,7 @@
           "status": "downloaded_partial",
           "downloaded_materials": 96,
           "failed_documents": 0,
-          "failed_pages": 0,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 0
         }
       ]
     },
@@ -511,8 +512,7 @@
           "status": "downloaded_partial",
           "downloaded_materials": 398,
           "failed_documents": 0,
-          "failed_pages": 1,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "failed_pages": 1
         }
       ]
     },
@@ -533,10 +533,9 @@
           "id": "turgor",
           "manifest": "olympiads/russia/turgor/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 1313,
-          "failed_documents": 206,
-          "failed_pages": 5,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory"
+          "downloaded_materials": 2775,
+          "failed_documents": 98,
+          "failed_pages": 101
         }
       ]
     },
@@ -555,10 +554,11 @@
       "archive_discovery": [
         {
           "id": "turlom",
+          "manifest": "olympiads/russia/turlom/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 45,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
-          "failed_documents": 3
+          "downloaded_materials": 79,
+          "failed_documents": 24,
+          "failed_pages": 132
         }
       ]
     },
@@ -577,10 +577,11 @@
       "archive_discovery": [
         {
           "id": "belchonok",
+          "manifest": "olympiads/russia/belchonok/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 66,
-          "counting_method": "accepted mathematical materials, SHA-256 deduplicated; see unified inventory",
-          "failed_documents": 0
+          "downloaded_materials": 99,
+          "failed_documents": 33,
+          "failed_pages": 0
         }
       ]
     }
@@ -736,7 +737,5 @@
       "text": "The linked university example is for admission2026, while the register is for academic year2026/27. Do not present the example as the university rules for admission2027.",
       "source_url": "https://pk.cs.msu.ru/privilege"
     }
-  ],
-  "archive_inventory_updated_at": "2026-10-22T17:20:55.761910+00:00",
-  "archive_summary": "research/archive-resume-summary-2026-10-22.json"
+  ]
 }

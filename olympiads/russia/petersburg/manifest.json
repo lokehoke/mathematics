@@ -2,8 +2,8 @@
   "contest": "Санкт-Петербургская олимпиада по математике",
   "id": "petersburg",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:20.699927+00:00",
-  "updated_at": "2026-10-22T15:41:22.354676+00:00",
+  "started_at": "2026-10-23T09:00:06.759463+00:00",
+  "updated_at": "2026-10-23T09:00:08.845197+00:00",
   "scope": {
     "name": "Санкт-Петербургская олимпиада по математике",
     "seeds": [
@@ -41,14 +41,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2025/problems.html",
@@ -63,14 +56,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2024/problems.html",
@@ -85,14 +71,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2023/problems.html",
@@ -107,14 +86,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2022/problems.html",
@@ -129,14 +101,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2021/problems.html",
@@ -151,14 +116,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2020/problems.html",
@@ -173,14 +131,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2019/problems.html",
@@ -195,14 +146,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2018/problems.html",
@@ -217,14 +161,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2017/problems.html",
@@ -239,14 +176,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2016/problems.html",
@@ -261,14 +191,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2015/problems.html",
@@ -283,14 +206,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2014/problems.html",
@@ -305,14 +221,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2013/problems.html",
@@ -327,14 +236,7 @@
       "stage": "regional",
       "classes": null,
       "label": "",
-      "heading": "Региональный этап Всероссийской олимпиады",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Региональный этап Всероссийской олимпиады"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2012/problems.html",
@@ -349,14 +251,7 @@
       "stage": "regional",
       "classes": null,
       "label": "",
-      "heading": "Региональный этап Всероссийской олимпиады",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Региональный этап Всероссийской олимпиады"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2011/problems.html",
@@ -371,14 +266,7 @@
       "stage": null,
       "classes": "9-11",
       "label": "",
-      "heading": "9-11 классы",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "9-11 классы"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2010/problems.html",
@@ -393,14 +281,7 @@
       "stage": "regional",
       "classes": null,
       "label": "",
-      "heading": "Региональный этап Всероссийской олимпиады",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Региональный этап Всероссийской олимпиады"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2009/problems.html",
@@ -415,14 +296,7 @@
       "stage": "regional",
       "classes": null,
       "label": "",
-      "heading": "Региональный этап Всероссийской олимпиады и олимпиады имени Эйлера",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Региональный этап Всероссийской олимпиады и олимпиады имени Эйлера"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2008/problems.html",
@@ -437,14 +311,7 @@
       "stage": "qualifying",
       "classes": null,
       "label": "",
-      "heading": "Отборочный тур",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Отборочный тур"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2007/problems.html",
@@ -459,14 +326,7 @@
       "stage": "qualifying",
       "classes": null,
       "label": "",
-      "heading": "Отборочный тур",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Отборочный тур"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2006/problems.html",
@@ -481,14 +341,7 @@
       "stage": "qualifying",
       "classes": null,
       "label": "",
-      "heading": "Отборочный тур",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Отборочный тур"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2005/problems.html",
@@ -503,14 +356,7 @@
       "stage": "qualifying",
       "classes": null,
       "label": "",
-      "heading": "Отборочный тур",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Отборочный тур"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2004/problems.html",
@@ -525,14 +371,7 @@
       "stage": "qualifying",
       "classes": null,
       "label": "",
-      "heading": "Отборочный тур",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Отборочный тур"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2003/problems.html",
@@ -547,14 +386,7 @@
       "stage": "qualifying",
       "classes": null,
       "label": "",
-      "heading": "Отборочный тур",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Отборочный тур"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2002/problems.html",
@@ -569,14 +401,7 @@
       "stage": "qualifying",
       "classes": null,
       "label": "",
-      "heading": "Отборочный тур",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Отборочный тур"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2001/problems.html",
@@ -591,14 +416,7 @@
       "stage": "qualifying",
       "classes": null,
       "label": "",
-      "heading": "Отборочный тур",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "Отборочный тур"
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2001/problems/city68_01.ps.gz",
@@ -613,14 +431,7 @@
       "stage": null,
       "classes": null,
       "label": "",
-      "heading": "",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": ""
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/2001/problems/city911_01.ps.gz",
@@ -635,14 +446,7 @@
       "stage": null,
       "classes": null,
       "label": "",
-      "heading": "",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": ""
     },
     {
       "url": "http://www.pdmi.ras.ru/~olymp/page605.zip",
@@ -11750,10 +11554,10 @@
       "ok": false,
       "url": "https://www.pdmi.ras.ru/~olymp/",
       "status": null,
-      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)>"
+      "error": "HTTP 0; curl 60: curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n"
     }
   ],
-  "discovered_documents": 367,
+  "discovered_documents": 398,
   "pending_pages": 0,
   "pending_documents": []
 }

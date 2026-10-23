@@ -2,8 +2,8 @@
   "contest": "Московская олимпиада по вероятности и статистике",
   "id": "mos_probability",
   "subject": "mathematics",
-  "started_at": "2026-10-22T16:06:34.497993+00:00",
-  "updated_at": "2026-10-22T16:08:54.351792+00:00",
+  "started_at": "2026-10-23T09:08:00.017983+00:00",
+  "updated_at": "2026-10-23T09:08:25.878794+00:00",
   "scope": {
     "name": "Московская олимпиада по вероятности и статистике",
     "seeds": [
@@ -1114,14 +1114,7 @@
       "heading": "Кружок по теории вероятностей",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zanyatie_20.pdf",
@@ -1161,14 +1154,7 @@
       "heading": "Кружок по теории вероятностей",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zanyatie_21.pdf",
@@ -1208,14 +1194,7 @@
       "heading": "Кружок по теории вероятностей",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zanyatie_22.pdf",
@@ -1280,14 +1259,7 @@
       "heading": "Кружок по теории вероятностей",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zanyatie_24_0.pdf",
@@ -1327,14 +1299,7 @@
       "heading": "Кружок по теории вероятностей",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zanyatie_25.pdf",
@@ -1374,14 +1339,7 @@
       "heading": "Кружок по теории вероятностей",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zanyatie_26.pdf",
@@ -1421,14 +1379,7 @@
       "heading": "Кружок по теории вероятностей",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/dlya_stranichki_na_sayte_1.pdf",
@@ -1468,14 +1419,7 @@
       "heading": "",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/feller_1.rar",
@@ -3615,14 +3559,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems_and_solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/ii_solutions2009.pdf",
@@ -3637,14 +3574,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems_and_solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/iii_solutions2010.pdf",
@@ -3659,14 +3589,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems_and_solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/iv_problems2011.pdf",
@@ -3681,14 +3604,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/iv_problems2011.pdf",
@@ -3703,14 +3619,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/iv_solutions2011.pdf",
@@ -3725,14 +3634,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/v_problems2012.pdf",
@@ -3747,14 +3649,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/v_problems2012.pdf",
@@ -3769,14 +3664,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/v_solutions2012.pdf",
@@ -3791,14 +3679,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/vi_problems2013.pdf",
@@ -3813,14 +3694,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/vi_problems2013.pdf",
@@ -3835,14 +3709,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/vi_solutions2013.pdf",
@@ -3857,14 +3724,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/vii_problems2014.pdf",
@@ -3879,14 +3739,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/vii_problems2014.pdf",
@@ -3901,14 +3754,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/vii_solutions2014.pdf",
@@ -3923,14 +3769,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/viii_problems2015.pdf",
@@ -3945,14 +3784,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/viii_problems2015.pdf",
@@ -3967,14 +3799,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/viii_solutions2015.pdf",
@@ -3989,14 +3814,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/ix_problems2016.pdf",
@@ -4511,14 +4329,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/system/files/private/essays_xvi.pdf",
@@ -4533,14 +4344,7 @@
       "heading": "Архив основного тура с 2008 г. для скачивания файлов требуется регистрация",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/prigl_tur_18.11_var_1.pdf",
@@ -4555,14 +4359,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/prigl_tur_18.11_var_2.pdf",
@@ -4577,14 +4374,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/prigl_tur_18.11_otvety_resheniya.pdf",
@@ -4599,14 +4389,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/otchyot_po_priglasitelnomu_turu.pdf",
@@ -4621,14 +4404,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/_proekt_zadach_pt_22_var1_26_11_21.pdf",
@@ -4643,14 +4419,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/_proekt_zadach_pt_22_var2_26_11_21.pdf",
@@ -4665,14 +4434,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/_proekt_zadach_pt_22_resheniya_20.11.pdf",
@@ -4687,14 +4449,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/otchyot_po_priglasitelnomu_turu_21_22.pdf",
@@ -4709,14 +4464,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_1_prigl_tur_14_olimp.pdf",
@@ -4731,14 +4479,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_2_prigl_tur_14_olimp.pdf",
@@ -4753,14 +4494,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/resheniya_prigl_tur_14_olimp.pdf",
@@ -4775,14 +4509,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/resheniya_prigl_tur_14_olimp.pdf",
@@ -4797,14 +4524,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/otchyot_prigl_tur_14_olimp.pdf",
@@ -4819,14 +4539,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_1_prigl_tur_13_olimp.pdf",
@@ -4841,14 +4554,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_2_prigl_tur_13_olimp.pdf",
@@ -4863,14 +4569,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/resheniya_prigl_tur_13_olimp.pdf",
@@ -4885,14 +4584,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/otchyot_prigl_tur_13_olimp.pdf",
@@ -4907,14 +4599,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_1_prigl_tur_12_olimp.pdf",
@@ -4929,14 +4614,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_2_prigl_tur_12_olimp.pdf",
@@ -4951,14 +4629,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/resheniya_prigl_tur_12_olimp.pdf",
@@ -4973,14 +4644,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/otchyot_prigl_tur_12_olimp.pdf",
@@ -4995,14 +4659,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_1_prigl_tur_11_olimp.pdf",
@@ -5017,14 +4674,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_2_prigl_tur_11_olimp.pdf",
@@ -5039,14 +4689,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/resheniya_prigl_tur_11_olimp.pdf",
@@ -5061,14 +4704,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/otchyot_prigl_tur_11_olimp.pdf",
@@ -5083,14 +4719,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_1_prigl_tur_10_olimp.pdf",
@@ -5105,14 +4734,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_2_prigl_tur_10_olimp.pdf",
@@ -5127,14 +4749,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/resheniya_prigl_tur_10_olimp.pdf",
@@ -5149,14 +4764,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/otchyot_prigl_tur_10_olimp.pdf",
@@ -5171,14 +4779,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/1_variant_prigl_tur_9_olimp.pdf",
@@ -5193,14 +4794,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/2_variant_prigl_tur_9_olimp.pdf",
@@ -5215,14 +4809,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/resheniya_prigl_tur_9_olimp.pdf",
@@ -5237,14 +4824,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/otchyot_prigl_tur_9_olimp.pdf",
@@ -5259,14 +4839,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_1_prigl_tur_8_olimp_15_god.pdf",
@@ -5281,14 +4854,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/variant_2_prigl_tur_8_olimp_15_god.pdf",
@@ -5303,14 +4869,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/otchyot_prig_tur_8_olimp_15_god.pdf",
@@ -5325,14 +4884,7 @@
       "heading": "Архив Пригласительного тура с 2014 г.",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/tv_otborochnyy_7_s_otvetami.pdf",
@@ -5347,14 +4899,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/tv_resheniya_7.pdf",
@@ -5369,14 +4914,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/tv_otborochnyy_8_9_s_otvetami.pdf",
@@ -5391,14 +4929,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/tv_resheniya_8.pdf",
@@ -5413,14 +4944,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/tv_otborochnyy_10_11_s_otvetami.pdf",
@@ -5435,14 +4959,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/tv_resheniya_9.pdf",
@@ -5457,14 +4974,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/tv_resheniya_10-11_klassy.pdf",
@@ -5479,14 +4989,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/7_klass._usloviya_otvety_i_resheniya.pdf",
@@ -5501,14 +5004,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/ii_mosh_8_klass.pdf",
@@ -5523,14 +5019,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/8-9_klassy._usloviya_otvety_i_resheniya.pdf",
@@ -5545,14 +5034,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/ii_mosh_9_klass.pdf",
@@ -5567,14 +5049,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/10-11_klassy._usloviya_otvety_i_resheniya.pdf",
@@ -5589,14 +5064,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/ii_mosh_10_klass.pdf",
@@ -5611,14 +5079,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/ii_mosh_11_klass.pdf",
@@ -5633,14 +5094,7 @@
       "heading": "Архив МОШ по вероятности и статистике",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/priglasitelnyy_tur._xiv_olimpiada._2020_g._resheniya.pdf",
@@ -8105,14 +7559,7 @@
       "heading": "Зарубежный опыт",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/ies1_rus.pdf",
@@ -8127,14 +7574,7 @@
       "heading": "Зарубежный опыт",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/estrellaeng-esp.rar",
@@ -8149,14 +7589,7 @@
       "heading": "Зарубежный опыт",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/estrellarus.rar",
@@ -8171,14 +7604,7 @@
       "heading": "Зарубежный опыт",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/kakihana.pdf",
@@ -8193,14 +7619,7 @@
       "heading": "Зарубежный опыт",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/kakihana-ru.pdf",
@@ -8215,14 +7634,7 @@
       "heading": "Зарубежный опыт",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/teoriya_veroyatnostey_i_statistika_v_malayzii_1.pdf",
@@ -8237,14 +7649,7 @@
       "heading": "Зарубежный опыт",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/vofem_26_zadacha_zhrebiy.pdf",
@@ -8484,14 +7889,7 @@
       "heading": "Интерактивные таблицы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/binomial.rar",
@@ -8506,14 +7904,7 @@
       "heading": "Интерактивные таблицы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/hypergeom.rar",
@@ -8528,14 +7919,7 @@
       "heading": "Интерактивные таблицы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/exponent.rar",
@@ -8550,14 +7934,7 @@
       "heading": "Интерактивные таблицы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/normal.rar",
@@ -8572,14 +7949,7 @@
       "heading": "Интерактивные таблицы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/poisson.rar",
@@ -8594,14 +7964,7 @@
       "heading": "Интерактивные таблицы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/lwork_1.rar",
@@ -8641,14 +8004,7 @@
       "heading": "Практические работы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/lwork_5.rar",
@@ -8663,14 +8019,7 @@
       "heading": "Практические работы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/bernoully.rar",
@@ -8685,14 +8034,7 @@
       "heading": "Практические работы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "http://ptlab.mccme.ru/system/files/private/buffon.rar",
@@ -8707,14 +8049,7 @@
       "heading": "Практические работы",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "archive_review": {
-        "category": "supplementary_reading",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
-        "sha256_verified": null
-      }
+      "error": "HTTP 403; curl 0: "
     },
     {
       "url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/pr_11_klass_raspredelenie_puassona.rar",
@@ -8815,6 +8150,654 @@
         "reason": "General probability curriculum/lesson page rather than an olympiad archive page.",
         "sha256_verified": null
       }
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_1.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Вводное.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/f074db531888-zanyatie_1.docx",
+      "sha256": "7e958fc8a9503a5e31ac1359fa4b7b93a7c521df4672bc40be0cc25c72d05ebd",
+      "bytes": 25273,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_1.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_2.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "Простейшие задачи с монетами и игральными костями.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/dcfeb9c9519b-zanyatie_2.docx",
+      "sha256": "3e2ee8a620d5d3c2b16046657436de20b508cc90d186e6ea1eca667aae076043",
+      "bytes": 17892,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_2.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_2_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 2.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/a6067f62d0db-zanyatie_2_otv_resh.docx",
+      "sha256": "d8269c6839920d77035df0d85aa46d733b4951c4641d7b4e04a4987fe81e7bf2",
+      "bytes": 23207,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_2_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_3.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Опыты с равновозможными элеметарными исходами.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/31f728b54380-zanyatie_3.docx",
+      "sha256": "1d72032d5fdbdd86c3b730dfe8e477710dda1c833a9a751385073fad4b4cfd1a",
+      "bytes": 16523,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_3.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_3_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к з анятию 3.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/e0370c891e2f-zanyatie_3_otv_resh.docx",
+      "sha256": "cedba1b15685af7fa5e482671c9eba49216ed9ea343e13e385c7d82f1395e594",
+      "bytes": 31801,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_3_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_4.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Диаграммы Эйлера.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/fa8193249e18-zanyatie_4.docx",
+      "sha256": "335a3d388cf2412156e7e8611c82fcdb5b472ee7696459e63cdd44c5283e42ab",
+      "bytes": 57056,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_4.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_4_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 4.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/a4dc9d96fd85-zanyatie_4_otv_resh.docx",
+      "sha256": "70f92fadd4c3087868860226df535ea5d96d8813b92526e56e5263d56d62e352",
+      "bytes": 306646,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_4_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_5.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Дерево случайного эксперимента.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/d7d87ed9d08f-zanyatie_5.docx",
+      "sha256": "bfbd9653021aab1ffaecf17b74851710ab80c4365ad4aa8e6999680d6b552133",
+      "bytes": 132576,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_5.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_5_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 5.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/f8a1b41b74bf-zanyatie_5_otv_resh.docx",
+      "sha256": "dcc2745e9762c95e49e92a2624123ea68e060f6c498a466afa3010a27c72345d",
+      "bytes": 286268,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_5_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_6.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "Дерево случайного эксперимента. Условная вероятность.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/fca71f82c618-zanyatie_6.docx",
+      "sha256": "6e7ce127b971a33c744bb733dd237887a4666385910ad8ee48efa146592eb8ef",
+      "bytes": 51431,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_6.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_6_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и коммента рии к занятию 6 .",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/065e324bcedb-zanyatie_6_otv_resh.docx",
+      "sha256": "d53b3b8f828d13926e448d9a70abe9e2c90a78c897438ee2c414cbdb6b9c373f",
+      "bytes": 180521,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_6_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_7.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Независимые события.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/972c7b4e2a64-zanyatie_7.docx",
+      "sha256": "3a229fc0538d5f7b8e4ad38bca039accbf9b65f6c9ee35bb60a64629133d854d",
+      "bytes": 57579,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_7.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_7_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 7.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/ceffba74e316-zanyatie_7_otv_resh.docx",
+      "sha256": "52c8dfb9b33a26b3bba8476c4603565f31644df1c9ec21c7b0fa08bc0a9b95b8",
+      "bytes": 226652,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_7_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_8.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Геометрическая вероятность.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/6db7bbe2bf56-zanyatie_8.docx",
+      "sha256": "92d28e95a7aa8f9dbfc49d46cae660356a59d13a71a632976c0caa09fce842bf",
+      "bytes": 36369,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_8.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_8_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 8.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/0d92b1889ac7-zanyatie_8_otv_resh.docx",
+      "sha256": "868404ab350338d10888d43436503f2c731d14b5175e0a3b7f07ba32de49d778",
+      "bytes": 145886,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_8_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_9.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Комбинаторика 1. Перестановки, правило умножения. Факториал.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/05d9edde3b94-zanyatie_9.docx",
+      "sha256": "28b000a723f8f02dee154a42f0c1237d181d690c7f340defcc2b97ef3def0aad",
+      "bytes": 66868,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_9.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_9_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 9.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/bbca954df3d3-zanyatie_9_otv_resh.docx",
+      "sha256": "3220ab871ba7b9363a792aaf29b67afc7e6bd94592897cdca3796756a243d66b",
+      "bytes": 280577,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_9_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_10.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Комбинаторика 2. Сочетания, число сочетаний. Выбор из конечного набора.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/f8ea44c0ca66-zanyatie_10.docx",
+      "sha256": "2fae34589109326e8aacdbecbcf03b1dae6b66d9e3b1c7680b3cd6cc9289d187",
+      "bytes": 44956,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_10.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_10_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 10.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/aa38bf4f553d-zanyatie_10_otv_resh.docx",
+      "sha256": "eaea77135f19012aa9be8768609b0eedb6af83b5cb1a9f6cd63727caf6dfba11",
+      "bytes": 186138,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_10_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_11.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "Комбинаторика в вероятностных задачах.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/933f19cea83b-zanyatie_11.docx",
+      "sha256": "70de6e6b7a386b5e82336e434cd8bcebaba0527b9249773b07f3bc9a1ac4f29c",
+      "bytes": 26073,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_11.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_11_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 11.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/e85e3eb37662-zanyatie_11_otv_resh.docx",
+      "sha256": "4287098eff21c3072b5c69a5e831af1990ba0a5c2bc45df429366540402739be",
+      "bytes": 158098,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_11_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_12.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Бинарная случайная величина (индикатор).",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/cf0e4b2e0330-zanyatie_12.docx",
+      "sha256": "64c39dccdbd1a4eb4ac3a8d68c2549a6e0aace9f68de1cbd309b3b5c163a2ef1",
+      "bytes": 64602,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_12.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_12_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию  12.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/8c0773e48658-zanyatie_12_otv_resh.docx",
+      "sha256": "9b629bf03d23565accda0cb562855d60f2f4bf2c82a0951fbbc9c9fb74e66848",
+      "bytes": 222623,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_12_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_13.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Случайные величины и распределения.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/c085fac93144-zanyatie_13.docx",
+      "sha256": "94251c944b6adcb248aeac189bc4db3505fa07e16d39fa348ccefa6e9ffafd69",
+      "bytes": 62958,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_13.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_13_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 13.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/e2822eb60746-zanyatie_13_otv_resh.docx",
+      "sha256": "45955a52595ac36912005266c91881c8c31e73a1614d2ded4cdee5c44a336595",
+      "bytes": 263665,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_13_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_14.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Случайные величины и распределения (продолжение).",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/754287cc1294-zanyatie_14.docx",
+      "sha256": "8e5a47802206a94e21a166597b096280d9e32de8a9b1add5931001304670b29e",
+      "bytes": 50795,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_14.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_14_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 14.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/5c43b43957b2-zanyatie_14_otv_resh.docx",
+      "sha256": "33f613e72ebf6c0f4e276ccd8aaf34b6ff53f7bc4cc32762e4db5a1a4da41734",
+      "bytes": 147666,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_14_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_15.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математическое ожидание",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/a16b08a01b01-zanyatie_15.docx",
+      "sha256": "400d16dc8217eae960d1b7542ffb79bda7ba72db9ff35d9b049d92d42e0ed34f",
+      "bytes": 49499,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_15.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_15_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 15.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/1abc0f176038-zanyatie_15_otv_resh.docx",
+      "sha256": "a7694ee5ae935c32a9eb8eab9018b3593ddfe02161f43080fa1763a1b70ac10c",
+      "bytes": 246379,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_15_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_16.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Дисперсия.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/0d5fd73b5f7c-zanyatie_16.docx",
+      "sha256": "5c9331c7f1d3befcb16b585565a066414ba0dfee194e23b99c017b911af7c9b6",
+      "bytes": 42535,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_16.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_16_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 16.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/885e65c78257-zanyatie_16_otv_resh.docx",
+      "sha256": "6801a8ac6b024d4d725541e2563928e03b9805ab7896e5b38b9479b79d0d4c01",
+      "bytes": 248623,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_16_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_17.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Метод индикаторов.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/11d14dc85a0b-zanyatie_17.docx",
+      "sha256": "31bbed6ae5c2b87238fc2c7ab5f44d636204c5deab0b134d73405ca9ca70399c",
+      "bytes": 23899,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_17.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_17_otv_resh.docx",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/1483",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "Ответы и комментарии к занятию 17.",
+      "heading": "Кружок по теории вероятностей",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/658b4d3d97d0-zanyatie_17_otv_resh.docx",
+      "sha256": "87976a6a424258f18ab99e6616821d4056be12327545f0f7c486df3eab154bd7",
+      "bytes": 161241,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u7492/zanyatie_17_otv_resh.docx"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u6548/middleaxis.zip",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/187",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачали",
+      "heading": "Интерактивные модули",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/744e6b2cb23b-middleaxis.zip",
+      "sha256": "d7a2eeec7ad586ada76633f7a1a82c8eb6940e9bb6f762b4d8addf2faad6855e",
+      "bytes": 44624,
+      "content_type": "application/zip",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u6548/middleaxis.zip"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u6548/boxwithmustache.zip",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/187",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Интерактивные модули",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/e4bd10f14362-boxwithmustache.zip",
+      "sha256": "3fde4e56af96c73ee921a7dabe2346722ad4036f695c30b605d579ceb1028eee",
+      "bytes": 15734,
+      "content_type": "application/zip",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u6548/boxwithmustache.zip"
+    },
+    {
+      "url": "http://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u6548/scatterplot.zip",
+      "contest": "Московская олимпиада по вероятности и статистике",
+      "subject": "mathematics",
+      "source_page": "http://ptlab.mccme.ru/node/187",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Интерактивные модули",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/mos_probability/documents/1d2cf3359809-scatterplot.zip",
+      "sha256": "0185bdbed8b6dfd6f0f244d72c4eeb29237c0a5419c309faa370fd281a30fc25",
+      "bytes": 53404,
+      "content_type": "application/zip",
+      "final_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/u6548/scatterplot.zip"
     }
   ],
   "indexes": [
@@ -9256,16 +9239,16 @@
       "ok": false,
       "url": "http://ptlab.mccme.ru/node/add/question?gids[]=1493",
       "status": 403,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "error": "HTTP 403; curl 0: "
     },
     {
       "ok": false,
       "url": "http://ptlab.mccme.ru/node/add/question?gids[]=330",
       "status": 403,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "error": "HTTP 403; curl 0: "
     }
   ],
-  "discovered_documents": 355,
+  "discovered_documents": 399,
   "pending_pages": 0,
   "pending_documents": [
     {

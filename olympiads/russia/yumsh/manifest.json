@@ -2,8 +2,8 @@
   "contest": "Олимпиада ЮМШ",
   "id": "yumsh",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:34.556775+00:00",
-  "updated_at": "2026-10-22T15:41:37.868896+00:00",
+  "started_at": "2026-10-23T09:00:14.870267+00:00",
+  "updated_at": "2026-10-23T09:00:18.697550+00:00",
   "scope": {
     "name": "Олимпиада ЮМШ",
     "seeds": [
@@ -5065,14 +5065,7 @@
       "heading": "Заочный тур 4-8 классов",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://yumsh.ru/cms/sites/default/files/square_2015_try1.pdf",
@@ -5592,7 +5585,7 @@
       "ok": false,
       "url": "https://yumsh.ru/cms/yumsh-olymp/hand_over",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     }
   ],
   "discovered_documents": 208,

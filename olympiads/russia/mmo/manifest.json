@@ -2,8 +2,8 @@
   "contest": "Московская математическая олимпиада",
   "id": "mmo",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:11:53.996826+00:00",
-  "updated_at": "2026-10-22T15:12:22.583781+00:00",
+  "started_at": "2026-10-23T08:35:26.201205+00:00",
+  "updated_at": "2026-10-23T08:35:51.968572+00:00",
   "scope": {
     "name": "Московская математическая олимпиада",
     "seeds": [
@@ -38,14 +38,7 @@
       "stage": null,
       "classes": null,
       "label": "",
-      "heading": "( в том виде, в котором они были выданы участникам )",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_html",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "heading": "( в том виде, в котором они были выданы участникам )"
     },
     {
       "url": "http://mmo.mccme.ru/2013/Als-3103.pptx",
@@ -62,14 +55,7 @@
       "local_path": "olympiads/russia/mmo/documents/deaa6861141a-Als-3103.pptx.zip",
       "sha256": "7ec72e23059a9a9a83d33627590f1919b4c91ee5dc1ea68ef05c3b80a94dd20e",
       "bytes": 1003572,
-      "content_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": true,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": true
-      }
+      "content_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
     },
     {
       "url": "http://www.math.ru/lib/book/djvu/olimp/bonch36.djvu",
@@ -84,14 +70,7 @@
       "heading": "Книги про ММО  1935–1986",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 502: Bad Gateway"
     },
     {
       "url": "http://www.math.ru/lib/book/djvu/olimp/leman.djvu",
@@ -106,14 +85,7 @@
       "heading": "Книги про ММО  1935–1986",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 502: Bad Gateway"
     },
     {
       "url": "http://www.math.ru/lib/book/djvu/olimp/galperin-tolpygo.djvu",
@@ -128,14 +100,7 @@
       "heading": "Книги про ММО  1935–1986",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 502: Bad Gateway"
     },
     {
       "url": "https://mmo.mccme.ru/books/mmo60-1997.pdf",
@@ -325,14 +290,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/82-08.pdf",
@@ -347,14 +305,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/83-10.pdf",
@@ -369,14 +320,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/84-07_2.pdf",
@@ -391,14 +335,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/84-08.pdf",
@@ -413,14 +350,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/84-09.pdf",
@@ -435,14 +365,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/84-10.pdf",
@@ -457,14 +380,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/85-07_09.pdf",
@@ -479,14 +395,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/85-08_10.pdf",
@@ -501,14 +410,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/86-07.pdf",
@@ -523,14 +425,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/86-08.pdf",
@@ -545,14 +440,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/86-09.pdf",
@@ -567,14 +455,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/86-10.pdf",
@@ -589,14 +470,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/87-07_09.pdf",
@@ -611,14 +485,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/87-08_10.pdf",
@@ -633,14 +500,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/archive/88-08_10.pdf",
@@ -655,14 +515,7 @@
       "heading": "( в том виде, в котором они были выданы участникам )",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://mmo.mccme.ru/1994/94-8-9.pdf",
@@ -5002,14 +4855,7 @@
       "heading": "Окружной тур 28 января 2001",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
   "indexes": [

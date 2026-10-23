@@ -4,12 +4,14 @@
 Requires beautifulsoup4. Reads, never guesses, register IDs/profiles/levels.
 Refresh research/legal/official-source-0.html from the source URL to update.
 """
-import hashlib, json
+import hashlib, json, sys
 from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]
 RESEARCH=ROOT/'research'
+sys.path.insert(0,str(ROOT/'scripts'))
+from summarize_archive_resume import normalized
 SOURCE=RESEARCH/'legal'/'official-source-0.html'
 URL='https://rsr-olymp.ru/archive/2026'
 ARCHIVES={6:['hse'],11:['vsesib'],12:[],16:['innopolis'],19:['izumrud'],20:['bibn'],21:['verchenko'],26:['mmo','mos_probability'],29:['ommo'],30:['kurchatov'],35:['lomonosov'],37:['pvg'],38:['phystech'],39:['shag'],43:['spbu'],45:['yumsh'],47:['itmo'],52:['rosatom'],55:['petersburg'],58:['turgor'],59:['turlom'],60:['belchonok']}
@@ -32,7 +34,7 @@ for tr in soup.select('table.mainTableInfo tbody tr'):
         for cid in row['archive_ids']:
             mf=ROOT/'olympiads'/'russia'/cid/'manifest.json'
             if mf.exists():
-                m=json.loads(mf.read_text());good=[d for d in m.get('documents',[]) if d.get('status')=='downloaded']
+                m=json.loads(mf.read_text());good=[d for d in m.get('documents',[]) if normalized(dict(region='russia',contest_id=cid,manifest=str(mf.relative_to(ROOT)),record=d,file_exists=bool(d.get('local_path') and (ROOT/d['local_path']).is_file())))['accepted_material']]
                 status='downloaded_partial' if good else 'discovered_no_successful_downloads'
                 row['archive_discovery'].append(dict(id=cid,manifest=str(mf.relative_to(ROOT)),status=status,downloaded_materials=len(good),failed_documents=sum(d.get('status')=='failed' for d in m.get('documents',[])),failed_pages=len(m.get('failures',[]))))
             else:row['archive_discovery'].append(dict(id=cid,status='official_source_discovered_download_pending'))

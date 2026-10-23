@@ -2,8 +2,8 @@
   "contest": "САММАТ — математика",
   "id": "sammat",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:22.359140+00:00",
-  "updated_at": "2026-10-22T15:41:34.552976+00:00",
+  "started_at": "2026-10-23T09:00:08.850865+00:00",
+  "updated_at": "2026-10-23T09:00:14.858372+00:00",
   "scope": {
     "name": "САММАТ — математика",
     "seeds": [
@@ -33,13 +33,13 @@
       "ok": false,
       "url": "https://sammat.samgtu.ru/sammat",
       "status": null,
-      "error": "URLError: <urlopen error timed out>"
+      "error": "HTTP 0; curl 28: curl: (28) Connection timeout after 6001 ms\n"
     },
     {
       "ok": false,
       "url": "https://sammat.samgtu.ru/",
       "status": null,
-      "error": "URLError: <urlopen error timed out>"
+      "error": "HTTP 0; curl 28: curl: (28) Connection timeout after 6000 ms\n"
     }
   ],
   "discovered_documents": 0,

@@ -2,8 +2,8 @@
   "contest": "Турнир имени М.В. Ломоносова — математика",
   "id": "turlom",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:42:15.461408+00:00",
-  "updated_at": "2026-10-22T15:58:42.521669+00:00",
+  "started_at": "2026-10-23T09:00:31.615412+00:00",
+  "updated_at": "2026-10-23T09:03:32.238862+00:00",
   "scope": {
     "name": "Турнир имени М.В. Ломоносова — математика",
     "seeds": [
@@ -994,14 +994,7 @@
       "heading": "Задания в формате PostScript",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://olympiads.mccme.ru/turlom/2003/zadanija/matigry.ps",
@@ -1066,14 +1059,7 @@
       "heading": "Задания в формате PostScript",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://olympiads.mccme.ru/turlom/2004/zadanija/matem.pdf",
@@ -1113,14 +1099,7 @@
       "heading": "Задания в формате PDF",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://olympiads.mccme.ru/turlom/2005/zadanija/matem.ps",
@@ -1421,6 +1400,789 @@
         "reason": null,
         "sha256_verified": true
       }
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mat-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mat-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mig-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mig-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mat-reshkrit.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mat-reshkrit.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mig-krit.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mig-krit.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mat-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mat-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mig-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mig-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mat-otv-v2.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mat-otv-v2.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mig-otv.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mig-otv.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/zadanija/tl2014mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2014/zadanija/index.html",
+      "year": "2014",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2014mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/b232cacdf5e6-tl2014mat.pdf",
+      "sha256": "14b0eff9b41fabf79e0c6bc0c2bd9cc0d3f303ec6953a21afd969f3e1be8fd4c",
+      "bytes": 40377,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2014/zadanija/tl2014mat.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/zadanija/tl2014mat-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2014/zadanija/index.html",
+      "year": "2014",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2014mat-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/31b74df3b55a-tl2014mat-en.pdf",
+      "sha256": "7a62001c72726ebef618a2b86ae57d47b030cb2b743295c90bd7f50e542b7aee",
+      "bytes": 27190,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2014/zadanija/tl2014mat-en.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/zadanija/tl2014mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2014/zadanija/index.html",
+      "year": "2014",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2014mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/20f73e9c16fc-tl2014mig.pdf",
+      "sha256": "e7c38d807e51512aa706a5cdbd02882b696e36a7ba57b7453451a0db6aa90e82",
+      "bytes": 45548,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2014/zadanija/tl2014mig.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/zadanija/tl2014mig-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2014/zadanija/index.html",
+      "year": "2014",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2014mig-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/4e3a0f24a749-tl2014mig-en.pdf",
+      "sha256": "077f45dab8c6e78d58ba7c72f23520a59b8c073f985463a58dc291930fcd559b",
+      "bytes": 29055,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2014/zadanija/tl2014mig-en.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2013/zadanija/index.html",
+      "year": "2013",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2013mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/1fd45797c806-tl2013mat.pdf",
+      "sha256": "3973ff39f949221a6576cf01d3c69ffda0085bb238a9874996951c64a5beef65",
+      "bytes": 45137,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mat.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mat-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2013/zadanija/index.html",
+      "year": "2013",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2013mat-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/23b8bbe449e6-tl2013mat-en.pdf",
+      "sha256": "cdc5ec0357e18858b4d871c7ab48751298e1e240ee3f3abe716339a658aaaabc",
+      "bytes": 32781,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mat-en.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2013/zadanija/index.html",
+      "year": "2013",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2013mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/d4dcdf0abbd1-tl2013mig.pdf",
+      "sha256": "9560ab6fbe0e996f2d64cb52d57fe1c8babda50b2b3e73aa1e291fc701cd881b",
+      "bytes": 53260,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mig.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mig-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2013/zadanija/index.html",
+      "year": "2013",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2013mig-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/64f1e1e47937-tl2013mig-en.pdf",
+      "sha256": "c5affe224a18dd835c5483b3b23fd5d9d16b244455d72ab8046046813845af22",
+      "bytes": 36456,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mig-en.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mig-otv.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2013/zadanija/index.html",
+      "year": "2013",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2013mig-otv.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/f096c168087c-tl2013mig-otv.pdf",
+      "sha256": "8b008113f738a4ee2a58fd133f511b3c186b7d6e3ab5eca3bf4a035d9627a90e",
+      "bytes": 118879,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2013/zadanija/tl2013mig-otv.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2012/zadanija/tl2012mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2012/zadanija/index.html",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/22c5af1dd187-tl2012mat.pdf",
+      "sha256": "ee875fed9006f48cc370821ab3cc74280f46263c4366abacf8e00f1d185fb0b9",
+      "bytes": 37268,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2012/zadanija/tl2012mat.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2012/zadanija/tl2012mat-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2012/zadanija/index.html",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mat-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/b769f0cfb32b-tl2012mat-en.pdf",
+      "sha256": "ee3270cd007fadb3e9afc3b221e0507ed6b5929e70ce4e510c12ccca8c756a2f",
+      "bytes": 24922,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2012/zadanija/tl2012mat-en.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2012/zadanija/tl2012mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2012/zadanija/index.html",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/a7968c827e65-tl2012mig.pdf",
+      "sha256": "6c1240bc9918a2ce54396ae04d197e27edd6970d726db4a70676c911cac46874",
+      "bytes": 47131,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2012/zadanija/tl2012mig.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2012/zadanija/tl2012mig-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2012/zadanija/index.html",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mig-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/29dc331956d1-tl2012mig-en.pdf",
+      "sha256": "7ccdba8ad7d607b50d948166f5bfb74ae14f7862403cbd8b46a2b8ff3748dd31",
+      "bytes": 34612,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2012/zadanija/tl2012mig-en.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/zadanija/tl2010mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija/index.html",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/3904cc98eed2-tl2010mat.pdf",
+      "sha256": "f0ab366a3e61a57b98e59ce5790a2e30fc202c1619783f4788847e8af530256f",
+      "bytes": 61686,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2010/zadanija/tl2010mat.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/zadanija/tl2010mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija/index.html",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/33bf798a33c6-tl2010mig.pdf",
+      "sha256": "680e7e50d48e0a52dab0207d3b3b0254ed4dff94c5f0287eb3e46d7cbe293a8e",
+      "bytes": 40999,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2010/zadanija/tl2010mig.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/zadanija/tl2010mat-otv-v3.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija/index.html",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mat-otv-v3.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/e8cdb9108048-tl2010mat-otv-v3.pdf",
+      "sha256": "022e99428879adfd66a16e7f3eb809372156774e8a4e0bc85f9610d09aef4280",
+      "bytes": 293485,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2010/zadanija/tl2010mat-otv-v3.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/zadanija/tl2010mig-otv-kri.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija/index.html",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mig-otv-kri.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/8afd2c6c252e-tl2010mig-otv-kri.pdf",
+      "sha256": "96be8a62ffb8dc37712452066d70cf45b210947df6f9dc636a8c89675ac2f5ca",
+      "bytes": 77676,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2010/zadanija/tl2010mig-otv-kri.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/zadanija/turlom2010-mat-sbornik.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija/index.html",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "turlom2010-mat-sbornik.pdf",
+      "heading": "Предварительные материалы сборника заданий и решений Турнира",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/f320270278a8-turlom2010-mat-sbornik.pdf",
+      "sha256": "8e42efa08350a6ef0c32db9d7cefc18e04517f5cb1b839ad43f2f6db2f3a14ef",
+      "bytes": 225540,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2010/zadanija/turlom2010-mat-sbornik.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/zadanija/turlom2010-mig-sbornik.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija/index.html",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "turlom2010-mig-sbornik.pdf",
+      "heading": "Предварительные материалы сборника заданий и решений Турнира",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/993cb9b8e6f4-turlom2010-mig-sbornik.pdf",
+      "sha256": "9d4ccd3a5e50ea28e6191bd063881516c088aa685c0e81b51ab4b16f5abc7ce5",
+      "bytes": 202962,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2010/zadanija/turlom2010-mig-sbornik.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2011/zadanija/index.html",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/4d47a0311711-tl2011mat.pdf",
+      "sha256": "486151d84d88e633c95dd009a8c59e599dad30ac94b0a7bcda846272a99e11d6",
+      "bytes": 38857,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mat.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mat-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2011/zadanija/index.html",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mat-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/bbe4f333cb4e-tl2011mat-en.pdf",
+      "sha256": "a345a0ee7b2fa954d50419c3ef3df7b67240d68a085722917afd2b18603a591e",
+      "bytes": 35746,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mat-en.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2011/zadanija/index.html",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/09139b846b45-tl2011mig.pdf",
+      "sha256": "d98483d09cba404dc3c2e59dd6c74441f14eadbe6b76984d949de2124d814d38",
+      "bytes": 41019,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mig.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mig-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2011/zadanija/index.html",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mig-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/9654ea85b72f-tl2011mig-en.pdf",
+      "sha256": "4a1b9d5cc826ba407d880f81c2de78592d5a41a2f5f2e1242545f6e50d199f4c",
+      "bytes": 32641,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mig-en.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mig-otv.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2011/zadanija/index.html",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mig-otv.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/691201e5ddba-tl2011mig-otv.pdf",
+      "sha256": "0a9abf4e5ac1628da01478ef0304542419aa2399bc249ddacf16054ec09eccbb",
+      "bytes": 118744,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2011/zadanija/tl2011mig-otv.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/zadanija/matem-resh-chernovik.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2006",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "Задания и решения",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2004/zadanija/matem.ps",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2004/zadanija/zadanija.htm",
+      "year": "2004",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "Задания в формате PostScript",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/bd5e4d9d5472-matem.ps",
+      "sha256": "902a0100b0b786c6983f2530ae40ad014a75a35611bd82a80455422227309659",
+      "bytes": 169259,
+      "content_type": "application/postscript",
+      "final_url": "https://olympiads.mccme.ru/turlom/2004/zadanija/matem.ps"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2004/zadanija/matigry.ps",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2004/zadanija/zadanija.htm",
+      "year": "2004",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математические игры",
+      "heading": "Задания в формате PostScript",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2004/zadanija/matem.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2004/zadanija/zadanija.htm",
+      "year": "2004",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "Задания в формате PDF",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/turlom/documents/da5b3b851067-matem.pdf",
+      "sha256": "2e7ccab03a103ef68a739bee8cc9dc95b0dfedfb19c582b159d448f89b53dd61",
+      "bytes": 39177,
+      "content_type": "application/pdf",
+      "final_url": "https://olympiads.mccme.ru/turlom/2004/zadanija/matem.pdf"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2004/zadanija/matigry.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2004/zadanija/zadanija.htm",
+      "year": "2004",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математические игры",
+      "heading": "Задания в формате PDF",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/tl2010mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/tl2010mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/tl2010mat-otv-v3.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mat-otv-v3.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/tl2010mig-otv-kri.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mig-otv-kri.pdf",
+      "heading": "Ответы и решения, критерии оценок",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/turlom2010-mat-sbornik.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "turlom2010-mat-sbornik.pdf",
+      "heading": "Предварительные материалы сборника заданий и решений Турнира",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/turlom2010-mig-sbornik.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "turlom2010-mig-sbornik.pdf",
+      "heading": "Предварительные материалы сборника заданий и решений Турнира",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
     }
   ],
   "indexes": [
@@ -11743,107 +12505,1451 @@
       "bytes": 39599,
       "status": "downloaded",
       "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/m1.html",
+      "local_path": "olympiads/russia/turlom/indexes/61d1a755713e-m1.html",
+      "sha256": "17ad84940376a87e264de04fe54b3ca6d045ce9b5ff341114f5580aa7582d823",
+      "bytes": 569,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/m5.html",
+      "local_path": "olympiads/russia/turlom/indexes/edabacb5cdd8-m5.html",
+      "sha256": "aa9a1d0ea0ac1bb5ed5ce6b172563cdef0081928d547cff89d5ecfb9f1abb3a4",
+      "bytes": 587,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/m3.html",
+      "local_path": "olympiads/russia/turlom/indexes/8559af345520-m3.html",
+      "sha256": "eaa158245dab529bff1da20beac2205ebd86f0265ad26f30b7e36ae1cf70dd65",
+      "bytes": 598,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/b3.html",
+      "local_path": "olympiads/russia/turlom/indexes/edca99e08813-b3.html",
+      "sha256": "a92bb55a79ef6a0be7b3f0268e0ef356e784f17ccd4726e63e2924f5ec6d8dfb",
+      "bytes": 505,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/b2.html",
+      "local_path": "olympiads/russia/turlom/indexes/8b673cb6b1d8-b2.html",
+      "sha256": "3f7d64d89c34740a5150fea1c7be80135a67deba75c02ba3022beccbf1abb2ef",
+      "bytes": 571,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/b7.html",
+      "local_path": "olympiads/russia/turlom/indexes/000c036279a4-b7.html",
+      "sha256": "1410c92bfe28786c621271898054367f82a7152d1f6000472329fe9bf2d89bbf",
+      "bytes": 1143,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/p2.html",
+      "local_path": "olympiads/russia/turlom/indexes/5e45484f80c0-p2.html",
+      "sha256": "f5f995f7dfb03670fc815e7f0ad7aebc99d6f74dbfc04177e3dbd7d60ba97f0e",
+      "bytes": 784,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/b1.html",
+      "local_path": "olympiads/russia/turlom/indexes/baf26976dd70-b1.html",
+      "sha256": "3c257dbf913aa48615c8f42abefa5e5e73f1ceb9287e4221396a3f812168cb71",
+      "bytes": 484,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/b4.html",
+      "local_path": "olympiads/russia/turlom/indexes/1eef85073d19-b4.html",
+      "sha256": "a108307199c096a2200e2e4c134f1d9f7bddeb97a1e6e51ca3a55d7834576b96",
+      "bytes": 438,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/i3.html",
+      "local_path": "olympiads/russia/turlom/indexes/f0ec96114cbe-i3.html",
+      "sha256": "5b5c3f5329b6fe634b1b710e5114f2c3ae27aa2dbd9fef92a26455466a5b90d5",
+      "bytes": 1381,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/registr.html",
+      "local_path": "olympiads/russia/turlom/indexes/8d23c31206c4-registr.html",
+      "sha256": "65cdedfd620fae8bac7d2bc851c1e5deff2913ef85c962046ed049753a1abac7",
+      "bytes": 2194,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/proved.html",
+      "local_path": "olympiads/russia/turlom/indexes/4bba01e1d378-proved.html",
+      "sha256": "1722d0d526d3294e15cbf3ecc97052e894bffd004f2a2c3df200e2fdb2df5976",
+      "bytes": 9353,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/iturlom/prover.html",
+      "local_path": "olympiads/russia/turlom/indexes/149a16e5c216-prover.html",
+      "sha256": "dad1c592dcd14d342267998a3d8eb1136fdba3b423676a1d779f03aec01bbcee",
+      "bytes": 1894,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2012/iturlom/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/63dc54af3f67-index.html",
+      "sha256": "a33fb07a058f4a28857b751c3137f1d889576493722803d9dc1cc8a2bbc50387",
+      "bytes": 5381,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2011/iturlom/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/1cf85e2ef9da-index.htm.html",
+      "sha256": "a99aa6b28583e38ea1778a8ffa81a9c560b349e4df4f19be6424e0232d783aee",
+      "bytes": 4485,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/iturlom/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/74508d1b3bc1-index.htm.html",
+      "sha256": "e232a3b8f301b905277804d9d3ab764354c5f61fce8754028042d618b362f051",
+      "bytes": 3556,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2008/iturlom/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/11488a708288-index.htm.html",
+      "sha256": "1682026a19c3007732e98af3d34044a3cee5e49ae42c2231603e45b68ca959b7",
+      "bytes": 2430,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2007/iturlom/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/742623cee5bb-index.htm.html",
+      "sha256": "336b462c87f0590a8a08b3cfee13bea73212482427be4a59c9e44bb04efa7605",
+      "bytes": 4092,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/internet.htm",
+      "local_path": "olympiads/russia/turlom/indexes/3ee4892e54c3-internet.htm.html",
+      "sha256": "d12fdba942328ca471fa709791f01f21a93a87ca1a63cddf01afbcbb1df4796c",
+      "bytes": 2942,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/info-status.htm",
+      "local_path": "olympiads/russia/turlom/indexes/19e26973c210-info-status.htm.html",
+      "sha256": "195ae508b58093e14810945043b667a4688770d0ca7364a11fdefc0cd64f5fe6",
+      "bytes": 2836,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/4d5c5b30246d-index.html",
+      "sha256": "24819c4abaa12e9f461afd940e5b3b8eae1665baf15e72166d8bf46fb19101c3",
+      "bytes": 14082,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2013/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/b22addff59a3-index.html",
+      "sha256": "eb7afb74aa0d5059a0b11f1db7a4c9bef5dc4a0a1aef4d3bfdbc859d1c2f27bc",
+      "bytes": 14693,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2012/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/7171f848e15a-index.html",
+      "sha256": "e334a3fb9c50cec310f97cdb857425507158a848ca52840a9cc6a6fa6fba28f1",
+      "bytes": 13157,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2011/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/2e37ac52873e-index.html",
+      "sha256": "818bb94757692859ca14983d72002eae83a738b153b22f13df6eec28eef5987b",
+      "bytes": 12099,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2015/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/1149fbe45dfc-index.html",
+      "sha256": "2c4f04348cfbba43c48f90f3a69f3c37e1b691df56617dc514340e4afe849ddb",
+      "bytes": 3743,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/",
+      "local_path": "olympiads/russia/turlom/indexes/57eb2e738686-index.html",
+      "sha256": "24819c4abaa12e9f461afd940e5b3b8eae1665baf15e72166d8bf46fb19101c3",
+      "bytes": 14082,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/iturlom",
+      "local_path": "olympiads/russia/turlom/indexes/024a8b709176-iturlom.html",
+      "sha256": "c1b9b4d0a48938cc240076cffd71b16c7f49bef9e806bc19f31c4227ff3782bd",
+      "bytes": 5602,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/iturlom/openkonkurs_ru.html",
+      "local_path": "olympiads/russia/turlom/indexes/0ca3a163bb19-openkonkurs_ru.html",
+      "sha256": "756e20439346cf1117288c07722c3d16599af4dd7100a30197d22c730a60858b",
+      "bytes": 8799,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/zadanija/",
+      "local_path": "olympiads/russia/turlom/indexes/97627f2edc1c-index.html",
+      "sha256": "506e5f000450c0b2f0c8206201a81969ccd0173d838bb8cdad4263edc535364a",
+      "bytes": 5440,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/rezultaty/kriterii.htm",
+      "local_path": "olympiads/russia/turlom/indexes/9794f7b759c3-kriterii.htm.html",
+      "sha256": "c1c8095249d5df971cdf912f1b3434ac8be742940ba271349e31d60a722ada53",
+      "bytes": 27240,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/zakrytije/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/b6d4eec45336-index.html",
+      "sha256": "44bc62723c266a9715dc08991cec61b854536c0856cea22f252cceec1144c45c",
+      "bytes": 1850,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/iturlom/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/b9e5ee6e2106-index.html",
+      "sha256": "c1b9b4d0a48938cc240076cffd71b16c7f49bef9e806bc19f31c4227ff3782bd",
+      "bytes": 5602,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2014/iturlom/konkurs.html",
+      "local_path": "olympiads/russia/turlom/indexes/8ba6c366c5f8-konkurs.html",
+      "sha256": "756e20439346cf1117288c07722c3d16599af4dd7100a30197d22c730a60858b",
+      "bytes": 8799,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1978/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/fd23e57df624-index.htm.html",
+      "sha256": "9bcc2d090754ae94beef9e4ff29afd7c2ca8356b260ee10d167f21973c27f268",
+      "bytes": 1509,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1979/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/6d084a03b7e7-index.htm.html",
+      "sha256": "a5497689f00ce1222b13c85b166f7e07b7f3e6befaa4f19393415350bfc2e8d0",
+      "bytes": 5685,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1980/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/6b2f15617b65-index.htm.html",
+      "sha256": "86fd6fb647b8a73a5828acd672b0f4a9a09ce7ec8914c57f121f9afc9f9164e5",
+      "bytes": 9141,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1981/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/376f97fb72c1-index.htm.html",
+      "sha256": "6318069a40f503194af1b070fd6c786ce46feb2a220c7bd78ee37482789fa5d8",
+      "bytes": 11532,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1982/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/9e7b6fb9b298-index.htm.html",
+      "sha256": "4f4a8e4c92a7f2394d3c68719e0d1199af4dd8f813edb98e8d56b31297bdf828",
+      "bytes": 737,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1983/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/7bcc8cca6c85-index.htm.html",
+      "sha256": "df9de11c7751924e30d6702d6be4101c89d213794c6e2c240df15772ea6f693a",
+      "bytes": 8900,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1984/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/111001d9a861-index.htm.html",
+      "sha256": "f2f7a3d76d29407924e98faccad120b45c97c275658610e98ce45c24bc567dd7",
+      "bytes": 737,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1985/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/12c52e2c3d25-index.htm.html",
+      "sha256": "186589f63402e94962eb3a1133e2fd6dbbda91b5e2446b40d2eee121447e3b0e",
+      "bytes": 737,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1986/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/64b62c381f07-index.htm.html",
+      "sha256": "951d37599bb6a760d6fa174bc551d197503936fadc45cbe6a1a8d11c042cb9c5",
+      "bytes": 737,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1987/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/bb6f9618ac43-index.htm.html",
+      "sha256": "a2808ad4cc6588822f8099dcb962b9a905dea41527bbccdeb2e622cbcbf934e0",
+      "bytes": 826,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1988/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/a5cf0da78e56-index.htm.html",
+      "sha256": "d437b77f6aa09208f59787b9208b2fdd4f5e4e143e469dba824c0cbbf37ca206",
+      "bytes": 728,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1989/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/fad69dbecf1e-index.htm.html",
+      "sha256": "d41c6e47275a7a5dc5491288fdd7694f2a8af151e4e4a4e1225c919f45e032d4",
+      "bytes": 728,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1990/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/b0e8621b1a43-index.htm.html",
+      "sha256": "4e30a65e7d8e1a72951b59a298f0ff84ade3170cca1f55bafee7957bb924214c",
+      "bytes": 1778,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1991/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/cb20e891b0aa-index.htm.html",
+      "sha256": "98a2b2933257feb6fdb04adb42db19017b5926afeb509b6e349d3ecd12963e2e",
+      "bytes": 42764,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1992/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/9f418e5bbe00-index.htm.html",
+      "sha256": "e5e8af9adb95af58993003bf2976fe760c251a0b8f0aadba020babb256936c83",
+      "bytes": 640,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1993/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/ae150e057a1c-index.htm.html",
+      "sha256": "6b8026b6e18d99077aa214c886e90553de80d55b82db8d457cdffb06970e1b76",
+      "bytes": 49734,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1994/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/d1a5ea15136c-index.htm.html",
+      "sha256": "9800a1d62ad9ba1fae7b8fc5117c1cb802cf22c0d364ee326684f6b2c1ed7f4a",
+      "bytes": 69099,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1995/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/b5cd25460067-index.htm.html",
+      "sha256": "d8f197881d75e4c948b6d66b357fcc4039cb8a1f6294778485d1f772ee3b9280",
+      "bytes": 78525,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1996/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/cde0ce1b2f28-index.htm.html",
+      "sha256": "5cc17cb35ee410783faa3bdbaf76e6510f50e0723a689d5f7508ef939e806e6d",
+      "bytes": 75775,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1997/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/5c1b7cb61b20-index.htm.html",
+      "sha256": "9be8d2e0195e8c94e600d3cefc154319ca4ea805d74578eb401d89e79a981ca1",
+      "bytes": 99839,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1998/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/fef5b70bb6b1-index.htm.html",
+      "sha256": "7023c7e5506a5fa44d5170709a3901eee438f4f1409245b5854e09818ad830fb",
+      "bytes": 1441,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1999/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/671c2f9654be-index.htm.html",
+      "sha256": "ace3422c01e912f16c4eab08a279ac9ad8b3a5f0044c0acc51d0cf757c234c14",
+      "bytes": 1057,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2000/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/f220eb16ff90-index.htm.html",
+      "sha256": "868487ccfb74bae9eb48d6c6b458ff31de19c8cb9901c708ac9c65e6960d9469",
+      "bytes": 1680,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2001/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/489e472eafd7-index.htm.html",
+      "sha256": "5216a5f1b5e43e25c5c53459943b126af4cc16732740d83141f77dcd05cdd464",
+      "bytes": 1663,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2002/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/16292104052c-index.htm.html",
+      "sha256": "9c723a17c09630a5314518ef0fb387c63bff040acbb25e860f635692871c7d6c",
+      "bytes": 7849,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2003/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/639dfbcefa45-index.htm.html",
+      "sha256": "10dfc91cc2faa58f483511ccdf2ab58c3f7a9eb86707db0307b7d0045697774e",
+      "bytes": 8434,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2004/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/e59f67a27328-index.htm.html",
+      "sha256": "4dcfdda2949adbaab46d21cb68f70089630fb903f8632c5295e3779942697ece",
+      "bytes": 4776,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2005/index.htm",
+      "local_path": "olympiads/russia/turlom/indexes/8e1c3baa608a-index.htm.html",
+      "sha256": "8a4bda14946550275b91bafbfdf4440a93f4beb2956da5cc805a659fbbecd36c",
+      "bytes": 4259,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/fd2c39de309c-index.html",
+      "sha256": "f2e34da0d60eee1a5950624b7ef2cc49fc255b0e9fd87dcf64f1c07bda4a0352",
+      "bytes": 9940,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2007/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/117ee1ee9fb1-index.html",
+      "sha256": "0b0003bebb0596e7d3cbd312ebfd0e6cc2cc353ffd14b2c8d42e57c97a8d2f57",
+      "bytes": 3840,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2008/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/f909b08ab15e-index.html",
+      "sha256": "5d6ca858e629b269ae3971e50060bff32d08c91700a2a16cec5deb2625e40354",
+      "bytes": 10026,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2009/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/7ec5bbb372df-index.html",
+      "sha256": "733bbf264e06ec15984eb844b26f45a343cef6f2bf89fbc4029aa637cd0c7de2",
+      "bytes": 20429,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/index.html",
+      "local_path": "olympiads/russia/turlom/indexes/6647dbfeb2b7-index.html",
+      "sha256": "81e5b05c5414ca559a80cb9000effd0c8133b6a6528999a7c7d675792b660162",
+      "bytes": 19135,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/1997-2008-factorial",
+      "local_path": "olympiads/russia/turlom/indexes/abde3d97d0cb-1997-2008-factorial.html",
+      "sha256": "009bdf677450d24933f459c6e22ee2a8efd7bbf2be3051d98e33a49d4a87a01b",
+      "bytes": 1872,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/zakrytije26122010",
+      "local_path": "olympiads/russia/turlom/indexes/c43ed52351b2-zakrytije26122010.html",
+      "sha256": "1c489c016748b0efe9b34bb0ccf00d197043a5699a95573ed8adc12f07b5f3f1",
+      "bytes": 3232,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2008/zadanija/zadanija-pdf.htm",
+      "local_path": "olympiads/russia/turlom/indexes/238081593183-zadanija-pdf.htm.html",
+      "sha256": "e860373abe8d2e53c29bbd77e0dcb15b7bb278fa0557a0ba3bb1729c3166d64e",
+      "bytes": 4386,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2008/linf2008.cpp",
+      "local_path": "olympiads/russia/turlom/indexes/4a035b9514b6-linf2008.cpp.html",
+      "sha256": "4a003783ee6258d0b3bf0e35d203605b66ea6f1ae4a1a90f22050855d6adc1fb",
+      "bytes": 74212,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2007/linf2007.exe",
+      "local_path": "olympiads/russia/turlom/indexes/1cb550c527d9-linf2007.exe.html",
+      "sha256": "614ca050dbe740fdd4ad0327786576f536aea96b70c4e4a1733cae6a2c228c60",
+      "bytes": 85250,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2007/linf2007.cpp",
+      "local_path": "olympiads/russia/turlom/indexes/15d343e39dcd-linf2007.cpp.html",
+      "sha256": "328530a867653d20dd8a6b1c3c675caaee055dad747a5da254d13ba59ef72024",
+      "bytes": 55326,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/rez_pre/12345.htm",
+      "local_path": "olympiads/russia/turlom/indexes/7e16f3c3cfa8-12345.htm.html",
+      "sha256": "261159cc96c2192e4920d2075b0cd913f6e1beb018d27099524b3c5626d31ae8",
+      "bytes": 40476,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/rez_pre/6.htm",
+      "local_path": "olympiads/russia/turlom/indexes/c35bfdcce659-6.htm.html",
+      "sha256": "cdd0c3d05bf9e4b36241cc3f3b08dd9712fbd3a1184a432cf10cdd8a7d0e5cc8",
+      "bytes": 142058,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/rez_pre/7.htm",
+      "local_path": "olympiads/russia/turlom/indexes/ae6c5e997fbd-7.htm.html",
+      "sha256": "5790ba686c9d3ce2149b09eb375433035dfabe0626a5546160cd140f1e00ceb7",
+      "bytes": 310070,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/rez_pre/8.htm",
+      "local_path": "olympiads/russia/turlom/indexes/380e7cbb8afd-8.htm.html",
+      "sha256": "9bc0f0aa73de46857adeb1a0f1aefd9d5df27ece2d879f19145169fdd22cab3b",
+      "bytes": 331799,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/rez_pre/9.htm",
+      "local_path": "olympiads/russia/turlom/indexes/107b62a57778-9.htm.html",
+      "sha256": "44c34775d77e1d073ccca6131fd4aaa57dec17c8ded5a352148d54479046d6d0",
+      "bytes": 347100,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/rez_pre/10.htm",
+      "local_path": "olympiads/russia/turlom/indexes/7698127b8cea-10.htm.html",
+      "sha256": "b67ca0d1fa70120e7eebeb6ab44481b905983b29ef96b9d98a508c805a7e4bf0",
+      "bytes": 381934,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/rez_pre/11.htm",
+      "local_path": "olympiads/russia/turlom/indexes/c27d1f35b881-11.htm.html",
+      "sha256": "c95607610d15ddb5082a55d38c6fdd8ee010dd9c7d024eb86b09685b5f9e6e7b",
+      "bytes": 291394,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/rez_pre/x.htm",
+      "local_path": "olympiads/russia/turlom/indexes/21051c2c90a7-x.htm.html",
+      "sha256": "a21bef25e1c99de7788238cac06085d02cffb5018c8057c90ff6f9356d1818aa",
+      "bytes": 1935,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2006/rez_pre/inf.htm",
+      "local_path": "olympiads/russia/turlom/indexes/fe17a8e24943-inf.htm.html",
+      "sha256": "153cf1ad79da913902061f27376e0856214cac4d59e0ae8c6d4e3a6332d4d425",
+      "bytes": 18647,
+      "status": "downloaded",
+      "role": "archive_index"
     }
   ],
   "failures": [
     {
       "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2014/registr.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2014/proved.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2014/openkonkurs_ru.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2014/prover.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2014/zakrytije/romanov1.mp3",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 11796444 out of 77178326 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2014/zakrytije/smirnov1.mp3",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 8470510 out of 81756234 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2014/zakrytije/shapiro2.mp3",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 4538314 out of 59805580 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2014/zakrytije/smirnov2.mp3",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 5111808 out of 62618300 bytes received\n"
+    },
+    {
+      "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2010/2010/zakrytije26122010",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/zadanija/smirnov.ogg",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12001 milliseconds with 3030986 out of 21588098 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/zadanija/romanov.ogg",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12001 milliseconds with 4390912 out of 30115509 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/m1.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/m5.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/m3.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/b3.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/b2.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/b7.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/p2.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/b1.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/b4.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/i3.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/openkonkurs_ru.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/registr.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/proved.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2013/prover.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2012/audio/astronomija.ogg",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2012/audio/istorija_ml.ogg",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2012/audio/istorija_st.ogg",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2015/appeal@konkurs2015.turlom.info",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2000/zadanija.htm",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2006/rez/zadanija/zadanija.htm",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2006/rez/zadanija/astronomia-kriterii.xls",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2006/rez/moskva/turlom@mccme.ru",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2007/rezregion/kriterii.htm",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2008/turlom@mccme.ru",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
-      "url": "https://olympiads.mccme.ru/turlom/zadanija/zadanija.htm",
-      "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "url": "https://olympiads.mccme.ru/turlom/2008/zadanija/anz-razbor/1.mp3",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 3407836 out of 15228212 bytes received\n"
     },
     {
       "ok": false,
-      "url": "https://olympiads.mccme.ru/turlom/2007/turlom@mccme.ru",
+      "url": "https://olympiads.mccme.ru/turlom/2008/zadanija/anz-razbor/2.mp3",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 3538944 out of 16392654 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/zadanija/anz-razbor/3.mp3",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 5111808 out of 6615360 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/zadanija/index.html",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/rezultaty/kriterii.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/objavlenije.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/zakr10.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/zakrytije26122010",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/roditeli.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/poriadok11klass.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/iturlom/index.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2009/tl2009anz-otv-ml.wma",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2009/tl2009anz-otv-st.wma",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2010/konstantinov.wma",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2010/romanov.wma",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2010/astron.pptx",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2010/smirnov.wma",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/2013/zadanija/smirnov.ogg",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 11560 milliseconds with 8945628 out of 21588098 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/2013/zadanija/romanov.ogg",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 11560 milliseconds with 7733248 out of 30115509 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/2012/zadanija/audio/astronomija.ogg",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 11568 milliseconds with 9224174 out of 43249485 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/2012/zadanija/audio/istorija_ml.ogg",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 11782 milliseconds with 11812810 out of 53975844 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/2012/zadanija/audio/istorija_st.ogg",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 11773 milliseconds with 11780042 out of 20145799 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/2008/turlom@mccme.ru",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/zadanija/zadanija.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/2007/turlom@mccme.ru",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2002/book-htm/circul",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2002/book-htm/z6",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
-      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/15042009/gram-stat.htm",
+      "url": "http://olympiads.mccme.ru/turlom/zadanija/zadanija-pdf.htm",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/zadanija/lingv-resh-chernovik.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/zadanija/astronomia-kriterii.xls",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/moskva/inf.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/moskva/index.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/apatity/apatity.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/belgorod/belgorod.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/bryansk/index.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/vladivostok/vladivostok.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/volgodonsk/volgodonsk.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/ivanovo/ivanovo.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/kursk/kursk.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/orenburg/orenburg.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/pereslavl-zalesskij/pereslavl-zalesskij.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/samara/samara.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/spb/spb.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/sevastopol/sevastopol.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rez/semenov/semenov.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/mskobjav.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/zadanija/zadanija.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2007/turlom@mccme.ru",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezmsk/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/astrahan/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/belgorod/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/bryansk/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/vladikavkaz/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/volgodonsk/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/zheleznogorsk/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/ivanovo/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/kursk/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/murmansk/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/orenburg/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/samara/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/spb/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/sevastopol/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/ulyanovsk/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/uglianec/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/rezregion/ufa/",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/iturlom/index.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/book/index.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/objavlenije.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-2.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-3.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-4.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-5.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-6.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-7.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-8.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-9.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-10.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-11.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/class-x.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/kriterii.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-3.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-4.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-5.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-6.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-7.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-8.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-9.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-10.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-11.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2008/rezmsk/gram-x.htm",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2008/rezregion/orenburg/21032009/gram-stat.htm",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "http://olympiads.mccme.ru/turlom/zakrytije26122010",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2010/zakrytije26122010/konstantinov.wma",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 7962624 out of 21775697 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2010/zakrytije26122010/astron.pptx",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 8650716 out of 56209809 bytes received\n"
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/turlom/2010/zakrytije26122010/smirnov.wma",
+      "status": 200,
+      "error": "HTTP 200; curl 28: curl: (28) Operation timed out after 12000 milliseconds with 7356398 out of 9441638 bytes received\n"
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2006/rez_pre/turlom@mccme.ru",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     },
     {
       "ok": false,
       "url": "https://olympiads.mccme.ru/turlom/2008/rezregion/kriterii.html",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
     }
   ],
-  "discovered_documents": 56,
+  "discovered_documents": 103,
   "pending_pages": 0,
   "pending_documents": [
     {
@@ -11881,6 +13987,258 @@
       "document_type": "mathematics_material",
       "label": "Математические игры",
       "heading": "Задания в формате PDF"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mat-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mat-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mig-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mig-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mat-reshkrit.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mat-reshkrit.pdf",
+      "heading": "Ответы и решения, критерии оценок"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2012/tl2012mig-krit.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2012/zadanija",
+      "year": "2012",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2012mig-krit.pdf",
+      "heading": "Ответы и решения, критерии оценок"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mat-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mat-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mig-en.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mig-en.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mat-otv-v2.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mat-otv-v2.pdf",
+      "heading": "Ответы и решения, критерии оценок"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/turlom/2011/tl2011mig-otv.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/turlom/2011/zadanija",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2011mig-otv.pdf",
+      "heading": "Ответы и решения, критерии оценок"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/zadanija/matem-resh-chernovik.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2006",
+      "year": null,
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математика",
+      "heading": "Задания и решения"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2004/zadanija/matigry.ps",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2004/zadanija/zadanija.htm",
+      "year": "2004",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математические игры",
+      "heading": "Задания в формате PostScript"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2004/zadanija/matigry.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2004/zadanija/zadanija.htm",
+      "year": "2004",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Математические игры",
+      "heading": "Задания в формате PDF"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/tl2010mat.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mat.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/tl2010mig.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mig.pdf",
+      "heading": "Задания и прочие материалы, выданные участникам"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/tl2010mat-otv-v3.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mat-otv-v3.pdf",
+      "heading": "Ответы и решения, критерии оценок"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/tl2010mig-otv-kri.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "tl2010mig-otv-kri.pdf",
+      "heading": "Ответы и решения, критерии оценок"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/turlom2010-mat-sbornik.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "turlom2010-mat-sbornik.pdf",
+      "heading": "Предварительные материалы сборника заданий и решений Турнира"
+    },
+    {
+      "url": "http://olympiads.mccme.ru/turlom/2010/turlom2010-mig-sbornik.pdf",
+      "contest": "Турнир имени М.В. Ломоносова — математика",
+      "subject": "mathematics",
+      "source_page": "http://olympiads.mccme.ru/turlom/2010/zadanija",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "turlom2010-mig-sbornik.pdf",
+      "heading": "Предварительные материалы сборника заданий и решений Турнира"
     }
   ]
 }

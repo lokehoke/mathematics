@@ -2,8 +2,8 @@
   "contest": "Покори Воробьёвы горы — математика",
   "id": "pvg",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:13.641521+00:00",
-  "updated_at": "2026-10-22T15:41:20.197805+00:00",
+  "started_at": "2026-10-23T08:33:05.467756+00:00",
+  "updated_at": "2026-10-23T08:33:30.174239+00:00",
   "scope": {
     "name": "Покори Воробьёвы горы — математика",
     "seeds": [
@@ -21,7 +21,7 @@
     "https://pvg.mk.ru/"
   ],
   "crawl_limits": {
-    "max_pages": 2400,
+    "max_pages": 1200,
     "max_depth": 6
   },
   "coverage_status": "partial",
@@ -39,14 +39,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/tgrades/math10tg.pdf",
@@ -61,14 +54,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/tgrades/math9tg.pdf",
@@ -83,14 +69,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/tgrades/math78tg.pdf",
@@ -105,14 +84,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/tgrades/math56tg.pdf",
@@ -127,14 +99,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/appeals/appeals_math.pdf",
@@ -199,14 +164,7 @@
       "heading": "Измененение в результатах олимпиады по математике среди 5-9 классов",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/archive/2020-2021gg/stage2/keys/math10_11stage2_keys.pdf",
@@ -471,14 +429,7 @@
       "heading": "Архив за 2022-2023 год",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage2/keys/math510keys.zip",
@@ -493,14 +444,7 @@
       "heading": "Архив за 2022-2023 год",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage1/keys/math11stage1keys.pdf",
@@ -515,14 +459,7 @@
       "heading": "Архив за 2022-2023 год",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/archive/2022-2023gg/stage1/keys/math510stage1keys.zip",
@@ -537,14 +474,7 @@
       "heading": "Архив за 2022-2023 год",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage2/keys/math11keys.pdf",
@@ -559,14 +489,7 @@
       "heading": "Архив за 2023-2024 год",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage2/keys/math510keys.zip",
@@ -581,14 +504,7 @@
       "heading": "Архив за 2023-2024 год",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage1/keys/math11stage1keys.pdf",
@@ -603,14 +519,7 @@
       "heading": "Архив за 2023-2024 год",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/archive/2023-2024gg/stage1/keys/math510stage1keys.zip",
@@ -625,14 +534,7 @@
       "heading": "Архив за 2023-2024 год",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage1/keys/math11keys.pdf",
@@ -647,14 +549,7 @@
       "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage1/keys/math10keys.pdf",
@@ -669,14 +564,7 @@
       "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage1/keys/math9keys.pdf",
@@ -691,14 +579,7 @@
       "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage1/keys/math78keys.pdf",
@@ -713,14 +594,7 @@
       "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage1/keys/math56keys.pdf",
@@ -735,14 +609,7 @@
       "heading": "Ответы на задания отборочного этапа 2024-2025 учебного года",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/keys/2025/math11stage2keys.pdf",
@@ -757,14 +624,7 @@
       "heading": "Ответы на задания заключительного этапа",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/keys/2025/math10stage2keys.pdf",
@@ -779,14 +639,7 @@
       "heading": "Ответы на задания заключительного этапа",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/keys/2025/math9stage2keys.pdf",
@@ -801,14 +654,7 @@
       "heading": "Ответы на задания заключительного этапа",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/keys/2025/math78stage2keys.pdf",
@@ -823,14 +669,7 @@
       "heading": "Ответы на задания заключительного этапа",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/keys/2025/math56stage2keys.pdf",
@@ -845,14 +684,7 @@
       "heading": "Ответы на задания заключительного этапа",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/keys/math10_11stage2_keys.pdf",
@@ -867,14 +699,7 @@
       "heading": "Ответы на задания заключительного этапа",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage2/keys/math5_9stage2_keys.zip",
@@ -889,14 +714,7 @@
       "heading": "Ответы на задания заключительного этапа",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage1/keys/math10_11key.pdf",
@@ -911,14 +729,7 @@
       "heading": "Ответы на задания отборочного этапа",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "https://pvg.mk.ru/media/stage1/keys/math5_9key.pdf",
@@ -933,14 +744,7 @@
       "heading": "Ответы на задания отборочного этапа",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "http://pvg.mk.ru/media/stage2/tgrades/math11tg.pdf",
@@ -955,14 +759,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "http://pvg.mk.ru/media/stage2/tgrades/math10tg.pdf",
@@ -977,14 +774,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "http://pvg.mk.ru/media/stage2/tgrades/math9tg.pdf",
@@ -999,14 +789,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "http://pvg.mk.ru/media/stage2/tgrades/math78tg.pdf",
@@ -1021,14 +804,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "http://pvg.mk.ru/media/stage2/tgrades/math56tg.pdf",
@@ -1043,14 +819,7 @@
       "heading": "Заключительный этап",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "url": "http://pvg.mk.ru/media/stage2/appeals/appeals_math.pdf",
@@ -1076,6 +845,81 @@
         "reason": null,
         "sha256_verified": true
       }
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math11stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math10stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math9stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math78stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math56stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Ответы на задания заключительного этапа",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
   "indexes": [
@@ -1534,6 +1378,278 @@
       "bytes": 16569,
       "status": "downloaded",
       "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page1/",
+      "local_path": "olympiads/russia/pvg/indexes/6d23ee212ac1-index.html",
+      "sha256": "31b8b1419567a39e7a2b3393c8ab2cc1c52cdeedde3c575fddffb87b22a65243",
+      "bytes": 23381,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page2/",
+      "local_path": "olympiads/russia/pvg/indexes/66b72db7249e-index.html",
+      "sha256": "597e3dd5d1a1c08b8ac89701e44d78d8a2ea1b8a2d16f1fded5f3e35787c9346",
+      "bytes": 24500,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page3/",
+      "local_path": "olympiads/russia/pvg/indexes/41a3223fdb3a-index.html",
+      "sha256": "451609d9a2517f576497609925f9741b38d361451dbf4af432dc59c3359d7ebb",
+      "bytes": 23651,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page4/",
+      "local_path": "olympiads/russia/pvg/indexes/1b96ed80e587-index.html",
+      "sha256": "2e8d91c596ac661de366fd9fd5cd9cfd9c9d555a25fe53c8a2e1674d4a85009c",
+      "bytes": 24891,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page5/",
+      "local_path": "olympiads/russia/pvg/indexes/d3b1d6ca5edb-index.html",
+      "sha256": "7065a3384555918eddbb0b191d01b4a3076bfaa5ced4e2df07f878a863927e23",
+      "bytes": 25863,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page6/",
+      "local_path": "olympiads/russia/pvg/indexes/142ac61243c5-index.html",
+      "sha256": "2fa2771b54ac3b98c843cd15556b0d445536b1e277e6d631e11a67534e35f306",
+      "bytes": 23963,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page7/",
+      "local_path": "olympiads/russia/pvg/indexes/0fa782dd5e43-index.html",
+      "sha256": "b97438368c27c288bfa98ac73a7cca81531bd393d6f1d6165b0df15bfbb5e82f",
+      "bytes": 21538,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page8/",
+      "local_path": "olympiads/russia/pvg/indexes/b3a8ffe7cfc8-index.html",
+      "sha256": "0e668e52d4b33b1b77bd5d4c05825a981de8a3a42131bd9bc1ea1de8c5e3a764",
+      "bytes": 29159,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page9/",
+      "local_path": "olympiads/russia/pvg/indexes/fb0992455518-index.html",
+      "sha256": "677b11bf1004ec1650ef77b83c35c65332031a6bf6b93d1eeeff37dcb8d4ed84",
+      "bytes": 23740,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page10/",
+      "local_path": "olympiads/russia/pvg/indexes/5463dd466d1f-index.html",
+      "sha256": "6e93a8a810a414fbee4405f641e2a64ff82388456879fee6bc5b3efe8302b474",
+      "bytes": 23842,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page11/",
+      "local_path": "olympiads/russia/pvg/indexes/f966233f5c5d-index.html",
+      "sha256": "f41d003e7367d468d7f2a2358ceaaf5aacdea1428b96f7ee95dacae7ba551430",
+      "bytes": 20481,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page12/",
+      "local_path": "olympiads/russia/pvg/indexes/605157d33bde-index.html",
+      "sha256": "aba071ef93b9d146ad9aa7d58de72366f63177256704533724bb99b84efd09f5",
+      "bytes": 24316,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page13/",
+      "local_path": "olympiads/russia/pvg/indexes/636b9f5aecbf-index.html",
+      "sha256": "319de43ec3917e6c18af18ee74767c47650633445ba76157ec135e7289e33b07",
+      "bytes": 21918,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page14/",
+      "local_path": "olympiads/russia/pvg/indexes/ea4806d4e8dd-index.html",
+      "sha256": "35cdf1fcaba88f438612c3296173fe26b1097da580a2d03f280661317eb130ae",
+      "bytes": 21600,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page15/",
+      "local_path": "olympiads/russia/pvg/indexes/2cf7ecf368e1-index.html",
+      "sha256": "2672d56af9a996830d7c04ae86adf64b8858fb280233066dbefc81d12a1f9ab4",
+      "bytes": 26055,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page16/",
+      "local_path": "olympiads/russia/pvg/indexes/b0ecf2a0e23a-index.html",
+      "sha256": "2882cc9ca9babf55a0bc86988d7b7c511c8e4f898971487eb2059c361fa4c6d2",
+      "bytes": 26220,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page17/",
+      "local_path": "olympiads/russia/pvg/indexes/8b58aa873521-index.html",
+      "sha256": "86a008206f7b7ee3d6570a6ca4474a5c7af4491f43dbdd2be894ce17cec97cc1",
+      "bytes": 23253,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page18/",
+      "local_path": "olympiads/russia/pvg/indexes/5c44f3bd7319-index.html",
+      "sha256": "1fd0cfffc0edb5d6af1ef829c2d1d1d56bd007faaa11898a54e8fb5a4b9b3961",
+      "bytes": 24786,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page19/",
+      "local_path": "olympiads/russia/pvg/indexes/68fda8a23925-index.html",
+      "sha256": "4ba2435a50f50dce50145ac696b2fd4074e67d4c8cc5df7a8fa0eaa7a50d13cf",
+      "bytes": 22974,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page20/",
+      "local_path": "olympiads/russia/pvg/indexes/5bf334dab5eb-index.html",
+      "sha256": "719abb10fab7fe21277a5fd690276ed57b9b8be6abcd047a0e636f6cda589959",
+      "bytes": 22708,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page21/",
+      "local_path": "olympiads/russia/pvg/indexes/6416ec8e141a-index.html",
+      "sha256": "ce7108a90e575d6e4b5d6bf525c5b05dc7240dc16048a17fcaa46604a76da6f4",
+      "bytes": 27568,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page22/",
+      "local_path": "olympiads/russia/pvg/indexes/cee8a05d64f3-index.html",
+      "sha256": "95264a168bcecc9ad442a827d58950149e851249869fcf17f11e6c4f5aa76c69",
+      "bytes": 24926,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page23/",
+      "local_path": "olympiads/russia/pvg/indexes/c8acf2f5ac36-index.html",
+      "sha256": "4c8f2da80ab1f9c0a86fe1b729d1418b0efe12430e1c9c42228cdc32b8c51919",
+      "bytes": 23151,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page24/",
+      "local_path": "olympiads/russia/pvg/indexes/5ec0af64e2cd-index.html",
+      "sha256": "ffe745e7b68e9cfd490c0e887065b86a37aed1514ea47f6b352a46bf46c21421",
+      "bytes": 27090,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page25/",
+      "local_path": "olympiads/russia/pvg/indexes/aa6670282fcc-index.html",
+      "sha256": "2a78be64a5e7b667f8ef6089be47958da8400b08e423d0aa0a17415bae460014",
+      "bytes": 24969,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page26/",
+      "local_path": "olympiads/russia/pvg/indexes/61b32684ee9d-index.html",
+      "sha256": "0a5ca9c25edf6fe50566913abc329f478d16d12bb0a1cd9f8bbf620039c0ec92",
+      "bytes": 24871,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page27/",
+      "local_path": "olympiads/russia/pvg/indexes/d04f7ca0839e-index.html",
+      "sha256": "906db2c732059eeb1ea6c32d9aa6899f35fbfff4832245af46f13e28ad2876f5",
+      "bytes": 26379,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page28/",
+      "local_path": "olympiads/russia/pvg/indexes/6b8fdb46811f-index.html",
+      "sha256": "08dfb118dd4e19fa945fa792df65b536cfb2bb8faa4d1e0c01f8cd5d465b5188",
+      "bytes": 25102,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/news/page29/",
+      "local_path": "olympiads/russia/pvg/indexes/0b1c2692a77e-index.html",
+      "sha256": "cfbe99ac00e182b51aa1e0f845cf95923740967270b63031a50ef8b41bef27d7",
+      "bytes": 18204,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/archive/2020-2021/",
+      "local_path": "olympiads/russia/pvg/indexes/a6f7e52f901e-index.html",
+      "sha256": "59a0b4f63ec2bb5dd57fa228a2c8d94acee7c99f698c9c9595c9332ddcf698cc",
+      "bytes": 23950,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/archive/2021-2022/",
+      "local_path": "olympiads/russia/pvg/indexes/6a64d9afcb0b-index.html",
+      "sha256": "41c9af670ac6a99d15208ced6d31084ab7d4ad24f90874b550070c7e9f3a376f",
+      "bytes": 24100,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/archive/2022-2023/",
+      "local_path": "olympiads/russia/pvg/indexes/bda2f9d95753-index.html",
+      "sha256": "348ee9d616ec5b6049a288ea200fbd9fee010519aed64fe848fda3deb9205a91",
+      "bytes": 22356,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/archive/2023-2024/",
+      "local_path": "olympiads/russia/pvg/indexes/224fd7de5e8c-index.html",
+      "sha256": "7f901b74c312f33d423e926d96e213f7f67cb2d47eba1d7e027d8ac32ee87664",
+      "bytes": 22527,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "http://pvg.mk.ru/keys_stage1/",
+      "local_path": "olympiads/russia/pvg/indexes/f4cf46f6d04a-index.html",
+      "sha256": "b4bbc26eae2cfa4f8c17ecc39b9632d186807e08e53405168268dd56bd747d70",
+      "bytes": 16776,
+      "status": "downloaded",
+      "role": "archive_index"
     }
   ],
   "failures": [
@@ -1550,7 +1666,7 @@
       "error": "HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "discovered_documents": 46,
+  "discovered_documents": 51,
   "pending_pages": 0,
   "pending_documents": [
     {
@@ -1948,6 +2064,66 @@
       "document_type": "mathematics_material",
       "label": "5-9 классы",
       "heading": "Ответы на задания отборочного этапа"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math11stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "11 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math10stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "10",
+      "document_type": "mathematics_material",
+      "label": "10 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math9stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "9",
+      "document_type": "mathematics_material",
+      "label": "9 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math78stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "7-8",
+      "document_type": "mathematics_material",
+      "label": "7-8 классы",
+      "heading": "Ответы на задания заключительного этапа"
+    },
+    {
+      "url": "http://pvg.mk.ru/media/stage2/keys/2025/math56stage2keys.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "http://pvg.mk.ru/keys_stage2/",
+      "year": "2025",
+      "stage": "final",
+      "classes": "5-6",
+      "document_type": "mathematics_material",
+      "label": "5-6 классы",
+      "heading": "Ответы на задания заключительного этапа"
     }
   ]
 }

@@ -44,7 +44,11 @@ def normalized(x):
     url=r.get('url',r.get('source',''))
     label=r.get('label','');s=unquote(url+' '+label).replace('\xad','')
     category='material';reason=None
-    if typ=='index': category='index'
+    if typ=='index' or r.get('document_role')=='archive_index': category='index'
+    elif typ in ('leader_report_candidate','leader_report_without_verified_papers'):
+        category='supplementary_reading';reason='Delegation report not verified to reproduce contest statements.'
+    elif re.search(r'\.xlsx?(?:\.zip)?$',urlsplit(url).path,re.I):
+        category='needs_subject_review';reason='Spreadsheet resource; not established as contest tasks or solutions.'
     elif cid=='turgor' and typ=='unclassified_mathematics_html' and re.search(r'/problems/\d+/(?:index\.(?:php|html?))?$',urlsplit(url).path,re.I):
         category='index';reason='Annual Tournament of Towns archive landing page: links to papers, not the paper itself.'
     elif cid=='spbu' and re.search(r'modeling|моделирован|механик',s,re.I):
@@ -108,7 +112,15 @@ def years_of(rows):
     return sorted(ys)
 
 def main():
-    previous_path=ROOT/'research/archive-resume-summary-2026-10-22.json'
+    import argparse
+    global BASELINE
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--date', default='2026-10-22', help='Date label for this pass; historical reports are preserved.')
+    parser.add_argument('--baseline', help='Baseline JSON captured from pre-pass manifests.')
+    args=parser.parse_args()
+    stamp=datetime.date.fromisoformat(args.date).isoformat()
+    BASELINE=ROOT/(args.baseline or f'research/archive-resume-baseline-{stamp}.json')
+    previous_path=ROOT/f'research/archive-resume-summary-{stamp}.json'
     previous=loads(previous_path) if previous_path.exists() else None
     base=loads(BASELINE);old=[normalized(r) for r in base['records']];now=[normalized(r) for r in records_now()]
     # Check actual bytes, not merely the status or existence of a path.
@@ -149,6 +161,7 @@ def main():
     for p in sorted((ROOT/'olympiads/russia').glob('*/manifest.json')):
         m=loads(p)
         index_errors.extend(dict(contest=p.parent.name,**r) for r in m.get('failures',[]))
+        index_errors.extend(dict(contest=p.parent.name,**r) for r in m.get('public_api_failures',[]))
         pending_discovered.extend(dict(contest_id=p.parent.name,**r) for r in m.get('pending_documents',[]))
     queue=dict(created_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
         active_download_processes=[],failed_or_unavailable_records=[r for r in now if r['status']!='downloaded'],
@@ -156,13 +169,15 @@ def main():
         russian_index_errors=index_errors,russian_pending_documents=pending_discovered,
         resume_commands=['python3 scripts/download_russia.py --max-pages 2400 --max-depth 6 --workers 8',
          'python3 scripts/download_international.py --contests MEMO BMO supplements SKMO society RMM APMO IMO EGMO BalticWay',
-         'python3 scripts/download_university.py --resume'],
+         'python3 scripts/download_university.py --resume',
+         'python3 scripts/download_itmo_public.py',
+         'python3 scripts/audit_archive_metadata.py --contest bibn --contest itmo --contest verchenko'],
         notes=['Downloaded originals are preserved; existing verified files are reused.',
          'A missing classified solution is a metadata/coverage gap, not proof that no solution was published.',
          'IMO 1980 was not held; Putnam 2026 takes place in December and is not yet expected.',
          'Russian olympiad school-year 2026/27 is in progress; do not label future rounds missing.',
          'Finish reconciliation of the existing source list before adding more contests.'])
-    qpath=ROOT/'research/archive-continuation-queue-2026-10-22.json';qpath.write_text(json.dumps(queue,ensure_ascii=False,indent=2)+'\n')
+    qpath=ROOT/f'research/archive-continuation-queue-{stamp}.json';qpath.write_text(json.dumps(queue,ensure_ascii=False,indent=2)+'\n')
     after=counts(now);before=counts(old)
     hashes={r['sha256'] for r in now if r['accepted_material']};solhash={r['sha256'] for r in now if r['solution_bearing']}
     summary=dict(created_at=queue['created_at'],baseline=str(BASELINE.relative_to(ROOT)),
@@ -180,7 +195,7 @@ def main():
         completeness='partial',raw_initial_counts=base['counts'])
     summary['integrity']=dict(accepted_records_checked=accepted_count,distinct_file_paths_hashed=len(checked),
         sha256_matches=accepted_count-len(integrity_failures),sha256_mismatches=integrity_failures,
-        accepted_missing_files=sum(r['accepted_material'] and not r['file_exists'] for r in now),
+        accepted_missing_files=sum(r['status']=='downloaded' and r['category']=='material' and not r['file_exists'] for r in now),
         bytes_hashed=sum((ROOT/p).stat().st_size for p in checked),status='passed' if not integrity_failures else 'failed')
     if previous and previous.get('after',{}).get('unique_material_documents_by_sha256')==5225:
         summary['superseded_first_report_reconciliation']=dict(before=3113,after=5225,
@@ -189,9 +204,9 @@ def main():
             reason='Nine older SHA-256 values (ten URL records) belonged to annual Turgor HTML archive indexes whose content changed at the same URLs. No downloaded paper was removed. These landing pages are now classified as indexes in both baseline and current inventory, so they no longer inflate mathematical-material counts.')
     elif previous and previous.get('superseded_first_report_reconciliation'):
         summary['superseded_first_report_reconciliation']=previous['superseded_first_report_reconciliation']
-    (ROOT/'research/archive-resume-summary-2026-10-22.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
-    (ROOT/'research/archive-material-inventory-2026-10-22.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in now))
-    lines=['# Итог возобновления архива, 22 октября 2026','',
+    (ROOT/f'research/archive-resume-summary-{stamp}.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/f'research/archive-material-inventory-{stamp}.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in now))
+    lines=[f'# Итог возобновления архива, {stamp}','',
         f"Уникальных математических материалов по SHA-256: **{before['unique_material_documents_by_sha256']} → {after['unique_material_documents_by_sha256']}**, новых **{summary['new_unique_material_documents']}**, чистый прирост **{summary['net_growth_unique_material_documents']}**.",
         f"Документов с классифицированными решениями: **{before['unique_solution_documents_by_sha256']} → {after['unique_solution_documents_by_sha256']}**, новых **{summary['new_unique_solution_documents']}**.",'',
         f"Из них классифицированные документы задач/решений: **{before['unique_classified_task_or_solution_documents']} → {after['unique_classified_task_or_solution_documents']}**. Остальные математические материалы имеют явно неизвестный тип и не объявлены проверенными задачниками или решениями.",
@@ -221,7 +236,9 @@ def main():
         '- `olympiads/russia/*/manifest.json`, `olympiads/international/manifest.jsonl`, `olympiads/university/manifest.jsonl` — исходные манифесты.',
         '- `scripts/download_{russia,international,university}.py`, `scripts/summarize_archive_resume.py` — воспроизведение.',
         '', 'Оригиналы не удалялись. Книга, README и AGENTS не изменялись. Коммит не создавался.']
-    (ROOT/'research/archive-resume-report-2026-10-22.md').write_text('\n'.join(lines)+'\n')
+    lines=[line.replace('2026-10-22',stamp) for line in lines if not (stamp!='2026-10-22' and line.startswith('В первой предварительной сводке'))]
+    lines[-1]='Оригиналы сохранены. Изменения книги не входят в этот проход.'
+    (ROOT/f'research/archive-resume-report-{stamp}.md').write_text('\n'.join(lines)+'\n')
     print(json.dumps({k:summary[k] for k in ['before','after','new_unique_material_documents','new_unique_solution_documents']},ensure_ascii=False,indent=2))
 
 if __name__=='__main__':main()

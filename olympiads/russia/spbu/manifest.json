@@ -2,8 +2,8 @@
   "contest": "Олимпиада школьников СПбГУ — математика",
   "id": "spbu",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:20.512106+00:00",
-  "updated_at": "2026-10-22T15:41:20.698163+00:00",
+  "started_at": "2026-10-23T08:33:04.967591+00:00",
+  "updated_at": "2026-10-23T08:33:05.155902+00:00",
   "scope": {
     "name": "Олимпиада школьников СПбГУ — математика",
     "seeds": [
@@ -24,7 +24,7 @@
     "https://sch-olymp.spbu.ru/"
   ],
   "crawl_limits": {
-    "max_pages": 2400,
+    "max_pages": 1200,
     "max_depth": 6
   },
   "coverage_status": "all_links_within_declared_scope_processed",

@@ -2,8 +2,8 @@
   "contest": "Олимпиада Курчатов — математика",
   "id": "kurchatov",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:37.874003+00:00",
-  "updated_at": "2026-10-22T15:41:39.325837+00:00",
+  "started_at": "2026-10-23T09:00:18.706499+00:00",
+  "updated_at": "2026-10-23T09:00:23.509491+00:00",
   "scope": {
     "name": "Олимпиада Курчатов — математика",
     "seeds": [
@@ -1066,14 +1066,7 @@
       "heading": "",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems_and_solutions",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://old.olimpiadakurchatov.ru/upload/files/Kurchatov_2022_1_Math_11.pdf",

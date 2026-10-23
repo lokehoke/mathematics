@@ -2,8 +2,8 @@
   "contest": "Объединённая межвузовская олимпиада — математика",
   "id": "ommo",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:45.115669+00:00",
-  "updated_at": "2026-10-22T15:42:14.416037+00:00",
+  "started_at": "2026-10-23T09:00:27.773746+00:00",
+  "updated_at": "2026-10-23T09:00:30.535535+00:00",
   "scope": {
     "name": "Объединённая межвузовская олимпиада — математика",
     "seeds": [
@@ -1190,14 +1190,7 @@
       "heading": "Объединённая межвузовская математическая олимпиада школьников 2015 года",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://olympiads.mccme.ru/ommo/15/ommo2015-regtasks.pdf",
@@ -1337,14 +1330,7 @@
       "heading": "Московская межвузовская олимпиада школьников 2009 года",
       "ok": false,
       "status": "failed",
-      "error": "URLError: <urlopen error [Errno -2] Name or service not known>",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "unclassified_mathematics_material",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 0; curl 6: curl: (6) Could not resolve host: math.mioo.ru\n"
     },
     {
       "url": "https://olympiads.mccme.ru/ommo/14/ommo2014-regtasks.pdf",
@@ -1559,14 +1545,7 @@
       "heading": "Статистика второй проверки",
       "ok": false,
       "status": "failed",
-      "error": "HTTPError: HTTP Error 404: Not Found",
-      "archive_review": {
-        "category": "material",
-        "accepted_material": false,
-        "document_type": "problems",
-        "reason": null,
-        "sha256_verified": null
-      }
+      "error": "HTTP 404; curl 0: "
     },
     {
       "url": "https://olympiads.mccme.ru/ommo/13/ommo2013-regtasks.pdf",
@@ -1892,6 +1871,156 @@
         "reason": null,
         "sha256_verified": true
       }
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2026-var.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/26",
+      "year": "2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "tasks",
+      "label": "задания",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2026 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2026-sol.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/26",
+      "year": "2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2026 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2026-crit-fin.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/26",
+      "year": "2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "критерии второй проверки",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2026 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2025-var.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/25",
+      "year": "2025",
+      "stage": "school",
+      "classes": null,
+      "document_type": "tasks",
+      "label": "задания",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2025 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2025-sol.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/25",
+      "year": "2025",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2025 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2025-crit.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/25",
+      "year": "2025",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "критерии второй проверки",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2025 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2024-regtasks.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/24",
+      "year": "2024",
+      "stage": "school",
+      "classes": null,
+      "document_type": "tasks",
+      "label": "его задания",
+      "heading": "Объединённая межвузовская математическая олимпиада школьников 2024 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2024-var.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/24",
+      "year": "2024",
+      "stage": "school",
+      "classes": null,
+      "document_type": "tasks",
+      "label": "задания",
+      "heading": "Объединённая межвузовская математическая олимпиада школьников 2024 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2024-sol.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/24",
+      "year": "2024",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Объединённая межвузовская математическая олимпиада школьников 2024 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2024-crit.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/24",
+      "year": "2024",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "критерии второй проверки",
+      "heading": "Объединённая межвузовская математическая олимпиада школьников 2024 года",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTP 404; curl 0: "
     }
   ],
   "indexes": [
@@ -2325,10 +2454,28 @@
       "ok": false,
       "url": "https://olympiads.mccme.ru/ommo/27/publication.pravo.gov.ru/document/0001202602240023",
       "status": 404,
-      "error": "HTTPError: HTTP Error 404: Not Found"
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/ommo/ommo2026-places.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/ommo/ommo2025-places.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
+    },
+    {
+      "ok": false,
+      "url": "https://olympiads.mccme.ru/ommo/ommo2024-places.html",
+      "status": 404,
+      "error": "HTTP 404; curl 0: "
     }
   ],
-  "discovered_documents": 75,
+  "discovered_documents": 85,
   "pending_pages": 0,
   "pending_documents": [
     {
@@ -2366,6 +2513,126 @@
       "document_type": "tasks",
       "label": "задач",
       "heading": "Статистика второй проверки"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2026-var.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/26",
+      "year": "2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "tasks",
+      "label": "задания",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2026 года"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2026-sol.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/26",
+      "year": "2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2026 года"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2026-crit-fin.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/26",
+      "year": "2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "критерии второй проверки",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2026 года"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2025-var.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/25",
+      "year": "2025",
+      "stage": "school",
+      "classes": null,
+      "document_type": "tasks",
+      "label": "задания",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2025 года"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2025-sol.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/25",
+      "year": "2025",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2025 года"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2025-crit.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/25",
+      "year": "2025",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "критерии второй проверки",
+      "heading": "Объединённая межвузовская олимпиада школьников по математике 2025 года"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2024-regtasks.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/24",
+      "year": "2024",
+      "stage": "school",
+      "classes": null,
+      "document_type": "tasks",
+      "label": "его задания",
+      "heading": "Объединённая межвузовская математическая олимпиада школьников 2024 года"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2024-var.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/24",
+      "year": "2024",
+      "stage": "school",
+      "classes": null,
+      "document_type": "tasks",
+      "label": "задания",
+      "heading": "Объединённая межвузовская математическая олимпиада школьников 2024 года"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2024-sol.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/24",
+      "year": "2024",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Объединённая межвузовская математическая олимпиада школьников 2024 года"
+    },
+    {
+      "url": "https://olympiads.mccme.ru/ommo/ommo2024-crit.pdf",
+      "contest": "Объединённая межвузовская олимпиада — математика",
+      "subject": "mathematics",
+      "source_page": "https://olympiads.mccme.ru/ommo/24",
+      "year": "2024",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "критерии второй проверки",
+      "heading": "Объединённая межвузовская математическая олимпиада школьников 2024 года"
     }
   ]
 }

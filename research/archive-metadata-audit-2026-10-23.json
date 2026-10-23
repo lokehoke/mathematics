@@ -1,0 +1,1015 @@
+{
+  "changes": [
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/410f89470f9a-hr1-mat.pdf",
+      "date": "2026-10-23T08:44:54.031958+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2027"
+      },
+      "updated": {
+        "year": "2026/2027"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/a3d200dc2054-mat2.pdf",
+      "date": "2026-10-23T08:44:54.044099+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2026"
+      },
+      "updated": {
+        "year": "2025/2026"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/913d35a6bcf4-hr1-mat.pdf",
+      "date": "2026-10-23T08:44:54.055658+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2026"
+      },
+      "updated": {
+        "year": "2025/2026"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/6dcf720c0185-kh2-mat.pdf",
+      "date": "2026-10-23T08:44:54.069152+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2026"
+      },
+      "updated": {
+        "year": "2025/2026"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/0fb00a2991f3-mat2-f.pdf",
+      "date": "2026-10-23T08:44:54.093544+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2026"
+      },
+      "updated": {
+        "year": "2025/2026"
+      },
+      "solution_evidence": "Explicit tasks-and-solutions title",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/8a6f26108902-hr1-mat.pdf",
+      "date": "2026-10-23T08:44:54.121109+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2025"
+      },
+      "updated": {
+        "year": "2024/2025"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/b0e8b3bf3267-hr2-mat.pdf",
+      "date": "2026-10-23T08:44:54.133573+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2025"
+      },
+      "updated": {
+        "year": "2024/2025"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/ab650eb130ba-mat24.pdf",
+      "date": "2026-10-23T08:44:54.143083+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2024"
+      },
+      "updated": {
+        "year": "2023/2024"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/c12e04cf9b67-mat-test.pdf",
+      "date": "2026-10-23T08:44:54.157599+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/0d8329b12e08-mat2-test.pdf",
+      "date": "2026-10-23T08:44:54.170511+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2023"
+      },
+      "updated": {
+        "year": "2022/2023"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/9b03571ae688-mat_z.pdf",
+      "date": "2026-10-23T08:44:54.197764+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2022"
+      },
+      "updated": {
+        "year": "2021/2022"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/8b75f7c370c0-mat1.pdf",
+      "date": "2026-10-23T08:44:54.221600+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/d0f1015f3065-mat2-otvet.pdf",
+      "date": "2026-10-23T08:44:54.233121+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "12 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/1b420635205c-sarov1-math.pdf",
+      "date": "2026-10-23T08:44:54.241901+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/d4b1feb77445-har-mat.pdf",
+      "date": "2026-10-23T08:44:54.250228+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2020"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/45a061a5a791-math-sarov2019.pdf",
+      "date": "2026-10-23T08:44:54.259104+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/4ced15494dbf-mat-z.pdf",
+      "date": "2026-10-23T08:44:54.280287+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/e5f3a2f3fd7c-mat-otbor.pdf",
+      "date": "2026-10-23T08:44:54.289783+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/4a0aa3cd9984-mat2-otvet.pdf",
+      "date": "2026-10-23T08:44:54.302621+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/c20db8c1e5d8-mat-zao.pdf",
+      "date": "2026-10-23T08:44:54.311173+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/21da6d9c5368-mat2.pdf",
+      "date": "2026-10-23T08:44:54.324581+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/c55c71d24a70-mat-zao.pdf",
+      "date": "2026-10-23T08:44:54.337516+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/a02867c5c021-mat-zaoch.pdf",
+      "date": "2026-10-23T08:44:54.365524+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/3c89947f2065-mat.pdf",
+      "date": "2026-10-23T08:44:54.377165+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/410f89470f9a-hr1-mat.pdf",
+      "date": "2026-10-23T08:50:19.358393+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/a3d200dc2054-mat2.pdf",
+      "date": "2026-10-23T08:50:19.391142+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/913d35a6bcf4-hr1-mat.pdf",
+      "date": "2026-10-23T08:50:19.410840+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/6dcf720c0185-kh2-mat.pdf",
+      "date": "2026-10-23T08:50:19.450476+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/159970918ebd-mat3-pen.pdf",
+      "date": "2026-10-23T08:50:19.512446+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "6, 7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/0fb00a2991f3-mat2-f.pdf",
+      "date": "2026-10-23T08:50:19.534159+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "10, 11"
+      },
+      "solution_evidence": "Explicit tasks-and-solutions title",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/f2124c19b172-mat2.pdf",
+      "date": "2026-10-23T08:50:19.566793+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/8a6f26108902-hr1-mat.pdf",
+      "date": "2026-10-23T08:50:19.593593+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/b0e8b3bf3267-hr2-mat.pdf",
+      "date": "2026-10-23T08:50:19.630563+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/ab650eb130ba-mat24.pdf",
+      "date": "2026-10-23T08:50:19.648243+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/9b03571ae688-mat_z.pdf",
+      "date": "2026-10-23T08:50:19.771881+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/8b75f7c370c0-mat1.pdf",
+      "date": "2026-10-23T08:50:19.825371+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/1b420635205c-sarov1-math.pdf",
+      "date": "2026-10-23T08:50:19.862721+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/d4b1feb77445-har-mat.pdf",
+      "date": "2026-10-23T08:50:19.883965+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/45a061a5a791-math-sarov2019.pdf",
+      "date": "2026-10-23T08:50:19.900982+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/c8dc7dd6fcb8-mat2.pdf",
+      "date": "2026-10-23T08:50:19.937472+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/4ced15494dbf-mat-z.pdf",
+      "date": "2026-10-23T08:50:19.962612+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/e5f3a2f3fd7c-mat-otbor.pdf",
+      "date": "2026-10-23T08:50:19.980898+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/4a0aa3cd9984-mat2-otvet.pdf",
+      "date": "2026-10-23T08:50:20.022240+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/c20db8c1e5d8-mat-zao.pdf",
+      "date": "2026-10-23T08:50:20.044890+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/21da6d9c5368-mat2.pdf",
+      "date": "2026-10-23T08:50:20.079603+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/c55c71d24a70-mat-zao.pdf",
+      "date": "2026-10-23T08:50:20.104157+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/1aad2bf9d142-mat1.pdf",
+      "date": "2026-10-23T08:50:20.132327+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "13 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/b0683200481d-mat_final.pdf",
+      "date": "2026-10-23T08:50:20.159253+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "11 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "bibn",
+      "path": "olympiads/russia/bibn/documents/a02867c5c021-mat-zaoch.pdf",
+      "date": "2026-10-23T08:50:20.170053+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "itmo",
+      "path": "olympiads/russia/itmo/documents/733fc20aa9c5fd49.pdf",
+      "date": "2026-10-23T08:50:21.161418+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "itmo",
+      "path": "olympiads/russia/itmo/documents/ca374d5ea67243ec.pdf",
+      "date": "2026-10-23T08:50:21.294073+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/099cf2052369-24-tasksans-cript-11-otbor-23-24.pdf",
+      "date": "2026-10-23T08:50:21.612486+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "11"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/9e651308bc95-24-tasks-cript-11-final-23-24.pdf",
+      "date": "2026-10-23T08:50:21.639741+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/0c4767523063-24-sol-cript-11-final-23-24.pdf",
+      "date": "2026-10-23T08:50:21.676971+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "11"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/d193b86d42d5-14211365-tasks-kript-11-final-19-20.pdf",
+      "date": "2026-10-23T08:50:21.786955+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/a7a5cbe1c467-4016204-task-cript-11-otbor-14-5.pdf",
+      "date": "2026-10-23T08:50:21.942628+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/16cd809dd8ad-4016204-ans-cript-11-otbor-14-5.pdf",
+      "date": "2026-10-23T08:50:21.953086+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/dd9f1cee7004-4016204-task-cript-11-final-14-5.pdf",
+      "date": "2026-10-23T08:50:21.964140+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/0169d74351a3-4016204-ans-cript-11-final-14-5.pdf",
+      "date": "2026-10-23T08:50:21.977396+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/9291cd0273f8-3040167-tasks-cryp-11-final-12-3.pdf",
+      "date": "2026-10-23T08:50:21.986183+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/d2c41f4989bf-3040167-ans-cryp-11-final-12-3.pdf",
+      "date": "2026-10-23T08:50:21.994695+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/661d202e84e0-4016204-task-cript-9-otbor-14-5.pdf",
+      "date": "2026-10-23T08:50:22.643240+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/c5597c3cb674-4016204-ans-cript-9-otbor-14-5.pdf",
+      "date": "2026-10-23T08:50:22.652332+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/1be72b6342d4-4016204-task-cript-9-final-14-5.pdf",
+      "date": "2026-10-23T08:50:22.659943+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/887c3ceb7beb-4016204-ans-cript-9-final-14-5.pdf",
+      "date": "2026-10-23T08:50:22.669905+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/4eca0aeea219-4016204-task-cript-10-otbor-14-5.pdf",
+      "date": "2026-10-23T08:50:22.676535+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/f2a3df265796-4016204-ans-cript-10-otbor-14-5.pdf",
+      "date": "2026-10-23T08:50:22.685072+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/e99517b3d927-4016204-task-cript-10-final-14-5.pdf",
+      "date": "2026-10-23T08:50:22.695519+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/c9dcff9fad35-3040167-tasks-cryp-10-final-12-3.pdf",
+      "date": "2026-10-23T08:50:22.713772+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "verchenko",
+      "path": "olympiads/russia/verchenko/documents/308865b0bdbf-3040167-ans-cryp-10-final-12-3.pdf",
+      "date": "2026-10-23T08:50:22.729629+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    }
+  ],
+  "errors": []
+}

@@ -7,7 +7,7 @@ Use --contest ID to resume one contest; --max-pages is an explicit crawl bound,
 not a claim that the archive is complete. Existing verified files are reused.
 """
 from __future__ import annotations
-import argparse, concurrent.futures, hashlib, html, json, re, sys, threading, time
+import argparse, concurrent.futures, hashlib, html, json, re, sys, threading, time, subprocess
 from collections import deque
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -56,13 +56,19 @@ CONTESTS = {
 # Official pages moved or use meta-refresh navigation; keep the former addresses
 # as provenance while following only subject-specific public archive branches.
 CONTESTS['vsosh'].update(seeds=['https://olympiads.mccme.ru/vmo/','https://matholymp.ru/'],math_only=True,scope=r'.*(?:/vmo/|/mmo/okrug/|matholymp).*')
-CONTESTS['bibn']['scope']=r'.*(?:calendar|archive|math|математ|задани|zadani).*'
+CONTESTS['bibn']['scope']=r'.*(?:calendar|archive|/node/\d+|math|математ|задани|zadani).*'
 CONTESTS['belchonok']['scope']=r'.*/abiturientu-sfu/olimpiady/belchonok/.*'
 CONTESTS['turlom']['domains']+=['xn--k1acfgjg.xn--l1afu.xn--p1ai','olympiads.mccme.ru']
 CONTESTS['turlom']['seeds']+=['https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/архив/','https://olympiads.mccme.ru/turlom/']
 CONTESTS['turlom']['scope']=r'.*(?:/archives/|/turlom/).*'
 CONTESTS['mos_probability']['seeds']=['https://ptlab.mccme.ru/node/2904']
 CONTESTS['sammat']['seeds']=['https://sammat.samgtu.ru/sammat','https://sammat.samgtu.ru/']
+# The organizer's TLS certificate may be unavailable. Keep its URL and the
+# explicitly attributed public partner archive; do not disable verification.
+CONTESTS['verchenko']['seeds']+=['https://olimpiada.ru/activity/24/tasks']
+CONTESTS['verchenko']['domains']+=['olimpiada.ru']
+CONTESTS['verchenko']['scope']=r'.*(?:/activity/24/tasks|cryptolymp|slug=cryptography).*'
+CONTESTS['verchenko']['math_only']=True
 
 def canonical(url):
     p=urlsplit(html.unescape(url)); return urlunsplit((p.scheme,p.netloc.lower(),p.path,p.query,''))
@@ -98,11 +104,29 @@ def decode(b,ctype=''):
 def fetch(url,timeout=20):
     try:
         parsed=urlsplit(url)
-        request_url=urlunsplit((parsed.scheme,parsed.netloc.encode('idna').decode(),quote(parsed.path,safe='/%:@!$&\'()*+,;=-._~'),quote(parsed.query,safe='=&%/:?+;,@-._~'),''))
-        req=Request(request_url,headers={'User-Agent':UA})
-        with urlopen(req,timeout=timeout) as r:
-            return dict(ok=True,url=url,final_url=r.url,status=r.status,content_type=r.headers.get('Content-Type',''),data=r.read())
-    except Exception as exc:return dict(ok=False,url=url,status=getattr(exc,'code',None),error=f'{type(exc).__name__}: {exc}')
+        # The organizer redirects its legacy www host to the canonical TLS host.
+        # Request it directly to avoid a second connection on historical links.
+        if parsed.netloc == 'www.turgor.ru':
+            parsed=parsed._replace(scheme='https',netloc='turgor.ru')
+        request_url=urlunsplit((parsed.scheme,parsed.netloc.encode('idna').decode(),quote(parsed.path,safe="/%:@!$&'()*+,;=-._~"),quote(parsed.query,safe='=&%/:?+;,@-._~'),''))
+        command=['/usr/bin/curl','--silent','--show-error','--location','--max-redirs','8',
+            '--connect-timeout','6','--max-time',str(timeout),'--max-filesize','100000000',
+            '--user-agent',UA,'--write-out','\n%{url_effective}\n%{content_type}\n%{http_code}\n',request_url]
+        proc=subprocess.run(command,capture_output=True,timeout=timeout+10)
+        def unpack(p):
+            try:
+                data,final,mime,status,_=p.stdout.rsplit(b'\n',4)
+                return data,final.decode('utf-8','replace'),mime.decode('utf-8','replace'),int(status)
+            except (ValueError,UnicodeError):return b'',request_url,'',0
+        data,final,mime,status=unpack(proc)
+        if status==403 and request_url.startswith('http://') and b'https' in data[:500].lower():
+            command[-1]='https://'+request_url[7:]
+            proc=subprocess.run(command,capture_output=True,timeout=timeout+10)
+            data,final,mime,status=unpack(proc)
+        if proc.returncode or not 200<=status<300:
+            return dict(ok=False,url=url,status=status or None,error=f'HTTP {status}; curl {proc.returncode}: '+proc.stderr.decode('utf-8','replace')[:350])
+        return dict(ok=True,url=url,final_url=final,status=status,content_type=mime,data=data)
+    except Exception as exc:return dict(ok=False,url=url,status=None,error=f'{type(exc).__name__}: {exc}')
 
 def metadata(url,label,heading,context):
     # URL takes priority; nearby HTML context only supplies information absent there.
@@ -137,11 +161,11 @@ def output_path(folder,url,suffix=None):
 def save_json(path,obj):
     tmp=path.with_suffix(path.suffix+'.tmp');tmp.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n');tmp.replace(path)
 
-def crawl(cid,cfg,max_pages=4000,max_depth=None,workers=8):
+def crawl(cid,cfg,max_pages=4000,max_depth=None,workers=8,pending_only=False):
     folder=BASE/cid;folder.mkdir(parents=True,exist_ok=True);(folder/'documents').mkdir(exist_ok=True);(folder/'indexes').mkdir(exist_ok=True)
     mf=folder/'manifest.json'
     old=json.loads(mf.read_text()) if mf.exists() else {}; records={r['url']:r for r in old.get('documents',[])}
-    indexes={r['url']:r for r in old.get('indexes',[])}; failures=[];q=deque((u,0) for u in cfg['seeds']);seen=set();discovered={r['url']:r for r in old.get('pending_documents',[])}
+    indexes={r['url']:r for r in old.get('indexes',[])}; failures=list(old.get('failures',[])) if pending_only else [];q=deque() if pending_only else deque((u,0) for u in cfg['seeds']);queued=set(cfg['seeds']);seen=set();discovered={r['url']:r for r in old.get('pending_documents',[])}
     depthlimit=cfg['depth'] if max_depth is None else max_depth
     file_jobs={}; start=datetime.now(timezone.utc).isoformat()
     def remember_file(u,label,h,c,source):
@@ -153,9 +177,14 @@ def crawl(cid,cfg,max_pages=4000,max_depth=None,workers=8):
         if not(cfg.get('math_only') or MATH.search(label+' '+unquote(u)) or MATH.search(h) or (MATH.search(c) and not OTHER.search(c))):
             return
         rec=dict(url=u,contest=cfg['name'],subject='mathematics',source_page=source,**metadata(u,label,h,c))
+        if cid=='verchenko' and 'olimpiada.ru' in urlsplit(source).netloc:
+            rec['source_status']='public_secondary_archive_attributing_organizer'
+            rec['official_source_url']='https://v-olymp.ru/prev-materials?slug=cryptography'
+            match=re.search(r'(?:^|&)class=(\d{1,2})(?:&|$)',urlsplit(source).query)
+            if match and not rec['classes']:rec['classes']=match[1]
         discovered[u]=rec
     def checkpoint():
-        save_json(mf,dict(contest=cfg['name'],id=cid,subject='mathematics',started_at=start,updated_at=datetime.now(timezone.utc).isoformat(),scope=cfg,seeds=cfg['seeds'],crawl_limits=dict(max_pages=max_pages,max_depth=depthlimit),coverage_status='partial' if q or failures else 'all_links_within_declared_scope_processed',documents=list(records.values()),indexes=list(indexes.values()),failures=failures,discovered_documents=len(discovered),pending_pages=len(q),pending_documents=[r for u,r in discovered.items() if records.get(u,{}).get('status')!='downloaded']))
+        save_json(mf,dict(contest=cfg['name'],id=cid,subject='mathematics',started_at=start,updated_at=datetime.now(timezone.utc).isoformat(),scope=cfg,seeds=cfg['seeds'],crawl_limits=dict(max_pages=max_pages,max_depth=depthlimit),coverage_status='pending_queue_only; indexing not performed' if pending_only else 'partial' if q or failures else 'all_links_within_declared_scope_processed',documents=list(records.values()),indexes=list(indexes.values()),failures=failures,discovered_documents=max(len(discovered),len(records)),pending_pages=len(q),pending_documents=[r for u,r in discovered.items() if records.get(u,{}).get('status')!='downloaded']))
     def fetch_index(job):
         u,_=job; cached=indexes.get(u)
         if cached and (ROOT/cached.get('local_path','NONEXISTENT')).is_file():
@@ -199,7 +228,8 @@ def crawl(cid,cfg,max_pages=4000,max_depth=None,workers=8):
                         if match:parser.items.append((match.group(1).strip(),'HTML refresh','',''))
             except ImportError:pass
             # HTML task/solution pages are primary published materials too.
-            if page_math and POS.search(unquote(u)) and not re.search(r'archive|arhiv|архив|past|problems/?$|tasks/?$',u,re.I) and d>0:
+            partner_index=(cid=='verchenko' and urlsplit(u).netloc=='olimpiada.ru')
+            if page_math and not partner_index and POS.search(unquote(u)) and not re.search(r'archive|arhiv|архив|past|problems/?$|tasks/?$',u,re.I) and d>0:
                 records[u]=dict(url=u,contest=cfg['name'],subject='mathematics',status='downloaded',local_path=str(path.relative_to(ROOT)),sha256=hashlib.sha256(b).hexdigest(),bytes=len(b),document_type='tasks_or_solutions_html',**{k:v for k,v in metadata(u,'',parser.heading,'').items() if k!='document_type'})
             for href,label,h,c in parser.items:
                 v=canonical(urljoin(res['final_url'],href))
@@ -209,7 +239,13 @@ def crawl(cid,cfg,max_pages=4000,max_depth=None,workers=8):
                 elif d<depthlimit and urlsplit(v).netloc.lower() in cfg['domains'] and re.search(cfg['scope'],unquote(v),re.I):
                     if NEG.search(label+' '+unquote(v)) and not POS.search(label):continue
                     if OTHER.search(label+' '+unquote(v)) and not MATH.search(label+' '+unquote(v)):continue
-                    if not re.search(r'login|register|logout|auth|calendar|search|facebook|vk\.com|mailto',v,re.I):q.append((v,d+1))
+                    # BIBN publishes annual papers under /node/N and
+                    # /calendar/YYYY/city: these are archive pages, not calendars
+                    # of unrelated events.
+                    blocked_navigation=r'login|register|logout|auth|search|facebook|vk\.com|mailto'
+                    if cid!='bibn':blocked_navigation+='|calendar'
+                    if v not in queued and not re.search(blocked_navigation,v,re.I):
+                        queued.add(v);q.append((v,d+1))
         checkpoint()
         print(f'{cid}: pages={len(seen)} queue={len(q)} documents_discovered={len(discovered)}',flush=True)
     pending=[]
@@ -235,11 +271,11 @@ def crawl(cid,cfg,max_pages=4000,max_depth=None,workers=8):
     return dict(id=cid,downloaded=success,discovered=len(records),failed_pages=len(failures))
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--contest',action='append',choices=sorted(CONTESTS));ap.add_argument('--max-pages',type=int,default=4000);ap.add_argument('--max-depth',type=int);ap.add_argument('--workers',type=int,default=8);args=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--contest',action='append',choices=sorted(CONTESTS));ap.add_argument('--max-pages',type=int,default=4000);ap.add_argument('--max-depth',type=int);ap.add_argument('--workers',type=int,default=8);ap.add_argument('--pending-only',action='store_true',help='Process stored pending document URLs without recrawling indexes');args=ap.parse_args()
     selected=args.contest or list(CONTESTS)
     save_json(ROOT/'research'/'russia-archive-sources.json',CONTESTS)
     for cid in selected:
-        try:crawl(cid,CONTESTS[cid],args.max_pages,args.max_depth,args.workers)
+        try:crawl(cid,CONTESTS[cid],args.max_pages,args.max_depth,args.workers,args.pending_only)
         except KeyboardInterrupt:raise
         except Exception as exc:print(f'{cid}: ERROR {exc}',file=sys.stderr,flush=True)
 if __name__=='__main__':main()

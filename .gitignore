@@ -24,3 +24,12 @@ sources/book/main.pdf
 !/olympiads/**/queue.jsonl
 !/olympiads/**/pause-state.json
 !/olympiads/**/README.md
+
+# Public frontend inspection cache; archive metadata retains source URLs.
+/research/itmo-js-cache/
+/research/probe-*
+/research/itmo-*-section.json
+/research/itmo-section-root.json
+/research/itmo-public-projects.json
+/research/itmo-project-*.json
+/research/verchenko-*.html

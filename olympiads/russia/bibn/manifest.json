@@ -2,8 +2,8 @@
   "contest": "Будущие исследователи — будущее науки — математика",
   "id": "bibn",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:43.401059+00:00",
-  "updated_at": "2026-10-22T15:41:44.078975+00:00",
+  "started_at": "2026-10-23T08:35:22.392610+00:00",
+  "updated_at": "2026-10-23T08:42:06.706077+00:00",
   "scope": {
     "name": "Будущие исследователи — будущее науки — математика",
     "seeds": [
@@ -13,7 +13,7 @@
       "bibn.unn.ru",
       "www.unn.ru"
     ],
-    "scope": ".*(?:calendar|archive|math|математ|задани|zadani).*",
+    "scope": ".*(?:calendar|archive|/node/\\d+|math|математ|задани|zadani).*",
     "math_only": false,
     "depth": 4
   },
@@ -21,11 +21,2866 @@
     "https://bibn.unn.ru/"
   ],
   "crawl_limits": {
-    "max_pages": 2400,
-    "max_depth": 6
+    "max_pages": 1000,
+    "max_depth": 5
   },
-  "coverage_status": "all_links_within_declared_scope_processed",
-  "documents": [],
+  "coverage_status": "partial",
+  "documents": [
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2022/barn/math3-brn.xlsx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/files/calendar/2022/barn/math3-brn.xlsx",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/8b5e3331d050-math3-brn.xlsx.zip",
+      "sha256": "4242ab3204ff7a5fbf54017ede2b472da723a7e1c8507e5b7a5f9a66ab959733",
+      "bytes": 13201,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2027/sarov/hr1-mat.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/sarov",
+      "year": "2026/2027",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров: порядок проведения олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/410f89470f9a-hr1-mat.pdf",
+      "sha256": "97a6332e4f686447c1f0db49f25f6acb74e9b38788407f2ec6847997473f541e",
+      "bytes": 159338,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2027/sarov/hr1-mat.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.031958+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2027"
+          },
+          "updated": {
+            "year": "2026/2027"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.358393+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2026/nnov/mat1.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/346",
+      "year": "2026",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/17842af448a6-mat1.doc",
+      "sha256": "4581ec839d6b900399673a9d09de23901cb57199e028d1509244af7af16986c7",
+      "bytes": 464896,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2026/nnov/mat1.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2026/nnov/mat2.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/346",
+      "year": "2025/2026",
+      "stage": null,
+      "classes": "7, 8, 9, 10, 11",
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/a3d200dc2054-mat2.pdf",
+      "sha256": "40639948ccad1a997adc71fbf50db90d3515fa89208f202ade64821531e3b69c",
+      "bytes": 350957,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2026/nnov/mat2.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.044099+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2026"
+          },
+          "updated": {
+            "year": "2025/2026"
+          },
+          "solution_evidence": "10 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.391142+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7, 8, 9, 10, 11"
+          },
+          "solution_evidence": "10 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2026/sarov/hr1-mat.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/347",
+      "year": "2025/2026",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/913d35a6bcf4-hr1-mat.pdf",
+      "sha256": "1cfd3c71fe156948a12792cc4ecffeffd533d2d44f401e90c8ab19105daa4fbc",
+      "bytes": 127949,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2026/sarov/hr1-mat.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.055658+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2026"
+          },
+          "updated": {
+            "year": "2025/2026"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.410840+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2026/sarov/kh2-mat.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/347",
+      "year": "2025/2026",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/6dcf720c0185-kh2-mat.pdf",
+      "sha256": "9f1b41c73a7238644050e3c05a8e6261df0ad2c89b61d63eb1263058a4f02bbe",
+      "bytes": 272659,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2026/sarov/kh2-mat.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.069152+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2026"
+          },
+          "updated": {
+            "year": "2025/2026"
+          },
+          "solution_evidence": "10 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.450476+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "10 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2026/sarov/mat3-sar.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/347",
+      "year": "2026",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "итоги",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/16a9cc815b66-mat3-sar.doc",
+      "sha256": "4fd187d91afa94a6a96406a0a3f0692f145f40aac913844f5782a7e76811b197",
+      "bytes": 119808,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2026/sarov/mat3-sar.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2026/penza/mat3-pen.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/350",
+      "year": "2026",
+      "stage": null,
+      "classes": "6, 7, 8, 9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "итоги",
+      "heading": "Пенза",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/159970918ebd-mat3-pen.pdf",
+      "sha256": "5a23b98aabf11ec1a2e78b6a418800f72d9451c5861bf71256e25f21057a7dac",
+      "bytes": 1248975,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2026/penza/mat3-pen.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:50:19.512446+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "6, 7, 8, 9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2026/foreign/mat1f.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/360",
+      "year": "2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Иностранные школьники",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/0c2cceda603d-mat1f.doc",
+      "sha256": "11b76ebfc7115b2b12ea5b3d2f8578adeeee8b943ee74e97d2d876ffd134a402",
+      "bytes": 226304,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2026/foreign/mat1f.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2026/foreign/mat2-f.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/360",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": "10, 11",
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Иностранные школьники",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/0fb00a2991f3-mat2-f.pdf",
+      "sha256": "c01984ebef8cbee788d23441e604505f65f83924d22e0cd0a993c2d832f391f5",
+      "bytes": 314891,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2026/foreign/mat2-f.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.093544+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2026"
+          },
+          "updated": {
+            "year": "2025/2026"
+          },
+          "solution_evidence": "Explicit tasks-and-solutions title",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.534159+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "Explicit tasks-and-solutions title",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2025/nnov/mat1.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/329",
+      "year": "2025",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/b13709f943bc-mat1.doc",
+      "sha256": "67102341ce2cfad734a2ac595c9baef739c6e42fd9eef5a436b9c78db51c2e93",
+      "bytes": 340992,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2025/nnov/mat1.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2025/nnov/mat2.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/329",
+      "year": "2025",
+      "stage": null,
+      "classes": "7, 8, 9, 10, 11",
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/f2124c19b172-mat2.pdf",
+      "sha256": "97ce228d89139d82037ba2116ea45a0f371a7db15225e0b3486c19eb9bcbae40",
+      "bytes": 435110,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2025/nnov/mat2.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:50:19.566793+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7, 8, 9, 10, 11"
+          },
+          "solution_evidence": "7 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2025/sarov/hr1-mat.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/330",
+      "year": "2024/2025",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/8a6f26108902-hr1-mat.pdf",
+      "sha256": "88df73df6086750d920f4b243bedfe46af21f244850f9bbb46e52101c2bc6a70",
+      "bytes": 234647,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2025/sarov/hr1-mat.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.121109+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2025"
+          },
+          "updated": {
+            "year": "2024/2025"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.593593+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2025/sarov/hr2-mat.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/330",
+      "year": "2024/2025",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/b0e8b3bf3267-hr2-mat.pdf",
+      "sha256": "e563b67164a1a6f266912e2e2ec35b36052696d73e5f0f0a8975c32aed49e910",
+      "bytes": 213962,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2025/sarov/hr2-mat.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.133573+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2025"
+          },
+          "updated": {
+            "year": "2024/2025"
+          },
+          "solution_evidence": "10 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.630563+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "10 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2025/tash/mat2f.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/344",
+      "year": "2025",
+      "stage": "school",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Иностранные школьники",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/ecac35585cce-mat2f.doc",
+      "sha256": "2b8e906547733ef9eb81a0319f78b7a95037c7a7e2b8a5388fdcdc50226dcab5",
+      "bytes": 119296,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2025/tash/mat2f.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2024/nnov/mat23-otbor.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/311",
+      "year": "2024",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/4e9c0623a12a-mat23-otbor.doc",
+      "sha256": "5d11ac38164796d3dac6af14d1d3d45bfafd2f9bfbb6f80c75d014dc8080d0f7",
+      "bytes": 416768,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2024/nnov/mat23-otbor.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2024/nnov/mat24-fin.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/311",
+      "year": "2024",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/6863dd0aaebf-mat24-fin.docx",
+      "sha256": "42634cb218e004613de864105e0e57e5e07aa1e1f3b379946b7b120ce9e09f14",
+      "bytes": 281499,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2024/nnov/mat24-fin.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2024/sarov/mat24.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/312",
+      "year": "2023/2024",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/ab650eb130ba-mat24.pdf",
+      "sha256": "b76e2705b8fa2d961e1e7650ec2389f827af77d21d848b1330df5bfd5f625ede",
+      "bytes": 129215,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2024/sarov/mat24.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.143083+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2024"
+          },
+          "updated": {
+            "year": "2023/2024"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.648243+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2024/sarov/mat-test.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/312",
+      "year": "2024",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "тест",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/c12e04cf9b67-mat-test.pdf",
+      "sha256": "5cf09acb23d078c3ebee7e441fc4e174a324d68dbae1f14aa5de41ad6099ae25",
+      "bytes": 365011,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2024/sarov/mat-test.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.157599+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "mathematics_material"
+          },
+          "updated": {
+            "document_type": "tasks_and_solutions"
+          },
+          "solution_evidence": "10 explicit answer/solution headings",
+          "year_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2024/nnov/mat23_otbor.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/312",
+      "year": "2024",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/a3d287b71e6a-mat23_otbor.doc",
+      "sha256": "00697e787b27208dc437116dc257722ac488d77c919c6ae2d6f4fd47b7c0afd4",
+      "bytes": 413696,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2024/nnov/mat23_otbor.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2024/sarov/mat3-sar.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/312",
+      "year": "2024",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "итоги",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/1b521a01c7f2-mat3-sar.doc",
+      "sha256": "74cd752314d7c98441cb7c5a1b6d30cbfc124d4ff915bda253e4c164ef9f7ea9",
+      "bytes": 139776,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2024/sarov/mat3-sar.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2024/nnov/mat24-fin2.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/325",
+      "year": "2024",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Казань",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/5672a13b469e-mat24-fin2.docx",
+      "sha256": "0fbea292d3c59d52e9132c2806d00588c92951931e13cfd731d7cd783226d794",
+      "bytes": 361977,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2024/nnov/mat24-fin2.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2023/nnov/mat22_otbor.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/291",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/2525ea924574-mat22_otbor.docx",
+      "sha256": "5cf6888368c15d37aad8f371f01c23c0b3c65b926ea5a27876be1e117c999253",
+      "bytes": 280436,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2023/nnov/mat22_otbor.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2023/nnov/mat2.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/291",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/c2ce1a25787c-mat2.docx",
+      "sha256": "2b7d67ce2af23773fc5562704d1c62265a1093b0c1726895f76d7043cdd32825",
+      "bytes": 119270,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2023/nnov/mat2.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2023/sarov/mat23.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/292",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/8ea40ae28029-mat23.docx",
+      "sha256": "f5ead3bfe86a84a03311ea061202532a5fe4f9b1a0e1d20beb164b813ef59a59",
+      "bytes": 23163,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2023/sarov/mat23.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2023/sarov/mat2-test.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/292",
+      "year": "2022/2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "ответы",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/0d8329b12e08-mat2-test.pdf",
+      "sha256": "6055754a2fd4d35cd0699e16c94bac5790ae5979707a737af0312acdad585cc5",
+      "bytes": 308057,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2023/sarov/mat2-test.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.170511+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2023"
+          },
+          "updated": {
+            "year": "2022/2023"
+          },
+          "solution_evidence": "7 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2023/sarov/mat2-xch.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/292",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "итоги",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/43b035505570-mat2-xch.doc",
+      "sha256": "f79f293605699b8221f085a5986ab84d6790b1be571150f9f2c834beadac1ce2",
+      "bytes": 45056,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2023/sarov/mat2-xch.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2023/sarov/mat3-srv.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/292",
+      "year": "2023",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "итоги",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/f564b5149fbd-mat3-srv.doc",
+      "sha256": "2b22a16d5264dbed243d2c976c19d40a5bdfb993394cc070388bb1188c2eb5b9",
+      "bytes": 162816,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2023/sarov/mat3-srv.doc"
+    },
+    {
+      "url": "https://olmp.pnzgu.ru/files/olmp.pnzgu.ru/matematika_final_2023_so_stepenyami_diplomov.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/295",
+      "year": "2023",
+      "stage": "final",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "итоги",
+      "heading": "Пенза",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/5c5859258e73-matematika_final_2023_so_stepenyami_diplomov.pdf",
+      "sha256": "bc05f95eff1f2bb603cc0660ca6ea82c36656e18dc14470a7db9272d9aa51409",
+      "bytes": 314777,
+      "content_type": "application/pdf",
+      "final_url": "https://olmp.pnzgu.ru/files/olmp.pnzgu.ru/matematika_final_2023_so_stepenyami_diplomov.pdf"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2022/nnov/mat-otbor.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/272",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/6002486862a5-mat-otbor.doc",
+      "sha256": "8c10331f07b04189fa4dc512bc0e3fc32d8af8a6e846b99615a720ec057fc705",
+      "bytes": 488960,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2022/nnov/mat-otbor.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2022/nnov/mat-final.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/272",
+      "year": "2022",
+      "stage": "final",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/eeeaeae0eb7d-mat-final.docx",
+      "sha256": "b2152bd80d6433db5899d713122a185524630a4eaf85f4ffe2693e304dde004f",
+      "bytes": 270964,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2022/nnov/mat-final.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2022/sarov/mat_z.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/273",
+      "year": "2021/2022",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/9b03571ae688-mat_z.pdf",
+      "sha256": "e472588331cc3a68f3d10d7142e3c4c2ba64e2a1e318f77949d63eec7642e3cf",
+      "bytes": 151818,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2022/sarov/mat_z.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.197764+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2022"
+          },
+          "updated": {
+            "year": "2021/2022"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.771881+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2022/sarov/math22.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/273",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "с решениями",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/f3e1e83e721e-math22.pdf",
+      "sha256": "54f212822a6815294d8510109540c46ed7c7f83dac86f95947ebcd468de1f5bc",
+      "bytes": 165905,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2022/sarov/math22.pdf"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2022/sarov/itog_math.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/273",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/fcdff860e2be-itog_math.doc",
+      "sha256": "208f14155a009d3288913bcec1ce545acf4ae02291aaebc5942e290ec10094fe",
+      "bytes": 42496,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2022/sarov/itog_math.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2022/sarov/res-mat3.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/273",
+      "year": "2022",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "итоги",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/85cc80f85435-res-mat3.doc",
+      "sha256": "150691745e74fea62cc0b80e6e0b6b9570863039712fa9871484cc73cb587c4a",
+      "bytes": 119296,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2022/sarov/res-mat3.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2021/sarov/mat1.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/257",
+      "year": "2020/2021",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/8b75f7c370c0-mat1.pdf",
+      "sha256": "f05612b7516955866981da10891006f7734362c29f4eb2f68277aed374e625c7",
+      "bytes": 242042,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2021/sarov/mat1.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.221600+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2021"
+          },
+          "updated": {
+            "year": "2020/2021"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.825371+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2021/sarov/mat2-otvet.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/257",
+      "year": "2021",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/d0f1015f3065-mat2-otvet.pdf",
+      "sha256": "f72b6441fed263b5d861a6ae43553021a741db464415261d4c70d41bfe2a72dd",
+      "bytes": 163551,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2021/sarov/mat2-otvet.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.233121+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "mathematics_material"
+          },
+          "updated": {
+            "document_type": "tasks_and_solutions"
+          },
+          "solution_evidence": "12 explicit answer/solution headings",
+          "year_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2021/nnov/mat2-sol.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/257",
+      "year": "2021",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/21b38459ce11-mat2-sol.docx",
+      "sha256": "61fd5d690a636e0d03e637468053dad53acd9e388cdc3595cdecf9902e7aa02b",
+      "bytes": 201508,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2021/nnov/mat2-sol.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2020/nnov/mat19-otbor.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/239",
+      "year": "2020",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/796dd4f526ce-mat19-otbor.docx",
+      "sha256": "8979d0ad5499ffcd31c0427ae2c8637c722da33bfa767551713db3db3de3041c",
+      "bytes": 213511,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2020/nnov/mat19-otbor.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2020/nnov/mat-20.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/239",
+      "year": "2020",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/39f17e899882-mat-20.docx",
+      "sha256": "141bbde50f49f234ea885667fa405ebf25375cfdf7fc92188339ec8bf9caf7bc",
+      "bytes": 408951,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2020/nnov/mat-20.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2020/sarov/sarov1-math.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/240",
+      "year": "2019/2020",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/1b420635205c-sarov1-math.pdf",
+      "sha256": "266779ec26e16736ce9b245f4b9512e6c450e27405bd37d4babde9999ef25a33",
+      "bytes": 888065,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2020/sarov/sarov1-math.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.241901+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2020"
+          },
+          "updated": {
+            "year": "2019/2020"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.862721+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2020/sarov/har-mat.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/240",
+      "year": "2019/2020",
+      "stage": null,
+      "classes": "9, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/d4b1feb77445-har-mat.pdf",
+      "sha256": "a654883ec947fec476bf8cfb605eb9321c760881a0aa3428afdaccaee78ed354",
+      "bytes": 648226,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2020/sarov/har-mat.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.250228+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2020"
+          },
+          "updated": {
+            "year": "2019/2020"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.883965+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2019/nnov/mat1-sol.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/222",
+      "year": "2019",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "задания+реш",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/2e952f55daf1-mat1-sol.doc",
+      "sha256": "e668fb3b6ae73506695aea65d1bbe63600101c4cba3d486639a5ce4d08c8686d",
+      "bytes": 805888,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2019/nnov/mat1-sol.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2019/nnov/math2-sol.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/222",
+      "year": "2019",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/916f17933403-math2-sol.docx",
+      "sha256": "b022009abf0fa3a1b06a7b95c56cbbb71b62756c28099a8fbf52bef632ecc209",
+      "bytes": 234773,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2019/nnov/math2-sol.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2019/sarov/math-sarov2019.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/223",
+      "year": "2018/2019",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/45a061a5a791-math-sarov2019.pdf",
+      "sha256": "8e6aef4ba7a8bb5019244d4475ca896d92b74601bff093320e6489defc27499d",
+      "bytes": 973237,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2019/sarov/math-sarov2019.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.259104+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2019"
+          },
+          "updated": {
+            "year": "2018/2019"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.900982+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2019/sarov/mat2.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/223",
+      "year": "2019",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/c8dc7dd6fcb8-mat2.pdf",
+      "sha256": "a2d7f3a6b9ded1b857fd5c37584d94de6f03c8bc9690899432a926e000820fce",
+      "bytes": 329560,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2019/sarov/mat2.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:50:19.937472+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2019/penza/mat-z.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/226",
+      "year": "2018/2019",
+      "stage": null,
+      "classes": "7, 8, 9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Пенза",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/4ced15494dbf-mat-z.pdf",
+      "sha256": "cdea082ee030347beb9152eb1c507ab6ff6dbc5111d82c97c830e7310187cd4b",
+      "bytes": 199638,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2019/penza/mat-z.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.280287+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2019"
+          },
+          "updated": {
+            "year": "2018/2019"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.962612+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7, 8, 9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2019/nnov/mat2--sol.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/226",
+      "year": "2019",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Пенза",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2018/nnov/math1sol.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/205",
+      "year": "2018",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "задания+реш.",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/a7ba1f0cd1bc-math1sol.docx",
+      "sha256": "276b5bab4ed842deef44c810acd1f90a7bef7cbe5840cf1c3145a0a120114c33",
+      "bytes": 305608,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2018/nnov/math1sol.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2018/nnov/mat2--sol.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/205",
+      "year": "2018",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "задания+реш.",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/67c61874cf49-mat2--sol.docx",
+      "sha256": "649eba999e122fcb797ceb53f32be033c5301004d29fd0b34f2bf6beb256ed35",
+      "bytes": 384513,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "final_url": "https://bibn.unn.ru/files/calendar/2018/nnov/mat2--sol.docx"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2018/sarov/mat-otbor.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/206",
+      "year": "2017/2018",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/e5f3a2f3fd7c-mat-otbor.pdf",
+      "sha256": "e7d23100d0ef66c63a22035a64bbb43205ddaa732c266c6f982000f3095c0683",
+      "bytes": 745978,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2018/sarov/mat-otbor.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.289783+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2018"
+          },
+          "updated": {
+            "year": "2017/2018"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:19.980898+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2018/sarov/mat2-otvet.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/206",
+      "year": "2018",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "tasks_and_solutions",
+      "label": "задания+отв.",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/4a0aa3cd9984-mat2-otvet.pdf",
+      "sha256": "628ee3ff1a319a6dc68fe60057c16f05001ac68b7a2c6763c30859302a1b241c",
+      "bytes": 285041,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2018/sarov/mat2-otvet.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.302621+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "tasks"
+          },
+          "updated": {
+            "document_type": "tasks_and_solutions"
+          },
+          "solution_evidence": "7 explicit answer/solution headings",
+          "year_evidence": null
+        },
+        {
+          "date": "2026-10-23T08:50:20.022240+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "7 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2018/nnov/math1-sol.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/206",
+      "year": "2018",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "задания+реш.",
+      "heading": "Саров",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2017/nnov/mat1--sol.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/183",
+      "year": "2017",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "задания+решения",
+      "heading": "Н. Новгород: порядок проведения олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/3d6a8c67eb40-mat1--sol.doc",
+      "sha256": "79563658583aa7a0d7dd002eb610b3b5c908723817f3dbf9932abbcd9862635f",
+      "bytes": 356352,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2017/nnov/mat1--sol.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2017/nnov/mat2-correct.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/183",
+      "year": "2017",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "задания+реш.",
+      "heading": "Н. Новгород: порядок проведения олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/b8d04d0a4539-mat2-correct.doc",
+      "sha256": "7c070a9899d4afec1dccbb083b98862c220c3725d1a17caa58fe35c5a1468dd7",
+      "bytes": 374272,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2017/nnov/mat2-correct.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2017/sarov/mat-zao.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/184",
+      "year": "2016/2017",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров: порядок проведения олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/c20db8c1e5d8-mat-zao.pdf",
+      "sha256": "46b6581cbd117746340f3aa507cfc369d259893d20666f34e0862d3d59d3b37d",
+      "bytes": 459989,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2017/sarov/mat-zao.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.311173+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2017"
+          },
+          "updated": {
+            "year": "2016/2017"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:20.044890+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2017/sarov/mat2.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/184",
+      "year": "2017",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "tasks_and_solutions",
+      "label": "скачать",
+      "heading": "Саров: порядок проведения олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/21da6d9c5368-mat2.pdf",
+      "sha256": "4cc454f644b2f1100e86cad9245ef8a83e03426d5db33dec8bc8bf1876c84d8c",
+      "bytes": 218674,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2017/sarov/mat2.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.324581+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "mathematics_material"
+          },
+          "updated": {
+            "document_type": "tasks_and_solutions"
+          },
+          "solution_evidence": "10 explicit answer/solution headings",
+          "year_evidence": null
+        },
+        {
+          "date": "2026-10-23T08:50:20.079603+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "10 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2016/nnov/mat-1.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/165",
+      "year": "2016",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "задания+ решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/3d0a9810adb6-mat-1.doc",
+      "sha256": "cb791c48253e92a9158e7683be55a1fdc3b3293a9c3eaa41dc2eed369c273150",
+      "bytes": 466944,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2016/nnov/mat-1.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2016/nnov/mat2.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/165",
+      "year": "2016",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "задания+ответы",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/e6c31427d836-mat2.doc",
+      "sha256": "518bde3eb7d9341c6ef523de01e0f5387d22432a2ead23cf8b566fe5b2112537",
+      "bytes": 217600,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2016/nnov/mat2.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2016/sarov/mat-zao.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/166",
+      "year": "2015/2016",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/c55c71d24a70-mat-zao.pdf",
+      "sha256": "94a25791a00d958b51f1fcd2b02bd645ae8d53881d0098fde259fa1b2b710024",
+      "bytes": 414211,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2016/sarov/mat-zao.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.337516+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2016"
+          },
+          "updated": {
+            "year": "2015/2016"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:20.104157+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2016/sarov/math-test2.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/166",
+      "year": "2016",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2015/nnov/mat1.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/140",
+      "year": "2015",
+      "stage": "final",
+      "classes": "7, 8, 9, 10, 11",
+      "document_type": "solutions",
+      "label": "очный-ответы",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/1aad2bf9d142-mat1.pdf",
+      "sha256": "de5054d302372d504df05f3efab53feb25d2071d154d7ef53c7d7250e2990aae",
+      "bytes": 177173,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2015/nnov/mat1.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:50:20.132327+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7, 8, 9, 10, 11"
+          },
+          "solution_evidence": "13 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2015/nnov/mat_final.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/140",
+      "year": "2015",
+      "stage": "final",
+      "classes": "7, 8, 9, 10, 11",
+      "document_type": "solutions",
+      "label": "финал-решения",
+      "heading": "Н. Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/b0683200481d-mat_final.pdf",
+      "sha256": "c35c2c64a41a87f7b38fb56e77a98d00152316c9ab5ae9ce35f721137744f778",
+      "bytes": 170800,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2015/nnov/mat_final.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:50:20.159253+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7, 8, 9, 10, 11"
+          },
+          "solution_evidence": "11 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2015/sarov/mat-zaoch.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/141",
+      "year": "2014/2015",
+      "stage": null,
+      "classes": "9, 10, 11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/a02867c5c021-mat-zaoch.pdf",
+      "sha256": "1e77840fbec7d75d2c6809e39a0ec6452d6a190a0f7491038510b3ba7d3e0c6f",
+      "bytes": 164800,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2015/sarov/mat-zaoch.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.365524+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2015"
+          },
+          "updated": {
+            "year": "2014/2015"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        },
+        {
+          "date": "2026-10-23T08:50:20.170053+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2015/sarov/m-test.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/141",
+      "year": "2015",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/a9394bcd24cf-m-test.doc",
+      "sha256": "9b5043e412ec9ff9a8ed45f736827e4630e67aab57be3ffb2ea2bf3c0e4a08bf",
+      "bytes": 30720,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2015/sarov/m-test.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2015/penza/mat.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/144",
+      "year": "2014/2015",
+      "stage": "final",
+      "classes": null,
+      "document_type": "tasks",
+      "label": "задания",
+      "heading": "Пенза",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/3c89947f2065-mat.pdf",
+      "sha256": "6f2e2af3e9c69f231d3704a35f558835648644b99a36a97ca4d628d9be40d5ed",
+      "bytes": 122346,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2015/penza/mat.pdf",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T08:44:54.377165+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "year": "2015"
+          },
+          "updated": {
+            "year": "2014/2015"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header"
+        }
+      ]
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2014/nnov/pravila-och1.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/122",
+      "year": "2014",
+      "stage": "final",
+      "classes": "10-11",
+      "document_type": "mathematics_material",
+      "label": "Очный отборочный тур по биологии, химии, физике, математике, русскому языку, истории",
+      "heading": "Н. Новгород: порядок проведения олимпиады в 2013-2014 учебном году",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/98e439532fbc-pravila-och1.doc",
+      "sha256": "ed90dc52252edbbe29a6096f319276baf7d0c524c3b165547547928df296bb61",
+      "bytes": 97792,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2014/nnov/pravila-och1.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2014/nnov/mat-och1.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/122",
+      "year": "2014",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "очный-решения",
+      "heading": "Н. Новгород: порядок проведения олимпиады в 2013-2014 учебном году",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/4d43a8fdca80-mat-och1.doc",
+      "sha256": "15dd6299ada05e329a762be97ab7e83b300a984ba2a22066cb6ff3ed7d8c7c28",
+      "bytes": 300032,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2014/nnov/mat-och1.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2014/nnov/mat-final.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/122",
+      "year": "2014",
+      "stage": "final",
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "задания+решения",
+      "heading": "Н. Новгород: порядок проведения олимпиады в 2013-2014 учебном году",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/0e483d7c99a5-mat-final.doc",
+      "sha256": "fde9f28d3c920e1f8300664f40ac688c31053ec88b83263e2323a34bb16565e6",
+      "bytes": 304128,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2014/nnov/mat-final.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2014/sarov/test-m.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/123",
+      "year": "2014",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "тест",
+      "heading": "Саров: порядок проведения олимпиады в 2013-2014 учебном году",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/897c28d93963-test-m.doc",
+      "sha256": "745d6ab7d0e6705bc44e932b282ccfa9d5958685153bd701819a7b7cb8a121f8",
+      "bytes": 24064,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2014/sarov/test-m.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2013/nnov/mat1-sol.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/105",
+      "year": "2013",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "очный  тур ответы",
+      "heading": "Нижний Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/ddb65a25ee03-mat1-sol.doc",
+      "sha256": "45589a0d84ba4f465142dba76ea9db2421f846623695d5ff2ca291e5326a01ac",
+      "bytes": 282112,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2013/nnov/mat1-sol.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2013/nnov/mat-fin.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/105",
+      "year": "2013",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Нижний Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/a907c4b3824c-mat-fin.doc",
+      "sha256": "b4b4b47a37deb258ff2f4fc720e2c9daadf8b5d3b5ee0255f8ebbc411d9ed1c1",
+      "bytes": 558080,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2013/nnov/mat-fin.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2011/belgorod/doc_m.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/57",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Белгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/6b3547a484b6-doc_m.doc",
+      "sha256": "604888886c62e9da1187517593244cdcf780abc7b3c5e657f74e7b6df988918f",
+      "bytes": 49152,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2011/belgorod/doc_m.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2010/belgorod/math-zaoch-task.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/57",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "",
+      "heading": "Белгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/444cb7291389-math-zaoch-task.doc",
+      "sha256": "0ade8db19384809762a0e7ad5cf3b71c30e76df31b767bd242009667b08bae5a",
+      "bytes": 90624,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2010/belgorod/math-zaoch-task.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2011/belgorod/final_mat.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/57",
+      "year": "2011",
+      "stage": "final",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "скачать решения",
+      "heading": "Белгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/2188cd5a07a6-final_mat.doc",
+      "sha256": "e76893281e341834507eda6d8b53ca3e3107c6ecd536c73d32feea112b1fa44b",
+      "bytes": 303104,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2011/belgorod/final_mat.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2011/nnov/nngu-poryadok1.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/54",
+      "year": "2011",
+      "stage": "final",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Порядок проведения олимпиады по математике, русскому языку, биологии, химии, истории",
+      "heading": "Н. Новгород: порядок проведения олимпиады в 2010-2011 учебном году",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/812ef583c4ad-nngu-poryadok1.doc",
+      "sha256": "08d21e150ccaaf8989d4005b8ec3cc25290701c59d48cedf9f3422c1ca833340",
+      "bytes": 49664,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2011/nnov/nngu-poryadok1.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2011/nnov/mat1-sol.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/54",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "скачать решения",
+      "heading": "Н. Новгород: порядок проведения олимпиады в 2010-2011 учебном году",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/f37f05dce1ef-mat1-sol.doc",
+      "sha256": "6ef471dc17cc4ac32ce7709e1ef55914585cf0b3a4b3b9619e4bdee55ebe9e6a",
+      "bytes": 265216,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2011/nnov/mat1-sol.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2011/nnov/mat2-sol.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/54",
+      "year": "2011",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "скачать решения",
+      "heading": "Н. Новгород: порядок проведения олимпиады в 2010-2011 учебном году",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/71071ffd97a8-mat2-sol.doc",
+      "sha256": "22e1834b1a90b6c56f309bbb373949f7460cd80745f28f5b3ad26071501245dc",
+      "bytes": 260096,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2011/nnov/mat2-sol.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/bibn/files/calendar/2011/sarov/predv_tur.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/55",
+      "year": "2011",
+      "stage": "final",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Предварительный тур предметной олимпиады по физике и математике",
+      "heading": "Саров: порядок проведения олимпиады в 2010-2011 учебном году",
+      "ok": false,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2010/sarov/math-zaoch-task.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/55",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "",
+      "heading": "Саров: порядок проведения олимпиады в 2010-2011 учебном году",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/a1759f5bef1b-math-zaoch-task.doc",
+      "sha256": "7b837e464be35a7de176908db33168144cbbb77e3d1dac7c53d04deb6b80d3c8",
+      "bytes": 26112,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2010/sarov/math-zaoch-task.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2010/nnov/math-zaoch-task.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2010/nnov.html",
+      "year": "2010",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks",
+      "label": "скачать",
+      "heading": "Нижний Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/c2bfb9ec4530-math-zaoch-task.doc",
+      "sha256": "ce80a461f7b7a849d471931a3bf56090798117a272c45d7ef9d4e656cdb780be",
+      "bytes": 51200,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2010/nnov/math-zaoch-task.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2010/nnov/math-final-solution.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2010/nnov.html",
+      "year": "2010",
+      "stage": "final",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "скачать решения",
+      "heading": "Нижний Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/888b7c0e3c1a-math-final-solution.doc",
+      "sha256": "4fa09641d23bffa72fcc6d0e92bae12d092064a698a1c91d5da5f1b961250523",
+      "bytes": 200192,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2010/nnov/math-final-solution.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2010/sarov/math-final-solution.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2010/sarov.html",
+      "year": "2010",
+      "stage": "final",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "скачать решения",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/5ec4f060f156-math-final-solution.doc",
+      "sha256": "4fa09641d23bffa72fcc6d0e92bae12d092064a698a1c91d5da5f1b961250523",
+      "bytes": 200192,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2010/sarov/math-final-solution.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2010/yaroslavl/math-final-solution.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2010/yaroslavl.html",
+      "year": "2010",
+      "stage": "final",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "скачать решения",
+      "heading": "Ярославль",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/b451117b7c77-math-final-solution.doc",
+      "sha256": "4fa09641d23bffa72fcc6d0e92bae12d092064a698a1c91d5da5f1b961250523",
+      "bytes": 200192,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2010/yaroslavl/math-final-solution.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2010/belgorod/math-final-solution.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2010/belgorod.html",
+      "year": "2010",
+      "stage": "final",
+      "classes": null,
+      "document_type": "solutions",
+      "label": "скачать решения",
+      "heading": "Белгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/a6d7abec5e9c-math-final-solution.doc",
+      "sha256": "4fa09641d23bffa72fcc6d0e92bae12d092064a698a1c91d5da5f1b961250523",
+      "bytes": 200192,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2010/belgorod/math-final-solution.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2009/nnov/math-solution.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2009/nnov.html",
+      "year": "2009",
+      "stage": null,
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "скачать решения",
+      "heading": "Нижний Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/5d3a31c83c65-math-solution.pdf",
+      "sha256": "9100edf81745a999c853f2d5d87d54abeda96bccc9b3a3257c7560b09e54c635",
+      "bytes": 201312,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2009/nnov/math-solution.pdf"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2009/nnov/math-final-solution.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2009/nnov.html",
+      "year": "2009",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "скачать решения очного тура",
+      "heading": "Нижний Новгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/c23f66befbe2-math-final-solution.doc",
+      "sha256": "60abceb3594f850522ad3b59e27fa46dad915b35adc85301c3fe8348a589c6cf",
+      "bytes": 523776,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2009/nnov/math-final-solution.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2009/sarov/math-olymp-tasks.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2009/sarov.html",
+      "year": "2009",
+      "stage": null,
+      "classes": "10-11",
+      "document_type": "tasks",
+      "label": "скачать",
+      "heading": "Саров",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/a17cc6570e1d-math-olymp-tasks.doc",
+      "sha256": "a73e7fd792147424e78f6af37e42256a5c0c2dd5f7a4581600033b9135d989da",
+      "bytes": 32256,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2009/sarov/math-olymp-tasks.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2009/yaroslavl/math-zaoch.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2009/yaroslavl.html",
+      "year": "2009",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Ярославль",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/dca36e980f30-math-zaoch.doc",
+      "sha256": "36479dc5fc9b523b8e4b7babf5d47932d597b47e7ea98e2097dcdbd445a8c86a",
+      "bytes": 22528,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2009/yaroslavl/math-zaoch.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2009/yaroslavl/math-och.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2009/yaroslavl.html",
+      "year": "2009",
+      "stage": null,
+      "classes": "11",
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Ярославль",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/95b02a821418-math-och.pdf",
+      "sha256": "c0bf59ef7fb3ef1fa1e6784ec90c8c12be3ffc5ac9eca19aeaca0c70969e11be",
+      "bytes": 28771,
+      "content_type": "application/pdf",
+      "final_url": "https://bibn.unn.ru/files/calendar/2009/yaroslavl/math-och.pdf"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2009/belgorod/math-zaoch.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2009/belgorod.html",
+      "year": "2009",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Белгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/02a4b56231ce-math-zaoch.doc",
+      "sha256": "0f6707407caa722f5ee32b87fb4fa07c73b69fff8df0e55d5a37403c8cb528d5",
+      "bytes": 38912,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2009/belgorod/math-zaoch.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2009/belgorod/math-final.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/calendar/2009/belgorod.html",
+      "year": "2009",
+      "stage": "final",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Белгород",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/bb6a4a79357f-math-final.doc",
+      "sha256": "eef85a71c81601d7dc1d001e4cf80b3bdb3860497681908ffdf4edb22d9651af",
+      "bytes": 41472,
+      "content_type": "application/msword",
+      "final_url": "https://bibn.unn.ru/files/calendar/2009/belgorod/math-final.doc"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/nnov26-math.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/0c984ff28c5f-nnov26-math.zip",
+      "sha256": "710bfc0b6e3a821f4e52dc10390a4b4b1bd8c2acd4f891a68fb1f77f9c875131",
+      "bytes": 27988803,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/nnov26-math.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/khr26-mat.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/b78286412ff4-khr26-mat.zip",
+      "sha256": "e71fac60bba414b2d45f871b276f05ba1d9ff2cb97332f115528efdd4ced0f2f",
+      "bytes": 3575333,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/khr26-mat.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/ek26-mat.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика,",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/f716534bc565-ek26-mat.zip",
+      "sha256": "b4fe5882b09de3153e52fbceaf1fee34dd542ec601b40f64a315077e4c9d0171",
+      "bytes": 26152138,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/ek26-mat.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/sar-mat26.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика,",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/7ec6dc4e8ca1-sar-mat26.zip",
+      "sha256": "0f6146f199a302978759441e6e665e2dcb274bb5c46f7236f55cd55c4b0b7ff8",
+      "bytes": 25388871,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/sar-mat26.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/bel-mat26.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика,",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/df1fc012e7a8-bel-mat26.zip",
+      "sha256": "804e47555738ee0bd8fbd38e046d99b38a1fc645fbce70ed24607813b22e011e",
+      "bytes": 14370447,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/bel-mat26.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/tom26-math.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/02af5882ab0a-tom26-math.zip",
+      "sha256": "dc7ed384ca0052ee449274dc4cc93a8ebf03668ac8ea37f0d3be23fa689bd38a",
+      "bytes": 5231664,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/tom26-math.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/kaz26-math.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/60cbd3688c31-kaz26-math.zip",
+      "sha256": "d08ace411f21b0484cd5c5e06f6457820abfef90888016ecb25c782a9c1872cf",
+      "bytes": 10861249,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/kaz26-math.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/bar26-math.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/4ad97ba00e2f-bar26-math.zip",
+      "sha256": "b1af7467f895d3e78cbe84ac8a99986e25875afed2bc7431072e51e2c5304848",
+      "bytes": 5473431,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/bar26-math.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/kr26-math.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/f2f768452909-kr26-math.zip",
+      "sha256": "ab3a811ab1fbd185dbfccf7f752752680e0d4c2ad4755f37335a7cbe4f1f5dc7",
+      "bytes": 2503283,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/kr26-math.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/vor26-math.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/742104d1f3b0-vor26-math.zip",
+      "sha256": "4f4be2fedbf60e14a27ce250a91a96d5629632aa10fc10e47d2eb3fe51a58113",
+      "bytes": 10969535,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/vor26-math.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/kalin26-math.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/8c812719457e-kalin26-math.zip",
+      "sha256": "fb5c59fd0926e975ae8f76ca6cf1da3b2b1d8bcafa549a55b37977c560eb1a3b",
+      "bytes": 479865,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/kalin26-math.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/simf26-math.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/4eeb7f9d0ffb-simf26-math.zip",
+      "sha256": "a92e9678aeac224a6ae46ae51ace3d547cfc35f66e5a47df55c66acf166edf34",
+      "bytes": 20071701,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/simf26-math.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan26/in_mat2026.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/4f10c7370788-in_mat2026.zip",
+      "sha256": "d2e4b666117da7ae13fdf22d448ab56203dba914d3444f9a492963bcb6c87116",
+      "bytes": 60209780,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan26/in_mat2026.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/Sarov-mat.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/ce536f05d37d-Sarov-mat.zip",
+      "sha256": "cddefe975a8e29ac7d20f4cc346cea623d672402981d21d5a7e66db1ca57c729",
+      "bytes": 5656125,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/Sarov-mat.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/sarov.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика, физика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/f1e60d304493-sarov.zip",
+      "sha256": "35398ace7d24667f60c373315a088b7bc5e60f402a6bb1aa72871faf1b960f26",
+      "bytes": 9592789,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/sarov.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/nn_mat25.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/6813517f7185-nn_mat25.zip",
+      "sha256": "046c20d1802a278865bccff0d8e6c7ef432064324adb5c8de269e326c4f5ae12",
+      "bytes": 24679038,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/nn_mat25.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/kr_mat25.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/3523e0f168c7-kr_mat25.zip",
+      "sha256": "b2378b5facf712d7f1d89da124920ec2eed778c6d505876cc51dfc4f13c904c1",
+      "bytes": 6353302,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/kr_mat25.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/ek_mat25.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/87374291a048-ek_mat25.zip",
+      "sha256": "11638050a02b5475f1347e50255b80db18a7862d1bee0220482d7fe0e4f1674a",
+      "bytes": 4721556,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/ek_mat25.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/brn_mat25.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/1c8bbce68bcf-brn_mat25.zip",
+      "sha256": "ad915c9317785756cd3172e7666c0144df0d5b10dc804512f3881ad7b2c5c350",
+      "bytes": 1645359,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/brn_mat25.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/tom_mat25.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/82bb6c4c8db9-tom_mat25.zip",
+      "sha256": "5ac29e828a0ac286bbdd182776a2d6da333b1816ef88c84b28b345db36215bcc",
+      "bytes": 2954478,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/tom_mat25.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/kaz_mat25.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/c795247d7913-kaz_mat25.zip",
+      "sha256": "8569630c1ae342c07366afaa2eeac61535faca29e9cef1b48641cbad3645dc1d",
+      "bytes": 5847798,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/kaz_mat25.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/vrn_mat25.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/6a713ee33666-vrn_mat25.zip",
+      "sha256": "81f770033abd2b987c2c6057c98775a30b9caafa382492a47a8b0320352157cf",
+      "bytes": 5640580,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/vrn_mat25.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan25/kal_mat25.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/e8d7ad9e3bcf-kal_mat25.zip",
+      "sha256": "73e8f7c40715265c338f01a0e38dcc15dc51443dca299039b9a59e94b5a4983b",
+      "bytes": 1528547,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan25/kal_mat25.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan24/sar-mat24.rar",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/2c84d5894e3e-sar-mat24.rar",
+      "sha256": "7ef813b392068d6285c07ae6717257ec67e3d370490648574ec94415df29f2e3",
+      "bytes": 3232546,
+      "content_type": "application/x-rar-compressed",
+      "final_url": "https://bibn.unn.ru/files/materials/scan24/sar-mat24.rar"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan24/nn_maths24.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/6f381655b254-nn_maths24.zip",
+      "sha256": "ba15a4f9db8c948fd97ba5c537389e2f0462a9463a2ba24986f7dccdff99e6c7",
+      "bytes": 42727493,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan24/nn_maths24.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan24/kr-mat24.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/b624c988d28d-kr-mat24.zip",
+      "sha256": "78770bcb33a15bee7ec5992b32ab761b84fa223be6be71540d543f3d26abc847",
+      "bytes": 3856894,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan24/kr-mat24.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan24/ek-mat24.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/f52b2d4514d7-ek-mat24.zip",
+      "sha256": "334bd106f284471567f277b331287886b30966e39c1c7e31eab1de1ebcae362d",
+      "bytes": 3738480,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan24/ek-mat24.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan24/smf-mat24.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/35b0dcf6ef93-smf-mat24.zip",
+      "sha256": "5034f9c6ec24c368c6948c6e794db4d73d520dc43ce66b10948fe92326d10155",
+      "bytes": 5504783,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan24/smf-mat24.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan24/tom-mat24.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/2a091c0b6131-tom-mat24.zip",
+      "sha256": "aa73bdbc249e22199c9a4e7e82f9af97e74c454331e4fa85a73f6224fb3909e2",
+      "bytes": 10280432,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan24/tom-mat24.zip"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/materials/scan24/kaz-mat24.zip",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/136",
+      "year": "2025/2026",
+      "stage": "school",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "математика",
+      "heading": "Работы победителей и призеров олимпиады",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/bibn/documents/34dcb8b539e9-kaz-mat24.zip",
+      "sha256": "807d038aab724ed4fa1ddff0a017ed4ff273e28720eb464f948cb958d47be44e",
+      "bytes": 10159662,
+      "content_type": "application/zip",
+      "final_url": "https://bibn.unn.ru/files/materials/scan24/kaz-mat24.zip"
+    }
+  ],
   "indexes": [
     {
       "url": "https://bibn.unn.ru/",
@@ -42,10 +2897,1914 @@
       "bytes": 49870,
       "status": "downloaded",
       "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar.html",
+      "local_path": "olympiads/russia/bibn/indexes/4eb3db7d83d0-calendar.html",
+      "sha256": "37ec9058f3fefeb9d8ab98b86e7924c0383c1631bb3c44a96acfb2716a1add20",
+      "bytes": 42185,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/nnov",
+      "local_path": "olympiads/russia/bibn/indexes/462b5d6c9534-nnov.html",
+      "sha256": "02cec9b7b67ddb046bb72120b1c8d3fe2518004f710cd000ed46182202a050f1",
+      "bytes": 47132,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/sarov",
+      "local_path": "olympiads/russia/bibn/indexes/c7ec7bac8876-sarov.html",
+      "sha256": "ff0ab4b4b81ae77094957cf823395f11a861857385e1692b1f4c300a9daf98fe",
+      "bytes": 49639,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/yaroslavl",
+      "local_path": "olympiads/russia/bibn/indexes/69dbbb900afa-yaroslavl.html",
+      "sha256": "40d09bd4b2d9b76472123e9b7f91311f6209ca6fb4cd8f2ae0f3157a984cf96f",
+      "bytes": 45076,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/belgorod",
+      "local_path": "olympiads/russia/bibn/indexes/b6ecc244fd53-belgorod.html",
+      "sha256": "b068aee1f7f79b802d31d8c73253beb82e10191da097c8afd5ddb96022edea64",
+      "bytes": 45832,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/penza",
+      "local_path": "olympiads/russia/bibn/indexes/4d0718fd52c9-penza.html",
+      "sha256": "edb4b3c84c1798fa900cddff018f5a40e3ead75fa5ec2da8758e097bc9dc48d9",
+      "bytes": 46652,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/krasnoyarsk",
+      "local_path": "olympiads/russia/bibn/indexes/a536157789b7-krasnoyarsk.html",
+      "sha256": "8317e48114ba98d7632655b1a553d867696c4760b73152f865b577e8e279c537",
+      "bytes": 47056,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/ekaterinburg",
+      "local_path": "olympiads/russia/bibn/indexes/36e4d31a44be-ekaterinburg.html",
+      "sha256": "9d0f0e96582a5d18f1c1412c2401463a1e7cc29927e849c39e251e2583faca25",
+      "bytes": 45947,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/simferopol",
+      "local_path": "olympiads/russia/bibn/indexes/26c429819e20-simferopol.html",
+      "sha256": "dec3db1a1eb18e9b4b3a8538159f4b0cf674cbce9a66443fe38ce7dc1568f26c",
+      "bytes": 49406,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/orenburg",
+      "local_path": "olympiads/russia/bibn/indexes/ad6c023e79ae-orenburg.html",
+      "sha256": "18b40c3a2d1a0902c786cd81ea5afdb7ba7b6157f9b9fdfb30a1d2abb1304f85",
+      "bytes": 46032,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/barnaul",
+      "local_path": "olympiads/russia/bibn/indexes/babbff6fbedc-barnaul.html",
+      "sha256": "43c38d99ce2e640fd7b69fdd165dbd6d6dc53d429bbd278146c1cd691a2eac15",
+      "bytes": 47903,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/voronezh",
+      "local_path": "olympiads/russia/bibn/indexes/55aad58ef6c8-voronezh.html",
+      "sha256": "9126416e39d4a364a82baa49deabbef5b522fef6f574c4c99502882c9f1c4eae",
+      "bytes": 44626,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/tomsk",
+      "local_path": "olympiads/russia/bibn/indexes/dd4c22676e0d-tomsk.html",
+      "sha256": "b7eb352d0eaebb9823317ec7d4fc1cd76b892a5e8a7ebf4e0e06122018b705c2",
+      "bytes": 46310,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/kaliningrad",
+      "local_path": "olympiads/russia/bibn/indexes/dc40c6283a6a-kaliningrad.html",
+      "sha256": "11e8b03867043267eb85cea06e437625f361f51653537d0a5cf1b789cea21b4c",
+      "bytes": 46506,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/kzn",
+      "local_path": "olympiads/russia/bibn/indexes/9ebf792efa72-kzn.html",
+      "sha256": "927d216d750d1659f719d6b083eff13383d24924b9c84e0920c7262b1cf46fb5",
+      "bytes": 46491,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/foreign",
+      "local_path": "olympiads/russia/bibn/indexes/86476202f88e-foreign.html",
+      "sha256": "6c890564e386e8872b18c8ebd8e71e87aeab9acbbc95fa2ef3734679236a0ad9",
+      "bytes": 49121,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/345",
+      "local_path": "olympiads/russia/bibn/indexes/0e76b568a287-345.html",
+      "sha256": "eaa795dac3985674c58638f4742e3ff95f1fed02dc189335c6e060b6648739dc",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/346",
+      "local_path": "olympiads/russia/bibn/indexes/dafc0bda880d-346.html",
+      "sha256": "cfe4757f78d128d35dfd4a210370bfd82bf887d2ba4de88bf8e5ba9991c4f13f",
+      "bytes": 49836,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/347",
+      "local_path": "olympiads/russia/bibn/indexes/f4cfdd6fec74-347.html",
+      "sha256": "c6356842aa52231ea0fbdbf947eb941d4d753abd5420523cccd483324f9c70e6",
+      "bytes": 52011,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/348",
+      "local_path": "olympiads/russia/bibn/indexes/23002c519429-348.html",
+      "sha256": "82d8cb47c7432206905396d58807e70e14f484b2c172971fa838d1e243f58e58",
+      "bytes": 44883,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/349",
+      "local_path": "olympiads/russia/bibn/indexes/7653ca00583a-349.html",
+      "sha256": "8978f2b89eb562e172656f68ce9f77fe86165ca127bf7fdffa23eda243fe8870",
+      "bytes": 46030,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/350",
+      "local_path": "olympiads/russia/bibn/indexes/0da447e55b25-350.html",
+      "sha256": "688a0445b20f2d1899bb3da1e5a87730334775262b11874c5cadd10432c97a2d",
+      "bytes": 47955,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/351",
+      "local_path": "olympiads/russia/bibn/indexes/992fd75d1eb8-351.html",
+      "sha256": "ba96b76d5ebe58434157ddbd2d758b9c0589037230d41e9dc85e3e949e144158",
+      "bytes": 48961,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/352",
+      "local_path": "olympiads/russia/bibn/indexes/8e4d06707ab5-352.html",
+      "sha256": "df4c65c3c027a874545f6e3bcd475ea67d12ef1daaef98d36dfe41f2c7a10c2e",
+      "bytes": 46229,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/353",
+      "local_path": "olympiads/russia/bibn/indexes/c39d3efc74f3-353.html",
+      "sha256": "6aca8f7b888bcfc3f16371bec37e080e28dadd70d609ff78a70bc2d8504137eb",
+      "bytes": 50141,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/354",
+      "local_path": "olympiads/russia/bibn/indexes/b1852fafeb68-354.html",
+      "sha256": "b2674494bc1ea657978ee667a3909cfb815bd06228c850ea46ffe980db0f72f0",
+      "bytes": 46238,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/355",
+      "local_path": "olympiads/russia/bibn/indexes/ac64bb785c07-355.html",
+      "sha256": "7a49619bf86179ad5a1939e3d714d703fba445bc0a24e06224f1fabf050c5bbe",
+      "bytes": 49386,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/356",
+      "local_path": "olympiads/russia/bibn/indexes/0715fe35c6da-356.html",
+      "sha256": "9004547185fa0b9f525a124b29ca569ba41b9651dddb878c2726465b38ccfbae",
+      "bytes": 45293,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/357",
+      "local_path": "olympiads/russia/bibn/indexes/7fde28f54cca-357.html",
+      "sha256": "e6d4b2c214126cf3dd0167f73b4cac957ab0e618eda2e3ecfc6538fdfef60550",
+      "bytes": 47961,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/358",
+      "local_path": "olympiads/russia/bibn/indexes/f1bedad71e01-358.html",
+      "sha256": "0fd57c63219ec36a92a29f4bfa65ef8752db1d0afbbf1990ee34ee2bd832c513",
+      "bytes": 47281,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/359",
+      "local_path": "olympiads/russia/bibn/indexes/e833337a5212-359.html",
+      "sha256": "ab2c858f36b9a6a7af9b4be9c006a4d6a750ba2ca2695c96262756104d3ebc48",
+      "bytes": 47178,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/360",
+      "local_path": "olympiads/russia/bibn/indexes/3ce03a20812a-360.html",
+      "sha256": "544a3210aa73193b6941e6d3f43cc7776d20148a818f50df656671618abe0568",
+      "bytes": 47207,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/328",
+      "local_path": "olympiads/russia/bibn/indexes/f05ee024f3b8-328.html",
+      "sha256": "e5f83fa0f93ff9c32d087b50ca535b71348829cfccbd8b02be2b77e0b334d03e",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/329",
+      "local_path": "olympiads/russia/bibn/indexes/78cd7149fb5b-329.html",
+      "sha256": "4190124626eeba7f84d44da2a794b8d999c82dca8bf0f6a207d47cf7772525a5",
+      "bytes": 49145,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/330",
+      "local_path": "olympiads/russia/bibn/indexes/a52b478c38ed-330.html",
+      "sha256": "bdae3e18fc679a291dfbd0af045186b13cdacda374eff8868e3229ce72900d1e",
+      "bytes": 52231,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/331",
+      "local_path": "olympiads/russia/bibn/indexes/cab2db8ddbb3-331.html",
+      "sha256": "5cbb2864e4d2af2a2f5351b9fc8950b8e82b5e9b080a62accf65875fd1a7b98a",
+      "bytes": 44717,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/332",
+      "local_path": "olympiads/russia/bibn/indexes/fc1db730ff2b-332.html",
+      "sha256": "9d35c696423e659a7484e448e46b130d51a0e28dd6e4acb2eaecb5cade501dab",
+      "bytes": 46060,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/333",
+      "local_path": "olympiads/russia/bibn/indexes/b7b5e40be8a4-333.html",
+      "sha256": "290d44eb5b9ce8a0de317895244c847f81d3e73a49d53ea71171969dc8dc76e0",
+      "bytes": 48127,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/334",
+      "local_path": "olympiads/russia/bibn/indexes/158116d8242d-334.html",
+      "sha256": "89b9aab5f675088574cd2476929775cc2b76c3a87e3015e2f8e59189a42d0c94",
+      "bytes": 46935,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/335",
+      "local_path": "olympiads/russia/bibn/indexes/fac0c964b646-335.html",
+      "sha256": "7695ad90b519861869e14a147c378c9ce1d1c2eb140315ba3d7fa9bdea699b88",
+      "bytes": 46008,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/336",
+      "local_path": "olympiads/russia/bibn/indexes/85ddba1ddc81-336.html",
+      "sha256": "df7912a6f0eef9645a7cb1b0bfb73177b13ae324329bf1a92cae7ba41c061ba8",
+      "bytes": 47710,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/337",
+      "local_path": "olympiads/russia/bibn/indexes/bc2c745c12f6-337.html",
+      "sha256": "0c5330fb27afc4557ae5809582a99fb70c7fa752ddeedf4f3b41618f5aa4e939",
+      "bytes": 45827,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/338",
+      "local_path": "olympiads/russia/bibn/indexes/c790610fbf8d-338.html",
+      "sha256": "84e7e714ed3f5c354b9437fd353f6bfda80c9ca72fcbafe18744ba1f5f03fccc",
+      "bytes": 49246,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/339",
+      "local_path": "olympiads/russia/bibn/indexes/52b7899656d1-339.html",
+      "sha256": "5a06a948f609124874f1f46193c948a26295cebf56f18aa4e3ec4170c2d5565b",
+      "bytes": 45010,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/340",
+      "local_path": "olympiads/russia/bibn/indexes/0768f7baf204-340.html",
+      "sha256": "7112770bc09d35116a4f465bc1696067d4b9ecdc3cc990ed31c0142b0f68253c",
+      "bytes": 48159,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/341",
+      "local_path": "olympiads/russia/bibn/indexes/5ad32f7b262e-341.html",
+      "sha256": "661422a086f451385cb7dcb51f7c7b0c787ea450616652d10f8b5a75ba5221cd",
+      "bytes": 48592,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/342",
+      "local_path": "olympiads/russia/bibn/indexes/855f626ff524-342.html",
+      "sha256": "18097c4e4d3a8b704bcf2f2b6445faf79f3d133f72775e12272d959d6a721bdc",
+      "bytes": 47671,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/343",
+      "local_path": "olympiads/russia/bibn/indexes/603586014401-343.html",
+      "sha256": "14c9502dbf4a63b0fa7f62ae7b5b050cc6323e490ba61c4acdc8d52bbff7f43f",
+      "bytes": 46992,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/344",
+      "local_path": "olympiads/russia/bibn/indexes/2f3c0028d7d2-344.html",
+      "sha256": "652f26bdc301a0df3242448374aa61b08cd18b2f6930496acdd6bcd7db40a2b7",
+      "bytes": 46387,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/310",
+      "local_path": "olympiads/russia/bibn/indexes/d6cdcd25076f-310.html",
+      "sha256": "853780667a302bea6c0c88f8eb1a1cf3c7af4d1722ed7b2d8856a2cce0305a4c",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/311",
+      "local_path": "olympiads/russia/bibn/indexes/17fc65cc852e-311.html",
+      "sha256": "90fd796b3feb93c1aead36746e244eb974dadfe020221565762708c5362ba549",
+      "bytes": 50507,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/312",
+      "local_path": "olympiads/russia/bibn/indexes/ec30d7205a1e-312.html",
+      "sha256": "b0c88be1fb3b534f253518d0c85ef666784d2f753120e0731cda5424bd71b547",
+      "bytes": 53420,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/313",
+      "local_path": "olympiads/russia/bibn/indexes/bac4bfda1b22-313.html",
+      "sha256": "c59ce8357191553d127296c11974ed7a148b30f48a871ed9effea586f6b508e9",
+      "bytes": 45457,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/314",
+      "local_path": "olympiads/russia/bibn/indexes/4c020169a2fb-314.html",
+      "sha256": "d32429217f863cd7db466a07036a14ae08a38280923d65d2d8a2b9bce98dfaea",
+      "bytes": 47781,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/315",
+      "local_path": "olympiads/russia/bibn/indexes/291c32646167-315.html",
+      "sha256": "dcbe347f4a98ab56688fef5e105c411cde2b2b2c3d420782b2313cd9687c61d2",
+      "bytes": 48453,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/316",
+      "local_path": "olympiads/russia/bibn/indexes/23d17cb09127-316.html",
+      "sha256": "c2957ea930a39598846d11e1ee463bc1356ce0aed955ef12d91c4e8f6d63a39f",
+      "bytes": 47774,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/317",
+      "local_path": "olympiads/russia/bibn/indexes/6877f7039781-317.html",
+      "sha256": "24bc040caedd2cc104e7ed9c74217060653764ff13501f867f941eb14d775c2c",
+      "bytes": 49156,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/318",
+      "local_path": "olympiads/russia/bibn/indexes/92da8ff7d092-318.html",
+      "sha256": "7c246d6252eaabbe6746347f9cd47182063c979e3279f4b13a299efd5dcf64f0",
+      "bytes": 48793,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/319",
+      "local_path": "olympiads/russia/bibn/indexes/49237003290f-319.html",
+      "sha256": "40cba44376e2d30135f7fdfee1e416f2e39082061833c3832f82c25a0488963b",
+      "bytes": 47190,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/320",
+      "local_path": "olympiads/russia/bibn/indexes/1e283d1c5ba2-320.html",
+      "sha256": "821b1d9662dbc1b763af9e7169922ecd3a1e08a97de7dec20a2d602345668882",
+      "bytes": 51162,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/321",
+      "local_path": "olympiads/russia/bibn/indexes/1c9da1b1a7c8-321.html",
+      "sha256": "47ef15a3763ad226f3143d8a504f42f5167a7ea863a840acfda1613278e1a7f6",
+      "bytes": 44742,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/322",
+      "local_path": "olympiads/russia/bibn/indexes/c5b24e03003f-322.html",
+      "sha256": "061af9cb3a0082f187093e76bd35e360f7b971544ba90107a45d6bef5cbc9dac",
+      "bytes": 51062,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/323",
+      "local_path": "olympiads/russia/bibn/indexes/569fbd026b61-323.html",
+      "sha256": "c17a1e3c511f5d4f2732f68851f56710896c62d56ad8b76bb8ba3bf553d06f0d",
+      "bytes": 48201,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/324",
+      "local_path": "olympiads/russia/bibn/indexes/6695ce1d859b-324.html",
+      "sha256": "f282242dfe2cf26bf7f1dad577945664125375dd6cafe0f2349614b4c457dfee",
+      "bytes": 48001,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/325",
+      "local_path": "olympiads/russia/bibn/indexes/fc88a9da7960-325.html",
+      "sha256": "feb78a479b988de1b08b74014cd0bc5a639950c88314621b8d21b1bceab47d17",
+      "bytes": 50162,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/326",
+      "local_path": "olympiads/russia/bibn/indexes/c2440b8b39d4-326.html",
+      "sha256": "a451863a56c1e87d37579516d61cbb11ea769da5d7b2cf2fa472579e774389fe",
+      "bytes": 49386,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/290",
+      "local_path": "olympiads/russia/bibn/indexes/0e9c2bc2fb41-290.html",
+      "sha256": "78201eeaab40c917540a7159046360809e69209c34608337bc9b56d9a172afd9",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/291",
+      "local_path": "olympiads/russia/bibn/indexes/a7becaa12918-291.html",
+      "sha256": "bd11b0cccb1cce9e0c317c92cc52f636e158e32a855771ac54fe1cc64fcb9613",
+      "bytes": 50446,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/292",
+      "local_path": "olympiads/russia/bibn/indexes/e00c86b4709d-292.html",
+      "sha256": "17135af8852736b5e39d74a5faa72a74daf3e8bafc8a25aebbae15978c1696cb",
+      "bytes": 51691,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/293",
+      "local_path": "olympiads/russia/bibn/indexes/0a2cdff1c201-293.html",
+      "sha256": "8e6ece074ec4f323f0f26ae9fae926edd5b55f379880cb42cea5e98ae4af9dfe",
+      "bytes": 47894,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/294",
+      "local_path": "olympiads/russia/bibn/indexes/80dea938a95e-294.html",
+      "sha256": "7f1703bcaca2922cffefb12b4758cb7bf134d1e7479035ac2876303bb02410d5",
+      "bytes": 48840,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/295",
+      "local_path": "olympiads/russia/bibn/indexes/f972f985d8c8-295.html",
+      "sha256": "d0731517bcc5b80ed949245224a84321aeaf35f7d8f69e7ea045fc0a938513b3",
+      "bytes": 47884,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/296",
+      "local_path": "olympiads/russia/bibn/indexes/133bae764b98-296.html",
+      "sha256": "4d0cbace690efb57a772cbfcd9fee3cf921b768c0b6220956ba95e39f4684027",
+      "bytes": 47410,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/297",
+      "local_path": "olympiads/russia/bibn/indexes/e16938c6465c-297.html",
+      "sha256": "0b3867e37c5858bc8a932630bdd7e12499e0d357a37349275d50ed3e40550a14",
+      "bytes": 48340,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/298",
+      "local_path": "olympiads/russia/bibn/indexes/2aad78a76a69-298.html",
+      "sha256": "41b12bdcb03ffc866ee1b5ff928a51232cebb73e111a6428da8cdf679875518f",
+      "bytes": 48223,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/299",
+      "local_path": "olympiads/russia/bibn/indexes/290f6d009291-299.html",
+      "sha256": "4f9e6ff1c507a8e7c34d3296793e25341b1e2e0cf9a3637d28b19f3bb73ceb9a",
+      "bytes": 46513,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/300",
+      "local_path": "olympiads/russia/bibn/indexes/681b875e3180-300.html",
+      "sha256": "5d54959882f93e0e5c40badb360f09eaa1e799d039e8de0990fe71ec13e62c84",
+      "bytes": 49765,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/301",
+      "local_path": "olympiads/russia/bibn/indexes/4d01dd69de93-301.html",
+      "sha256": "13a7fd09ad58800b880a6b48b7b5334baecb4d07067b930ffc0903a49460c6ea",
+      "bytes": 44399,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/302",
+      "local_path": "olympiads/russia/bibn/indexes/393f246f05fe-302.html",
+      "sha256": "cbb6914840fac626cb729c76265bc66015eab3dbe4f48b808e802abea8592c46",
+      "bytes": 48967,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/303",
+      "local_path": "olympiads/russia/bibn/indexes/04076d5ce57d-303.html",
+      "sha256": "ef8c25e4201a5ce1f39e2cf8a6dd3ebd7a37b1e6327077faf7696fc9866e33ac",
+      "bytes": 47004,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/304",
+      "local_path": "olympiads/russia/bibn/indexes/3b9de4d29a26-304.html",
+      "sha256": "61808f20eb4904bba33552360fd741af13f2204208c3e4d84cbb7bd1a0eb7316",
+      "bytes": 47333,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/305",
+      "local_path": "olympiads/russia/bibn/indexes/e88e6350e9ff-305.html",
+      "sha256": "55c47c0690e968b116298f3516b5161159404f09359426be5fe6183fb2d401f1",
+      "bytes": 46309,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/306",
+      "local_path": "olympiads/russia/bibn/indexes/6e61b5a8b007-306.html",
+      "sha256": "cd7ee537006e3ae1c6e3b4ae8c93b87f88de127f616f5f261a2ad2101585e625",
+      "bytes": 46076,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/271",
+      "local_path": "olympiads/russia/bibn/indexes/6baeb92efb34-271.html",
+      "sha256": "d6542026c25afd93601d9d9c07c6390e9e3b5c41e2f3507d2c681df9f11414e0",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/272",
+      "local_path": "olympiads/russia/bibn/indexes/e83f8ed85e58-272.html",
+      "sha256": "3a68a4b8f1f5d411f5c76e0c8f8a92b3b4f2c7c48c2e9c9b1c3c8a9d9be52f0d",
+      "bytes": 49509,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/273",
+      "local_path": "olympiads/russia/bibn/indexes/ef678dc3f66d-273.html",
+      "sha256": "8cb31f587d28c9d547cbfe20d4305d995b3e9e4b8650b201f5ff9eb7923d1492",
+      "bytes": 52026,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/274",
+      "local_path": "olympiads/russia/bibn/indexes/ad161ea0a03d-274.html",
+      "sha256": "b8cf3182b7a6dc7ae11f4b49310916562f7e9aa92de7f7645b55acc8ecb09b06",
+      "bytes": 47856,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/275",
+      "local_path": "olympiads/russia/bibn/indexes/478e0adcf561-275.html",
+      "sha256": "94bef1d56d03bcb4d20e31ae8edbe0d5916275d091ae1c6cd4c27c3f88e710b4",
+      "bytes": 47399,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/276",
+      "local_path": "olympiads/russia/bibn/indexes/1b65a83668e8-276.html",
+      "sha256": "57c754d4f6f33d2a8060f8857ab01ae4f39367b8f493e234aa6c4c57e5865c81",
+      "bytes": 48267,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/277",
+      "local_path": "olympiads/russia/bibn/indexes/9b7894d71bff-277.html",
+      "sha256": "662c9bcdab132a3b01ccb08675614fa5b9d3ca7e0e68d7816202059fc1d1ca9c",
+      "bytes": 47208,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/278",
+      "local_path": "olympiads/russia/bibn/indexes/c8a06b3be4b3-278.html",
+      "sha256": "f9365aff580fe7b9cf5eee2cc9665f06a8dea07f363f80616713e276c097d1c0",
+      "bytes": 44386,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/279",
+      "local_path": "olympiads/russia/bibn/indexes/40f15f5f50f9-279.html",
+      "sha256": "b47ddc17da781b6de6e0463c53f2d134c4a5b22c528af1f49b9cec5218860257",
+      "bytes": 47518,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/280",
+      "local_path": "olympiads/russia/bibn/indexes/81b932222562-280.html",
+      "sha256": "dfd33f1da3e5bf257952465fa25fe7f224f9a4bd815f42742cd2fefe50acf166",
+      "bytes": 46559,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/281",
+      "local_path": "olympiads/russia/bibn/indexes/67b901bff089-281.html",
+      "sha256": "0610058bf14ec6cbff909f01e2318df431d137a21b31cbce526e48b0bc003df1",
+      "bytes": 49210,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/282",
+      "local_path": "olympiads/russia/bibn/indexes/8ee205ba6943-282.html",
+      "sha256": "3052dae0671834cfada8d9295284ee1ba0b017ace92caec4ae20bc776faf642d",
+      "bytes": 44206,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/283",
+      "local_path": "olympiads/russia/bibn/indexes/01ab028ed632-283.html",
+      "sha256": "41ac798a2f82ff598cee9395ec3e31bdef601113d87661d2b23cd555b8e35205",
+      "bytes": 47146,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/284",
+      "local_path": "olympiads/russia/bibn/indexes/df04f54df9a6-284.html",
+      "sha256": "8323c0673d5c9ec5012ec77a3de089ea8497b78302dd3453fd77b0d2c066ca82",
+      "bytes": 47932,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/285",
+      "local_path": "olympiads/russia/bibn/indexes/0c20e975a01d-285.html",
+      "sha256": "bded4e8d76b13a15dc018c5409f5e21c7cb997144dfa4a7847553f07e705f194",
+      "bytes": 46560,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/255",
+      "local_path": "olympiads/russia/bibn/indexes/5e82d3c243ac-255.html",
+      "sha256": "e5df3994cf9eafcf2ad5f97c8f40e8e359821e2df839d261b1e1f2824395156d",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/256",
+      "local_path": "olympiads/russia/bibn/indexes/f0f8597cb938-256.html",
+      "sha256": "ae5cdd55c8de64f0e254533ff0cda339dce7be78052500c47ca67b0b2b70d2bd",
+      "bytes": 48605,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/257",
+      "local_path": "olympiads/russia/bibn/indexes/e1aa8aa4e513-257.html",
+      "sha256": "d676fb331cfebdf0ff1c5be6bbb5a48ffdd1c251ad79442100a74cc380a0c49c",
+      "bytes": 51532,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/258",
+      "local_path": "olympiads/russia/bibn/indexes/f131295f024f-258.html",
+      "sha256": "7301f09be7018b916199af4993b93d5547c79412b8f74a774f13870594b0fa00",
+      "bytes": 48292,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/259",
+      "local_path": "olympiads/russia/bibn/indexes/dfa23db06f03-259.html",
+      "sha256": "86215eac1f2c684a5064074fc83639eaea65a6141b7cf7a6b7c614ec61a25d98",
+      "bytes": 46686,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/260",
+      "local_path": "olympiads/russia/bibn/indexes/09071cbf4fc6-260.html",
+      "sha256": "e3ab16f9fcb32f7bb77174ffa192579531c4365b74fbae80150f90d73691d1c2",
+      "bytes": 47767,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/261",
+      "local_path": "olympiads/russia/bibn/indexes/3c7f6734f099-261.html",
+      "sha256": "7a96144a101d075f0304a5712abffcbfdb5b05d30ee08868dfe597578b35fef0",
+      "bytes": 45878,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/262",
+      "local_path": "olympiads/russia/bibn/indexes/f592ef636843-262.html",
+      "sha256": "d57a0304a4ac99d72ccbfbf9ad7f15eb457a55f6bd6b02371a2bece5bf6c95f1",
+      "bytes": 45313,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/263",
+      "local_path": "olympiads/russia/bibn/indexes/ea36342fac3e-263.html",
+      "sha256": "e176eaf5e46d282fdeeb2e84b3d299a18119c058fdd8b1d1f938f77953f42455",
+      "bytes": 47208,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/264",
+      "local_path": "olympiads/russia/bibn/indexes/370dce40a094-264.html",
+      "sha256": "c607aa2733bc175ccaf4b00986581717cce44e76d682d224ebe9db1c77899c6e",
+      "bytes": 47288,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/265",
+      "local_path": "olympiads/russia/bibn/indexes/efa448ccea20-265.html",
+      "sha256": "a22b030f6bd2cfc95135c44e42b6bddcce7559cd433615953a9dde07dfa80a2d",
+      "bytes": 48837,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/266",
+      "local_path": "olympiads/russia/bibn/indexes/841dfa7ee214-266.html",
+      "sha256": "d51e0f17a21bb307dcadc5b7029eb16d450cceebb976d129dc379de62bedc125",
+      "bytes": 44240,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/267",
+      "local_path": "olympiads/russia/bibn/indexes/8524153a9324-267.html",
+      "sha256": "2bfd11ff2089d08cb865abd2a2d3ee9113c70ca276308860e165ac6ca69ed456",
+      "bytes": 45694,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/268",
+      "local_path": "olympiads/russia/bibn/indexes/093e407fb15b-268.html",
+      "sha256": "4cfea24687611652c02136491eb1da19fedfc5f59ae8e9d848a5c8aa9ff7f446",
+      "bytes": 47030,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/238",
+      "local_path": "olympiads/russia/bibn/indexes/cb4579eda3f9-238.html",
+      "sha256": "fd4951310245529e35555da5464691af5a8aa2899821ff6f617909ec6c7e050d",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/239",
+      "local_path": "olympiads/russia/bibn/indexes/ce636f0eb486-239.html",
+      "sha256": "1d8b34e453477909eda38d9ee2c79556313829f0bd349d7604f234f129bff22a",
+      "bytes": 49029,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/240",
+      "local_path": "olympiads/russia/bibn/indexes/9a571930687b-240.html",
+      "sha256": "7cc3475900d879e57b75be972a817f52f216a3d8227442c9819403b7e7dce44e",
+      "bytes": 50447,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/241",
+      "local_path": "olympiads/russia/bibn/indexes/26ac6c374b38-241.html",
+      "sha256": "ad4dfe84e15a1a3ae2f48b4b305470f111484030dce4c6f740b70dfcd482e119",
+      "bytes": 47257,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/242",
+      "local_path": "olympiads/russia/bibn/indexes/575480f00257-242.html",
+      "sha256": "68df3fa74878d282d481756dfc78f65c975b80529073bf1a92b690c1cd0949b7",
+      "bytes": 46208,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/243",
+      "local_path": "olympiads/russia/bibn/indexes/97fb711fb815-243.html",
+      "sha256": "16f7f1fa6da596ed4fa11647944f2234295829a8ce5be15a4f4b9fe93d89ec97",
+      "bytes": 47331,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/244",
+      "local_path": "olympiads/russia/bibn/indexes/9126a587ea18-244.html",
+      "sha256": "9df6f019662358f337371fa23d6072ccd50959f73687657bff611e83941182c1",
+      "bytes": 46059,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/245",
+      "local_path": "olympiads/russia/bibn/indexes/910edda209fa-245.html",
+      "sha256": "d68ffb5327f7b9edc7f015230e5acd8328ae74554d5e05275e7fff6fd568412b",
+      "bytes": 47949,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/246",
+      "local_path": "olympiads/russia/bibn/indexes/558f41c5b8cc-246.html",
+      "sha256": "788c6f805f1dd2acf19bf6204c392be426e9d2d1322049b23a887cb5b2a75b86",
+      "bytes": 44768,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/247",
+      "local_path": "olympiads/russia/bibn/indexes/92ec5d2c9413-247.html",
+      "sha256": "1d94c9bffeb46b32df76fe55b55aff2c61ae7a0297acf92d1f8652149a84aff8",
+      "bytes": 47285,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/248",
+      "local_path": "olympiads/russia/bibn/indexes/46adba782eff-248.html",
+      "sha256": "507f95813e698b3912e228557d7449c73958b71707370ed5dbaf8b0dd2c82d13",
+      "bytes": 46649,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/249",
+      "local_path": "olympiads/russia/bibn/indexes/5837b4991a5b-249.html",
+      "sha256": "bf6c98b57724e2f76470a7b436e90c55177bfe96baece3c90e6a504c558799b2",
+      "bytes": 49243,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/250",
+      "local_path": "olympiads/russia/bibn/indexes/39af1be0fe00-250.html",
+      "sha256": "05cda7b7e8f8277547c6a9a89b0f7b5463d402b23843bbc0910e0284a5c1300e",
+      "bytes": 44516,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/251",
+      "local_path": "olympiads/russia/bibn/indexes/aee4ea9f499e-251.html",
+      "sha256": "958296172ed041ee05c4a68237bc996dccad9e3e8203412bf207550483a44843",
+      "bytes": 44983,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/221",
+      "local_path": "olympiads/russia/bibn/indexes/199a73005c3b-221.html",
+      "sha256": "5c3db8d748b9abfc9edc3255115916cc7ea9200c019ef3acebbd7a1a5eb081fd",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/222",
+      "local_path": "olympiads/russia/bibn/indexes/e531f9399b5b-222.html",
+      "sha256": "0c98b75bab75a56fede63c66dcb351d1480fda36829dd03eb487de2c6e17d34d",
+      "bytes": 48239,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/223",
+      "local_path": "olympiads/russia/bibn/indexes/2c591fe0eb45-223.html",
+      "sha256": "893189f4011c54aaeb46a30776ad6811d8731937a6a162ee70b8c8b177a0a1aa",
+      "bytes": 48643,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/224",
+      "local_path": "olympiads/russia/bibn/indexes/472ba23d6b1e-224.html",
+      "sha256": "a1134244c68dd6bbc40e32f0dd3d0df14820ee94c48ccce4c4da6d55f381e0c0",
+      "bytes": 46491,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/225",
+      "local_path": "olympiads/russia/bibn/indexes/068d27b5c5fb-225.html",
+      "sha256": "7b1689c920b09e243057d0653a0b0512d384fa48e58cb513942d655a468c7a1d",
+      "bytes": 45822,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/226",
+      "local_path": "olympiads/russia/bibn/indexes/ba6d02d45743-226.html",
+      "sha256": "963596d96a258e2c4a973b02494d7d65577de07a42ac04ffeaeea95daba070ad",
+      "bytes": 47055,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/227",
+      "local_path": "olympiads/russia/bibn/indexes/2276a96990ca-227.html",
+      "sha256": "6e64c7cc231bfd8728e67a9a53feb516973236ccd44105b2e87a9fb36705d00e",
+      "bytes": 45399,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/228",
+      "local_path": "olympiads/russia/bibn/indexes/072e0530cd61-228.html",
+      "sha256": "b6ac8d0bda1149b598ce9dd937710c8aa320b6d841113c15b1ea56b79ba14752",
+      "bytes": 47556,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/229",
+      "local_path": "olympiads/russia/bibn/indexes/b5eb0f0f7277-229.html",
+      "sha256": "8ff5bc85f31320afc8bd3ab603d55ea357ef86520d72847f5585de2903f388eb",
+      "bytes": 43910,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/230",
+      "local_path": "olympiads/russia/bibn/indexes/f033b462c8bd-230.html",
+      "sha256": "2bd352e8a5d21ac19be0196fc35e15d6ff71ec34562803be1e8edfdb407afc4e",
+      "bytes": 46413,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/231",
+      "local_path": "olympiads/russia/bibn/indexes/f27c2df6267b-231.html",
+      "sha256": "635a5c170a542e1c7063a9018fba9d32dfcd5c2f549c8cc8356aafe038e8eb1b",
+      "bytes": 45629,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/232",
+      "local_path": "olympiads/russia/bibn/indexes/404cfb084c6b-232.html",
+      "sha256": "a2fc6fcde0429fc229e938da2b4301b035f8a58f616beb2bc48d42db7e6d37fb",
+      "bytes": 45724,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/233",
+      "local_path": "olympiads/russia/bibn/indexes/1076f246fcae-233.html",
+      "sha256": "63072f5161a6c1ad10767084bb8b9994df64a487038b153d58e0cdf977701bfe",
+      "bytes": 44117,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/234",
+      "local_path": "olympiads/russia/bibn/indexes/33a8c6314859-234.html",
+      "sha256": "45a3fd2fc0c3f17bd1dd6a7eb12b51232359d1cde5d6c67b24ec794f643a9e56",
+      "bytes": 44925,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/204",
+      "local_path": "olympiads/russia/bibn/indexes/0dee28cdf134-204.html",
+      "sha256": "62ac5a38306be5854e8389cb2afcb184175e3e3dde4ea237906a34e06b7689f7",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/205",
+      "local_path": "olympiads/russia/bibn/indexes/cac9b8fb8409-205.html",
+      "sha256": "3a1c8cd2251bb18d34d01340bb143a58b6fd945d81d2ced393f146f336e7a2dd",
+      "bytes": 47626,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/206",
+      "local_path": "olympiads/russia/bibn/indexes/8a09e7dfd77f-206.html",
+      "sha256": "29d028737df1a0576caba5398fca7f2a979026d503c209e310dc206ed046b9b4",
+      "bytes": 49499,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/207",
+      "local_path": "olympiads/russia/bibn/indexes/aa6eb10872bb-207.html",
+      "sha256": "388556f1d9fd15c4e30e78e03de95ae55eb4e4143875345ddf2a5c4d825726d2",
+      "bytes": 47382,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/208",
+      "local_path": "olympiads/russia/bibn/indexes/4fa1f95d4fc1-208.html",
+      "sha256": "de3635579f720aa7581d44247ad3bed2d2758b1ba2a10e210534f288d76e6c7c",
+      "bytes": 45823,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/209",
+      "local_path": "olympiads/russia/bibn/indexes/44cd93df0d3e-209.html",
+      "sha256": "aef12a9b43e5f2e9d0c3d1af951627296ef6c70a4dfab9743de59665812e5061",
+      "bytes": 46723,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/210",
+      "local_path": "olympiads/russia/bibn/indexes/a670a256f1d7-210.html",
+      "sha256": "65e6b80487c3b0aeceb30c91a13b2a503fda2efb9f665d7a99255e46684ec3d2",
+      "bytes": 45501,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/211",
+      "local_path": "olympiads/russia/bibn/indexes/9e8b632c4708-211.html",
+      "sha256": "b1b45a4a86a18c2b714e500f267b13beec1b881b4708953af824bb953db6097c",
+      "bytes": 45088,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/212",
+      "local_path": "olympiads/russia/bibn/indexes/84b64c5dc4ca-212.html",
+      "sha256": "4a2b1c8b237525b301c119f62b3f75124add7ff6c3cf85920fdb78ecb7127197",
+      "bytes": 43756,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/213",
+      "local_path": "olympiads/russia/bibn/indexes/1f9a3265aae8-213.html",
+      "sha256": "dba6a15fa4d37bca3a61b3c4a591af9f52b1bb83e59ad70ac6df518f993238e7",
+      "bytes": 44901,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/214",
+      "local_path": "olympiads/russia/bibn/indexes/8419c15f7b74-214.html",
+      "sha256": "4b5113b74bb83f9564ba3c9f1f6577364d5c72bdbf7174c4a4b493612a268cd4",
+      "bytes": 45225,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/215",
+      "local_path": "olympiads/russia/bibn/indexes/1c532878c727-215.html",
+      "sha256": "7a516227b389f11788b1f8aac8150676d893bedb481acbc01a17c4aee9b86640",
+      "bytes": 45735,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/216",
+      "local_path": "olympiads/russia/bibn/indexes/8be45c2b24b8-216.html",
+      "sha256": "b79b14706f6444b3fb3e91ce060a705e23a544bf6e81eb392cd30100744e4123",
+      "bytes": 45584,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/217",
+      "local_path": "olympiads/russia/bibn/indexes/69c43e21b04a-217.html",
+      "sha256": "30e51e044cd9774455d33b675ab0cbe282f9ec7f488714e85eb479b295bfac50",
+      "bytes": 43793,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/218",
+      "local_path": "olympiads/russia/bibn/indexes/c47d71087190-218.html",
+      "sha256": "c76d22b24864fba37727f37a5a07c9260b67baa338509fcc448b07420a919cac",
+      "bytes": 43817,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/182",
+      "local_path": "olympiads/russia/bibn/indexes/2088d2b94041-182.html",
+      "sha256": "85b591242cd50ad384e8dd0b7157c0adf1468e8e8d9099223fde30cc577b57b1",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/183",
+      "local_path": "olympiads/russia/bibn/indexes/6fa0cd736912-183.html",
+      "sha256": "4ddb5e2b2941b1a913c1dec316c2fab1bbfe38fc87cbd6e651199b9cffe54776",
+      "bytes": 48058,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/184",
+      "local_path": "olympiads/russia/bibn/indexes/d1bd25a95b10-184.html",
+      "sha256": "20143bbfd8ee9aa9fb0b3c6e4411ad1c783326e3588a3ddd4bf877350a423a51",
+      "bytes": 49115,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/185",
+      "local_path": "olympiads/russia/bibn/indexes/673efda40257-185.html",
+      "sha256": "6c0f44b63ea58afd68203699673757c761492f4447e792c865fa2973be568fd8",
+      "bytes": 47069,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/186",
+      "local_path": "olympiads/russia/bibn/indexes/4f80c532e66f-186.html",
+      "sha256": "0e03ea7bd5b93d2138209d084de6687cc82c064a3145b8eb96c03ca547c2904b",
+      "bytes": 45502,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/187",
+      "local_path": "olympiads/russia/bibn/indexes/916f185d3e7e-187.html",
+      "sha256": "b3bab1de937c2f7880262b20115a2f3c18ce93f350baf515372e423708e95075",
+      "bytes": 46851,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/188",
+      "local_path": "olympiads/russia/bibn/indexes/b4c92813157d-188.html",
+      "sha256": "16468831655e1ae7eda5b060567ab149491836316a56823955a14da2b7fdfd75",
+      "bytes": 45205,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/189",
+      "local_path": "olympiads/russia/bibn/indexes/b70624b44cbb-189.html",
+      "sha256": "676c6af50463c0ac511808d489445bbc1a06d53754bad57f25c7e1110770ddb1",
+      "bytes": 44635,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/190",
+      "local_path": "olympiads/russia/bibn/indexes/8168657eb710-190.html",
+      "sha256": "9dd368d21c3f8b72bbf20394af52d2f7cda4120f11bfa13406c39966c4c2b595",
+      "bytes": 43702,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/191",
+      "local_path": "olympiads/russia/bibn/indexes/08db2e883678-191.html",
+      "sha256": "b5b757c6c6518d6b9aeb76e199d35b3a630534984945eb08f761ba4a34b1aaab",
+      "bytes": 45236,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/192",
+      "local_path": "olympiads/russia/bibn/indexes/7c4920050868-192.html",
+      "sha256": "f785d3b1c96d58ec8b0f0460d8084292f472666159b5ebfa0c5e1bada53d0d79",
+      "bytes": 44838,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/193",
+      "local_path": "olympiads/russia/bibn/indexes/1d5598f51c89-193.html",
+      "sha256": "24fee45346f35c578003efca7b43687da8d3e11f8ef54fa61175c87c77eec162",
+      "bytes": 45636,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/194",
+      "local_path": "olympiads/russia/bibn/indexes/476826b813b4-194.html",
+      "sha256": "0091a87a4744bd28a99696a66cf288106b612c55386e347347986d7dd6c9b255",
+      "bytes": 45810,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2016.html",
+      "local_path": "olympiads/russia/bibn/indexes/8cf51e4250b5-2016.html",
+      "sha256": "9eec86e8a8d552a1faa8fe1e1ae47f2a4d034b932ed3e6f1873484043ae4a7c4",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/165",
+      "local_path": "olympiads/russia/bibn/indexes/c8c6120e80a7-165.html",
+      "sha256": "bb6980301927759c3d6c336fc7988914b52163f2d8ecf00af5dba018e75b6248",
+      "bytes": 48082,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/166",
+      "local_path": "olympiads/russia/bibn/indexes/315f6110fa54-166.html",
+      "sha256": "c746b38670c97012546c7bcb9e1044eee93a21b0cf6c2c7b4dda086972215d72",
+      "bytes": 50030,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/167",
+      "local_path": "olympiads/russia/bibn/indexes/412a9cf75fa8-167.html",
+      "sha256": "2acc9bbf3efcc731ce41e7d219fe69ead5d364799061fe45f225174d933caa2a",
+      "bytes": 46927,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/168",
+      "local_path": "olympiads/russia/bibn/indexes/19e8994bf352-168.html",
+      "sha256": "51a21f0c6a825eda7ee3b788c1f9c09e83dc0671e9c80117c69ea85d4d4944a9",
+      "bytes": 45143,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/169",
+      "local_path": "olympiads/russia/bibn/indexes/21e546180a88-169.html",
+      "sha256": "acd61cc6d3965df82317c27e7adf874e197c80102c2aad8136a68656b635c029",
+      "bytes": 46839,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/170",
+      "local_path": "olympiads/russia/bibn/indexes/a7eee5ef6602-170.html",
+      "sha256": "cfb865b448fcf469cc822e342431d4ccb2d48a935fee1df879782a75ceca8f39",
+      "bytes": 46639,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/171",
+      "local_path": "olympiads/russia/bibn/indexes/71c2a9d1818c-171.html",
+      "sha256": "7c059ac1e47ce83f4e22aa5b351ea5a57762281db8efd71acea88b15f90c9c76",
+      "bytes": 45074,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/172",
+      "local_path": "olympiads/russia/bibn/indexes/26edf84b2c4c-172.html",
+      "sha256": "9e2ac7da56ec8fc62f69c4f3493185b1e74c25f1c091614c59283c2abb9e9c3a",
+      "bytes": 43700,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/173",
+      "local_path": "olympiads/russia/bibn/indexes/8b262f641365-173.html",
+      "sha256": "324eaa714bbcbb04cdb58b1d8a6089a28e7dcc43c02d8552b5b632b78dc5889e",
+      "bytes": 45034,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/174",
+      "local_path": "olympiads/russia/bibn/indexes/13c5acd55ccc-174.html",
+      "sha256": "f54366722a4ccbb8f0ceba6a768a3c61f3c6e337a1655daa581315441848f76d",
+      "bytes": 44595,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/175",
+      "local_path": "olympiads/russia/bibn/indexes/278771cb4967-175.html",
+      "sha256": "ab2ac08ca91eb9b142248511c02247aa5c054b59fdd332592c8559ca176321e1",
+      "bytes": 44996,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/176",
+      "local_path": "olympiads/russia/bibn/indexes/cd143983b069-176.html",
+      "sha256": "734bda8e0d262cdf42aa9434e0e9e8a051eebcf81f12d0f3e174ef70d3b23cba",
+      "bytes": 44388,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2015.html",
+      "local_path": "olympiads/russia/bibn/indexes/7c8c1ceb0c25-2015.html",
+      "sha256": "de687ea861a2e2a472b36c956f85e3627ba82c421fce0a148f63f6065164188f",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/140",
+      "local_path": "olympiads/russia/bibn/indexes/1efec35b035b-140.html",
+      "sha256": "cfda350744a22cf44a3a37d52ce3ce98f073463acbe7e1d1f53bf57914959bda",
+      "bytes": 47869,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/141",
+      "local_path": "olympiads/russia/bibn/indexes/35556c3e0448-141.html",
+      "sha256": "035e67c1ba6644a470307538a85fcd8a01090fcaba7ad5d988aede114cf1df40",
+      "bytes": 48507,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/142",
+      "local_path": "olympiads/russia/bibn/indexes/03217469feaa-142.html",
+      "sha256": "94023263d68d5cb072b9084a3da54524ff2be2aa2a2962a8d50c8454e4681aed",
+      "bytes": 46403,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/143",
+      "local_path": "olympiads/russia/bibn/indexes/f87f38d2890d-143.html",
+      "sha256": "5f8fb961e59de503968603da60af8d5a91c4e2265407285c618ec26afa99bd4c",
+      "bytes": 45112,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/144",
+      "local_path": "olympiads/russia/bibn/indexes/1daaaea615a3-144.html",
+      "sha256": "bf952aaf625dc0ab008d61f37ab9004bf076e4c17862b68f1b1775cd38bc6b3d",
+      "bytes": 47106,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/145",
+      "local_path": "olympiads/russia/bibn/indexes/f7e3f632dcf9-145.html",
+      "sha256": "278b24ddf46f42a9e0cc444c882f404f58ad74bf1c84b2e2a92b43799b7621b5",
+      "bytes": 46873,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/146",
+      "local_path": "olympiads/russia/bibn/indexes/7b4c0b549474-146.html",
+      "sha256": "6286de61b421e155aa04d90be2c9dd82e80ed2f0f7b4b85785330a1b175b82a8",
+      "bytes": 46210,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/147",
+      "local_path": "olympiads/russia/bibn/indexes/79933b88fa89-147.html",
+      "sha256": "ef3d724582449f90061cae707bd8b1baf5093fe75f1b3e8d85f6f5fd0d9c353b",
+      "bytes": 43623,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/148",
+      "local_path": "olympiads/russia/bibn/indexes/569a8f84d1e5-148.html",
+      "sha256": "3b3a73e850de3a2ce14282d1e92df51efe00f2af46b3694c20d7c12055a1ae46",
+      "bytes": 45312,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/149",
+      "local_path": "olympiads/russia/bibn/indexes/d92f11c67c46-149.html",
+      "sha256": "9e32d3f614f97caa4e7b92f1c9cf2f1fb04ec60247e5ac2d558b01f3cbd83e54",
+      "bytes": 45238,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2014.html",
+      "local_path": "olympiads/russia/bibn/indexes/247c1685afd3-2014.html",
+      "sha256": "6e11154664de3bd185ea4151c64cc3a61885a3781e1f56bc037390afc029b6bc",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/122",
+      "local_path": "olympiads/russia/bibn/indexes/8d6be1b44bbe-122.html",
+      "sha256": "494103cac4c4ae01e77a91f69e3af0e7e989c2ff2207d99d2d0e1b3f9cd77d8e",
+      "bytes": 50204,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/123",
+      "local_path": "olympiads/russia/bibn/indexes/5ce8e79f5e8f-123.html",
+      "sha256": "43047173c83caf278e20d0849e26b372550539a57ad6ffa7138ce4e36de0beb0",
+      "bytes": 49581,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/124",
+      "local_path": "olympiads/russia/bibn/indexes/f672f637aefa-124.html",
+      "sha256": "fbd45f9e45667ce96776004bdac1ebe26ad6c7f01f66b1a8d9c6e1cd6277919b",
+      "bytes": 47826,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/125",
+      "local_path": "olympiads/russia/bibn/indexes/90c5c99ad8e1-125.html",
+      "sha256": "76a6e2cfd0afcbf47053ddbd5904d2eb6cc867f9ffebb4a30ab4fbd1154aedb2",
+      "bytes": 46481,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/126",
+      "local_path": "olympiads/russia/bibn/indexes/1162b535792f-126.html",
+      "sha256": "2c7235f60b3d1235d57a770023c7a3ec06b66f03243d2b4d8d77ed4bf7833901",
+      "bytes": 47380,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/127",
+      "local_path": "olympiads/russia/bibn/indexes/db91f807c4d0-127.html",
+      "sha256": "a04c935080eabff0bc0c3f96fd7e4a6375962bee3e52574902265056004b3b5e",
+      "bytes": 47587,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/128",
+      "local_path": "olympiads/russia/bibn/indexes/e495b8c7bd21-128.html",
+      "sha256": "7b16ba342ce1fe105f5360e53479d89dee51d925783410885a68544d4e40fde7",
+      "bytes": 47018,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/129",
+      "local_path": "olympiads/russia/bibn/indexes/eac8e96b30e5-129.html",
+      "sha256": "a50ad588044a55dee569841fdc3815d4ecb40d8d37bab25352dcc2198ccb84e4",
+      "bytes": 45093,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/130",
+      "local_path": "olympiads/russia/bibn/indexes/11149cf30e7e-130.html",
+      "sha256": "bba74c9501942564d8a434a0e8a471d7e80d29f14d06c7f661247544893f4a10",
+      "bytes": 47110,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2013.html",
+      "local_path": "olympiads/russia/bibn/indexes/d8a59ee95b25-2013.html",
+      "sha256": "5f09133fd75a0b0458d44c0fc1c584d0f6f2ea0aa28f52cf2e630b8d9bab410a",
+      "bytes": 42176,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/105",
+      "local_path": "olympiads/russia/bibn/indexes/3e05b8b119d3-105.html",
+      "sha256": "0d61d4db2638f960e23deb91309ab9b7bfb535e1b6ec5a77e5095a8b2a5bc0ef",
+      "bytes": 48656,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/106",
+      "local_path": "olympiads/russia/bibn/indexes/ba23917f6a78-106.html",
+      "sha256": "2bb6c87b8d4dcd7c5303843f58ec90538e0aac10d759aee983107650154a91b1",
+      "bytes": 47518,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/107",
+      "local_path": "olympiads/russia/bibn/indexes/4f84509fa9f5-107.html",
+      "sha256": "01d7d6aa5f9c77ba3ac2d4d640a549aafe34ea0743b306fce25c8b4025fb78b5",
+      "bytes": 46616,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/108",
+      "local_path": "olympiads/russia/bibn/indexes/74459e5673e5-108.html",
+      "sha256": "0d7d7145521cd5cd468cce1e1497a4d1a9ecc166d80cec39b0fb28371a03ee49",
+      "bytes": 45356,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/109",
+      "local_path": "olympiads/russia/bibn/indexes/666a8c820959-109.html",
+      "sha256": "f053539c224ce028acf53cbceb628de67f375783f40173ee50c0bf569798fcad",
+      "bytes": 46725,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/111",
+      "local_path": "olympiads/russia/bibn/indexes/df82698b3c68-111.html",
+      "sha256": "8a02557a28fefeca24d9fd417944c398564b66d3a419f2ae5f37474559da439f",
+      "bytes": 44593,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/110",
+      "local_path": "olympiads/russia/bibn/indexes/2b5ebb30d2df-110.html",
+      "sha256": "e5c7dcc099395fe94bc9b4ed31ff005755295cc7ef8450e96894a06cb50a6a3e",
+      "bytes": 45989,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/112",
+      "local_path": "olympiads/russia/bibn/indexes/1345ea6186c6-112.html",
+      "sha256": "2a27c8bc48b04b9971410efd34b34cad798bb080c0cbaa4e28a143b9185a93f8",
+      "bytes": 44578,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2012.html",
+      "local_path": "olympiads/russia/bibn/indexes/f4025923d307-2012.html",
+      "sha256": "e6dd13e00f39e2174acfaef76032ec091cdb4ed6041e5231e2080fc5417f96b8",
+      "bytes": 42199,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2011.html",
+      "local_path": "olympiads/russia/bibn/indexes/f05ee1858045-2011.html",
+      "sha256": "75c078ee4e6515b025386ea71cd9fc38e418e8f96426ee66fe0b081fd5ec1095",
+      "bytes": 42495,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/57",
+      "local_path": "olympiads/russia/bibn/indexes/06f61279bfe0-57.html",
+      "sha256": "d3c33ecc32d0c641c2a27f2a66c8c1f0fde51c570bf46755cba72d888fb8c9d8",
+      "bytes": 45521,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/54",
+      "local_path": "olympiads/russia/bibn/indexes/abc71e93b5dc-54.html",
+      "sha256": "70f28c21b7e8051b7d195a5707165404ae86fff4e4b917e063bb31007fd85bc6",
+      "bytes": 48547,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/55",
+      "local_path": "olympiads/russia/bibn/indexes/39b0b2af50ae-55.html",
+      "sha256": "36c39434c174d04738b30c6d154d34f90b20402ae3128325d0a642586c80fd5d",
+      "bytes": 47374,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/56",
+      "local_path": "olympiads/russia/bibn/indexes/4e33282f2438-56.html",
+      "sha256": "ffb1bd1150203ff1d6b9e416eb8b2b787c406e5a0029519f6f74195209ecb703",
+      "bytes": 47136,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2010.html",
+      "local_path": "olympiads/russia/bibn/indexes/c30e8a25ede6-2010.html",
+      "sha256": "7a782bae841ff4cc0e2e546852f7635bf5d22cb03ebb084d299714f702126ee4",
+      "bytes": 42498,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2010/nnov.html",
+      "local_path": "olympiads/russia/bibn/indexes/a81aa8cbe85e-nnov.html",
+      "sha256": "9460098127dd962779ead2cb144a8ce78042899c0ca92c615f479240f17f4372",
+      "bytes": 47185,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2010/sarov.html",
+      "local_path": "olympiads/russia/bibn/indexes/512da59f4f3e-sarov.html",
+      "sha256": "cbca5732be53172af4d1b0272e51773a2dfa50cc01cd3cdb3de4ff0d92faffeb",
+      "bytes": 47958,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2010/yaroslavl.html",
+      "local_path": "olympiads/russia/bibn/indexes/9562ce3b7798-yaroslavl.html",
+      "sha256": "531d74f18d7f8ff57abfe4865cc2fff9d3f97fb6e147324ab47be7cb75441b78",
+      "bytes": 47123,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2010/belgorod.html",
+      "local_path": "olympiads/russia/bibn/indexes/eb3406933db8-belgorod.html",
+      "sha256": "b3a24d822999a5b8da22cadeea0eae5188ba830ff7e656107c04d9162cbec776",
+      "bytes": 45753,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2009.html",
+      "local_path": "olympiads/russia/bibn/indexes/ccf397797f36-2009.html",
+      "sha256": "d06739737f021ec1b47142fa547a14f68acd731dc5bb9c46a7e51cf85ca029a0",
+      "bytes": 42612,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2009/nnov.html",
+      "local_path": "olympiads/russia/bibn/indexes/1b28d82b53e6-nnov.html",
+      "sha256": "710fb58e94fa773cfc0f911307575f507cc804e7bee8dc1b2bd67c39c634b4bd",
+      "bytes": 47355,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2009/sarov.html",
+      "local_path": "olympiads/russia/bibn/indexes/2e02c068a8f0-sarov.html",
+      "sha256": "d355278525e2c23d43e3ecde843828bf01bea8b1597171e90753fa7f99d5e4bc",
+      "bytes": 48435,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2009/yaroslavl.html",
+      "local_path": "olympiads/russia/bibn/indexes/28c8546184de-yaroslavl.html",
+      "sha256": "395f7e87100472b0eac41d12e84292d9213b83b486592bd72f37d7ec9836ee86",
+      "bytes": 46124,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/calendar/2009/belgorod.html",
+      "local_path": "olympiads/russia/bibn/indexes/14cd80eaf889-belgorod.html",
+      "sha256": "7ca7791b603cbae787e5152b56ae68a92438aa091bd2f46c230af3a20018edbe",
+      "bytes": 44992,
+      "status": "downloaded",
+      "role": "archive_index"
+    },
+    {
+      "url": "https://bibn.unn.ru/node/136",
+      "local_path": "olympiads/russia/bibn/indexes/5a5f40ceddc6-136.html",
+      "sha256": "cfb76cb98cc276ae0795d4ddd6eaedeeec2ccc9c073b481983a3b2204a5d7e3f",
+      "bytes": 65502,
+      "status": "downloaded",
+      "role": "archive_index"
     }
   ],
-  "failures": [],
-  "discovered_documents": 0,
+  "failures": [
+    {
+      "ok": false,
+      "url": "https://bibn.unn.ru/files/calendar/2026/simf/bio3-simf.xlsx",
+      "status": 404,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "ok": false,
+      "url": "https://bibn.unn.ru/calendar/2011/nnov.html",
+      "status": 404,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "ok": false,
+      "url": "https://bibn.unn.ru/calendar/2011/sarov.html",
+      "status": 404,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "ok": false,
+      "url": "https://bibn.unn.ru/calendar/2011/yaroslavl.html",
+      "status": 404,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "ok": false,
+      "url": "https://bibn.unn.ru/calendar/2011/belgorod.html",
+      "status": 404,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ],
+  "discovered_documents": 122,
   "pending_pages": 0,
-  "pending_documents": []
+  "pending_documents": [
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2019/nnov/mat2--sol.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/226",
+      "year": "2019",
+      "stage": null,
+      "classes": null,
+      "document_type": "solutions",
+      "label": "решения",
+      "heading": "Пенза"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2018/nnov/math1-sol.docx",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/206",
+      "year": "2018",
+      "stage": null,
+      "classes": null,
+      "document_type": "tasks_and_solutions",
+      "label": "задания+реш.",
+      "heading": "Саров"
+    },
+    {
+      "url": "https://bibn.unn.ru/files/calendar/2016/sarov/math-test2.pdf",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/166",
+      "year": "2016",
+      "stage": null,
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "скачать",
+      "heading": "Саров"
+    },
+    {
+      "url": "https://bibn.unn.ru/bibn/files/calendar/2011/sarov/predv_tur.doc",
+      "contest": "Будущие исследователи — будущее науки — математика",
+      "subject": "mathematics",
+      "source_page": "https://bibn.unn.ru/node/55",
+      "year": "2011",
+      "stage": "final",
+      "classes": null,
+      "document_type": "mathematics_material",
+      "label": "Предварительный тур предметной олимпиады по физике и математике",
+      "heading": "Саров: порядок проведения олимпиады в 2010-2011 учебном году"
+    }
+  ]
 }

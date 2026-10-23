@@ -2,8 +2,8 @@
   "contest": "Физтех — математика",
   "id": "phystech",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:20.200912+00:00",
-  "updated_at": "2026-10-22T15:41:20.511329+00:00",
+  "started_at": "2026-10-23T08:33:05.156430+00:00",
+  "updated_at": "2026-10-23T08:33:05.466815+00:00",
   "scope": {
     "name": "Физтех — математика",
     "seeds": [
@@ -24,7 +24,7 @@
     "https://olymp-online.mipt.ru/page/primery-zadanij"
   ],
   "crawl_limits": {
-    "max_pages": 2400,
+    "max_pages": 1200,
     "max_depth": 6
   },
   "coverage_status": "all_links_within_declared_scope_processed",

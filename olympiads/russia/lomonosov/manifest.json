@@ -2,8 +2,8 @@
   "contest": "Ломоносов — математика",
   "id": "lomonosov",
   "subject": "mathematics",
-  "started_at": "2026-10-22T15:41:13.559135+00:00",
-  "updated_at": "2026-10-22T15:41:13.640862+00:00",
+  "started_at": "2026-10-23T08:33:30.176011+00:00",
+  "updated_at": "2026-10-23T08:33:30.259142+00:00",
   "scope": {
     "name": "Ломоносов — математика",
     "seeds": [
@@ -20,7 +20,7 @@
     "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let"
   ],
   "crawl_limits": {
-    "max_pages": 2400,
+    "max_pages": 1200,
     "max_depth": 6
   },
   "coverage_status": "all_links_within_declared_scope_processed",
