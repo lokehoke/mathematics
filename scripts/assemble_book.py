@@ -103,6 +103,8 @@ for name in extension_paths:
 polynomial=json.loads((TMP/'polynomial-formulas-full.json').read_text())
 ordered[22]['theory']+='\n'+polynomial['theory']
 ordered[22]['tasks']+=polynomial['tasks']
+from restructure_book import restructure
+ordered,book_parts,flow=restructure(ordered)
 count=sum(len(c['tasks']) for c in ordered)
 for c in ordered:
  for task in c['tasks']:
@@ -112,7 +114,7 @@ for c in ordered:
 # Artwork wraps real paragraphs inside a short unbreakable block. This avoids
 # wrapfig's documented incompatibility with list environments and keeps a cat
 # together with the text it accompanies. Exercise numbering is explicit.
-flow=json.loads((BOOK/'cats-flow.json').read_text()) if (BOOK/'cats-flow.json').exists() else []
+# Flow was resolved using stable chapter/task identities above.
 used_art=[]
 def catblock(body,entry):
  used_art.append(entry['art'])
@@ -121,13 +123,13 @@ def catblock(body,entry):
  iw,ih=struct.unpack('>II',image_path.read_bytes()[16:24])
  height=min(width*ih/iw,58)
  wrap_lines=math.ceil(height*72/25.4/(14.5*1.12))+2
- return (r'\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}'+'\n'
+ return (r'\par\addvspace{'+str(entry.get('vspace',5))+r'pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}'+'\n'
   +r'\setlength{\parskip}{'+str(entry.get('parskip',5))+r'pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}'+'\n'
   +r'\begin{wrapfigure}['+str(wrap_lines)+']{'+side+'}{'+str(width)+r'mm}'+'\n'
   +r'\includegraphics[width='+str(width)+r'mm,height=58mm,keepaspectratio]{images/unique/art-'+f"{entry['art']:02d}"+r'.png}'+'\n'
   +r'\end{wrapfigure}'+'\n'+body+'\n'+r'\par\WFclear\end{minipage}\end{lrbox}%'+'\n'
-  +r'\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%'+'\n'
-  +r'\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}'+'\n')
+  +r'\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<'+str(entry.get('minheight',64))+r'mm\dp\CatFlowBox=\dimexpr'+str(entry.get('minheight',64))+r'mm-\ht\CatFlowBox\relax\fi%'+'\n'
+  +r'\noindent\usebox{\CatFlowBox}\par\addvspace{'+str(entry.get('vspace',5))+r'pt}'+'\n')
 def theory_cats(theory,chapter):
  # Process original proof indices simultaneously, so inserted wrappers cannot
  # change which proof another entry refers to.
@@ -141,14 +143,14 @@ def theory_cats(theory,chapter):
   body=r'\textit{Доказательство.} '+m[1].strip()+r'\hfill\(\blacksquare\)'
   if entry.get('include_after'):return catblock(body+'\n\n'+m[2].strip(),entry)
   return catblock(body,entry)+m[2]
- theory=re.sub(r'\\begin\{proof\}(.*?)\\end\{proof\}((?:(?!\\begin\{|\\(?:sub)?section).)*)',proof,theory,flags=re.S)
+ theory=re.sub(r'\\begin\{proof\}(?:\[[^\n]*?\])?(.*?)\\end\{proof\}((?:(?!\\begin\{|\\(?:sub)?section).)*)',proof,theory,flags=re.S)
  for entry in [v for v in flow if v['kind']=='prose' and v['chapter']==chapter]:
   a=theory.index(entry['start']);b=theory.index(entry['end'],a)
   theory=theory[:a]+catblock(theory[a:b].strip(),entry)+theory[b:]
  return theory
 def task_paragraph(chapter,j,t,answers=False):
  mark=r'\starmark{}' if t.get('advanced') else ''
- text=t['a'].replace('как в задаче 9','как в задаче 16.9') if answers else t['q'].replace(r'\frac',r'\dfrac')
+ text=t['a'] if answers else t['q'].replace(r'\frac',r'\dfrac')
  body=r'\textbf{'+f'{chapter}.{j}.'+'}'+mark+' '+text
  if not answers and t.get('figure'):
   body+=r'\begin{center}\includegraphics[width=.7\linewidth,height=45mm,keepaspectratio]{images/'+t['figure']+r'}\end{center}'
@@ -156,8 +158,8 @@ def task_paragraph(chapter,j,t,answers=False):
 def task_section(chapter,tasks,answers=False):
  kind='answers' if answers else 'tasks'
  entries={v['start']:v for v in flow if v['kind']==kind and v['chapter']==chapter}
- spacing=1 if chapter==5 else 3
- result=[r'\begingroup\setlength{\parskip}{'+str(spacing)+r'pt}' if not answers else r'\begingroup\setlength{\parskip}{4pt}'];j=1
+ spacing=0 if ordered[chapter-1]['id'] in ('c30','multivariable') else 1 if ordered[chapter-1]['id'] in ('c05','c30','multivariable','line-surface-integrals','probability','random-variables','statistics') else 2
+ result=[r'\begingroup\setlength{\parskip}{'+str(spacing)+r'pt}' if not answers else r'\begingroup\setlength{\parskip}{'+('0' if ordered[chapter-1]['id']=='c25' else '4')+r'pt}'];j=1
  while j<=len(tasks):
   if j in entries:
    entry=entries[j];end=entry['end']
@@ -193,8 +195,10 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \definecolor{Ink}{HTML}{292B29}
 \titleformat{\chapter}[display]{\color{Navy}\bfseries\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000}{\large ГЛАВА \thechapter}{10pt}{\Huge}
 \titlespacing*{\chapter}{0pt}{0pt}{24pt}
-\titleformat{\section}{\Large\bfseries\color{Navy}\raggedright\hyphenpenalty=10000}{}{0pt}{}
-\titleformat{\subsection}{\large\bfseries\color{Teal}\raggedright\hyphenpenalty=10000}{}{0pt}{}
+\titleformat{\section}{\Large\bfseries\color{Navy}\raggedright\hyphenpenalty=10000}{\thesection}{.6em}{}
+\titleformat{\subsection}{\large\bfseries\color{Teal}\raggedright\hyphenpenalty=10000}{\thesubsection}{.6em}{}
+\makeatletter\renewcommand{\@pnumwidth}{2.5em}\renewcommand{\@tocrmarg}{3.5em}\renewcommand*{\l@section}{\@dottedtocline{1}{1.5em}{3.8em}}\makeatother
+\setcounter{tocdepth}{1}\setcounter{secnumdepth}{2}\renewcommand{\thepart}{\arabic{part}}
 \setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
 \setlength{\emergencystretch}{3em}\linespread{1.12}\sloppy
 \everymath{\textstyle}
@@ -215,6 +219,7 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 \newsavebox{\CatFlowBox}
 \pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\color{Navy}Алгебра для любимого котеночка}\fancyhead[R]{\small\color{Teal}\rightmark}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{.3pt}
+\renewcommand{\sectionmark}[1]{}
 
 \begin{document}
 \pagecolor{Paper}\color{Ink}
@@ -237,33 +242,50 @@ header=r'''\documentclass[12pt,a4paper,oneside,openany]{book}
 (BOOK/'main.tex').write_text(header)
 main=[]
 for i,c in enumerate(ordered,1):
+ for part_no,part in enumerate(book_parts,1):
+  if part['chapters'][0]==c['id']:
+   used_art.append(part['art'])
+   main.append(r'\clearpage\refstepcounter{part}\addcontentsline{toc}{part}{Часть '+str(part_no)+'. '+part['title']+r'}\markright{Часть '+str(part_no)+r'}\vspace*{20mm}\begin{center}{\large\color{Teal}ЧАСТЬ '+str(part_no)+r'}\par\vspace{6mm}{\Huge\bfseries\color{Navy}'+part['title']+r'}\par\vspace{15mm}\includegraphics[width=85mm,height=90mm,keepaspectratio]{images/unique/art-'+str(part['art'])+r'.png}\end{center}\clearpage')
  atlas_intro=''
  theory=c['theory']
  theory=theory_cats(theory,i)
- out=[r'\chapter{'+c['title']+'}'+r'\markright{Глава '+str(i)+'}',theory]
- atlas={7:('atlas-roots.pdf','Корни нечётной и чётной степени'),13:('atlas-algebra.pdf','Базовые алгебраические функции'),14:('atlas-exponential.pdf','Показательные, логарифмические и гиперболические функции'),15:('atlas-trigonometry.pdf','Тригонометрические и обратные функции'),18:('atlas-linear.pdf','Сумма векторов и образ единичного квадрата'),19:('atlas-limits.pdf','Пределы, значение в точке и непрерывность'),20:('atlas-derivative.pdf','Производная как предел наклонов и линейное приближение')}
- atlas[23]=('atlas-complex.pdf','Сопряжение и корни на комплексной плоскости')
- atlas.update({
-  26:('atlas-spaces.pdf','Базис, координаты и ядро линейного отображения'),
-  27:('atlas-quadratic.pdf','Собственные направления и главные оси квадратичной формы'),
-  28:('atlas-metric.pdf','Единичные шары для трёх метрик на плоскости'),
-  29:('atlas-integral.pdf','Суммы Дарбу и ориентированная площадь'),
-  30:('atlas-series.pdf','Частичные суммы и проверка концов промежутка сходимости'),
- })
- if i in atlas:
-  path,cap=atlas[i]
-  if i not in (7,13,18,20,23,26,27,28,29,30):out.append(r'\clearpage')
+ out=[r'\chapter{'+c['title']+'}'+r'\label{chap:'+c['id']+r'}\markright{Глава '+str(i)+'}',theory]
+ atlas={
+ 'c07':('atlas-roots.pdf','Корни нечётной и чётной степени'),
+ 'c13':('atlas-algebra.pdf','Базовые алгебраические функции'),
+ 'c14-exponential':('atlas-exponential-basic.pdf','Показательные и логарифмические функции'),
+ 'c14-hyperbolic':('atlas-hyperbolic-all.pdf','Гиперболические функции'),
+ 'c15':('atlas-trigonometry.pdf','Тригонометрические и обратные функции'),
+ 'c18':('atlas-linear.pdf','Векторы и линейные преобразования'),
+ 'c19':('atlas-limits.pdf','Пределы и непрерывность'),
+ 'c20':('atlas-derivative.pdf','Наклон и линейное приближение'),
+ 'c23-complex':('atlas-complex.pdf','Сопряжение и корни на комплексной плоскости'),
+ 'c26':('atlas-spaces.pdf','Базис, координаты и ядро'),
+ 'c27':('atlas-quadratic.pdf','Главные оси квадратичной формы'),
+ 'c28':('atlas-metric.pdf','Шары для трёх метрик'),
+ 'c29':('atlas-integral.pdf','Суммы Дарбу и ориентированная площадь'),
+ 'c30':('atlas-series.pdf','Частичные суммы и промежутки сходимости'),
+ 'plane-geometry':('atlas-plane-geometry.pdf','Подобие, окружность и площадь'),
+ 'solid-geometry':('atlas-solid-geometry.pdf','Сечения и объёмы'),
+ 'multivariable':('atlas-multivariable.pdf','Линии уровня, градиент и касательная плоскость'),
+ 'multiple-integrals':('atlas-multiple-integrals.pdf','Область интегрирования и замена координат'),
+ 'line-surface-integrals':('atlas-line-surface.pdf','Направление обхода, нормаль и поток'),
+ 'probability':('atlas-probability.pdf','Дерево условных вероятностей'),
+ 'random-variables':('atlas-random-variables.pdf','Дискретное распределение, плотность и функция распределения'),
+ 'statistics':('atlas-statistics.pdf','Данные, регрессия и доверительные интервалы'),
+ }
+ if c['id'] in atlas:
+  path,cap=atlas[c['id']]
+  # Keep each atlas together with its caption.
   # Keep the heading and caption with their atlas, including when the whole
   # block moves to the next page after a long proof.
   out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Графики}')
   if atlas_intro:out.append(atlas_intro)
-  h='.65' if atlas_intro else ('.70' if i==13 else '.79')
+  h='.65' if atlas_intro else ('.70' if c['id']=='c13' else '.79')
   out.append(r'\begin{center}\includegraphics[width=\textwidth,height='+h+r'\textheight,keepaspectratio]{images/'+path+'}'+r'\par\small '+cap+r'\end{center}\end{minipage}\par')
- if i==15:
+ if c['id']=='c15':
   out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Тангенс на большом промежутке}\includegraphics[width=\linewidth]{images/graph-tangent.pdf}\par Пунктиром отмечены прямые \(x=\frac\pi2+\pi k\), \(k\in\mathbb Z\), где тангенс не определён. Соседние ветви повторяются с периодом \(\pi\); через разрывы график не соединяется.\end{minipage}\par')
   out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Котангенс на большом промежутке}\includegraphics[width=\linewidth]{images/graph-cotangent.pdf}\par Пунктирные прямые \(x=\pi k\), \(k\in\mathbb Z\), не входят в область определения. Каждая ветвь строго убывает; период равен \(\pi\).\end{minipage}\par')
- if i==14:
-  out.append(r'\par\noindent\begin{minipage}{\linewidth}\section*{Гиперболические тангенс и котангенс}\includegraphics[width=\linewidth]{images/atlas-hyperbolic-ratios.pdf}\par Горизонтальные пунктирные прямые — асимптоты \(y=1\) и \(y=-1\). Функция \(\operatorname{th}x\) определена на всей прямой; у \(\operatorname{cth}x\) есть разрыв при \(x=0\).\end{minipage}\par')
  out += [r'\Needspace{7\baselineskip}\section*{Задачи}']
  out += task_section(i,c['tasks'])
  path=f'chapters/chapter-{i:02d}.tex';(BOOK/path).write_text('\n'.join(out)+'\n');main.append(r'\input{'+path+'}')

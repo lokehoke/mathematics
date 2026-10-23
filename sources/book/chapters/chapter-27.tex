@@ -1,144 +1,120 @@
-\chapter{Собственные значения и квадратичные формы}\markright{Глава 27}
-\section*{Направления, которые сохраняет преобразование}
+\chapter{Предел последовательности и полнота чисел}\label{chap:c12-limits}\markright{Глава 27}
+\section{Предел, монотонность и ограниченность}
+\begin{definition}
+Число \(L\) — \term{предел последовательности} (limit of a sequence) \((b_N)\), если для любого \(\varepsilon>0\) существует натуральное \(N_0\), такое что при всех \(N\geq N_0\) выполнено \(|b_N-L|<\varepsilon\). Запись: \(\lim_{N\to\infty}b_N=L\). Иными словами, все достаточно поздние члены попадают в любой заранее выбранный интервал вокруг \(L\).
+\end{definition}
+\begin{definition}
+Последовательность \((a_n)\) \term{не убывает} (is nondecreasing), если \(a_{n+1}\geq a_n\) для всех \(n\), и \term{не возрастает} (is nonincreasing), если \(a_{n+1}\leq a_n\). В обоих случаях её называют \term{монотонной} (monotone). Если неравенства строгие, говорят о строго возрастающей или строго убывающей последовательности.
+\end{definition}
+\begin{definition}
+Последовательность \term{ограничена сверху} (bounded above), если существует число \(M\), такое что \(a_n\leq M\) при всех \(n\). Она \term{ограничена снизу} (bounded below), если существует \(m\) с \(m\leq a_n\) при всех \(n\). Если выполнены оба условия, последовательность \term{ограничена} (bounded).
+\end{definition}
+\begin{definition}
+Число \(L\) называют \term{супремумом, или точной верхней гранью} (supremum, least upper bound) непустого множества \(A\subseteq\mathbb R\), если \(a\leq L\) для всех \(a\in A\), но никакое меньшее число не обладает этим свойством. Обозначение: \(L=\sup A\).
+\end{definition}
+\begin{definition}
+Число \(m\) — \term{нижняя грань} (lower bound) множества \(A\subseteq\mathbb R\), если \(m\le a\) для каждого \(a\in A\).\end{definition}
+\begin{definition}\term{Инфимум, или точная нижняя грань} (infimum; greatest lower bound) непустого множества — наибольшая его нижняя грань. Обозначение: \(\inf A\). Инфимум не обязан принадлежать самому множеству.
+\end{definition}
+Для \(A=(0;1]\) имеем \(\inf A=0\), \(\sup A=1\). Наименьшего элемента нет, а наибольший равен \(1\). Нельзя путать нижнюю грань с наименьшим элементом: граница описывает всё множество и может лежать вне него.
+\begin{axiom}[Полнота действительных чисел]
+\term{Аксиома полноты} (completeness axiom): каждое непустое множество действительных чисел, ограниченное сверху, имеет действительный супремум.
+\end{axiom}
+\begin{theorem}[Существование инфимума]\label{thm:legacy-c12-5}
+Всякое непустое ограниченное снизу множество \(A\subseteq\mathbb R\) имеет инфимум. Если \(-A=\{-a:a\in A\}\), то \(\inf A=-\sup(-A)\).
+\end{theorem}
+\begin{proof}
+Множество \(-A\) непусто и ограничено сверху. Пусть \(L=\sup(-A)\), существующий по полноте. Из \(-a\le L\) получаем \(-L\le a\), так что \(-L\) — нижняя грань \(A\). Если \(b\) — любая нижняя грань, то \(-b\) — верхняя грань \(-A\), откуда \(L\le-b\), то есть \(b\le-L\). Следовательно, \(-L\) — наибольшая нижняя грань.
+\end{proof}
+\begin{theorem}[Сходимость монотонной ограниченной последовательности]\label{thm:legacy-c12-6}
+Всякая неубывающая и ограниченная сверху последовательность сходится. Её предел равен \(L=\sup\{a_n:n\in\mathbb N\}\). Всякая невозрастающая и ограниченная снизу последовательность также сходится. Следовательно, любая монотонная ограниченная последовательность имеет конечный предел.
+\end{theorem}
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[11]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-108.png}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-20.png}
 \end{wrapfigure}
-Матрица обычно меняет и длину, и направление вектора. Однако некоторые направления могут сохраняться: образ вектора оказывается на той же прямой. Найти такие направления — значит выделить простейшие составляющие преобразования. Если из них удаётся составить базис, повторное применение матрицы сводится к возведению нескольких чисел в степень.
+\textit{Доказательство.} Для неубывающей последовательности супремум \(L\) существует по аксиоме полноты. Выберем любое \(\varepsilon>0\). Число \(L-\varepsilon\) не является верхней гранью, поэтому существует номер \(N\), для которого \(a_N>L-\varepsilon\). При всех \(n\geq N\) по монотонности \(a_n\geq a_N\), а по свойству верхней грани \(a_n\leq L\). Значит, \(L-\varepsilon<a_n\leq L\), то есть \(|a_n-L|<\varepsilon\). Это и означает \(a_n\to L\).
+
+Для невозрастающей и ограниченной снизу последовательности \((a_n)\) последовательность \((-a_n)\) не убывает и ограничена сверху. Уже доказанный случай даёт \(-a_n\to B\), откуда \(a_n\to-B\), поскольку \(|a_n-(-B)|=|-a_n-B|\).\hfill\(\blacksquare\)
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\begin{definition}\term{Собственный вектор} (\emph{eigenvector}) линейного оператора \(A:V\to V\) — ненулевой \(v\), для которого \(Av=\lambda v\). Скаляру \(\lambda\) соответствует название \par \term{собственное значение} (\emph{eigenvalue}). Поле скаляров указывается заранее.\end{definition}
-\begin{definition}\term{Собственное подпространство} (\emph{eigenspace}) для \(\lambda\) — \(E_\lambda=\ker(A-\lambda I)\), включая нулевой вектор. При собственном значении это подпространство ненулевое.\end{definition}
-\begin{theorem}[Поиск в размерности два]
-Для \(A=\begin{pmatrix}a&b\\c&d\end{pmatrix}\) собственные значения — решения
+
+Условие с \(\varepsilon\) придаёт словам «сколь угодно близко» точный смысл: сначала выбирается любая положительная точность \(\varepsilon\), и только после этого подбирается номер \(N\), начиная с которого \emph{все} члены удовлетворяют \(|a_n-L|<\varepsilon\). Единого заранее фиксированного \(N\) для всех точностей не требуется.
+
+\subsection{Бесконечная сумма}
+\begin{definition}
+\term{Бесконечный ряд} (infinite series) \(\sum_{n=1}^{\infty}a_n\) \term{сходится} (converges) к числу \(S\), если его частичные суммы \(S_N\) имеют предел \(S\). Число \(S\) называют \term{суммой ряда} (sum of a series). Если такого конечного предела нет, ряд \term{расходится} (diverges).
+\end{definition}
+\begin{theorem}[Бесконечная геометрическая сумма]\label{thm:legacy-c12-7}
+Пусть \(a_{n+1}=q a_n\). При \(|q|<1\)
 \[
-\chi_A(\lambda)=\det(\lambda I-A)=\lambda^2-(a+d)\lambda+ad-bc=0.
+\sum_{n=1}^{\infty}a_n=\frac{a_1}{1-q}.
 \]
-После выбора \(\lambda\) собственные векторы — ненулевые решения \((A-\lambda I)v=0\).
+Если \(a_1\neq0\), условие \(|q|<1\) также необходимо для сходимости. В частности, при \(q=1\) и при \(q=-1\) такой ряд расходится.
 \end{theorem}
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[9]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-111.png}
-\end{wrapfigure}
-\textit{Доказательство.} Однородная система двух уравнений имеет ненулевое решение ровно тогда, когда её матрица вырождена, то есть определитель нулевой; это следует из метода Гаусса или формулы обратной матрицы. Раскрытие определителя даёт выписанный многочлен. В размерности два \(\det(\lambda I-A)=\det(A-\lambda I)\).\hfill\(\blacksquare\)
-\par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\begin{proof}
+Сначала покажем \(q^N\to0\) при \(|q|<1\). Случай \(q=0\) непосредственен. Если \(0<r=|q|<1\), то \(r=\frac1{1+h}\) с \(h>0\). Неравенство \((1+h)^N\geq1+Nh\) доказывается индукцией: после умножения \(1+Nh\) на \(1+h\) получаем \(1+(N+1)h+Nh^2\geq1+(N+1)h\). Значит, \(|q^N|=r^N\leq\frac1{1+Nh}\), а эта верхняя граница становится меньше любого \(\varepsilon>0\) при достаточно большом \(N\).
 
-\begin{definition}\term{Характеристический многочлен} (\emph{characteristic polynomial}) в рассмотренном случае — многочлен \(\chi_A\), определённый в теореме.\end{definition}
-У матрицы \(\begin{pmatrix}2&1\\1&2\end{pmatrix}\) значения \(1,3\); направления можно взять \((1,-1)\) и \((1,1)\). У поворота на \(\frac\pi2\), матрица которого равна \(\begin{pmatrix}0&-1\\1&0\end{pmatrix}\), над \(\mathbb R\) собственных векторов нет. Над \(\mathbb C\) появляются собственные значения \(i,-i\). Поэтому смена поля — содержательное действие, а не только смена шрифта в обозначении множества.
-
-\section*{Диагонализация}
-\begin{theorem}[Независимость собственных направлений]
-Собственные векторы, отвечающие попарно различным собственным значениям, линейно независимы.
-\end{theorem}
-\begin{proof}
-Индукция по числу векторов. Один ненулевой вектор независим. Пусть \(\sum_{j=1}^mc_jv_j=0\), где \(Av_j=\lambda_jv_j\). Применим \(A-\lambda_m I\); получим \(\sum_{j<m}c_j(\lambda_j-\lambda_m)v_j=0\). По индукции все эти коэффициенты нулевые. Разности значений ненулевые, значит, \(c_j=0\) для \(j<m\), а исходное равенство даёт \(c_m=0\).
-\end{proof}
-\begin{definition}\term{Диагонализация} (\emph{diagonalization}) — представление \(A=PDP^{-1}\), где \(P\) обратима, а \(D\) диагональна.\end{definition}
-\begin{theorem}[Базис из собственных векторов]
-Матрица диагонализируема над выбранным полем тогда и только тогда, когда существует базис из её собственных векторов. При таком базисе столбцы \(P\) — эти векторы, а диагональ \(D\) содержит соответствующие собственные значения.
-\end{theorem}
-\begin{proof}
-Умножение матрицы на столбцы даёт \(AP=PD\) ровно тогда, когда каждый столбец \(P\) собственный с нужным значением. Столбцы образуют базис ровно при обратимости \(P\). Умножение равенства на \(P^{-1}\) даёт утверждение в обе стороны.
-\end{proof}
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[11]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-109.png}
-\end{wrapfigure}
-При повторении преобразования можно использовать \(A^m=PD^mP^{-1}\), \(m\in\mathbb N\): соседние множители \(P^{-1}P\) сокращаются по ассоциативности. Например, в двух найденных направлениях матрица со значениями \(1,3\) после \(m\) повторений умножает координаты на \(1\) и \(3^m\). Кратное собственное значение само по себе не гарантирует диагонализации: для \(\begin{pmatrix}1&1\\0&1\end{pmatrix}\) ядро \(A-I\) одномерно и собственного базиса в двумерном пространстве нет.
-\par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\section*{Симметрия и ортогональность}
-\begin{definition}\term{Транспонирование} (\emph{transpose}) меняет строки и столбцы местами: \((A^{\mathrm T})_{ij}=A_{ji}\). Действительная матрица \par \term{симметрична} (\emph{symmetric}), если \(A^{\mathrm T}=A\).\end{definition}
-\begin{definition}\term{Ортогональная матрица} (\emph{orthogonal matrix}) — действительная квадратная матрица \(P\), удовлетворяющая \(P^{\mathrm T}P=I\); её столбцы образуют ортонормированный базис, и \(P^{-1}=P^{\mathrm T}\).\end{definition}
-\begin{theorem}[Симметричная матрица размера два]
-Действительная симметричная матрица \(A=\begin{pmatrix}a&b\\b&c\end{pmatrix}\) имеет действительные собственные значения и ортонормированный базис из собственных векторов. Следовательно, \(A=PDP^{\mathrm T}\) для ортогональной \(P\).
-\end{theorem}
-\begin{proof}
-Дискриминант характеристического многочлена равен \((a-c)^2+4b^2\ge0\). Если значения \(\lambda,\mu\) различны и \(Au=\lambda u\), \(Av=\mu v\), то
+По формуле конечной суммы
 \[
-\lambda\langle u,v\rangle=\langle Au,v\rangle
-=\langle u,A^{\mathrm T}v\rangle=\mu\langle u,v\rangle.
+\left|S_N-\frac{a_1}{1-q}\right|=\frac{|a_1|\,|q|^N}{|1-q|}\longrightarrow0.
 \]
-Среднее равенство проверяется раскрытием конечных сумм. Поэтому \(u,v\) ортогональны. Деление на положительные нормы делает их ортонормированными, а два независимых вектора дают базис. Если дискриминант нулевой, то \(a=c,b=0\), то есть \(A=aI\), и подходит стандартный базис. Матрица с ортонормированными столбцами сохраняет нормы и обратима; из \(P^{\mathrm T}P=I\) следует указанная обратная.
-\end{proof}
+При \(a_1=0\) все суммы уже равны нулю. Если \(a_1\neq0\) и \(|q|\geq1\), то \(|a_n|=|a_1||q|^{n-1}\geq|a_1|\), поэтому \(a_n\) не стремится к нулю. Но из сходимости \(S_N\to S\) обязательно следует \(a_N=S_N-S_{N-1}\to0\): разность ограничена сверху величиной \(|S_N-S|+|S_{N-1}-S|\), и оба слагаемых стремятся к нулю. Получили противоречие.
 
-\section*{Квадратичные формы}
-\begin{definition}\term{Квадратичная форма} (\emph{quadratic form}) на \(\mathbb R^n\) — функция \(Q(x)=x^{\mathrm T}Ax\), где \(A\) — действительная симметричная матрица. В двух переменных \(Q(x,y)=ax^2+2bxy+cy^2\).\end{definition}
-\begin{definition}\term{Положительно определённая форма} (\emph{positive definite form}) положительна при каждом ненулевом аргументе. \par \term{Отрицательно определённая форма} (\emph{negative definite form}) при каждом таком аргументе отрицательна.\end{definition}
-\begin{definition}\term{Положительно полуопределённая форма} (\emph{positive semidefinite form}) неотрицательна для всех аргументов; отрицательная полуопределённость определяется аналогично.\end{definition}
-\begin{definition}\term{Неопределённая форма} (\emph{indefinite form}) принимает как положительные, так и отрицательные значения.\end{definition}
+Наглядно, при \(q=1\) суммы \(S_N=Na_1\) неограниченно растут по модулю. При \(q=-1\) они чередуются: \(S_{2k}=0\), \(S_{2k-1}=a_1\); при \(a_1\neq0\) единого предела нет.
+\end{proof}
+\begin{example}
+\(1+\frac12+\frac14+\cdots=2\). При этом первые \(N\) слагаемых дают \(S_N=2(1-2^{-N})\), а недостающая до \(2\) величина равна \(2^{1-N}\) и стремится к нулю.
+\end{example}
+
+\section{Построение числа \(e\)}\label{sec:e-construction}
+Положим \(a_n=(1+1/n)^n\).\begin{theorem}[Сходимость последовательности сложных процентов]\label{thm:legacy-c14-1}
+Последовательность \(a_n=(1+\frac1n)^n\) строго возрастает, ограничена сверху и имеет предел, лежащий между \(2\) и \(3\).
+\end{theorem}
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[11]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-110.png}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-28.png}
 \end{wrapfigure}
-Квадратичная форма описывает зависимость второго порядка: например, заданную в модели энергию или квадратичную ошибку. Смешанное слагаемое \(2bxy\) мешает сразу увидеть поведение по осям. Для симметричной матрицы размера два ортогональная замена координат убирает это слагаемое, сохраняя длины. В новых координатах знаки коэффициентов показывают, растёт ли величина по всем направлениям или может уменьшаться по некоторым из них.
+\textit{Доказательство.} По биному Ньютона \(a_n=\sum_{k=0}^n\frac1{k!}\prod_{j=0}^{k-1}(1-\frac jn)\). Знак \(\sum\) означает сложение слагаемых, \(\prod\) — перемножение множителей; при \(k=0\) произведение принимается равным \(1\). При замене \(n\) на \(n+1\) все множители уже имеющихся слагаемых не уменьшаются и добавляется новое положительное слагаемое. Поэтому \(a_{n+1}>a_n\).
+Для \(k\ge2\) имеем \(k!\ge2\cdot3^{k-2}\), поскольку все множители от \(3\) до \(k\) не меньше \(3\). Множители под знаком \(\prod\) лежат в \((0;1]\), поэтому при \(n\ge2\) получаем \(a_n\le2+\frac12\sum_{j=0}^{n-2}(\frac13)^j<2+\frac12\cdot\frac1{1-\frac13}=\frac{11}{4}\); также \(a_1=2<\frac{11}{4}\). По теореме о монотонной ограниченной последовательности предел существует. Он не меньше \(a_2=\frac94>2\) и не больше \(\frac{11}{4}<3\).\hfill\(\blacksquare\)
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\begin{theorem}[Главные оси в размерности два]
-После замены \(x=Pu\), где столбцы \(P\) — ортонормированные собственные векторы \(A\), форма превращается в \(\lambda_1u_1^2+\lambda_2u_2^2\). Она положительно определена ровно при \(\lambda_1,\lambda_2>0\), неотрицательна ровно при \(\lambda_1,\lambda_2\ge0\), неопределённа при разных знаках значений.
-\end{theorem}
-\begin{proof}
-Из \(P^{\mathrm T}AP=D\) получаем \(x^{\mathrm T}Ax=u^{\mathrm T}Du\). Замена обратима, поэтому охватывает все аргументы. Знаки диагональной формы проверяются по сумме квадратов и по двум координатным векторам. При разных знаках эти векторы дают значения разных знаков.
-\end{proof}
-\begin{theorem}[Критерий положительности в двух переменных]
-Форма \(ax^2+2bxy+cy^2\) положительно определена тогда и только тогда, когда \(a>0\) и \(ac-b^2>0\).
-\end{theorem}
-\begin{proof}
-При \(a>0\) выделим квадрат:
-\[
-Q=a\left(x+\frac ba y\right)^2+\frac{ac-b^2}{a}y^2.
-\]
-Два положительных коэффициента обеспечивают положительность при ненулевом аргументе. Обратно, положительность в \((1,0)\) даёт \(a>0\); подстановка \((-\frac ba,1)\) даёт \(\frac{ac-b^2}{a}>0\).
-\end{proof}
-Например, \(2x^2+2xy+2y^2\) превращается в \(3u^2+v^2\) при \(u=\frac{x+y}{\sqrt2}\), \(v=\frac{x-y}{\sqrt2}\). Множество уровня \(Q=1\) — эллипс с полуосями \(\frac1{\sqrt3}\) и \(1\), повёрнутый относительно исходных осей. А форма \(x^2-y^2\) равна нулю на двух прямых, хотя её матрица обратима: наличие ненулевого нулевого значения формы не означает вырожденности матрицы.
 
-\par\noindent\begin{minipage}{\linewidth}\section*{Графики}
-\begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-quadratic.pdf}\par\small Собственные направления и главные оси квадратичной формы\end{center}\end{minipage}\par
+\begin{definition}\term{Число \(e\)} (Euler's number) — предел \(e=\lim_{n\to\infty}(1+\frac1n)^n\), существование которого доказано выше. Приближённо \(e\approx2{,}718281828\).\end{definition}
+Предельный результат для начальной суммы \(S\) в описанной модели равен \(Se\); это объясняет появление числа \(e\) при непрерывном накоплении.
+
 \Needspace{7\baselineskip}\section*{Задачи}
-\begingroup\setlength{\parskip}{3pt}
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.1.} Найди собственные значения и подпространства матрицы \(\begin{pmatrix}2&0\\0&5\end{pmatrix}\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.2.} Для \(A=\begin{pmatrix}2&1\\1&2\end{pmatrix}\) найди характеристический многочлен и по одному собственному вектору.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.3.} Является ли нулевой вектор собственным вектором? Может ли \(0\) быть собственным значением? Приведи пример.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.4.} Найди все собственные значения \(\begin{pmatrix}0&-1\\1&0\end{pmatrix}\) над \(\mathbb R\) и над \(\mathbb C\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.5.} Докажи, что если \(Av=\lambda v\), то \(A^mv=\lambda^mv\) для каждого натурального \(m\).\par\end{minipage}\par
+\begingroup\setlength{\parskip}{2pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{27.1.} Найдите сумму бесконечного ряда \(18-6+2-\dfrac23+\cdots\). Объясните, почему геометрическая сумма здесь существует.\par\end{minipage}\par
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[13]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-112.png}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-30.png}
 \end{wrapfigure}
-\textbf{27.6.} Диагонализируй \(A=\begin{pmatrix}2&1\\1&2\end{pmatrix}\), выбрав ортонормированные столбцы \(P\).\par
+\textbf{27.2.} Докажите, что ряд \(a-a+a-a+\cdots\) не имеет суммы в смысле предела частичных сумм, если \(a\neq0\).\par
 
-\textbf{27.7.} Почему \(J=\begin{pmatrix}1&1\\0&1\end{pmatrix}\) не диагонализируется даже над \(\mathbb C\)?\par
+\textbf{27.3.}\starmark{} Суммируют числа \(64,16,4,1,\ldots\). Найдите бесконечную сумму \(S\), формулу остатка \(R_N=S-S_N\) и наименьшее натуральное \(N\), при котором \(R_N<\dfrac1{10}\).\par
 
-\textbf{27.8.} В заданной модели повторного преобразования \(x_{n+1}=Ax_n\), \(A=\begin{pmatrix}2&1\\1&2\end{pmatrix}\), \(x_0=(1,0)\). Найди \(x_n\).\par
+\textbf{27.4.} Для множества \((-2;5]\) найди супремум, инфимум, наибольший и наименьший элементы, если они существуют.\par
 
-\textbf{27.9.} Для трёхмерного поворота \(A(x,y,z)=(-y,x,z)\) найди неподвижные векторы. Какое собственное значение им соответствует?\par
+\textbf{27.5.} Найди точные грани множества \(A=\{1+\dfrac1n:n\in\mathbb N\}\). Принадлежат ли они \(A\)? Обоснуй ответ.\par
+
+\textbf{27.6.} Для \(A=\{-3,2,7\}\) перечисли все нижние и верхние грани. Укажи точные грани.\par
+
+\textbf{27.7.} Пусть непустое \(A\subseteq\mathbb R\) ограничено снизу, \(c\in\mathbb R\). Докажи \(\inf\{c+a:a\in A\}=c+\inf A\).\par
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.10.} Докажи: собственные векторы симметричной действительной матрицы с разными значениями ортогональны.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.11.} Докажи, что диагональная матрица с одним и тем же числом \(c\) на диагонали имеет каждый ненулевой вектор собственным.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.12.}\starmark{} Для \(A=\begin{pmatrix}3&1\\0&2\end{pmatrix}\) найди \(A^n(1,-1)\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.13.} Запиши симметричную матрицу формы \(3x^2-4xy+5y^2\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.14.} Определи знак формы \(3x^2-4xy+5y^2\) по критерию положительности.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.15.} Классифицируй формы \(x^2+y^2\), \(-x^2-y^2\), \(x^2-y^2\), \(x^2\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.16.} Выдели квадрат в \(x^2+4xy+7y^2\) и найди минимум по \(x\) при фиксированном \(y\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.17.} Найди собственные значения матрицы формы \(2x^2+2xy+2y^2\) и её главные оси.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.18.}\starmark{} В модели энергии \(E=2x^2+2xy+2y^2\) ограничение равно \(x^2+y^2=1\). Найди наименьшее и наибольшее значения энергии.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.19.} При каких действительных \(t\) форма \(x^2+2txy+y^2\) положительно определена?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.20.} Докажи, что \(Q(x,y)=xy\) неопределённа, хотя её матрица обратима.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.21.} Опиши множество \(2x^2+2xy+2y^2=1\) в главных координатах и найди длины его полуосей.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.22.} Докажи: если оба собственных значения симметричной матрицы размера два положительны, то форма положительна на каждом ненулевом векторе.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.23.}\starmark{} Докажи, что форма \(ax^2+2bxy+cy^2\) неотрицательна тогда и только тогда, когда \(a\ge0,c\ge0,ac-b^2\ge0\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{27.24.}\starmark{} Построй эскизы уровней \(Q=1\) для \(x^2+y^2\), \(x^2-y^2\), \(x^2\). Какие из них ограничены?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{27.8.} Докажи по определению, что \(1/n\to0\). Для \(\varepsilon=0{,}01\) укажи подходящий номер \(N\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{27.9.} Докажи, что \(a_n=2-1/n\) возрастает, ограничена и сходится к \(2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{27.10.} Сходится ли \(a_n=(-1)^n\)? Обоснуй ответ.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{27.11.} Найди предел \(\dfrac{3n+1}{n+2}\) и оцени ошибку через \(n\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{27.12.}\starmark{} Докажи, что сходящаяся действительная последовательность ограничена.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{27.13.}\starmark{} Докажи единственность предела последовательности.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{27.14.}\starmark{} Пусть \(a_n\le b_n\le c_n\) и \(a_n,c_n\to L\). Докажи \(b_n\to L\).\par\end{minipage}\par
 \endgroup

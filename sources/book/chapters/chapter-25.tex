@@ -1,128 +1,147 @@
-\chapter{Октонионы: когда важны скобки}\markright{Глава 25}
-\section*{Восемь координат}
+\chapter{Векторные пространства, базисы и линейные отображения}\label{chap:c26}\markright{Глава 25}
+\section{От координат к пространству}
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[10]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-89.png}
+\begin{wrapfigure}[13]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-102.png}
 \end{wrapfigure}
-Удвоение числа координат можно повторить ещё раз, взяв пары кватернионов. При этом сохраняется норма и возможность решать линейные уравнения с ненулевым множителем, но исчезает ассоциативность. Именно явная проверка свойств, а не перенос знакомых правил по аналогии, делает этот пример полезным для изучения алгебры.
+Вектор можно складывать с другим вектором и умножать на число. Эти действия важнее конкретной картинки со стрелками: те же правила выполняются для многочленов и матриц. Абстрактное определение выделяет общие свойства, после чего один аргумент работает сразу во многих примерах. В этой главе поле скаляров \(\mathbb K\) равно \(\mathbb R\) или \(\mathbb C\); если не сказано иное, используем \(\mathbb R\).
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 \begin{definition}
-\term{Октонионы} (\emph{octonions}) — множество \(\mathbb O=\mathbb H\times\mathbb H\) с покоординатным сложением; умножение задаётся формулой
-\[
-(a,b)(c,d)=(ac-\overline d\,b,\;da+b\overline c).
-\]
-Все четыре компонента принадлежат \(\mathbb H\). Здесь порядок кватернионных множителей обязателен. Эта формула фиксирует выбранное соглашение: таблицы базисных единиц в другой литературе могут отличаться из-за выбора базиса.
-\end{definition}
-Единица равна \((1,0)\), ноль — \((0,0)\); действительное число \(t\) обозначает \((t,0)\). Подмножество \(\{(a,0):a\in\mathbb H\}\) воспроизводит умножение кватернионов. Выберем базис
+\term{Векторное, или линейное пространство} (\emph{vector space; linear space}) над \(\mathbb K\) — непустое множество \(V\) с операциями \(u+v\in V\) и \(av\in V\), где \(a\in\mathbb K\). Сложение коммутативно и ассоциативно, существует нулевой вектор и у каждого вектора есть противоположный. Кроме того,
 \[
 \begin{gathered}
-e_0=1=(1,0),\quad e_1=(i,0),\quad e_2=(j,0),\quad e_3=(k,0),\\
-e_4=(0,1),\quad e_5=(0,i),\quad e_6=(0,j),\quad e_7=(0,k).
+a(u+v)=au+av,\qquad (a+b)v=av+bv,\\
+a(bv)=(ab)v,\qquad 1v=v.
 \end{gathered}
 \]
-Любой октонион единственным образом записывается как \(x=\sum_{r=0}^7x_re_r\) с действительными координатами. Умножение пар позволяет вычислить произведение любых двух единиц, поэтому заучивать новую таблицу не требуется. В частности, \(e_1e_2=e_3\), \(e_2e_4=e_6\), \(e_3e_4=e_7\), но \(e_1e_6=-e_7\).
+Эти равенства требуются для любых допустимых скаляров и векторов.
+\end{definition}
+Числа \(a,b\) называют \term{скалярами} (\emph{scalars}). В \(\mathbb R^n\) действия выполняются по координатам. В пространстве \(\mathcal P_m\) элементами служат многочлены \(a_0+a_1t+\dots+a_mt^m\); старшие коэффициенты могут быть нулевыми, поэтому нулевой многочлен включён. Матрицы одного фиксированного размера также образуют пространство при обычном сложении и умножении на скаляр.
 
-\begin{theorem}[Неассоциативность]
-Умножение октонионов не ассоциативно: существуют \(x,y,z\), для которых \((xy)z\ne x(yz)\).
+\begin{definition}\term{Линейная комбинация} (\emph{linear combination}) векторов \(v_1,\ldots,v_k\) — вектор \(a_1v_1+\dots+a_kv_k\), где \(a_i\in\mathbb K\).\end{definition}
+\begin{definition}\term{Линейная оболочка} (\emph{linear span}) \(\operatorname{span}(v_1,\ldots,v_k)\) — множество всех таких комбинаций. Оболочка пустого списка по соглашению равна \(\{0\}\).\end{definition}
+\begin{definition}\term{Линейное подпространство} (\emph{linear subspace}) \(W\subseteq V\) — непустое подмножество, замкнутое относительно сложения и умножения на любой скаляр, с операциями, унаследованными от \(V\).\end{definition}
+\begin{theorem}[Критерий подпространства]\label{thm:legacy-c26-1}
+Непустое \(W\subseteq V\) является подпространством тогда и только тогда, когда \(au+bv\in W\) для всех \(u,v\in W\) и \(a,b\in\mathbb K\).
+\end{theorem}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[10]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-105.png}
+\end{wrapfigure}
+\textit{Доказательство.} Для подпространства это следует из двух замкнутостей. Обратно, выбирая \(a=b=0\), получаем \(0\in W\); выбирая коэффициенты \(1,1\), получаем замкнутость сложения, а \(a,0\) — умножения на скаляр. При \(a=-1\) в \(W\) попадает противоположный вектор. Все остальные аксиомы уже верны в \(V\), поэтому верны и для элементов \(W\).\hfill\(\blacksquare\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+Например, решения однородной системы \(Ax=0\) образуют подпространство: \(A(au+bv)=aAu+bAv=0\). Прямая \(x+y=1\) не является подпространством \(\mathbb R^2\), поскольку не содержит нуля. Перенесённая прямая может быть полезным геометрическим объектом, но проверять для неё аксиомы нужно заново.
+
+\section{Независимость, базис и размерность}
+\begin{definition}\term{Линейная независимость} (\emph{linear independence}) списка \(v_1,\ldots,v_k\) означает, что равенство \(\sum_{i=1}^ka_iv_i=0\) возможно только при \(a_1=\dots=a_k=0\). Иначе список линейно зависим. Пустой список независим.\end{definition}
+\begin{definition}\term{Базис} (\emph{basis}) пространства \(V\) — линейно независимый список векторов, линейная оболочка которого равна \(V\).\end{definition}
+\begin{theorem}[Однозначность координат]\label{thm:legacy-c26-2}
+Каждый вектор имеет единственное представление линейной комбинацией векторов базиса.
 \end{theorem}
 \begin{proof}
-По формулам выше \((e_1e_2)e_4=e_3e_4=e_7\), тогда как \(e_1(e_2e_4)=e_1e_6=-e_7\). Их разность \(2e_7\ne0\), поскольку это ненулевой вектор из восьми действительных координат.
+Существование следует из условия о линейной оболочке. Если две комбинации дают один вектор, вычтем их. Получится нулевая комбинация базисных векторов. Независимость заставляет каждую разность коэффициентов равняться нулю, то есть представления совпадают.
 \end{proof}
-\begin{definition}
-\term{Ассоциатор} (\emph{associator}) трёх элементов — выражение \([x,y,z]=(xy)z-x(yz)\). В ассоциативной алгебре оно всегда равно нулю; для октонионов это не так.
-\end{definition}
+\begin{definition}\term{Координаты в базисе} (\emph{coordinates relative to a basis}) \(B=(b_1,\ldots,b_n)\) — коэффициенты единственного разложения \(v=\sum a_ib_i\). Их столбец обозначается \([v]_B\).\end{definition}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-103.png}
+\end{wrapfigure}
+Координаты зависят от выбора базиса, а сам вектор остаётся тем же. Например, \((3,1)=2(1,1)+(1,-1)\), поэтому в базисе \(B=((1,1),(1,-1))\) его координаты равны \((2,1)\), хотя стандартные координаты равны \((3,1)\). Для многочлена роль координат могут играть коэффициенты при \(1,t,t^2\). Наличие удобного базиса превращает вопрос о новых объектах в уже знакомую линейную систему.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\begin{theorem}[Конечный базис и число его элементов]\label{thm:legacy-c26-3}
+Если \(V\) порождается конечным списком из \(n\) векторов, то у \(V\) есть конечный базис. Любой независимый список содержит не более \(n\) векторов. Все конечные базисы одного пространства имеют одинаковое число элементов.
+\end{theorem}
+\begin{proof}
+Из зависимого порождающего списка можно удалить вектор, выражающийся через остальные: оболочка не изменится. Повторяя удаление, получим независимый порождающий список.
+
+Докажем оценку для независимых \(u_1,\ldots,u_m\) и порождающих \(v_1,\ldots,v_n\). В выражении \(u_1\) через \(v_i\) хотя бы один коэффициент ненулевой; решим равенство относительно соответствующего \(v_i\) и заменим его на \(u_1\). Новый список всё ещё порождает \(V\). После \(k\) замен он содержит \(u_1,\ldots,u_k\). Если есть \(u_{k+1}\), его выражение обязано содержать ненулевой коэффициент при ещё не заменённом \(v_i\), иначе нарушилась бы независимость \(u_j\). Снова выполняем замену. Более \(n\) замен невозможно, значит, \(m\le n\). Для двух базисов применяем эту оценку в обе стороны: их длины равны.
+\end{proof}
+\begin{definition}\term{Размерность} (\emph{dimension}) конечномерного пространства — число элементов его базиса, обозначаемое \(\dim V\). Для нулевого пространства базис пуст и размерность равна \(0\).\end{definition}
+У \(\mathbb R^n\) стандартный базис состоит из \(e_1,\ldots,e_n\), где ровно одна координата равна \(1\). Поэтому \(\dim\mathbb R^n=n\). У \(\mathcal P_m\) базис \((1,t,\ldots,t^m)\), и размерность равна \(m+1\): коэффициенты многочлена определяются однозначно. Пространство всех многочленов без ограничения степени уже не имеет конечного базиса, поскольку конечное число многочленов не порождает степени выше наибольшей из их степеней.
+
+\section{Линейные отображения}
+\begin{definition}\term{Линейное отображение} (\emph{linear map; linear transformation}) \(T:V\to W\) над одним полем удовлетворяет \(T(au+bv)=aT(u)+bT(v)\).\end{definition}
+\begin{definition}\term{Ядро} (\emph{kernel}) \(T\) — подпространство \(\ker T=\{v:T(v)=0\}\).\end{definition}
+\begin{definition}\term{Образ} (\emph{image; range}) \(T\) — подпространство \(\operatorname{im}T=\{T(v):v\in V\}\).\end{definition}
+Обе замкнутости следуют из линейности. Выбрав базис в \(V\) и базис в \(W\), получаем матрицу отображения: её столбцы — координаты образов базисных векторов \(V\). Для любого \(v\) линейность даёт \([T(v)]_C=A[v]_B\). Ранг отображения — размерность его образа; для матрицы это совпадает с числом ведущих элементов после метода Гаусса: столбцы исходной матрицы, соответствующие ведущим столбцам ступенчатой матрицы, образуют базис её образа.
+
+\begin{theorem}[Размерность ядра и образа; rank–nullity theorem]\label{thm:legacy-c26-4}
+Если \(V\) конечномерно и \(T:V\to W\) линейно, то
+\[
+\dim V=\dim\ker T+\dim\operatorname{im}T.
+\]
+В частности, \(T\) инъективно тогда и только тогда, когда \(\ker T=\{0\}\).
+\end{theorem}
+\begin{proof}
+В любом подпространстве можно выбирать независимые векторы, пока они не начнут порождать всё подпространство. Процесс заканчивается не позднее \(\dim V\) шагов по предыдущей теореме. Выберем базис \(u_1,\ldots,u_p\) ядра и дополним его до базиса \(u_1,\ldots,u_p,v_1,\ldots,v_q\) пространства \(V\) тем же способом. Образы \(T(v_j)\) порождают образ, поскольку \(T(u_i)=0\). Если \(\sum c_jT(v_j)=0\), то \(\sum c_jv_j\) лежит в ядре, то есть выражается через \(u_i\). Независимость полного базиса даёт все \(c_j=0\). Значит, образы \(T(v_j)\) — базис образа и \(\dim V=p+q\). Наконец, \(T(u)=T(v)\) равносильно \(T(u-v)=0\), что доказывает критерий инъективности.
+\end{proof}
+
+\section{Скалярное произведение в произвольной размерности}
+\begin{definition}\term{Евклидово скалярное произведение} (\emph{Euclidean inner product}) в \(\mathbb R^n\) задаётся как \(\langle u,v\rangle=\sum_{i=1}^nu_iv_i\). \par \term{Евклидова норма} (\emph{Euclidean norm}) равна \(\|v\|=\sqrt{\langle v,v\rangle}\).\end{definition}
+\begin{definition}\term{Ортогональные векторы} (\emph{orthogonal vectors}) удовлетворяют \(\langle u,v\rangle=0\). Базис называют \par \term{ортонормированным} (\emph{orthonormal}), если его векторы попарно ортогональны и имеют норму \(1\).\end{definition}
+\begin{theorem}[Коши–Буняковский в \(\mathbb R^n\)]\label{thm:legacy-c26-5}
+Для любых \(u,v\in\mathbb R^n\) выполнено \(|\langle u,v\rangle|\le\|u\|\|v\|\).
+\end{theorem}
+\begin{proof}
+При \(v=0\) обе стороны нулевые. Иначе подставим \(t=\frac{\langle u,v\rangle}{\|v\|^2}\) в неотрицательную сумму \(\|u-tv\|^2\). Раскрытие квадратов даёт \(\|u\|^2-\frac{\langle u,v\rangle^2}{\|v\|^2}\ge0\). Умножение на положительную норму в квадрате и извлечение корня дают результат.
+\end{proof}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-104.png}
+\end{wrapfigure}
+Ортонормированный базис особенно удобен для измерений. Если \(v=\sum a_ib_i\), то \(\langle v,b_j\rangle=a_j\), а \(\|v\|^2=\sum a_i^2\): смешанные произведения исчезают. Поэтому смена одного ортонормированного базиса на другой сохраняет длины. Для произвольного базиса формулу суммы квадратов координат применять без дополнительной проверки нельзя.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+% END_THEORY_26
+
+\par\noindent\begin{minipage}{\linewidth}\section*{Графики}
+\begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-spaces.pdf}\par\small Базис, координаты и ядро\end{center}\end{minipage}\par
+\Needspace{7\baselineskip}\section*{Задачи}
+\begingroup\setlength{\parskip}{2pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.1.} Проверь, является ли \(W=\{(x,y):x+y=0\}\) подпространством \(\mathbb R^2\). Найди базис.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.2.} Какие из множеств \(x+y=1\), \(y=2x\), \(x\ge0\) являются подпространствами \(\mathbb R^2\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.3.} Представь \((5,1)\) через \(u=(1,1)\), \(v=(1,-1)\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.4.} Независимы ли \((1,2,3)\) и \((2,4,6)\)? Предъяви ненулевые коэффициенты нулевой комбинации.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.5.} Проверь независимость \((1,0,1),(0,1,1),(1,1,0)\) и объясни, образуют ли они базис \(\mathbb R^3\).\par\end{minipage}\par
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
 \begin{wrapfigure}[11]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-90.png}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-106.png}
 \end{wrapfigure}
-После потери ассоциативности скобки становятся частью выражения. Например, даже при известном обратном элементе нельзя обосновать переход \(x^{-1}(xy)=(x^{-1}x)y\) одной лишь перестановкой скобок. В этой главе каждое равенство доказывается по определению или по уже установленному свойству; сокращение тройного произведения требует отдельного обоснования.
-\par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\section*{Сопряжение и сохранение нормы}
-\begin{definition}
-\term{Сопряжение октониона} (\emph{octonion conjugation}) задаётся как \(\overline{(a,b)}=(\overline a,-b)\).
-\end{definition}
-\begin{definition}
-\term{Норма октониона} (\emph{octonion norm}) — \(|x|=\sqrt{N_{\mathbb H}(a)+N_{\mathbb H}(b)}\). Здесь \(N_{\mathbb H}(a)=N(a)\) — квадрат кватернионной нормы из предыдущей главы. Положим \(N_{\mathbb O}(x)=|x|^2\); индексы у \(N\) отличают суммы четырёх и восьми квадратов.
-\end{definition}
-\begin{theorem}[Обратный элемент]
-Для любого \(x\in\mathbb O\) выполнено \(x\overline x=\overline x x=N_{\mathbb O}(x)\). При \(x\ne0\) элемент \(\frac{\overline x}{N_{\mathbb O}(x)}\) является двусторонним обратным.
-\end{theorem}
-\begin{proof}
-Пусть \(x=(a,b)\). Произведение \((a,b)(\overline a,-b)\) равно
-\[
-(a\overline a+\overline b b,\;-ba+ba)=(N_{\mathbb H}(a)+N_{\mathbb H}(b),0).
-\]
-В обратном порядке получаем \((\overline a a+\overline b b,b\overline a-b\overline a)\), то есть то же число. При ненулевом \(x\) сумма восьми квадратов положительна; умножение на её действительную обратную величину даёт оба требуемых произведения, равных \(1\).
-\end{proof}
-\begin{theorem}[Мультипликативность нормы]
-Для \(x,y\in\mathbb O\) выполнено \(N_{\mathbb O}(xy)=N_{\mathbb O}(x)N_{\mathbb O}(y)\), а значит, \(|xy|=|x|\,|y|\).
-\end{theorem}
-\begin{proof}
-Запишем \(x=(a,b)\), \(y=(c,d)\). Обозначим кватернионный квадрат нормы просто \(N\). Из формулы предыдущей главы получаем
-\[
-\begin{aligned}
-N(ac-\overline d b)&=N(a)N(c)+N(d)N(b)\\
-&\quad-2\operatorname{Re}(ac\overline b d),\\
-N(da+b\overline c)&=N(d)N(a)+N(b)N(c)\\
-&\quad+2\operatorname{Re}(dac\overline b).
-\end{aligned}
-\]
-Здесь все произведения внутри действительной части — кватернионные, поэтому ассоциативны. Из \(\operatorname{Re}(uv)=\operatorname{Re}(vu)\), применённого к \(u=ac\overline b\), \(v=d\), следует сокращение смешанных слагаемых. Оставшаяся сумма равна \((N(a)+N(b))(N(c)+N(d))\). Это и есть требуемое произведение октонионных квадратов норм. Для норм извлекаем неотрицательный квадратный корень.
-\end{proof}
-\begin{definition}
-\term{Делитель нуля} (\emph{zero divisor}) — ненулевой элемент, произведение которого с некоторым ненулевым элементом с одной из сторон равно нулю. Из мультипликативности положительной нормы следует, что в \(\mathbb O\) делителей нуля нет.
-\end{definition}
-Сумма квадратов связывает необычное умножение с привычной евклидовой длиной в \(\mathbb R^8\). Поэтому можно проверять вычислительную реализацию: квадрат нормы результата обязан совпасть с произведением квадратов норм входных данных. Это полезный тест, но один такой тест не заменяет проверку самой таблицы умножения — разные соглашения о базисе тоже могут сохранять норму.
+\textbf{25.6.} Найди координаты \((4,-2)\) в базисе \(((1,1),(1,-1))\).\par
 
-\section*{Что здесь означает деление}
-\begin{theorem}[Однозначная разрешимость]
-Для \(x\ne0\) и любого \(z\in\mathbb O\) каждое из уравнений \(xy=z\) и \(yx=z\) имеет ровно одно решение относительно \(y\).
-\end{theorem}
-\begin{proof}
-Умножение билинейно над \(\mathbb R\), что следует раскрытием формулы пар. Поэтому отображение \(L_x:y\mapsto xy\) задаётся действительной матрицей \(8\times8\). Если \(L_x(y)=0\), то из отсутствия делителей нуля следует \(y=0\). При приведении этой матрицы методом Гаусса свободных переменных в однородной системе нет: иначе существовало бы ненулевое решение. Следовательно, все восемь столбцов содержат ведущие элементы. Матрица квадратная, значит, они есть и во всех восьми строках. Для любой правой части система имеет единственное решение. Это доказывает утверждение для \(xy=z\). Для правого умножения \(R_x:y\mapsto yx\) рассуждение такое же.
-\end{proof}
-\begin{definition}
-\term{Алгебра с делением} (\emph{division algebra}), в используемом здесь смысле, — вещественное векторное пространство с билинейным умножением и единицей, в котором оба уравнения из теоремы однозначно разрешимы при ненулевом \(x\). Ассоциативность в этом определении не требуется. Поэтому \(\mathbb O\) — алгебра с делением, но не тело в смысле предыдущей главы.
-\end{definition}
-Мы получили цепочку \(\mathbb R\subset\mathbb C\subset\mathbb H\subset\mathbb O\) при выбранных вложениях. Размерности над \(\mathbb R\) равны \(1,2,4,8\). В \(\mathbb R\) и \(\mathbb C\) умножение коммутативно и ассоциативно; в \(\mathbb H\) остаётся ассоциативность, а в \(\mathbb O\) исчезает и она. У всех четырёх примеров сохраняются единица и мультипликативная евклидова норма. Здесь исследованы конкретные конструкции; утверждения о классификации всех подобных алгебр требуют более глубокой теории.
+\textbf{25.7.} В \(\mathcal P_2\) найди координаты \(3-2t+5t^2\) в базисе \((1,t,t^2)\) и размерность пространства.\par
 
-\Needspace{7\baselineskip}\section*{Задачи}
-\begingroup\setlength{\parskip}{3pt}
-\noindent\begin{minipage}[t]{\linewidth}\textbf{25.1.} Запиши \(x=(1+2i,3j-k)\) в базисе \(e_0,\ldots,e_7\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{25.2.} Вычисли по определению \(e_1e_4\) и \(e_4e_1\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{25.3.} Вычисли \(e_4^2\), \(e_5^2\), \(e_6^2\), \(e_7^2\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{25.4.} Найди сумму и разность пар \(x=(1+i,j)\), \(y=(2-k,1+j)\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{25.5.} Для \(x=(1+i,j)\) найди \(\overline x\), \(N_{\mathbb O}(x)\), \(|x|\) и двусторонний обратный.\par\end{minipage}\par
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[10]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-91.png}
-\end{wrapfigure}
-\textbf{25.6.} Найди \(e_2e_4\), затем оба произведения \((e_1e_2)e_4\) и \(e_1(e_2e_4)\).\par
+\textbf{25.8.} Найди базис подпространства многочленов \(p\in\mathcal P_2\), удовлетворяющих \(p(0)=0\).\par
 
-\textbf{25.7.} Вычисли ассоциаторы \([e_1,e_2,e_4]\) и \([e_1,e_2,e_3]\).\par
-
-\textbf{25.8.} Докажи \(\overline{\overline x}=x\) и \(x+\overline x=2x_0\) для \(x=\sum_{r=0}^7x_re_r\).\par
-
-\textbf{25.9.} Докажи, что каждый \(e_r\), где \(1\le r\le7\), имеет обратный \(-e_r\).\par
-
-\textbf{25.10.} В программе получены квадраты норм \(N_{\mathbb O}(x)=5\), \(N_{\mathbb O}(y)=13\), \(N_{\mathbb O}(xy)=64\). Может ли это быть точным результатом правильного умножения?\par
-
-\textbf{25.11.} Для теста умножения пар выбраны \(x=(1,i)\), \(y=(j,k)\). Найди произведение и проверь норму.\par
-
-\textbf{25.12.} Реши \(e_4y=1\) и \(ye_4=1\). Почему в обоих случаях решение единственно?\par
+\textbf{25.9.} Какова размерность пространства действительных матриц размера \(2\times3\)? Опиши базис.\par
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
-\noindent\begin{minipage}[t]{\linewidth}\textbf{25.13.}\starmark{} Докажи трёхлинейность ассоциатора над \(\mathbb R\): линейность по каждому из трёх аргументов отдельно.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{25.14.}\starmark{} Докажи \(\overline{xy}=\overline y\,\overline x\) непосредственно по формуле пар. Используй только доказанные свойства \(\mathbb H\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{25.15.}\starmark{} Пусть \(x\ne0\) и \(xy=xz\). Докажи \(y=z\), не переставляя скобки и не умножая на обратный.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{25.16.}\starmark{} Сравни \(\mathbb C,\mathbb H,\mathbb O\): у каких примеров выполняются \(xy=yx\) и \((xy)z=x(yz)\)? Для отрицательных ответов приведи конкретные элементы.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.10.} Для \(T(x,y,z)=(x+y,y+z)\) найди ядро, образ и их размерности.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.11.} Линейно ли отображение \(T(x,y)=(x+1,y)\)? Обоснуй одним необходимым свойством.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.12.} Линейный датчик выдаёт одно число \(T(x,y,z)=x-2y+z\). Найди два независимых изменения входа, которых датчик не заметит.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.13.} Найди \(\langle u,v\rangle\), \(\|u\|\), \(\|v\|\) для \(u=(1,2,-1)\), \(v=(2,0,2)\). Ортогональны ли векторы?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.14.} Нормируй \((3,4,0)\). Сколько единичных векторов лежит на той же прямой?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.15.} Докажи, что пересечение двух подпространств является подпространством.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.16.} Приведи два подпространства \(\mathbb R^2\), объединение которых не является подпространством.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.17.} Докажи: список, содержащий нулевой вектор, зависим. Что меняется для пустого списка?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.18.} Линейное отображение \(T:\mathbb R^4\to\mathbb R^3\) имеет ранг \(2\). Найди размерность ядра. Может ли оно быть инъективным?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.19.}\starmark{} Докажи, что любые пять векторов \(\mathcal P_3\) линейно зависимы.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.20.}\starmark{} Пусть \(D:\mathcal P_3\to\mathcal P_2\) задано формулой \(D(a_0+a_1t+a_2t^2+a_3t^3)=a_1+2a_2t+3a_3t^2\). Докажи линейность, найди ядро и образ. Позже этот оператор будет называться производной многочлена.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.21.} В ортонормированном базисе \(b_1,b_2\) сила имеет вид \(F=6b_1+8b_2\). Найди длину и проекции на обе оси.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{25.22.}\starmark{} Докажи, что линейное отображение между двумя пространствами одинаковой конечной размерности инъективно тогда и только тогда, когда сюръективно.\par\end{minipage}\par
 \endgroup

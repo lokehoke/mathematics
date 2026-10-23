@@ -1,194 +1,169 @@
-\chapter{Степенные, показательные и логарифмические функции}\markright{Глава 14}
-\begin{definition}\term{Степенная функция} (\emph{power function}) — функция \(y = x^{r}\) с фиксированным показателем \(r\); допустимые \(x\) зависят от показателя.\end{definition}
-\begin{definition}\term{Показательная функция} (\emph{exponential function}) — \(y = a^{x}\) при \(a > 0\) и \(a \ne  1;\allowbreak x\) может быть любым действительным числом.\end{definition}
-\begin{definition}\term{Логарифм} (\emph{logarithm}) \(\log _{a} b\) — показатель степени, в которую нужно возвести \(a\), чтобы получить \(b\): \(a^{c} = b\) означает \(\log _{a} b = c\).\end{definition}
-Условия логарифма: \(a > 0,\allowbreak a \ne  1,\allowbreak b > 0\).\par
-\section*{Свойства показательной и логарифмической функций}
-\(a^{x}\) всегда положительно. При \(a > 1\) функция возрастает, при \(0 < a < 1\) убывает. Логарифм с тем же основанием меняется в том же направлении.\par
-\(\log _{a} 1 = 0;\allowbreak \log _{a} a = 1\). При допустимых значениях \(\log _{a} (a^{x}) = x\) и \(a^{\log _{a} b} = b\).\par
-При \(u,\allowbreak v > 0\): \(\log _{a} (uv) = \log _{a} u + \log _{a} v;\allowbreak \log _{a} (\frac{u}{v}) = \log _{a} u - \log _{a} v\).\par
-При \(u > 0\): \(\log _{a} (u^{r}) = r \log _{a} u\). Формула смены основания: \(\log _{a} u = \frac{\log _{c} u}{\log _{c} a}\) при \(c > 0,\allowbreak c \ne  1\).\par
-Графики \(y = a^{x}\) и \(y = \log _{a} x\) симметричны относительно прямой \(y = x\).\par
-\section*{Две важные степенные функции}
-\(y = \frac{1}{x}\): \(x \ne 0\), значения \(y \ne  0\). \(y = \sqrt{x}\): \(x \ge 0\), значения \(y \ge  0\).\par
-{\small\textit{Пример: \(\log _{2} 8 = 3\), потому что \(2^{3} = 8\). Неравенство \((\frac{1}{2})^{x} > (\frac{1}{2})^{3}\) даёт \(x < 3\).}}\par
+\chapter{Остатки, сравнения и целочисленные уравнения}\label{chap:c21}\markright{Глава 14}
 
-\section*{Число \(e\), натуральный логарифм и экспонента}
-Рассмотрим учебную модель: на счёте \(1\) условная денежная единица, годовая ставка равна \(100\%\). Если проценты начисляют один раз в конце года, получается \(2\). Если год делят на \(n\) равных частей и каждый раз прибавляют \(\frac1n\) текущей суммы, через год получается \(a_n=(1+\frac1n)^n\). Например, \(a_1=2\), \(a_2=2{,}25\), \(a_4=2{,}44140625\). Чем чаще начисление, тем ближе итог к определённому числу; он не растёт без границ.
-\begin{definition}\term{Предел последовательности} (limit of a sequence) \(a_n\) — число \(L\), к которому члены последовательности становятся сколь угодно близки: для каждого \(\varepsilon>0\) существует натуральное \(N\), такое что при всех \(n\ge N\) выполнено \(|a_n-L|<\varepsilon\). Обозначение: \(\lim_{n\to\infty}a_n=L\).\end{definition}
-\begin{definition}\term{Факториал} (factorial) натурального числа \(k\) — произведение \(k!=1\cdot2\cdot\ldots\cdot k\); дополнительно полагают \(0!=1\).\end{definition}
-\begin{theorem}[Сходимость последовательности сложных процентов]
-Последовательность \(a_n=(1+\frac1n)^n\) строго возрастает, ограничена сверху и имеет предел, лежащий между \(2\) и \(3\).
+\section{Что сохраняется, когда полные обороты отброшены}
+На часах после двенадцати снова появляется один, а дни недели повторяются через семь дней. Вместо огромного числа удобно хранить его остаток. Это не приближённое вычисление: при фиксированном модуле остаток точно описывает, какие числа отличаются на целое число полных циклов.
+
+\begin{definition}
+\term{Деление с остатком} (division with remainder) целого \(a\) на натуральное \(m>0\) — представление \(a=mq+r\), где \(q\in\mathbb Z\) — \term{неполное частное} (quotient), а \(r\in\mathbb Z\), \(0\le r<m\), — \term{остаток} (remainder).
+\end{definition}
+Например, \(47=5\cdot9+2\), а \(-47=5\cdot(-10)+3\). Остаток по принятому определению не бывает отрицательным. Поэтому \(-47=5\cdot(-9)-2\) не является делением с остатком.
+
+\begin{theorem}[Существование и единственность остатка]\label{thm:legacy-c21-1}
+При любом целом \(a\) и натуральном \(m>0\) существуют единственные целые \(q,r\), для которых \(a=mq+r\) и \(0\le r<m\).
 \end{theorem}
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[12]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-28.png}
-\end{wrapfigure}
-\textit{Доказательство.} По биному Ньютона \(a_n=\sum_{k=0}^n\frac1{k!}\prod_{j=0}^{k-1}(1-\frac jn)\). Знак \(\sum\) означает сложение слагаемых, \(\prod\) — перемножение множителей; при \(k=0\) произведение принимается равным \(1\). При замене \(n\) на \(n+1\) все множители уже имеющихся слагаемых не уменьшаются и добавляется новое положительное слагаемое. Поэтому \(a_{n+1}>a_n\).
-Для \(k\ge2\) имеем \(k!\ge2\cdot3^{k-2}\), поскольку все множители от \(3\) до \(k\) не меньше \(3\). Множители под знаком \(\prod\) лежат в \((0;1]\), поэтому при \(n\ge2\) получаем \(a_n\le2+\frac12\sum_{j=0}^{n-2}(\frac13)^j<2+\frac12\cdot\frac1{1-\frac13}=\frac{11}{4}\); также \(a_1=2<\frac{11}{4}\). По теореме о монотонной ограниченной последовательности предел существует. Он не меньше \(a_2=\frac94>2\) и не больше \(\frac{11}{4}<3\).\hfill\(\blacksquare\)
-\par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-
-\begin{definition}\term{Число \(e\)} (Euler's number) — предел \(e=\lim_{n\to\infty}(1+\frac1n)^n\), существование которого доказано выше. Приближённо \(e\approx2{,}718281828\).\end{definition}
-Предельный результат для начальной суммы \(S\) в описанной модели равен \(Se\); это объясняет появление числа \(e\) при непрерывном накоплении.
-\begin{definition}\term{Экспонента} (exponential function) — функция \(\exp x=e^x\), определённая для всех \(x\in\mathbb R\). Её значения положительны, и она строго возрастает.\end{definition}
-\begin{definition}\term{Натуральный логарифм} (natural logarithm) — логарифм по основанию \(e\): \(\ln x=\log_e x\) при \(x>0\). Он является обратной функцией к экспоненте.\end{definition}
-По определениям \(\ln1=0\), \(\ln e=1\), \(\ln(e^x)=x\) для всех действительных \(x\), а \(e^{\ln x}=x\) для \(x>0\). Сохраняются правила \(e^{x+y}=e^xe^y\) и \(\ln(uv)=\ln u+\ln v\) при \(u,v>0\).
-\begin{theorem}[Переход к натуральному основанию]
-При \(a>0\), \(a\ne1\), \(u>0\) выполнено \(\log_a u=\frac{\ln u}{\ln a}\). Для \(a>0\) и \(x\in\mathbb R\) выполнено \(a^x=e^{x\ln a}\).
-\end{theorem}
-\begin{proof}
-Положим \(r=\log_a u\); тогда \(u=a^r\). По правилу логарифма степени \(\ln u=r\ln a\). Поскольку \(a\ne1\), число \(\ln a\ne0\), и деление даёт первую формулу. Далее \(\ln(a^x)=x\ln a\); применив экспоненту к обеим частям, получаем вторую формулу.
-\end{proof}
-\section*{Гиперболические функции}
-\begin{definition}\term{Гиперболический синус} (hyperbolic sine) — функция \(\operatorname{sh} x=\frac{e^x-e^{-x}}2\), определённая для всех действительных \(x\).\end{definition}
-\begin{definition}\term{Гиперболический косинус} (hyperbolic cosine) — функция \(\operatorname{ch} x=\frac{e^x+e^{-x}}2\), определённая для всех действительных \(x\).\end{definition}
-\begin{theorem}[Основное тождество и чётность]
-Для любого действительного \(x\) выполнено \(\operatorname{ch}^2x-\operatorname{sh}^2x=1\), \(\operatorname{sh}(-x)=-\operatorname{sh} x\), \(\operatorname{ch}(-x)=\operatorname{ch} x\).
-\end{theorem}
-\begin{proof}
-Вычитаем квадраты по определениям: \(\operatorname{ch}^2x-\operatorname{sh}^2x=\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}=e^xe^{-x}=1\). При замене \(x\) на \(-x\) два слагаемых в числителях меняются местами: разность меняет знак, а сумма сохраняется. Это доказывает обе формулы чётности.
-\end{proof}
-\section*{Гиперболические тангенс и котангенс}
-\begin{definition}\term{Гиперболический тангенс} (\emph{hyperbolic tangent}) — функция \(\operatorname{th}x=\frac{\operatorname{sh}x}{\operatorname{ch}x}\), \(x\in\mathbb R\). Знаменатель всегда положителен. В англоязычной литературе обычно пишут \(\tanh x\).\end{definition}
-\begin{definition}\term{Гиперболический котангенс} (\emph{hyperbolic cotangent}) — функция \(\operatorname{cth}x=\frac{\operatorname{ch}x}{\operatorname{sh}x}\), \(x\ne0\). В англоязычной литературе обычно пишут \(\coth x\).\end{definition}
-\begin{theorem}[Рациональные выражения через экспоненту]
-При \(t=e^{2x}>0\) имеем
-\[
-\operatorname{th}x=\frac{t-1}{t+1},\qquad
-\operatorname{cth}x=\frac{t+1}{t-1}\quad(x\ne0).
-\]
-Обе функции нечётны. Множество значений \(\operatorname{th}\) равно \((-1;1)\), а \(\operatorname{cth}\) — \((-\infty;-1)\cup(1;+\infty)\).
-\end{theorem}
-\begin{proof}
-Подставим определения \(\operatorname{sh}\), \(\operatorname{ch}\) и умножим числитель и знаменатель на \(e^x\). Нечётность следует из нечётности \(\operatorname{sh}\) и чётности \(\operatorname{ch}\). При \(t>0\) выполнено \(|t-1|<t+1\), что даёт указанные строгие границы. Обратно, для \(-1<y<1\) число \(t=\frac{1+y}{1-y}>0\) даёт \(\operatorname{th}(\frac12\ln t)=y\). При \(|y|>1\) число \(t=\frac{y+1}{y-1}>0\) отлично от \(1\) и даёт \(\operatorname{cth}(\frac12\ln t)=y\). Поэтому все указанные значения достигаются.
-\end{proof}
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[11]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-97.png}
-\end{wrapfigure}
-Гиперболический тангенс ограничен, хотя его аргумент может расти без границ. Например, заданная модель сигнала \(s(t)=2\operatorname{th}t\) всегда даёт \(-2<s(t)<2\). Значения приближаются к границам, но не достигают их при конечном \(t\). В отличие от обычного тангенса, у \(\operatorname{th}\) на действительной прямой нет полюсов и нет ненулевого периода. У \(\operatorname{cth}\) область определения разрывается в нуле; это нужно учитывать до сокращения выражений и решения уравнений. Периодические ветви обычного котангенса и две ветви гиперболического котангенса имеют разное происхождение.
-\par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\begin{theorem}[Тождества и монотонность]
-Для действительного \(x\) выполнено \(1-\operatorname{th}^2x=\frac1{\operatorname{ch}^2x}\); при \(x\ne0\) — \(\operatorname{cth}^2x-1=\frac1{\operatorname{sh}^2x}\). Функция \(\operatorname{th}\) строго возрастает на \(\mathbb R\), а \(\operatorname{cth}\) строго убывает на каждом из промежутков \((-\infty;0)\), \((0;+\infty)\).
-\end{theorem}
-\begin{proof}
-Разделим равенство \(\operatorname{ch}^2x-\operatorname{sh}^2x=1\) соответственно на \(\operatorname{ch}^2x\) и \(\operatorname{sh}^2x\). Для монотонности пусть \(0<t_1<t_2\). Разность значений \(\frac{t-1}{t+1}\) равна \(\frac{2(t_2-t_1)}{(t_2+1)(t_1+1)}>0\). Разность значений \(\frac{t+1}{t-1}\) равна \(-\frac{2(t_2-t_1)}{(t_2-1)(t_1-1)}<0\), если \(t_1,t_2\) лежат по одну сторону от \(1\). Экспонента \(e^{2x}\) строго возрастает, что даёт все утверждения. Неограниченность аргумента и строгая монотонность также исключают ненулевой период \(\operatorname{th}\).
-\end{proof}
-
-\section*{Зачем нужны гиперболические функции}
-В геометрии параметризация \(X=\operatorname{ch}t\), \(Y=\operatorname{sh}t\) даёт точки правой ветви гиперболы \(X^2-Y^2=1\), поскольку \(\operatorname{ch}t>0\). Это аналог связи косинуса и синуса с окружностью, но с разностью квадратов вместо суммы.
-
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[11]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-93.png}
-\end{wrapfigure}
-Другая модель — цепная линия (\emph{catenary}). Идеальная гибкая однородная нерастяжимая цепь в равновесии под собственным весом в однородном поле тяжести, подвешенная за концы на одинаковой высоте, при подходящем выборе координат имеет профиль
-\[
-y=a\left(\operatorname{ch}\frac xa-1\right),\qquad a>0.
-\]
-Оси \(x,y\) и параметр \(a\) измеряются в единицах длины, поэтому аргумент \(\frac xa\) безразмерен. Начало координат расположено в нижней точке цепи. Например, при \(a=2\) м и \(x=2\ln2\) м получаем \(y=2(\frac{2+\frac12}{2}-1)=\frac12\) м. Вывод физической модели требует механики; здесь мы исследуем заданную функцию.
-
-У модели минимум \(y=0\) при \(x=0\): для \(u=e^t>0\) неравенство \(u+\frac1u\ge2\) следует из \(\frac{(u-1)^2}{u}\ge0\). Значит, \(\operatorname{ch}t\ge1\), причём равенство возможно только при \(t=0\). График симметричен относительно вертикальной оси по чётности \(\operatorname{ch}\).
-\par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-% HYPERBOLIC_APPLICATION_END
-График \(\operatorname{sh} x\) нечётен, строго возрастает и проходит через \((0;0)\). Возрастание видно без производных: при \(y>x\) одновременно \(e^y>e^x\) и \(-e^{-y}>-e^{-x}\). График \(\operatorname{ch} x\) чётен и проходит через \((0;1)\); его наименьшее значение равно \(1\). Для \(0\le x<y\) равенство \(\operatorname{ch} y-\operatorname{ch} x=2\operatorname{sh}\frac{y+x}{2}\operatorname{sh}\frac{y-x}{2}>0\), получаемое раскрытием определений, показывает возрастание на \([0;+\infty)\); из чётности следует убывание на \((-\infty;0]\). Таким образом, график имеет плавную форму цепи с минимумом в \((0;1)\), но не совпадает с параболой.
-
-\section*{Правила степеней и логарифмов с условиями}
-Для \(a,b>0\) и действительных \(r,s\) действуют
-\[
-a^{r+s}=a^ra^s,\qquad (a^r)^s=a^{rs},\qquad (ab)^r=a^rb^r.
-\]
-Ограничение на основания существенно: для отрицательного основания произвольная действительная степень может не определяться. При \(a>0\), \(a\ne1\), \(u,v>0\)
-\[
-\begin{gathered}
-\log_a(uv)=\log_a u+\log_a v,\quad
-\log_a\frac uv=\log_a u-\log_a v,\\
-\log_a(u^r)=r\log_a u.
-\end{gathered}
-\]
-Например, если \(s=\log_a u\), \(t=\log_a v\), то \(uv=a^sa^t=a^{s+t}\), поэтому логарифм произведения равен \(s+t\). Для частного используется \(u\,v^{-1}\), а для степени — \((a^s)^r=a^{sr}\). Равенство \(\log_a(u+v)=\log_a u+\log_a v\) отсюда не следует и в общем случае неверно: при \(a=2,u=v=1\) слева \(1\), справа \(0\).
-
-\clearpage
-\par\noindent\begin{minipage}{\linewidth}\section*{Графики}
-\begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-exponential.pdf}\par\small Показательные, логарифмические и гиперболические функции\end{center}\end{minipage}\par
-\par\noindent\begin{minipage}{\linewidth}\section*{Гиперболические тангенс и котангенс}\includegraphics[width=\linewidth]{images/atlas-hyperbolic-ratios.pdf}\par Горизонтальные пунктирные прямые — асимптоты \(y=1\) и \(y=-1\). Функция \(\operatorname{th}x\) определена на всей прямой; у \(\operatorname{cth}x\) есть разрыв при \(x=0\).\end{minipage}\par
-\Needspace{7\baselineskip}\section*{Задачи}
-\begingroup\setlength{\parskip}{3pt}
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.1.} Построй \(y = \dfrac{1}{x}\). Укажи область определения и область значений.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.2.} Построй \(y = \sqrt{x}\). Укажи область определения и область значений.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.3.} Реши \(x^{3} = - 27\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.4.} Реши \(2^{x} = 32\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.5.} Реши \(3^{x - 1} = 9\).\par\end{minipage}\par
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[12]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-40.png}
-\end{wrapfigure}
-\textbf{14.6.} Реши \((\dfrac{1}{2})^{x} > \dfrac{1}{8}\).\par
-
-\textbf{14.7.} Вычисли \(\log _{2} 8 + \log _{3} 1\).\par
-
-\textbf{14.8.} Вычисли \(\log _{5} (\dfrac{1}{25})\).\par
-
-\textbf{14.9.} Реши \(\log _{2} (x - 1) = 3\).\par
-
-\textbf{14.10.} Найди область определения \(y = \log _{3} (5 - x)\).\par
-
-\textbf{14.11.} При \(a > 0\) упрости \(\log _{2} (8 a) - \log _{2} a\).\par
-
-\textbf{14.12.} Сравни \(2^{0{,}3}\) и \(2^{0{,}7}\); затем \((\dfrac{1}{3})^{0{,}3}\) и \((\dfrac{1}{3})^{0{,}7}\).\par
-\par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.13.} В учебной модели стоимость оборудования каждый год уменьшается вдвое: \(S (t) = 80000 \cdot  (\dfrac{1}{2})^{t}\) рублей. Найди стоимость через \(3\) года.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.14.} Модель роста культуры: \(N (t) = 500 \cdot  2^{t}\), где \(t\) — число часов. Через сколько часов станет \(8000\) клеток?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.15.} Для двоичного поиска в массиве из \(2^{k}\) элементов используют модель из \(k\) шагов. Сколько шагов даёт эта модель для \(1024\) элементов?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.16.}\starmark{} Реши \(4^{x} - 5 \cdot  2^{x} + 4 = 0\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.17.}\starmark{} Реши \(\log _{2} (x - 1) + \log _{2} (x + 1) = 3\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.18.}\starmark{} Вклад в учебной модели ежегодно увеличивается на \(10 \%\) без пополнений и снятий. Найди наименьшее целое число лет, через которое \(10000\) рублей станут не меньше \(13310\) рублей.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.19.}\starmark{} Докажи, что для \(a,b>0\), \(a\ne1\), \(b\ne1\) выполнено \(\log_a b\cdot\log_b a=1\). Объясни, почему нужны ограничения \(a\ne1\) и \(b\ne1\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.20.}\starmark{} Докажи, что \(\operatorname{ch} x\ge1\) для всех действительных \(x\). При каком \(x\) достигается равенство? Используй квадрат разности \(e^{x/2}-e^{-x/2}\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.21.} Вычисли \(\exp0\), \(\ln1\), \(\ln(e^3)\), \(\exp(\ln5)\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.22.} Реши уравнение \(\ln(x-1)=2\), начав с области допустимых значений.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.23.} Без десятичного приближения найди \(\dfrac{\ln8}{\ln2}\) и \(e^{2\ln3-\ln9}\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.24.} В учебной модели начальная сумма \(1000\) рублей увеличивается за год в \((1+\dfrac1n)^n\) раза. Найди сумму при \(n=2\) и \(n=4\), округлив до копеек. К какому значению приближаются суммы при неограниченном увеличении \(n\)? Используй \(e\approx2{,}718281828\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.25.} Вычисли в точном виде \(\operatorname{sh}(\ln2)\) и \(\operatorname{ch}(\ln2)\). Проверь для этих значений основное гиперболическое тождество.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.26.}\starmark{} Реши \(\operatorname{sh} x=\dfrac34\), сделав замену \(t=e^x\). Укажи допустимые значения \(t\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.27.}\starmark{} Реши \(\operatorname{ch} x=\dfrac54\), используя определения гиперболических функций.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.28.} Построй эскизы графиков \(y=\operatorname{sh} x\) и \(y=\operatorname{ch} x\) в одной системе координат. Используй точки с аргументами \(-\ln2\), \(0\), \(\ln2\); отметь чётность и положение графиков относительно оси абсцисс.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.29.} В модели цепи \(y=4(\operatorname{ch}\dfrac x4-1)\) все длины даны в метрах. Найди высоту при \(x=4\ln2\), а также высоту в симметричной точке.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.30.}\starmark{} Докажи, что профиль \(y=a(\operatorname{ch}\dfrac xa-1)\), \(a>0\), достигает единственного минимума в нуле. Используй определения, без производной.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.31.} На гиперболе задана точка \((X,Y)=(\operatorname{ch}t,\operatorname{sh}t)\), где \(t=\ln3\). Найди координаты и проверь \(X^2-Y^2=1\).\par\end{minipage}\par
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
 \begin{wrapfigure}[13]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-132.png}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-59.png}
 \end{wrapfigure}
-\textbf{14.32.} Найди \(\operatorname{th}0\), \(\operatorname{th}(\ln2)\), \(\operatorname{cth}(\ln2)\).\par
-
-\textbf{14.33.} Вычисли \(\operatorname{th}(-\ln3)\) и \(\operatorname{cth}(-\ln3)\).\par
-
-\textbf{14.34.} Реши \(\operatorname{th}x=\dfrac12\) на действительной прямой.\par
-
-\textbf{14.35.} Реши \(\operatorname{cth}x=2\), проверив область определения.\par
+\textit{Доказательство.} Среди чисел \(a-mq\), где \(q\in\mathbb Z\), есть неотрицательные: достаточно взять \(q=-|a|\). Выберем среди них наименьшее \(r\). Здесь используется принцип наименьшего элемента: непустое подмножество \(\mathbb N_0\) имеет наименьший элемент. Он следует из индукции: если бы множество не имело наименьшего элемента, последовательно доказывалось бы, что в нём нет ни \(0\), ни \(1\), ни любого следующего числа. Если \(r\ge m\), то \(r-m=a-m(q+1)\) — меньший неотрицательный кандидат, противоречие. Значит, \(r<m\).
+Если также \(a=mq'+r'\), то \(m(q-q')=r'-r\). Правая часть по модулю меньше \(m\); единственное кратное \(m\) с таким свойством — ноль. Поэтому \(r=r'\) и \(q=q'\).\hfill\(\blacksquare\)
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.36.} Какие из уравнений \(\operatorname{th}x=1\), \(\operatorname{th}x=-\dfrac32\), \(\operatorname{cth}x=\dfrac12\) имеют действительные решения?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.37.} Построй эскизы \(y=\operatorname{th}x\) и \(y=\operatorname{cth}x\). Отметь область определения, нечётность и горизонтальные асимптоты.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.38.} В заданной модели \(s(t)=2\operatorname{th}t\) найди момент \(t\ge0\), когда \(s(t)=1\), и объясни, достигается ли уровень \(2\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.39.} Докажи \(\operatorname{cth}x\operatorname{th}x=1\). Укажи все допустимые \(x\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.40.}\starmark{} Докажи формулу \(\operatorname{th}(x+y)=\dfrac{\operatorname{th}x+\operatorname{th}y}{1+\operatorname{th}x\operatorname{th}y}\). Почему знаменатель ненулевой?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{14.41.}\starmark{} При \(a>0\) реши неравенство \(|\operatorname{th}x|\le\operatorname{th}a\).\par\end{minipage}\par
+
+\section{Сравнения по модулю}
+\begin{definition}
+Целые \(a,b\) \term{сравнимы по модулю} (congruent modulo) натурального \(m>0\), если \(m\mid(a-b)\). Запись: \(a\equiv b\pmod m\). Число \(m\) называют \term{модулем сравнения} (modulus).
+\end{definition}
+Сравнимость означает совпадение остатков. Например, \(22\equiv4\pmod6\), \(-2\equiv4\pmod6\). Запись \(22\equiv4\pmod6\) не утверждает обычное равенство \(22=4\). Модуль должен быть указан: \(22\) и \(4\) сравнимы по модулю \(6\), но не по модулю \(5\).
+
+\begin{theorem}[Арифметика сравнений]\label{thm:legacy-c21-2}
+Если \(a\equiv b\pmod m\) и \(c\equiv d\pmod m\), то
+\[
+a+c\equiv b+d\pmod m,\qquad a-c\equiv b-d\pmod m,\qquad ac\equiv bd\pmod m.
+\]
+В частности, \(a^n\equiv b^n\pmod m\) для любого \(n\in\mathbb N\).
+\end{theorem}
+\begin{proof}
+Пусть \(a-b=mu\), \(c-d=mv\) с целыми \(u,v\). Разность сумм равна \(m(u+v)\), разность разностей — \(m(u-v)\). Для произведения
+\[
+ac-bd=(a-b)c+b(c-d)=m(uc+bv).
+\]
+Все разности делятся на \(m\). Утверждение о натуральных степенях следует последовательным применением правила произведения, то есть индукцией по \(n\).
+\end{proof}
+Пример: \(10\equiv1\pmod9\), поэтому \(10^{100}+2\equiv3\pmod9\). Для вычисления последней цифры выбирают модуль \(10\); для дня недели — \(7\). До возведения в большую степень полезно выписать несколько первых остатков и заметить цикл, затем обосновать его повторение умножением на одно и то же число.
+
+\begin{definition}
+\term{Класс вычетов} (residue class) числа \(a\) по модулю \(m\) — множество \([a]_m=\{a+mk:k\in\mathbb Z\}\). Множество всех классов обозначают \(\mathbb Z/m\mathbb Z\). При \(m\ge2\) оно состоит ровно из \(m\) классов \([0]_m,\ldots,[m-1]_m\).
+\end{definition}
+Числа \(a\) и \(a+m\) различны, но задают один класс. По предыдущей теореме правила \([a]_m+[b]_m=[a+b]_m\) и \([a]_m[b]_m=[ab]_m\) не зависят от выбора представителей. Это первый пример нового множества, на котором можно определить знакомые действия. В главе \ref{chap:c22} мы сравним его свойства со свойствами целых и рациональных чисел.
+
+\section{Тождество Безу и обратный проход алгоритма Евклида}
+\begin{definition}
+\term{Целочисленная линейная комбинация} (integer linear combination) целых \(a,b\) — число вида \(au+bv\), где \(u,v\in\mathbb Z\). Равенство \(\gcd(a,b)=au+bv\) называют \term{тождеством Безу} (Bézout's identity). Это другое утверждение, чем теорема Безу о корне многочлена из главы \ref{chap:c11}.
+\end{definition}
+
+\begin{theorem}[Безу для целых чисел]\label{thm:legacy-c21-3}
+Если \(a,b\) — целые, не равные нулю одновременно, то существуют целые \(u,v\) с \(au+bv=\gcd(|a|,|b|)\). Здесь \(\gcd(n,0)=n\) при \(n>0\).
+\end{theorem}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[10]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-60.png}
+\end{wrapfigure}
+\textit{Доказательство.} Для положительных \(|a|,|b|\) алгоритм Евклида последовательно делит с остатком. Каждый новый остаток равен предыдущему делимому минус целое кратное делителя. Поэтому первый остаток выражается через \(|a|,|b|\), следующий — тоже, и по индукции каждый остаток является их целочисленной линейной комбинацией. Последний ненулевой остаток — НОД, поскольку при замене пары \((A,B)\) на \((B,A-qB)\) множество общих делителей не меняется. Знаки исходных \(a,b\) учитываются изменением знаков коэффициентов. Если одно число равно нулю, достаточно взять коэффициент при другом равным \(1\) или \(-1\).\hfill\(\blacksquare\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+
+Пример обратной подстановки:
+\[
+252=198+54,\quad198=3\cdot54+36,\quad54=36+18,\quad36=2\cdot18.
+\]
+Отсюда \(18=54-36=54-(198-3\cdot54)=4\cdot54-198=4\cdot252-5\cdot198\). Деления находят НОД; обратная подстановка одновременно находит коэффициенты Безу. Такой способ называют \term{расширенным алгоритмом Евклида} (extended Euclidean algorithm).
+
+\section{Когда по модулю можно делить}
+\begin{definition}
+Целое \(u\) — \term{обратное к \(a\) по модулю \(m\)} (modular multiplicative inverse), если \(au\equiv1\pmod m\), где \(m\ge2\). Обратный класс, если он существует, единственен; разные целые представители отличаются на кратное \(m\).
+\end{definition}
+
+\begin{theorem}[Критерий обратимости]\label{thm:legacy-c21-4}
+При \(m\ge2\) число \(a\) имеет обратное по модулю \(m\) тогда и только тогда, когда \(\gcd(|a|,m)=1\).
+\end{theorem}
+\begin{proof}
+Если \(au\equiv1\pmod m\), то \(au-mv=1\) для некоторого целого \(v\). Любой общий делитель \(a,m\) делит левую часть, а значит, и \(1\); НОД равен \(1\). Обратно, при НОД \(1\) тождество Безу даёт \(au+mv=1\), откуда \(au\equiv1\pmod m\).
+Если \(u\) и \(w\) оба обратны, то \(u\equiv u(aw)=(ua)w\equiv w\pmod m\). Здесь применены только умножение и правила сравнений.
+\end{proof}
+Например, \(3\cdot5=15\equiv1\pmod7\). Поэтому \(3x\equiv4\pmod7\) можно умножить на \(5\), получив \(x\equiv6\pmod7\). У числа \(6\) нет обратного по модулю \(9\), поскольку НОД равен \(3\).
+
+\begin{theorem}[Сокращение сравнения]\label{thm:legacy-c21-5}
+Если \(ac\equiv bc\pmod m\) и \(\gcd(|c|,m)=1\), то \(a\equiv b\pmod m\).
+\end{theorem}
+\begin{proof}
+При \(m=1\) все целые числа сравнимы, и вывод очевиден. Пусть далее \(m\ge2\). Умножим сравнение на обратное к \(c\) по модулю \(m\), существующее по критерию. Получим \(a(cu)\equiv b(cu)\), а \(cu\equiv1\); значит, \(a\equiv b\).
+\end{proof}
+Без условия на НОД сокращение может изменить множество решений. Из \(2x\equiv2\pmod6\) следует \(x\equiv1\pmod3\); в классах по модулю \(6\) это два ответа, \(x\equiv1\) и \(x\equiv4\). Оставить только \(x\equiv1\pmod6\) означало бы потерять половину решений.
+
+\section{Уравнения в целых числах}
+\begin{definition}
+\term{Линейное диофантово уравнение} (linear Diophantine equation) с двумя неизвестными имеет вид \(ax+by=c\), где коэффициенты целые и требуется найти все целочисленные пары \((x,y)\).
+\end{definition}
+
+\begin{theorem}[Решения линейного диофантова уравнения]\label{thm:legacy-c21-6}
+Пусть \(a,b\) не равны нулю одновременно и \(d=\gcd(|a|,|b|)\). Уравнение \(ax+by=c\) разрешимо в целых числах тогда и только тогда, когда \(d\mid c\). Если \((x_0,y_0)\) — одно решение, то все решения задаются формулами
+\[
+x=x_0+\frac bd\,t,\qquad y=y_0-\frac ad\,t,\qquad t\in\mathbb Z.
+\]
+\end{theorem}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-71.png}
+\end{wrapfigure}
+\textit{Доказательство.} Любая комбинация \(ax+by\) делится на \(d\), поэтому условие необходимо. Если \(c=dk\), умножение тождества Безу на \(k\) даёт решение.
+Для описания всех решений сначала пусть \(a,b\ne0\). Вычитание двух уравнений даёт \((a/d)(x-x_0)=-(b/d)(y-y_0)\). Выполнено \(\gcd(|a|/d,|b|/d)=1\). Из тождества Безу следует: если \(v\ne0\), \(\gcd(|u|,|v|)=1\) и \(v\mid uz\), то \(v\mid z\). Поэтому \(x-x_0=(b/d)t\), а подстановка даёт \(y-y_0=-(a/d)t\). Обратная подстановка проверяет все такие пары. Если один коэффициент нулевой, неизвестная при нём свободна, а другая фиксирована; те же формулы перечисляют все решения, поскольку ненулевое отношение коэффициента к \(d\) равно \(1\) или \(-1\).\hfill\(\blacksquare\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+Например, \(14\cdot2+21\cdot(-1)=7\). Все целые решения \(14x+21y=7\) имеют вид \(x=2+3t\), \(y=-1-2t\). Если по смыслу задачи нужны неотрицательные количества, ограничения \(x\ge0\), \(y\ge0\) накладывают \emph{после} нахождения общих целочисленных решений.
+
+\Needspace{7\baselineskip}\section*{Задачи}
+\begingroup\setlength{\parskip}{2pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.1.} Раздели \(47\) на \(5\) с остатком; укажи \(q,r\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.2.} Раздели \(-47\) на \(5\) с неотрицательным остатком.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.3.} Найди остаток \(-3\) при делении на \(7\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.4.} Проверь сравнения \(22\equiv4\pmod6\) и \(22\equiv5\pmod6\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.5.} Найди остаток \(137+284\) по модулю \(9\), сначала заменив слагаемые их остатками.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.6.} Найди остаток \(10^{20}\) по модулю \(9\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.7.} Найди остаток \(2^{10}\) по модулю \(7\), используя \(2^3\equiv1\pmod7\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.8.} Определи последнюю десятичную цифру числа \(7^{100}\).\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-61.png}
+\end{wrapfigure}
+\textbf{14.9.} На 24-часовых часах сейчас \(23{:}00\). Какое время будет через \(8\) часов?\par
+
+\textbf{14.10.} Узор повторяет цвета «синий, кремовый, охра, бирюзовый». Первый элемент синий. Какого цвета \(31\)-й элемент?\par
+
+\textbf{14.11.} Сегодня понедельник. Какой день недели будет через \(100\) дней?\par
+
+\textbf{14.12.} Найди наименьшее положительное \(x\), для которого \(x\equiv2\pmod3\) и \(x\equiv3\pmod5\).\par
+
+\textbf{14.13.} Алгоритмом Евклида найди \(\gcd(252,198)\) и вырази его целочисленной линейной комбинацией исходных чисел.\par
+
+\textbf{14.14.} Найди обратный класс к \(3\) по модулю \(7\).\par
+
+\textbf{14.15.} Существует ли обратный к \(6\) по модулю \(9\)? Обоснуй.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.16.} Реши \(3x\equiv4\pmod7\) во всех целых числах.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.17.} Перечисли все классы решений \(2x\equiv2\pmod6\) по модулю \(6\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.18.} Реши \(2x\equiv1\pmod6\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.19.}\starmark{} Найди все целочисленные решения \(14x+21y=7\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.20.} Имеет ли целочисленные решения уравнение \(6x+10y=7\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.21.}\starmark{} Наборы стоят \(12\) и \(18\) условных единиц. Нужно набрать ровно \(120\), покупая целые неотрицательные количества \(x,y\). Найди все пары количеств.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.22.} Докажи признак делимости на \(3\) через сравнение \(10\equiv1\pmod3\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.23.} Докажи, что квадрат целого числа имеет по модулю \(4\) только остаток \(0\) или \(1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.24.} Существуют ли целые \(x\), для которых \(x^2\equiv2\pmod4\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.25.} Докажи, что из \(ac\equiv bc\pmod m\) можно сократить \(c\), если \(\gcd(|c|,m)=1\). Дай пример потери решения без этого условия.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.26.}\starmark{} Найди все классы решений \(x^2\equiv1\pmod8\), обосновав ответ без перебора больших чисел.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.27.}\starmark{} Найди все неотрицательные целочисленные решения \(3x+5y=31\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{14.28.}\starmark{} Для любых целых \(a,b\) докажи, что система \(x\equiv a\pmod3\), \(x\equiv b\pmod5\) имеет ровно один класс решений по модулю \(15\). Подсказка: проверь \(x=10a+6b\).\par\end{minipage}\par
 \endgroup

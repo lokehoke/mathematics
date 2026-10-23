@@ -1,5 +1,5 @@
-\chapter{Числа и свойства арифметических действий}\markright{Глава 1}
-\section*{Натуральные числа: аксиомы Пеано}
+\chapter{Числа и свойства арифметических действий}\label{chap:c01}\markright{Глава 1}
+\section{Натуральные числа: аксиомы Пеано}
 
 Вычисления с натуральными числами опираются на небольшое число исходных положений.
 Такое исходное положение называют \term{аксиомой} (axiom): в выбранной теории его принимают без доказательства,
@@ -81,7 +81,7 @@
 Ноль соответствует отсутствию предметов, единица --- одному предмету.
 В литературе встречается и соглашение \(0\in\mathbb N\), поэтому принятая здесь договорённость указана явно.
 
-\section*{Как из следования получаются сложение и умножение}
+\section{Как из следования получаются сложение и умножение}
 
 \begin{definition}
 \term{Рекурсивное определение} (recursive definition) задаёт начальное значение
@@ -103,7 +103,7 @@ a+1=a+S(0)=S(a+0)=S(a).
 В индукционном переходе тогда доказывают \(P(n+1)\), предполагая \(P(n)\).
 Если утверждение сформулировано только для \(n\ge1\), базой служит случай \(n=1\).
 
-\section*{Метод математической индукции}
+\section{Метод математической индукции}
 
 \begin{definition}
 \term{Метод математической индукции} (\emph{method of mathematical induction}) ---
@@ -140,10 +140,10 @@ a+1=a+S(0)=S(a+0)=S(a).
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\section*{Первый пример применения метода}
+\section{Первый пример применения метода}
 Следующие два доказательства показывают, как привычные свойства действий выводятся из определений.
 
-\begin{theorem}[Ноль слева при сложении]
+\begin{theorem}[Ноль слева при сложении]\label{thm:legacy-c01-1}
 Для любого \(n\in\mathbb N_0\) выполнено \(0+n=n\).
 \end{theorem}
 
@@ -161,7 +161,7 @@ a+1=a+S(0)=S(a+0)=S(a).
 a\cdot1=a\cdot S(0)=a\cdot0+a=0+a=a.
 \]
 
-\begin{theorem}[Ассоциативность сложения]
+\begin{theorem}[Ассоциативность сложения]\label{thm:legacy-c01-2}
 Для любых \(a,b,c\in\mathbb N_0\)
 \[
 (a+b)+c=a+(b+c).
@@ -213,7 +213,7 @@ a+(-a)=0.
 Например, \(-8<-3<0<4\).
 Запись \(a\in\mathbb Z\) читается: «\(a\) принадлежит множеству целых чисел».
 
-\section*{Действия с целыми числами}
+\section{Действия с целыми числами}
 
 Сумма, разность и произведение целых чисел всегда являются целыми числами.
 Деление может вывести за пределы целых чисел: например, \(6:3=2\), но \(1:2\) не является целым числом.
@@ -238,7 +238,7 @@ a-b=a+(-b),\qquad a-(-b)=a+b.
 \]
 Деление на ноль не определено; в частности, запись \(\frac{0}{0}\) также не имеет значения.
 
-\section*{От целых чисел к рациональным}
+\section{От целых чисел к рациональным}
 
 \begin{definition}
 \term{Рациональное число} (\emph{rational number}) --- число, которое можно записать в виде
@@ -250,11 +250,11 @@ a-b=a+(-b),\qquad a-(-b)=a+b.
 
 Любое целое число рационально, поскольку \(n=\frac n1\).
 Например, \(3\), \(-2\), \(0\), \(\frac12\) и \(-\frac34\) --- рациональные числа.
-Правила действий с дробями подробно разобраны в главе 3.
+Правила действий с дробями подробно разобраны в главе \ref{chap:c03}.
 Следующие свойства удобно сформулировать сразу для всех рациональных чисел:
 ими пользуются и при вычислениях, и при дальнейших преобразованиях выражений с буквами.
 
-\section*{Основные свойства арифметических действий}
+\section{Основные свойства арифметических действий}
 
 Во всех формулах ниже \(a,b,c\) --- произвольные рациональные числа.
 
@@ -348,7 +348,7 @@ ab=0\quad\Longleftrightarrow\quad a=0\ \text{или}\ b=0.
 7-2\ne2-7,\qquad (12:3):2\ne12:(3:2).
 \]
 
-\section*{Порядок действий}
+\section{Порядок действий}
 
 \begin{enumerate}[label=\arabic*.,leftmargin=2em,itemsep=3pt]
 \item Действия в скобках, начиная с самых внутренних.
@@ -366,15 +366,15 @@ ab=0\quad\Longleftrightarrow\quad a=0\ \text{или}\ b=0.
 -3-(-5)\cdot2=-3-(-10)=-3+10=7.
 \]
 
-\section*{Порядок на числовой прямой}
+\section{Порядок на числовой прямой}
 Для любых рациональных \(a,b\) выполняется ровно одно из условий: \(a<b\), \(a=b\), \(a>b\).
 Если \(a<b\) и \(b<c\), то \(a<c\) — это \textbf{транзитивность}.
 Из \(a<b\) следует \(a+c<b+c\). Если также \(c>0\), то \(ac<bc\); если \(c<0\), то \(ac>bc\).
-Эти правила объясняют преобразования неравенств в главе 11.
+Эти правила объясняют преобразования неравенств в главе \ref{chap:c11}.
 \Needspace{.85\textheight}
-\section*{Разобранный пример: сумма первых натуральных чисел}
+\section{Разобранный пример: сумма первых натуральных чисел}
 
-\begin{theorem}[Сумма первых натуральных чисел]
+\begin{theorem}[Сумма первых натуральных чисел]\label{thm:legacy-c01-3}
 Для каждого \(n\in\mathbb N\) выполнено
 \[
 1+2+\dots+n=\frac{n(n+1)}2.
@@ -425,7 +425,7 @@ ab=0\quad\Longleftrightarrow\quad a=0\ \text{или}\ b=0.
 проверяет лишь один случай и не заменяет проведённого доказательства.
 
 \Needspace{7\baselineskip}\section*{Задачи}
-\begingroup\setlength{\parskip}{3pt}
+\begingroup\setlength{\parskip}{2pt}
 \noindent\begin{minipage}[t]{\linewidth}\textbf{1.1.} Сравни: \(- 8\) и \(- 3;\allowbreak 0\) и \(- 5;\allowbreak - 4\) и \(4\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{1.2.} Вычисли: \(- 7 + (- 5)\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{1.3.} Вычисли: \(- 14 + 9 + 8\).\par\end{minipage}\par
@@ -435,13 +435,28 @@ ab=0\quad\Longleftrightarrow\quad a=0\ \text{или}\ b=0.
 \noindent\begin{minipage}[t]{\linewidth}\textbf{1.7.} Вычисли: \(18 - 4 \cdot  7 + 12 : (- 3)\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{1.8.} Вычисли: \(48 : (- 6) \cdot  2 - 9 + 5\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{1.9.} Вычисли: \(- 3 \cdot  [8 - (5 - 9)] + 10\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{1.10.} Вычисли: \((- 3)^{2} - 3^{2} + (- 2)^{3} - (- 2^{2})\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{1.11.} Утром было \(- 6 {}^{\circ} C\). К полудню потеплело на \(9 {}^{\circ} C\), а вечером похолодало на \(5 {}^{\circ} C\). Какая температура стала вечером?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{1.12.} Лифт находился на уровне \(- 2\) подземной парковки, поднялся на \(7\) уровней и опустился на \(3\). На каком уровне он оказался? Уровень земли обозначен \(0\), уровни идут подряд.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{1.13.} На игровом счёте было \(120\) очков. За каждую из трёх ошибок сняли \(15\) очков, затем начислили \(40\) очков. Сколько очков осталось?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{1.14.}\starmark{} Вычисли: \(- 48 : [6 - 2 \cdot  (- 1)] + 3 \cdot  [- 4 - (- 7)]\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{1.15.}\starmark{} Подставь скобки в \(18 - 6 : 3 + 1\), сохранив порядок чисел и действий, чтобы получилось \(3\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{1.16.}\starmark{} В викторине за верный ответ дают \(5\) очков, за неверный снимают \(3\). Участник ответил на все \(12\) вопросов и набрал \(28\) очков. Сколько было верных ответов?\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[13]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-191.png}
+\end{wrapfigure}
+\textbf{1.10.} Вычисли: \((- 3)^{2} - 3^{2} + (- 2)^{3} - (- 2^{2})\).\par
+
+\textbf{1.11.} Утром было \(- 6 {}^{\circ} C\). К полудню потеплело на \(9 {}^{\circ} C\), а вечером похолодало на \(5 {}^{\circ} C\). Какая температура стала вечером?\par
+
+\textbf{1.12.} Лифт находился на уровне \(- 2\) подземной парковки, поднялся на \(7\) уровней и опустился на \(3\). На каком уровне он оказался? Уровень земли обозначен \(0\), уровни идут подряд.\par
+
+\textbf{1.13.} На игровом счёте было \(120\) очков. За каждую из трёх ошибок сняли \(15\) очков, затем начислили \(40\) очков. Сколько очков осталось?\par
+
+\textbf{1.14.}\starmark{} Вычисли: \(- 48 : [6 - 2 \cdot  (- 1)] + 3 \cdot  [- 4 - (- 7)]\).\par
+
+\textbf{1.15.}\starmark{} Подставь скобки в \(18 - 6 : 3 + 1\), сохранив порядок чисел и действий, чтобы получилось \(3\).\par
+
+\textbf{1.16.}\starmark{} В викторине за верный ответ дают \(5\) очков, за неверный снимают \(3\). Участник ответил на все \(12\) вопросов и набрал \(28\) очков. Сколько было верных ответов?\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
 \noindent\begin{minipage}[t]{\linewidth}\textbf{1.17.} Докажи математической индукцией, что \(\sum_{k=1}^{n}k=\dfrac{n(n+1)}2\) для всех \(n\in\mathbb N_0\). Знак \(\sum\) обозначает сумму слагаемых при указанных значениях индекса; при \(n=0\) сумма пуста и равна \(0\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{1.18.} Докажи математической индукцией: \(1+3+\cdots+(2n-1)=n^2\) для всех \(n\in\mathbb N\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{1.19.}\starmark{} Докажи математической индукцией: \(\sum_{k=1}^{n}k^2=\dfrac{n(n+1)(2n+1)}6\) для всех \(n\in\mathbb N_0\). Пустая сумма равна нулю.\par\end{minipage}\par

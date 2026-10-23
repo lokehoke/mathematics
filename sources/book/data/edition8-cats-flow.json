@@ -1,0 +1,1056 @@
+[
+  {
+    "kind": "prose",
+    "chapter": 18,
+    "art": 1,
+    "side": "r",
+    "start": "Пара чисел может описывать",
+    "end": "\\begin{definition}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 1,
+    "start": "В доказательстве методом",
+    "end": "\\begin{definition}",
+    "art": 2,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 1,
+    "start": "\\textbf{Коммутативность}",
+    "end": "\\textbf{Противоположное число.}",
+    "art": 3,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 1,
+    "index": 2,
+    "art": 4,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 1,
+    "index": 3,
+    "art": 5,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 2,
+    "index": 1,
+    "art": 6,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 2,
+    "art": 7,
+    "side": "r",
+    "start": "Запись с тремя вертикальными точками",
+    "end": "\\begin{definition}"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 2,
+    "start": 16,
+    "end": 22,
+    "art": 8,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 3,
+    "start": 6,
+    "end": 12,
+    "art": 10,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 4,
+    "start": 6,
+    "end": 12,
+    "art": 14,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 5,
+    "start": 6,
+    "end": 12,
+    "art": 21,
+    "side": "r",
+    "parskip": 2
+  },
+  {
+    "kind": "tasks",
+    "chapter": 6,
+    "start": 7,
+    "end": 13,
+    "art": 11,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 7,
+    "index": 3,
+    "art": 12,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 7,
+    "art": 15,
+    "side": "l",
+    "start": 22,
+    "end": 28
+  },
+  {
+    "kind": "tasks",
+    "chapter": 7,
+    "start": 5,
+    "end": 11,
+    "art": 22,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 8,
+    "start": 7,
+    "end": 13,
+    "art": 19,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 9,
+    "start": 7,
+    "end": 13,
+    "art": 16,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 10,
+    "index": 2,
+    "art": 17,
+    "side": "l",
+    "include_after": true
+  },
+  {
+    "kind": "proof",
+    "chapter": 10,
+    "index": 4,
+    "art": 18,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 10,
+    "start": 14,
+    "end": 20,
+    "art": 29,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 11,
+    "index": 3,
+    "art": 9,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 11,
+    "index": 5,
+    "art": 24,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 11,
+    "start": 7,
+    "end": 13,
+    "art": 39,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 12,
+    "index": 2,
+    "art": 13,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 12,
+    "index": 6,
+    "art": 20,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 12,
+    "start": 16,
+    "end": 24,
+    "art": 30,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 13,
+    "index": 1,
+    "art": 25,
+    "side": "r",
+    "include_after": true
+  },
+  {
+    "kind": "tasks",
+    "chapter": 13,
+    "start": 5,
+    "end": 11,
+    "art": 38,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 14,
+    "index": 1,
+    "art": 28,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 14,
+    "start": 6,
+    "end": 12,
+    "art": 40,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 15,
+    "art": 26,
+    "side": "r",
+    "start": "\\(\\sin ^{2}",
+    "end": "\\section*{Прямоугольный треугольник}"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 15,
+    "start": 6,
+    "end": 12,
+    "art": 27,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 16,
+    "art": 23,
+    "side": "r",
+    "start": "\\(\\forall ",
+    "end": "\\section*{Свойства и способы доказательства}"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 16,
+    "start": 6,
+    "end": 12,
+    "art": 32,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 2,
+    "start": 32,
+    "end": 39,
+    "art": 37,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 4,
+    "start": 13,
+    "end": 20,
+    "art": 41,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 1,
+    "start": 18,
+    "end": 26,
+    "art": 42,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 8,
+    "start": 13,
+    "end": 20,
+    "art": 31,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 10,
+    "start": 13,
+    "end": 20,
+    "art": 33,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 12,
+    "start": 13,
+    "end": 20,
+    "art": 34,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 14,
+    "start": 21,
+    "end": 28,
+    "art": 35,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 16,
+    "start": 19,
+    "end": 26,
+    "art": 36,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 17,
+    "art": 43,
+    "start": "Работа с оценками начинается",
+    "end": "\\section*{Знаки",
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 17,
+    "art": 44,
+    "start": "Выбор инварианта начинается",
+    "end": "\\begin{theorem}",
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 17,
+    "art": 67,
+    "index": 3,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 17,
+    "art": 45,
+    "start": 8,
+    "end": 14,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 17,
+    "art": 46,
+    "start": 20,
+    "end": 25,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 18,
+    "art": 47,
+    "start": "Матричная запись помогает",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 18,
+    "art": 48,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 18,
+    "art": 68,
+    "index": 5,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 18,
+    "art": 49,
+    "start": 17,
+    "end": 23,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 18,
+    "art": 50,
+    "start": 20,
+    "end": 25,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 19,
+    "art": 51,
+    "start": "Предел описывает не отдельное измерение",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 19,
+    "art": 52,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 19,
+    "art": 69,
+    "start": "Докажем, например, что",
+    "end": "\\begin{theorem}",
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 19,
+    "art": 53,
+    "start": 12,
+    "end": 18,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 19,
+    "art": 54,
+    "start": 18,
+    "end": 23,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 20,
+    "art": 55,
+    "start": "Если известны два показания",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 20,
+    "art": 56,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 20,
+    "art": 70,
+    "index": 6,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 20,
+    "art": 57,
+    "start": 12,
+    "end": 18,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 20,
+    "art": 58,
+    "start": 18,
+    "end": 23,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 21,
+    "art": 59,
+    "index": 1,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 21,
+    "art": 60,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 21,
+    "art": 71,
+    "index": 6,
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 21,
+    "art": 61,
+    "start": 9,
+    "end": 15,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 21,
+    "art": 62,
+    "start": 21,
+    "end": 26,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 22,
+    "art": 63,
+    "start": "В главе 1 мы перечислили",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 22,
+    "art": 64,
+    "index": 3,
+    "side": "l"
+  },
+  {
+    "kind": "proof",
+    "chapter": 22,
+    "art": 72,
+    "index": 6,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 22,
+    "art": 65,
+    "start": 9,
+    "end": 15,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 22,
+    "art": 66,
+    "start": 15,
+    "end": 21,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 73,
+    "start": "Уравнение \\(x^2+1=0\\)",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 74,
+    "start": "Переход от действительных чисел к комплексным расширяет",
+    "end": "\\section*",
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 75,
+    "start": "Геометрическая запись разделяет две характеристики числа",
+    "end": "\\section*",
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 76,
+    "start": "При извлечении комплексных корней важно",
+    "end": "\\section*",
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 23,
+    "art": 77,
+    "start": 7,
+    "end": 13,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 23,
+    "art": 78,
+    "start": 17,
+    "end": 22,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 16,
+    "art": 81,
+    "start": "Логический переключатель хранит",
+    "end": "\\section*",
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 16,
+    "art": 82,
+    "start": "Дерево вывода удобно читать",
+    "end": "\\subsection*",
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 16,
+    "art": 83,
+    "start": 27,
+    "end": 32,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 16,
+    "art": 84,
+    "start": 27,
+    "end": 32,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 24,
+    "art": 85,
+    "start": "Комплексное число описывает пару действительных координат",
+    "end": "\\begin{definition}",
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 24,
+    "art": 86,
+    "start": "Трёхмерный вектор становится частью алгебры",
+    "end": "\\begin{theorem}",
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 24,
+    "art": 87,
+    "start": 6,
+    "end": 12,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 24,
+    "art": 88,
+    "start": 8,
+    "end": 14,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 25,
+    "art": 89,
+    "start": "Удвоение числа координат можно повторить",
+    "end": "\\begin{definition}",
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 25,
+    "art": 90,
+    "start": "После потери ассоциативности скобки становятся частью выражения",
+    "end": "\\section*",
+    "side": "r"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 25,
+    "art": 91,
+    "start": 6,
+    "end": 12,
+    "side": "l"
+  },
+  {
+    "kind": "answers",
+    "chapter": 25,
+    "art": 92,
+    "start": 7,
+    "end": 13,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 14,
+    "art": 93,
+    "side": "r",
+    "start": "Другая модель — цепная линия",
+    "end": "% HYPERBOLIC_APPLICATION_END"
+  },
+  {
+    "kind": "proof",
+    "chapter": 15,
+    "art": 94,
+    "side": "r",
+    "index": 1
+  },
+  {
+    "kind": "proof",
+    "chapter": 16,
+    "art": 95,
+    "side": "l",
+    "index": 2
+  },
+  {
+    "kind": "prose",
+    "chapter": 1,
+    "art": 99,
+    "side": "r",
+    "start": "После базы и перехода заключаем",
+    "end": "\\section*{Первый пример применения метода}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 79,
+    "side": "r",
+    "start": "Общая формула решения должна работать",
+    "end": "\\begin{definition}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 80,
+    "side": "l",
+    "start": "При решении четвёртой степени удобно",
+    "end": "\\begin{definition}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 100,
+    "side": "r",
+    "start": "Нельзя независимо взять любые кубические корни",
+    "end": "\\section*{Приведение уравнения четвёртой степени}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 23,
+    "art": 101,
+    "side": "l",
+    "start": "Для вычисления корня резольвенты можно непосредственно",
+    "end": "\\section*{Граница радикальных формул}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 20,
+    "art": 96,
+    "side": "r",
+    "start": "Правило цепочки позволяет вычислять",
+    "end": "\\begin{theorem}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 14,
+    "art": 97,
+    "side": "l",
+    "start": "Гиперболический тангенс ограничен",
+    "end": "\\begin{theorem}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 15,
+    "art": 98,
+    "side": "r",
+    "start": "Котангенс удобно рассматривать",
+    "end": "\\begin{theorem}"
+  },
+  {
+    "kind": "prose",
+    "chapter": 26,
+    "start": "Вектор можно складывать с другим вектором",
+    "end": "\\begin{definition}",
+    "art": 102,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 26,
+    "start": "Координаты зависят от выбора базиса",
+    "end": "\\begin{theorem}",
+    "art": 103,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 26,
+    "start": "Ортонормированный базис особенно удобен",
+    "end": "% END_THEORY_26",
+    "art": 104,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 26,
+    "index": 1,
+    "art": 105,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 26,
+    "start": 6,
+    "end": 9,
+    "art": 106,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 26,
+    "start": 8,
+    "end": 11,
+    "art": 107,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 27,
+    "start": "Матрица обычно меняет и длину",
+    "end": "\\begin{definition}",
+    "art": 108,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 27,
+    "start": "При повторении преобразования можно использовать",
+    "end": "\\section*",
+    "art": 109,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 27,
+    "start": "Квадратичная форма описывает зависимость второго порядка",
+    "end": "\\begin{theorem}",
+    "art": 110,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 27,
+    "index": 1,
+    "art": 111,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 27,
+    "start": 6,
+    "end": 9,
+    "art": 112,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 27,
+    "start": 8,
+    "end": 11,
+    "art": 113,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 28,
+    "start": "Рациональные числа позволяют приближать длины",
+    "end": "\\section*",
+    "art": 114,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 28,
+    "start": "На прямой стандартное расстояние равно",
+    "end": "На \\(\\mathbb R^n\\)",
+    "art": 115,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 28,
+    "start": "Замкнутость всегда рассматривается относительно",
+    "end": "\\section*",
+    "art": 116,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 28,
+    "start": "На отрезке непрерывность даёт сразу",
+    "end": "\\begin{theorem}",
+    "art": 117,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 28,
+    "start": 6,
+    "end": 9,
+    "art": 118,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 28,
+    "start": 8,
+    "end": 11,
+    "art": 119,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 29,
+    "start": "Если скорость меняется со временем",
+    "end": "\\begin{definition}",
+    "art": 120,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 29,
+    "start": "Всегда \\(L(f,P)",
+    "end": "\\section*",
+    "art": 121,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 29,
+    "start": "Первообразная и определённый интеграл отвечают",
+    "end": "\\begin{theorem}",
+    "art": 122,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 29,
+    "start": "При вычислении интеграла полезно смотреть",
+    "end": "\\begin{theorem}",
+    "art": 123,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 29,
+    "start": 6,
+    "end": 9,
+    "art": 124,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 29,
+    "start": 8,
+    "end": 11,
+    "art": 125,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 30,
+    "start": "Запись бесконечной суммы требует",
+    "end": "\\begin{theorem}",
+    "art": 126,
+    "side": "r"
+  },
+  {
+    "kind": "prose",
+    "chapter": 30,
+    "start": "При знакопеременных слагаемых соседние",
+    "end": "\\section*",
+    "art": 127,
+    "side": "l"
+  },
+  {
+    "kind": "prose",
+    "chapter": 30,
+    "start": "Для каждого фиксированного",
+    "end": "\\begin{definition}",
+    "art": 128,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 30,
+    "index": 1,
+    "art": 129,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 30,
+    "start": 6,
+    "end": 9,
+    "art": 130,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 30,
+    "start": 8,
+    "end": 11,
+    "art": 131,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 14,
+    "start": 32,
+    "end": 35,
+    "art": 132,
+    "side": "r"
+  },
+  {
+    "kind": "proof",
+    "chapter": 15,
+    "index": 3,
+    "art": 133,
+    "side": "l"
+  },
+  {
+    "kind": "tasks",
+    "chapter": 15,
+    "start": 32,
+    "end": 36,
+    "art": 134,
+    "side": "r"
+  },
+  {
+    "kind": "answers",
+    "chapter": 15,
+    "start": 24,
+    "end": 28,
+    "art": 135,
+    "side": "l"
+  }
+]

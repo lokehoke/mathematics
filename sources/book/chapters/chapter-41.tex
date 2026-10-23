@@ -1,0 +1,128 @@
+\chapter{Октонионы: когда важны скобки}\label{chap:c25}\markright{Глава 41}
+\section{Восемь координат}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[10]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-89.png}
+\end{wrapfigure}
+Удвоение числа координат можно повторить ещё раз, взяв пары кватернионов. При этом сохраняется норма и возможность решать линейные уравнения с ненулевым множителем, но исчезает ассоциативность. Именно явная проверка свойств, а не перенос знакомых правил по аналогии, делает этот пример полезным для изучения алгебры.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\begin{definition}
+\term{Октонионы} (\emph{octonions}) — множество \(\mathbb O=\mathbb H\times\mathbb H\) с покоординатным сложением; умножение задаётся формулой
+\[
+(a,b)(c,d)=(ac-\overline d\,b,\;da+b\overline c).
+\]
+Все четыре компонента принадлежат \(\mathbb H\). Здесь порядок кватернионных множителей обязателен. Эта формула фиксирует выбранное соглашение: таблицы базисных единиц в другой литературе могут отличаться из-за выбора базиса.
+\end{definition}
+Единица равна \((1,0)\), ноль — \((0,0)\); действительное число \(t\) обозначает \((t,0)\). Подмножество \(\{(a,0):a\in\mathbb H\}\) воспроизводит умножение кватернионов. Выберем базис
+\[
+\begin{gathered}
+e_0=1=(1,0),\quad e_1=(i,0),\quad e_2=(j,0),\quad e_3=(k,0),\\
+e_4=(0,1),\quad e_5=(0,i),\quad e_6=(0,j),\quad e_7=(0,k).
+\end{gathered}
+\]
+Любой октонион единственным образом записывается как \(x=\sum_{r=0}^7x_re_r\) с действительными координатами. Умножение пар позволяет вычислить произведение любых двух единиц, поэтому заучивать новую таблицу не требуется. В частности, \(e_1e_2=e_3\), \(e_2e_4=e_6\), \(e_3e_4=e_7\), но \(e_1e_6=-e_7\).
+
+\begin{theorem}[Неассоциативность]\label{thm:legacy-c25-1}
+Умножение октонионов не ассоциативно: существуют \(x,y,z\), для которых \((xy)z\ne x(yz)\).
+\end{theorem}
+\begin{proof}
+По формулам выше \((e_1e_2)e_4=e_3e_4=e_7\), тогда как \(e_1(e_2e_4)=e_1e_6=-e_7\). Их разность \(2e_7\ne0\), поскольку это ненулевой вектор из восьми действительных координат.
+\end{proof}
+\begin{definition}
+\term{Ассоциатор} (\emph{associator}) трёх элементов — выражение \([x,y,z]=(xy)z-x(yz)\). В ассоциативной алгебре оно всегда равно нулю; для октонионов это не так.
+\end{definition}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-90.png}
+\end{wrapfigure}
+После потери ассоциативности скобки становятся частью выражения. Например, даже при известном обратном элементе нельзя обосновать переход \(x^{-1}(xy)=(x^{-1}x)y\) одной лишь перестановкой скобок. В этой главе каждое равенство доказывается по определению или по уже установленному свойству; сокращение тройного произведения требует отдельного обоснования.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\section{Сопряжение и сохранение нормы}
+\begin{definition}
+\term{Сопряжение октониона} (\emph{octonion conjugation}) задаётся как \(\overline{(a,b)}=(\overline a,-b)\).
+\end{definition}
+\begin{definition}
+\term{Норма октониона} (\emph{octonion norm}) — \(|x|=\sqrt{N_{\mathbb H}(a)+N_{\mathbb H}(b)}\). Здесь \(N_{\mathbb H}(a)=N(a)\) — квадрат кватернионной нормы из предыдущей главы. Положим \(N_{\mathbb O}(x)=|x|^2\); индексы у \(N\) отличают суммы четырёх и восьми квадратов.
+\end{definition}
+\begin{theorem}[Обратный элемент]\label{thm:legacy-c25-2}
+Для любого \(x\in\mathbb O\) выполнено \(x\overline x=\overline x x=N_{\mathbb O}(x)\). При \(x\ne0\) элемент \(\frac{\overline x}{N_{\mathbb O}(x)}\) является двусторонним обратным.
+\end{theorem}
+\begin{proof}
+Пусть \(x=(a,b)\). Произведение \((a,b)(\overline a,-b)\) равно
+\[
+(a\overline a+\overline b b,\;-ba+ba)=(N_{\mathbb H}(a)+N_{\mathbb H}(b),0).
+\]
+В обратном порядке получаем \((\overline a a+\overline b b,b\overline a-b\overline a)\), то есть то же число. При ненулевом \(x\) сумма восьми квадратов положительна; умножение на её действительную обратную величину даёт оба требуемых произведения, равных \(1\).
+\end{proof}
+\begin{theorem}[Мультипликативность нормы]\label{thm:legacy-c25-3}
+Для \(x,y\in\mathbb O\) выполнено \(N_{\mathbb O}(xy)=N_{\mathbb O}(x)N_{\mathbb O}(y)\), а значит, \(|xy|=|x|\,|y|\).
+\end{theorem}
+\begin{proof}
+Запишем \(x=(a,b)\), \(y=(c,d)\). Обозначим кватернионный квадрат нормы просто \(N\). Из формулы предыдущей главы получаем
+\[
+\begin{aligned}
+N(ac-\overline d b)&=N(a)N(c)+N(d)N(b)\\
+&\quad-2\operatorname{Re}(ac\overline b d),\\
+N(da+b\overline c)&=N(d)N(a)+N(b)N(c)\\
+&\quad+2\operatorname{Re}(dac\overline b).
+\end{aligned}
+\]
+Здесь все произведения внутри действительной части — кватернионные, поэтому ассоциативны. Из \(\operatorname{Re}(uv)=\operatorname{Re}(vu)\), применённого к \(u=ac\overline b\), \(v=d\), следует сокращение смешанных слагаемых. Оставшаяся сумма равна \((N(a)+N(b))(N(c)+N(d))\). Это и есть требуемое произведение октонионных квадратов норм. Для норм извлекаем неотрицательный квадратный корень.
+\end{proof}
+\begin{definition}
+\term{Делитель нуля} (\emph{zero divisor}) — ненулевой элемент, произведение которого с некоторым ненулевым элементом с одной из сторон равно нулю. Из мультипликативности положительной нормы следует, что в \(\mathbb O\) делителей нуля нет.
+\end{definition}
+Сумма квадратов связывает необычное умножение с привычной евклидовой длиной в \(\mathbb R^8\). Поэтому можно проверять вычислительную реализацию: квадрат нормы результата обязан совпасть с произведением квадратов норм входных данных. Это полезный тест, но один такой тест не заменяет проверку самой таблицы умножения — разные соглашения о базисе тоже могут сохранять норму.
+
+\section{Что здесь означает деление}
+\begin{theorem}[Однозначная разрешимость]\label{thm:legacy-c25-4}
+Для \(x\ne0\) и любого \(z\in\mathbb O\) каждое из уравнений \(xy=z\) и \(yx=z\) имеет ровно одно решение относительно \(y\).
+\end{theorem}
+\begin{proof}
+Умножение билинейно над \(\mathbb R\), что следует раскрытием формулы пар. Поэтому отображение \(L_x:y\mapsto xy\) задаётся действительной матрицей \(8\times8\). Если \(L_x(y)=0\), то из отсутствия делителей нуля следует \(y=0\). При приведении этой матрицы методом Гаусса свободных переменных в однородной системе нет: иначе существовало бы ненулевое решение. Следовательно, все восемь столбцов содержат ведущие элементы. Матрица квадратная, значит, они есть и во всех восьми строках. Для любой правой части система имеет единственное решение. Это доказывает утверждение для \(xy=z\). Для правого умножения \(R_x:y\mapsto yx\) рассуждение такое же.
+\end{proof}
+\begin{definition}
+\term{Алгебра с делением} (\emph{division algebra}), в используемом здесь смысле, — вещественное векторное пространство с билинейным умножением и единицей, в котором оба уравнения из теоремы однозначно разрешимы при ненулевом \(x\). Ассоциативность в этом определении не требуется. Поэтому \(\mathbb O\) — алгебра с делением, но не тело в смысле предыдущей главы.
+\end{definition}
+Мы получили цепочку \(\mathbb R\subset\mathbb C\subset\mathbb H\subset\mathbb O\) при выбранных вложениях. Размерности над \(\mathbb R\) равны \(1,2,4,8\). В \(\mathbb R\) и \(\mathbb C\) умножение коммутативно и ассоциативно; в \(\mathbb H\) остаётся ассоциативность, а в \(\mathbb O\) исчезает и она. У всех четырёх примеров сохраняются единица и мультипликативная евклидова норма. Здесь исследованы конкретные конструкции; утверждения о классификации всех подобных алгебр требуют более глубокой теории.
+
+\Needspace{7\baselineskip}\section*{Задачи}
+\begingroup\setlength{\parskip}{2pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{41.1.} Запиши \(x=(1+2i,3j-k)\) в базисе \(e_0,\ldots,e_7\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{41.2.} Вычисли по определению \(e_1e_4\) и \(e_4e_1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{41.3.} Вычисли \(e_4^2\), \(e_5^2\), \(e_6^2\), \(e_7^2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{41.4.} Найди сумму и разность пар \(x=(1+i,j)\), \(y=(2-k,1+j)\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{41.5.} Для \(x=(1+i,j)\) найди \(\overline x\), \(N_{\mathbb O}(x)\), \(|x|\) и двусторонний обратный.\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[10]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-91.png}
+\end{wrapfigure}
+\textbf{41.6.} Найди \(e_2e_4\), затем оба произведения \((e_1e_2)e_4\) и \(e_1(e_2e_4)\).\par
+
+\textbf{41.7.} Вычисли ассоциаторы \([e_1,e_2,e_4]\) и \([e_1,e_2,e_3]\).\par
+
+\textbf{41.8.} Докажи \(\overline{\overline x}=x\) и \(x+\overline x=2x_0\) для \(x=\sum_{r=0}^7x_re_r\).\par
+
+\textbf{41.9.} Докажи, что каждый \(e_r\), где \(1\le r\le7\), имеет обратный \(-e_r\).\par
+
+\textbf{41.10.} В программе получены квадраты норм \(N_{\mathbb O}(x)=5\), \(N_{\mathbb O}(y)=13\), \(N_{\mathbb O}(xy)=64\). Может ли это быть точным результатом правильного умножения?\par
+
+\textbf{41.11.} Для теста умножения пар выбраны \(x=(1,i)\), \(y=(j,k)\). Найди произведение и проверь норму.\par
+
+\textbf{41.12.} Реши \(e_4y=1\) и \(ye_4=1\). Почему в обоих случаях решение единственно?\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\noindent\begin{minipage}[t]{\linewidth}\textbf{41.13.}\starmark{} Докажи трёхлинейность ассоциатора над \(\mathbb R\): линейность по каждому из трёх аргументов отдельно.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{41.14.}\starmark{} Докажи \(\overline{xy}=\overline y\,\overline x\) непосредственно по формуле пар. Используй только доказанные свойства \(\mathbb H\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{41.15.}\starmark{} Пусть \(x\ne0\) и \(xy=xz\). Докажи \(y=z\), не переставляя скобки и не умножая на обратный.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{41.16.}\starmark{} Сравни \(\mathbb C,\mathbb H,\mathbb O\): у каких примеров выполняются \(xy=yx\) и \((xy)z=x(yz)\)? Для отрицательных ответов приведи конкретные элементы.\par\end{minipage}\par
+\endgroup

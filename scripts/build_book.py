@@ -29,6 +29,10 @@ if gs and not args.skip_optimize:
 else:
     shutil.copyfile(BOOK/'main.pdf',target)
 
+from restore_pdf_destinations import restore_destinations
+restored = restore_destinations(BOOK/'main.pdf', target)
+print(f'Restored {restored} named navigation targets after PDF optimization')
+
 # PDF optimization must preserve every printed character on its original page.
 # Glyph ordering in extracted text can change after font subsetting, so compare
 # inventories rather than the extractor's reading order for display formulas.

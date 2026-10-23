@@ -20,12 +20,21 @@ with pdfplumber.open(source) as pdf:
  page_count=len(pdf.pages)
  for no,page in enumerate(pdf.pages,1):
   text=page.extract_text() or ''
-  for label in re.findall(r'(?m)^(\d+\.\d+)\.',text):labels[label]+=1
+  # Font-aware matching separates 12 pt exercise labels from numbered
+  # section headings, and tolerates a following digit joined by extraction.
+  words=page.extract_words(extra_attrs=['fontname','size'])
+  for wi,word in enumerate(words):
+   if abs(word['size']-12)>.1 or 'Bold' not in word['fontname']:continue
+   match=re.match(r'^(\d+\.\d+)\.$',word['text'])
+   if match:
+    previous=words[wi-1] if wi else {}
+    if previous.get('text','') in ('Теорема','Определение','Аксиома','Лемма') and abs(previous['top']-word['top'])<2:continue
+    labels[match[1]]+=1
   if no>6 and len(page.chars)<650 and not page.images:
    sparse.append({'page':no,'characters':len(page.chars),'tail':text[-150:]})
   for im in page.images:
    # Other illustrations have a wider box; skip decoding them.
-   if im['width']>160 or im['height']>170:continue
+   if im['width']>270 or im['height']>280:continue
    digest=hashlib.sha256(im['stream'].get_data()).hexdigest()
    if digest not in lookup:continue
    art=lookup[digest]

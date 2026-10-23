@@ -1,20 +1,20 @@
-\chapter{Уравнения, системы и неравенства}\markright{Глава 11}
+\chapter{Уравнения, системы и неравенства}\label{chap:c11}\markright{Глава 11}
 \begin{definition}\term{Корень уравнения} (\emph{root; solution of an equation}) — допустимое значение неизвестного, при котором равенство верно.\end{definition}
 \begin{definition}\term{Решение неравенства} (\emph{solution of an inequality}) — значение неизвестного, при котором указанное сравнение верно.\end{definition}
 \begin{definition}\term{Решение системы} (\emph{solution of a system}) — значения неизвестных, которые удовлетворяют всем её условиям одновременно.\end{definition}
-\section*{Линейные и квадратные уравнения}
+\section{Линейные и квадратные уравнения}
 \(ax + b = 0\) при \(a \ne  0\) имеет корень \(x = - \frac{b}{a}\). При \(a = 0,\allowbreak b = 0\) подходят все \(x\); при \(a = 0,\allowbreak b \ne  0\) решений нет.\par
 \begin{definition}\term{Дискриминант} (\emph{discriminant}) квадратного уравнения \(ax^{2}+bx+c=0\) при \(a\ne0\) — число \(D=b^{2}-4ac\).\end{definition}
 При \(D > 0\) два корня: \(x = \frac{- b \pm  \sqrt{D}}{2 a}\). При \(D = 0\) один корень: \(- \frac{b}{2 a}\). При \(D < 0\) действительных корней нет.\par
-\section*{Правила и проверка}
+\section{Правила и проверка}
 К обеим частям равенства или неравенства можно прибавить одно и то же выражение при сохранении ОДЗ.\par
 При умножении или делении неравенства на отрицательное число знак меняется; на положительное — сохраняется.\par
 Метод интервалов: отметь нули и запрещённые точки, определи знак на каждом участке и отдельно проверь включение границ.\par
 При возведении уравнения в квадрат могут появиться посторонние корни: проверь найденные значения в исходном условии.\par
 {\small\textit{Пример: \(- 2 x > 6\) даёт \(x < - 3\). Уравнение \(\sqrt{x + 2} = x\) требует \(x \ge  0\) ещё до возведения в квадрат.}}\par
 
-% Дополнение к главе 11. Только действительные решения; формулы Кардано и Феррари не используются.
-\subsection*{Многочлены и уравнения третьей степени}
+% Дополнение к главе \ref{chap:c11}. Только действительные решения; формулы Кардано и Феррари не используются.
+\subsection{Многочлены и уравнения третьей степени}
 \begin{definition}
 \term{Многочлен} (polynomial) от \(x\) — выражение
 \[
@@ -27,21 +27,28 @@ P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0.
 Корень \(r\) имеет \term{кратность} (multiplicity) \(k\), если \(P(x)=(x-r)^kQ(x)\), где \(Q(r)\neq0\). При \(k=1\) корень называют простым, при \(k>1\) — кратным.
 \end{definition}
 
-\begin{theorem}[Сумма и разность кубов]
+\begin{theorem}[Сумма и разность кубов]\label{thm:legacy-c11-1}
 Для любых действительных \(a,b\)
 \[
 a^3-b^3=(a-b)(a^2+ab+b^2),\qquad
 a^3+b^3=(a+b)(a^2-ab+b^2).
 \]
 \end{theorem}
-\begin{proof}
-При раскрытии скобок в первом произведении получаем
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-192.png}
+\end{wrapfigure}
+\textit{Доказательство.} При раскрытии скобок в первом произведении получаем
 \(a^3+a^2b+ab^2-a^2b-ab^2-b^3=a^3-b^3\).
 Во втором произведении средние слагаемые также сокращаются:
-\(a^3-a^2b+ab^2+a^2b-ab^2+b^3=a^3+b^3\).
-\end{proof}
+\(a^3-a^2b+ab^2+a^2b-ab^2+b^3=a^3+b^3\).\hfill\(\blacksquare\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
-\begin{theorem}[Теорема Безу]
+
+\begin{theorem}[Теорема Безу]\label{thm:legacy-c11-2}
 \term{Теорема Безу} (factor theorem): для любого действительного \(r\) существует многочлен \(Q(x)\), для которого
 \[
 P(x)=(x-r)Q(x)+P(r).
@@ -56,7 +63,7 @@ x^k-r^k=(x-r)(x^{k-1}+x^{k-2}r+\cdots+r^{k-1}).
 Равенство проверяется умножением: все промежуточные слагаемые сокращаются. Поэтому каждое слагаемое суммы \(P(x)-P(r)=\sum_{k=1}^n a_k(x^k-r^k)\) делится на \(x-r\). Это даёт нужный \(Q\). Если \(P(r)=0\), остаток равен нулю. Обратно, подставив \(x=r\) в \(P(x)=(x-r)Q(x)\), получаем \(P(r)=0\).
 \end{proof}
 
-\begin{theorem}[Рациональный корень]
+\begin{theorem}[Рациональный корень]\label{thm:legacy-c11-3}
 Пусть коэффициенты \(P(x)=a_nx^n+\cdots+a_0\) целые, \(a_n\neq0\), \(a_0\neq0\). Если \(\frac pq\) — \term{рациональный корень} (rational root), причём \(p,q\) взаимно просты и \(q>0\), то \(p\) делит \(a_0\), а \(q\) делит \(a_n\).
 \end{theorem}
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
@@ -84,7 +91,7 @@ P(x)=(x-2)(x^2-2x-3)=(x-2)(x-3)(x+1).
 Уравнение \(P(x)=0\) имеет корни \(-1,2,3\).
 \end{example}
 
-\begin{theorem}[Устранение квадратного слагаемого]
+\begin{theorem}[Устранение квадратного слагаемого]\label{thm:legacy-c11-4}
 В \term{кубическом уравнении} (cubic equation)
 \(ax^3+bx^2+cx+d=0\), где \(a\neq0\), замена \(x=t-\frac{b}{3a}\) даёт \term{неполное кубическое уравнение} (depressed cubic)
 \[
@@ -106,7 +113,7 @@ q=\frac{2b^3-9abc+27a^2d}{27a^3}.
 
 Такая замена упрощает форму уравнения; сама по себе она не даёт готовой формулы корней. В задачах этого раздела после замены достаточно разложения на множители или выделения куба.
 
-\subsection*{Два вида уравнений четвёртой степени}
+\subsection{Два вида уравнений четвёртой степени}
 \begin{definition}
 \term{Биквадратное уравнение} (biquadratic equation) имеет вид \(ax^4+bx^2+c=0\), где \(a\neq0\). Замена \(u=x^2\) приводит к квадратному уравнению \(au^2+bu+c=0\) с обязательным условием \(u\geq0\).
 \end{definition}
@@ -124,7 +131,7 @@ ax^4+bx^3+cx^2+bx+a=0,\qquad a\neq0,
 у которого коэффициенты симметричны относительно середины.
 \end{definition}
 
-\begin{theorem}[Замена для возвратного уравнения]
+\begin{theorem}[Замена для возвратного уравнения]\label{thm:legacy-c11-5}
 Корни указанного возвратного уравнения ненулевые. Замена \(t=x+\frac1x\) сводит поиск действительных корней к
 \[
 at^2+bt+c-2a=0,\qquad |t|\geq2.
@@ -154,7 +161,7 @@ x=\frac{3-\sqrt5}{2}\quad\text{или}\quad x=\frac{3+\sqrt5}{2}.
 \end{example}
 
 \Needspace{7\baselineskip}\section*{Задачи}
-\begingroup\setlength{\parskip}{3pt}
+\begingroup\setlength{\parskip}{2pt}
 \noindent\begin{minipage}[t]{\linewidth}\textbf{11.1.} Реши \(3 x - 7 = 11\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{11.2.} Реши \(2 (x - 3) = 5 x + 9\).\par\end{minipage}\par
 \noindent\begin{minipage}[t]{\linewidth}\textbf{11.3.} Реши \(x^{2} - 5 x + 6 = 0\).\par\end{minipage}\par
