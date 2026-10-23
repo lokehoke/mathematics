@@ -126,6 +126,20 @@
           },
           "solution_evidence": "0 explicit answer/solution headings",
           "year_evidence": null
+        },
+        {
+          "date": "2026-10-23T10:34:27.495175+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "updated": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null
         }
       ],
       "document_role": "administrative"
@@ -8355,6 +8369,245 @@
       "bytes": 197550,
       "final_url": "https://rsr-olymp.ru/upload/files/tasks/411/2012/5_28124-ans-phys_math-10-final-12-13.pdf",
       "content_type": "application/pdf"
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2026Math7.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "7",
+      "document_type": "tasks",
+      "label": "26",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/4fee02a41d4c-Rosatom2026Math7.pdf",
+      "sha256": "0a5fd35d593c01e18d0d73c8503cc0f0226761cf868cc39e87e9f3b8c5a332b2",
+      "bytes": 139492,
+      "final_url": "https://mathus.ru/olymp/Rosatom2026Math7.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2015Math7.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "7",
+      "document_type": "tasks",
+      "label": "15",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/3a9df12a2973-Rosatom2015Math7.pdf",
+      "sha256": "e2d0a42a8a4ea4bf7cd1e83b61fb97255aac12b066d9651891f907c53531e499",
+      "bytes": 83744,
+      "final_url": "https://mathus.ru/olymp/Rosatom2015Math7.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2026Math8.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "8",
+      "document_type": "tasks",
+      "label": "26",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/705a56f23ca4-Rosatom2026Math8.pdf",
+      "sha256": "0a362efeac4aa6515d14d687c2010fa22d7cc06415991f2d8f8048904617ad46",
+      "bytes": 144099,
+      "final_url": "https://mathus.ru/olymp/Rosatom2026Math8.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2015Math8.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "8",
+      "document_type": "tasks",
+      "label": "15",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/ea74bff81a2d-Rosatom2015Math8.pdf",
+      "sha256": "212c9a9e141032825c6864bab30175afdf4b26a867f037fe63cf531e9003ca8e",
+      "bytes": 364293,
+      "final_url": "https://mathus.ru/olymp/Rosatom2015Math8.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2026Math9.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "9",
+      "document_type": "tasks",
+      "label": "26",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/61bab81cbb99-Rosatom2026Math9.pdf",
+      "sha256": "1f29d3317025ebb73d1da14ea4f3807d79fa2ee78e1d96296f5ddf52d22bd5ed",
+      "bytes": 145062,
+      "final_url": "https://mathus.ru/olymp/Rosatom2026Math9.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2015Math9.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "9",
+      "document_type": "tasks",
+      "label": "15",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/470236b1d3e3-Rosatom2015Math9.pdf",
+      "sha256": "0d5bb70a10356d1261a9f06f4eb37bdd1cfc076989c20603ff200880d0ae83c3",
+      "bytes": 123848,
+      "final_url": "https://mathus.ru/olymp/Rosatom2015Math9.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2026Math10.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "10",
+      "document_type": "tasks",
+      "label": "26",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/61fd02a896ff-Rosatom2026Math10.pdf",
+      "sha256": "6ac3d07a4bb4f7aa526feb2cebf7712711b8ffcfd914c11c0a095a054a24e742",
+      "bytes": 161534,
+      "final_url": "https://mathus.ru/olymp/Rosatom2026Math10.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2015Math10.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "10",
+      "document_type": "tasks",
+      "label": "15",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/3362158257e3-Rosatom2015Math10.pdf",
+      "sha256": "73b65121db2f2958d126ffd43739ed86f679d07e98f70d6bfdac145f938ca147",
+      "bytes": 106394,
+      "final_url": "https://mathus.ru/olymp/Rosatom2015Math10.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2026Math11v1.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "11",
+      "document_type": "tasks",
+      "label": "26.1",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/6bda18209018-Rosatom2026Math11v1.pdf",
+      "sha256": "17f8c55b9dfafbdeebaa7296f697581b4ca11e529d96545bb51428b64d700d42",
+      "bytes": 154337,
+      "final_url": "https://mathus.ru/olymp/Rosatom2026Math11v1.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:31.104633+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2026Math11v2.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "11",
+      "document_type": "tasks",
+      "label": "26.2",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/7183ad09b82e-Rosatom2026Math11v2.pdf",
+      "sha256": "3d9e9ea23083382a7103fbe45b771077262efd98cf7c8ecf78631da3f05c819a",
+      "bytes": 170073,
+      "final_url": "https://mathus.ru/olymp/Rosatom2026Math11v2.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:31.122200+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/Rosatom2015Math11.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "11",
+      "document_type": "tasks",
+      "label": "15",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/45e280129085-Rosatom2015Math11.pdf",
+      "sha256": "5cf029d8fbb6da1f9d56bacdc68037662764b544d5b3611371bee9744e68c0ca",
+      "bytes": 117241,
+      "final_url": "https://mathus.ru/olymp/Rosatom2015Math11.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
     }
   ],
   "indexes": [
@@ -9425,5 +9678,15 @@
     "discovered_documents": 256,
     "failures": [],
     "updated_at": "2026-10-23T10:07:45.626447+00:00"
+  },
+  "mathus_gap_pass": {
+    "source": "https://mathus.ru/math/",
+    "target_years": [
+      2011,
+      2012,
+      2015,
+      2026
+    ],
+    "downloaded": 11
   }
 }

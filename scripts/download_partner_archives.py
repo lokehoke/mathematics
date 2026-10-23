@@ -4,13 +4,13 @@ import argparse, concurrent.futures, hashlib, json, re
 from collections import deque
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit, parse_qs
+from urllib.parse import urljoin, urlsplit, parse_qs, unquote
 from bs4 import BeautifulSoup
 from download_russia import ROOT, BASE, CONTESTS, fetch, metadata, output_path, save_json, decode, EXT
 
-ACTIVITIES={'rosatom':411,'lomonosov':348,'pvg':115,'spbu':443,'belchonok':397,'bibn':360,'verchenko':24}
+ACTIVITIES={'rosatom':411,'lomonosov':348,'pvg':115,'spbu':443,'belchonok':397,'bibn':360,'verchenko':24,'phystech':395,'innopolis':5367,'izumrud':5393,'vsosh':72,'turlom':4}
 
-def collect(cid, activity, limit=600):
+def collect(cid, activity, limit=600, index_only=False):
     folder=BASE/cid; mf=folder/'manifest.json'; m=json.loads(mf.read_text())
     records={r['url']:r for r in m['documents']}
     indexes={r['url']:r for r in m.get('indexes',[])}
@@ -35,6 +35,7 @@ def collect(cid, activity, limit=600):
                 v=urljoin(res['final_url'],a['href']).split('#')[0]
                 if EXT.search(v):
                     # Only this contest's curated mathematics archive copies.
+                    if cid=='turlom' and not re.search(r'math|matemat|математ',unquote(v),re.I):continue
                     if urlsplit(v).netloc not in ['tasks.olimpiada.ru','rsr-olymp.ru','olimpiada.ru'] or f'/tasks/{activity}/' not in v:continue
                     h=a.find_previous(['h2','h3','h4']); label=a.get_text(' ',strip=True)
                     md=metadata(v,label,h.get_text(' ',strip=True) if h else '','')
@@ -42,9 +43,10 @@ def collect(cid, activity, limit=600):
                     if query.get('class') and not md['classes']:md['classes']=query['class'][0]
                     # The site's year directory can name the START of a school
                     # year; prefer an explicit two-digit pair in the filename.
-                    pairs=re.findall(r'(?<!\d)(\d{2})[-_](\d{2})(?!\d)',urlsplit(v).path.rsplit('/',1)[-1])
+                    pairs=re.findall(r'(?<!\d)(\d{2})[-_](\d{2})(?=\.[A-Za-z0-9]+$)',urlsplit(v).path.rsplit('/',1)[-1])
                     pair=pairs[-1] if pairs else None
-                    if pair and (int(pair[1])-int(pair[0]))%100==1:
+                    grade_pair=pair==('10','11') and re.search(r'(?:math|mat)[-_]?10[-_]11',urlsplit(v).path,re.I)
+                    if pair and not grade_pair and (int(pair[1])-int(pair[0]))%100==1:
                         first=2000+int(pair[0]); md['year']=f'{first}/{first+1}'
                     if re.search(r'taskssol|tasksans',v,re.I):md['document_type']='tasks_and_solutions'
                     if re.search(r'[-_]otbor[-_]',v,re.I):md['stage']='qualifying'
@@ -70,14 +72,19 @@ def collect(cid, activity, limit=600):
             return dict(row,status='failed',error='Advertised file signature mismatch')
         p=output_path(folder/'documents',u);p.write_bytes(data)
         return dict(row,derived_retrieval_url=derived,status='downloaded',local_path=str(p.relative_to(ROOT)),sha256=hashlib.sha256(data).hexdigest(),bytes=len(data),final_url=res['final_url'],content_type=res['content_type'])
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
-        for row in ex.map(download,assets.items()):records[row['url']]=row
+    if not index_only:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
+            for n,row in enumerate(ex.map(download,assets.items()),1):
+                records[row['url']]=row
+                if n%50==0:
+                    m['documents']=list(records.values());save_json(mf,m)
+                    print(cid,'processed documents',n,'/',len(assets),flush=True)
     m['documents']=list(records.values());m['indexes']=list(indexes.values())
-    m['secondary_archive_pass']=dict(source=root,pages=len(seen),remaining_pages=len(queue),discovered_documents=len(assets),failures=failures,updated_at=datetime.now(timezone.utc).isoformat())
+    m['secondary_archive_pass']=dict(source=root,pages=len(seen),remaining_pages=len(queue),pending_index_urls=list(queue),index_only=index_only,discovered_documents=len(assets),failures=failures,updated_at=datetime.now(timezone.utc).isoformat())
     m['pending_documents']=[r for r in m.get('pending_documents',[]) if records.get(r['url'],{}).get('status')!='downloaded']
     save_json(mf,m)
-    print(cid,'DONE',len(assets),'links',sum(records[u]['status']=='downloaded' for u in assets),'saved',flush=True)
+    print(cid,'DONE',len(assets),'links',sum(records.get(u,{}).get('status')=='downloaded' for u in assets),'saved',flush=True)
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--contest',action='append',choices=sorted(ACTIVITIES));p.add_argument('--max-pages',type=int,default=600);args=p.parse_args()
-    for cid in args.contest or ACTIVITIES:collect(cid,ACTIVITIES[cid],args.max_pages)
+    p=argparse.ArgumentParser();p.add_argument('--contest',action='append',choices=sorted(ACTIVITIES));p.add_argument('--max-pages',type=int,default=600);p.add_argument('--index-only',action='store_true');args=p.parse_args()
+    for cid in args.contest or ACTIVITIES:collect(cid,ACTIVITIES[cid],args.max_pages,args.index_only)

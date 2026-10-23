@@ -33,3 +33,6 @@ sources/book/main.pdf
 /research/itmo-public-projects.json
 /research/itmo-project-*.json
 /research/verchenko-*.html
+
+# Temporary discovery responses and OCR from archive recovery.
+/research/gaps-round3-*

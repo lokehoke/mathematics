@@ -3752,6 +3752,849 @@
       "heading": "",
       "status": "failed",
       "error": "HTTP 500; curl 0: "
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2026Math56.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "5, 6",
+      "document_type": "tasks",
+      "label": "26",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/90fc089bc544-PVG2026Math56.pdf",
+      "sha256": "4eff4250e07998e553d8ce8b4a04cbc0e44111df6a9965b51681dc58b768da81",
+      "bytes": 203679,
+      "final_url": "https://mathus.ru/olymp/PVG2026Math56.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.099297+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "5, 6"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2020Math56a.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2020,
+      "stage": null,
+      "classes": "5, 6",
+      "document_type": "tasks",
+      "label": "20a",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/ca21af18bb2f-PVG2020Math56a.pdf",
+      "sha256": "5a55c4541e526ef9da93fedea800b8e5086e9ea03aef7cce3b6dd5390b5ad4d6",
+      "bytes": 269575,
+      "final_url": "https://mathus.ru/olymp/PVG2020Math56a.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.111998+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "5, 6"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2020Math56b.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2020,
+      "stage": null,
+      "classes": "5, 6",
+      "document_type": "tasks",
+      "label": "20b",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/bebf9c16742d-PVG2020Math56b.pdf",
+      "sha256": "dfcb591e190fe8f881545bbcd630618156b323a5978ff9d1f95cc43454598555",
+      "bytes": 125557,
+      "final_url": "https://mathus.ru/olymp/PVG2020Math56b.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.126841+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "5, 6"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2026Math78.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "7, 8",
+      "document_type": "tasks",
+      "label": "26",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/3b5fd352df6f-PVG2026Math78.pdf",
+      "sha256": "a7a3aac99826e2bda65afcd7a25cf2dd6c80bcc12878815ed51d360cbadb1b36",
+      "bytes": 132541,
+      "final_url": "https://mathus.ru/olymp/PVG2026Math78.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.143002+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7, 8"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2020Math78a.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2020,
+      "stage": null,
+      "classes": "7, 8",
+      "document_type": "tasks",
+      "label": "20a",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/6c026788fd85-PVG2020Math78a.pdf",
+      "sha256": "01d475994ac9503b12106728f2078cc9d794aba66d4fa5ba075ec8ff3b9ea95e",
+      "bytes": 277099,
+      "final_url": "https://mathus.ru/olymp/PVG2020Math78a.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.160058+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7, 8"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2020Math78b.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2020,
+      "stage": null,
+      "classes": "7, 8",
+      "document_type": "tasks",
+      "label": "20b",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/fe9bfe9904b1-PVG2020Math78b.pdf",
+      "sha256": "768ecd0906ae5fbd4cd3c6152542466a50ea7ff56f03aa2c6fa3f2f44d3c294b",
+      "bytes": 151769,
+      "final_url": "https://mathus.ru/olymp/PVG2020Math78b.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.177160+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7, 8"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2015m7.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "7",
+      "document_type": "tasks",
+      "label": "15-7",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/bdf843f0f567-pvg2015m7.pdf",
+      "sha256": "5c44e4245649bd10ef5fa98abeefdc6e0f38532c1b8afb675d3acacd34666e23",
+      "bytes": 135646,
+      "final_url": "https://mathus.ru/olymp/pvg2015m7.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.192817+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2015m8.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "8",
+      "document_type": "tasks",
+      "label": "15-8",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/5b86ef389ce1-pvg2015m8.pdf",
+      "sha256": "23b37a7478c56b4877c4eff7a728b08945364e9ed9413bc7095a37d16ebdf0a9",
+      "bytes": 177256,
+      "final_url": "https://mathus.ru/olymp/pvg2015m8.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.210934+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "8"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2026Math9.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "9",
+      "document_type": "tasks",
+      "label": "26",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/41693336d28e-PVG2026Math9.pdf",
+      "sha256": "c4c08cc416b41853760791d7c05554e26c584a368da82562a544a9ffe5b09eaa",
+      "bytes": 474147,
+      "final_url": "https://mathus.ru/olymp/PVG2026Math9.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2020Math9a.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2020,
+      "stage": null,
+      "classes": "9",
+      "document_type": "tasks",
+      "label": "20a",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/662d60bbf537-PVG2020Math9a.pdf",
+      "sha256": "4f54da44d628962067d2d94717b9ac5335b433604e7ffb56e64473d3f9517786",
+      "bytes": 144272,
+      "final_url": "https://mathus.ru/olymp/PVG2020Math9a.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.232027+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2020Math9b.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2020,
+      "stage": null,
+      "classes": "9",
+      "document_type": "tasks",
+      "label": "20b",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/cb686e8a1b9f-PVG2020Math9b.pdf",
+      "sha256": "df389595b6c5cef4982bc34271abe74c31af1c6fa1b7d5b3c311aee6b4c801ef",
+      "bytes": 136264,
+      "final_url": "https://mathus.ru/olymp/PVG2020Math9b.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.244594+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2015m9.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "9",
+      "document_type": "tasks",
+      "label": "15",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/e9a00188910a-pvg2015m9.pdf",
+      "sha256": "12d99f236a6f2b65b3e6b27abb6fa99f1d3d2c5924d6e5567470f1f22be94dc8",
+      "bytes": 204743,
+      "final_url": "https://mathus.ru/olymp/pvg2015m9.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.265518+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "9"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2026Math10.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "10",
+      "document_type": "tasks",
+      "label": "26",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/5eb127aa8435-PVG2026Math10.pdf",
+      "sha256": "66fc4a2d76ca4ae3942f76b2f6ffc2bb421e85281f582528442a5a0cf9dcfead",
+      "bytes": 153110,
+      "final_url": "https://mathus.ru/olymp/PVG2026Math10.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2020Math10.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2020,
+      "stage": null,
+      "classes": "10",
+      "document_type": "tasks",
+      "label": "20",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/cffb5675e8f7-PVG2020Math10.pdf",
+      "sha256": "0d3028057e3150b579041dc2eae8f325c86e1480370bb33c539b612ae7d2d462",
+      "bytes": 178103,
+      "final_url": "https://mathus.ru/olymp/PVG2020Math10.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2026Math11.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2026,
+      "stage": null,
+      "classes": "11",
+      "document_type": "tasks",
+      "label": "26",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/c758764f08e0-PVG2026Math11.pdf",
+      "sha256": "c8c8217590c8e7b617ccd9c367491f1fb1ccf4aaa35da15baf8face68caae09c",
+      "bytes": 154607,
+      "final_url": "https://mathus.ru/olymp/PVG2026Math11.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/PVG2020Math11.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2020,
+      "stage": null,
+      "classes": "11",
+      "document_type": "tasks",
+      "label": "20",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/910535d8bf34-PVG2020Math11.pdf",
+      "sha256": "543503fdfbdce26b8de2a14efeeb26fc147d18aa2ee1fd4e89b81432921b0704",
+      "bytes": 136158,
+      "final_url": "https://mathus.ru/olymp/PVG2020Math11.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2015m10-11cheb.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "15.1",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/103208568538-pvg2015m10-11cheb.pdf",
+      "sha256": "23ec4397f67c9f66fa31170c34c03426171436146d20e26d943507ac661faf33",
+      "bytes": 191362,
+      "final_url": "https://mathus.ru/olymp/pvg2015m10-11cheb.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.313067+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2015m10-11chel.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "15.2",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/2c67b5f80c6d-pvg2015m10-11chel.pdf",
+      "sha256": "38f2b36aec9ee892b9e88bc9b2468dee57198110b9697bfdb78438ba3cb6c15c",
+      "bytes": 167117,
+      "final_url": "https://mathus.ru/olymp/pvg2015m10-11chel.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.327104+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2015m10-11brn.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "15.3",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/6335dc95edec-pvg2015m10-11brn.pdf",
+      "sha256": "0bea15f8e66ca26846937a484d6386cbec59ad061d950345490e9659550c0d8d",
+      "bytes": 170008,
+      "final_url": "https://mathus.ru/olymp/pvg2015m10-11brn.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.340450+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2015m10-11stv.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "15.4",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/f6f4aa9c7ac7-pvg2015m10-11stv.pdf",
+      "sha256": "0c0d8dc5e5693b6e5d735412d99678b3dd096d308a8c77568a21304f595baf35",
+      "bytes": 152798,
+      "final_url": "https://mathus.ru/olymp/pvg2015m10-11stv.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.358608+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2015m10-11ufa.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "15.5",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/44e62d7dde78-pvg2015m10-11ufa.pdf",
+      "sha256": "bb1c88f8a805bf125ed3412d28766282afb51e5fd1485a78da0f53057ab29dda",
+      "bytes": 165297,
+      "final_url": "https://mathus.ru/olymp/pvg2015m10-11ufa.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.373871+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2015m10-11mos.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2015,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "15.6",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/883285d5fd36-pvg2015m10-11mos.pdf",
+      "sha256": "af37a6340de983af5f10d35437b24f1ed003c4882bc7e1627cb84762e9786799",
+      "bytes": 158030,
+      "final_url": "https://mathus.ru/olymp/pvg2015m10-11mos.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.389795+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2010m10-11omsk.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2010,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "10.1",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/c27c26ae59c4-pvg2010m10-11omsk.pdf",
+      "sha256": "27049bdfcc178eb671035994c4d0e9b8fcbee4cb47e9820847c62c9c56013310",
+      "bytes": 192719,
+      "final_url": "https://mathus.ru/olymp/pvg2010m10-11omsk.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.408886+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2010m10-11brn.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2010,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "10.2",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/b84343433827-pvg2010m10-11brn.pdf",
+      "sha256": "80248052bc8759c01d242bf0a8136871bba9fdb1eca8b0fe8e6fda82a7f55250",
+      "bytes": 169898,
+      "final_url": "https://mathus.ru/olymp/pvg2010m10-11brn.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.426956+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2010m10-11nnov.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2010,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "10.3",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/2a75c665588f-pvg2010m10-11nnov.pdf",
+      "sha256": "530ce2456b7edbf56c2819d1c65b5c447428b636fda7216ef705136a635734ae",
+      "bytes": 155886,
+      "final_url": "https://mathus.ru/olymp/pvg2010m10-11nnov.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.440283+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2010m10-11ufa.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2010,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "10.4",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/e6f939a2223f-pvg2010m10-11ufa.pdf",
+      "sha256": "e907140553d4b62a4da93bf245ab88979084323837bf828d33031e10c124edcc",
+      "bytes": 175232,
+      "final_url": "https://mathus.ru/olymp/pvg2010m10-11ufa.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.458036+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://mathus.ru/olymp/pvg2010m10-11mos.pdf",
+      "contest": "Покори Воробьёвы горы — математика",
+      "subject": "mathematics",
+      "source_page": "https://mathus.ru/math/",
+      "source_status": "public author-maintained educational archive",
+      "year": 2010,
+      "stage": null,
+      "classes": "10, 11",
+      "document_type": "tasks",
+      "label": "10.5",
+      "heading": "",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/pvg/documents/e3f2ee591e36-pvg2010m10-11mos.pdf",
+      "sha256": "e9fae8cd60713c943339b12d825c5b6e74e60bafd68568d5eae9164825ba8aeb",
+      "bytes": 161758,
+      "final_url": "https://mathus.ru/olymp/pvg2010m10-11mos.pdf",
+      "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted",
+      "metadata_audit": [
+        {
+          "date": "2026-10-23T10:34:27.472514+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
     }
   ],
   "indexes": [
@@ -6134,5 +6977,16 @@
     "discovered_documents": 143,
     "failures": [],
     "updated_at": "2026-10-23T10:08:42.132688+00:00"
+  },
+  "mathus_gap_pass": {
+    "source": "https://mathus.ru/math/",
+    "target_years": [
+      2010,
+      2012,
+      2015,
+      2020,
+      2026
+    ],
+    "downloaded": 27
   }
 }

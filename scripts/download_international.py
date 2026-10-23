@@ -250,6 +250,33 @@ def discover_verified_fallbacks():
                  note='Published PDF identified directly; secondary copies are explicitly labelled.')
 
 
+def discover_round3_exact():
+    entries=[
+        ('RMM',2008,'problems_and_solutions','https://imomath.com/srb/zadaci/2008_rmm_resenja_e.pdf','Public Serbian mathematics education archive; indexed named solution PDF'),
+        ('RMM',2010,'problems_and_solutions','https://imomath.com/srb/zadaci/2010_rmm_resenja_e.pdf','Public Serbian mathematics education archive; indexed named solution PDF'),
+        ('BMO',2010,'problems_and_solutions','https://imomath.com/srb/zadaci/2010_smo_booklet.pdf','Serbian team booklet; introduction explicitly includes BMO problems and full solutions'),
+        ('BMO',None,'unclassified_mathematics_material','https://www.toomates.net/biblioteca/CompendiumBalkanMO.pdf','Secondary public compendium; year-by-year solution coverage requires text verification'),
+    ]
+    for contest,year,kind,url,evidence in entries:
+        register(contest,year,kind,url,url,'en',source_status='public_secondary_archive',metadata_evidence=evidence)
+
+
+def discover_rmm_solution_pages():
+    # Public solution view used by the organizer; some years omit its menu link.
+    def one(y):
+        folder={2008:'rmm',2009:'rmm2',2010:'rms'}.get(y,'rmm'+str(y))
+        src='https://rmms.lbi.ro/'+folder+'/index.php?id=solutions_math'
+        try:
+            soup,base=page(src)
+            content=soup.select_one('#inside_content')
+            if content is None:return
+            for u,t,a in pdf_links(content,base):
+                if any(x in u.lower() for x in ['grading','marking','romanian','romana']):continue
+                register('RMM',y,'solution_page_candidate',u,src,'en',source_status='official organizer',metadata_evidence='Linked in public solutions_math content; PDF solution headings must be checked')
+        except Exception as e:gap('RMM',y,'index',src,str(e))
+    with ThreadPoolExecutor(max_workers=5) as pool:list(pool.map(one,[2008,2010,2018,2019,2020,2024,2025,2026]))
+
+
 def discover_supplements():
     # Host archives fill the two omissions in the central EGMO solutions index.
     crawl_materials('EGMO',2012,'https://www.egmo2012.org.uk/competition/')
@@ -354,24 +381,18 @@ def run_downloads():
 
 
 def fetch(url, retries=2, timeout=(12,35)):
-    error = None
-    for attempt in range(retries + 1):
-        try:
-            r = requests.get(url, headers={'User-Agent': UA}, timeout=timeout)
-            if r.status_code == 403 and url.startswith('http://') and ('HTTPS' in r.text[:300] or 'https' in r.text[:300]):
-                r = requests.get('https://'+url[7:], headers={'User-Agent': UA}, timeout=timeout)
-            r.raise_for_status()
-            if len(r.content) > 75_000_000:
-                raise ValueError('Document exceeds 75 MB safety limit')
-            return r
-        except Exception as e:
-            error = e
-            # Permanent HTTP errors cannot be repaired by immediate retries.
-            if isinstance(e, requests.HTTPError) and e.response is not None and e.response.status_code in (400,401,403,404,410):
-                break
-            if attempt < retries:
-                time.sleep(attempt + 1)
-    raise RuntimeError(f'{type(error).__name__}: {error}')
+    # Bound the whole transfer (including DNS), not just idle socket time.
+    from download_russia import fetch as bounded_fetch
+    from types import SimpleNamespace
+    seconds=timeout[1] if isinstance(timeout,tuple) else timeout
+    last=None
+    for attempt in range(retries+1):
+        r=bounded_fetch(url,seconds)
+        if r['ok']:
+            return SimpleNamespace(content=r['data'],headers={'Content-Type':r['content_type']},url=r['final_url'])
+        last=r.get('error','Transfer failed')
+        if r.get('status') in (400,401,403,404,410) or 'curl 60' in last:break
+    raise RuntimeError(last)
 
 
 def parse_archive_html(data, url):
@@ -451,7 +472,7 @@ def main():
         for line in MANIFEST.read_text().splitlines():
             r=json.loads(line);RECORDS[(r['contest'],str(r['year']),r['type'],r['source'])]=r
     modules={'APMO':discover_apmo,'IMO':discover_imo,'EGMO':discover_egmo,'BalticWay':discover_baltic,
-             'RMM':discover_rmm,'MEMO':discover_memo,'BMO':discover_bmo,'supplements':discover_supplements,'SKMO':discover_skmo,'society':discover_society,'leader_reports':discover_leader_reports,'verified_fallbacks':discover_verified_fallbacks}
+             'RMM':discover_rmm,'MEMO':discover_memo,'BMO':discover_bmo,'supplements':discover_supplements,'SKMO':discover_skmo,'society':discover_society,'leader_reports':discover_leader_reports,'verified_fallbacks':discover_verified_fallbacks,'round3_exact':discover_round3_exact,'rmm_solution_pages':discover_rmm_solution_pages}
     for contest in args.contests:
         print('DISCOVER',contest,flush=True)
         try: modules[contest]()

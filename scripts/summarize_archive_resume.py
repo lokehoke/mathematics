@@ -46,6 +46,8 @@ def normalized(x):
     category='material';reason=None
     if typ=='administrative' or r.get('document_role')=='administrative':category='administrative'
     elif typ=='index' or r.get('document_role')=='archive_index': category='index'
+    elif typ=='solution_page_candidate':
+        category='needs_subject_review';reason='Public solution-page link; actual solution content not yet verified.'
     elif typ in ('leader_report_candidate','leader_report_without_verified_papers'):
         category='supplementary_reading';reason='Delegation report not verified to reproduce contest statements.'
     elif re.search(r'\.xlsx?(?:\.zip)?$',urlsplit(url).path,re.I):
@@ -162,9 +164,10 @@ def main():
             source_hosts=sorted({urlsplit(r['source_url']).netloc for r in rows}),
             manifests=sorted({r['manifest'] for r in rows}),
             coverage_status='partial; all published years/rounds not independently reconciled'))
-    index_errors=[];pending_discovered=[]
+    index_errors=[];pending_discovered=[];pending_index_pages=[]
     for p in sorted((ROOT/'olympiads/russia').glob('*/manifest.json')):
         m=loads(p)
+        pending_index_pages.extend(dict(contest=p.parent.name,url=u) for u in m.get('secondary_archive_pass',{}).get('pending_index_urls',[]))
         index_errors.extend(dict(contest=p.parent.name,**r) for r in m.get('failures',[]))
         index_errors.extend(dict(contest=p.parent.name,**r) for r in m.get('public_api_failures',[]))
         index_errors.extend(dict(contest=p.parent.name,**r) for r in m.get('secondary_archive_pass',{}).get('failures',[]))
@@ -172,7 +175,7 @@ def main():
     queue=dict(created_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
         active_download_processes=[],failed_or_unavailable_records=[r for r in now if r['status']!='downloaded'],
         missing_local_files=[r for r in now if r['status']=='downloaded' and not r['file_exists']],
-        russian_index_errors=index_errors,russian_pending_documents=pending_discovered,
+        russian_index_errors=index_errors,russian_pending_documents=pending_discovered,russian_pending_index_pages=pending_index_pages,
         resume_commands=['python3 scripts/download_russia.py --max-pages 2400 --max-depth 6 --workers 8',
          'python3 scripts/download_international.py --contests MEMO BMO supplements SKMO society RMM APMO IMO EGMO BalticWay',
          'python3 scripts/download_university.py --resume',

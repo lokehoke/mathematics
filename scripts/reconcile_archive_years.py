@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Year/round evidence matrix; gaps are not confused with unheld editions."""
-import csv, datetime, json, re, subprocess
+import argparse, csv, datetime, json, re, subprocess
 from collections import defaultdict
 from pathlib import Path
 from summarize_archive_resume import ROOT, records_now, normalized
@@ -42,6 +42,10 @@ def compact(vals):
     return ', '.join(str(x[0]) if len(x)==1 else f'{x[0]}–{x[-1]}' for x in chunks) or '—'
 
 def main():
+    global TAG
+    parser=argparse.ArgumentParser();parser.add_argument('--suffix',default='');args=parser.parse_args()
+    if args.suffix and not re.fullmatch(r'[a-z0-9-]+',args.suffix):parser.error('Invalid suffix')
+    if args.suffix:TAG += '-'+args.suffix
     groups=defaultdict(list)
     for raw in records_now():
         r=normalized(raw);r['source_record']=raw['record']
@@ -69,7 +73,7 @@ def main():
     for line in (ROOT/'olympiads/international/manifest.jsonl').read_text().splitlines():
         r=json.loads(line)
         if r['contest']!='MEMO' or r['status']!='downloaded' or r['type']!='solutions' or 'skmo.sk/dokument.php' not in r['source']:continue
-        t=subprocess.run(['pdftotext','-layout',str(ROOT/r['path']),'-'],capture_output=True,text=True,timeout=25).stdout
+        t=subprocess.run(['/usr/bin/pdftotext','-layout',str(ROOT/r['path']),'-'],capture_output=True,text=True,timeout=25).stdout
         ids=sorted({a+str(b) for a,b in re.findall(r'\b([IT])\s*[-–.]?\s*([1-8])\s*[.:]',t)})
         expected=['I'+str(n) for n in range(1,5)]+([] if r['year']==2020 else ['T'+str(n) for n in range(1,5 if r['year']<=2008 else 9)])
         memo.append(dict(year=r['year'],path=r['path'],source=r['source'],verified_headings=ids,missing_expected_headings=sorted(set(expected)-set(ids)),note='Heading extraction verifies identifiers, not mathematical correctness. No matches means manual check needed, not missing problems.'))
@@ -85,7 +89,7 @@ def main():
         lines.append(f"| {c['region']}/{c['contest']} | {span} | {compact(c['missing_material_years'])} | {compact(c['years_without_classified_final_solutions'])} | {c['undated_material_documents']} |")
     lines+=['','## Исключения и ещё не состоявшиеся выпуски','', 'IMO 1980 не проводилась. RMM 2014 отменена; 2022 отсутствует в официальном перечне выпусков. Putnam 1943–1945 и ММО 1942–1944 не проводились. Baltic Way 2026 назначен на 12–16 ноября; Putnam 2026 ещё впереди на дату этой сверки. Они не объявляются потерянными вариантами.','', '## Полнота по этапам и классам','', 'В JSON у каждого года есть файлы, источники, известные этапы, классы и число документов с неизвестными метаданными. Для всех российских годов полная сверка ожидаемых классов и этапов пока не установлена; наличие нескольких вариантов нельзя выдавать за полное покрытие. У MEMO дополнительно сохранены извлечённые номера задач I1–I4 и T1–T8 (в 2007–2008 командных задач четыре; в 2020 командного тура нет).','', '## Проверенные опорные страницы','']
     for cid,u in SOURCES.items():lines.append(f'- [{cid}]({u}).')
-    lines+=['','Подробная матрица: `archive-year-reconciliation-2026-10-23.json`; компактная таблица для фильтрации: `archive-year-reconciliation-2026-10-23.csv`.']
+    lines+=['',f'Подробная матрица: `archive-year-reconciliation-{TAG}.json`; компактная таблица для фильтрации: `archive-year-reconciliation-{TAG}.csv`.']
     (ROOT/f'research/archive-year-reconciliation-{TAG}.md').write_text('\n'.join(lines)+'\n')
     print('Contest groups:',len(result),'year rows:',len(flat),'MEMO booklet checks:',len(memo))
 
