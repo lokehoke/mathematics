@@ -1,0 +1,35 @@
+{
+  "changes": [
+    {
+      "contest": "innopolis",
+      "path": "olympiads/russia/innopolis/documents/a2bb80e6621d-Иннополис-1920-заочка-1-условия.pdf",
+      "date": "2026-10-25T07:47:57.223845+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "tasks"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "13 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "rosatom",
+      "path": "olympiads/russia/rosatom/documents/3b1cfe179fec-kriterii_rosatom_zaklyuchitelnyy_25_26_1.pdf",
+      "date": "2026-10-25T07:47:57.362843+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "updated": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    }
+  ],
+  "errors": []
+}

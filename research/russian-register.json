@@ -94,8 +94,8 @@
           "id": "innopolis",
           "manifest": "olympiads/russia/innopolis/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 132,
-          "failed_documents": 12,
+          "downloaded_materials": 146,
+          "failed_documents": 15,
           "failed_pages": 0
         }
       ]
@@ -487,8 +487,8 @@
           "id": "rosatom",
           "manifest": "olympiads/russia/rosatom/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 359,
-          "failed_documents": 3,
+          "downloaded_materials": 366,
+          "failed_documents": 4,
           "failed_pages": 0
         }
       ]
@@ -556,8 +556,8 @@
           "id": "turlom",
           "manifest": "olympiads/russia/turlom/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 95,
-          "failed_documents": 24,
+          "downloaded_materials": 165,
+          "failed_documents": 35,
           "failed_pages": 132
         }
       ]

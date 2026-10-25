@@ -43,7 +43,10 @@ def compact(vals):
 
 def main():
     global TAG
-    parser=argparse.ArgumentParser();parser.add_argument('--suffix',default='');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--date',default=TAG);parser.add_argument('--suffix',default='');args=parser.parse_args()
+    try: datetime.date.fromisoformat(args.date)
+    except ValueError: parser.error('Invalid ISO date')
+    TAG=args.date
     if args.suffix and not re.fullmatch(r'[a-z0-9-]+',args.suffix):parser.error('Invalid suffix')
     if args.suffix:TAG += '-'+args.suffix
     groups=defaultdict(list)

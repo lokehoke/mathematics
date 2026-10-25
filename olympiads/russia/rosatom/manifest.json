@@ -140,6 +140,20 @@
           },
           "solution_evidence": "0 explicit answer/solution headings",
           "year_evidence": null
+        },
+        {
+          "date": "2026-10-25T07:47:57.362843+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "updated": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null
         }
       ],
       "document_role": "administrative"
@@ -8608,6 +8622,190 @@
       "bytes": 117241,
       "final_url": "https://mathus.ru/olymp/Rosatom2015Math11.pdf",
       "solution_status": "Short numerical answers may be embedded; no full worked-solution set asserted"
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2019/03/Росатом-1415-заочка-задания.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "year": "2014/2015",
+      "stage": "qualifying",
+      "classes": "11",
+      "document_type": "tasks",
+      "label": "Задания",
+      "source_page": "https://postypashki.ru/олимпиады/росатом/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/717cefa0f64d-Росатом-1415-заочка-задания.pdf",
+      "sha256": "b6c32a154265fb92e7efa481c460c74d6682f831650cee2c84389b4077e2da54",
+      "bytes": 906093,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2019/03/Росатом-1415-заочка-задания.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 0,
+        "header_excerpt": "2.2. Отборочный тур олимпиады «Росатом», 11 класс\n\n                                                                                                  7 x  22 x  16\n                                                                                                    2\n\n1. Найти без помощи производных множество значений функции f ( x )                                                 .\n                                                                "
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2019/03/Росатом-1415-заочка-решения.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "year": "2014/2015",
+      "stage": "qualifying",
+      "classes": "10, 11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/росатом/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/80031b37c1bb-Росатом-1415-заочка-решения.pdf",
+      "sha256": "94e61203abdcc12a16b050ab574512c2eb102d353e2bfba72997db195a4f01b0",
+      "bytes": 571448,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2019/03/%D0%A0%D0%BE%D1%81%D0%B0%D1%82%D0%BE%D0%BC-1415-%D0%B7%D0%B0%D0%BE%D1%87%D0%BA%D0%B0-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 3,
+        "header_excerpt": "2.2. Отборочный тур олимпиады «Росатом», 11 класс\n\n                                                                                                              7 x  22 x  16\n                                                                                                                2\n\n1. Найти без помощи производных множество значений функции f ( x )                                                             .\n                            "
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2018/10/Росатом-1415.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "year": "2014/2015",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "tasks",
+      "label": "Задания",
+      "source_page": "https://postypashki.ru/олимпиады/росатом/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/fe8e24b49b61-Росатом-1415.pdf",
+      "sha256": "d673a9886756231971f033d9b4796eea7cbdca3ad4f474762b07e25c8a761b15",
+      "bytes": 96563,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2018/10/Росатом-1415.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 0,
+        "header_excerpt": "Росатом                               postypashki.ru                  vk.com/postypashki\n\n\n                Олимпиада ѕРосатомї по математике\n                                11 класс, 2015 год\n\n                                     1 комплект\n\n\n1. Найти наибольшее значение выражения     x − 2y для (x; y), удовлетворяющих уравнению\n4x + 9y = 25.\n  2     2\n\n\n\n2. Найти все решения (x; y) уравнения (2 sin (x + y) + 3)(cos (2x − y) − 1) = −10, лежащие\nн"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2019/03/Росатом-1415-очка-решения.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "year": "2014/2015",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/росатом/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/259451bbf469-Росатом-1415-очка-решения.pdf",
+      "sha256": "9d7140f44a5e410e0cf1fce746bfe0fceb2eb8aece68ad98bda508406d85b00f",
+      "bytes": 237409,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2019/03/%D0%A0%D0%BE%D1%81%D0%B0%D1%82%D0%BE%D0%BC-1415-%D0%BE%D1%87%D0%BA%D0%B0-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 0,
+        "header_excerpt": "                             Задания заключительного тура\nОтраслевой физико-математической олимпиады школьников «Росатом» 2014-2015 учебного года\n                                 Математика, 11 класс\n\n1. Найти наибольшее значение выражения x  2 y для                   x; y  , удовлетворяющих        уравнению\n\n4 x2  9 y 2  25 .\n\n2. Найти все решения  x; y  уравнения  2sin( x  y)  3  cos  2 x  y   1  10 , лежащие на прямой\n\n6 x "
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2017/07/росатом-1112-условия-ответы-все-вместе.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "year": "2011/2012",
+      "stage": "qualifying_and_final",
+      "classes": "10, 11",
+      "document_type": "tasks_and_solutions",
+      "label": "Задания и ответы",
+      "source_page": "https://postypashki.ru/олимпиады/росатом/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/2e7efd9b2dca-росатом-1112-условия-ответы-все-вместе.pdf",
+      "sha256": "457203af9573fe16bdde5d99911f31a9becf9a0daabc6a03bf66740e6f695613",
+      "bytes": 281726,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2017/07/%D1%80%D0%BE%D1%81%D0%B0%D1%82%D0%BE%D0%BC-1112-%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B-%D0%B2%D1%81%D0%B5-%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B5.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 43,
+        "header_excerpt": "   5. Материалы заданий Отраслевой физико-математической олимпиады\n                              школьников\n                    «Росатом» в 2011/12 учебном году\n                             по математике\n\n\nОбщая характеристика заданий\n     Задание олимпиады Росатом по математике составляется так, чтобы наиболее\nточно проранжировать участников олимпиады. Одной из важнейших целей задания\nявляется профориентационная; поэтому задание одного из отборо"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2018/10/Росатом-1112.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "year": "2011/2012",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "tasks",
+      "label": "Задания",
+      "source_page": "https://postypashki.ru/олимпиады/росатом/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/3d532c4e9ddf-Росатом-1112.pdf",
+      "sha256": "050f90f8d7dae3667e2067f3ebf9c5ebc929aa9d720efbd071d46463a938d091",
+      "bytes": 172932,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2018/10/Росатом-1112.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 0,
+        "header_excerpt": "Росатом                               postypashki.ru                  vk.com/postypashki\n\n\n              Олимпиада ѕРосатомї по математике\n                       11 класс, 2012 год\n     1 комплект (Москва, Нижний Новгород, Саров, Балаково,\n                         Сергиев Посад)\n\n1. Найти наименьшее целое число    x из области определения функции\n                                                      x+2\n                                 f (x) = lo"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2017/07/росатом-1213-отбор-условия-решения.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "year": "2010/2011",
+      "stage": "qualifying",
+      "classes": "11",
+      "document_type": "tasks_and_solutions",
+      "label": "Задания и решения",
+      "source_page": "https://postypashki.ru/олимпиады/росатом/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "failed",
+      "error": "Source-table mismatch: PDF title is Savelyev memorial olympiad; Rosatom edition attribution unverified.",
+      "unclassified_local_path": "olympiads/russia/rosatom/documents/bec9bc888cd3-росатом-1213-отбор-условия-решения.pdf"
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2018/10/Росатом-1011.pdf",
+      "contest": "Росатом — математика",
+      "subject": "mathematics",
+      "year": "2010/2011",
+      "stage": "final",
+      "classes": "9, 10, 11",
+      "document_type": "tasks",
+      "label": "Задания",
+      "source_page": "https://postypashki.ru/олимпиады/росатом/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/rosatom/documents/082e41523b5e-Росатом-1011.pdf",
+      "sha256": "9d4608127005cfbace80f52fa2a677eb0048bd43f065ce6be7f6f22ac9a75660",
+      "bytes": 166867,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2018/10/Росатом-1011.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 0,
+        "header_excerpt": "Росатом                                postypashki.ru                  vk.com/postypashki\n\n\n\n             Олимпиада ѕРосатомї по математике\n                              11 класс, 2011 год\n\n                                       1 комплект\n\n\n1. Решите неравенство\n                               log22 x − log2 x − 2 ≥ 0.\n\n2. Решите уравнение\n                               8 sin4 x + 13 cos 2x = 7.\n\n3. Решите неравенство\n                            "
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
     }
   ],
   "indexes": [
@@ -9688,5 +9886,6 @@
       2026
     ],
     "downloaded": 11
-  }
+  },
+  "round4_mirror_source": "https://postypashki.ru/олимпиады/росатом/"
 }

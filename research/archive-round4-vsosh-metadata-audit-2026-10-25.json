@@ -1,0 +1,3225 @@
+{
+  "changes": [
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/f9a5bea3c19c-taskssol-math-11-gr1-sch-sirius-24-25_pdf.pdf",
+      "date": "2026-10-25T07:45:07.882796+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2024"
+      },
+      "updated": {
+        "year": "2024/2025"
+      },
+      "solution_evidence": "13 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b0275e1de174-tasks-math-11-mun-chuk-21-22.pdf",
+      "date": "2026-10-25T07:45:10.531578+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021/2022"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/740631b51ca6-tasks-math-11-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:11.243015+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/84fb694c2ee6-sol-math-11-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:11.249546+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/2748f3b99663-tasks-math-11-Nnovg-mun-19-0.pdf",
+      "date": "2026-10-25T07:45:11.254999+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/9061a168330c-sol-math-11-mun-chuk-19-20.pdf",
+      "date": "2026-10-25T07:45:11.462383+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019/2020"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "9 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/effa5a6804b9-72-ans-math-11-mun-sverd-18-9.pdf",
+      "date": "2026-10-25T07:45:11.652738+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/e9cc50fb361c-tasks-math-11-mun-vlad-18-9.pdf",
+      "date": "2026-10-25T07:45:11.662032+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/53f3cc31d0f1-72-tasks-math-11-mun-smol-18-9.pdf",
+      "date": "2026-10-25T07:45:11.671990+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/7c1ef97edf99-72-ans-math-11-mun-smol-18-9.pdf",
+      "date": "2026-10-25T07:45:11.687830+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/060cd6fdb21b-72-tasks-math-9_11-mun-tum-18-9.pdf",
+      "date": "2026-10-25T07:45:11.696797+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/3519d7e0e97e-72-tasks-math-11-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:11.702446+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/8a72939182a6-72-ans-math-11-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:11.714554+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/8243337a5e11-72-tasks-math-11-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:11.731607+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/46e4bbbd78e4-72-ans-math-11-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:11.747893+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/30a1ad5b81fa-72-tasks-math-11-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:11.757113+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/21caf94d5de8-72-ans-math-11-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:11.772894+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ef538eef2083-ans-math-11-mun-kryar-18-9.pdf",
+      "date": "2026-10-25T07:45:11.846508+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "9 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ea7a979e65ad-tasks-math-11-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:12.037592+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c79deff59a27-ans-math-11-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:12.048434+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/7b8809e9fb3e-ans-math-11-yarik-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:12.104552+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/d10adcdcfdb2-task-math-11-Nnovg-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:12.244737+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/f6fba85c2a72-task-math-11-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:12.303698+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/011febbbbaaa-ans-math-11-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:12.310657+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6e41daf1bb34-task-math-11-Kursk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:12.542426+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/9ee83e3392f3-ans-math-11-Mosc-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:12.657741+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a40500ac919a-tasks-math-11-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:12.665624+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c9602830ba7f-ans-math-11-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:12.676072+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "8 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/7a2088cd05f2-tasks-math-11-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:12.684847+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c6d745067a4f-ans-math-11-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:12.697660+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/1b8fdebfd507-tasks-math-11-ivan-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:12.713054+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a831a8d7a443-task-math-11-Nnovg-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:12.728330+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a5c362306e8f-task-math-11-Bash-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:12.762046+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a4247c483977-task-math-11-Nnovg-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:12.869986+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b43bac80b21d-task-math-11-Bash-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:12.891526+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b6237ed3a58a-task-math-11-Bash-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:12.981014+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/931b42a40c1e-task-math-11-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:13.032243+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c8261f3b90a2-ans-math-11-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:13.043815+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/22939743917c-task-math-11-Alt-mun-11-2.pdf",
+      "date": "2026-10-25T07:45:13.102737+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2011"
+      },
+      "updated": {
+        "year": "2011/2012"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/53eb1eda5525-taskssol-math-8-gr1-sch-sirius-24-25_pdf.pdf",
+      "date": "2026-10-25T07:45:16.473948+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2024"
+      },
+      "updated": {
+        "year": "2024/2025"
+      },
+      "solution_evidence": "9 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/9e647b42e45b-taskssol-math-9-gr1-sch-sirius-24-25_pdf.pdf",
+      "date": "2026-10-25T07:45:17.131761+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2024"
+      },
+      "updated": {
+        "year": "2024/2025"
+      },
+      "solution_evidence": "13 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/d741fdcf040a-taskssol-math-10-gr1-sch-sirius-24-25_pdf.pdf",
+      "date": "2026-10-25T07:45:17.829377+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2024"
+      },
+      "updated": {
+        "year": "2024/2025"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6c4035d21c15-sol-math-8-mun-chel-23-24.pdf",
+      "date": "2026-10-25T07:45:19.536580+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2023/2024"
+      },
+      "updated": {
+        "year": "2022/2023"
+      },
+      "solution_evidence": "8 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/73e7fec9b116-tasks-math-4-prigl-sirius-23-24.pdf",
+      "date": "2026-10-25T07:45:21.672896+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2023/2024"
+      },
+      "updated": {
+        "year": "2022/2023"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/3647cbaec467-sol-math-4-prigl-sirius-23-24.pdf",
+      "date": "2026-10-25T07:45:21.682763+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2023/2024"
+      },
+      "updated": {
+        "year": "2022/2023"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/8231a0dff023-sol-math-4-prigl-sirius-22-23.pdf",
+      "date": "2026-10-25T07:45:24.207121+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2022/2023"
+      },
+      "updated": {
+        "year": "2021/2022"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/d4932676882a-sol-math-5-prigl-sirius-22-23.pdf",
+      "date": "2026-10-25T07:45:24.243039+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2022/2023"
+      },
+      "updated": {
+        "year": "2021/2022"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ccf5e435fbd4-sol-math-6-prigl-sirius-22-23.pdf",
+      "date": "2026-10-25T07:45:24.278568+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2022/2023"
+      },
+      "updated": {
+        "year": "2021/2022"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c416e5ba32eb-sol-math-7-prigl-sirius-22-23.pdf",
+      "date": "2026-10-25T07:45:24.679031+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2022/2023"
+      },
+      "updated": {
+        "year": "2021/2022"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/85af64926628-tasks-math-8-mun-chuk-21-22.pdf",
+      "date": "2026-10-25T07:45:24.781096+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021/2022"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/92875dea8ffe-tasks-math-9-mun-chuk-21-22.pdf",
+      "date": "2026-10-25T07:45:25.304387+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021/2022"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/314f41a9db10-tasks-math-10-mun-chuk-21-22.pdf",
+      "date": "2026-10-25T07:45:25.875219+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021/2022"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6c835ff37e19-sol-math-10-prigl-sirius-22-23.pdf",
+      "date": "2026-10-25T07:45:25.940671+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2022/2023"
+      },
+      "updated": {
+        "year": "2021/2022"
+      },
+      "solution_evidence": "14 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a7a09971dcd0-tasks-math-4-prigl-sirius-21-22.pdf",
+      "date": "2026-10-25T07:45:25.951451+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021/2022"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "12 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/195353fc45b6-tasks-math-5-prigl-sirius-21-22.pdf",
+      "date": "2026-10-25T07:45:26.005493+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021/2022"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/5b39e2e2aa9e-tasks-math-6-prigl-sirius-21-22.pdf",
+      "date": "2026-10-25T07:45:26.086665+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021/2022"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/9bc7244e4c01-tasks-math-9-prigl-sirius-21-22.pdf",
+      "date": "2026-10-25T07:45:27.492647+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021/2022"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "12 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/cc300ec7cedd-tasks-math-10-prigl-sirius-21-22.pdf",
+      "date": "2026-10-25T07:45:27.973492+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2021/2022"
+      },
+      "updated": {
+        "year": "2020/2021"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/fae96fcef38b-tasks-math-7-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:28.090545+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/9b8103d84d39-sol-math-7-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:28.098442+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/75f381702010-tasks-math-7-Nnovg-mun-19-0.pdf",
+      "date": "2026-10-25T07:45:28.105308+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/185c4d275c0f-sol-math-7-Nnovg-mun-19-0.pdf",
+      "date": "2026-10-25T07:45:28.120694+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/bfc034da8656-tasks-math-8-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:28.596303+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/f184e8580fb5-sol-math-8-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:28.602741+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/1aa4d46931ee-tasks-math-8-Nnovg-mun-19-0.pdf",
+      "date": "2026-10-25T07:45:28.609615+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/bd4dd705c6c0-tasks-math-9-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:29.058148+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/416a451a1985-sol-math-9-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:29.067298+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/f62ef395028e-tasks-math-9-Nnovg-mun-19-0.pdf",
+      "date": "2026-10-25T07:45:29.075416+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/8c1663748737-tasks-math-10-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:29.646140+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6e1ad24af5e6-sol-math-10-mun-vlad-19-0.pdf",
+      "date": "2026-10-25T07:45:29.652511+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6a020e8808d7-tasks-math-10-Nnovg-mun-19-0.pdf",
+      "date": "2026-10-25T07:45:29.659697+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2019"
+      },
+      "updated": {
+        "year": "2019/2020"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/18c1aa651a94-tasks-math-5-mun-vlad-18-9.pdf",
+      "date": "2026-10-25T07:45:30.077635+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/cbc9e59f85a6-tasks-math-5-mun-lenobl-18-9.pdf",
+      "date": "2026-10-25T07:45:30.101450+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/97a4656b92a6-ans-math-5-mun-lenobl-18-9.pdf",
+      "date": "2026-10-25T07:45:30.106907+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/2e6eb7f74153-72-ans-math-6-mun-sverd-18-9.pdf",
+      "date": "2026-10-25T07:45:30.128440+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c6f2db2ec51f-tasks-math-6-mun-vlad-18-9.pdf",
+      "date": "2026-10-25T07:45:30.146215+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/79532650851b-tasks-math-6-mun-lenobl-18-9.pdf",
+      "date": "2026-10-25T07:45:30.167487+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/e2bc59fd9dde-ans-math-6-mun-lenobl-18-9.pdf",
+      "date": "2026-10-25T07:45:30.173461+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/d5a7d2b5a92b-tasks-math-7-mun-vlad-18-9.pdf",
+      "date": "2026-10-25T07:45:30.201180+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/619875b45db5-72-tasks-math-7_8-mun-smol-18-9.pdf",
+      "date": "2026-10-25T07:45:30.208902+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/280b2ce566e8-72-ans-math-7_8-mun-smol-18-9.pdf",
+      "date": "2026-10-25T07:45:30.218539+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/726ddfd5fdbc-72-tasks-math-7-mun-tum-18-9.pdf",
+      "date": "2026-10-25T07:45:30.227772+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/5bbfae9a8eca-72-tasks-math-7-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.235219+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/bf82c3e80b91-72-ans-math-7-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.247860+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/37617e3564e5-72-tasks-math-7-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:30.267437+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/e76f4d79de13-72-ans-math-7-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:30.275604+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/32c4c3e8c0cc-72-tasks-math-7-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:30.284655+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/637a3ae1d7dc-72-ans-math-7-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:30.294544+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/234c62ed7fbe-72-ans-math-7-mun-sverd-18-9.pdf",
+      "date": "2026-10-25T07:45:30.333343+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6ca2fead0a76-ans-math-7-mun-kryar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.362691+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/166de2356127-tasks-math-7-mun-lenobl-18-9.pdf",
+      "date": "2026-10-25T07:45:30.403999+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6170aac0419a-ans-math-7-mun-lenobl-18-9.pdf",
+      "date": "2026-10-25T07:45:30.409428+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/e92e010b9109-72-tasks-math-8-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.432317+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b0a425569dd5-72-ans-math-8-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.443638+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/d6fae7eaa694-72-tasks-math-8-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:30.465168+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c59a4e9bab41-72-ans-math-8-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:30.474741+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/df27c63942a7-72-tasks-math-8-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:30.483317+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/dee81547464f-72-ans-math-8-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:30.494366+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/3ab7c8a7f321-72-ans-math-8-mun-sverd-18-9.pdf",
+      "date": "2026-10-25T07:45:30.529798+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/bb471217d406-tasks-math-8-mun-vlad-18-9.pdf",
+      "date": "2026-10-25T07:45:30.536008+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ecb1e04567ea-72-tasks-math-8-mun-tum-18-9.pdf",
+      "date": "2026-10-25T07:45:30.541128+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b44cee272a58-ans-math-8-mun-kryar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.556192+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "9 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/bb115220dc1f-72-tasks-math-9-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.648583+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/590e4f4f2762-72-ans-math-9-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.658437+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/0e76f19103e0-72-tasks-math-9-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:30.675168+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/9513bb3ae2f2-72-ans-math-9-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:30.687831+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/1a9ce94daea2-72-tasks-math-9-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:30.693269+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/9de601f902b1-72-ans-math-9-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:30.704037+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ef07607532eb-72-ans-math-9-mun-sverd-18-9.pdf",
+      "date": "2026-10-25T07:45:30.735324+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/27749414420d-tasks-math-9-mun-vlad-18-9.pdf",
+      "date": "2026-10-25T07:45:30.742078+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/45a6def7bdb2-72-tasks-math-9-mun-smol-18-9.pdf",
+      "date": "2026-10-25T07:45:30.748914+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/44c0416463c8-72-ans-math-9-mun-smol-18-9.pdf",
+      "date": "2026-10-25T07:45:30.758566+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/60453f79bcb8-ans-math-9-mun-kryar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.800181+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "9 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/78f98ea1e5a2-tasks-math-10-mun-vlad-18-9.pdf",
+      "date": "2026-10-25T07:45:30.867583+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/d4300a7a66ad-72-tasks-math-10-mun-smol-18-9.pdf",
+      "date": "2026-10-25T07:45:30.878056+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/8fdd7fc2d0a1-72-ans-math-10-mun-smol-18-9.pdf",
+      "date": "2026-10-25T07:45:30.890619+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/0e7b0bf49294-72-tasks-math-10-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.899469+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/f851a3ac5eb9-72-ans-math-10-mun-yar-18-9.pdf",
+      "date": "2026-10-25T07:45:30.910636+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/439cb132191c-72-tasks-math-10-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:30.933332+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/f624c8372332-72-ans-math-10-mun-yanao-18-9.pdf",
+      "date": "2026-10-25T07:45:30.941910+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/05c91ae3ce3a-72-tasks-math-10-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:30.948470+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/610666b9c281-72-ans-math-10-mun-amur-18-9.pdf",
+      "date": "2026-10-25T07:45:30.955877+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b95de2c36b95-72-ans-math-10-mun-sverd-18-9.pdf",
+      "date": "2026-10-25T07:45:30.991023+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/abe6a6f32476-ans-math-10-mun-kryar-18-9.pdf",
+      "date": "2026-10-25T07:45:31.029449+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2018"
+      },
+      "updated": {
+        "year": "2018/2019"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6a79a4c7332e-tasks-math-7-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:31.387496+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/72b6e9aee1d8-ans-math-7-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:31.394759+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/754a02a201a4-ans-math-7-yarik-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:31.456440+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/df54454c6e8a-tasks-math-8-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:31.630813+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/14348d3373f5-ans-math-8-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:31.640301+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/9a25a8ae7805-ans-math-8-yarik-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:31.686017+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/7cf6206b4132-tasks-math-9-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:31.854654+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/262ba8280881-ans-math-9-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:31.867701+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "9 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/7e716f302ec8-ans-math-9-yarik-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:31.932021+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/eaa7e921ab00-ans-math-9-Sarat-mun-17-18.pdf",
+      "date": "2026-10-25T07:45:31.970192+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017/2018"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/e3359f40c92b-tasks-math-10-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:32.293706+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/22bb38e8da74-ans-math-10-YamN-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:32.302400+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b9b8850f1d7f-ans-math-10-yarik-mun-17-8.pdf",
+      "date": "2026-10-25T07:45:32.372158+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2017"
+      },
+      "updated": {
+        "year": "2017/2018"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/8e02532a3961-task-math-5-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.437955+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/3862a5ab3c82-ans-math-5-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.445185+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/78bcc3e5d9cf-task-math-6-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.501068+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ee78bf710c9f-ans-math-6-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.509195+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/1942bd9bc906-task-math-7-Nnovg-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.596817+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/2c7721435bf8-ans-math-7-ivan-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.659593+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/d667bb702b7a-task-math-7-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.703977+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a479fbfd1dba-ans-math-7-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.709712+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/0437e39a8724-task-math-7-Zab-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.751842+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6046c228436f-ans-math-7-Zab-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.762830+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/2a977481010a-task-math-8-Nnovg-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.831088+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/dcfda3b295c9-task-math-8-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.870201+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/1424751f7e7a-ans-math-8-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:32.877333+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/e5c886ad0738-task-math-9-Nnovg-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:33.027063+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/678e51a68fc9-task-math-9-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:33.074804+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b5b636f908b9-ans-math-9-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:33.080953+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ace6f7e31cb1-task-math-10-Nnovg-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:33.380086+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/08d34054cef0-task-math-10-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:33.431047+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/10ab3ea34d62-ans-math-10-Alt-mun-16-7.pdf",
+      "date": "2026-10-25T07:45:33.439471+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2016"
+      },
+      "updated": {
+        "year": "2016/2017"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/2f0bf07ef197-ans-math-5-Mosc-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.486320+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "8 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/3f0529f9b659-ans-math-6-yaros-mun-15-16.pdf",
+      "date": "2026-10-25T07:45:33.540498+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015/2016"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/83fc58d94f69-tasks-math-6-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.573097+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/093b5f37b083-ans-math-6-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.580562+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/695aab636129-task-math-7-Nnovg-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.598635+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6c29f14a64ed-ans-math-7-Nnovg-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.607387+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a5473a49e5d8-task-math-7-Kursk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.625268+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/2d182a2fb133-ans-math-7-Kursk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.635630+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "9 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/f16159020729-ans-math-7-Mosc-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.695118+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a3dc62bbbf46-tasks-math-7-ivan-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.701259+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c22eaefb4a4d-ans-math-7-ivan-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.707854+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/3ad4d9024197-tasks-math-7-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.764808+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b1d05f572439-ans-math-7-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.771551+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/285dc9ea4437-tasks-math-7-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.807033+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/1ea50e44a844-ans-math-7-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.818293+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "10 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/440c646889b9-task-math-8-Bash-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.851008+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/f00cc620e4f3-task-math-8-Kursk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.876671+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b5d365a29431-tasks-math-8-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.920232+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/8f05300df415-ans-math-8-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:33.928503+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "1 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/15b45b751902-tasks-math-8-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.003211+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/060d3164066e-ans-math-8-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.017224+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "8 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/db2ce9ffdf52-tasks-math-8-ivan-mun-15-8.pdf",
+      "date": "2026-10-25T07:45:34.044461+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/1837d4d67ed9-task-math-8-Nnovg-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.062160+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b9b8291352e6-task-math-9-Kursk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.115132+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/43530c9e7832-tasks-math-9-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.150321+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/71305ec6ab7c-ans-math-9-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.159079+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/d579d2482168-tasks-math-9-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.241610+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/d84443a732cf-ans-math-9-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.258206+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a7965f7304da-ans-math-9-Mosc-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.274072+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "5 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/6506454f27e3-tasks-math-9-ivan-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.281959+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/460d10389ae4-task-math-9-Nnovg-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.299115+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/358118f48b89-task-math-9-Bash-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.331318+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/89084f2dd0d1-task-math-10-Kursk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.404835+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/eed697b3e14c-tasks-math-10-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.442508+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/63d388fa4fe5-ans-math-10-omsk-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.456142+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/27dded21c4ff-tasks-math-10-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.506997+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/73c689f4393f-ans-math-10-perm-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.521637+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "7 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/0aff417de920-ans-math-10-Mosc-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.541094+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "6 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ab44154a6d6d-tasks-math-10-ivan-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.549987+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/3ec797b29d26-task-math-10-Nnovg-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.569449+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/bd77eea421df-task-math-10-Bash-mun-15-6.pdf",
+      "date": "2026-10-25T07:45:34.619709+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2015"
+      },
+      "updated": {
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/cd2182fb256d-task-math-5-Bash-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:34.639170+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c17b9874aa23-task-math-6-Bash-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:34.663651+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ff8a0c9c87a3-task-math-7-Nnovg-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:34.679697+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/06b0f37d3d7c-ans-math-7-Nnovg-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:34.689645+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "4 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/39b3ca2191f6-task-math-7-Bash-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:34.720578+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/0e77bf5e00a7-task-math-8-Bash-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:34.856830+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/173194c1dd57-task-math-8-Nnovg-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:34.917596+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/80331633ca66-task-math-9-Bash-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:34.934891+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/485c44f619d1-task-math-9-Nnovg-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:34.988585+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/760b649cfb98-task-math-10-Nnovg-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:35.058795+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c2cbffbca8b6-task-math-10-Bash-mun-14-5.pdf",
+      "date": "2026-10-25T07:45:35.134533+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2014"
+      },
+      "updated": {
+        "year": "2014/2015"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/89bc48c8035e-task-math-5-Bash-mun-13-4.pdf",
+      "date": "2026-10-25T07:45:35.191751+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2013"
+      },
+      "updated": {
+        "year": "2013/2014"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/fd653be51c38-task-math-5-Bash-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.491062+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/e7a7549badea-task-math-6-Bash-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.498867+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b0fbbc391327-task-math-7-Bash-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.506446+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a0775102e51d-task-math-7-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.548059+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/e7483f022ad6-ans-math-7-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.559172+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/972efa82f056-task-math-8-Bash-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.565723+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c1e3a16b26cd-task-math-8-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.591364+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/858fc1c81fc2-ans-math-8-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.601156+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/322ea925f206-task-math-9-Bash-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.644400+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/31d8ab538603-task-math-9-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.680458+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ce7f2d4ae8f5-ans-math-9-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.690244+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/92afaa4275f6-task-math-10-Bash-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.697326+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/0e42b533b38f-task-math-10-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.733598+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/73fd179c7eac-ans-math-10-Alt-mun-12-3.pdf",
+      "date": "2026-10-25T07:45:35.745348+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2012"
+      },
+      "updated": {
+        "year": "2012/2013"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/2d93c42b756e-task-math-7-Alt-mun-11-2.pdf",
+      "date": "2026-10-25T07:45:35.772188+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2011"
+      },
+      "updated": {
+        "year": "2011/2012"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/41ff548ec520-task-math-8-Alt-mun-11-2.pdf",
+      "date": "2026-10-25T07:45:35.808152+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2011"
+      },
+      "updated": {
+        "year": "2011/2012"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/025707e93079-task-math-9-Alt-mun-11-2.pdf",
+      "date": "2026-10-25T07:45:35.849372+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2011"
+      },
+      "updated": {
+        "year": "2011/2012"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/b4bc781bbd4a-task-math-10-Alt-mun-11-2.pdf",
+      "date": "2026-10-25T07:45:35.890720+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2011"
+      },
+      "updated": {
+        "year": "2011/2012"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/a9aedf7ec448-task-math-7-Kalin-mun-08-9.pdf",
+      "date": "2026-10-25T07:45:36.086782+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2008"
+      },
+      "updated": {
+        "year": "2008/2009"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/c3c57fecba5f-ans-math-8-Kalin-mun-06-7.pdf",
+      "date": "2026-10-25T07:45:36.166780+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2006"
+      },
+      "updated": {
+        "year": "2006/2007"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    },
+    {
+      "contest": "vsosh",
+      "path": "olympiads/russia/vsosh/documents/ac4474812540-ans-math-10-Kalin-mun-06-7.pdf",
+      "date": "2026-10-25T07:45:36.209565+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "year": "2006"
+      },
+      "updated": {
+        "year": "2006/2007"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header"
+    }
+  ],
+  "errors": []
+}

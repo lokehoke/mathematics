@@ -1,16 +1,16 @@
 # Архив математических олимпиад
 
-Оригиналы общедоступных заданий и опубликованных решений сохраняются в `russia/`, `international/`, `university/`. Учтена только математика. Состав и состояние архива приведены в [проверяемом отчёте](../research/archive-resume-report-2026-10-23.md).
+Оригиналы общедоступных заданий и опубликованных решений сохраняются в `russia/`, `international/`, `university/`. Учтена только математика. Состав и состояние архива приведены в [проверяемом отчёте](../research/archive-resume-report-2026-10-25.md).
 
-Срез 23 октября 2026 после третьего прохода: **10023** уникальных математических материала по SHA-256, **4377** документов с классифицированными решениями/ответами. Все **11758** учитываемых файлов прошли проверку SHA-256. [Что восстановлено и что осталось](../research/archive-round3-notes-2026-10-23.md), [сверка по годам](../research/archive-year-reconciliation-2026-10-23-round3.md).
+Срез 25 октября 2026 после четвёртого прохода: **10143** уникальных математических материала по SHA-256, **4441** документ с классифицированными решениями/ответами. Все **11904** учитываемых файла прошли проверку SHA-256. Добавлено **120** новых уникальных документов; решения или ответы впервые классифицированы ещё для **64** уникальных документов. [Что восстановлено и что осталось](../research/archive-round4-notes-2026-10-25.md), [сверка по годам](../research/archive-year-reconciliation-2026-10-25.md).
 
 ## Как найти материал
 
 - Российские олимпиады: `russia/<олимпиада>/manifest.json`.
 - Международные: `international/manifest.jsonl`.
 - Студенческие: `university/manifest.jsonl`.
-- Единая инвентаризация: `../research/archive-material-inventory-2026-10-23-round3.jsonl`.
-- Недоступные документы и ошибки индексации: `../research/archive-continuation-queue-2026-10-23-round3.json`.
+- Единая инвентаризация: `../research/archive-material-inventory-2026-10-25.jsonl`.
+- Недоступные документы и ошибки индексации: `../research/archive-continuation-queue-2026-10-25.json`.
 
 Запись `downloaded` означает сохранённый файл; запись о найденной ссылке сама по себе скачиванием не считается. У каждого сохранённого документа указан SHA-256. Годы, этапы и классы записаны там, где их удалось установить. Вторичные источники отмечены отдельно. Страницы архивов, административные документы и дополнительные статьи не включаются в число олимпиадных материалов.
 
@@ -31,8 +31,11 @@ python3 scripts/download_belchonok_current.py
 python3 scripts/recover_round3_curated.py
 python3 scripts/recover_bmo_mirrors.py
 python3 scripts/recover_mathus_gap_years.py
-python3 scripts/reconcile_archive_years.py --suffix round3
-python3 scripts/summarize_archive_resume.py --date 2026-10-23 --suffix round3 --baseline research/archive-round3-baseline-2026-10-23.json
+python3 scripts/recover_turlom_official.py
+python3 scripts/recover_round4_international.py
+python3 scripts/recover_round4_russian_mirrors.py
+python3 scripts/reconcile_archive_years.py --date 2026-10-25
+python3 scripts/summarize_archive_resume.py --date 2026-10-25 --baseline research/archive-round4-baseline-2026-10-25.json
 ```
 
 Не запускайте два процесса, записывающих один манифест. Большие оригиналы хранятся локально и исключены из Git; в Git сохраняются манифесты, скрипты и отчёты. Наличие материала за год не доказывает полноту всех вариантов и решений этого года. Полнота всех олимпиад за все годы пока не установлена.
