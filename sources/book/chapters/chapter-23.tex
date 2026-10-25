@@ -1,200 +1,193 @@
-\chapter{Полугруппы, моноиды, группы, кольца и поля}\label{chap:c22}\markright{Глава 23}
-
-\section{Одинаковые правила в разных множествах}
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[12]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-63.png}
+\chapter{Показательные и логарифмические уравнения и неравенства}\label{chap:exam-exponential}\markright{Глава 23}
+\section{Основание и направление сравнения}
+В показательных и логарифмических задачах сначала фиксируют основание. Для произвольного действительного показателя используем положительное основание. Если \(a=1\), выражение \(1^x\) равно единице, но логарифма по основанию \(1\) не существует.
+\begin{definition}\term{Показательное уравнение} (exponential equation) содержит неизвестное в показателе степени.\end{definition}
+\begin{definition}\term{Логарифмическое уравнение} (logarithmic equation) содержит логарифм выражения с неизвестным; неизвестное может находиться и в основании.\end{definition}
+\begin{theorem}[Сравнение при постоянном основании]
+Пусть \(a>0,a\ne1\). Равенство \(a^u=a^v\) равносильно \(u=v\). При \(a>1\) знак сравнения показателей сохраняется, при \(0<a<1\) меняется. Для \(u,v>0\) то же правило действует при сравнении \(\log_a u\) и \(\log_a v\).
+\end{theorem}
+\begin{proof}При \(a>1\) и \(v>u\) имеем \(\frac{a^v}{a^u}=a^{v-u}>1\), поэтому показательная функция строго возрастает. При \(0<a<1\) запишем \(a=\frac1b\), где \(b>1\); тогда \(\frac{a^v}{a^u}=b^{-(v-u)}<1\). Строгая монотонность даёт равносильность равенств. Логарифм является обратной функцией: если бы направление сравнения его значений было иным, применение показательной функции противоречило бы сравнению аргументов.\end{proof}
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-224.png}
 \end{wrapfigure}
-В главе \ref{chap:c01} мы перечислили свойства действий с рациональными числами. Теперь можно дать названия наборам этих свойств. Например, сложение целых чисел, сложение векторов и последовательное выполнение сдвигов устроены во многом одинаково: есть нейтральное действие, каждое действие можно отменить, а скобки можно переставлять. Такой общий язык позволяет однажды доказать правило и затем применять его в разных примерах.
+Направление неравенства определяется основанием, а не знаком показателя. Отрицательные значения показателя вполне допустимы: они дают положительные дробные степени основания. Перед сравнением полезно привести обе части к одному основанию и только после этого убрать степени. Если одинаковое основание получить неудобно, обе положительные части можно прологарифмировать по основанию больше единицы. При этом логарифмировать сумму по слагаемым нельзя. Выражение с несколькими степенями сначала пытаются упростить с помощью общего множителя или замены. Такой порядок помогает увидеть структуру задачи до вычислений и сохраняет все условия, от которых зависит направление перехода. В ответе остаётся проверить, не было ли дополнительных ограничений в исходных выражениях.
 \par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\begin{definition}
-\term{Бинарная операция} (binary operation) на непустом множестве \(S\) — отображение \(*:S\times S\to S\), сопоставляющее каждой упорядоченной паре элементов единственный элемент \(a*b\) того же множества. Требование результата в \(S\) называют \term{замкнутостью} (closure).
-\end{definition}
-Сложение — операция на \(\mathbb N_0\), а вычитание — нет: \(1-2\notin\mathbb N_0\). На \(\mathbb Z\) вычитание уже замкнуто. Поэтому свойство действия всегда проверяют вместе с множеством, на котором оно задано. Обозначение \(*\) не обязательно означает обычное умножение.
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<58mm\dp\CatFlowBox=\dimexpr58mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
+\begin{example}Решим \((\frac13)^{x^2-2x}\geq\frac1{27}\). Справа стоит \((\frac13)^3\). Основание меньше единицы, поэтому \(x^2-2x\leq3\), то есть \((x-3)(x+1)\leq0\). Ответ \([-1;3]\).\end{example}
 
-\begin{definition}
-Операция \term{ассоциативна} (associative), если \((a*b)*c=a*(b*c)\) для любых \(a,b,c\in S\). Она \term{коммутативна} (commutative), если \(a*b=b*a\) для любых \(a,b\in S\). Элемент \(e\in S\) — \term{нейтральный элемент} (identity element), если \(e*a=a*e=a\) для любого \(a\in S\).
-\end{definition}
-Ассоциативность разрешает опускать скобки в произведении нескольких элементов. Коммутативность разрешает переставлять сами элементы; это другое свойство. При композиции функций порядок обычно важен, даже когда скобки можно менять.
+\section{Замены в показательных задачах}
+\begin{definition}\term{Замена неизвестного} (substitution) вводит новое выражение \(t=\varphi(x)\), упрощающее уравнение. Вместе с заменой указывают допустимые значения \(t\) и способ возвращения к \(x\).\end{definition}
+Для \(t=a^x\) при \(a>0,a\ne1\) имеем \(t>0\), и каждое положительное \(t\) даёт ровно одно \(x=\log_a t\). Например, \(a^{2x}=t^2\), \(a^{-x}=\frac1t\). При замене \(t=a^{x^2}\) положительности недостаточно: если \(a>1\), то \(t\geq1\), а при \(0<a<1\) имеем \(0<t\leq1\). Обратная подстановка может дать два, одно или ни одного значения \(x\).
+\begin{example}Для \(9^x-10\cdot3^x+9=0\) положим \(t=3^x>0\). Получаем \((t-1)(t-9)=0\). Обе величины положительны; \(3^x=1\) даёт \(x=0\), а \(3^x=9\) даёт \(x=2\).\end{example}
+\begin{example}В неравенстве \(4^x-6\cdot2^x+8\leq0\) замена \(t=2^x>0\) приводит к \((t-2)(t-4)\leq0\), то есть \(2\leq t\leq4\). Поскольку основание \(2\) больше единицы, возвращаемся к \(1\leq x\leq2\).\end{example}
 
-\section{Полугруппа, моноид и группа}
-\begin{definition}
-\term{Полугруппа} (semigroup) — непустое множество с ассоциативной бинарной операцией. \term{Моноид} (monoid) — полугруппа с нейтральным элементом.
-\end{definition}
-Положительные натуральные числа со сложением образуют полугруппу, но не моноид: нужного нейтрального числа \(0\) в \(\mathbb N\) нет. Множество \(\mathbb N_0\) со сложением — моноид. Все конечные слова над заданным алфавитом с операцией приписывания одного слова к другому тоже образуют моноид; его нейтральный элемент — пустое слово. Приписывание некоммутативно: слова «кот» и «ток» после приписывания дадут разные результаты в разном порядке.
-
-\begin{definition}
-В моноиде элемент \(b\) — \term{обратный элемент} (inverse element) к \(a\), если \(a*b=b*a=e\). \term{Группа} (group) — моноид, в котором у каждого элемента есть обратный. \term{Абелева группа} (abelian group) — группа с коммутативной операцией.
-\end{definition}
-Для сложения нейтральный элемент обычно обозначают \(0\), обратный к \(a\) — \(-a\). Для умножения используют \(1\) и \(a^{-1}\). Это выбор записи: в абстрактной группе знак \(a^{-1}\) не обязан означать привычную дробь.
-
-Примеры абелевых групп: \((\mathbb Z,+)\), \((\mathbb Q,+)\), \((\mathbb R^2,+)\); также \((\mathbb Q\setminus\{0\},\cdot)\). Моноид \((\mathbb N_0,+)\) не является группой: у \(1\) нет противоположного внутри \(\mathbb N_0\). Все рациональные числа с умножением тоже не группа: у нуля нет обратного. По модулю \(m\ge2\) все классы образуют абелеву группу по сложению, причём противоположный к \([a]_m\) равен \([-a]_m\).
-
-\begin{theorem}[Единственность нейтрального и обратного]\label{thm:legacy-c22-1}
-Нейтральный элемент моноида единственен. Обратный элемент к заданному элементу, если он существует, также единственен.
-\end{theorem}
-\begin{proof}
-Если \(e,f\) оба нейтральны, то \(e*f=f\) по свойству \(e\), но \(e*f=e\) по свойству \(f\). Значит, \(e=f\). Если \(b,c\) обратны к \(a\), то
+\section{ОДЗ и преобразования логарифмов}
+Логарифм \(\log_a F\) требует \(a>0,a\ne1,F>0\). Все эти ограничения накладывают до преобразований. Сумма \(\log_a F+\log_a G\) определена лишь при \(F>0,G>0\), хотя \(\log_a(FG)\) может иметь смысл и при двух отрицательных множителях. Поэтому объединять сумму можно с сохранением исходной ОДЗ. Наоборот, разложение логарифма произведения в сумму допустимо лишь там, где каждый множитель положителен.
+\begin{theorem}[Квадрат под логарифмом]
+При \(a>0,a\ne1,u\ne0\)
 \[
-b=b*e=b*(a*c)=(b*a)*c=e*c=c.
+\log_a(u^2)=2\log_a|u|.
 \]
-Равенство посередине использует ассоциативность, а не перестановку элементов. Это важно для некоммутативных групп.
-\end{proof}
-
-\begin{theorem}[Сокращение и решение уравнения в группе]\label{thm:legacy-c22-2}
-В группе из \(a*b=a*c\) следует \(b=c\), а из \(b*a=c*a\) также следует \(b=c\). Уравнения \(a*x=b\) и \(y*a=b\) имеют единственные решения
-\[
-x=a^{-1}*b,\qquad y=b*a^{-1}.
-\]
+Без модуля правая часть определена только при \(u>0\).
 \end{theorem}
-\begin{proof}
-Первое равенство умножим слева на \(a^{-1}\), затем перегруппируем скобки: \((a^{-1}*a)*b=(a^{-1}*a)*c\), то есть \(b=c\). Во втором случае умножим справа. Эти же преобразования показывают необходимость формул для \(x,y\), а обратная подстановка подтверждает, что они дают решения. В некоммутативной группе место множителя \(a^{-1}\) менять нельзя.
-\end{proof}
-
-\section{Композиции и симметрии}
-\begin{definition}
-\term{Тождественное отображение} (identity map) множества \(X\) — отображение \(\operatorname{id}_X(x)=x\). \term{Перестановка множества} (permutation of a set) — биекция \(X\to X\). Все перестановки \(X\) образуют множество \(\operatorname{Sym}(X)\); для \(X=\{1,\ldots,n\}\) пишут также \(S_n\).
-\end{definition}
-
-\begin{theorem}[Группа перестановок]\label{thm:legacy-c22-3}
-Множество \(\operatorname{Sym}(X)\) является группой относительно композиции. Нейтральный элемент — \(\operatorname{id}_X\), обратный к \(f\) — обратная биекция \(f^{-1}\).
-\end{theorem}
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
 \begin{wrapfigure}[11]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-64.png}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-227.png}
 \end{wrapfigure}
-\textit{Доказательство.} Композиция двух биекций — биекция: обратным к \(f\circ g\) служит \(g^{-1}\circ f^{-1}\), что проверяется подстановкой. Для любых \(f,g,h\) и \(x\in X\)
+\textit{Доказательство.} Число \(|u|\) положительно, а \(u^2=|u|^2\). Поэтому правило логарифма степени с положительным основанием аргумента даёт равенство.\hfill\(\blacksquare\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<58mm\dp\CatFlowBox=\dimexpr58mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
+
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-225.png}
+\end{wrapfigure}
+Запреты логарифма относятся ко всей исходной записи. Положительность аргумента одного логарифма не заменяет условий для остальных, а ненулевой знаменатель нельзя забывать после сокращения. Особенно внимательно проверяют вложенные логарифмы: внутренний логарифм должен не просто существовать, но и давать положительное число, если он служит аргументом внешнего. Замена через логарифм удобна тем, что переводит положительные значения исходной переменной во всю числовую прямую. Но после решения нового уравнения нужно вернуться к исходному неизвестному и проверить каждый знаменатель и каждое основание. Эта проверка коротка, если ограничения были выписаны заранее, и значительно труднее, если они восстанавливаются по уже упрощённой формуле.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<58mm\dp\CatFlowBox=\dimexpr58mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
+\begin{example}Решим \(\log_2(x-1)+\log_2(x+1)=3\). ОДЗ: \(x>1\). На ней объединение даёт \(\log_2(x^2-1)=3\), откуда \(x^2=9\). Из кандидатов \(-3,3\) подходит лишь \(3\). Если бы исходно стоял один логарифм произведения, отрицательный кандидат тоже мог бы оказаться допустимым; это другая область определения.\end{example}
+При замене \(t=\log_a x\) допустимы все действительные \(t\), а обратная подстановка \(x=a^t\) автоматически даёт \(x>0\). Так \((\log_2x)^2-3\log_2x+2=0\) приводит к \(t=1,2\) и \(x=2,4\).
+
+\section{Переменное основание и рационализация}
+\begin{definition}\term{Рационализация неравенства} (sign-preserving rationalization) заменяет выражение другим с тем же знаком на заранее указанной ОДЗ. Это утверждение о знаках, а не о равенстве значений выражений.\end{definition}
+\begin{theorem}[Точное правило рационализации]
+В каждой точке, где \(a>0,a\ne1,F>0,G>0\), выражения
 \[
-((f\circ g)\circ h)(x)=f(g(h(x)))=(f\circ(g\circ h))(x).
+\log_a F-\log_a G\quad\text{и}\quad(a-1)(F-G)
 \]
-Значит, композиция ассоциативна. Тождественное отображение не меняет аргумент, а равенства \(f^{-1}\circ f=\operatorname{id}_X=f\circ f^{-1}\) дают обратные элементы.\hfill\(\blacksquare\)
-\par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-
-В записи \(f\circ g\) сначала выполняется \(g\), затем \(f\). Для трёх элементов перестановки уже могут не коммутировать. Пусть \(s\) меняет местами \(1,2\), а \(t\) — \(2,3\). Тогда \((s\circ t)(1)=2\), но \((t\circ s)(1)=3\).
-
-Четыре поворота квадрата на углы \(0,90,180,270\) градусов образуют группу по последовательному выполнению; сложение углов понимается по модулю \(360\). Обратный к повороту на \(90\) градусов — поворот на \(270\). Если добавить отражения, получится другая группа симметрий, в которой порядок действий уже может менять результат.
-
-\section{Два действия: кольцо}
-\begin{definition}
-\term{Кольцо с единицей} (ring with identity; unital ring) в этой главе — множество \(R\) с двумя бинарными операциями \(+\) и \(\cdot\), для которого:
-\begin{enumerate}[label=\arabic*.,leftmargin=2em,itemsep=2pt]
-\item \((R,+)\) — абелева группа с нулём \(0\);
-\item умножение ассоциативно и имеет единицу \(1\);
-\item выполнены оба распределительных закона \(a(b+c)=ab+ac\), \((a+b)c=ac+bc\);
-\item \(0\ne1\).
-\end{enumerate}
-Если умножение коммутативно, кольцо называют \term{коммутативным} (commutative ring).
-\end{definition}
-Мы явно приняли условие \(0\ne1\). В литературе словом «кольцо» могут называть также структуры без единицы или допускать кольцо из одного элемента; при чтении всегда уточняй соглашение автора. Обратный по сложению нужен для каждого элемента; обратный по умножению на этом этапе не требуется.
-
-Целые, рациональные и действительные числа с обычными действиями — коммутативные кольца с единицей. Классы \(\mathbb Z/m\mathbb Z\), \(m\ge2\), тоже образуют такое кольцо: действия над представителями заданы в главе \ref{chap:c21}, а ассоциативность и распределительность наследуются из целых чисел. В нём \([m]_m=[0]_m\), поэтому привычное число после перехода к классам может стать нулём.
-
-Все матрицы \(2\times2\) с действительными элементами образуют кольцо \(\mathrm M_2(\mathbb R)\). Ноль — нулевая матрица, единица — \(I_2=\begin{pmatrix}1&0\\0&1\end{pmatrix}\). Умножение матриц ассоциативно и распределительно, что видно из формулы сумм произведений их элементов: обе расстановки скобок дают сумму \(\sum_{k,l}a_{ik}b_{kl}c_{lj}\) в позиции \((i,j)\). При перестановке матриц произведение может измениться: соответствующий пример разбирается в задачах.
-
-\begin{theorem}[Следствия распределительности]\label{thm:legacy-c22-4}
-В любом кольце этой главы выполнены \(a0=0a=0\), \((-a)b=-(ab)\) и \((-a)(-b)=ab\).
+имеют одинаковые знаки, включая нуль. Здесь \(a,F,G\) могут зависеть от \(x\). При \(a>0,a\ne1\) одинаковые знаки имеют также
+\[
+a^U-a^V\quad\text{и}\quad(a-1)(U-V).
+\]
 \end{theorem}
-\begin{proof}
-Из \(a(0+0)=a0+a0\) и \(0+0=0\) получаем \(a0=a0+a0\). Сокращение в аддитивной группе даёт \(a0=0\). Аналогично \(0a=0\).
-Далее \(ab+(-a)b=(a+(-a))b=0b=0\), поэтому \((-a)b\) — противоположный к \(ab\). Аналогично \(a(-b)=-(ab)\). Двукратное применение этих равенств даёт \((-a)(-b)=-(-(ab))=ab\).
-\end{proof}
-
-\begin{definition}
-\term{Обратимый элемент кольца} (unit; invertible element) — элемент с двусторонним обратным по умножению. Ненулевой \(a\) — \term{делитель нуля} (zero divisor), если для некоторого ненулевого \(b\) выполнено \(ab=0\) или \(ba=0\). \term{Область целостности} (integral domain) — коммутативное кольцо с единицей \(1\ne0\) без делителей нуля.
-\end{definition}
-В \(\mathbb Z\) обратимы только \(1,-1\), но делителей нуля нет. В \(\mathbb Z/6\mathbb Z\) ненулевые классы \([2]_6\), \([3]_6\) дают нулевое произведение. Поэтому из \([2]_6x=[2]_6y\) нельзя всегда заключить \(x=y\).
-
-\section{Поле и возможность деления}
-\begin{definition}
-\term{Поле} (field) — коммутативное кольцо с единицей \(1\ne0\), в котором каждый ненулевой элемент обратим по умножению. Иначе говоря, ненулевые элементы поля образуют абелеву группу по умножению.
-\end{definition}
-Числа \(\mathbb Q\) и \(\mathbb R\) образуют поля. Целые \(\mathbb Z\) поля не образуют: у \(2\) нет целого обратного. Свойства рациональной арифметики из главы \ref{chap:c01} теперь получили короткое общее название. Аксиомы поля сами по себе не говорят о порядке или полноте: например, \(\mathbb Q\) — поле, но в нём нет числа с квадратом \(2\).
-
-\begin{theorem}[Нулевое произведение и сокращение в поле]\label{thm:legacy-c22-5}
-Если \(ab=0\) в поле, то \(a=0\) или \(b=0\). Если \(ac=bc\) и \(c\ne0\), то \(a=b\). В частности, каждое поле является областью целостности.
-\end{theorem}
-\begin{proof}
-При \(a\ne0\) умножение \(ab=0\) на \(a^{-1}\) даёт \(b=0\). При \(a=0\) первое утверждение уже выполнено. Для сокращения умножим \(ac=bc\) на \(c^{-1}\) и воспользуемся ассоциативностью. Коммутативность умножения входит в определение поля, поэтому оба свойства применимы ко всем элементам.
-\end{proof}
-
-\begin{theorem}[Поля вычетов]\label{thm:legacy-c22-6}
-Кольцо \(\mathbb Z/m\mathbb Z\), \(m\ge2\), является полем тогда и только тогда, когда \(m\) — простое число. При простом \(p\) это поле обозначают \(\mathbb F_p\).
-\end{theorem}
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[9]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-72.png}
+\begin{proof}Если \(a>1\), логарифм и степень строго возрастают, поэтому знак разности равен знаку разности аргументов или показателей; множитель \(a-1\) положителен. Если \(0<a<1\), обе функции строго убывают, а \(a-1<0\), что меняет оба знака. При равных аргументах либо показателях обе разности равны нулю.\end{proof}
+В частности, \(\log_a F>c\) сначала записывают как \(\log_a F-\log_a(a^c)>0\), а затем получают \((a-1)(F-a^c)>0\). Все исходные условия на \(a,F\) сохраняются. Аналогично работают знаки \(<,\leq,\geq\). В произведении или частном допустимо заменять отдельные множители выражениями того же знака; у знаменателя обязательно сохраняется запрет нуля. Сумма не определяется знаками слагаемых, поэтому механически заменять слагаемые внутри произвольной суммы нельзя.
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-226.png}
 \end{wrapfigure}
-\textit{Доказательство.} Если \(p\) простое, каждый ненулевой класс имеет представителя \(a\) с \(1\le a<p\). Тогда \(\gcd(a,p)=1\), и по критерию главы \ref{chap:c21} существует обратный к \(a\) по модулю \(p\). Все остальные аксиомы коммутативного кольца уже выполнены.
-Если \(m=uv\) составное, где \(1<u,v<m\), классы \([u]_m,[v]_m\) ненулевые, а их произведение \([m]_m\) нулевое. В поле это невозможно по предыдущей теореме. Значит, составной модуль поля не даёт.\hfill\(\blacksquare\)
+Переменное основание делит допустимую область на две части. В одной части основание больше единицы, в другой находится между нулём и единицей; точка основания, равного единице, всегда исключена. Прямой разбор этих частей и рационализация дают один результат, если их условия записаны полностью. Полезно сначала решить задачу двумя способами на простом примере и сравнить границы. После этого произведение, полученное рационализацией, читается обычным методом интервалов. Точки исчезнувших ограничений при этом продолжают отмечать отдельно. Даже если множитель сократился или стал квадратом, запрещённое основание не становится допустимым. Именно сохранение области определения превращает короткий приём в обоснованный метод решения.
 \par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<59mm\dp\CatFlowBox=\dimexpr59mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
+\begin{example}Решим \(\log_x(x+2)>2\). ОДЗ: \(x>0,x\ne1\). Рационализация даёт \((x-1)(x+2-x^2)>0\). Поскольку \(x+2-x^2=(2-x)(x+1)\), а \(x+1>0\), получаем \((x-1)(2-x)>0\). Ответ \((1;2)\). При прямом разборе \(0<x<1\) потребовалось бы \(x+2<x^2\), что невозможно; при \(x>1\) получаем тот же промежуток.\end{example}
 
-В \(\mathbb F_5\) можно делить на \([2]_5\), умножая на \([3]_5\). В \(\mathbb F_2\) выполнено \([1]_2+[1]_2=[0]_2\). Это не ошибка обычной арифметики, а арифметика другого множества. Упорядочить это поле так, чтобы одновременно сохранились обычные свойства порядка чисел, невозможно: из положительности \(1\) следовала бы положительность \(1+1=0\).
+\section{Системы и вложенные выражения}
+\begin{example}Решим систему \(\log_2(x-1)\geq1\), \((\frac12)^{x-5}\geq1\). Первое условие равносильно \(x-1\geq2\), то есть \(x\geq3\). Во втором основание меньше единицы, поэтому \(x-5\leq0\). Пересечение даёт \([3;5]\), на котором все выражения определены.\end{example}
+Для \(\log_2(\log_3(x-1))=1\) требуется \(x-1>0\) и \(\log_3(x-1)>0\); вместе это \(x>2\). Последовательно получаем \(\log_3(x-1)=2\), \(x-1=9\), \(x=10\). Систему логарифмических неравенств решают пересечением, совокупность — объединением; ни тот, ни другой переход не отменяет ОДЗ каждого исходного условия.
 
-\section{Когда две группы устроены одинаково}
-\begin{definition}
-\term{Гомоморфизм групп} (group homomorphism) из \((G,*)\) в \((H,\circ)\) — отображение \(\varphi:G\to H\), сохраняющее операцию: \(\varphi(a*b)=\varphi(a)\circ\varphi(b)\). Биективный гомоморфизм называют \term{изоморфизмом} (isomorphism); группы тогда \term{изоморфны} (isomorphic).
-\end{definition}
+В системе с двумя неизвестными замена может вводиться для каждого из них. Если \(u=2^x,v=2^y\), то \(u,v>0\), и каждой допустимой паре соответствует ровно одна пара \((x,y)\).
+\begin{example}Решим \(2^x+2^y=10\), \(2^{x+y}=16\). Для \(u=2^x,v=2^y\) получаем \(u+v=10,uv=16\). По Виету \(u,v\) являются корнями \(t^2-10t+16=0\), то есть \(2,8\) в любом порядке. Оба положительны; обратная подстановка даёт пары \((1,3)\), \((3,1)\).\end{example}
 
-\begin{theorem}[Образ нейтрального и обратного]\label{thm:legacy-c22-7}
-Гомоморфизм групп переводит нейтральный элемент в нейтральный и обратный элемент в обратный.
-\end{theorem}
-\begin{proof}
-Пусть \(e_G,e_H\) — нейтральные элементы. Из \(e_G*e_G=e_G\) следует \(\varphi(e_G)\circ\varphi(e_G)=\varphi(e_G)\). Сократим \(\varphi(e_G)\) в группе \(H\); получим \(\varphi(e_G)=e_H\). Далее \(\varphi(a)\circ\varphi(a^{-1})=\varphi(e_G)=e_H\), и аналогичное равенство получается в обратном порядке. Поэтому \(\varphi(a^{-1})\) — обратный к \(\varphi(a)\).
-\end{proof}
-Пример гомоморфизма: отправить каждое целое число в его класс по модулю \(5\). Сложение сохраняется, но числа \(0\) и \(5\) имеют один образ, поэтому изоморфизма нет. А отображение \(x\mapsto e^x\) задаёт изоморфизм между \((\mathbb R,+)\) и положительными действительными числами с умножением: оно биективно и \(e^{x+y}=e^xe^y\). Формулы экспоненты из главы \ref{chap:c14-exponential} описывают тем самым соответствие двух групп.
+\relax
+
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-272.png}
+\end{wrapfigure}
+Сложное логарифмическое неравенство решают на общей области определения исходной записи. Положительность каждого аргумента, допустимость основания и ненулевой знаменатель проверяют до сокращения и замены переменной. Затем различают равенства выражений и сохранение их знаков: выражения одинакового знака можно заменять в произведении или частном для изучения знака, но нельзя произвольно подменять слагаемые суммы. Если новые критические точки появились после преобразования, их сопоставляют с исходной областью. В итоговом ответе открытые и закрытые концы имеют разное происхождение: равенство в неравенстве может быть разрешено, а точка с нулевым знаменателем или аргументом логарифма всё равно исключается.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<58mm\dp\CatFlowBox=\dimexpr58mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
+\relax
+\section{Логарифмическое неравенство: вся цепочка ограничений}
+\begin{example}[Полиномиальные аргументы и дробная правая часть]\label{ex:review-ege-exam-exponential-1}
+Решим
+\[
+\log_3(x^2+4)-\log_3(x^2+x+1)
+\ge\log_3\frac{x+3}{x+2}.
+\]
+Первый аргумент положителен при любом \(x\), второй равен \((x+\frac12)^2+\frac34>0\). Для правого аргумента требуется \(\frac{x+3}{x+2}>0\), то есть \(x<-3\) или \(x>-2\). Это исходная ОДЗ; точки \(-3,-2\) не могут вернуться в ответ после преобразований.
+На ОДЗ объединим разность логарифмов и используем возрастание логарифма по основанию \(3\):
+\[
+\frac{x^2+4}{x^2+x+1}\ge\frac{x+3}{x+2},
+\qquad
+\frac{5-2x^2}{(x^2+x+1)(x+2)}\ge0.
+\]
+Положительный множитель \(x^2+x+1\) знак не меняет. Остались нули \(\pm\frac{\sqrt{10}}2\) и полюс \(-2\). Метод интервалов даёт \(( -\infty;-2)\cup[-\frac{\sqrt{10}}2;\frac{\sqrt{10}}2]\). Пересекаем именно с исходной ОДЗ:
+\[
+\boxed{\ x\in(-\infty;-3)\cup
+[-\tfrac{\sqrt{10}}2;\tfrac{\sqrt{10}}2]\ }.
+\]
+Нули числителя включены, потому что знак нестрогий; точка \(-3\) исключена, потому что исходный логарифм нуля не существует.
+\end{example}
+
+\begin{example}[Сокращение не устраняет выколотую точку]\label{ex:review-ege-exam-exponential-2}
+Решим
+\[
+\frac{(\log_2x)^2-4\log_2x+3}{\log_4x-\frac32}\ge0.
+\]
+ОДЗ: \(x>0\) и \(\log_2x\ne3\). При \(t=\log_2x\) получаем
+\[
+\frac{(t-1)(t-3)}{(t-3)/2}\ge0,
+\qquad t\ne3.
+\]
+На этой области дробь равна \(2(t-1)\); следовательно, \(t\ge1\), \(t\ne3\). Обратный переход строго возрастает: \(x=2^t\). Ответ \([2;8)\cup(8;+\infty)\). Включение \(x=8\) после сокращения было бы ошибкой.
+\end{example}
+В составной задаче удобно вести два списка: ограничения исходной записи и ограничения конкретной замены. Замена \(t=a^x\) всегда требует \(t>0\); замена \(t=\log_a x\) при фиксированном допустимом основании принимает все действительные значения. Нулевой знаменатель исключается до сокращения, а при возврате к \(x\) учитывается направление монотонности.
+
+\begin{example}[Показатель в числителе, многочлен в знаменателе]\label{ex:review-ege-exam-exponential-3}
+Решим \(\frac{8^x-6\cdot4^x+12\cdot2^x-8}{(2x-3)^2}\ge0\). Знаменатель положителен при \(x\ne\frac32\). В числителе узнаём \((2^x-2)^3\). Его знак совпадает со знаком \(2^x-2\), значит, он неотрицателен при \(x\ge1\). Ответ \([1;\frac32)\cup(\frac32;+\infty)\). Замена \(t=2^x\) помогает разложить числитель, но заменять \((2x-3)^2\) на \((2t-3)^2\) нельзя: это другая функция. Нули и полюса обеих частей нужно совместить на одной оси \(x\).
+\end{example}
 
 \Needspace{7\baselineskip}\section*{Задачи}
-\begingroup\setlength{\parskip}{2pt}
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.1.} Является ли вычитание бинарной операцией на \(\mathbb N_0\)? А на \(\mathbb Z\)?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.2.} Определи, является ли \((\mathbb N_0,+)\) полугруппой, моноидом и группой.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.3.} Образуют ли положительные натуральные числа группу по сложению? Есть ли нейтральный элемент в этом множестве?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.4.} Проверь аксиомы группы для ненулевых рациональных чисел с обычным умножением.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.5.} Почему \((\mathbb Q,\cdot)\) является моноидом, но не группой?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.6.}\starmark{} На \(\mathbb Z\) задано \(a*b=a+b+1\). Найди нейтральный элемент, обратный к \(a\) и проверь, получается ли группа.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.7.} Дай конкретный контрпример ассоциативности операции \(a*b=a-b\) на \(\mathbb Z\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.8.} Вычисли \(UV\) и \(VU\) для \(U=\begin{pmatrix}1&1\\0&1\end{pmatrix}\), \(V=\begin{pmatrix}1&0\\1&1\end{pmatrix}\). Сделай вывод о коммутативности умножения матриц.\par\end{minipage}\par
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[13]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-65.png}
+\begingroup\setlength{\parskip}{1pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.1.} Реши \(5^{2x-1}=125\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.2.} Реши \((\dfrac14)^{x+1}=8\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.3.} Реши \(3^{x^2-4x}\geq1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.4.} Реши \((\dfrac15)^{x^2-3x+2}<1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.5.} Реши \(9^x-12\cdot3^x+27=0\).\par\end{minipage}\par
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-228.png}
 \end{wrapfigure}
-\textbf{23.9.} Перестановка \(c\) переводит \(1\) в \(2\), \(2\) в \(3\), \(3\) в \(1\). Найди \(c^2,c^3,c^{-1}\), где степень означает композицию.\par
+\textbf{23.6.} Реши \(4^x-6\cdot2^x+8\leq0\).\par
 
-\textbf{23.10.} Квадратную карточку три раза повернули на \(90^\circ\) против часовой стрелки. Какой один поворот даёт тот же результат? Какой поворот отменяет один поворот на \(90^\circ\)?\par
+\textbf{23.7.} Реши \(2^{x+1}+2^x=24\).\par
 
-\textbf{23.11.} Робот перемещается по целочисленной прямой. Сдвиг \(T_k\) задаётся \(T_k(x)=x+k\). Найди композицию \(T_8\circ T_{-3}\), нейтральный сдвиг и обратный к \(T_8\).\par
+\textbf{23.8.}\starmark{} Реши \(2^x+2^{-x}=\dfrac52\).\par
 
-\textbf{23.12.} В недельном расписании действие сдвигает день на \(3\) вперёд. Какое действие его отменяет? На сколько дней вперёд сдвинут три последовательных применения?\par
-
-\textbf{23.13.} Найди все обратимые элементы кольца \(\mathbb Z\). Докажи полноту ответа.\par
-
-\textbf{23.14.} Покажи, что в \(\mathbb Z/6\mathbb Z\) есть ненулевые делители нуля.\par
-
-\textbf{23.15.} В поле \(\mathbb F_5\) найди обратные ко всем четырём ненулевым классам.\par
+\textbf{23.9.} Реши \(3^{2x}-2\cdot3^x-3>0\).\par
 \par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<58mm\dp\CatFlowBox=\dimexpr58mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
 
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.16.} Почему \(\mathbb Z/4\mathbb Z\) не поле? Покажи препятствие на одном классе.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.17.} Реши \(2x=1\) в \(\mathbb Z\), в \(\mathbb Q\) и в \(\mathbb F_5\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.18.} Используя только аксиомы поля, докажи: из \(ab=0\) и \(a\ne0\) следует \(b=0\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.19.} Проверь, является ли \(\varphi:\mathbb Z\to\mathbb Z/5\mathbb Z\), \(\varphi(n)=[n]_5\), гомоморфизмом по сложению. Инъективен ли он? Сюръективен ли?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.20.} Проверь, задаёт ли \(\varphi(n)=2n\) гомоморфизм \((\mathbb Z,+)\to(\mathbb Z,+)\). Является ли он изоморфизмом?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.21.} Обоснуй, что \(x\mapsto e^x\) — изоморфизм между сложением на \(\mathbb R\) и умножением на положительных действительных числах.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.22.} Докажи единственность нейтрального элемента, не используя числовых примеров.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.23.} Пусть \(b,c\) — двусторонние обратные к \(a\) в моноиде. Докажи \(b=c\), не меняя порядок множителей.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.24.} Редактор сначала удваивает числовую настройку, затем прибавляет \(3\). Сравни это с обратным порядком. Запиши соответствующие композиции \(f(x)=2x\), \(g(x)=x+3\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.25.}\starmark{} На \(S=\mathbb R\setminus\{-1\}\) задано \(a*b=a+b+ab\). Докажи, что это абелева группа. Найди нейтральный и обратные, используя \(1+(a*b)=(1+a)(1+b)\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.26.}\starmark{} Реши \(x^2=x\) в произвольном поле и в кольце \(\mathbb Z/6\mathbb Z\). Почему ответы могут различаться?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.27.}\starmark{} Выведи формулу \((a+b)^2=a^2+2ab+b^2\) в коммутативном кольце. Здесь \(2ab=ab+ab\). Какую формулу нужно оставить без коммутативности?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{23.28.}\starmark{} В \(S_3\) перестановка \(s\) меняет \(1,2\), а \(t\) меняет \(2,3\). Найди \((s\circ t)(1)\) и \((t\circ s)(1)\), затем докажи некоммутативность \(S_3\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.10.} Реши \(\log_3(2x-1)=2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.11.} Реши \(\log_{\dfrac12}(x+2)=-2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.12.} Реши \(\log_2(x-1)+\log_2(x+1)=4\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.13.} Реши \(\log_3(x+4)-\log_3(x-2)=1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.14.} Реши \((\log_2x)^2-3\log_2x+2=0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.15.} Реши \(\log_{\dfrac12}(3-x)\geq-1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.16.}\starmark{} Реши \(\log_2\dfrac{x-1}{x+1}\geq0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.17.}\starmark{} Реши \(\log_2(x^2-4)\leq0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.18.} Реши \(\log_x9=2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.19.} Реши \(\log_{x-1}(x+3)=1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.20.}\starmark{} Реши \(\log_x(x+2)>2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.21.}\starmark{} Реши \(\log_{x+1}(x+3)\geq1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.22.}\starmark{} Реши \(\log_{x+2}(x^2)>0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.23.} Реши систему \(2^x\leq8\), \(\log_2(x-1)>0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.24.} Реши систему \(\log_{\dfrac12}(x-1)\leq-1\), \(\log_2(5-x)\geq0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.25.}\starmark{} Реши \(\log_2(\log_3(x-1))=1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.26.} Реши \(2^{\log_2(x-1)}+\log_2 4=5\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.27.} Реши \(\log_2((x-1)^2)=2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.28.}\starmark{} Реши \(\dfrac{\log_2(x-1)}{\log_2(x+1)}\geq0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.29.}\starmark{} Реши \(\dfrac{\log_2x-1}{\log_2x+1}\geq0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.30.}\starmark{} Реши систему \(2^x+2^y=12\), \(2^{x+y}=32\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.31.}\starmark{} Реши систему \(\log_2x+\log_2y=3\), \(x+y=6\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.32.}\starmark{} Реши \(\log_2(x^2+3)-\log_2(x^2+x+1)\ge\log_2\dfrac{x+2}{x+1}\), явно выписав исходную ОДЗ.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.33.}\starmark{} Реши \(\dfrac{(\log_2x)^2-3\log_2x+2}{\log_4x-1}\ge0\). Объясни, какая точка остаётся запрещённой после сокращения.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.34.}\starmark{} Реши \(\log_{x-1}(x^2-4x+5)\ge1\). Отдельно укажи ограничения на основание.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.35.}\starmark{} Реши \(\dfrac{9^x-10\cdot3^x+9}{3^x-3}\le0\) через показательную замену.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.36.}\starmark{} Реши \(\dfrac{\log_2(\log_3(x-1))}{\log_2(x-1)-1}\ge0\), сохранив условия существования вложенного логарифма.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{23.37.}\starmark{} Реши \(\dfrac{27^x-12\cdot9^x+48\cdot3^x-64}{(3x-2)^2}\le0\). Объясни, почему знаменатель нельзя переписать как \((3t-2)^2\) при \(t=3^x\).\par\end{minipage}\par
 \endgroup

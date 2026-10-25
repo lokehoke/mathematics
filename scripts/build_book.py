@@ -1,7 +1,7 @@
 """Assemble, compile, check and publish the textbook PDF from the repository."""
 from pathlib import Path
 from collections import Counter
-import argparse,shutil,subprocess,sys,json,hashlib
+import argparse,shutil,subprocess,sys,json,hashlib,re
 import pdfplumber
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -14,6 +14,8 @@ args=parser.parse_args()
 subprocess.run([sys.executable,str(ROOT/'scripts/make_symbols.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/assemble_book.py')],check=True)
 subprocess.run([args.tectonic,'--keep-logs','--keep-intermediates','main.tex'],cwd=BOOK,check=True)
+log=(BOOK/'main.log').read_text()
+assert not re.search(r'Overfull|Undefined control sequence|undefined references|Missing character',log,re.I), 'Fix TeX layout, unresolved references or missing glyphs before publishing'
 subprocess.run([sys.executable,str(ROOT/'scripts/verify_book_layout.py')],check=True)
 target=ROOT/'rendered/algebra-for-beloved-kitten.pdf'
 gs=shutil.which('gs')

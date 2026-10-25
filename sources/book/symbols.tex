@@ -209,8 +209,12 @@
 \tablemath{\mathcal P_m}&пространство многочленов&Многочлены степени не выше \(m\), включая нулевой многочлен.\\\hline
 \tablemath{A^{\mathrm T}}&транспонированная матрица&Строки и столбцы меняются местами.\\\hline
 \tablemath{\operatorname{diag}(\ldots)}&диагональная матрица&Указанные элементы на диагонали, нули вне диагонали.\\\hline
-\tablemath{\chi_A(t)}&характеристический многочлен&В главе 27 используется соглашение \(\det(tI-A)\); корни — собственные значения.\\\hline
+\tablemath{\chi_A(t)}&характеристический многочлен&В главе \ref{chap:c27} используется соглашение \(\det(tI-A)\); корни --- собственные значения.\\\hline
 \tablemath{E_\lambda}&собственное подпространство&\(\ker(A-\lambda I)\); включает нулевой вектор.\\\hline
+\tablemath{\operatorname{proj}_U x}&проекция на подпространство&Ортогональная проекция вектора на подпространство \(U\).\\\hline
+\tablemath{A=U\Sigma V^{\mathrm T}}&сингулярное разложение&SVD: ортогональные матрицы по краям и прямоугольная диагональная матрица сингулярных значений.\\\hline
+\tablemath{\sigma_i(A)}&сингулярное значение&Неотрицательный квадратный корень соответствующего собственного значения \(A^{\mathrm T}A\), с учётом размера матрицы.\\\hline
+\tablemath{\mathbb R^{m\times n}}&вещественные матрицы&Множество матриц из действительных чисел с \(m\) строками и \(n\) столбцами.\\\hline
 \end{longtable}
 \Needspace{12\baselineskip}\section*{Предел функции и производная}
 \begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
@@ -373,6 +377,7 @@
 \tablemath{\operatorname{Exp}(\lambda)}&показательное распределение&Закон неотрицательного времени ожидания с экспоненциальным хвостом.\\\hline
 \tablemath{\operatorname N(\mu,\sigma^2)}&нормальное распределение&Гауссов закон с указанными средним и положительной дисперсией.\\\hline
 \tablemath{\Phi(t)}&фи от тэ&Функция распределения стандартной нормали; это стандартное имя функции, а не произвольная константа.\\\hline
+\tablemath{f*g}&свёртка плотностей&Функция \((f*g)(t)=\int_{\mathbb R}f(x)g(t-x)\,dx\), когда интеграл определён. Для независимых величин задаёт плотность их суммы.\\\hline
 \end{longtable}
 \Needspace{12\baselineskip}\section*{Математическая статистика}
 \begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
@@ -391,5 +396,32 @@
 \tablemath{p\text{-value}}&пэ-значение&Вероятность столь же или более крайнего результата при нулевой модели.\\\hline
 \tablemath{r}&корреляция Пирсона&Нормированная сумма произведений центрированных наблюдений; это принятое имя статистики.\\\hline
 \tablemath{\widehat y=a+bx}&прямая регрессии&Линейное предсказание, построенное методом наименьших квадратов.\\\hline
+\end{longtable}
+\Needspace{12\baselineskip}\section*{Графы и направленное округление}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\tablemath{\lfloor x\rfloor}&целая часть снизу; floor&Наибольшее целое число, не превосходящее x.\\\hline
+\tablemath{\lceil x\rceil}&целая часть сверху; ceiling&Наименьшее целое число, не меньшее x.\\\hline
+\tablemath{G=(V,E)}&граф; graph&V — вершины, E — рёбра. Направления и веса задаются отдельно.\\\hline
+\tablemath{\deg v}&степень вершины; vertex degree&Количество концов рёбер в вершине v; петля считается дважды.\\\hline
+\tablemath{K_n}&полный граф; complete graph&Простой граф, в котором соединена каждая пара разных вершин.\\\hline
+\tablemath{K_{m,n}}&полный двудольный граф; complete bipartite graph&Все m вершин первой доли соединены со всеми n вершинами второй.\\\hline
+\tablemath{A_G}&матрица смежности; adjacency matrix&В главе о графах элемент равен 1 при наличии ребра (дуги) и 0 иначе.\\\hline
+\end{longtable}
+\Needspace{12\baselineskip}\section*{Оптимизация и машинное обучение}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{.21\textwidth}|>{\raggedright\arraybackslash}p{.27\textwidth}|>{\raggedright\arraybackslash}p{.46\textwidth}|}
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endfirsthead
+\hline\textbf{Обозначение}&\textbf{Как читать}&\textbf{Значение}\\\hline\endhead
+\hline\endfoot
+\hline\endlastfoot
+\tablemath{\underset{x}{\operatorname{arg\,min}}\,f(x)}&аргумент минимума&Множество точек, в которых функция достигает наименьшего значения; если такая точка одна, записью часто обозначают её.\\\hline
+\tablemath{\ell(\widehat y,y)}&функция потерь&Численная мера ошибки предсказания \(\widehat y\) относительно наблюдаемого ответа \(y\).\\\hline
+\tablemath{\sigma(t)=\frac1{1+e^{-t}}}&сигмоида&Логистическая функция с действительным аргументом и значениями между нулём и единицей.\\\hline
+\tablemath{\rho(t)=\max(0,t)}&рэлу; ReLU&Выпрямленная линейная функция; к векторам применяется покоординатно.\\\hline
+\tablemath{\nabla_W L}&градиент по матрице&Матрица частных производных скалярной потери по всем элементам \(W\).\\\hline
+\tablemath{a\odot b}&покоординатное произведение&Векторы одной размерности перемножаются по соответствующим координатам.\\\hline
 \end{longtable}
 \endgroup

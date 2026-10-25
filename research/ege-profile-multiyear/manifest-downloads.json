@@ -1,0 +1,324 @@
+[
+  {
+    "year": 2022,
+    "url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+    "archive_sha256": "6858c526d6584ab0e53be233e307ccd6ac29d9127f9fa407a69bcbee440ee8f5",
+    "files": [
+      {
+        "archive_member": "МА/МА-11 ЕГЭ 2022 ДЕМО_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2022/1.pdf",
+        "sha256": "8b2c6fe0e36eb1d3a749af08cd035b142ea5e7099dbdf9a14e4ff1617470e207",
+        "bytes": 1822679
+      },
+      {
+        "archive_member": "МА/МА-11 ЕГЭ 2022 ДЕМО_проф.pdf",
+        "path": "research/ege-profile-multiyear/2022/2.pdf",
+        "sha256": "14f2039ed7820fb74f0d98269d8add25041a1668b094b173852ea00fb15a36aa",
+        "bytes": 1700090
+      },
+      {
+        "archive_member": "МА/МА-11 ЕГЭ 2022 СПЕЦ_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2022/3.pdf",
+        "sha256": "6480c1fffd0c2a09e9447d21b44f3a683b83aaa251f5f8c55ceb21a00c92fe9b",
+        "bytes": 1546975
+      },
+      {
+        "archive_member": "МА/МА-11 ЕГЭ 2022 СПЕЦ_проф.pdf",
+        "path": "research/ege-profile-multiyear/2022/4.pdf",
+        "sha256": "2fd58196fa673160f197dd119a19b298dd2d41ee084e0c4622faad86eb07e8d2",
+        "bytes": 1712854
+      },
+      {
+        "archive_member": "МА/МА-11 ЕГЭ 2022_КОДИФ.pdf",
+        "path": "research/ege-profile-multiyear/2022/5.pdf",
+        "sha256": "28888224281fd2178f600b959e652237f3d34f80afe5b2875a9d06a6b4804813",
+        "bytes": 1734001
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "year": 2023,
+    "url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+    "archive_sha256": "1a92fab94b64e0ad8f7e74dec6e68f1048e8ebb357665b0e70d87bcf2c0252f1",
+    "files": [
+      {
+        "archive_member": "МА-11 ЕГЭ 2023 ДЕМО_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2023/1.pdf",
+        "sha256": "a43815ea02387b0c6df15d474c73e3f51f2ee7b0741d37ed4a6efa76d84371ab",
+        "bytes": 1092060
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2023 ДЕМО_проф.pdf",
+        "path": "research/ege-profile-multiyear/2023/2.pdf",
+        "sha256": "9278f5cc60388da2ed63eaa946c82e0902f0867047fc9b5ea6051bae16e3b6b2",
+        "bytes": 964534
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2023 СПЕЦ_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2023/3.pdf",
+        "sha256": "c886dcfc9c4307d01053f4012b87e0c0486e6fcd650ac9236728a03a3123a29f",
+        "bytes": 802148
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2023 СПЕЦ_профильный.pdf",
+        "path": "research/ege-profile-multiyear/2023/4.pdf",
+        "sha256": "a960947267c29db18561f4ddf36b78e8385e9833fa47a4d8240f7328b80a36d3",
+        "bytes": 952993
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2023_КОДИФ.pdf",
+        "path": "research/ege-profile-multiyear/2023/5.pdf",
+        "sha256": "e75a596e2d1b8e76f99d2cf717f1269a247725a40cfac9e6bf305d8bb131c087",
+        "bytes": 1000016
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "year": 2024,
+    "url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+    "archive_sha256": "e818b3d928e9694acd83b1040027fc0dbcff52013c21af986e9cdd5a9b3ebce0",
+    "files": [
+      {
+        "archive_member": "МА-11 ЕГЭ 2024 ДЕМО_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2024/1.pdf",
+        "sha256": "7e7111654239dbf17c73786bccc9109f2f0f05d80039cfdeca114e83f67f5546",
+        "bytes": 735361
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2024 ДЕМО_профильный.pdf",
+        "path": "research/ege-profile-multiyear/2024/2.pdf",
+        "sha256": "89698a59be7da5c5f6c628f752a6810534888c423cae31a181ef743c910c1ae3",
+        "bytes": 684418
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2024 СПЕЦ_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2024/3.pdf",
+        "sha256": "df70f8fa0496b4f9ff28c419dfc01106d3f76b1bbef79981c9027074560f447a",
+        "bytes": 476581
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2024 СПЕЦ_профильный.pdf",
+        "path": "research/ege-profile-multiyear/2024/4.pdf",
+        "sha256": "5a03e1718d71da2f6a90ca3f609b686b5aa924f90cd675afe601c0ff70b44628",
+        "bytes": 626865
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2024_КОДИФ.pdf",
+        "path": "research/ege-profile-multiyear/2024/5.pdf",
+        "sha256": "2f636e03007a998e8d733b0e51f177e83eef345f6edc26dba49adfed3a9a655f",
+        "bytes": 755283
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "year": 2025,
+    "url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+    "archive_sha256": "06fff5c4a98079ab04d78c3fedb409f6d9dee22d2a363dcc5bf26b2cd2165a1f",
+    "files": [
+      {
+        "archive_member": "МА-11 ЕГЭ 2025 ДЕМО_профильный.pdf",
+        "path": "research/ege-profile-multiyear/2025/1.pdf",
+        "sha256": "d588a28792d716468d4a49293fa61a5d9e10b67124993264be0bca10a9ee04b6",
+        "bytes": 708164
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2025 СПЕЦ_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2025/2.pdf",
+        "sha256": "a700c678ff72b988f27460337933958524e00867813cfdc0a45d6c761d5acc8e",
+        "bytes": 494153
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2025 СПЕЦ_профильный.pdf",
+        "path": "research/ege-profile-multiyear/2025/3.pdf",
+        "sha256": "506df0835b17534f47dd2ae2182302119b85c4530515230a85ab5044824a64a7",
+        "bytes": 539128
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2025_КОДИФ.pdf",
+        "path": "research/ege-profile-multiyear/2025/4.pdf",
+        "sha256": "4fad4e4701ce5bc5de7b483d394d17cc110fe33e5a5cae3b3054a9e7d27cf5cd",
+        "bytes": 746379
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2025 ДЕМО_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2025/5.pdf",
+        "sha256": "817197ea4ee8615322beacc1d2dace379f9da593e0f38b48cebc08d8be8ac452",
+        "bytes": 1008934
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "year": 2026,
+    "url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+    "archive_sha256": "d2c8475de61f1e7dac5ee1e4d3950998c55275f17a66b821a510da585920aead",
+    "files": [
+      {
+        "archive_member": "МА-11 ЕГЭ 2026 СПЕЦ_профильный.pdf",
+        "path": "research/ege-profile-multiyear/2026/1.pdf",
+        "sha256": "c2714491179edf7a4705c50c7aceb870b13eb5ca78c45e908ece6a9dfddf4bb4",
+        "bytes": 636070
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2026_КОДИФ.pdf",
+        "path": "research/ege-profile-multiyear/2026/2.pdf",
+        "sha256": "77fb404746a86067449b77223ce4ea950f87bec776c78de3d0279f9d947e17c3",
+        "bytes": 836218
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2026 СПЕЦ_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2026/3.pdf",
+        "sha256": "fc78e609f0668cc65b73d070e998c30f3d44e09d8dda9ba1874cb59d9747aaac",
+        "bytes": 595577
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2026 ДЕМО_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2026/4.pdf",
+        "sha256": "e5fc404729bfa3809b34f4cf481bc794cc13b455fa22e041b608421935a2cf57",
+        "bytes": 875874
+      },
+      {
+        "archive_member": "МА-11 ЕГЭ 2026 ДЕМО_профильный.pdf",
+        "path": "research/ege-profile-multiyear/2026/5.pdf",
+        "sha256": "f223ca76f3c703d136f05e7f197e8fb8bc7a8925b89b1bef533a58e99a5413d5",
+        "bytes": 871125
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "year": 2021,
+    "url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+    "archive_sha256": "ef3bae9ec843b4a371e3c510d3b5b0a360804b4d1de6988bf7314c1fd372ecf6",
+    "files": [
+      {
+        "archive_member": "ma-ege-2021/МА-11 ЕГЭ 2021_ДЕМО_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2021/1.pdf",
+        "sha256": "ced1771d7f3ea41d7efe4f34df91e34453302742a193cb56ef8a1794218fcc06",
+        "bytes": 734568
+      },
+      {
+        "archive_member": "ma-ege-2021/МА-11 ЕГЭ 2021_ДЕМО_проф.pdf",
+        "path": "research/ege-profile-multiyear/2021/2.pdf",
+        "sha256": "64260b43a7e32f971311690f4a1e3f07c5c103cc2be84bcc2dc5df0d31f17369",
+        "bytes": 797113
+      },
+      {
+        "archive_member": "ma-ege-2021/МА-11 ЕГЭ 2021_СПЕЦ_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2021/3.pdf",
+        "sha256": "a40634a97d2124f3c94324e26afaa9cea389d776be5844f66fdb22be3d123cf0",
+        "bytes": 530187
+      },
+      {
+        "archive_member": "ma-ege-2021/МА-11 ЕГЭ 2021_СПЕЦ_проф.pdf",
+        "path": "research/ege-profile-multiyear/2021/4.pdf",
+        "sha256": "b8e83eb5ed7b9b322016ecd8c122446e9afb161f1879b0bc06f6ffc0e78928f4",
+        "bytes": 556348
+      },
+      {
+        "archive_member": "ma-ege-2021/МА_КТ 2021.pdf",
+        "path": "research/ege-profile-multiyear/2021/5.pdf",
+        "sha256": "1a13550df9be8de6cf95be1113bdc4c895e7559ffd43b5c31853308260b643bd",
+        "bytes": 478271
+      },
+      {
+        "archive_member": "ma-ege-2021/МА_КЭС_2021.pdf",
+        "path": "research/ege-profile-multiyear/2021/6.pdf",
+        "sha256": "b2fcd2538ee80847612ba19e86f14e9f655d9f470e4835ea7294b55bf500b10f",
+        "bytes": 818924
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "year": 2020,
+    "url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+    "archive_sha256": "b31932a2f3301206b0ba5548eab7846c794e4dd25ba7564eae8f9b6ffcba7f91",
+    "files": [
+      {
+        "archive_member": "МА_КЭС_2020.pdf",
+        "path": "research/ege-profile-multiyear/2020/1.pdf",
+        "sha256": "578d146a195412b44be3f7f2ae6b9b56b7cf6c8790645e7e6c8e8bca522f8680",
+        "bytes": 984751
+      },
+      {
+        "archive_member": "Базовый уровень/МА-11 ЕГЭ 2020_ДЕМО_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2020/2.pdf",
+        "sha256": "fc91bd6752c1b00f8273cd16ec3982b3e328dac4c22a2db6be9ea8ebba546d0c",
+        "bytes": 1157234
+      },
+      {
+        "archive_member": "Базовый уровень/МА-11 ЕГЭ 2020_СПЕЦ_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2020/3.pdf",
+        "sha256": "a84bf7c077ae3705ec7b04603487c4f756ba51307901a90bfa853a39f640f38c",
+        "bytes": 971658
+      },
+      {
+        "archive_member": "Профильный уровень/МА-11 ЕГЭ 2020_ДЕМО_проф.pdf",
+        "path": "research/ege-profile-multiyear/2020/4.pdf",
+        "sha256": "6eb1408d88e8f776b6addd71641626b4356e6eaa42848d68f15dfe81d5f94504",
+        "bytes": 1176446
+      },
+      {
+        "archive_member": "Профильный уровень/МА-11 ЕГЭ 2020_СПЕЦ_проф.pdf",
+        "path": "research/ege-profile-multiyear/2020/5.pdf",
+        "sha256": "cdd7b3baded91a0ebc6132302de43da5bf6995ffac0395c749fc0c12cda6da78",
+        "bytes": 1015032
+      },
+      {
+        "archive_member": "МА_КТ 2020.pdf",
+        "path": "research/ege-profile-multiyear/2020/6.pdf",
+        "sha256": "5112ef63dc605780a30f40e3798376be9ebb8c1e69cfe819d1bfb15251e5d245",
+        "bytes": 930437
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "year": 2019,
+    "url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2019/ma_ege_2019.zip",
+    "archive_sha256": "6b94e62e9322343f0d8cea01d5736bb4b02e862854ba1d74770f9e875b2ff425",
+    "files": [
+      {
+        "archive_member": "2-Профильная/МА_ДЕМО_2019_проф.pdf",
+        "path": "research/ege-profile-multiyear/2019/1.pdf",
+        "sha256": "885ed2e8e6e2c55d0212b84a9acbe2e39d248610d62afde518ab5fafef17c796",
+        "bytes": 702900
+      },
+      {
+        "archive_member": "2-Профильная/МА_СПЕЦ 2019_проф.pdf",
+        "path": "research/ege-profile-multiyear/2019/2.pdf",
+        "sha256": "ed21e9565c0fb1afba0ccf035d42c214dc6e58ec09333b7fb262a70474913d67",
+        "bytes": 533883
+      },
+      {
+        "archive_member": "МА_КТ 2019.pdf",
+        "path": "research/ege-profile-multiyear/2019/3.pdf",
+        "sha256": "09d971d6adaa0909e70a99c90ee903543e58080b6570bf11a92066d3a184e399",
+        "bytes": 465390
+      },
+      {
+        "archive_member": "МА_КЭС_2019.pdf",
+        "path": "research/ege-profile-multiyear/2019/4.pdf",
+        "sha256": "ce9e3abc69fe0364572efa5d8376be5d8ff09132253f75b9f7707e7ff50d331e",
+        "bytes": 914244
+      },
+      {
+        "archive_member": "1-Базовая/МА_ДЕМО 2019_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2019/5.pdf",
+        "sha256": "c3ee893c6dd89c06fb0797966106b59710931e749f0e0e63b5b51fb5d09c36e1",
+        "bytes": 695297
+      },
+      {
+        "archive_member": "1-Базовая/МА_СПЕЦ 2019_базовый.pdf",
+        "path": "research/ege-profile-multiyear/2019/6.pdf",
+        "sha256": "41a8d44aa6a010ab34da1f998dd7004209786caf343f55ba2ea64989f9130a76",
+        "bytes": 521298
+      }
+    ],
+    "status": "downloaded"
+  }
+]

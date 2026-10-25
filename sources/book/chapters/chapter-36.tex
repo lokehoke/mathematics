@@ -1,128 +1,177 @@
-\chapter{Теория вероятностей: события, условия и независимость}\label{chap:probability}\markright{Глава 36}
-
-\section{Исходы, события и вероятность}
-\begin{definition}\term{Пространство элементарных исходов} (\emph{sample space}) \(\Omega\) — множество возможных результатов опыта. \par\term{Событие} (\emph{event}) — допустимое подмножество исходов. В конечной модели допустимы все подмножества \(\Omega\).\end{definition}
-\begin{definition}\term{Сигма-алгебра событий} (\emph{sigma-algebra}) \(\mathcal F\) содержит \(\Omega\), дополнения своих элементов и счётные объединения своих элементов. Это точное условие на допустимые события в общей, в том числе непрерывной модели.\end{definition}
-\begin{definition}\term{Вероятность} (\emph{probability}) — функция \(\mathbb P\) на событиях, для которой \(\mathbb P(A)\ge0\), \(\mathbb P(\Omega)=1\) и для попарно непересекающихся событий \(\mathbb P(\bigcup_{j=1}^\infty A_j)=\sum_{j=1}^\infty\mathbb P(A_j)\). \par\term{Вероятностное пространство} (\emph{probability space}) — тройка \((\Omega,\mathcal F,\mathbb P)\), удовлетворяющая указанным условиям.\end{definition}
+\chapter{Собственные значения и квадратичные формы}\label{chap:c27}\markright{Глава 36}
+\section{Направления, которые сохраняет преобразование}
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
 \begin{wrapfigure}[11]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-166.png}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-108.png}
 \end{wrapfigure}
-Случайность описывается моделью, а не одним списком возможных ответов. При броске двух честных кубиков равновероятны 36 упорядоченных пар, а не 11 возможных сумм. Сумма \(7\) встречается чаще суммы \(2\), потому что ей соответствует больше пар. Формула «благоприятные исходы, делённые на все исходы» применима только после проверки равновероятности.
+Матрица обычно меняет и длину, и направление вектора. Однако некоторые направления могут сохраняться: образ вектора оказывается на той же прямой. Найти такие направления — значит выделить простейшие составляющие преобразования. Если из них удаётся составить базис, повторное применение матрицы сводится к возведению нескольких чисел в степень.
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\begin{definition}\term{Классическая конечная модель} (\emph{equally likely finite model}) имеет \(N\) равновероятных исходов: \(\mathbb P(A)=\frac{|A|}{N}\). \par\term{Противоположное событие} (\emph{complementary event}) \(A^c=\Omega\setminus A\).\end{definition}
-\begin{theorem}[Следствия аксиом вероятности]
-\(\mathbb P(\varnothing)=0\), \(0\le\mathbb P(A)\le1\), \(\mathbb P(A^c)=1-\mathbb P(A)\). Если \(A\subseteq B\), то \(\mathbb P(A)\le\mathbb P(B)\). Для любых \(A,B\)
+\begin{definition}\term{Собственный вектор} (\emph{eigenvector}) линейного оператора \(A:V\to V\) — ненулевой \(v\), для которого \(Av=\lambda v\). Скаляру \(\lambda\) соответствует название \par \term{собственное значение} (\emph{eigenvalue}). Поле скаляров указывается заранее.\end{definition}
+\begin{definition}\term{Собственное подпространство} (\emph{eigenspace}) для \(\lambda\) — \(E_\lambda=\ker(A-\lambda I)\), включая нулевой вектор. При собственном значении это подпространство ненулевое.\end{definition}
+\begin{theorem}[Поиск в размерности два]\label{thm:legacy-c27-1}
+Для \(A=\begin{pmatrix}a&b\\c&d\end{pmatrix}\) собственные значения — решения
 \[
-\mathbb P(A\cup B)=\mathbb P(A)+\mathbb P(B)-\mathbb P(A\cap B).
+\chi_A(\lambda)=\det(\lambda I-A)=\lambda^2-(a+d)\lambda+ad-bc=0.
 \]
-\end{theorem}
-\begin{proof}Из разбиения \(\Omega=\Omega\cup\varnothing\) на непересекающиеся части следует \(\mathbb P(\varnothing)=0\). Разбиение \(\Omega=A\cup A^c\) даёт формулу дополнения и границы. Для \(A\subseteq B\) пишем \(B=A\cup(B\setminus A)\). Для последней формулы разбиваем \(A\cup B\) на \(A\setminus B,A\cap B,B\setminus A\); пересечение в сумме \(\mathbb P(A)+\mathbb P(B)\) было посчитано дважды.\end{proof}
-\begin{theorem}[Оценка объединения; union bound]
-Для конечного числа событий \(\mathbb P(\bigcup_{j=1}^m A_j)\le\sum_{j=1}^m\mathbb P(A_j)\); независимость не требуется.
-\end{theorem}
-\begin{proof}Для двух событий вычитаем неотрицательную вероятность пересечения из предыдущей формулы. Для большего числа применяем это неравенство по индукции.\end{proof}
-\section{Условная вероятность и формула Байеса}
-\begin{definition}\term{Условная вероятность} (\emph{conditional probability}) при \(\mathbb P(B)>0\) определяется как \(\mathbb P(A\mid B)=\frac{\mathbb P(A\cap B)}{\mathbb P(B)}\).\end{definition}
-\begin{theorem}[Правило умножения]
-При \(\mathbb P(B)>0\): \(\mathbb P(A\cap B)=\mathbb P(B)\mathbb P(A\mid B)\). Для последовательных условий формула повторяется, если все используемые условные вероятности определены.
+После выбора \(\lambda\) собственные векторы — ненулевые решения \((A-\lambda I)v=0\).
 \end{theorem}
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
 \begin{wrapfigure}[9]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-169.png}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-111.png}
 \end{wrapfigure}
-\textit{Доказательство.} Умножаем определение условной вероятности на знаменатель. Следующее применение берёт уже накопленное пересечение как условие.\hfill\(\blacksquare\)
+\textit{Доказательство.} Однородная система двух уравнений имеет ненулевое решение ровно тогда, когда её матрица вырождена, то есть определитель нулевой; это следует из метода Гаусса или формулы обратной матрицы. Раскрытие определителя даёт выписанный многочлен. В размерности два \(\det(\lambda I-A)=\det(A-\lambda I)\).\hfill\(\blacksquare\)
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
-\begin{definition}\term{Полная группа событий} (\emph{partition of the sample space}) \(B_1,\ldots,B_m\) состоит из попарно непересекающихся событий, объединение которых равно \(\Omega\).\end{definition}
-\begin{theorem}[Полная вероятность и Байес; total probability and Bayes' formula]
-Для полной группы с \(\mathbb P(B_j)>0\)
-\[
-\mathbb P(A)=\sum_{j=1}^m\mathbb P(B_j)\mathbb P(A\mid B_j).
-\]
-Если также \(\mathbb P(A)>0\), то
-\[
-\mathbb P(B_k\mid A)=
-\frac{\mathbb P(B_k)\mathbb P(A\mid B_k)}
-{\sum_{j=1}^m\mathbb P(B_j)\mathbb P(A\mid B_j)}.
-\]
+\begin{definition}\term{Характеристический многочлен} (\emph{characteristic polynomial}) в рассмотренном случае — многочлен \(\chi_A\), определённый в теореме.\end{definition}
+У матрицы \(\begin{pmatrix}2&1\\1&2\end{pmatrix}\) значения \(1,3\); направления можно взять \((1,-1)\) и \((1,1)\). У поворота на \(\frac\pi2\), матрица которого равна \(\begin{pmatrix}0&-1\\1&0\end{pmatrix}\), над \(\mathbb R\) собственных векторов нет. Над \(\mathbb C\) появляются собственные значения \(i,-i\). Поэтому смена поля — содержательное действие, а не только смена шрифта в обозначении множества.
+
+\section{Диагонализация}
+\begin{theorem}[Независимость собственных направлений]\label{thm:legacy-c27-2}
+Собственные векторы, отвечающие попарно различным собственным значениям, линейно независимы.
 \end{theorem}
-\begin{proof}Событие \(A\) разбивается на непересекающиеся \(A\cap B_j\). Складываем вероятности и применяем правило умножения. Для Байеса записываем \(\mathbb P(B_k\mid A)=\frac{\mathbb P(A\cap B_k)}{\mathbb P(A)}\) и подставляем уже найденные числитель и знаменатель.\end{proof}
+\begin{proof}
+Индукция по числу векторов. Один ненулевой вектор независим. Пусть \(\sum_{j=1}^mc_jv_j=0\), где \(Av_j=\lambda_jv_j\). Применим \(A-\lambda_m I\); получим \(\sum_{j<m}c_j(\lambda_j-\lambda_m)v_j=0\). По индукции все эти коэффициенты нулевые. Разности значений ненулевые, значит, \(c_j=0\) для \(j<m\), а исходное равенство даёт \(c_m=0\).
+\end{proof}
+\begin{definition}\term{Диагонализация} (\emph{diagonalization}) — представление \(A=PDP^{-1}\), где \(P\) обратима, а \(D\) диагональна.\end{definition}
+\begin{theorem}[Базис из собственных векторов]\label{thm:legacy-c27-3}
+Матрица диагонализируема над выбранным полем тогда и только тогда, когда существует базис из её собственных векторов. При таком базисе столбцы \(P\) — эти векторы, а диагональ \(D\) содержит соответствующие собственные значения.
+\end{theorem}
+\begin{proof}
+Умножение матрицы на столбцы даёт \(AP=PD\) ровно тогда, когда каждый столбец \(P\) собственный с нужным значением. Столбцы образуют базис ровно при обратимости \(P\). Умножение равенства на \(P^{-1}\) даёт утверждение в обе стороны.
+\end{proof}
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
 \begin{wrapfigure}[11]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-167.png}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-109.png}
 \end{wrapfigure}
-Формула Байеса меняет направление условного вопроса. Доля красных шаров в выбранном мешке и вероятность выбрать именно этот мешок после появления красного шара — разные числа. До наблюдения важны доли выбора мешков; после наблюдения остаются только исходы, согласованные с увиденным цветом. Поэтому редкий источник не становится наиболее вероятным автоматически, даже если в нём нужный цвет встречается часто.
+При повторении преобразования можно использовать \(A^m=PD^mP^{-1}\), \(m\in\mathbb N\): соседние множители \(P^{-1}P\) сокращаются по ассоциативности. Например, в двух найденных направлениях матрица со значениями \(1,3\) после \(m\) повторений умножает координаты на \(1\) и \(3^m\). Кратное собственное значение само по себе не гарантирует диагонализации: для \(\begin{pmatrix}1&1\\0&1\end{pmatrix}\) ядро \(A-I\) одномерно и собственного базиса в двумерном пространстве нет.
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\section{Независимость и повторные испытания}
-\begin{definition}\term{Независимость двух событий} (\emph{independence}) означает \(\mathbb P(A\cap B)=\mathbb P(A)\mathbb P(B)\). При \(\mathbb P(B)>0\) это равносильно \(\mathbb P(A\mid B)=\mathbb P(A)\).\end{definition}
-\begin{definition}\term{Независимость в совокупности} (\emph{mutual independence}) событий \(A_1,\ldots,A_n\) требует равенства вероятности пересечения произведению вероятностей для каждого непустого поднабора. Одной попарной независимости для \(n\ge3\) недостаточно.\end{definition}
+\section{Симметрия и ортогональность}
+\begin{definition}\term{Транспонирование} (\emph{transpose}) меняет строки и столбцы местами: \((A^{\mathrm T})_{ij}=A_{ji}\). Действительная матрица \par \term{симметрична} (\emph{symmetric}), если \(A^{\mathrm T}=A\).\end{definition}
+\begin{definition}\term{Ортогональная матрица} (\emph{orthogonal matrix}) — действительная квадратная матрица \(P\), удовлетворяющая \(P^{\mathrm T}P=I\); её столбцы образуют ортонормированный базис, и \(P^{-1}=P^{\mathrm T}\).\end{definition}
+\begin{theorem}[Симметричная матрица размера два]\label{thm:legacy-c27-4}
+Действительная симметричная матрица \(A=\begin{pmatrix}a&b\\b&c\end{pmatrix}\) имеет действительные собственные значения и ортонормированный базис из собственных векторов. Следовательно, \(A=PDP^{\mathrm T}\) для ортогональной \(P\).
+\end{theorem}
+\begin{proof}
+Дискриминант характеристического многочлена равен \((a-c)^2+4b^2\ge0\). Если значения \(\lambda,\mu\) различны и \(Au=\lambda u\), \(Av=\mu v\), то
+\[
+\lambda\langle u,v\rangle=\langle Au,v\rangle
+=\langle u,A^{\mathrm T}v\rangle=\mu\langle u,v\rangle.
+\]
+Среднее равенство проверяется раскрытием конечных сумм. Поэтому \(u,v\) ортогональны. Деление на положительные нормы делает их ортонормированными, а два независимых вектора дают базис. Если дискриминант нулевой, то \(a=c,b=0\), то есть \(A=aI\), и подходит стандартный базис. Матрица с ортонормированными столбцами сохраняет нормы и обратима; из \(P^{\mathrm T}P=I\) следует указанная обратная.
+\end{proof}
+
+\section{Квадратичные формы}
+\begin{definition}\term{Квадратичная форма} (\emph{quadratic form}) на \(\mathbb R^n\) — функция \(Q(x)=x^{\mathrm T}Ax\), где \(A\) — действительная симметричная матрица. В двух переменных \(Q(x,y)=ax^2+2bxy+cy^2\).\end{definition}
+\begin{definition}\term{Положительно определённая форма} (\emph{positive definite form}) положительна при каждом ненулевом аргументе. \par \term{Отрицательно определённая форма} (\emph{negative definite form}) при каждом таком аргументе отрицательна.\end{definition}
+\begin{definition}\term{Положительно полуопределённая форма} (\emph{positive semidefinite form}) неотрицательна для всех аргументов; отрицательная полуопределённость определяется аналогично.\end{definition}
+\begin{definition}\term{Неопределённая форма} (\emph{indefinite form}) принимает как положительные, так и отрицательные значения.\end{definition}
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
 \begin{wrapfigure}[11]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-168.png}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-110.png}
 \end{wrapfigure}
-Несовместность и независимость отвечают на разные вопросы. Несовместные события не могут случиться вместе; независимые не меняют вероятностей друг друга при условии положительной вероятности условия. Если два несовместных события оба имеют положительную вероятность, они зависимы. Независимость повторных опытов должна быть частью модели: вытаскивание шаров без возвращения обычно её нарушает.
+Квадратичная форма описывает зависимость второго порядка: например, заданную в модели энергию или квадратичную ошибку. Смешанное слагаемое \(2bxy\) мешает сразу увидеть поведение по осям. Для симметричной матрицы размера два ортогональная замена координат убирает это слагаемое, сохраняя длины. В новых координатах знаки коэффициентов показывают, растёт ли величина по всем направлениям или может уменьшаться по некоторым из них.
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\begin{definition}\term{Схема Бернулли} (\emph{Bernoulli trials}) — \(n\) независимых в совокупности испытаний, в каждом из которых успех имеет одну вероятность \(p\), а неуспех \(1-p\).\end{definition}
-\begin{theorem}[Число успехов в схеме Бернулли]
-При \(0<p<1\) вероятность ровно \(k\) успехов, \(0\le k\le n\), равна
-\[
-\binom nk p^k(1-p)^{n-k}.
-\]
-При \(p=0\) успехов всегда \(0\); при \(p=1\) их всегда \(n\).
+\begin{theorem}[Главные оси в размерности два]\label{thm:legacy-c27-5}
+После замены \(x=Pu\), где столбцы \(P\) — ортонормированные собственные векторы \(A\), форма превращается в \(\lambda_1u_1^2+\lambda_2u_2^2\). Она положительно определена ровно при \(\lambda_1,\lambda_2>0\), неотрицательна ровно при \(\lambda_1,\lambda_2\ge0\), неопределённа при разных знаках значений.
 \end{theorem}
-\begin{proof}Фиксированная последовательность из \(k\) успехов и \(n-k\) неуспехов имеет указанное произведение вероятностей по независимости. Выбрать позиции успехов можно \(\binom nk\) способами; эти события не пересекаются. Складываем их вероятности. Граничные случаи детерминированы, поэтому выражения с неопределённой записью \(0^0\) не требуются.\end{proof}
+\begin{proof}
+Из \(P^{\mathrm T}AP=D\) получаем \(x^{\mathrm T}Ax=u^{\mathrm T}Du\). Замена обратима, поэтому охватывает все аргументы. Знаки диагональной формы проверяются по сумме квадратов и по двум координатным векторам. При разных знаках эти векторы дают значения разных знаков.
+\end{proof}
+\begin{theorem}[Критерий положительности в двух переменных]\label{thm:legacy-c27-6}
+Форма \(ax^2+2bxy+cy^2\) положительно определена тогда и только тогда, когда \(a>0\) и \(ac-b^2>0\).
+\end{theorem}
+\begin{proof}
+При \(a>0\) выделим квадрат:
+\[
+Q=a\left(x+\frac ba y\right)^2+\frac{ac-b^2}{a}y^2.
+\]
+Два положительных коэффициента обеспечивают положительность при ненулевом аргументе. Обратно, положительность в \((1,0)\) даёт \(a>0\); подстановка \((-\frac ba,1)\) даёт \(\frac{ac-b^2}{a}>0\).
+\end{proof}
+Например, \(2x^2+2xy+2y^2\) превращается в \(3u^2+v^2\) при \(u=\frac{x+y}{\sqrt2}\), \(v=\frac{x-y}{\sqrt2}\). Множество уровня \(Q=1\) — эллипс с полуосями \(\frac1{\sqrt3}\) и \(1\), повёрнутый относительно исходных осей. А форма \(x^2-y^2\) равна нулю на двух прямых, хотя её матрица обратима: наличие ненулевого нулевого значения формы не означает вырожденности матрицы.
+
+\section{Сингулярные значения и два ортонормированных базиса}
+\begin{definition}\term{Сингулярное разложение} (\emph{singular value decomposition; SVD}) действительной матрицы \(A\in\mathbb R^{m\times n}\) --- представление \(A=U\Sigma V^{\mathrm T}\), где \(U\) и \(V\) --- ортогональные матрицы размеров \(m\) и \(n\), а прямоугольная \(\Sigma\) имеет только диагональные ненулевые позиции. Её \(p=\min(m,n)\) диагональных чисел упорядочивают как \(\sigma_1\ge\cdots\ge\sigma_p\ge0\); это \term{сингулярные значения} (\emph{singular values}).\end{definition}
+Нулевые диагональные числа допускаются; \(r=\operatorname{rank}A\) из них положительны. Для любой конечной действительной матрицы SVD существует. Общую теорему существования здесь используем без полного доказательства: она опирается на спектральную теорему для симметричных матриц произвольного размера. Выше эта спектральная теорема доказана в размерности два. Связь и конструкцию сейчас разберём, не выдавая двумерное доказательство за доказательство для всех размеров.
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[13]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-274.png}
+\end{wrapfigure}
+Сингулярное разложение описывает действие матрицы через два ортонормированных набора направлений. Один набор относится ко входу, другой к выходу, а между ними стоят неотрицательные коэффициенты растяжения. Поэтому прямоугольная матрица тоже допускает такое описание, хотя обычная диагонализация относится к квадратным матрицам. Малые коэффициенты отмечают направления, в которых действие матрицы слабо. Их удаление может уменьшить объём хранимого описания, но одновременно меняет саму матрицу. Нужно заранее решить, какая ошибка допустима и что именно считается полезной информацией. Направление небольшого разброса не обязано быть бессмысленным, а направление большого разброса не обязано объяснять интересующий результат. Алгебра даёт измеримую ошибку восстановления, но выбор модели и смысл данных требуют отдельной проверки.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<61mm\dp\CatFlowBox=\dimexpr61mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
+\begin{theorem}[Связь с \(A^{\mathrm T}A\)]\label{thm:review-ml-svd}
+Матрица \(A^{\mathrm T}A\) симметрична и положительно полуопределена. При SVD
+\[A^{\mathrm T}A=V\Sigma^{\mathrm T}\Sigma V^{\mathrm T}.\]
+Её собственные значения --- квадраты сингулярных значений, дополненные нулями до \(n\) значений. Для положительного \(\sigma_j\) имеем \(Av_j=\sigma_j u_j\), \(u_j=\frac{Av_j}{\sigma_j}\).
+\end{theorem}
+\begin{proof}Симметрия следует из транспонирования, а \(x^{\mathrm T}A^{\mathrm T}Ax=\|Ax\|^2\ge0\). Подстановка \(A=U\Sigma V^{\mathrm T}\) и \(U^{\mathrm T}U=I\) даёт формулу. Обратно, если ортонормированные \(v_j\) --- собственные векторы \(A^{\mathrm T}A\) с положительными значениями \(\sigma_j^2\), то
+\[\langle u_i,u_j\rangle=\frac{v_i^{\mathrm T}A^{\mathrm T}Av_j}{\sigma_i\sigma_j}\]
+равно \(1\) при \(i=j\) и \(0\) иначе. Векторы при нулевых значениях лежат в \(\ker A\). Дополнив полученный ортонормированный список \(u_j\) до базиса, получаем SVD. В случае двух столбцов нужный собственный базис \(A^{\mathrm T}A\) обеспечен уже доказанной двумерной теоремой; в общем случае используется названный общий спектральный факт. Деление на нулевое \(\sigma_j\) в конструкции не применяется.\end{proof}
+\begin{example}Для \(A=\operatorname{diag}(-3,1)\) собственные значения \(A^{\mathrm T}A\) равны \(9,1\), а сингулярные значения \(3,1\). Подходит \(U=\operatorname{diag}(-1,1)\), \(\Sigma=\operatorname{diag}(3,1)\), \(V=I\). Отрицательное собственное значение исходной матрицы не становится отрицательным сингулярным значением: знак находится в ортогональном множителе.\end{example}
+\section{Сжатие и главные компоненты}
+\begin{definition}\term{Норма Фробениуса} (\emph{Frobenius norm}) равна \(\|A\|_F=\sqrt{\sum_{i,j}a_{ij}^2}\).\end{definition}
+Из SVD получаем \(A=\sum_{j=1}^r\sigma_j u_jv_j^{\mathrm T}\). Оставляя первые \(k\le r\) слагаемых, получаем матрицу ранга не больше \(k\) и
+\[\|A-A_k\|_F^2=\sum_{j=k+1}^r\sigma_j^2.\]
+Действительно, матрицы \(u_iv_i^{\mathrm T}\) ортонормированы относительно суммы попарных произведений элементов: их скалярное произведение равно \(\langle u_i,u_j\rangle\langle v_i,v_j\rangle\). Для хранения \(k\) коэффициентов и двух наборов векторов достаточно \(k(m+n+1)\) чисел вместо \(mn\); выигрыш получается лишь при подходящем малом \(k\), без учёта служебных данных. Ошибка восстановления не равна автоматически ошибке будущего предсказания.
+\begin{definition}\term{Центрирование данных} (\emph{centering}) вычитает из каждого признака его среднее по рассматриваемой обучающей выборке. Для центрированной матрицы \(X\) с \(N\ge1\) строками здесь используем \term{ковариационную матрицу данных} (\emph{data covariance matrix}) \(C=\frac1N X^{\mathrm T}X\). Это соглашение с делителем \(N\), не исправленная выборочная оценка с делителем \(N-1\).\end{definition}
+\begin{definition}\term{Метод главных компонент} (\emph{principal component analysis; PCA}) выбирает ортонормированные направления наибольшего разброса центрированных данных. Первое направление --- единичный вектор \(v\), максимизирующий \(\frac1N\|Xv\|^2\); последующие выбираются ортогонально предыдущим.\end{definition}
+Если \(X=U\Sigma V^{\mathrm T}\), то первые столбцы \(V\) дают эти направления. Для \(v=\sum c_jv_j\), \(\sum c_j^2=1\), дисперсия проекции равна \(\frac1N\sum \sigma_j^2c_j^2\le\frac{\sigma_1^2}{N}\). Ограничение ортогональности повторяет довод для следующих направлений. При повторных значениях отдельный выбор направлений может быть неединственным; если все данные нулевые, никакого выделенного первого направления нет. Масштабирование признаков меняет задачу PCA. Большая доля сохранённого разброса характеризует эту таблицу и выбранную шкалу, но не гарантирует качество классификации, причинное объяснение или восстановление важного редкого сигнала.
 
 \par\noindent\begin{minipage}{\linewidth}\section*{Графики}
-\begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-probability.pdf}\par\small Дерево условных вероятностей\end{center}\end{minipage}\par
+\begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-quadratic.pdf}\par\small Главные оси квадратичной формы\end{center}\end{minipage}\par
 \Needspace{7\baselineskip}\section*{Задачи}
-\begingroup\setlength{\parskip}{1pt}
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.1.} Два честных кубика бросают независимо. Опиши равновероятные исходы и найди вероятность суммы \(7\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.2.} На честном кубике найди вероятность чётного результата.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.3.} Из \(10\) одинаковых на ощупь жетонов, \(4\) из которых синие, равновероятно выбирают один. Найди вероятность синего и несинего.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.4.} Даны \(\mathbb P(A)=0{,}6\), \(\mathbb P(B)=0{,}5\), \(\mathbb P(A\cap B)=0{,}2\). Найди вероятность хотя бы одного и вероятность ни одного.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.5.} Могут ли несовместные события с положительными вероятностями быть независимыми?\par\end{minipage}\par
+\begingroup\setlength{\parskip}{0pt}
+\linespread{1.0}\selectfont
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.1.} Найди собственные значения и подпространства матрицы \(\begin{pmatrix}2&0\\0&5\end{pmatrix}\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.2.} Для \(A=\begin{pmatrix}2&1\\1&2\end{pmatrix}\) найди характеристический многочлен и по одному собственному вектору.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.3.} Является ли нулевой вектор собственным вектором? Может ли \(0\) быть собственным значением? Приведи пример.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.4.} Найди все собственные значения \(\begin{pmatrix}0&-1\\1&0\end{pmatrix}\) над \(\mathbb R\) и над \(\mathbb C\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.5.} Докажи, что если \(Av=\lambda v\), то \(A^mv=\lambda^mv\) для каждого натурального \(m\).\par\end{minipage}\par
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[12]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-170.png}
+\begin{wrapfigure}[13]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-112.png}
 \end{wrapfigure}
-\textbf{36.6.} Независимые события имеют вероятности \(0{,}3\) и \(0{,}4\). Найди вероятность обоих и хотя бы одного.\par
+\textbf{36.6.} Диагонализируй \(A=\begin{pmatrix}2&1\\1&2\end{pmatrix}\), выбрав ортонормированные столбцы \(P\).\par
 
-\textbf{36.7.} Честный кубик показал число больше \(3\). Найди условную вероятность чётного результата.\par
+\textbf{36.7.} Почему \(J=\begin{pmatrix}1&1\\0&1\end{pmatrix}\) не диагонализируется даже над \(\mathbb C\)?\par
 
-\textbf{36.8.} В мешке \(3\) красных и \(2\) синих шара. Извлекают два без возвращения. Найди вероятность двух красных. На каждом извлечении все оставшиеся в мешке шары равновероятны.\par
+\textbf{36.8.} В заданной модели повторного преобразования \(x_{n+1}=Ax_n\), \(A=\begin{pmatrix}2&1\\1&2\end{pmatrix}\), \(x_0=(1,0)\). Найди \(x_n\).\par
 
-\textbf{36.9.} В том же мешке первый шар оказался красным. Найди вероятность красного второго и сравни с его безусловной вероятностью. На каждом извлечении все оставшиеся в мешке шары равновероятны.\par
+\textbf{36.9.} Для трёхмерного поворота \(A(x,y,z)=(-y,x,z)\) найди неподвижные векторы. Какое собственное значение им соответствует?\par
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
 
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.10.} В мешке \(3\) красных и \(2\) синих шара. Два раза выбирают шар, возвращая и перемешивая его после первого выбора. Найди вероятность ровно одного красного. На каждом извлечении все оставшиеся в мешке шары равновероятны.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.11.} Первый мешок выбирают с вероятностью \(\dfrac13\), второй — \(\dfrac23\). Доли красных шаров в них \(\dfrac34,\dfrac14\). После случайного извлечения получен красный. Найди вероятность первого мешка.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.12.} В учебной модели первая линия выпускает \(70\%\) деталей с долей дефектов \(2\%\), вторая \(30\%\) с долей \(5\%\). Найди общую вероятность дефекта и вероятность второй линии при обнаруженном дефекте.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.13.} В трёх независимых бросках честной монеты найди вероятность ровно двух орлов.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.14.} В четырёх независимых бросках честной монеты найди вероятность хотя бы одного орла.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.15.} В пяти испытаниях Бернулли \(p=\dfrac15\). Найди вероятность отсутствия успехов.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.16.} Независимые попытки имеют вероятность успеха \(\dfrac14\). Найди вероятность первого успеха на третьей попытке.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.17.} Из \(6\) человек равновероятно выбирают команду из \(3\). Найди вероятность попадания в неё двух заранее указанных людей.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.18.} Число равновероятно выбирают из \(1,\ldots,100\). Найди вероятность делимости на \(3\) или \(5\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.19.}\starmark{} Две честные монеты бросают независимо. События: \(A\) — орёл на первой, \(B\) — орёл на второй, \(C\) — результаты совпали. Докажи попарную независимость и отсутствие независимости в совокупности.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.20.} У каждого из трёх датчиков вероятность отказа не больше \(0{,}02\). Независимость не дана. Оцени снизу вероятность, что все исправны.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.21.}\starmark{} Докажи, что при фиксированном \(B\) положительной вероятности функция \(A\mapsto\mathbb P(A\mid B)\) удовлетворяет аксиомам вероятности.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.22.} Выведи \(\mathbb P(A\mid B)\mathbb P(B)=\mathbb P(B\mid A)\mathbb P(A)\), указав условия определённости обеих условных вероятностей.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.23.}\starmark{} Три честных кубика бросают независимо. Найди вероятность суммы \(4\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{36.24.}\starmark{} Независимые \(A,B\) имеют вероятности \(p,q\), причём \(p+q-pq>0\). Вырази \(\mathbb P(A\mid A\cup B)\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.10.} Докажи: собственные векторы симметричной действительной матрицы с разными значениями ортогональны.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.11.} Докажи, что диагональная матрица с одним и тем же числом \(c\) на диагонали имеет каждый ненулевой вектор собственным.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.12.}\starmark{} Для \(A=\begin{pmatrix}3&1\\0&2\end{pmatrix}\) найди \(A^n(1,-1)\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.13.} Запиши симметричную матрицу формы \(3x^2-4xy+5y^2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.14.} Определи знак формы \(3x^2-4xy+5y^2\) по критерию положительности.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.15.} Классифицируй формы \(x^2+y^2\), \(-x^2-y^2\), \(x^2-y^2\), \(x^2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.16.} Выдели квадрат в \(x^2+4xy+7y^2\) и найди минимум по \(x\) при фиксированном \(y\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.17.} Найди собственные значения матрицы формы \(2x^2+2xy+2y^2\) и её главные оси.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.18.}\starmark{} В модели энергии \(E=2x^2+2xy+2y^2\) ограничение равно \(x^2+y^2=1\). Найди наименьшее и наибольшее значения энергии.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.19.} При каких действительных \(t\) форма \(x^2+2txy+y^2\) положительно определена?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.20.} Докажи, что \(Q(x,y)=xy\) неопределённа, хотя её матрица обратима.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.21.} Опиши множество \(2x^2+2xy+2y^2=1\) в главных координатах и найди длины его полуосей.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.22.} Докажи: если оба собственных значения симметричной матрицы размера два положительны, то форма положительна на каждом ненулевом векторе.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.23.}\starmark{} Докажи, что форма \(ax^2+2bxy+cy^2\) неотрицательна тогда и только тогда, когда \(a\ge0,c\ge0,ac-b^2\ge0\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.24.}\starmark{} Построй эскизы уровней \(Q=1\) для \(x^2+y^2\), \(x^2-y^2\), \(x^2\). Какие из них ограничены?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.25.} Найди сингулярные значения \(A=\operatorname{diag}(-5,2)\), предъяви SVD и вычисли норму Фробениуса ошибки после удаления второго слагаемого.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{36.26.}\starmark{} Строки центрированной матрицы данных равны \((2,0),(-2,0),(0,1),(0,-1)\). Найди \(C=\dfrac14X^{\mathrm T}X\), первую главную компоненту, долю сохранённой дисперсии и сумму квадратов ошибок при проекции на неё.\par\end{minipage}\par
 \endgroup

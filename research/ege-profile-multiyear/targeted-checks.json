@@ -1,0 +1,413 @@
+{
+  "checked_at": "2026-10-25",
+  "status": "passed",
+  "checks": 91315,
+  "supplement_path": "sources/book/data/review-ege-targeted.json",
+  "supplement_sha256": "4c227c46f672d43dbad5a54611efd68bcec3ddb0b78f2ec14d0ca25c0fb4a00c",
+  "examples": 8,
+  "tasks": 9,
+  "task_uids": [
+    "review-ege-targeted.digits.1",
+    "review-ege-targeted.overlap.1",
+    "review-ege-targeted.overlap.2",
+    "review-ege-targeted.polynomial.1",
+    "review-ege-targeted.plane.1",
+    "review-ege-targeted.plane.2",
+    "review-ege-targeted.plane.3",
+    "review-ege-targeted.plane.4",
+    "review-ege-targeted.plane.5"
+  ],
+  "scope": "Exact author-example validation and finite exhaustive checks; no claim that every possible EGE task is covered.",
+  "results": {
+    "digits": [
+      {
+        "digits": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          7,
+          9
+        ],
+        "permutations_checked": 5040,
+        "admissible_pairs": 24,
+        "maximum_sum": 10035,
+        "maximizers": [
+          [
+            9315,
+            720
+          ],
+          [
+            9720,
+            315
+          ]
+        ]
+      },
+      {
+        "digits": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "permutations_checked": 5040,
+        "admissible_pairs": 36,
+        "maximum_sum": 9045,
+        "maximizers": [
+          [
+            8415,
+            630
+          ]
+        ]
+      }
+    ],
+    "overlapping_sixes": [
+      {
+        "six_smallest_sum": 18,
+        "six_largest_sum": 30,
+        "integer_configurations_exhausted": 103,
+        "real_bounds_proved": [
+          38,
+          42
+        ],
+        "minimum_integer_witness": [
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "maximum_integer_witness": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          15
+        ]
+      },
+      {
+        "six_smallest_sum": 24,
+        "six_largest_sum": 36,
+        "integer_configurations_exhausted": 130,
+        "real_bounds_proved": [
+          48,
+          52
+        ],
+        "minimum_integer_witness": [
+          1,
+          1,
+          4,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "maximum_integer_witness": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          16
+        ]
+      }
+    ],
+    "distinct_natural_overlapping_sixes": [
+      {
+        "six_smallest_sum": 36,
+        "six_largest_sum": 96,
+        "strict_integer_configurations_exhausted": 8256,
+        "minimum_overlap_sum": 17,
+        "maximum_total": 115,
+        "maximum_mean": "23/2",
+        "maximizing_witness": [
+          1,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          46
+        ],
+        "tested_smallest": 4,
+        "tested_smallest_possible": false,
+        "tested_mean": 12,
+        "tested_mean_possible": false
+      },
+      {
+        "six_smallest_sum": 42,
+        "six_largest_sum": 102,
+        "strict_integer_configurations_exhausted": 13804,
+        "minimum_overlap_sum": 19,
+        "maximum_total": 125,
+        "maximum_mean": "25/2",
+        "maximizing_witness": [
+          2,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          47
+        ],
+        "tested_smallest": 5,
+        "tested_smallest_possible": false,
+        "tested_mean": 13,
+        "tested_mean_possible": false
+      }
+    ],
+    "geometry": [
+      {
+        "family": "two_externally_tangent_circles",
+        "R": 9,
+        "r": 4,
+        "K": [
+          "108/13",
+          "72/13"
+        ],
+        "area": "432/13"
+      },
+      {
+        "family": "two_externally_tangent_circles",
+        "R": 16,
+        "r": 9,
+        "K": [
+          "384/25",
+          "288/25"
+        ],
+        "area": "3456/25"
+      },
+      {
+        "family": "cyclic_pentagon",
+        "AB_CD": 2,
+        "BC_DE": 3,
+        "AD": 4,
+        "BE": "7/2",
+        "y_unit": "sqrt(15)",
+        "vertices": {
+          "A": [
+            "-1",
+            "0"
+          ],
+          "B": [
+            "-1/2",
+            "1/2"
+          ],
+          "C": [
+            "5/2",
+            "1/2"
+          ],
+          "D": [
+            "3",
+            "0"
+          ],
+          "E": [
+            "3/8",
+            "-3/8"
+          ]
+        },
+        "center": [
+          "1",
+          "2/15"
+        ],
+        "radius_squared": "64/15"
+      },
+      {
+        "family": "cyclic_pentagon",
+        "AB_CD": 3,
+        "BC_DE": 4,
+        "AD": 5,
+        "BE": "13/3",
+        "y_unit": "sqrt(35)",
+        "vertices": {
+          "A": [
+            "-1",
+            "0"
+          ],
+          "B": [
+            "-1/2",
+            "1/2"
+          ],
+          "C": [
+            "7/2",
+            "1/2"
+          ],
+          "D": [
+            "4",
+            "0"
+          ],
+          "E": [
+            "2/9",
+            "-2/9"
+          ]
+        },
+        "center": [
+          "3/2",
+          "13/70"
+        ],
+        "radius_squared": "261/35"
+      },
+      {
+        "family": "two_parallelogram_altitudes",
+        "AP": 3,
+        "BP": 4,
+        "AB": 5,
+        "D": [
+          "25/4",
+          "0"
+        ],
+        "Q": [
+          "7",
+          "1"
+        ],
+        "BM_PQ_squared": 17,
+        "APQ_area": "3/2"
+      },
+      {
+        "family": "two_parallelogram_altitudes",
+        "AP": 5,
+        "BP": 12,
+        "AB": 13,
+        "D": [
+          "169/12",
+          "0"
+        ],
+        "Q": [
+          "17",
+          "7"
+        ],
+        "BM_PQ_squared": 193,
+        "APQ_area": "35/2"
+      },
+      {
+        "family": "median_configuration_and_trace",
+        "AC": 3,
+        "BC": 4,
+        "P": [
+          "3/2",
+          "3/4"
+        ],
+        "T": [
+          "0",
+          "6/5"
+        ],
+        "trace_length_squared": "436/25"
+      },
+      {
+        "family": "median_configuration_and_trace",
+        "AC": 5,
+        "BC": 12,
+        "P": [
+          "9/2",
+          "5/4"
+        ],
+        "T": [
+          "0",
+          "2"
+        ],
+        "trace_length_squared": "148"
+      },
+      {
+        "family": "incircle_by_isosceles_altitude",
+        "AC": 8,
+        "BO": 3,
+        "BC_squared": 65,
+        "center": [
+          "0",
+          "4"
+        ],
+        "altitude_foot_H": [
+          "-132/65",
+          "224/65"
+        ],
+        "radius_squared": "144/65"
+      },
+      {
+        "family": "incircle_by_isosceles_altitude",
+        "AC": 10,
+        "BO": 7,
+        "BC_squared": 169,
+        "center": [
+          "0",
+          "5"
+        ],
+        "altitude_foot_H": [
+          "-595/169",
+          "600/169"
+        ],
+        "radius_squared": "1225/169"
+      }
+    ],
+    "polynomials": [
+      {
+        "name": "2027-demo19.2",
+        "constant_root": -1,
+        "linear_numerator": 2,
+        "rational_parameter_values_checked": 1166,
+        "critical_counts": {
+          "-4": 2,
+          "-2": 1,
+          "-1": 3,
+          "0": 2,
+          "1": 3,
+          "3/2": 2
+        }
+      },
+      {
+        "name": "existing-worked-example",
+        "constant_root": 2,
+        "linear_numerator": 3,
+        "rational_parameter_values_checked": 1166,
+        "critical_counts": {
+          "-4": 2,
+          "-2": 2,
+          "-1": 3,
+          "0": 3,
+          "1": 3,
+          "3/2": 1
+        }
+      },
+      {
+        "name": "targeted-independent-exercise",
+        "constant_root": -1,
+        "linear_numerator": 4,
+        "rational_parameter_values_checked": 1166,
+        "critical_counts": {
+          "-4": 1,
+          "-2": 2,
+          "-1": 3,
+          "0": 2,
+          "1": 3,
+          "3/2": 2
+        }
+      }
+    ]
+  }
+}

@@ -111,6 +111,9 @@ for c in ordered:
   assert task.get('q') and task.get('a')
   task['q']=re.sub(r'^\s*Из\s+жизни[.:]\s*','',task['q'],flags=re.I)
 (BOOK/'book-data.json').write_text(json.dumps(ordered,ensure_ascii=False,indent=2)+'\n')
+if '--data-only' in __import__('sys').argv:
+ print('Assembled source data:',len(ordered),'chapters;',count,'tasks')
+ raise SystemExit(0)
 # Artwork wraps real paragraphs inside a short unbreakable block. This avoids
 # wrapfig's documented incompatibility with list environments and keeps a cat
 # together with the text it accompanies. Exercise numbering is explicit.
@@ -122,13 +125,16 @@ def catblock(body,entry):
  image_path=BOOK/'images/unique'/f"art-{entry['art']:02d}.png"
  iw,ih=struct.unpack('>II',image_path.read_bytes()[16:24])
  height=min(width*ih/iw,58)
+ # wrapfig starts the image slightly below the top of its containing box.
+ # Reserve that offset even when a short paragraph is smaller than the art.
+ minheight=max(entry.get('minheight',64),math.ceil(height+3))
  wrap_lines=math.ceil(height*72/25.4/(14.5*1.12))+2
  return (r'\par\addvspace{'+str(entry.get('vspace',5))+r'pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}'+'\n'
   +r'\setlength{\parskip}{'+str(entry.get('parskip',5))+r'pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}'+'\n'
   +r'\begin{wrapfigure}['+str(wrap_lines)+']{'+side+'}{'+str(width)+r'mm}'+'\n'
   +r'\includegraphics[width='+str(width)+r'mm,height=58mm,keepaspectratio]{images/unique/art-'+f"{entry['art']:02d}"+r'.png}'+'\n'
   +r'\end{wrapfigure}'+'\n'+body+'\n'+r'\par\WFclear\end{minipage}\end{lrbox}%'+'\n'
-  +r'\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<'+str(entry.get('minheight',64))+r'mm\dp\CatFlowBox=\dimexpr'+str(entry.get('minheight',64))+r'mm-\ht\CatFlowBox\relax\fi%'+'\n'
+  +r'\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<'+str(minheight)+r'mm\dp\CatFlowBox=\dimexpr'+str(minheight)+r'mm-\ht\CatFlowBox\relax\fi%'+'\n'
   +r'\noindent\usebox{\CatFlowBox}\par\addvspace{'+str(entry.get('vspace',5))+r'pt}'+'\n')
 def theory_cats(theory,chapter):
  # Process original proof indices simultaneously, so inserted wrappers cannot
@@ -145,7 +151,9 @@ def theory_cats(theory,chapter):
   return catblock(body,entry)+m[2]
  theory=re.sub(r'\\begin\{proof\}(?:\[[^\n]*?\])?(.*?)\\end\{proof\}((?:(?!\\begin\{|\\(?:sub)?section).)*)',proof,theory,flags=re.S)
  for entry in [v for v in flow if v['kind']=='prose' and v['chapter']==chapter]:
-  a=theory.index(entry['start']);b=theory.index(entry['end'],a)
+  try:
+   a=theory.index(entry['start']);b=theory.index(entry['end'],a)
+  except ValueError as e:raise ValueError(f'Invalid illustration anchor: {entry}')from e
   theory=theory[:a]+catblock(theory[a:b].strip(),entry)+theory[b:]
  return theory
 def task_paragraph(chapter,j,t,answers=False):
@@ -158,8 +166,11 @@ def task_paragraph(chapter,j,t,answers=False):
 def task_section(chapter,tasks,answers=False):
  kind='answers' if answers else 'tasks'
  entries={v['start']:v for v in flow if v['kind']==kind and v['chapter']==chapter}
- spacing=0 if ordered[chapter-1]['id'] in ('c30','multivariable') else 1 if ordered[chapter-1]['id'] in ('c05','c30','multivariable','line-surface-integrals','probability','random-variables','statistics') else 2
- result=[r'\begingroup\setlength{\parskip}{'+str(spacing)+r'pt}' if not answers else r'\begingroup\setlength{\parskip}{'+('0' if ordered[chapter-1]['id']=='c25' else '4')+r'pt}'];j=1
+ spacing=0 if ordered[chapter-1]['id'] in ('c18','c26','c27','exam-plane','c30','multivariable') else 1 if ordered[chapter-1]['id'].startswith('exam-')or ordered[chapter-1]['id'] in ('c05','c30','multivariable','line-surface-integrals','probability','random-variables','statistics') else 2
+ result=[r'\begingroup\setlength{\parskip}{'+str(spacing)+r'pt}' if not answers else r'\begingroup\setlength{\parskip}{'+('0' if ordered[chapter-1]['id']=='c25' else '3')+r'pt}'];j=1
+ # Keep the final PCA exercise with the preceding practice at full font size.
+ if not answers and ordered[chapter-1]['id']=='c27':
+  result.append(r'\linespread{1.0}\selectfont')
  while j<=len(tasks):
   if j in entries:
    entry=entries[j];end=entry['end']

@@ -1,0 +1,10 @@
+# Published documents and artwork are binary, including ASCII-heavy PDFs.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+
+# Preserve layout whitespace in verbatim text extracted from official PDFs.
+research/ege-profile-multiyear/**/*.txt -whitespace
+research/exam-sources-2027/*.txt -whitespace

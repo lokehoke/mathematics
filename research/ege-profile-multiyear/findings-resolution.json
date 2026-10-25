@@ -1,0 +1,2557 @@
+{
+  "checked_at": "2026-10-25",
+  "old_audit_snapshot_sha256": "d621c67a366410c915835b92658078b024d92a6499861ba9abc7ddd06a4f650d",
+  "supplement_path": "sources/book/data/review-ege-depth.json",
+  "supplement_sha256": "8db066e572c8187c73799b261736428bdec878cf8249b916bdb0c1cb364d8caf",
+  "supplement_tasks": 39,
+  "supplement_examples": 28,
+  "last_gap_supplement": {
+    "path": "sources/book/data/review-ege-last-gap.json",
+    "sha256": "efe0862685ab70466b6b275e0e43f2e3dfa3c4c9e0d5972cf39025e9d3bb8906",
+    "tasks": 4,
+    "figure": "sources/book/images/review-ege-data-reading.pdf"
+  },
+  "principle": "Authored additions mapped to the old partial findings; no automatic promotion to covered-method. Parent integration, figures and independent mathematical/layout review remain separate.",
+  "finding_rows": 131,
+  "rows": [
+    {
+      "year": 2019,
+      "variant_kind": "demo",
+      "task_number": 2,
+      "alternative": 1,
+      "method_id": "data-read",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2019/ma_ege_2019.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1",
+        "ex:review-ege-exam-functions-2",
+        "ex:review-ege-last-data"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3",
+        "review-ege.G4.4",
+        "review-ege-last.G4.1"
+      ],
+      "resolution_status": "specific_data_graph_example_and_practice_added_independent_review_required",
+      "remaining_check": "Проверить изображение, читаемость шкал и ответы. Новая панельA тренирует порог, знак и первое точное совпадение; панельB — разность сопротивлений при заданных значениях тока. Прямой содержательный пробел дополнен; автоматического перевода вcovered-method нет.",
+      "new_figure": "sources/book/images/review-ege-data-reading.pdf"
+    },
+    {
+      "year": 2019,
+      "variant_kind": "demo",
+      "task_number": 7,
+      "alternative": 1,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2019/ma_ege_2019.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2019,
+      "variant_kind": "demo",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2019/ma_ege_2019.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2019,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2019/ma_ege_2019.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2019,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2019/ma_ege_2019.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2019,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "param-circles",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2019/ma_ege_2019.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2019,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "discrete-average",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2019/ma_ege_2019.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-3",
+        "ex:review-ege-c17-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 2,
+      "alternative": 1,
+      "method_id": "data-read",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1",
+        "ex:review-ege-exam-functions-2",
+        "ex:review-ege-last-data"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3",
+        "review-ege.G4.4",
+        "review-ege-last.G4.1"
+      ],
+      "resolution_status": "specific_data_graph_example_and_practice_added_independent_review_required",
+      "remaining_check": "Проверить изображение, читаемость шкал и ответы. Новая панельA тренирует порог, знак и первое точное совпадение; панельB — разность сопротивлений при заданных значениях тока. Прямой содержательный пробел дополнен; автоматического перевода вcovered-method нет.",
+      "new_figure": "sources/book/images/review-ege-data-reading.pdf"
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 2,
+      "alternative": 2,
+      "method_id": "data-read",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1",
+        "ex:review-ege-exam-functions-2",
+        "ex:review-ege-last-data"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3",
+        "review-ege.G4.4",
+        "review-ege-last.G4.2"
+      ],
+      "resolution_status": "specific_data_graph_example_and_practice_added_independent_review_required",
+      "remaining_check": "Проверить изображение, читаемость шкал и ответы. Новая панельA тренирует порог, знак и первое точное совпадение; панельB — разность сопротивлений при заданных значениях тока. Прямой содержательный пробел дополнен; автоматического перевода вcovered-method нет.",
+      "new_figure": "sources/book/images/review-ege-data-reading.pdf"
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 2,
+      "alternative": 3,
+      "method_id": "data-read",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1",
+        "ex:review-ege-exam-functions-2",
+        "ex:review-ege-last-data"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3",
+        "review-ege.G4.4",
+        "review-ege-last.G4.1"
+      ],
+      "resolution_status": "specific_data_graph_example_and_practice_added_independent_review_required",
+      "remaining_check": "Проверить изображение, читаемость шкал и ответы. Новая панельA тренирует порог, знак и первое точное совпадение; панельB — разность сопротивлений при заданных значениях тока. Прямой содержательный пробел дополнен; автоматического перевода вcovered-method нет.",
+      "new_figure": "sources/book/images/review-ege-data-reading.pdf"
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 7,
+      "alternative": 1,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 7,
+      "alternative": 2,
+      "method_id": "tangent-slope",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 2,
+      "method_id": "prism-side-scale",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G5.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 11,
+      "alternative": 2,
+      "method_id": "mixture",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "param-circles",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2020,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "discrete-average",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2020/ma_ege_2020.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-3",
+        "ex:review-ege-c17-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 2,
+      "alternative": 1,
+      "method_id": "data-read",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1",
+        "ex:review-ege-exam-functions-2",
+        "ex:review-ege-last-data"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3",
+        "review-ege.G4.4",
+        "review-ege-last.G4.1"
+      ],
+      "resolution_status": "specific_data_graph_example_and_practice_added_independent_review_required",
+      "remaining_check": "Проверить изображение, читаемость шкал и ответы. Новая панельA тренирует порог, знак и первое точное совпадение; панельB — разность сопротивлений при заданных значениях тока. Прямой содержательный пробел дополнен; автоматического перевода вcovered-method нет.",
+      "new_figure": "sources/book/images/review-ege-data-reading.pdf"
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 2,
+      "alternative": 2,
+      "method_id": "data-read",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1",
+        "ex:review-ege-exam-functions-2",
+        "ex:review-ege-last-data"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3",
+        "review-ege.G4.4",
+        "review-ege-last.G4.2"
+      ],
+      "resolution_status": "specific_data_graph_example_and_practice_added_independent_review_required",
+      "remaining_check": "Проверить изображение, читаемость шкал и ответы. Новая панельA тренирует порог, знак и первое точное совпадение; панельB — разность сопротивлений при заданных значениях тока. Прямой содержательный пробел дополнен; автоматического перевода вcovered-method нет.",
+      "new_figure": "sources/book/images/review-ege-data-reading.pdf"
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 2,
+      "alternative": 3,
+      "method_id": "data-read",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1",
+        "ex:review-ege-exam-functions-2",
+        "ex:review-ege-last-data"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3",
+        "review-ege.G4.4",
+        "review-ege-last.G4.1"
+      ],
+      "resolution_status": "specific_data_graph_example_and_practice_added_independent_review_required",
+      "remaining_check": "Проверить изображение, читаемость шкал и ответы. Новая панельA тренирует порог, знак и первое точное совпадение; панельB — разность сопротивлений при заданных значениях тока. Прямой содержательный пробел дополнен; автоматического перевода вcovered-method нет.",
+      "new_figure": "sources/book/images/review-ege-data-reading.pdf"
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 7,
+      "alternative": 1,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 7,
+      "alternative": 2,
+      "method_id": "tangent-slope",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 2,
+      "method_id": "prism-side-scale",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G5.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 11,
+      "alternative": 2,
+      "method_id": "mixture",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 12,
+      "alternative": 4,
+      "method_id": "ext-trig",
+      "group": "G6",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-c20-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G6.2"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 2,
+      "method_id": "optimization-profit",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "param-circles",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "discrete-average",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-3",
+        "ex:review-ege-c17-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2021,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 2,
+      "method_id": "discrete-average",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2021/ma-ege-2021.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-3",
+        "ex:review-ege-c17-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 5,
+      "alternative": 2,
+      "method_id": "prism-side-scale",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G5.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 6,
+      "alternative": 1,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 6,
+      "alternative": 2,
+      "method_id": "tangent-slope",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 2,
+      "method_id": "mixture",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 9,
+      "alternative": 1,
+      "method_id": "recover-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 14,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "param-circles",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2022,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "discrete-average",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2022/ma_11_2022.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-3",
+        "ex:review-ege-c17-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 2,
+      "alternative": 2,
+      "method_id": "prism-side-scale",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G5.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 7,
+      "alternative": 1,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 7,
+      "alternative": 2,
+      "method_id": "tangent-slope",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 9,
+      "alternative": 2,
+      "method_id": "mixture",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 10,
+      "alternative": 1,
+      "method_id": "recover-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 14,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "param-circles",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2023,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "discrete-average",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2023/ma_11_2023.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-3",
+        "ex:review-ege-c17-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 3,
+      "alternative": 2,
+      "method_id": "prism-side-scale",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G5.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 1,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 2,
+      "method_id": "tangent-slope",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 10,
+      "alternative": 2,
+      "method_id": "mixture",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 11,
+      "alternative": 1,
+      "method_id": "recover-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "param-circles",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "discrete-pair",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2024/ma_11_2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.3",
+        "review-ege.G2.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "open",
+      "task_number": 8,
+      "alternative": 1,
+      "method_id": "derivative-extremum",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2024/Mat_1_ege2024.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "open",
+      "task_number": 11,
+      "alternative": 1,
+      "method_id": "recover-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2024/Mat_1_ege2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "open",
+      "task_number": 14,
+      "alternative": 1,
+      "method_id": "solid-prism-side",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2024/Mat_1_ege2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-solid-1",
+        "ex:review-ege-exam-solid-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.4",
+        "review-ege.G5.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "open",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2024/Mat_1_ege2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "open",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "optimization-weighted",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2024/Mat_1_ege2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-4"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "open",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2024/Mat_1_ege2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "open",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "param-interval",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2024/Mat_1_ege2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.4",
+        "review-ege.G1.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2024,
+      "variant_kind": "open",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "discrete-digits",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2024/Mat_1_ege2024.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-4"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.1",
+        "review-ege.G2.2"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 1,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 2,
+      "method_id": "tangent-slope",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "demo",
+      "task_number": 10,
+      "alternative": 2,
+      "method_id": "mixture",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "demo",
+      "task_number": 11,
+      "alternative": 1,
+      "method_id": "intersection-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "demo",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "param-branches",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.2",
+        "review-ege.G1.3",
+        "review-ege.G1.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "discrete-pair",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2025/ma_11_2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.3",
+        "review-ege.G2.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "open",
+      "task_number": 8,
+      "alternative": 1,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2025/Mat_1_ege2025.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "open",
+      "task_number": 11,
+      "alternative": 1,
+      "method_id": "intersection-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2025/Mat_1_ege2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "open",
+      "task_number": 14,
+      "alternative": 1,
+      "method_id": "solid-prism-side",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2025/Mat_1_ege2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-solid-1",
+        "ex:review-ege-exam-solid-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.4",
+        "review-ege.G5.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "open",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2025/Mat_1_ege2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "open",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "optimization-profit",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2025/Mat_1_ege2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "open",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2025/Mat_1_ege2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "open",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "param-branches",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2025/Mat_1_ege2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.2",
+        "review-ege.G1.3",
+        "review-ege.G1.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2025,
+      "variant_kind": "open",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "discrete-letters",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2025/Mat_1_ege2025.zip",
+      "new_example_labels": [
+        "ex:review-ege-c17-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 1,
+      "method_id": "derivative-extremum",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 2,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 8,
+      "alternative": 3,
+      "method_id": "tangent-slope",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 10,
+      "alternative": 2,
+      "method_id": "mixture",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 11,
+      "alternative": 1,
+      "method_id": "recover-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 11,
+      "alternative": 2,
+      "method_id": "intersection-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 11,
+      "alternative": 3,
+      "method_id": "recover-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 15,
+      "alternative": 2,
+      "method_id": "exp-polynomial-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 2,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 2,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "param-branches",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.2",
+        "review-ege.G1.3",
+        "review-ege.G1.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 2,
+      "method_id": "param-branches",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.2",
+        "review-ege.G1.3",
+        "review-ege.G1.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "discrete-pair",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.3",
+        "review-ege.G2.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 2,
+      "method_id": "discrete-subsets",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2026/ma_11_2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.1",
+        "review-ege.G2.2"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "open",
+      "task_number": 8,
+      "alternative": 1,
+      "method_id": "derivative-extremum",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2026/Mat_1_ege2026.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "open",
+      "task_number": 10,
+      "alternative": 1,
+      "method_id": "mixture",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2026/Mat_1_ege2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "open",
+      "task_number": 11,
+      "alternative": 1,
+      "method_id": "recover-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2026/Mat_1_ege2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "open",
+      "task_number": 15,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2026/Mat_1_ege2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "open",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "finance-schedule",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2026/Mat_1_ege2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.2",
+        "review-ege.G3.3",
+        "review-ege.G3.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "open",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2026/Mat_1_ege2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2026,
+      "variant_kind": "open",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "param-nonlinear",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2026/Mat_1_ege2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-1",
+        "ex:review-ege-last-monotone",
+        "ex:review-ege-last-full-system"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.6",
+        "review-ege-last.G1.1",
+        "review-ege-last.G1.2"
+      ],
+      "resolution_status": "full_source_solution_and_two_analogues_added_independent_review_required",
+      "remaining_check": "Официальный пиксельный оригинал показывает7|x|+1, а не7|x+1|. Полный элементарный разбор вexam-parameters: чётность поx ограничивает единственное решение значениемx=0; кандидатыa=1,17; второй отвергнут тремя решениями; первый доказан суммой неотрицательных слагаемых. Ответa=1, единственная пара(0,1). Два самостоятельных аналога имеют точные ответы−7и3. Проверить транскрипцию по2026-open/task18-evidence.json и повторно проверить доказательство; производные не требуются.",
+      "additional_prerequisites": [
+        "c07",
+        "c14-exponential",
+        "exam-parameters"
+      ]
+    },
+    {
+      "year": 2026,
+      "variant_kind": "open",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "discrete-digits",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2026/Mat_1_ege2026.zip",
+      "new_example_labels": [
+        "ex:review-ege-c21-4"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.1",
+        "review-ege.G2.2"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 3,
+      "alternative": 1,
+      "method_id": "prism-side-scale",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G5.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 9,
+      "alternative": 1,
+      "method_id": "derivative-extremum",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 9,
+      "alternative": 2,
+      "method_id": "derivative-sign",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 9,
+      "alternative": 3,
+      "method_id": "tangent-slope",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [],
+      "new_task_uids": [
+        "review-ege.G4.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 11,
+      "alternative": 2,
+      "method_id": "mixture",
+      "group": "G3",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-models-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G3.1"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 12,
+      "alternative": 1,
+      "method_id": "recover-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 12,
+      "alternative": 2,
+      "method_id": "intersection-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.4"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 12,
+      "alternative": 3,
+      "method_id": "recover-graph",
+      "group": "G4",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-functions-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G4.1",
+        "review-ege.G4.2",
+        "review-ege.G4.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 16,
+      "alternative": 1,
+      "method_id": "log-ineq",
+      "group": "G7",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-exponential-1",
+        "ex:review-ege-exam-exponential-2"
+      ],
+      "new_task_uids": [
+        "review-ege.G7.1",
+        "review-ege.G7.2",
+        "review-ege.G7.3",
+        "review-ege.G7.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 1,
+      "method_id": "optimization-physics",
+      "group": "G6",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-c20-2",
+        "ex:review-ege-c20-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G6.1",
+        "review-ege.G6.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 17,
+      "alternative": 2,
+      "method_id": "optimization-physics",
+      "group": "G6",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-c20-2",
+        "ex:review-ege-c20-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G6.1",
+        "review-ege.G6.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 1,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 18,
+      "alternative": 2,
+      "method_id": "plane-advanced",
+      "group": "G5",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-plane-1",
+        "ex:review-ege-exam-plane-2",
+        "ex:review-ege-exam-plane-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G5.1",
+        "review-ege.G5.2",
+        "review-ege.G5.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 1,
+      "method_id": "param-branches",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.2",
+        "review-ege.G1.3",
+        "review-ege.G1.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 19,
+      "alternative": 2,
+      "method_id": "param-polynomial",
+      "group": "G1",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-exam-parameters-4"
+      ],
+      "new_task_uids": [
+        "review-ege.G1.2",
+        "review-ege.G1.3"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 20,
+      "alternative": 1,
+      "method_id": "discrete-cards",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-c17-3"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.6"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    },
+    {
+      "year": 2027,
+      "variant_kind": "demo",
+      "task_number": 20,
+      "alternative": 2,
+      "method_id": "discrete-coins",
+      "group": "G2",
+      "old_status": "partial",
+      "source_url": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+      "new_example_labels": [
+        "ex:review-ege-c17-1"
+      ],
+      "new_task_uids": [
+        "review-ege.G2.5"
+      ],
+      "resolution_status": "targeted_supplement_added_independent_review_required",
+      "remaining_check": "Повторно сопоставить полное условие и новый разбор; рост числа задач сам по себе не меняет статус покрытия."
+    }
+  ],
+  "status_counts": {
+    "specific_data_graph_example_and_practice_added_independent_review_required": 7,
+    "targeted_supplement_added_independent_review_required": 123,
+    "full_source_solution_and_two_analogues_added_independent_review_required": 1
+  }
+}

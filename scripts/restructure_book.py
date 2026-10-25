@@ -78,8 +78,80 @@ def restructure(canonical):
  for ident in newids:
   c=json.loads((D/(ident+'.json')).read_text());by[ident]=c
   for j,t in enumerate(c['tasks'],1):t['uid']=f'{ident}.{j}'
+ # Edition ten fills school-exam gaps while retaining every earlier exercise.
+ examids=['exam-measurements','exam-graphs','exam-models','exam-functions',
+          'exam-rational','exam-exponential','exam-trigonometric','exam-parameters',
+          'exam-plane','exam-solid']
+ for ident in examids:
+  c=json.loads((D/(ident+'.json')).read_text());by[ident]=c
+  c['theory']=re.sub(r'\\par(?=[А-Яа-яЁё])',lambda m:m[0]+' ',c['theory'])
+  if ident in ('exam-measurements','exam-graphs','exam-models','exam-functions'):
+   from exam_style import math_style
+   c['theory']=math_style(c['theory'])
+   for t in c['tasks']:
+    for key in ('q','a'):t[key]=math_style(t[key])
+  c['theory']+='\n\\relax\n'
+  c['art_anchors']=[[a,r'\relax'if b=='END_THEORY'else b]for a,b in c['art_anchors']]
+  for j,t in enumerate(c['tasks'],1):t['uid']=f'{ident}.{j}'
+ # Rolle and Lagrange belong before the first systematic derivative sign test.
+ source=by['c29']['theory'];start=source.index(r'\begin{theorem}[Ролль')
+ stop=source.index(r'\end{proof}',source.index(r'\begin{theorem}[Лагранж',start))+len(r'\end{proof}')
+ by['c20']['theory']+='\n\\section{Теоремы о среднем значении}\n'+source[start:stop]
+ by['c29']['theory']=source[:start]+source[stop:]
+ by['c20']['theory']=by['c20']['theory'].replace('В этой главе монотонность конкретной функции проверяем','Сначала монотонность конкретной функции проверяем')
+ calc=json.loads((D/'exam-calculus.json').read_text())
+ ca,cb=calc['theory'].split(r'\section{Площадь, первообразная и знак}',1)
+ by['c20']['theory']+='\n'+ca+'\n\\relax\n'
+ by['c29']['theory']+='\n'+r'\section{Площадь, первообразная и знак}'+cb
+ for j,t in enumerate(calc['tasks'],1):
+  t['uid']=f'exam-calculus.{j}'
+  by['c20'if j<=14 else'c29']['tasks'].append(t)
+ stats=json.loads((D/'exam-statistics.json').read_text())
+ by['statistics']['theory']+='\n'+stats['theory']
+ for j,t in enumerate(stats['tasks'],1):
+  t['uid']=f'exam-statistics.{j}';by['statistics']['tasks'].append(t)
+ for ident,text in json.loads((D/'exam-worked-basics.json').read_text()).items():
+  by[ident]['theory']+='\n'+text
+ final_coverage=json.loads((D/'exam-final-coverage.json').read_text())
+ for ident,extra in final_coverage.items():
+  by[ident]['theory']+='\n'+extra['theory']
+  for j,t in enumerate(extra['tasks'],1):
+   t['uid']=f'exam-final-{ident}.{j}';by[ident]['tasks'].append(t)
+ # Independently reviewed prerequisites and deeper applications retain all UIDs.
+ for ident,fix in json.loads((D/'review-school-clarifications.json').read_text()).items():
+  assert by[ident]['theory'].count(fix['before'])==1,(ident,fix['before'])
+  by[ident]['theory']=by[ident]['theory'].replace(fix['before'],fix['text']+'\n'+fix['before'])
+ review_intros=json.loads((D/'review-art-intros.json').read_text())
+ last_intros={
+  'exam-parameters':r'Симметрия уравнения иногда определяет ответ раньше вычислений. Если замена знака одной координаты сохраняет всю систему, любое решение с ненулевой этой координатой имеет отличного от него партнёра. Поэтому единственную пару следует искать на оси симметрии. Полученные на оси значения параметра остаются лишь кандидатами: каждый нужно проверить на существование других точек вне оси. Для исключения лишних решений удобно собрать исходное равенство в сумму неотрицательных выражений. Тогда равенство нулю одновременно заставляет каждое слагаемое обращаться в нуль. Границы координат берут из второго уравнения системы, а знак каждого выражения проверяют на всём допустимом промежутке. Так устанавливают и необходимость, и достаточность ответа.',
+  'exam-functions':r'Чтение диаграммы начинается с того, какая величина отложена по каждой оси и в каких единицах она измеряется. Нулевой уровень, отрицательная высота и отсутствие столбца имеют разные значения. При сравнении двух моментов надо различать изменение на несколько единиц и изменение в несколько раз. Вопрос о первом подходящем месяце требует проверить порядок месяцев, а не только наибольший столбец. Если график соединяет отмеченные точки, точный ответ по изображению надёжнее извлекать в отмеченных узлах; поведение между ними должно быть задано отдельно. Для физической зависимости название оси также указывает, какая величина изменяется, а какая определяется по графику.'}
+ for name in ['review-ege-depth.json','review-ege-last-gap.json']:
+  for ident,extra in json.loads((D/name).read_text()).items():
+   if ident=='metadata':continue
+   intro=(review_intros if name=='review-ege-depth.json'else last_intros)[ident]
+   by[ident]['theory']+='\n'+intro+'\n\\relax\n'+extra['theory']
+   for t in extra['tasks']:
+    t['advanced']=t.pop('hard',t.get('advanced',False));by[ident]['tasks'].append(t)
+ ml=json.loads((D/'review-ml-bridge.json').read_text())
+ for ident,extra in ml['additions'].items():
+  by[ident]['theory']+='\n'+extra['theory'];by[ident]['tasks']+=extra['tasks']
+ by[ml['chapter']['id']]=ml['chapter']
+ from integrate_deep_review import integrate
+ integrate(by,D)
+ extra_review_art=json.loads((D/'review-extra-art.json').read_text())
+ for entry in extra_review_art:
+  chapter=by[entry['chapter']]
+  assert chapter['theory'].count(entry['before'])==1,entry
+  chapter['theory']=chapter['theory'].replace(entry['before'],entry['before']+'\n'+entry['text']+'\n\\relax\n')
+ gap_review_art=json.loads((D/'review-gap-art.json').read_text())
+ for entry in gap_review_art:
+  if 'text'not in entry:continue
+  chapter=by[entry['chapter']];marker=entry['before'];assert chapter['theory'].count(marker)==1
+  text=entry['text']+'\n\\relax\n'
+  chapter['theory']=chapter['theory'].replace(marker,(text+marker)if entry['position']=='before'else(marker+'\n'+text))
+ by['c10']['theory']=by['c10']['theory'].replace(r'\begin{theorem}[Правило произведения (product rule)]',r'\Needspace{8\baselineskip}\begin{theorem}[Правило произведения (product rule)]')
  parts=json.loads((D/'book-structure.json').read_text());ids=[i for p in parts for i in p['chapters']];ordered=[by[i]for i in ids]
- assert len(ids)==len(set(ids))==41
+ assert len(ids)==len(set(ids))==52
  assert all(len(c['tasks'])>=10 for c in ordered)
  dest={t['uid']:(i,j)for i,c in enumerate(ordered,1)for j,t in enumerate(c['tasks'],1)}
  oldids={t['uid']for c in original for t in c['tasks']}
@@ -120,7 +192,56 @@ def restructure(canonical):
   dict(kind='proof',chapter=ids.index('c11')+1,index=1,art=192,side='r'),
   dict(kind='prose',chapter=ids.index('c14-exponential')+1,start='Рассмотрим учебную модель: на счёте',end=r'\begin{definition}',art=193,side='l'),
  ])
+ for k,ident in enumerate(examids):
+  i=ids.index(ident)+1;c=by[ident];art=194+6*k
+  for j,(start,end)in enumerate(c['art_anchors']):
+   flow.append(dict(kind='prose',chapter=i,start=start,end=end,art=art+j,side='r'if j%2==0 else'l'))
+  proofs=list(PROOF.finditer(c['theory']));pj=min(range(len(proofs)),key=lambda j:len(proofs[j][1]))+1
+  flow.append(dict(kind='proof',chapter=i,index=pj,art=art+3,side='l'))
+  flow.append(dict(kind='tasks',chapter=i,start=6,end=9,art=art+4,side='r'))
+  flow.append(dict(kind='answers',chapter=i,start=8,end=11,art=art+5,side='l'))
+ # Balance a crowded modelling page with the longer progression exercises.
+ flow=[entry for entry in flow if entry['art']!=208]
+ flow.append(dict(kind='tasks',chapter=ids.index('c12-progressions')+1,start=12,end=17,art=208,side='r'))
+ for j,(start,end)in enumerate(calc['art_anchors']):
+  if end==r'\section{Площадь':end=r'\relax'
+  flow.append(dict(kind='prose',chapter=ids.index('c20')+1,start=start,end=end,art=254+j,side='l'if j==0 else'r'))
+ flow.append(dict(kind='prose',chapter=ids.index('statistics')+1,start='На столбчатой диаграмме',end=r'\begin{center}',art=256,side='l'))
+ # Longer school-geometry proofs and the enlarged answer section need their
+ # own unique illustrations, rather than repeating any existing kitten.
+ flow.extend([
+  dict(kind='proof',chapter=ids.index('exam-plane')+1,index=3,art=257,side='r'),
+  dict(kind='proof',chapter=ids.index('exam-plane')+1,index=12,art=258,side='r'),
+  dict(kind='proof',chapter=ids.index('exam-solid')+1,index=2,art=259,side='l'),
+  dict(kind='answers',chapter=ids.index('c06')+1,start=8,end=13,art=260,side='r'),
+  dict(kind='answers',chapter=ids.index('exam-plane')+1,start=27,end=30,art=261,side='r'),
+ ])
+ for art,ident in [(262,'c04'),(263,'random-variables')]:
+  start,end=final_coverage[ident]['art_anchor']
+  flow.append(dict(kind='prose',chapter=ids.index(ident)+1,start=start,end=end,art=art,side='r'if art==262 else'l'))
+ for art,(ident,intro)in enumerate(review_intros.items(),264):
+  flow.append(dict(kind='prose',chapter=ids.index(ident)+1,start=intro[:70],end=r'\relax',art=art,side='r'if art%2==0 else'l'))
+ for art,ident in [(273,'c26'),(274,'c27')]:
+  start,end=ml['additions'][ident]['art_anchors'][0]
+  flow.append(dict(kind='prose',chapter=ids.index(ident)+1,start=start,end=end,art=art,side='l'if art==273 else'r'))
+ for j,(start,end)in enumerate(ml['chapter']['art_anchors']):
+  flow.append(dict(kind='prose',chapter=ids.index('ml-foundations')+1,start=start,end=end,art=275+j,side='r'if j%2==0 else'l'))
+ for art,ident in [(280,'exam-parameters'),(281,'exam-functions')]:
+  flow.append(dict(kind='prose',chapter=ids.index(ident)+1,start=last_intros[ident][:70],end=r'\relax',art=art,side='l'if art==280 else'r'))
+ flow.extend([
+  dict(kind='tasks',chapter=ids.index('ml-foundations')+1,start=6,end=9,art=278,side='r'),
+  dict(kind='answers',chapter=ids.index('ml-foundations')+1,start=8,end=11,art=279,side='l'),
+  dict(kind='answers',chapter=ids.index('exam-parameters')+1,start=35,end=38,art=282,side='l'),
+  dict(kind='answers',chapter=ids.index('ml-foundations')+1,start=16,end=20,art=283,side='r'),
+ ])
+ for entry in extra_review_art:
+  flow.append(dict(kind='prose',chapter=ids.index(entry['chapter'])+1,start=entry['text'][:70],end=r'\relax',art=entry['art'],side='r'if entry['art']%2==0 else'l'))
+ for entry in gap_review_art:
+  if 'text'in entry:
+   flow.append(dict(kind='prose',chapter=ids.index(entry['chapter'])+1,start=entry['text'][:70],end=r'\relax',art=entry['art'],side='r'if entry['art']%2==0 else'l'))
+  else:flow.append(dict(kind=entry['kind'],chapter=ids.index(entry['chapter'])+1,start=entry['start'],end=entry['end'],art=entry['art'],side=entry['side']))
  for entry in flow:
+  if entry['art']>=194 or entry['art']==49:entry.update(minheight=58,vspace=2,parskip=2)
   if entry['art'] in (130,152):entry.update(minheight=58,vspace=2,parskip=1)
   if entry['art']==92:entry.update(minheight=58,vspace=2,parskip=2)
  # Anchor strings are remapped by the same substitution as the manuscript.
@@ -151,5 +272,5 @@ def restructure(canonical):
    i,j=dest[t['uid']];new=ordered[i-1]['tasks'][j-1]
    if t['q']!=new['q']or t['a']!=new['a']:changes.append(dict(uid=t['uid'],published=f'{i}.{j}',reason='explicit algebraic definition'if t['uid']=='c26.20'else'reference/notation normalization'))
  report=dict(original_exercises=len(oldids),retained_once=len(oldids),total_exercises=len(dest),chapters=len(ordered),parts=len(parts),mapping={uid:'.'.join(map(str,dest[uid]))for uid in sorted(oldids)},clarifications=changes)
- (ROOT/'research/book-edition9-exercise-preservation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ (ROOT/'research/book-edition10-exercise-preservation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  return ordered,parts,flow

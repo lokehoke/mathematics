@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-25",
+  "file": "sources/book/data/review-ege-depth.json",
+  "sha256": "9bb6e6245eb81dd213476b690c928a62382a2a81df6eeaa6ca762b52d85a9c4d",
+  "tasks": 39,
+  "worked_examples": 28,
+  "assertions": {
+    "structure": 388,
+    "G1": 4487,
+    "G2": 333,
+    "G3": 2006,
+    "G4": 11,
+    "G5": 8,
+    "G6": 45005,
+    "G7": 127988
+  },
+  "total_assertions": 180226,
+  "result": "passed",
+  "limits": "Numerical sampling supplements the written proofs; it is not a substitute for proof or independent content review."
+}

@@ -1,89 +1,99 @@
-\chapter{Функции и графики}\label{chap:c13}\markright{Глава 16}
-\begin{definition}\term{Функция} (\emph{function}) — соответствие, которое каждому \(x\) из области определения ставит в соответствие ровно одно значение \(f (x)\).\end{definition}
-\begin{definition}\term{Область определения} (\emph{domain}) функции — множество всех допустимых значений аргумента \(x\).\end{definition}
-\begin{definition}\term{Область значений} (\emph{range; image}) функции — множество всех значений \(f(x)\), которые она принимает.\end{definition}
-\begin{definition}\term{График функции} (\emph{graph of a function}) \(f\) — множество точек \((x;f(x))\) при всех \(x\) из её области определения.\end{definition}
-\begin{definition}\term{Нули функции} (\emph{zeros of a function}) — значения \(x\) из области определения, для которых \(f(x)=0\).\end{definition}
-\begin{definition}\term{Строгое возрастание} (\emph{strict increase}) функции \(f\) на промежутке \(I\) означает: для любых \(x_1,x_2\in I\) из \(x_1<x_2\) следует \(f(x_1)<f(x_2)\).\end{definition}
-\begin{definition}\term{Строгое убывание} (\emph{strict decrease}) функции \(f\) на промежутке \(I\) означает: для любых \(x_1,x_2\in I\) из \(x_1<x_2\) следует \(f(x_1)>f(x_2)\).\end{definition}
-В этом сборнике слова «возрастает» и «убывает» означают строгую монотонность.
-\begin{definition}\term{Неубывающая функция} (\emph{nondecreasing function}) на промежутке \(I\) — функция, для которой при любых \(x_1,x_2\in I\) из \(x_1<x_2\) следует \(f(x_1)\le f(x_2)\). Это более слабое условие, чем строгое возрастание.\end{definition}
-\begin{definition}\term{Чётная функция} (\emph{even function}) — функция с симметричной относительно нуля областью определения, для которой \(f(-x)=f(x)\) при всех допустимых \(x\). Симметричность области означает, что вместе с \(x\) она содержит \(-x\).\end{definition}
-\begin{definition}\term{Нечётная функция} (\emph{odd function}) — функция с симметричной относительно нуля областью определения, для которой \(f(-x)=-f(x)\) при всех допустимых \(x\).\end{definition}
-\section{Графики и преобразования}
-\(y = f (x - a)\) при \(a > 0\) сдвигает график вправо на \(a\). \(y = f (x) + b\) при \(b > 0\) сдвигает его вверх на \(b\).\par
-\(y = - f (x)\) отражает график относительно горизонтальной оси. \(y = f (- x)\) отражает его относительно вертикальной оси.\par
-Чтобы найти пересечения двух графиков, реши \(f (x) = g (x)\), затем вычисли \(y\) для каждого найденного \(x\).\par
-\begin{definition}\term{Композиция} (\emph{composition}) функций \(f\) и \(g\), обозначаемая \(f(g(x))\), — функция, для вычисления которой сначала находят \(g(x)\), затем подставляют результат в \(f\). Аргумент \(x\) должен принадлежать области определения \(g\), а значение \(g(x)\) — области определения \(f\).\end{definition}
-{\small\textit{Пример: \(y = (x - 2)^{2} + 1\) имеет вершину \((2;\allowbreak 1)\) и область значений \([1;\allowbreak + \infty )\).}}\par
-
-\section{Отображения и обратные функции}
-\begin{definition}\term{Отображение} (mapping) \(f:X\to Y\) — правило, которое каждому элементу \(x\) множества \(X\) сопоставляет ровно один элемент \(f(x)\) множества \(Y\). Для числовых множеств это привычная числовая функция.\end{definition}
-\begin{definition}\term{Множество назначения} (codomain) отображения \(f:X\to Y\) — указанное множество \(Y\), в котором лежат результаты отображения. Оно может быть больше области значений.\end{definition}
-\begin{definition}\term{Образ множества} (image) \(X\) при отображении \(f\) — множество всех полученных значений: \(f(X)=\{f(x):x\in X\}\). Поэтому \(f(X)\subseteq Y\).\end{definition}
-\begin{definition}\term{Инъекция} (injection) — отображение \(f:X\to Y\), для которого из \(f(x_1)=f(x_2)\) следует \(x_1=x_2\). Различные аргументы имеют различные образы.\end{definition}
-\begin{definition}\term{Сюръекция} (surjection) — отображение \(f:X\to Y\), для которого каждый \(y\in Y\) равен \(f(x)\) хотя бы при одном \(x\in X\). Иначе говоря, \(f(X)=Y\).\end{definition}
-\begin{definition}\term{Биекция} (bijection) — отображение, являющееся одновременно инъекцией и сюръекцией. Каждый элемент множества назначения имеет ровно один прообраз.\end{definition}
-\begin{definition}\term{Обратное отображение} (inverse mapping) к биекции \(f:X\to Y\) — отображение \(f^{-1}:Y\to X\), которое каждому \(y\) сопоставляет единственный \(x\), для которого \(f(x)=y\). Запись \(f^{-1}\) здесь не означает \(\frac{1}{f}\).\end{definition}
-\begin{theorem}[Существование обратного отображения]\label{thm:legacy-c13-1}
-Отображение \(f:X\to Y\) имеет обратное отображение \(g:Y\to X\), удовлетворяющее \(g(f(x))=x\) для всех \(x\in X\) и \(f(g(y))=y\) для всех \(y\in Y\), тогда и только тогда, когда \(f\) — биекция.
+\chapter{Последовательности и прогрессии}\label{chap:c12-progressions}\markright{Глава 16}
+\begin{definition}
+\term{Числовая последовательность} (real sequence) — отображение \(a:\mathbb N\to\mathbb R\), где \(\mathbb N=\{1,2,3,\ldots\}\). Числу \(n\) соответствует \term{член последовательности} (term) \(a_n\); \(n\) — его номер. Последовательность записывают как \((a_n)_{n\geq1}\).
+\end{definition}
+\begin{definition}
+\term{Формула общего члена} (explicit formula) непосредственно выражает \(a_n\) через \(n\). \term{Рекуррентная, или индуктивная, запись} (recursive definition) задаёт начальное значение и правило получения следующих членов из предыдущих. Например, \(a_1=2\), \(a_{n+1}=a_n+3\) при \(n\geq1\).
+\end{definition}
+\begin{definition}
+\term{Арифметическая прогрессия} (arithmetic progression) — последовательность, для которой \(a_{n+1}=a_n+d\) при всех \(n\geq1\). Постоянное число \(d\) называют \term{разностью прогрессии} (common difference).
+\end{definition}
+\begin{theorem}[Общий член арифметической прогрессии]\label{thm:legacy-c12-1}
+Для арифметической прогрессии
+\[
+a_n=a_1+(n-1)d,\qquad n\geq1.
+\]
+\end{theorem}
+\begin{proof}
+При \(n=1\) равенство верно. Если \(a_k=a_1+(k-1)d\), то \(a_{k+1}=a_k+d=a_1+kd\). По математической индукции формула верна для всех \(n\geq1\).
+\end{proof}
+\begin{definition}
+\term{Частичная сумма} (partial sum) последовательности — сумма первых \(N\) членов: \(S_N=a_1+\cdots+a_N\).
+\end{definition}
+\begin{theorem}[Сумма арифметической прогрессии]\label{thm:legacy-c12-2}
+\[
+S_N=\frac{N(a_1+a_N)}{2}=\frac N2\bigl(2a_1+(N-1)d\bigr).
+\]
 \end{theorem}
 \par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
 \setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[12]{r}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-25.png}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-13.png}
 \end{wrapfigure}
-\textit{Доказательство.} Если \(f\) — биекция, сюръективность обеспечивает существование прообраза каждого \(y\), а инъективность — его единственность. Выбирая этот прообраз, получаем \(g=f^{-1}\) и оба равенства. Обратно, пусть оба равенства выполнены. Из \(f(x_1)=f(x_2)\) после применения \(g\) следует \(x_1=x_2\), поэтому \(f\) инъективно. Для каждого \(y\in Y\) равенство \(f(g(y))=y\) даёт прообраз, поэтому \(f\) сюръективно.\hfill\(\blacksquare\)
-
-Важен выбор множества назначения: \(x\mapsto x^2\) из \(\mathbb R\) в \(\mathbb R\) не является сюръекцией, а из \(\mathbb R\) в \([0;+\infty)\) является. Оба отображения неинъективны. Ограничив аргументы множеством \([0;+\infty)\), получаем биекцию \(x\mapsto x^2\) на \([0;+\infty)\), обратную функции \(y\mapsto\sqrt y\).
+\textit{Доказательство.} Запишем одну и ту же сумму в прямом и обратном порядке. При сложении получим \(2S_N=(a_1+a_N)+(a_2+a_{N-1})+\cdots+(a_N+a_1)\). В каждой из \(N\) скобок сумма равна \(2a_1+(N-1)d=a_1+a_N\). Деление на \(2\) даёт первую формулу, а подстановка общего члена — вторую. Рассуждение не зависит от чётности \(N\).\hfill\(\blacksquare\)
 \par\WFclear\end{minipage}\end{lrbox}%
 \ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
 \noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
-\begin{example}
-Функция \(f(x)=3x+2\) задаёт биекцию \(\mathbb R\to\mathbb R\). Из \(y=3x+2\) находим \(x=\frac{y-2}{3}\), поэтому \(f^{-1}(y)=\frac{y-2}{3}\). Проверка: \(f^{-1}(f(x))=x\) и \(f(f^{-1}(y))=y\). Графики обратных числовых функций симметричны относительно прямой \(y=x\): точке \((x;y)\) первого графика соответствует точка \((y;x)\) второго.
-\end{example}
-\begin{definition}\term{Композиция отображений} (composition) \(g:X\to Y\) и \(f:Y\to Z\) — отображение \(f\circ g:X\to Z\), заданное правилом \((f\circ g)(x)=f(g(x))\). Сначала применяют \(g\), затем \(f\).\end{definition}
-Если формулы заданы на своих естественных областях, область определения \(f\circ g\) состоит из тех \(x\) из области определения \(g\), для которых \(g(x)\) входит в область определения \(f\). Например, при \(f(u)=\sqrt u\), \(g(x)=2x-1\) композиция \(f(g(x))=\sqrt{2x-1}\) определена при \(x\ge\frac12\), а \(g(f(x))=2\sqrt x-1\) — при \(x\ge0\).
 
-\par\noindent\begin{minipage}{\linewidth}\section*{Графики}
-\begin{center}\includegraphics[width=\textwidth,height=.70\textheight,keepaspectratio]{images/atlas-algebra.pdf}\par\small Базовые алгебраические функции\end{center}\end{minipage}\par
+\begin{definition}
+\term{Геометрическая прогрессия} (geometric progression) в этом сборнике — последовательность, для которой \(a_{n+1}=q a_n\) при всех \(n\geq1\). Постоянное число \(q\) называют \term{знаменателем прогрессии} (common ratio). Такое определение включает \(q=0\): тогда последовательность имеет вид \(a_1,0,0,\ldots\).
+\end{definition}
+\begin{theorem}[Общий член геометрической прогрессии]\label{thm:legacy-c12-3}
+При \(q\neq0\)
+\[
+a_n=a_1q^{n-1},\qquad n\geq1.
+\]
+При \(q=0\) отдельно имеем \(a_n=0\) для \(n\geq2\); значение \(a_1\) задано начальным условием.
+\end{theorem}
+\begin{proof}
+При \(q\neq0\) база \(n=1\) даёт \(a_1q^0=a_1\). Из формулы для \(k\) следует \(a_{k+1}=q a_k=q a_1q^{k-1}=a_1q^k\). При \(q=0\) сначала \(a_2=0\), затем каждый следующий член равен \(0\cdot0=0\). Такое отдельное рассмотрение позволяет не использовать неопределённую запись \(0^0\).
+\end{proof}
+\begin{theorem}[Сумма геометрической прогрессии]\label{thm:legacy-c12-4}
+При \(q\neq1\)
+\[
+S_N=\frac{a_1(1-q^N)}{1-q}.
+\]
+При \(q=1\) имеем \(S_N=Na_1\). Формула для \(q\neq1\) верна также при \(q=0\).
+\end{theorem}
+\begin{proof}
+Из рекуррентного правила
+\(qS_N=a_2+a_3+\cdots+a_{N+1}\). Вычитая это равенство из \(S_N=a_1+a_2+\cdots+a_N\), получаем \((1-q)S_N=a_1-a_{N+1}=a_1(1-q^N)\). При \(q\neq1\) делим на \(1-q\). При \(q=1\) все члены равны \(a_1\), поэтому сумма равна \(Na_1\).
+\end{proof}
+
+\section{Примеры: явное и рекуррентное задание}
+\begin{example}Пусть \(a_1=3\), \(a_{n+1}=a_n+4\). Последовательно получаем \(3,7,11,15,\ldots\). Каждый переход прибавляет четвёрку, поэтому \(a_n=3+4(n-1)=4n-1\); это проверяется индукцией. Десятый член \(39\), сумма первых десяти \(S_{10}=\frac{10(3+39)}2=210\). Рекуррентное правило удобно для следующего шага, а явное --- для члена с большим номером.\end{example}
+\begin{example}Пусть \(b_1=2\), \(b_{n+1}=3b_n\). Первые члены \(2,6,18,54\), а \(b_n=2\cdot3^{n-1}\). Сумма первых четырёх \(S_4=\frac{2(3^4-1)}{3-1}=80\). Проверка сложением: \(2+6+18+54=80\). В формуле суммы требуется отдельный случай \(q=1\): тогда \(S_n=nb_1\), поскольку делить на \(q-1=0\) нельзя.\end{example}
 \Needspace{7\baselineskip}\section*{Задачи}
 \begingroup\setlength{\parskip}{2pt}
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.1.} Для \(f (x) = 2 x - 3\) найди \(f (- 2),\allowbreak f (0),\allowbreak f (3)\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.2.} Найди область определения \(f (x) = \dfrac{1}{x - 4}\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.3.} Найди область определения \(f (x) = \sqrt{x + 3}\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.4.} Найди нули \(f (x) = x^{2} - 4\).\par\end{minipage}\par
-\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
-\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
-\begin{wrapfigure}[12]{l}{54mm}
-\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-38.png}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.1.} Последовательность задана формулой \(a_n=3n-2\), \(n\geq1\). Выпишите первые пять членов и найдите \(a_{10}\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.2.} Для \(a_n=\dfrac{(-1)^n}{n}\) выпишите первые четыре члена. Укажите знак \(a_{25}\) и знак \(a_{26}\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.3.} Дано \(a_1=2\), \(a_{n+1}=2a_n-1\). Выпишите первые пять членов последовательности.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.4.} Последовательность \(3,7,11,15,\ldots\) — арифметическая прогрессия. Найдите её разность и формулу общего члена.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.5.} В арифметической прогрессии \(a_1=7\), \(d=-3\). Найдите \(a_8\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.6.} В арифметической прогрессии \(a_3=11\), \(a_9=35\). Найдите \(d\) и \(a_1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.7.} Найдите сумму первых двадцати членов арифметической прогрессии с \(a_1=5\) и \(d=2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.8.} Последовательность \(3,-6,12,-24,\ldots\) — геометрическая прогрессия. Найдите \(q\), формулу \(a_n\) и \(a_6\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.9.} В геометрической прогрессии \(a_1=81\), \(q=\dfrac13\). Найдите \(a_5\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.10.} В действительной геометрической прогрессии \(a_2=6\), \(a_5=48\). Найдите \(q\) и \(a_1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{16.11.} Вычислите сумму \(1+2+4+\cdots+128\). Сначала определите число слагаемых.\par\end{minipage}\par
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-208.png}
 \end{wrapfigure}
-\textbf{16.5.} Где \(f (x) = 3 x - 6\) положительна?\par
+\textbf{16.12.} В первую неделю в копилку положили \(100\) рублей, а в каждую следующую — на \(50\) рублей больше, чем в предыдущую. Сколько рублей положили за \(12\) недель?\par
 
-\textbf{16.6.} Построй \(y = 2 x + 1\) и найди пересечения с осями.\par
+\textbf{16.13.} В первом ряду зала \(12\) мест, а в каждом следующем на \(2\) места больше. Всего \(20\) рядов. Найдите число мест в последнем ряду и во всём зале.\par
 
-\textbf{16.7.} Построй \(y = (x - 2)^{2} - 1\). Укажи вершину.\par
+\textbf{16.14.} В игре за первый день дают \(2\) монеты, а каждый следующий день награду удваивают. Найдите награду за седьмой день и общее число монет за первые семь дней.\par
 
-\textbf{16.8.} Укажи промежутки убывания и возрастания \(y = x^{2}\).\par
+\textbf{16.15.} Докажите с помощью формулы суммы арифметической прогрессии, что \(1+3+5+\cdots+(2N-1)=N^2\) для любого натурального \(N\).\par
 
-\textbf{16.9.} Определи чётность \(f (x) = x^{3}\) и \(g (x) = x^{2} + 1\).\par
+\textbf{16.16.}\starmark{} Дано \(a_1=3\), \(a_{n+1}=2a_n+1\). Найдите формулу общего члена и сумму первых десяти членов.\par
 
-\textbf{16.10.} При \(f (x) = x^{2}\) и \(g (x) = x + 1\) найди \(f (g (x))\) и \(g (f (x))\).\par
-
-\textbf{16.11.} Найди область значений \(y = (x - 1)^{2} + 2\).\par
+\textbf{16.17.}\starmark{} В арифметической прогрессии \(d>0\), \(a_2+a_5=34\), \(a_3a_4=280\). Найдите \(a_1\), \(d\) и \(S_{10}\).\par
 \par\WFclear\end{minipage}\end{lrbox}%
-\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
-\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<58mm\dp\CatFlowBox=\dimexpr58mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
 
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.12.} Найди точки пересечения \(y = x^{2}\) и \(y = x + 2\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.13.} Стоимость аренды велосипеда описана формулой \(C (t) = 200 + 150 t\) рублей, где \(t \ge  0\) — время в часах. Найди стоимость для \(0,\allowbreak 2\) и \(4\) часов и построй график.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.14.} В баке \(60\) л воды. Её расходуют со скоростью \(5\) л в минуту, не доливая. Запиши объём \(V (t)\), укажи допустимое время и момент опустошения.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.15.} Два тарифа доставки: \(A (x) = 100 + 20 x\) и \(B (x) = 40 x\) рублей, где \(x \ge  0\) — расстояние в километрах. При каком расстоянии цены равны? Какой тариф дешевле при \(2\) км и при \(8\) км?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.16.}\starmark{} Найди область определения \(f (x) = \dfrac{\sqrt{x - 1}}{x - 3}\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.17.}\starmark{} Построй \(y = | x - 2 | + 1\) и найди все \(x\), для которых \(y \le  4\).\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.18.}\starmark{} Из куска проволоки длиной \(20\) м делают прямоугольник. Вырази площадь через сторону \(x\) и найди наибольшую площадь.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.19.}\starmark{} Докажи, что при любых действительных \(a\ne0\) и \(b\) функция \(f(x)=ax+b\) задаёт биекцию \(\mathbb R\to\mathbb R\). Найди обратную функцию и проверь обе композиции.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.20.}\starmark{} Пусть \(g:X\to Y\) и \(f:Y\to Z\) — инъекции. Докажи, что композиция \(f\circ g\) тоже инъективна. Затем докажи аналогичное утверждение для двух сюръекций.\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.21.} Построй график \(f(x)=|x|-2\). Найди область значений. Является ли отображение \(f:\mathbb R\to[-2;+\infty)\) инъекцией, сюръекцией, биекцией? Существует ли обратное отображение на всей указанной области?\par\end{minipage}\par
-\noindent\begin{minipage}[t]{\linewidth}\textbf{16.22.}\starmark{} Для \(f(x)=\sqrt{x+1}+2\) найди область определения и область значений. Найди обратную функцию, указав её область определения. Построй оба графика в одной системе координат и проверь их симметрию относительно \(y=x\).\par\end{minipage}\par
 \endgroup

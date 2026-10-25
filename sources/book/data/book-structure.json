@@ -6,6 +6,7 @@
       "c01",
       "c03",
       "c04",
+      "exam-measurements",
       "c05",
       "c06",
       "c07",
@@ -20,8 +21,11 @@
       "c02",
       "c09",
       "c11",
+      "exam-rational",
       "c10",
+      "exam-graphs",
       "c12-progressions",
+      "exam-models",
       "c21",
       "c17"
     ]
@@ -31,12 +35,18 @@
     "art": 186,
     "chapters": [
       "c13",
+      "exam-functions",
       "c14-exponential",
+      "exam-exponential",
       "c15",
+      "exam-trigonometric",
+      "exam-parameters",
       "c14-hyperbolic",
       "plane-geometry",
+      "exam-plane",
       "c18",
-      "solid-geometry"
+      "solid-geometry",
+      "exam-solid"
     ]
   },
   {
@@ -65,12 +75,13 @@
     ]
   },
   {
-    "title": "Вероятность и статистика",
+    "title": "Вероятность, статистика и машинное обучение",
     "art": 189,
     "chapters": [
       "probability",
       "random-variables",
-      "statistics"
+      "statistics",
+      "ml-foundations"
     ]
   },
   {

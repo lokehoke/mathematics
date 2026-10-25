@@ -1,0 +1,48 @@
+{
+  "exam-parameters": [
+    "ex:review-ege-exam-parameters-1",
+    "ex:review-ege-exam-parameters-2",
+    "ex:review-ege-exam-parameters-3",
+    "ex:review-ege-exam-parameters-4"
+  ],
+  "c21": [
+    "ex:review-ege-c21-1",
+    "ex:review-ege-c21-2",
+    "ex:review-ege-c21-3",
+    "ex:review-ege-c21-4"
+  ],
+  "c17": [
+    "ex:review-ege-c17-1",
+    "ex:review-ege-c17-2",
+    "ex:review-ege-c17-3"
+  ],
+  "exam-models": [
+    "ex:review-ege-exam-models-1",
+    "ex:review-ege-exam-models-2",
+    "ex:review-ege-exam-models-3",
+    "ex:review-ege-exam-models-4"
+  ],
+  "exam-functions": [
+    "ex:review-ege-exam-functions-1",
+    "ex:review-ege-exam-functions-2"
+  ],
+  "c20": [
+    "ex:review-ege-c20-1",
+    "ex:review-ege-c20-2",
+    "ex:review-ege-c20-3"
+  ],
+  "exam-plane": [
+    "ex:review-ege-exam-plane-1",
+    "ex:review-ege-exam-plane-2",
+    "ex:review-ege-exam-plane-3"
+  ],
+  "exam-solid": [
+    "ex:review-ege-exam-solid-1",
+    "ex:review-ege-exam-solid-2"
+  ],
+  "exam-exponential": [
+    "ex:review-ege-exam-exponential-1",
+    "ex:review-ege-exam-exponential-2",
+    "ex:review-ege-exam-exponential-3"
+  ]
+}
