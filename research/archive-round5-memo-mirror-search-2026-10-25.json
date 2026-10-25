@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://www.math.aau.at/MEMO/contests/previous/",
+    "checked": "2026-10-25",
+    "finding": "Official edition index; links to organizer and results, no 2026 papers.",
+    "cache_path": "research/international_cache/round5/f43fceda6273100a0a0eea05aba20c12398b6aa1867e6cad7aa90d540d51d990",
+    "cache_sha256": "e705565d986f6b9a837048cfdedaa1d9ed63df266f8a46099c964699e9a75aea"
+  },
+  {
+    "url": "https://skmo.sk/dokumenty.php?rocnik=75",
+    "checked": "2026-10-25",
+    "finding": "No MEMO 2026 paper/solution row linked.",
+    "cache_path": "research/international_cache/round5/6d0546e5108fbe5f8e0234a4a358363bf104d6201dde1fe9871bc5831b55e356",
+    "cache_sha256": "684160ad1800de9b5fdbbd03475ef0c3f1b7778e2d8233091337fa143922aef9"
+  },
+  {
+    "url": "https://www.matematickaolympiada.cz/aktuality/7-zlatych-z-memo",
+    "checked": "2026-10-25",
+    "finding": "Czech team report; links to official host and results, no local paper copies.",
+    "cache_path": "research/international_cache/round5/beb5abb09cfc74d8c7a2af1f98da3c9d9a92aab539dddb8148a5584611330dcf",
+    "cache_sha256": "d176c4404a746f0c132ea638003afddac82e64a29fcff20d9c88403adc7235a1"
+  },
+  {
+    "url": "https://www.math.aau.at/OeMO/News/memo-2026/",
+    "checked": "2026-10-25",
+    "finding": "Austrian team report; no paper PDFs.",
+    "cache_path": "research/international_cache/round5/9a9633711027514a4d5954ff45ee16bdf28e86b7ed3a02178153e5a959b5fa70",
+    "cache_sha256": "e97ba27e458401466b6f050710b658b1e36011b2d1869bbb1e60e47935945f09"
+  },
+  {
+    "url": "https://www.math.aau.at/OeMO/Downloads/nach_tags?tags=MEMO",
+    "checked": "2026-10-25",
+    "finding": "MEMO tag entries for 2026 are team photographs, not problem papers.",
+    "cache_path": "research/international_cache/round5/9591d1c47c5e905292df0aab17d4e35cdedece8d4a939822c9e71bb687349f48",
+    "cache_sha256": "fe9112881dd2a670ec067c9e5501b14c7e2175a415e12674089feaa0096411ba"
+  },
+  {
+    "url": "https://imosuisse.github.io/exams/",
+    "checked": "2026-10-25",
+    "finding": "Swiss archive lists national rounds; no MEMO 2026 copy.",
+    "cache_path": "research/international_cache/round5/b7c8a20f37a6ebcf2d6860598e88ebe2d71fd89591aebac69425cf1f4d481325",
+    "cache_sha256": "48ec945117f47c0ce751c99962b8b397f6ad455d013c0e149151199d3808f71d"
+  },
+  {
+    "url": "https://ematlap.hu/hirek-ujdonsagok/memo-2026-beszamolo/",
+    "checked": "2026-10-25",
+    "finding": "Hungarian team report; results links, no problem/solution files.",
+    "cache_path": "research/international_cache/round5/5033083021f082d5d5b1a8feb4e9e970cdab1ebb26a8536649a0f478df150857",
+    "cache_sha256": "9ca2b5bd9d22e1cfd3961b691a4225550b44869bb08d3058d4a30bb6129de61a"
+  },
+  {
+    "url": "https://www.mathe-wettbewerbe.de/memo-2026",
+    "checked": "2026-10-25",
+    "finding": "Web search reads a German team report linking to the official host; local fetch had DNS timeout. No downloadable mirror identified.",
+    "cache_path": null,
+    "cache_sha256": null
+  },
+  {
+    "url": "https://imogeometry.blogspot.com/p/middle-european-mathematical-olympiad.html",
+    "checked": "2026-10-25",
+    "finding": "Published MEMO collection currently ends at 2025.",
+    "cache_path": "research/international_cache/round5/8395fdc42d020f277daaa76da1eb6794c024420964d985e0b2ec570ee0db79aa",
+    "cache_sha256": "c0e2838fd56440a479e2feefbf686cd5b2206d1b45d6d6f15cc7d7f473ec700a"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=memo2026.dmfa.si/*&output=json&filter=statuscode:200&filter=mimetype:application/pdf&collapse=urlkey",
+    "checked": "2026-10-25",
+    "finding": "CDX returned empty list; no matching PDF snapshots.",
+    "cache_path": "research/international_cache/round5/9418e3768a51f13990e5ef00aaece1e602438ebc59f1208ceafc6b529b0d8ca2",
+    "cache_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  {
+    "url": "https://memo2026.dmfa.si/wp-content/uploads/2026/08/MEMO_2026_Individual_en.pdf",
+    "checked": "2026-10-25",
+    "finding": "Normal verified HTTPS over IPv4 with 20 second connect timeout also timed out. No file saved.",
+    "cache_path": null,
+    "cache_sha256": null
+  },
+  {
+    "url": "https://natjecanja.math.hr/",
+    "checked": "2026-10-25",
+    "finding": "HTTP 500.",
+    "cache_path": null,
+    "cache_sha256": null
+  },
+  {
+    "url": "https://om.edu.pl/",
+    "checked": "2026-10-25",
+    "finding": "HTTP 403; no attempt to bypass.",
+    "cache_path": null,
+    "cache_sha256": null
+  },
+  {
+    "url": "https://artofproblemsolving.com/wiki/index.php/2026_MEMO_Problems",
+    "checked": "2026-10-25",
+    "finding": "HTTP 403; no attempt to bypass.",
+    "cache_path": null,
+    "cache_sha256": null
+  },
+  {
+    "url": "https://t.me/s/math_olympiad_problem_solving_ch?q=MEMO",
+    "checked": "2026-10-25",
+    "finding": "Redirected to channel landing page; no PDF download exposed.",
+    "cache_path": "research/international_cache/round5/eb2fade828ccf086e1f2b257ed62b55c3b94e04671f2a898239d579917ffd676",
+    "cache_sha256": "8c01dfc7b69b611f7a73666c37d2e23ecfcd6fc47029e714adf27eba3b28ba92"
+  }
+]

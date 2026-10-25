@@ -35,7 +35,7 @@
           "id": "hse",
           "manifest": "olympiads/russia/hse/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 133,
+          "downloaded_materials": 138,
           "failed_documents": 0,
           "failed_pages": 0
         }
@@ -278,7 +278,7 @@
           "id": "lomonosov",
           "manifest": "olympiads/russia/lomonosov/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 128,
+          "downloaded_materials": 137,
           "failed_documents": 49,
           "failed_pages": 0
         }
@@ -324,7 +324,7 @@
           "id": "phystech",
           "manifest": "olympiads/russia/phystech/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 290,
+          "downloaded_materials": 291,
           "failed_documents": 8,
           "failed_pages": 0
         }
@@ -347,7 +347,7 @@
           "id": "phystech",
           "manifest": "olympiads/russia/phystech/manifest.json",
           "status": "downloaded_partial",
-          "downloaded_materials": 290,
+          "downloaded_materials": 291,
           "failed_documents": 8,
           "failed_pages": 0
         }

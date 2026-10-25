@@ -1,0 +1,51 @@
+[
+  {
+    "path": "olympiads/russia/lomonosov/documents/7aab374d6b6a-лом-1213-закл-решения.pdf",
+    "year": "2012/2013",
+    "stage": "final",
+    "classes": "11",
+    "ocr_verified": true,
+    "checked_pdf_pages": [
+      1,
+      2,
+      4
+    ],
+    "solution_word_count": 9,
+    "header_excerpt": "Московский государственный университет имени М.В. Ломоносова\nОлимпиада школьников «Ломоносов» по математике\nЗадания заключительного этапа 2012/2013 учебного года для 11 класса\n\nРешения.\nВариант 1.\n\n1. На покраску дома жёлтой краски потребовалось боль",
+    "method": "System pdftoppm + Tesseract Russian; inspected sample pages. OCR is evidence only, never replacement for published PDF.",
+    "ocr_language_source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/rus.traineddata",
+    "ocr_language_sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225"
+  },
+  {
+    "path": "olympiads/russia/lomonosov/documents/4333e5a6b373-лом-заочка-1516-условия-решения.pdf",
+    "year": "2015/2016",
+    "stage": "qualifying",
+    "classes": null,
+    "ocr_verified": true,
+    "checked_pdf_pages": [
+      1,
+      3,
+      15
+    ],
+    "solution_word_count": 6,
+    "header_excerpt": " \n\nМАТЕРИАЛЫ ЗАДАНИЙ\n\nолимпиады школьников\n«ЛОМОНОСОВ»\nпо математике\n\n2015/2016 учебный год\n\nВЫр://ойутр.пази.ги\n\f",
+    "method": "System pdftoppm + Tesseract Russian; inspected sample pages. OCR is evidence only, never replacement for published PDF.",
+    "ocr_language_source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/rus.traineddata",
+    "ocr_language_sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225"
+  },
+  {
+    "path": "olympiads/russia/lomonosov/documents/d1437dfb0fa4-Ломоносов-1516-закл.pdf",
+    "year": "2015/2016",
+    "stage": "final",
+    "classes": "10, 11",
+    "ocr_verified": true,
+    "checked_pdf_pages": [
+      2
+    ],
+    "solution_word_count": 4,
+    "header_excerpt": "4) Заключительный этап 10-11 классы.\n\nОлимпиада «Ломоносов - 2016».\n\n\"Решения и ответы варианта 2016-1; ответы ко всем вариантам\n\n1. Незнайка прыгал от своего лома к лому Знайхи Три четверти пути он пропрытал прыжками,\n„длина которых равна двум его о",
+    "method": "System pdftoppm + Tesseract Russian; inspected sample pages. OCR is evidence only, never replacement for published PDF.",
+    "ocr_language_source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/rus.traineddata",
+    "ocr_language_sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225"
+  }
+]

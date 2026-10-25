@@ -3663,6 +3663,258 @@
           "year_evidence": "Consecutive academic-year pair in a contest header"
         }
       ]
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2023/06/Лом-2223-заочка-реш.pdf",
+      "contest": "Ломоносов — математика",
+      "subject": "mathematics",
+      "year": "2022/2023",
+      "stage": "qualifying",
+      "classes": "11",
+      "document_type": "tasks_and_solutions",
+      "label": "Задания и решения",
+      "source_page": "https://postypashki.ru/олимпиады/ломоносов/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/lomonosov/documents/0f58fe600d3f-Лом-2223-заочка-реш.pdf",
+      "sha256": "656752d66c40f19739fdf6ea6cc631dedc0ff4cf522fe4e14676451599329369",
+      "bytes": 231821,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2023/06/%D0%9B%D0%BE%D0%BC-2223-%D0%B7%D0%B0%D0%BE%D1%87%D0%BA%D0%B0-%D1%80%D0%B5%D1%88.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 78,
+        "header_excerpt": "                Московский государственный университет имени М. В. Ломоносова\n            Олимпиада школьников «Ломоносов» по математике\n                    Отборочный этап 2022/23 учебного года для 11 класса\n\n                                             Задача 1.\n     В-1 В магазине продают три вида ручек: по 14 рублей, по 15 рублей и по 16 рублей. Вася\nкупил ручек ровно на 170 рублей. Сколькими способами это можно было сделать?\n     Ответ: 6\n  "
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2023/06/Лом-2223-очка-реш.pdf",
+      "contest": "Ломоносов — математика",
+      "subject": "mathematics",
+      "year": "2022/2023",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "tasks_and_solutions",
+      "label": "Задания и решения",
+      "source_page": "https://postypashki.ru/олимпиады/ломоносов/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/lomonosov/documents/a3393dd0b17e-Лом-2223-очка-реш.pdf",
+      "sha256": "108e73785c21ff3f9b6926c7db2c34b5c75dd2d77b11da67e2aafe5dac6eca95",
+      "bytes": 216941,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2023/06/%D0%9B%D0%BE%D0%BC-2223-%D0%BE%D1%87%D0%BA%D0%B0-%D1%80%D0%B5%D1%88.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 46,
+        "header_excerpt": "               Московский государственный университет имени М. В. Ломоносова\n           Олимпиада школьников «Ломоносов» по математике\n                Заключительный этап 2022/2023 учебного года для 11 класса\n\n                                       Задача 1.\n   В-1 Вычислите\n                                     √           √\n                               \u0014q           q         \u0015\n                                 45 − 2023 − 45 + 2023 ,\n\nгде [t] —"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2022/09/Лом-2122-заочка.pdf",
+      "contest": "Ломоносов — математика",
+      "subject": "mathematics",
+      "year": "2021/2022",
+      "stage": "qualifying",
+      "classes": "11",
+      "document_type": "tasks_and_solutions",
+      "label": "Задания и решения",
+      "source_page": "https://postypashki.ru/олимпиады/ломоносов/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/lomonosov/documents/2c51ffe02a9e-Лом-2122-заочка.pdf",
+      "sha256": "fa71d2be3805d52ffa9cc9253dd56960155709e7c37465dd2d4215a0c6c4bd37",
+      "bytes": 680442,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2022/09/%D0%9B%D0%BE%D0%BC-2122-%D0%B7%D0%B0%D0%BE%D1%87%D0%BA%D0%B0.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 87,
+        "header_excerpt": "                 Московский государственный университет имени М. В. Ломоносова\n             Олимпиада школьников «Ломоносов» по математике\n                     Отборочный этап 2021/22 учебного года для 11 классов\n\n                                        Задача 1 (10 баллов)\n   В-1 В выражении\n                                             A = 810.5∗log9 7\nна месте знака ∗ может стоять любой из знаков четырёх арифметических действий (+, −, :, Ч).\nНа"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2022/09/Лом-2122-решения.pdf",
+      "contest": "Ломоносов — математика",
+      "subject": "mathematics",
+      "year": "2021/2022",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/ломоносов/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/lomonosov/documents/4bd62367294f-Лом-2122-решения.pdf",
+      "sha256": "b929871a7a2ac9b03bf31a35cc9b1a74f728576b0db7962edb1d0a4ecd4273b6",
+      "bytes": 271437,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2022/09/%D0%9B%D0%BE%D0%BC-2122-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 35,
+        "header_excerpt": "                  Московский государственный университет имени М. В. Ломоносова\n             Олимпиада школьников «Ломоносов» по математике\n                    Заключительный этап 2021/22 учебного года для 11 класса\n\n                                                Задача 1.\n   В-1 Какое из чисел больше:\n                                                                            p\n                                                                   "
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2018/08/лом-1718-закл-задания-и-решения.pdf",
+      "contest": "Ломоносов — математика",
+      "subject": "mathematics",
+      "year": "2017/2018",
+      "stage": "final",
+      "classes": "10, 11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/ломоносов/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/lomonosov/documents/7f6c1fba4aaa-лом-1718-закл-задания-и-решения.pdf",
+      "sha256": "5f3d3a2960d4d9afb4b4f53754b6625f56f60d3488b3c5e448ef4639fb1f77df",
+      "bytes": 174048,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2018/08/%D0%BB%D0%BE%D0%BC-1718-%D0%B7%D0%B0%D0%BA%D0%BB-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 16,
+        "header_excerpt": "         Олимпиада школьников ѕЛомоносовї по математике\n    Заключительный этап 2017/2018 учебного года для 10\u001511 классов\n           Условия, решения и ответы к варианту 1, ответы к вариантам 2\u00164\n    1.   На каком из пяти интервалов, на которые разбивают числовую ось четыре точки\n                                                          x5 < y 8 < y 3 < x6 ,\n\nлежит число 0?\n    Ответ:            .\n               (x5 ; y 8 )\n    Решение.     Из ус"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2017/07/лом-заочка-1516-условия-решения.pdf",
+      "contest": "Ломоносов — математика",
+      "subject": "mathematics",
+      "year": "2015/2016",
+      "stage": "qualifying",
+      "classes": "10, 11",
+      "document_type": "tasks_and_solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/ломоносов/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/lomonosov/documents/4333e5a6b373-лом-заочка-1516-условия-решения.pdf",
+      "sha256": "6df06d0695b0aafe0dd77a4bf99b754aca05e1bb75c66c974ddb784540a1944e",
+      "bytes": 6417581,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2017/07/%D0%BB%D0%BE%D0%BC-%D0%B7%D0%B0%D0%BE%D1%87%D0%BA%D0%B0-1516-%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "ocr_verified": true,
+        "checked_pdf_pages": [
+          1,
+          3,
+          15
+        ],
+        "solution_word_count": 6,
+        "header_excerpt": " \n\nМАТЕРИАЛЫ ЗАДАНИЙ\n\nолимпиады школьников\n«ЛОМОНОСОВ»\nпо математике\n\n2015/2016 учебный год\n\nВЫр://ойутр.пази.ги\n\f",
+        "method": "System pdftoppm + Tesseract Russian; inspected sample pages. OCR is evidence only, never replacement for published PDF.",
+        "ocr_language_source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/rus.traineddata",
+        "ocr_language_sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225"
+      },
+      "coverage_completeness": "Sampled scan pages establish solution content; completeness of all grades/variants is not asserted.",
+      "metadata_audit": [
+        {
+          "date": "2026-10-25T09:18:01.266440+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2018/08/Ломоносов-1516-закл.pdf",
+      "contest": "Ломоносов — математика",
+      "subject": "mathematics",
+      "year": "2015/2016",
+      "stage": "final",
+      "classes": "10, 11",
+      "document_type": "tasks_and_solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/ломоносов/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/lomonosov/documents/d1437dfb0fa4-Ломоносов-1516-закл.pdf",
+      "sha256": "6fef7568ae399c8bd64e8942462ace2aed118b7dcc639a6744053446e4668ae8",
+      "bytes": 729851,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2018/08/%D0%9B%D0%BE%D0%BC%D0%BE%D0%BD%D0%BE%D1%81%D0%BE%D0%B2-1516-%D0%B7%D0%B0%D0%BA%D0%BB.pdf",
+      "content_validation": {
+        "ocr_verified": true,
+        "checked_pdf_pages": [
+          2
+        ],
+        "solution_word_count": 4,
+        "header_excerpt": "4) Заключительный этап 10-11 классы.\n\nОлимпиада «Ломоносов - 2016».\n\n\"Решения и ответы варианта 2016-1; ответы ко всем вариантам\n\n1. Незнайка прыгал от своего лома к лому Знайхи Три четверти пути он пропрытал прыжками,\n„длина которых равна двум его о",
+        "method": "System pdftoppm + Tesseract Russian; inspected sample pages. OCR is evidence only, never replacement for published PDF.",
+        "ocr_language_source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/rus.traineddata",
+        "ocr_language_sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225"
+      },
+      "coverage_completeness": "Sampled scan pages establish solution content; completeness of all grades/variants is not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2018/08/лом-1213-отбор-решения.pdf",
+      "contest": "Ломоносов — математика",
+      "subject": "mathematics",
+      "year": "2012/2013",
+      "stage": "qualifying",
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/ломоносов/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/lomonosov/documents/90394d0951e8-лом-1213-отбор-решения.pdf",
+      "sha256": "856d523c174e0e3799197197b4b14b7b31903014dc48007449368514f7acb972",
+      "bytes": 362110,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2018/08/%D0%BB%D0%BE%D0%BC-1213-%D0%BE%D1%82%D0%B1%D0%BE%D1%80-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 20,
+        "header_excerpt": "                 Олимпиада школьников\n                   ѕЛомоносовї, 2013\nОтветы заданий заочного тура олимпиады по математике,\n                     10 и 11 класс\n\n\n\n          Задача              Ответ\n\n            1                   Нет\n\n            2                   1:1\n\n            3                   118\n\n            4                   100\n\n            5        arccos(1 − 2 sin2 α sin2 β)\n\n            6                π 3 − 2π 2\n\n       "
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2018/08/лом-1213-закл-решения.pdf",
+      "contest": "Ломоносов — математика",
+      "subject": "mathematics",
+      "year": "2012/2013",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "tasks_and_solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/ломоносов/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/lomonosov/documents/7aab374d6b6a-лом-1213-закл-решения.pdf",
+      "sha256": "3e2a77d5954815f59735df7127ff7c90d2384283e6ee3f348878f15c3260c931",
+      "bytes": 566608,
+      "content_validation": {
+        "ocr_verified": true,
+        "checked_pdf_pages": [
+          1,
+          2,
+          4
+        ],
+        "solution_word_count": 9,
+        "header_excerpt": "Московский государственный университет имени М.В. Ломоносова\nОлимпиада школьников «Ломоносов» по математике\nЗадания заключительного этапа 2012/2013 учебного года для 11 класса\n\nРешения.\nВариант 1.\n\n1. На покраску дома жёлтой краски потребовалось боль",
+        "method": "System pdftoppm + Tesseract Russian; inspected sample pages. OCR is evidence only, never replacement for published PDF.",
+        "ocr_language_source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/rus.traineddata",
+        "ocr_language_sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225"
+      },
+      "coverage_completeness": "Sampled scan pages establish solution content; completeness of all grades/variants is not asserted."
     }
   ],
   "indexes": [
@@ -4953,5 +5205,7 @@
     "discovered_documents": 149,
     "failures": [],
     "updated_at": "2026-10-23T10:08:10.123307+00:00"
-  }
+  },
+  "round4_mirror_source": "https://postypashki.ru/олимпиады/ломоносов/",
+  "round5_solution_source": "https://postypashki.ru/олимпиады/ломоносов/"
 }

@@ -2110,7 +2110,7 @@
       "year": "2017/03",
       "stage": null,
       "classes": "7",
-      "document_type": "mathematics_material",
+      "document_type": "tasks_and_solutions",
       "label": "7 классы",
       "heading": "2016/2017 учебный год",
       "status": "downloaded",
@@ -2125,7 +2125,21 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "metadata_audit": [
+        {
+          "date": "2026-10-25T09:17:54.687887+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "mathematics_material"
+          },
+          "updated": {
+            "document_type": "tasks_and_solutions"
+          },
+          "solution_evidence": "2 explicit answer/solution headings",
+          "year_evidence": null
+        }
+      ]
     },
     {
       "url": "https://olymp.hse.ru/data/2017/02/17/1167780473/8kl-final.pdf",
@@ -2210,7 +2224,7 @@
       "year": "2017/03",
       "stage": null,
       "classes": "9",
-      "document_type": "mathematics_material",
+      "document_type": "tasks_and_solutions",
       "label": "9 классы",
       "heading": "2016/2017 учебный год",
       "status": "downloaded",
@@ -2225,7 +2239,21 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "metadata_audit": [
+        {
+          "date": "2026-10-25T09:17:54.722347+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "mathematics_material"
+          },
+          "updated": {
+            "document_type": "tasks_and_solutions"
+          },
+          "solution_evidence": "2 explicit answer/solution headings",
+          "year_evidence": null
+        }
+      ]
     },
     {
       "url": "https://olymp.hse.ru/data/2017/02/17/1167780850/10a.pdf",
@@ -2260,7 +2288,7 @@
       "year": "2017/03",
       "stage": null,
       "classes": "10",
-      "document_type": "mathematics_material",
+      "document_type": "tasks_and_solutions",
       "label": "10 классы",
       "heading": "2016/2017 учебный год",
       "status": "downloaded",
@@ -2275,7 +2303,21 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "metadata_audit": [
+        {
+          "date": "2026-10-25T09:17:54.740419+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "mathematics_material"
+          },
+          "updated": {
+            "document_type": "tasks_and_solutions"
+          },
+          "solution_evidence": "3 explicit answer/solution headings",
+          "year_evidence": null
+        }
+      ]
     },
     {
       "url": "https://olymp.hse.ru/data/2017/02/17/1167780839/11a.pdf",
@@ -2310,7 +2352,7 @@
       "year": "2017/03",
       "stage": null,
       "classes": "11",
-      "document_type": "mathematics_material",
+      "document_type": "tasks_and_solutions",
       "label": "11 классы",
       "heading": "2016/2017 учебный год",
       "status": "downloaded",
@@ -2325,16 +2367,30 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "metadata_audit": [
+        {
+          "date": "2026-10-25T09:17:54.755987+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "mathematics_material"
+          },
+          "updated": {
+            "document_type": "tasks_and_solutions"
+          },
+          "solution_evidence": "3 explicit answer/solution headings",
+          "year_evidence": null
+        }
+      ]
     },
     {
       "url": "https://olymp.hse.ru/data/2016/03/23/1128086023/Перевод оценок в баллы.pdf",
       "contest": "Высшая проба — математика",
       "subject": "mathematics",
       "source_page": "https://olymp.hse.ru/mmo/tasks-math",
-      "year": "2016/03",
+      "year": "2015/2016",
       "stage": null,
-      "classes": null,
+      "classes": "10",
       "document_type": "mathematics_material",
       "label": "Перевод оценок в баллы",
       "heading": "2015/2016 учебный год",
@@ -2350,7 +2406,24 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "metadata_audit": [
+        {
+          "date": "2026-10-25T09:17:54.766739+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null,
+            "year": "2016/03"
+          },
+          "updated": {
+            "classes": "10",
+            "year": "2015/2016"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": "Consecutive academic-year pair in a contest header",
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
     },
     {
       "url": "https://olymp.hse.ru/data/2016/02/15/1140346971/7.pdf",
@@ -2609,7 +2682,7 @@
       "source_page": "https://olymp.hse.ru/mmo/tasks-math",
       "year": "2015/03",
       "stage": null,
-      "classes": null,
+      "classes": "7, 8, 9, 10, 11",
       "document_type": "mathematics_material",
       "label": "Перевод оценок в баллы",
       "heading": "2014/2015 учебный год",
@@ -2625,7 +2698,22 @@
         "document_type": "unclassified_mathematics_material",
         "reason": null,
         "sha256_verified": true
-      }
+      },
+      "metadata_audit": [
+        {
+          "date": "2026-10-25T09:17:54.851809+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "classes": null
+          },
+          "updated": {
+            "classes": "7, 8, 9, 10, 11"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null,
+          "grade_evidence": "Explicit grade headings in full PDF text"
+        }
+      ]
     },
     {
       "url": "https://olymp.hse.ru/data/2015/02/19/1091012784/var7-2.pdf",
@@ -3351,6 +3439,126 @@
         "reason": null,
         "sha256_verified": true
       }
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2019/03/ВП-очка-1617-Решения.pdf",
+      "contest": "Высшая проба — математика",
+      "subject": "mathematics",
+      "year": "2016/2017",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/высшая-проба/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/hse/documents/8af8ee0aa93d-ВП-очка-1617-Решения.pdf",
+      "sha256": "0b1d1a9064380e983bba5d7b3aa3f13e00b567b9873aea3257e82cbe851bc330",
+      "bytes": 203878,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2019/03/%D0%92%D0%9F-%D0%BE%D1%87%D0%BA%D0%B0-1617-%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 9,
+        "header_excerpt": "Межрегиональная олимпиада школьников «Высшая Проба», 2017 г. МАТЕМАТИКА, 2 этап   стр. 1/7\n\n\n\n                      Решения и критерии оценивания\n                           заданий олимпиады\n\n11-1 В компании из 6 человек некоторые компаниями по трое ходили\n     вместе в походы. Верно ли, что среди них найдутся четверо, среди\n     которых каждые трое ходили вместе в поход, либо четверо, где\n     никакие трое не ходили вместе в поход?\n         Реше"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2019/03/ВП-заочка-1415.pdf",
+      "contest": "Высшая проба — математика",
+      "subject": "mathematics",
+      "year": "2014/2015",
+      "stage": "qualifying_and_final",
+      "classes": "11",
+      "document_type": "tasks_and_solutions",
+      "label": "Задания и ответы",
+      "source_page": "https://postypashki.ru/олимпиады/высшая-проба/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/hse/documents/7b1ee9c4ef04-ВП-заочка-1415.pdf",
+      "sha256": "a483e6cf092535ad526d626352e270bf8a7b6452e4ae7b26c3c45fee7e632172",
+      "bytes": 419734,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2019/03/%D0%92%D0%9F-%D0%B7%D0%B0%D0%BE%D1%87%D0%BA%D0%B0-1415.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 0,
+        "header_excerpt": "Межрегиональная олимпиада школьников\n           «Высшая проба»\n\n            2014-2015 учебный год\n\n\n\n\n    МАТЕРИАЛЫ ЗАДАНИЙ ОТБОРОЧНОГО И\n  ЗАКЛЮЧИТЕЛЬНОГО ЭТАПОВ ОЛИМПИАДЫ,\nОТВЕТЫ НА ЗАДАНИЯ ЗАКЛЮЧИТЕЛЬНОГО ЭТАПА\n\fЗАДАНИЯ ОТБОРОЧНОГО ЭТАПА\n       МАТЕМАТИКА\n\fMath11-2015             Математика 11               Вариант 1               1     Math11-2015               Математика 11                Вариант 1               2\n\n 1   Большой рак весит на "
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2019/03/ВП-очка-1415-Решения.pdf",
+      "contest": "Высшая проба — математика",
+      "subject": "mathematics",
+      "year": "2014/2015",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/высшая-проба/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/hse/documents/e4e5d63cdfef-ВП-очка-1415-Решения.pdf",
+      "sha256": "7f428f7ee250550c1bfa6fb1ab70d7235995ec3601649c976985227752839346",
+      "bytes": 280159,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2019/03/%D0%92%D0%9F-%D0%BE%D1%87%D0%BA%D0%B0-1415-%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 11,
+        "header_excerpt": "Математика \u0016 решения                                                        11 класс\n1.   Действительные числа x, y, z выбираются так, что выполняются равенства: xy + yz +\n\nzx = 4, xyz = 6. Доказать, что при любом таком выборе значение выражения\n                  \u0012              \u0013\u0012             \u0013\u0012             \u0013\n                        3               3               3\n                   xy − (x + y)     yz − (y + z)   zx − (z + x)\n                 "
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2019/03/ВП-очка-1213-Решения.pdf",
+      "contest": "Высшая проба — математика",
+      "subject": "mathematics",
+      "year": "2012/2013",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/высшая-проба/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/hse/documents/22418fbeadb9-ВП-очка-1213-Решения.pdf",
+      "sha256": "0196a71a178d65fdff8d16c89406a42cf65174ebb5b66e04d12e8f6ce6679fcf",
+      "bytes": 385435,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2019/03/%D0%92%D0%9F-%D0%BE%D1%87%D0%BA%D0%B0-1213-%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 12,
+        "header_excerpt": "                                            11 класс\n\n\n      Для каждой задачи приведено условие, ответ, критерии оценивания и полное реше-\nние, а также, в некоторых случаях, достопримечательные решения, придуманные участни-\nками олимпиады. По каждой задаче оценка \u0010 0\u0011 ставилась в случае отсутствия в чистовике\nследов работы над задачей и отсылок к черновику, положительная оценка \u0010 +\u0011 ставилась\nза полное решение, промежуточные оценки -/. < -/+ < +"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2019/03/ВП-очка-1112-решения.pdf",
+      "contest": "Высшая проба — математика",
+      "subject": "mathematics",
+      "year": "2011/2012",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/высшая-проба/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/hse/documents/9a397657531f-ВП-очка-1112-решения.pdf",
+      "sha256": "dafe1e2a4f56cdc6080c2582db93b505d24a2e7ce8319a7cc595351cc38041fc",
+      "bytes": 183499,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2019/03/%D0%92%D0%9F-%D0%BE%D1%87%D0%BA%D0%B0-1112-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 4,
+        "header_excerpt": "11.1. Найдите все пары взаимно простых натуральных чисел a и b, такие, что 2a2 + 3b2\nделится на 2a + 3b.\n   Ответ (1, 1), (6, 1), (3, 8) и (9, 4)\n   20 баллов за все ответы с полным обоснованием (см. решение ниже), из которого сле-\nдует, что других решений нет.\n   15: ответы с полным обоснованием, но с арифметическими ошибками, не изменяющими\nход решения (например, из-за вычислительной ошибки изменился один из ответов).\n   10: все ответы с обосно"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
     }
   ],
   "indexes": [
@@ -3366,5 +3574,7 @@
   "failures": [],
   "discovered_documents": 133,
   "pending_pages": 0,
-  "pending_documents": []
+  "pending_documents": [],
+  "round4_mirror_source": "https://postypashki.ru/олимпиады/высшая-проба/",
+  "round5_solution_source": "https://postypashki.ru/олимпиады/высшая-проба/"
 }

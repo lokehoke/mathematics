@@ -136,6 +136,20 @@
           },
           "solution_evidence": "0 explicit answer/solution headings",
           "year_evidence": null
+        },
+        {
+          "date": "2026-10-25T09:17:55.135351+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "updated": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null
         }
       ],
       "document_role": "administrative"
@@ -270,6 +284,20 @@
           },
           "solution_evidence": "0 explicit answer/solution headings",
           "year_evidence": null
+        },
+        {
+          "date": "2026-10-25T09:17:55.173055+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "updated": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null
         }
       ],
       "document_role": "administrative"
@@ -318,6 +346,20 @@
         },
         {
           "date": "2026-10-23T10:33:46.083561+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "updated": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null
+        },
+        {
+          "date": "2026-10-25T09:17:55.178149+00:00",
           "method": "pdftotext, first two pages",
           "previous": {
             "document_type": "administrative",
@@ -915,6 +957,20 @@
           },
           "solution_evidence": "0 explicit answer/solution headings",
           "year_evidence": null
+        },
+        {
+          "date": "2026-10-25T09:17:55.937067+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "updated": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null
         }
       ],
       "document_role": "administrative"
@@ -1038,6 +1094,20 @@
         },
         {
           "date": "2026-10-23T10:33:46.920293+00:00",
+          "method": "pdftotext, first two pages",
+          "previous": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "updated": {
+            "document_type": "administrative",
+            "document_role": "administrative"
+          },
+          "solution_evidence": "0 explicit answer/solution headings",
+          "year_evidence": null
+        },
+        {
+          "date": "2026-10-25T09:17:55.973867+00:00",
           "method": "pdftotext, first two pages",
           "previous": {
             "document_type": "administrative",
@@ -6723,6 +6793,30 @@
           "grade_evidence": "Explicit grade headings in full PDF text"
         }
       ]
+    },
+    {
+      "url": "https://postypashki.ru/wp-content/uploads/2022/09/Физтех-2122-очка-решения.pdf",
+      "contest": "Физтех — математика",
+      "subject": "mathematics",
+      "year": "2021/2022",
+      "stage": "final",
+      "classes": "11",
+      "document_type": "solutions",
+      "label": "Решения",
+      "source_page": "https://postypashki.ru/олимпиады/физтех/",
+      "source_status": "public_secondary_archive",
+      "metadata_evidence": "Source table season and column, default grade 11 stated by archive; subject and year checked against downloaded PDF.",
+      "status": "downloaded",
+      "local_path": "olympiads/russia/phystech/documents/2c3cece4a1d3-Физтех-2122-очка-решения.pdf",
+      "sha256": "7cce1226e6cd207f4507fd7592a8c8e225bee690163efa2023812e2d557409a1",
+      "bytes": 572029,
+      "final_url": "https://postypashki.ru/wp-content/uploads/2022/09/%D0%A4%D0%B8%D0%B7%D1%82%D0%B5%D1%85-2122-%D0%BE%D1%87%D0%BA%D0%B0-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
+      "content_validation": {
+        "mathematics_title": true,
+        "solution_answer_headings": 112,
+        "header_excerpt": "                                     “Физтех–2022”, математика (варианты 1–4), решения\n\n\n                                         11 класс, ВАРИАНТ 1\n\n    1. [3 балла] Углы 𝛼 и 𝛽 удовлетворяют равенствам\n                                              1                                 4\n                             sin(2𝛼 + 2𝛽) = − √ ;      sin(2𝛼 + 4𝛽) + sin 2𝛼 = − .\n                                               5                                5"
+      },
+      "coverage_completeness": "Published file only; complete class/round set not asserted."
     }
   ],
   "indexes": [
@@ -7286,5 +7380,7 @@
       2022
     ],
     "downloaded": 6
-  }
+  },
+  "round4_mirror_source": "https://postypashki.ru/олимпиады/физтех/",
+  "round5_solution_source": "https://postypashki.ru/олимпиады/физтех/"
 }

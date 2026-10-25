@@ -1,0 +1,188 @@
+{
+  "changes": [
+    {
+      "contest": "hse",
+      "path": "olympiads/russia/hse/documents/96daf6c07a7a-7k-solU.pdf",
+      "date": "2026-10-25T09:17:54.687887+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "hse",
+      "path": "olympiads/russia/hse/documents/10123135965d-9k-solU.pdf",
+      "date": "2026-10-25T09:17:54.722347+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "2 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "hse",
+      "path": "olympiads/russia/hse/documents/5b8bd2fd418a-sol10.pdf",
+      "date": "2026-10-25T09:17:54.740419+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "hse",
+      "path": "olympiads/russia/hse/documents/25cd737db722-sol11.pdf",
+      "date": "2026-10-25T09:17:54.755987+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "mathematics_material"
+      },
+      "updated": {
+        "document_type": "tasks_and_solutions"
+      },
+      "solution_evidence": "3 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "hse",
+      "path": "olympiads/russia/hse/documents/555b86d8056b-Перевод оценок в баллы.pdf",
+      "date": "2026-10-25T09:17:54.766739+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null,
+        "year": "2016/03"
+      },
+      "updated": {
+        "classes": "10",
+        "year": "2015/2016"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": "Consecutive academic-year pair in a contest header",
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "hse",
+      "path": "olympiads/russia/hse/documents/b7a6852d4a5c-ПЕРЕВОД ОЦЕНОК В БАЛЛЫ.pdf",
+      "date": "2026-10-25T09:17:54.851809+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "7, 8, 9, 10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    },
+    {
+      "contest": "phystech",
+      "path": "olympiads/russia/phystech/documents/f9706f8b05bf-Критерии определения победителей и призеров по математике.pdf",
+      "date": "2026-10-25T09:17:55.135351+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "updated": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "phystech",
+      "path": "olympiads/russia/phystech/documents/727963464c4f-Критерии определения победителей и призеров М.pdf",
+      "date": "2026-10-25T09:17:55.173055+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "updated": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "phystech",
+      "path": "olympiads/russia/phystech/documents/e9bc7accdc4e-4639ab7f502714ebbf6eebc76985f780f0816bd4.pdf",
+      "date": "2026-10-25T09:17:55.178149+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "updated": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "phystech",
+      "path": "olympiads/russia/phystech/documents/3dc980ce9540-Критерии определения победителей и призеров по математике.pdf",
+      "date": "2026-10-25T09:17:55.937067+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "updated": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "phystech",
+      "path": "olympiads/russia/phystech/documents/f02afa10b5f1-Критерии определения победителей и призеров М.pdf",
+      "date": "2026-10-25T09:17:55.973867+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "updated": {
+        "document_type": "administrative",
+        "document_role": "administrative"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null
+    },
+    {
+      "contest": "lomonosov",
+      "path": "olympiads/russia/lomonosov/documents/4333e5a6b373-лом-заочка-1516-условия-решения.pdf",
+      "date": "2026-10-25T09:18:01.266440+00:00",
+      "method": "pdftotext, first two pages",
+      "previous": {
+        "classes": null
+      },
+      "updated": {
+        "classes": "10, 11"
+      },
+      "solution_evidence": "0 explicit answer/solution headings",
+      "year_evidence": null,
+      "grade_evidence": "Explicit grade headings in full PDF text"
+    }
+  ],
+  "errors": []
+}
