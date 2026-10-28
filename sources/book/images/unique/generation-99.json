@@ -1,8 +1,0 @@
-{
-  "art": 99,
-  "prompt": "Create one unique watercolor textbook spot illustration of ONE realistic full-body kitten with its prop. Warm fine watercolor and ink, soft luminous fur, expressive gentle face, cream, navy, muted teal and ochre palette. Entire ears, paws, tail visible; compact subject with minimal transparent padding. True transparent alpha background, zero alpha outside kitten and prop. No scenery, room, floor, background wash, paper patch, shadow patch, text, symbols or watermark. A ginger kitten carefully balances three flat smooth ochre pebbles in a tiny stack with one paw, tail curling upward.",
-  "path": "sources/book/images/unique/art-99.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-56afcda7-fbf8-48f2-acbb-f40655bf6dcd.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

@@ -1,9 +1,0 @@
-{
-  "art": 204,
-  "subject": "A black and white kitten peeking through a small teal triangular wooden frame.",
-  "prompt": "Use case: illustration-story. Asset: large transparent watercolor kitten cutout inside a Russian mathematics textbook. ONE natural full-body kitten and the named props only. Warm luminous detailed watercolor and fine ink, realistic anatomy and soft fur, gentle expressive face. Cream, navy, muted teal and ochre palette, cozy elegant book style. Entire ears paws and tail visible, compact subject with minimal transparent padding. True transparent alpha background with zero alpha everywhere outside kitten and props. No floor, scenery, room, background wash, paper rectangle, shadow patch, text, symbols, letters, numbers or watermark. Subject: A black and white kitten peeking through a small teal triangular wooden frame.",
-  "path": "sources/book/images/unique/art-204.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-ba575f7a-8e2b-44dc-99be-514e1f25eca8.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

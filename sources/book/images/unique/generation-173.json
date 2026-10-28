@@ -1,9 +1,0 @@
-{
-  "art": 173,
-  "subject": "A ginger kitten carries a small rolled teal fabric mat with an ochre tie.",
-  "prompt": "Use case: illustration-story. Asset: large transparent watercolor kitten cutout inside a Russian mathematics textbook. ONE natural full-body kitten and the named props only. Warm luminous detailed watercolor and fine ink, realistic anatomy and soft fur, gentle expressive face. Cream, navy, muted teal and ochre palette, cozy elegant book style. Entire ears paws and tail visible, compact subject with minimal transparent padding. True transparent alpha background with zero alpha everywhere outside kitten and props. No floor, scenery, room, background wash, paper rectangle, shadow patch, text, symbols, letters, numbers or watermark. Subject: A ginger kitten carries a small rolled teal fabric mat with an ochre tie.",
-  "path": "sources/book/images/unique/art-173.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-b31d2c9b-fa1b-4fe1-8cd8-a90a6cea2621.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

@@ -1,9 +1,0 @@
-{
-  "art": 271,
-  "subject": "A black-and-white tuxedo kitten balancing three muted-teal and ochre wooden spinning tops.",
-  "prompt": "Use case: illustration-story. Asset: one large transparent watercolor kitten cutout for a Russian mathematics textbook. Subject: A black-and-white tuxedo kitten balancing three muted-teal and ochre wooden spinning tops. Style: refined hand-painted watercolor with fine ink and pencil details, soft fur, believable kitten anatomy and expressive gentle eyes. Palette matching the book: cream, deep navy, muted teal and warm ochre; natural ginger, white, gray and calico fur. Composition: one complete kitten and its complete small prop, centered and filling most of the image, generous clean silhouette, no rectangular scene, no background, no floor, no cast-shadow halo. Transparent background with real alpha. No text, letters, numbers, equations, logos, borders or extra animals. Each subject must feel like a unique illustration, not a reused mascot.",
-  "path": "sources/book/images/unique/art-271.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-08d37c8c-a773-48c6-abf2-a548fee80736.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

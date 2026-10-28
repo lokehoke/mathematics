@@ -1,8 +1,0 @@
-{
-  "art": 80,
-  "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A white fluffy kitten crouches beside four plain rectangular wooden tiles arranged loosely as a rectangle, nudging the nearest tile with one paw.",
-  "path": "sources/book/images/unique/art-80.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-124d0f92-49f0-4901-b612-f991b9f522c0.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

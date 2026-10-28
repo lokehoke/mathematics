@@ -1,9 +1,0 @@
-{
-  "art": 261,
-  "subject": "A silver tabby kitten with a teal neck bow standing next to three plain small wooden cylinders of different heights in cream navy and ochre.",
-  "prompt": "Use case: illustration-story. Asset: one new large transparent watercolor kitten cutout inside a Russian mathematics textbook. Warm luminous detailed watercolor and fine ink, realistic anatomy, soft fur and expressive eyes, cream navy muted teal and ochre cover palette. Entire ears paws tail visible, compact composition with minimal transparent padding. True transparent alpha background outside kitten and props. No floor scenery room background wash paper rectangle shadow patch text letters numbers symbols watermark. Subject: A silver tabby kitten with a teal neck bow standing next to three plain small wooden cylinders of different heights in cream navy and ochre.",
-  "path": "sources/book/images/unique/art-261.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-2876f848-4eba-420e-8d9d-808ccc4d4ee5.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

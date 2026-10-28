@@ -1,9 +1,0 @@
-{
-  "art": 258,
-  "subject": "A ginger and white kitten lying with a small navy felt leaf between its front paws, watching a golden thread curled beside it.",
-  "prompt": "Use case: illustration-story. Asset: one new large transparent watercolor kitten cutout inside a Russian mathematics textbook. Warm luminous detailed watercolor and fine ink, realistic anatomy, soft fur and expressive eyes, cream navy muted teal and ochre cover palette. Entire ears paws tail visible, compact composition with minimal transparent padding. True transparent alpha background outside kitten and props. No floor scenery room background wash paper rectangle shadow patch text letters numbers symbols watermark. Subject: A ginger and white kitten lying with a small navy felt leaf between its front paws, watching a golden thread curled beside it.",
-  "path": "sources/book/images/unique/art-258.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-ec5afa76-1bdd-4819-b08a-db22476f88aa.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

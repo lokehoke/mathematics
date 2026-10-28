@@ -1,8 +1,0 @@
-{
-  "art": 86,
-  "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A white kitten lies on its belly and holds a tiny brass armillary sphere on a plain navy stand, watching the circular rings.",
-  "path": "sources/book/images/unique/art-86.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-1ec83ce8-45db-4d82-a91b-badf1374c5ef.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

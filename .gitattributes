@@ -6,5 +6,5 @@
 *.zip binary
 
 # Preserve layout whitespace in verbatim text extracted from official PDFs.
-research/ege-profile-multiyear/**/*.txt -whitespace
-research/exam-sources-2027/*.txt -whitespace
+book/references/ege-profile-multiyear/**/*.txt -whitespace
+book/references/exam-sources-2027/*.txt -whitespace

@@ -9,30 +9,14 @@
 __pycache__/
 .venv/
 .tmp/
-sources/book/main.pdf
-/tmp/
-/research/international_cache/
-/research/itmo-public-app.js
-/research/legal/*.pdf
-/research/legal/*.html
-
-# Preserve downloaded originals locally; version manifests and resumable queues.
-/olympiads/**
-!/olympiads/**/
-!/olympiads/**/manifest.json
-!/olympiads/**/manifest.jsonl
-!/olympiads/**/queue.jsonl
-!/olympiads/**/pause-state.json
-!/olympiads/**/README.md
-
-# Public frontend inspection cache; archive metadata retains source URLs.
-/research/itmo-js-cache/
-/research/probe-*
-/research/itmo-*-section.json
-/research/itmo-section-root.json
-/research/itmo-public-projects.json
-/research/itmo-project-*.json
-/research/verchenko-*.html
-
-# Temporary discovery responses and OCR from archive recovery.
-/research/gaps-round3-*
+/olympiads/
+/book/.work/
+/book/source/main.pdf
+/book/references/itmo-js-cache/
+/book/references/probe-*
+/book/references/itmo-*-section.json
+/book/references/itmo-section-root.json
+/book/references/itmo-public-projects.json
+/book/references/itmo-project-*.json
+/book/references/verchenko-*.html
+/rendered/.algebra-build-*/

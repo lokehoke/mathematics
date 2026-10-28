@@ -1,8 +1,0 @@
-{
-  "art": 113,
-  "prompt": "Use case: illustration-story. Asset: large transparent watercolor kitten cutout inside a Russian mathematics textbook. ONE natural full-body kitten and the named prop only. Warm luminous detailed watercolor and fine ink, realistic anatomy and soft fur, gentle expressive face. Cream, navy, muted teal and ochre palette, cozy elegant book style. Entire ears paws and tail visible, compact subject with minimal transparent padding. True transparent alpha background with zero alpha everywhere outside kitten and props. No floor, scenery, room, background wash, paper rectangle, shadow patch, text, symbols, letters, numbers or watermark. Subject: A gray kitten sleeps curled beside a neat stack of four folded ochre and teal fabric squares.",
-  "path": "sources/book/images/unique/art-113.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-3ec518e9-b780-4fde-b884-8d7ca9c907f1.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

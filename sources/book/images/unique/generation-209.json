@@ -1,9 +1,0 @@
-{
-  "art": 209,
-  "subject": "A charcoal kitten lying down and gently batting a teal ball beside a small cream ramp.",
-  "prompt": "Use case: illustration-story. Asset: large transparent watercolor kitten cutout inside a Russian mathematics textbook. ONE natural full-body kitten and the named props only. Warm luminous detailed watercolor and fine ink, realistic anatomy and soft fur, gentle expressive face. Cream, navy, muted teal and ochre palette, cozy elegant book style. Entire ears paws and tail visible, compact subject with minimal transparent padding. True transparent alpha background with zero alpha everywhere outside kitten and props. No floor, scenery, room, background wash, paper rectangle, shadow patch, text, symbols, letters, numbers or watermark. Subject: A charcoal kitten lying down and gently batting a teal ball beside a small cream ramp.",
-  "path": "sources/book/images/unique/art-209.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-9cc190f8-ce97-4fd1-93f2-4e2be5a392f2.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}

@@ -1,9 +1,0 @@
-{
-  "art": 256,
-  "subject": "A white kitten with pale grey spots gently sorting three little teal ceramic beads into a tiny ochre tray.",
-  "prompt": "Use case: illustration-story. One new large full-body watercolor kitten cutout for a mathematics book: a white kitten with pale grey spots gently sorting three little teal ceramic beads into a tiny ochre tray. Cozy elegant detailed watercolor and fine ink, realistic anatomy, soft expressive eyes. Cream navy muted teal and ochre cover palette. Entire ears paws tail visible, compact composition with minimal transparent padding. True transparent alpha outside kitten and props. No floor scenery rectangle wash shadows text letters numbers symbols watermark.",
-  "path": "sources/book/images/unique/art-256.png",
-  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-2510bbca-997f-4eed-85ee-539a9b0efb59.png",
-  "tool": "builtin image_gen",
-  "transparent_background": true
-}
