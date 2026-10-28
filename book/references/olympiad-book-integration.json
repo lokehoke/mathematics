@@ -1,0 +1,814 @@
+{
+  "selected_tasks": 64,
+  "chapters": 30,
+  "per_chapter": {
+    "c01": 2,
+    "c02": 2,
+    "c09": 2,
+    "c11": 2,
+    "exam-rational": 2,
+    "c10": 2,
+    "c12-progressions": 2,
+    "exam-models": 3,
+    "c21": 3,
+    "c17": 2,
+    "exam-graphs": 3,
+    "c13": 2,
+    "exam-trigonometric": 2,
+    "exam-parameters": 2,
+    "plane-geometry": 2,
+    "exam-plane": 2,
+    "c18": 2,
+    "solid-geometry": 2,
+    "exam-solid": 2,
+    "c22": 2,
+    "c23-complex": 2,
+    "c26": 2,
+    "c27": 2,
+    "c20": 2,
+    "c29": 3,
+    "c30": 2,
+    "multivariable": 2,
+    "probability": 2,
+    "random-variables": 2,
+    "statistics": 2
+  },
+  "verified_primary_documents": 20,
+  "all_original_hashes_verified": true,
+  "all_tasks_have_source_label_and_link": true,
+  "all_tasks_have_answer_and_solution": true,
+  "legacy_tasks_preserved": 1432,
+  "total_tasks": 1496,
+  "payload_sha256": "1fcc2e8fde4c644c25b4e9864cb8afe9db43845a30d9d9556f5dde530b5569cf",
+  "index": [
+    {
+      "uid": "olympiad.mmo.1935.II.B3",
+      "published": "1.27",
+      "source_id": "mmo-early",
+      "label": "ММО, 1935, II тур, серия B, № 3",
+      "source_pages": [
+        11
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1941.I.78.5",
+      "published": "1.28",
+      "source_id": "mmo-early",
+      "label": "ММО, 1941, I тур, 7–8 классы, № 5",
+      "source_pages": [
+        18
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1959.1",
+      "published": "10.40",
+      "source_id": "imo-1959",
+      "label": "IMO, 1959, № 1",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1959/1959_eng.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1940.I.78.3",
+      "published": "10.41",
+      "source_id": "mmo-early",
+      "label": "ММО, 1940, I тур, 7–8 классы, № 3",
+      "source_pages": [
+        16
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1940.I.78.1",
+      "published": "11.21",
+      "source_id": "mmo-early",
+      "label": "ММО, 1940, I тур, 7–8 классы, № 1",
+      "source_pages": [
+        15
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1946.I.78.5",
+      "published": "11.22",
+      "source_id": "mmo-early",
+      "label": "ММО, 1946, I тур, 7–8 классы, № 5",
+      "source_pages": [
+        23
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1935.II.B1",
+      "published": "12.29",
+      "source_id": "mmo-early",
+      "label": "ММО, 1935, II тур, серия B, № 1",
+      "source_pages": [
+        11
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1937.I.1",
+      "published": "12.30",
+      "source_id": "mmo-early",
+      "label": "ММО, 1937, I тур, № 1",
+      "source_pages": [
+        13
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1960.2",
+      "published": "13.37",
+      "source_id": "imo-1960",
+      "label": "IMO, 1960, № 2",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1960/1960_eng.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1962.2",
+      "published": "13.38",
+      "source_id": "imo-1962",
+      "label": "IMO, 1962, № 2",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1962/1962_eng.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1935.II.C2",
+      "published": "14.21",
+      "source_id": "mmo-early",
+      "label": "ММО, 1935, II тур, серия C, № 2",
+      "source_pages": [
+        12
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1935.II.C1",
+      "published": "14.22",
+      "source_id": "mmo-early",
+      "label": "ММО, 1935, II тур, серия C, № 1",
+      "source_pages": [
+        11
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1935.I.v3.1",
+      "published": "16.18",
+      "source_id": "mmo-early",
+      "label": "ММО, 1935, I тур, вариант 3, № 1",
+      "source_pages": [
+        9
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1935.I.v2.1",
+      "published": "17.37",
+      "source_id": "mmo-early",
+      "label": "ММО, 1935, I тур, вариант 2, № 1",
+      "source_pages": [
+        9
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1940.I.78.2",
+      "published": "17.38",
+      "source_id": "mmo-early",
+      "label": "ММО, 1940, I тур, 7–8 классы, № 2",
+      "source_pages": [
+        16
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1935.I.v1.1",
+      "published": "17.39",
+      "source_id": "mmo-early",
+      "label": "ММО, 1935, I тур, вариант 1, № 1",
+      "source_pages": [
+        9
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1941.II.78.5",
+      "published": "18.37",
+      "source_id": "mmo-early",
+      "label": "ММО, 1941, II тур, 7–8 классы, № 5",
+      "source_pages": [
+        19
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1946.I.78.3",
+      "published": "18.38",
+      "source_id": "mmo-early",
+      "label": "ММО, 1946, I тур, 7–8 классы, № 3",
+      "source_pages": [
+        23
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.apmo.1989.1",
+      "published": "19.33",
+      "source_id": "apmo-1989",
+      "label": "APMO, 1989, № 1",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1989_prb.pdf"
+    },
+    {
+      "uid": "olympiad.apmo.1991.3",
+      "published": "19.34",
+      "source_id": "apmo-1991",
+      "label": "APMO, 1991, № 3",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1991_prb.pdf"
+    },
+    {
+      "uid": "olympiad.apmo.1992.1",
+      "published": "16.19",
+      "source_id": "apmo-1992",
+      "label": "APMO, 1992, № 1",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1992_prb.pdf"
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.1",
+      "published": "15.25",
+      "source_id": "mos-prob-2023-24",
+      "label": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 1",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1964.4",
+      "published": "15.26",
+      "source_id": "imo-1964",
+      "label": "IMO, 1964, № 4",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1964/1964_eng.pdf"
+    },
+    {
+      "uid": "olympiad.apmo.1992.4",
+      "published": "15.27",
+      "source_id": "apmo-1992",
+      "label": "APMO, 1992, № 4",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1992_prb.pdf"
+    },
+    {
+      "uid": "olympiad.apmo.1989.5",
+      "published": "20.23",
+      "source_id": "apmo-1989",
+      "label": "APMO, 1989, № 5",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1989_prb.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1941.I.910.5",
+      "published": "20.24",
+      "source_id": "mmo-early",
+      "label": "ММО, 1941, I тур, 9–10 классы, № 5",
+      "source_pages": [
+        18
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1961.3",
+      "published": "25.32",
+      "source_id": "imo-1961",
+      "label": "IMO, 1961, № 3",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1962.4",
+      "published": "25.33",
+      "source_id": "imo-1962",
+      "label": "IMO, 1962, № 4",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1962/1962_eng.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1945.I.910.3",
+      "published": "26.48",
+      "source_id": "mmo-early",
+      "label": "ММО, 1945, I тур, 9–10 классы, № 3",
+      "source_pages": [
+        21
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1963.1",
+      "published": "26.49",
+      "source_id": "imo-1963",
+      "label": "IMO, 1963, № 1",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1963/1963_eng.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1961.2",
+      "published": "28.25",
+      "source_id": "imo-1961",
+      "label": "IMO, 1961, № 2",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1940.II.78.2",
+      "published": "28.26",
+      "source_id": "mmo-early",
+      "label": "ММО, 1940, II тур, 7–8 классы, № 2",
+      "source_pages": [
+        16
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1961.4",
+      "published": "29.47",
+      "source_id": "imo-1961",
+      "label": "IMO, 1961, № 4",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1935.I.v4.2",
+      "published": "29.48",
+      "source_id": "mmo-early",
+      "label": "ММО, 1935, I тур, вариант 4, № 2",
+      "source_pages": [
+        10
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1938.II.1",
+      "published": "30.29",
+      "source_id": "mmo-early",
+      "label": "ММО, 1938, II тур, № 1",
+      "source_pages": [
+        14
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1965.2",
+      "published": "30.30",
+      "source_id": "imo-1965",
+      "label": "IMO, 1965, № 2",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1965/1965_eng.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1937.I.3",
+      "published": "31.27",
+      "source_id": "mmo-early",
+      "label": "ММО, 1937, I тур, № 3",
+      "source_pages": [
+        13
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1961.6",
+      "published": "31.28",
+      "source_id": "imo-1961",
+      "label": "IMO, 1961, № 6",
+      "source_pages": [
+        2
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1960.5",
+      "published": "32.42",
+      "source_id": "imo-1960",
+      "label": "IMO, 1960, № 5",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1960/1960_eng.pdf"
+    },
+    {
+      "uid": "olympiad.imo.1960.6",
+      "published": "32.43",
+      "source_id": "imo-1960",
+      "label": "IMO, 1960, № 6",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1960/1960_eng.pdf"
+    },
+    {
+      "uid": "olympiad.putnam.2018.A1",
+      "published": "18.39",
+      "source_id": "putnam-2018",
+      "label": "Putnam, 2018, A1",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://maa.org/wp-content/uploads/2024/10/2018PutnamProblemsSolutions.pdf"
+    },
+    {
+      "uid": "olympiad.msu.2006.1",
+      "published": "33.29",
+      "source_id": "msu-algebra-2006",
+      "label": "Алгебраическая олимпиада МГУ, 2006, № 1",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "http://halgebra.math.msu.su/Olympiad/2006/solutions-06.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1996.D2.3",
+      "published": "33.30",
+      "source_id": "imc-1996",
+      "label": "IMC, 1996, день 2, № 3",
+      "source_pages": [
+        11
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1996/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.mmo.1935.II.B2",
+      "published": "34.33",
+      "source_id": "mmo-early",
+      "label": "ММО, 1935, II тур, серия B, № 2",
+      "source_pages": [
+        11
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1995.D2.3",
+      "published": "34.34",
+      "source_id": "imc-1995",
+      "label": "IMC, 1995, день 2, № 3",
+      "source_pages": [
+        7
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1994.D2.4",
+      "published": "35.27",
+      "source_id": "imc-1994",
+      "label": "IMC, 1994, день 2, № 4",
+      "source_pages": [
+        7,
+        8
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1998.D1.1",
+      "published": "35.28",
+      "source_id": "imc-1998-d1",
+      "label": "IMC, 1998, день 1, № 1",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1998/prob_sol1.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1995.D1.1",
+      "published": "36.27",
+      "source_id": "imc-1995",
+      "label": "IMC, 1995, день 1, № 1",
+      "source_pages": [
+        2
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1996.D1.3",
+      "published": "36.28",
+      "source_id": "imc-1996",
+      "label": "IMC, 1996, день 1, № 3",
+      "source_pages": [
+        4
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1996/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1994.D1.2",
+      "published": "40.52",
+      "source_id": "imc-1994",
+      "label": "IMC, 1994, день 1, № 2",
+      "source_pages": [
+        2
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1994.D2.1",
+      "published": "40.53",
+      "source_id": "imc-1994",
+      "label": "IMC, 1994, день 2, № 1",
+      "source_pages": [
+        6
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1996.D1.2",
+      "published": "41.33",
+      "source_id": "imc-1996",
+      "label": "IMC, 1996, день 1, № 2",
+      "source_pages": [
+        3
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1996/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1998.D1.6",
+      "published": "41.34",
+      "source_id": "imc-1998-d1",
+      "label": "IMC, 1998, день 1, № 6",
+      "source_pages": [
+        3
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1998/prob_sol1.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1995.D1.4",
+      "published": "41.35",
+      "source_id": "imc-1995",
+      "label": "IMC, 1995, день 1, № 4",
+      "source_pages": [
+        3
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1995.D2.2",
+      "published": "42.25",
+      "source_id": "imc-1995",
+      "label": "IMC, 1995, день 2, № 2",
+      "source_pages": [
+        6
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1997.D1.2",
+      "published": "42.26",
+      "source_id": "imc-1997-d1",
+      "label": "IMC, 1997, день 1, № 2",
+      "source_pages": [
+        2
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1997/prob_sol1.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1994.D2.2",
+      "published": "43.25",
+      "source_id": "imc-1994",
+      "label": "IMC, 1994, день 2, № 2",
+      "source_pages": [
+        6
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf"
+    },
+    {
+      "uid": "olympiad.imc.1997.D1.5",
+      "published": "43.26",
+      "source_id": "imc-1997-d1",
+      "label": "IMC, 1997, день 1, № 5",
+      "source_pages": [
+        5
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://www.imc-math.org.uk/imc1997/prob_sol1.pdf"
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.3",
+      "published": "46.25",
+      "source_id": "mos-prob-2023-24",
+      "label": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 3",
+      "source_pages": [
+        2
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf"
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.8",
+      "published": "46.26",
+      "source_id": "mos-prob-2023-24",
+      "label": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 8",
+      "source_pages": [
+        7
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf"
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.9",
+      "published": "47.29",
+      "source_id": "mos-prob-2023-24",
+      "label": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 9",
+      "source_pages": [
+        8
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf"
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.11",
+      "published": "47.30",
+      "source_id": "mos-prob-2023-24",
+      "label": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 11",
+      "source_pages": [
+        9
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf"
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.2",
+      "published": "48.33",
+      "source_id": "mos-prob-2023-24",
+      "label": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 2",
+      "source_pages": [
+        1
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf"
+    },
+    {
+      "uid": "olympiad.mosprob.2024-25.3",
+      "published": "48.34",
+      "source_id": "mos-prob-2024-25",
+      "label": "МЦНМО, XVIII заочная олимпиада по ТВиС, 2024/25, № 3",
+      "source_pages": [
+        2
+      ],
+      "statement": "faithful Russian mathematical restatement",
+      "solution": "independent exposition; published solution checked where available",
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xviii_olimpiada._2024-25._resheniya.pdf"
+    }
+  ]
+}

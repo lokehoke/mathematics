@@ -1,0 +1,274 @@
+{
+  "checked_at_utc": "2026-10-22T11:24:36.156095+00:00",
+  "count": 14,
+  "distinct_sha256": 14,
+  "copied_without_modification": true,
+  "images": [
+    {
+      "id": 29,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-29.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1236,
+        1254
+      ],
+      "bytes": 2433120,
+      "sha256": "418ddeeb0679299637e875ff03513d3bdc7860efed0c0f9ce0f85eb26ee6b418"
+    },
+    {
+      "id": 30,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-30.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1251,
+        1254
+      ],
+      "bytes": 2317894,
+      "sha256": "e339ed98332e2ec04318cdd202908cc65677b83f26d9b5296005fa60999cb4c4"
+    },
+    {
+      "id": 31,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-31.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1250,
+        1254
+      ],
+      "bytes": 2046051,
+      "sha256": "2cf2b0a3f2adf8ae2e54e29ad650b0f6f2d8b45420afdf66fad21600f1593079"
+    },
+    {
+      "id": 32,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-32.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        17,
+        1254,
+        1254
+      ],
+      "bytes": 2219750,
+      "sha256": "0b3a564f4a70068aacb43b8072eb10c3d6ab6d3d296724c90d788002d07046a7"
+    },
+    {
+      "id": 33,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-33.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        21,
+        1238,
+        1254
+      ],
+      "bytes": 2239965,
+      "sha256": "73d7e4348b9fe935e76d1c26926e2c3a489515433fc01544b697da7cf50f51c5"
+    },
+    {
+      "id": 34,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-34.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1244,
+        1222
+      ],
+      "bytes": 2297975,
+      "sha256": "069f22b3cee3bf20e47822b84f92498855457fb85664fa4fdc0943e85e90b590"
+    },
+    {
+      "id": 35,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-35.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1246,
+        1254
+      ],
+      "bytes": 2447007,
+      "sha256": "e368a4c18c31cee703a1d9b87af1353c600ab106930cba43a0208c0dbae272fe"
+    },
+    {
+      "id": 36,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-36.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1236,
+        1254
+      ],
+      "bytes": 1970180,
+      "sha256": "091faa788298a9a123826b8a04305bbba5711551e730d988f277a0729b358ed6"
+    },
+    {
+      "id": 37,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-37.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1240,
+        1238
+      ],
+      "bytes": 2484587,
+      "sha256": "3ae49b8963399589dc186776881444684f21342dbf61d468f4ea2f14ea366dd1"
+    },
+    {
+      "id": 38,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-38.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        12,
+        1253,
+        1254
+      ],
+      "bytes": 2138270,
+      "sha256": "9fcf62a9f96ecc16d618eff2cb3c96978685d519963191aeb92ca7ebc2e82b91"
+    },
+    {
+      "id": 39,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-39.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        19,
+        1242,
+        1254
+      ],
+      "bytes": 1806091,
+      "sha256": "7ce6bae85a7a5a585c05fdd2065442702d9b7271f4b2465791aad6789ed9f1e3"
+    },
+    {
+      "id": 40,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-40.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        19,
+        1254,
+        1254
+      ],
+      "bytes": 2261488,
+      "sha256": "76ee4fc97bec6066aad85bd287d85034dc336a27a4db964e22ae58fcedb4dbf1"
+    },
+    {
+      "id": 41,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-41.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        21,
+        1240,
+        1254
+      ],
+      "bytes": 2023160,
+      "sha256": "6f37ae0c3c0d91df5fda2fd7be7264388b7fb6697ee47a76b2ae0fcee3381bde"
+    },
+    {
+      "id": 42,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-42.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        17,
+        1254,
+        1254
+      ],
+      "bytes": 2142135,
+      "sha256": "147218e6f7e04ef0a7c7425c685fa62a4acbc8bb1f3eba50a82e9e7c28ea285f"
+    }
+  ]
+}

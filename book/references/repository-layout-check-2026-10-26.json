@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-26",
+  "public_directories": [
+    "book",
+    "rendered"
+  ],
+  "local_only_directory": "olympiads",
+  "all_777_book_resources_preserved": true,
+  "generated_latex_unchanged": true,
+  "rendered_pdf_unchanged": true,
+  "pdf_sha256": "5dfc3491182905ec828e67d644abcaa6269c5e913fc71e8b0ee6f6764e999fad",
+  "changed_resource": "book/source/data/review-ege-figures.json: source location updated",
+  "checks": [
+    "Python syntax of moved tools",
+    "make_symbols.py",
+    "assemble_book.py: 52 chapters, 1496 tasks, byte-identical generated manuscript",
+    "verify_olympiad_selection.py",
+    "verify_edition11_integrity.py",
+    "Entire olympiads directory ignored; no catalog or archive manifest staged"
+  ]
+}

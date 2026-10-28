@@ -1,0 +1,9 @@
+{
+  "art": 326,
+  "subject": "A cream kitten hugging a teal wooden cone topped with a small plain brass sphere.",
+  "prompt": "One unique transparent watercolor illustration for an elegant mathematics textbook. A cream kitten hugging a teal wooden cone topped with a small plain brass sphere. Refined detailed hand-painted watercolor with fine pencil/ink details, soft fur and gentle expressive eyes. Match a cream, deep navy, muted teal, warm ochre palette. One complete anatomically believable kitten, complete prop, compact centered composition filling most of image. Real transparent alpha background, no background scene or floor, no text, no numbers, no equations, no logos or border. Every kitten illustration must be new and distinct.",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-94b8becd-872a-4cbd-b6d3-b6ca02bc0008.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true,
+  "path": "sources/book/images/unique/art-326.png"
+}

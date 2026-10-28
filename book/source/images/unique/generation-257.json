@@ -1,0 +1,9 @@
+{
+  "art": 257,
+  "subject": "A blue-grey kitten sitting next to a small cream ceramic pot with one delicate ochre orchid flower, gently touching a leaf.",
+  "prompt": "Use case: illustration-story. Asset: one new large transparent watercolor kitten cutout inside a Russian mathematics textbook. Warm luminous detailed watercolor and fine ink, realistic anatomy, soft fur and expressive eyes, cream navy muted teal and ochre cover palette. Entire ears paws tail visible, compact composition with minimal transparent padding. True transparent alpha background outside kitten and props. No floor scenery room background wash paper rectangle shadow patch text letters numbers symbols watermark. Subject: A blue-grey kitten sitting next to a small cream ceramic pot with one delicate ochre orchid flower, gently touching a leaf.",
+  "path": "sources/book/images/unique/art-257.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-ec244f17-753a-4374-9521-bd8c216171c8.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

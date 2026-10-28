@@ -1,0 +1,202 @@
+{
+  "mmo-early": {
+    "contest": "mmo",
+    "source_contest": "Московская математическая олимпиада",
+    "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+    "source_authority": null,
+    "path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+    "sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+    "document_type": "problems_and_solutions",
+    "solution_bearing": true
+  },
+  "imo-1959": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1959/1959_eng.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/IMO/1959/problems_en_10ec31dc_1959_eng.pdf",
+    "sha256": "19169b06cfe86e91349c092d624005650f3093870681fba9bb9073b2e5c1de4c",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "imo-1960": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1960/1960_eng.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/IMO/1960/problems_en_58a46716_1960_eng.pdf",
+    "sha256": "ac7230389ed49c776407b288ea9a973cfdefdac671b300a8e9846fd3e4d11581",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "imo-1961": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/IMO/1961/problems_en_0569ccb4_1961_eng.pdf",
+    "sha256": "65ae54152555e7348e67e9cc3f91f250317acd0e8bd1812582298121beb69633",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "imo-1962": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1962/1962_eng.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/IMO/1962/problems_en_4db459d4_1962_eng.pdf",
+    "sha256": "0ca650277953df8786d05ccb6a086509b3639edbfc86d373a39f8a62c9548461",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "imo-1963": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1963/1963_eng.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/IMO/1963/problems_en_567cc49a_1963_eng.pdf",
+    "sha256": "025864e1fa8cb7cb05d7d2aeebe0801ee1bc0ef25f7d378ebb499770d104831d",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "imo-1964": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1964/1964_eng.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/IMO/1964/problems_en_da40b8b6_1964_eng.pdf",
+    "sha256": "9caf56df2800875c557658453c27a46631096298416363a93b05b9e0a2655459",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "imo-1965": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1965/1965_eng.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/IMO/1965/problems_en_1731e978_1965_eng.pdf",
+    "sha256": "ff16464f08486765b03ec19d993e235b7060eb11e0ea1821ec134a079f716425",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "apmo-1989": {
+    "contest": "APMO",
+    "source_contest": "APMO",
+    "source_url": "https://www.apmo-official.org/static/problems/apmo1989_prb.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/APMO/1989/problems_en_748cc618_apmo1989_prb.pdf",
+    "sha256": "96adc3fedd85c247ba56ca4656fc12d077a415aa1f2d479f528f50651a25da03",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "apmo-1991": {
+    "contest": "APMO",
+    "source_contest": "APMO",
+    "source_url": "https://www.apmo-official.org/static/problems/apmo1991_prb.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/APMO/1991/problems_en_db464df9_apmo1991_prb.pdf",
+    "sha256": "2452965d7634b455d93d9cfa7721d61bf2a755247b6d23cd5778ea7f5ea84c28",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "apmo-1992": {
+    "contest": "APMO",
+    "source_contest": "APMO",
+    "source_url": "https://www.apmo-official.org/static/problems/apmo1992_prb.pdf",
+    "source_authority": null,
+    "path": "olympiads/international/APMO/1992/problems_en_35dde9a7_apmo1992_prb.pdf",
+    "sha256": "0ae95a9dbd567aa00f492719dad3f214226d83bcd8e815c69f911f6a69775064",
+    "document_type": "problems",
+    "solution_bearing": false
+  },
+  "mos-prob-2023-24": {
+    "contest": "mos_probability",
+    "source_contest": "Московская олимпиада по вероятности и статистике",
+    "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+    "source_authority": null,
+    "path": "olympiads/russia/mos_probability/documents/e83fdbce546b-zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+    "sha256": "55a9d93638971ea80ef0249152ff91fe7cc71b98b37fc668987645e7566d14a8",
+    "document_type": "solutions",
+    "solution_bearing": true
+  },
+  "imc-1994": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf",
+    "source_authority": null,
+    "path": "olympiads/university/imc/1994/problems_and_solutions-prob_sol-b6d63ec353.pdf",
+    "sha256": "be5e798c3736ce06e862fb79fb34cdc650b3de1cb6506a18cf1c28aa862f6f23",
+    "document_type": "problems_and_solutions",
+    "solution_bearing": true
+  },
+  "imc-1995": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf",
+    "source_authority": null,
+    "path": "olympiads/university/imc/1995/problems_and_solutions-prob_sol-8d6b8ffe5a.pdf",
+    "sha256": "46960a1dec43044b7ef94fbfd2a6c0fa3d973decd01c7ccc27c938b21da6bb3d",
+    "document_type": "problems_and_solutions",
+    "solution_bearing": true
+  },
+  "imc-1996": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1996/prob_sol.pdf",
+    "source_authority": null,
+    "path": "olympiads/university/imc/1996/problems_and_solutions-prob_sol-97e51f78ff.pdf",
+    "sha256": "1520efe3a8763f5e8d3098775188ddf9a61ead1c577b7a2c8672ec7ba1c98447",
+    "document_type": "problems_and_solutions",
+    "solution_bearing": true
+  },
+  "imc-1997-d1": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1997/prob_sol1.pdf",
+    "source_authority": null,
+    "path": "olympiads/university/imc/1997/problems_and_solutions-prob_sol1-8d2e0ef6d8.pdf",
+    "sha256": "64612053de6eaceaaa799af60796621b0cc51902d1609d7cbc5a5982994e35da",
+    "document_type": "problems_and_solutions",
+    "solution_bearing": true
+  },
+  "imc-1998-d1": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1998/prob_sol1.pdf",
+    "source_authority": null,
+    "path": "olympiads/university/imc/1998/problems_and_solutions-prob_sol1-bb915e061a.pdf",
+    "sha256": "f0e2e0f9cd1a9d14b94b407fb5800eba8aa1c8c6f5fe143d35ba04d89efa2bc4",
+    "document_type": "problems_and_solutions",
+    "solution_bearing": true
+  },
+  "msu-algebra-2006": {
+    "contest": "msu-algebra",
+    "source_contest": "msu-algebra",
+    "source_url": "http://halgebra.math.msu.su/Olympiad/2006/solutions-06.pdf",
+    "source_authority": null,
+    "path": "olympiads/university/msu-algebra/2006/solutions-solutions-06-09592a1748.pdf",
+    "sha256": "8b9af618caa20283b74696c7fc7dc65a7d22032c4d4309660c0c50dcd386a300",
+    "document_type": "solutions",
+    "solution_bearing": true
+  },
+  "putnam-2018": {
+    "contest": "putnam-maa",
+    "source_contest": "putnam-maa",
+    "source_url": "https://maa.org/wp-content/uploads/2024/10/2018PutnamProblemsSolutions.pdf",
+    "source_authority": null,
+    "path": "olympiads/university/putnam-maa/2018/problems_and_solutions-2018PutnamProblemsSolutions-73cadd321f.pdf",
+    "sha256": "1472019414c453ec5147c885e798e4eb7cc85718f6b15bd87601144f25617c53",
+    "document_type": "problems_and_solutions",
+    "solution_bearing": true
+  },
+  "mos-prob-2024-25": {
+    "contest": "mos_probability",
+    "source_contest": "Московская олимпиада по вероятности и статистике",
+    "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xviii_olimpiada._2024-25._resheniya.pdf",
+    "source_authority": null,
+    "path": "olympiads/russia/mos_probability/documents/1d7d0bbb33da-zaochnaya_internet-olimpiada._xviii_olimpiada._2024-25._resheniya.pdf",
+    "sha256": "b9da99156868ee29b5a3004ade655b53d97ba531fb268c1ea5a897b0cdb67a3a",
+    "document_type": "solutions",
+    "solution_bearing": true
+  }
+}

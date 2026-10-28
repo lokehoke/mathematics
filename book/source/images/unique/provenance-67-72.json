@@ -1,0 +1,100 @@
+{
+  "assets": [
+    {
+      "art": 67,
+      "prompt": "Use case: illustration-story. Asset type: large transparent watercolor cat illustration for text wrapping inside a mathematics textbook. Input image cover-cats.png is a STYLE REFERENCE ONLY; do not reproduce any existing cover cat, scene, pose or crop. Create ONE NEW illustration. Match the cover warm luminous watercolor washes, fine natural ink and fur detail, realistic kitten anatomy, gentle expressive face, cream/navy/muted teal/ochre palette. Compact full-body composition, entire ears/paws/tail and props visible, generous subject scale and only small transparent safety padding. True transparent alpha background. No room, floor, scenery, paper rectangle, ground rectangle, frame, border or painted background. No numbers, letters, formulas, typography, logos or watermark. Subject: A ginger kitten sits beside a small wicker basket containing three golden apples, gently lifting one apple with its front paws. Full tail visible, no extra props.",
+      "path": "sources/book/images/unique/art-67.png",
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-944c5d70-ffa0-4984-9c6c-b7aba06d2063.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "7870f574e9aec71143c25c541fb122a16ff7913f8a555d3d5e9680733cbff511",
+      "width": 1217,
+      "height": 1293,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 68,
+      "prompt": "Use case: illustration-story. Asset type: large transparent watercolor cat illustration for text wrapping inside a mathematics textbook. Input image cover-cats.png is a STYLE REFERENCE ONLY; do not reproduce any existing cover cat, scene, pose or crop. Create ONE NEW illustration. Match the cover warm luminous watercolor washes, fine natural ink and fur detail, realistic kitten anatomy, gentle expressive face, cream/navy/muted teal/ochre palette. Compact full-body composition, entire ears/paws/tail and props visible, generous subject scale and only small transparent safety padding. True transparent alpha background. No room, floor, scenery, paper rectangle, ground rectangle, frame, border or painted background. No numbers, letters, formulas, typography, logos or watermark. Subject: A gray tabby kitten crouches over two small brass set squares laid flat at different angles, resting one paw on a set square and looking up curiously.",
+      "path": "sources/book/images/unique/art-68.png",
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-76cdac04-d436-4010-a008-5a54b68f5f9b.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "d3632025db812dd822405868947b6ce21ffcfffbd74a5fe15a0ad0d6bede2631",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 69,
+      "prompt": "Use case: illustration-story. Asset type: large transparent watercolor cat illustration for text wrapping inside a mathematics textbook. Input image cover-cats.png is a STYLE REFERENCE ONLY; do not reproduce any existing cover cat, scene, pose or crop. Create ONE NEW illustration. Match the cover warm luminous watercolor washes, fine natural ink and fur detail, realistic kitten anatomy, gentle expressive face, cream/navy/muted teal/ochre palette. Compact full-body composition, entire ears/paws/tail and props visible, generous subject scale and only small transparent safety padding. True transparent alpha background. No room, floor, scenery, paper rectangle, ground rectangle, frame, border or painted background. No numbers, letters, formulas, typography, logos or watermark. Subject: A white fluffy kitten cautiously looks across a tiny arched wooden toy bridge, with one forepaw on the near end and the whole body and tail clearly visible.",
+      "path": "sources/book/images/unique/art-69.png",
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-94a3cd9c-0eaa-4c99-935f-e00b129440c7.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "6d747b6670333acbbf824274fc3a9cdaccdaf940c9fef030fbbf103af234cf78",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 70,
+      "prompt": "Use case: illustration-story. Asset type: large transparent watercolor cat illustration for text wrapping inside a mathematics textbook. Input image cover-cats.png is a STYLE REFERENCE ONLY; do not reproduce any existing cover cat, scene, pose or crop. Create ONE NEW illustration. Match the cover warm luminous watercolor washes, fine natural ink and fur detail, realistic kitten anatomy, gentle expressive face, cream/navy/muted teal/ochre palette. Compact full-body composition, entire ears/paws/tail and props visible, generous subject scale and only small transparent safety padding. True transparent alpha background. No room, floor, scenery, paper rectangle, ground rectangle, frame, border or painted background. No numbers, letters, formulas, typography, logos or watermark. Subject: A ginger kitten sits upright beside a short brass coil spring and carefully touches its top with one front paw. The spring is freestanding, no machinery or writing.",
+      "path": "sources/book/images/unique/art-70.png",
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-960fc40a-0b92-4304-bb83-8fee2371fd78.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "0c28270566cc55c6256b2b8fbcb722e0775ad2c48a2c4eb4d974d484e404f241",
+      "width": 1216,
+      "height": 1294,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 71,
+      "prompt": "Use case: illustration-story. Asset type: large transparent watercolor cat illustration for text wrapping inside a mathematics textbook. Input image cover-cats.png is a STYLE REFERENCE ONLY; do not reproduce any existing cover cat, scene, pose or crop. Create ONE NEW illustration. Match the cover warm luminous watercolor washes, fine natural ink and fur detail, realistic kitten anatomy, gentle expressive face, cream/navy/muted teal/ochre palette. Compact full-body composition, entire ears/paws/tail and props visible, generous subject scale and only small transparent safety padding. True transparent alpha background. No room, floor, scenery, paper rectangle, ground rectangle, frame, border or painted background. No numbers, letters, formulas, typography, logos or watermark. Subject: A gray kitten reclines with one front paw against a solid wooden toy wheel with five plain cream and teal sectors, all ears and its relaxed tail visible.",
+      "path": "sources/book/images/unique/art-71.png",
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-445f0ce6-5be0-4815-b8a8-b4a4041a05d7.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "c68ac94b4bc3bcc84277300d208670a706e8943e4b669294ddf3be22e6580501",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 72,
+      "prompt": "Use case: illustration-story. Asset type: large transparent watercolor cat illustration for text wrapping inside a mathematics textbook. Input image cover-cats.png is a STYLE REFERENCE ONLY; do not reproduce any existing cover cat, scene, pose or crop. Create ONE NEW illustration. Match the cover warm luminous watercolor washes, fine natural ink and fur detail, realistic kitten anatomy, gentle expressive face, cream/navy/muted teal/ochre palette. Compact full-body composition, entire ears/paws/tail and props visible, generous subject scale and only small transparent safety padding. True transparent alpha background. No room, floor, scenery, paper rectangle, ground rectangle, frame, border or painted background. No numbers, letters, formulas, typography, logos or watermark. Subject: A white kitten arranges four blank wooden domino pieces into a short curved chain, one piece held gently between its front paws. No dots or marks on the pieces.",
+      "path": "sources/book/images/unique/art-72.png",
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-2328fff7-6e3d-4df4-8a84-919583d1cf18.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "9acaf46e7b5b328b7e48c75ff9214a667dddce21b1a3172787aec800a1ee7660",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ]
+}

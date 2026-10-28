@@ -1,0 +1,9 @@
+{
+  "art": 222,
+  "subject": "A fluffy black kitten cuddling a small teal fabric tetrahedron with golden seams.",
+  "prompt": "Use case: illustration-story. Asset: large transparent watercolor kitten cutout inside a Russian mathematics textbook. ONE natural full-body kitten and the named props only. Warm luminous detailed watercolor and fine ink, realistic anatomy and soft fur, gentle expressive face. Cream, navy, muted teal and ochre palette, cozy elegant book style. Entire ears paws and tail visible, compact subject with minimal transparent padding. True transparent alpha background with zero alpha everywhere outside kitten and props. No floor, scenery, room, background wash, paper rectangle, shadow patch, text, symbols, letters, numbers or watermark. Subject: A fluffy black kitten cuddling a small teal fabric tetrahedron with golden seams.",
+  "path": "sources/book/images/unique/art-222.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-deddf743-a225-490f-94e2-bd23d66b9d9b.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

@@ -1,0 +1,9 @@
+{
+  "art": 200,
+  "subject": "A brown tabby kitten standing on its hind paws and steadying a small ochre wooden ladder.",
+  "prompt": "Use case: illustration-story. Asset: large transparent watercolor kitten cutout inside a Russian mathematics textbook. ONE natural full-body kitten and the named props only. Warm luminous detailed watercolor and fine ink, realistic anatomy and soft fur, gentle expressive face. Cream, navy, muted teal and ochre palette, cozy elegant book style. Entire ears paws and tail visible, compact subject with minimal transparent padding. True transparent alpha background with zero alpha everywhere outside kitten and props. No floor, scenery, room, background wash, paper rectangle, shadow patch, text, symbols, letters, numbers or watermark. Subject: A brown tabby kitten standing on its hind paws and steadying a small ochre wooden ladder.",
+  "path": "sources/book/images/unique/art-200.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-9209a31b-0d0a-494f-8ecd-ed8d26d4dadb.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

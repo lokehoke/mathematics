@@ -1,0 +1,74 @@
+[
+  {
+    "exam": "ege",
+    "document": "codifier",
+    "path": "book/references/exam-sources-2027/ege-codifier.pdf",
+    "source_archive": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+    "status": "project",
+    "checked_at": "2026-10-24",
+    "sha256": "1f6a8217fc7c0aae5e7958e2f0e3fa40e0556df431f11651680adcc2622e96b3"
+  },
+  {
+    "exam": "ege",
+    "document": "demo-basic",
+    "path": "book/references/exam-sources-2027/ege-demo-basic.pdf",
+    "source_archive": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+    "status": "project",
+    "checked_at": "2026-10-24",
+    "sha256": "acee4ee13a64b70e0e505004a9a151a1380470a984b016ed275ff3901e776662"
+  },
+  {
+    "exam": "ege",
+    "document": "demo-profile",
+    "path": "book/references/exam-sources-2027/ege-demo-profile.pdf",
+    "source_archive": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+    "status": "project",
+    "checked_at": "2026-10-24",
+    "sha256": "2b12d43cd00b03dfc9755140d6c78276fab8a9c0a3dff2f7483d60dc68711c8c"
+  },
+  {
+    "exam": "ege",
+    "document": "spec-basic",
+    "path": "book/references/exam-sources-2027/ege-spec-basic.pdf",
+    "source_archive": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+    "status": "project",
+    "checked_at": "2026-10-24",
+    "sha256": "206a39e85983ef607f2494afd71b867a8effa8228a02a3d1406ff751168a0c68"
+  },
+  {
+    "exam": "ege",
+    "document": "spec-profile",
+    "path": "book/references/exam-sources-2027/ege-spec-profile.pdf",
+    "source_archive": "https://doc.fipi.ru/ege/demoversii-specifikacii-kodifikatory/2027/ma_11_2027.zip",
+    "status": "project",
+    "checked_at": "2026-10-24",
+    "sha256": "2e7adcaa799c5c06ff79aa55451b049d87cc8c4f4570d5fb150a5ea50a1e4f38"
+  },
+  {
+    "exam": "oge",
+    "document": "codifier",
+    "path": "book/references/exam-sources-2027/oge-codifier.pdf",
+    "source_archive": "https://doc.fipi.ru/oge/demoversii-specifikacii-kodifikatory/2027/ma_9_2027.zip",
+    "status": "project",
+    "checked_at": "2026-10-24",
+    "sha256": "15d17cda8a5303f265a0049715231c5c3fe0ba0152cb3f0d466c324826f1b30a"
+  },
+  {
+    "exam": "oge",
+    "document": "spec",
+    "path": "book/references/exam-sources-2027/oge-spec.pdf",
+    "source_archive": "https://doc.fipi.ru/oge/demoversii-specifikacii-kodifikatory/2027/ma_9_2027.zip",
+    "status": "project",
+    "checked_at": "2026-10-24",
+    "sha256": "ed80257ff81dc9ae28e29b6491d51c5aec45fac1f9e93668e6222a79baf425f9"
+  },
+  {
+    "exam": "oge",
+    "document": "demo",
+    "path": "book/references/exam-sources-2027/oge-demo.pdf",
+    "source_archive": "https://doc.fipi.ru/oge/demoversii-specifikacii-kodifikatory/2027/ma_9_2027.zip",
+    "status": "project",
+    "checked_at": "2026-10-24",
+    "sha256": "4fb94e18640856608a733d2c8a8f028fc2e4964e9b98606cc5a5c5ca00869a44"
+  }
+]

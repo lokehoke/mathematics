@@ -1,0 +1,216 @@
+\chapter{Полнота и метрические пространства}\label{chap:c28}\markright{Глава 39}
+
+\section{Последовательности Коши и полнота}
+В главе \ref{chap:c12-limits} полнота действительных чисел была сформулирована через точную верхнюю грань. Теперь рассмотрим другой способ заметить отсутствие «дырок»: члены последовательности сближаются друг с другом и должны иметь предел в том же пространстве.
+
+\begin{definition}
+\term{Последовательность Коши} (\emph{Cauchy sequence}) — последовательность \((a_n)\), для которой
+\[
+ \forall\varepsilon>0\ \exists N\in\mathbb N\ \forall m,n\ge N:
+ |a_m-a_n|<\varepsilon.
+\]
+В этом условии не требуется заранее знать предел.
+\end{definition}
+\begin{theorem}[Сходимость и условие Коши]\label{thm:legacy-c28-1}
+Всякая сходящаяся действительная последовательность является последовательностью Коши. Всякая последовательность Коши ограничена.
+\end{theorem}
+\begin{proof}
+Если \(a_n\to a\), выберем \(N\) так, чтобы при \(n\ge N\) было \(|a_n-a|<\frac\varepsilon2\). При \(m,n\ge N\) неравенство треугольника даёт \(|a_m-a_n|\le|a_m-a|+|a_n-a|<\varepsilon\).
+Для ограниченности применим условие Коши с \(\varepsilon=1\). При \(n\ge N\) имеем \(|a_n|\le|a_N|+1\). Конечное число первых членов тоже ограничено: достаточно взять максимум их модулей и числа \(|a_N|+1\).
+\end{proof}
+\begin{theorem}[Критерий Коши для действительных последовательностей]\label{thm:legacy-c28-2}
+Действительная последовательность сходится тогда и только тогда, когда она является последовательностью Коши.
+\end{theorem}
+\begin{proof}
+Одна импликация уже доказана. Пусть \((a_n)\) — последовательность Коши. Она ограничена, поэтому определены
+\[
+ l_N=\inf\{a_n:n\ge N\},\qquad u_N=\sup\{a_n:n\ge N\}.
+\]
+Последовательность \(l_N\) не убывает, \(u_N\) не возрастает; обе ограничены. По теореме о монотонной последовательности из главы \ref{chap:c12-limits} они имеют пределы \(l,u\). Для любого \(\varepsilon>0\) найдётся \(N\), после которого любые два члена различаются меньше чем на \(\varepsilon\). Тогда \(u_N-l_N\le\varepsilon\): каждый член хвоста не больше любого другого плюс \(\varepsilon\), после чего можно взять верхнюю и нижнюю грани. Следовательно, \(u-l=0\). Из \(l_n\le a_n\le u_n\) получаем \(a_n\to l=u\).
+\end{proof}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[10]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-114.png}
+\label{catflow:114}
+\end{wrapfigure}
+Рациональные числа позволяют приближать длины с любой конечной точностью, но этого недостаточно для полноты. Рациональные десятичные усечения числа \(\sqrt2\) образуют последовательность Коши: ошибка усечения стремится к нулю. В \(\mathbb R\) её предел равен \(\sqrt2\), а в \(\mathbb Q\) такого предела нет. Иррациональность \(\sqrt2\) доказывается привычным рассуждением: из несократимой дроби \(\frac pq\) и равенства \(p^2=2q^2\) следовала бы чётность и \(p\), и \(q\).
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\section{Расстояние без координат}
+\begin{definition}
+\term{Метрика} (\emph{metric}) на множестве \(X\) — функция \(d:X\times X\to\mathbb R\), для которой при любых \(x,y,z\in X\):
+\[
+\begin{gathered}
+d(x,y)\ge0,\qquad d(x,y)=0\Longleftrightarrow x=y,\\
+d(x,y)=d(y,x),\qquad d(x,z)\le d(x,y)+d(y,z).
+\end{gathered}
+\]
+Последнее свойство — неравенство треугольника.
+\end{definition}
+\begin{definition}
+\term{Метрическое пространство} (\emph{metric space}) — множество \(X\) вместе с метрикой \(d\); записывают \((X,d)\).
+\end{definition}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-115.png}
+\label{catflow:115}
+\end{wrapfigure}
+На прямой стандартное расстояние равно \(|x-y|\). На плоскости можно измерять путь «по прямой» или вдоль прямоугольной сетки улиц. Один и тот же набор точек получает разные расстояния, если меняется правило измерения. Определения сходимости при этом сохраняют одну форму: нужно лишь заменить модуль разности на выбранную метрику.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+На \(\mathbb R^n\) используются, например,
+\[
+\begin{aligned}
+d_2(x,y)&=\sqrt{\sum_{j=1}^n(x_j-y_j)^2},\\
+d_1(x,y)&=\sum_{j=1}^n|x_j-y_j|,\\
+d_\infty(x,y)&=\max_{1\le j\le n}|x_j-y_j|.
+\end{aligned}
+\]
+Это евклидова метрика, метрика суммы модулей и метрика максимума. Для первой неравенство треугольника следует из неравенства Коши — Буняковского главы \ref{chap:c26}: \(\|u+v\|^2\le(\|u\|+\|v\|)^2\). Для второй складываются обычные неравенства треугольника по координатам. Для третьей каждая разность координат не больше суммы двух соответствующих максимумов.
+\begin{definition}
+\term{Дискретная метрика} (\emph{discrete metric}) задаётся правилом \(d(x,y)=0\) при \(x=y\) и \(d(x,y)=1\) при \(x\ne y\).
+\end{definition}
+\begin{definition}
+\term{Открытый шар} (\emph{open ball}) с центром \(a\) и радиусом \(r>0\) — множество \(B_r(a)=\{x\in X:d(x,a)<r\}\).
+\end{definition}
+\begin{definition}
+\term{Сходимость в метрическом пространстве} (\emph{convergence in a metric space}) означает \(x_n\to x\), если \(d(x_n,x)\to0\).
+\end{definition}
+\begin{definition}
+\term{Полное метрическое пространство} (\emph{complete metric space}) — пространство, в котором каждая последовательность Коши имеет предел. Условие Коши имеет вид \(\forall\varepsilon>0\ \exists N\ \forall m,n\ge N:\ d(x_m,x_n)<\varepsilon\).
+\end{definition}
+\begin{theorem}[Единственность предела]\label{thm:legacy-c28-3}
+Последовательность в метрическом пространстве не может иметь два разных предела.
+\end{theorem}
+\begin{proof}
+Если \(x_n\to a\) и \(x_n\to b\), то \(0\le d(a,b)\le d(a,x_n)+d(x_n,b)\to0\). Поэтому \(d(a,b)=0\), откуда \(a=b\).
+\end{proof}
+\section{Открытые и замкнутые множества}
+\begin{definition}
+\term{Открытое множество} (\emph{open set}) \(G\subseteq X\) содержит вместе с каждой своей точкой некоторый открытый шар с центром в этой точке.
+\end{definition}
+\begin{definition}
+\term{Замкнутое множество} (\emph{closed set}) \(F\subseteq X\) — множество, дополнение \(X\setminus F\) которого открыто.
+\end{definition}
+\begin{theorem}[Замкнутость и пределы последовательностей]\label{thm:legacy-c28-4}
+Множество \(F\) замкнуто тогда и только тогда, когда предел любой сходящейся в \(X\) последовательности его точек принадлежит \(F\).
+\end{theorem}
+\begin{proof}
+Если \(F\) замкнуто, \(x_n\in F\) и \(x_n\to x\notin F\), открытость дополнения даёт шар \(B_r(x)\), не встречающий \(F\). Но при больших \(n\) точка \(x_n\) должна попасть в этот шар — противоречие.
+Обратно, если дополнение не открыто, существует \(x\notin F\), у которого каждый шар встречает \(F\). Выбираем \(x_n\in F\cap B_{1/n}(x)\). Тогда \(x_n\to x\notin F\), что нарушает указанное свойство.
+\end{proof}
+\begin{theorem}[Замкнутое подмножество полного пространства]\label{thm:legacy-c28-5}
+Если \(X\) полно, а \(F\subseteq X\) замкнуто, то \(F\) с той же метрикой полно.
+\end{theorem}
+\begin{proof}
+Последовательность Коши в \(F\) является последовательностью Коши и в \(X\), поэтому имеет предел в \(X\). Замкнутость \(F\) означает, что этот предел лежит в \(F\).
+\end{proof}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-116.png}
+\label{catflow:116}
+\end{wrapfigure}
+Замкнутость всегда рассматривается относительно пространства, в котором находится множество. Например, \(\mathbb Q\) замкнуто в самом себе, но не полно со стандартным расстоянием. Отрезок \([0;1]\) полон как замкнутое подмножество \(\mathbb R\), а интервал \((0;1)\) не полон: последовательность \(\frac1{n+1}\) имеет предел \(0\), который ему не принадлежит. Ограниченность сама по себе также не гарантирует полноту.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\section{Подпоследовательности и непрерывность на отрезке}
+\begin{definition}
+\term{Подпоследовательность} (\emph{subsequence}) последовательности \((x_n)\) — последовательность \((x_{n_k})\), где \(n_1<n_2<\cdots\).
+\end{definition}
+\begin{theorem}[Больцано — Вейерштрасс; Bolzano--Weierstrass theorem]\label{thm:legacy-c28-6}
+Из всякой ограниченной действительной последовательности можно выделить сходящуюся подпоследовательность.
+\end{theorem}
+\begin{proof}
+Возьмём отрезок, содержащий все члены. Разделим его пополам и выберем замкнутую половину, содержащую члены с бесконечным числом индексов. Повторяем деление: получаем вложенные отрезки \([a_k;b_k]\), длины которых стремятся к нулю. Число \(c=\sup\{a_k:k\ge1\}\) принадлежит каждому из них: \(a_k\le c\le b_k\). В каждом отрезке выберем член \(x_{n_k}\) с индексом больше предыдущего; это возможно из-за бесконечности набора индексов. Тогда \(|x_{n_k}-c|\le b_k-a_k\to0\).
+\end{proof}
+\begin{definition}
+\term{Секвенциально компактное множество} (\emph{sequentially compact set}) — множество, у любой последовательности точек которого есть подпоследовательность, сходящаяся к точке того же множества. Замкнутый ограниченный отрезок обладает этим свойством по предыдущей теореме и замкнутости.
+\end{definition}
+
+\begin{theorem}[Промежуточное значение; intermediate value theorem]\label{thm:legacy-c28-7}
+Если \(f\) непрерывна на \([a;b]\), то она принимает каждое значение между \(f(a)\) и \(f(b)\).
+\end{theorem}
+\begin{proof}
+Концевые значения достигаются на концах. Для строго промежуточного \(y\) рассмотрим сначала \(f(a)<y<f(b)\). Множество \(E=\{x\in[a;b]:f(x)\le y\}\) непусто и ограничено. Положим \(c=\sup E\). Непрерывность и строгие неравенства на концах дают \(a<c<b\): около \(a\) есть точки из \(E\), около \(b\) точек из \(E\) нет. Из определения супремума можно выбрать \(x_n\in E\) с \(x_n\to c\), поэтому \(f(c)\le y\). Если бы \(f(c)<y\), непрерывность дала бы точку правее \(c\) со значением меньше \(y\), вопреки определению \(c\). Значит, \(f(c)=y\). При \(f(a)>y>f(b)\) применяем доказанное к \(-f\).
+\end{proof}
+
+\begin{theorem}[Вейерштрасс о непрерывной функции; extreme value theorem]\label{thm:legacy-c28-8}
+Непрерывная действительная функция на отрезке \([a;b]\) ограничена и достигает своего наибольшего и наименьшего значений.
+\end{theorem}
+\begin{proof}
+Если функция не ограничена, можно выбрать \(x_n\in[a;b]\) с \(|f(x_n)|>n\). Из \((x_n)\) выделяется подпоследовательность, сходящаяся к \(c\in[a;b]\). По непрерывности её значения стремятся к конечному \(f(c)\), что невозможно.
+Теперь \(M=\sup f([a;b])\) существует. Для каждого \(n\) найдётся \(x_n\) с \(M-\frac1n<f(x_n)\le M\). У сходящейся подпоследовательности аргументов предел \(c\in[a;b]\), а значения стремятся к \(M\). Следовательно, \(f(c)=M\). Минимум получается применением этого рассуждения к \(-f\).
+\end{proof}
+\begin{definition}
+\term{Равномерная непрерывность} (\emph{uniform continuity}) функции \(f:E\to\mathbb R\), \(E\subseteq\mathbb R\), означает
+\[
+\forall\varepsilon>0\ \exists\delta>0\ \forall x,y\in E:
+|x-y|<\delta\Longrightarrow|f(x)-f(y)|<\varepsilon.
+\]
+Один выбор \(\delta\) подходит для всех точек \(E\).
+\end{definition}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-117.png}
+\label{catflow:117}
+\end{wrapfigure}
+На отрезке непрерывность даёт сразу два удобных результата: существование максимума и возможность контролировать изменение функции одним шагом по аргументу. Если построить сетку достаточно мелкой, значения в пределах каждой её ячейки будут близки одновременно во всех ячейках. Именно такой контроль понадобится при определении интеграла через прямоугольники.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\begin{theorem}[Кантор; Heine--Cantor theorem]\label{thm:legacy-c28-9}
+Непрерывная на отрезке функция равномерно непрерывна на нём.
+\end{theorem}
+\begin{proof}
+Если это неверно, найдётся \(\varepsilon_0>0\) и для каждого \(n\) точки \(x_n,y_n\in[a;b]\) с \(|x_n-y_n|<\frac1n\), но \(|f(x_n)-f(y_n)|\ge\varepsilon_0\). Выделим подпоследовательность \(x_{n_k}\to c\in[a;b]\). Неравенство треугольника даёт \(y_{n_k}\to c\). Непрерывность в \(c\) означает, что обе последовательности значений стремятся к \(f(c)\), вопреки их различию не меньше чем на \(\varepsilon_0\).
+\end{proof}
+
+\par\noindent\begin{minipage}{\linewidth}\section*{Графики}
+\begin{center}\includegraphics[width=\textwidth,height=.79\textheight,keepaspectratio]{images/atlas-metric.pdf}\par\small Шары для трёх метрик\end{center}\end{minipage}\par
+\Needspace{7\baselineskip}\section*{Задачи}
+\begingroup\setlength{\parskip}{2pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.1.} Докажи непосредственно по определению Коши, что \(a_n=\dfrac1n\) — последовательность Коши.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.2.} Является ли \(a_n=(-1)^n\) последовательностью Коши? Укажи значение \(\varepsilon\), на котором условие нарушается.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.3.} Для \(a_n=3+\dfrac2n\) найди номер \(N\), после которого расстояние между любыми двумя членами меньше \(0{,}01\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.4.} Десятичные усечения \(1;\ 1{,}4;\ 1{,}41;\ 1{,}414;\ldots\) числа \(\sqrt2\) рассматриваются как последовательность в \(\mathbb Q\). Почему она является последовательностью Коши, но не сходится в \(\mathbb Q\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.5.} Между точками \((1,2)\) и \((4,6)\) найди расстояния \(d_2,d_1,d_\infty\).\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-118.png}
+\label{catflow:118}
+\end{wrapfigure}
+\textbf{39.6.} Нарисуй на плоскости открытые единичные шары с центром в нуле для метрик \(d_2,d_1,d_\infty\).\par
+
+\textbf{39.7.} В дискретной метрике опиши \(B_{1/2}(a)\), \(B_1(a)\), \(B_2(a)\).\par
+
+\textbf{39.8.} Является ли \(d(x,y)=(x-y)^2\) метрикой на \(\mathbb R\)?\par
+
+\textbf{39.9.} Докажи неравенство треугольника для метрики максимума в \(\mathbb R^n\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.10.} В пространстве \(\mathbb R\) со стандартной метрикой укажи, какие множества открыты, какие замкнуты: \((0;1)\), \([0;1]\), \([0;1)\), \(\varnothing\), \(\mathbb R\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.11.} Какое из пространств \([0;1]\), \((0;1)\), \(\mathbb Z\) полно со стандартным расстоянием?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.12.} Последовательность \(x_n=(-1)^n+\dfrac1n\) ограничена. Найди две её подпоследовательности с разными пределами.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.13.} Почему теорема Вейерштрасса не гарантирует максимум функции \(f(x)=x\) на \((0;1)\)? Есть ли максимум фактически?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.14.} Найди минимум и максимум \(f(x)=x^2-2x+3\) на \([0;3]\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.15.} Для \(f(x)=3x-2\) на всей прямой подбери \(\delta\) через \(\varepsilon\), доказывающую равномерную непрерывность.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.16.} Докажи равномерную непрерывность \(f(x)=x^2\) на \([0;2]\) прямой оценкой.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.17.} Датчик сообщает точки \(p_n=(\dfrac1n,\dfrac2n)\) на плоскости. К какой точке они сходятся в трёх метриках \(d_1,d_2,d_\infty\)? Найди расстояния до предела.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.18.} По прямоугольной сетке улиц нужно попасть из \((0,0)\) в \((3,4)\). Сравни кратчайший путь вдоль улиц с расстоянием по прямой.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.19.}\starmark{} Докажи, что любое пространство с дискретной метрикой полно.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.20.}\starmark{} Докажи, что \(\mathbb R^n\) полно в метрике \(d_\infty\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.21.}\starmark{} Докажи, что \(f(x)=\dfrac1x\) не является равномерно непрерывной на \((0;1)\). Используй точки \(\dfrac1n\) и \(\dfrac1{n+1}\), \(n\ge2\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.22.}\starmark{} Докажи, что равномерно непрерывная функция \(f:E\to\mathbb R\) переводит любую последовательность Коши в \(E\) в последовательность Коши значений.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.23.}\starmark{} Докажи: всякая ограниченная действительная последовательность, у которой все сходящиеся подпоследовательности имеют один и тот же предел \(a\), сама сходится к \(a\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{39.24.} Докажи, что шар \(B_r(a)\) открыт в любом метрическом пространстве.\par\end{minipage}\par
+\endgroup
