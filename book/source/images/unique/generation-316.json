@@ -1,0 +1,9 @@
+{
+  "art": 316,
+  "subject": "A silver kitten gazing at two brass pendulum bobs suspended from a small teal stand.",
+  "prompt": "One unique transparent watercolor illustration for an elegant mathematics textbook. A silver kitten gazing at two brass pendulum bobs suspended from a small teal stand. Refined detailed hand-painted watercolor with fine pencil/ink details, soft fur and gentle expressive eyes. Match a cream, deep navy, muted teal, warm ochre palette. One complete anatomically believable kitten, complete prop, compact centered composition filling most of image. Real transparent alpha background, no background scene or floor, no text, no numbers, no equations, no logos or border. Every kitten illustration must be new and distinct.",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-0b62daac-c96a-4262-9c04-ea1bdf649488.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true,
+  "path": "sources/book/images/unique/art-316.png"
+}

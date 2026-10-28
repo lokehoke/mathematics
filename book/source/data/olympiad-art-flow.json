@@ -1,0 +1,258 @@
+[
+  {
+    "art": 296,
+    "kind": "tasks",
+    "chapter": "c01",
+    "start_uid": "olympiad.mmo.1935.II.B3",
+    "end_uid": "olympiad.mmo.1941.I.78.5",
+    "side": "r"
+  },
+  {
+    "art": 297,
+    "kind": "tasks",
+    "chapter": "c02",
+    "start_uid": "olympiad.imo.1959.1",
+    "end_uid": "olympiad.mmo.1940.I.78.3",
+    "side": "l"
+  },
+  {
+    "art": 298,
+    "kind": "answers",
+    "chapter": "c09",
+    "start_uid": "olympiad.mmo.1946.I.78.5",
+    "end_uid": "olympiad.mmo.1946.I.78.5",
+    "side": "r"
+  },
+  {
+    "art": 299,
+    "kind": "tasks",
+    "chapter": "c11",
+    "start_uid": "olympiad.mmo.1935.II.B1",
+    "end_uid": "olympiad.mmo.1937.I.1",
+    "side": "l"
+  },
+  {
+    "art": 300,
+    "kind": "tasks",
+    "chapter": "exam-rational",
+    "start_uid": "olympiad.imo.1960.2",
+    "end_uid": "olympiad.imo.1962.2",
+    "side": "r"
+  },
+  {
+    "art": 301,
+    "kind": "tasks",
+    "chapter": "c10",
+    "start_uid": "olympiad.mmo.1935.II.C2",
+    "end_uid": "olympiad.mmo.1935.II.C1",
+    "side": "l"
+  },
+  {
+    "art": 302,
+    "kind": "tasks",
+    "chapter": "exam-graphs",
+    "start_uid": "olympiad.mosprob.2023-24.1",
+    "end_uid": "olympiad.apmo.1992.4",
+    "side": "r"
+  },
+  {
+    "art": 303,
+    "kind": "tasks",
+    "chapter": "c12-progressions",
+    "start_uid": "olympiad.mmo.1935.I.v3.1",
+    "end_uid": "olympiad.apmo.1992.1",
+    "side": "l"
+  },
+  {
+    "art": 304,
+    "kind": "answers",
+    "chapter": "exam-models",
+    "start_uid": "olympiad.mmo.1941.II.78.5",
+    "end_uid": "olympiad.mmo.1941.II.78.5",
+    "side": "r"
+  },
+  {
+    "art": 305,
+    "kind": "tasks",
+    "chapter": "c21",
+    "start_uid": "olympiad.mmo.1941.II.78.5",
+    "end_uid": "olympiad.putnam.2018.A1",
+    "side": "l"
+  },
+  {
+    "art": 306,
+    "kind": "tasks",
+    "chapter": "c17",
+    "start_uid": "olympiad.apmo.1989.1",
+    "end_uid": "olympiad.apmo.1991.3",
+    "side": "r"
+  },
+  {
+    "art": 307,
+    "kind": "tasks",
+    "chapter": "c13",
+    "start_uid": "olympiad.apmo.1989.5",
+    "end_uid": "olympiad.mmo.1941.I.910.5",
+    "side": "l"
+  },
+  {
+    "art": 308,
+    "kind": "tasks",
+    "chapter": "exam-trigonometric",
+    "start_uid": "olympiad.imo.1961.3",
+    "end_uid": "olympiad.imo.1962.4",
+    "side": "r"
+  },
+  {
+    "art": 309,
+    "kind": "tasks",
+    "chapter": "exam-parameters",
+    "start_uid": "olympiad.mmo.1945.I.910.3",
+    "end_uid": "olympiad.imo.1963.1",
+    "side": "l"
+  },
+  {
+    "art": 310,
+    "kind": "answers",
+    "chapter": "plane-geometry",
+    "start_uid": "olympiad.imo.1961.4",
+    "end_uid": "olympiad.imo.1961.4",
+    "side": "r"
+  },
+  {
+    "art": 311,
+    "kind": "tasks",
+    "chapter": "exam-plane",
+    "start_uid": "olympiad.imo.1961.4",
+    "end_uid": "olympiad.mmo.1935.I.v4.2",
+    "side": "l"
+  },
+  {
+    "art": 312,
+    "kind": "tasks",
+    "chapter": "c18",
+    "start_uid": "olympiad.mmo.1938.II.1",
+    "end_uid": "olympiad.imo.1965.2",
+    "side": "r"
+  },
+  {
+    "art": 313,
+    "kind": "tasks",
+    "chapter": "solid-geometry",
+    "start_uid": "olympiad.mmo.1937.I.3",
+    "end_uid": "olympiad.imo.1961.6",
+    "side": "l"
+  },
+  {
+    "art": 314,
+    "kind": "tasks",
+    "chapter": "exam-solid",
+    "start_uid": "olympiad.imo.1960.5",
+    "end_uid": "olympiad.imo.1960.6",
+    "side": "r"
+  },
+  {
+    "art": 315,
+    "kind": "tasks",
+    "chapter": "c22",
+    "start_uid": "olympiad.msu.2006.1",
+    "end_uid": "olympiad.imc.1996.D2.3",
+    "side": "l"
+  },
+  {
+    "art": 316,
+    "kind": "tasks",
+    "chapter": "c23-complex",
+    "start_uid": "olympiad.mmo.1935.II.B2",
+    "end_uid": "olympiad.imc.1995.D2.3",
+    "side": "r"
+  },
+  {
+    "art": 317,
+    "kind": "answers",
+    "chapter": "c26",
+    "start_uid": "olympiad.imc.1996.D1.3",
+    "end_uid": "olympiad.imc.1996.D1.3",
+    "side": "l"
+  },
+  {
+    "art": 318,
+    "kind": "answers",
+    "chapter": "c27",
+    "start_uid": "olympiad.mmo.1945.I.910.3",
+    "end_uid": "olympiad.mmo.1945.I.910.3",
+    "side": "r"
+  },
+  {
+    "art": 319,
+    "kind": "tasks",
+    "chapter": "c20",
+    "start_uid": "olympiad.imc.1994.D1.2",
+    "end_uid": "olympiad.imc.1994.D2.1",
+    "side": "l"
+  },
+  {
+    "art": 320,
+    "kind": "tasks",
+    "chapter": "c29",
+    "start_uid": "olympiad.imc.1996.D1.2",
+    "end_uid": "olympiad.imc.1995.D1.4",
+    "side": "r"
+  },
+  {
+    "art": 321,
+    "kind": "answers",
+    "chapter": "c30",
+    "start_uid": "olympiad.apmo.1989.1",
+    "end_uid": "olympiad.apmo.1989.1",
+    "side": "l"
+  },
+  {
+    "art": 322,
+    "kind": "tasks",
+    "chapter": "multivariable",
+    "start_uid": "olympiad.imc.1994.D2.2",
+    "end_uid": "olympiad.imc.1997.D1.5",
+    "side": "r"
+  },
+  {
+    "art": 323,
+    "kind": "tasks",
+    "chapter": "probability",
+    "start_uid": "olympiad.mosprob.2023-24.3",
+    "end_uid": "olympiad.mosprob.2023-24.8",
+    "side": "l"
+  },
+  {
+    "art": 324,
+    "kind": "tasks",
+    "chapter": "random-variables",
+    "start_uid": "olympiad.mosprob.2023-24.9",
+    "end_uid": "olympiad.mosprob.2023-24.11",
+    "side": "r"
+  },
+  {
+    "art": 325,
+    "kind": "tasks",
+    "chapter": "statistics",
+    "start_uid": "olympiad.mosprob.2023-24.2",
+    "end_uid": "olympiad.mosprob.2024-25.3",
+    "side": "l"
+  },
+  {
+    "art": 326,
+    "kind": "answers",
+    "chapter": "statistics",
+    "start_uid": "olympiad.mosprob.2023-24.2",
+    "end_uid": "olympiad.mosprob.2023-24.2",
+    "side": "r"
+  },
+  {
+    "art": 327,
+    "kind": "answers",
+    "chapter": "multivariable",
+    "start_uid": "olympiad.imc.1994.D2.2",
+    "end_uid": "olympiad.imc.1994.D2.2",
+    "side": "r"
+  }
+]

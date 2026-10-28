@@ -1,0 +1,82 @@
+\chapter{Десятичные дроби и проценты}\label{chap:c04}\markright{Глава 3}
+\begin{definition}\term{Десятичная дробь} (\emph{decimal}) — запись числа с разрядами десятых, сотых, тысячных и далее после запятой.\end{definition}
+\begin{definition}\term{Процент} (\emph{percent}) — одна сотая часть: \(1 \% = \frac{1}{100} = 0{,}01\).\end{definition}
+\begin{definition}\term{Периодическая десятичная дробь} (\emph{repeating decimal}) — бесконечная десятичная дробь с повторяющимся блоком цифр начиная с некоторого разряда.\end{definition}
+\section{Правила вычислений}
+При сложении и вычитании десятичных дробей записывай одинаковые разряды друг под другом.\par
+При умножении сначала умножь без запятых, затем отдели справа столько цифр, сколько их было после запятых в обоих множителях вместе.\par
+При делении перенеси запятую в делимом и делителе на одинаковое число разрядов, чтобы делитель стал целым.\par
+\section{Формулы для процентов}
+\(p \%\) от \(A\): \(A \cdot \frac{p}{100}\). Если \(p \%\) числа равны \(B\) и \(p \ne  0\), то число равно \(\frac{100 B}{p}\).\par
+Рост на \(p \%\): \(A (1 + \frac{p}{100})\). Снижение на \(p \%\): \(A (1 - \frac{p}{100})\).\par
+Процентное изменение: \(\frac{\text{новое значение} - \text{старое значение}}{\text{старое значение}} \cdot 100 \%\), если старое значение не равно \(0\). В обычных задачах о цене исходная цена положительна.\par
+Каждый следующий процент изменения относится к уже изменённой величине.\par
+\section{Округление и периодические дроби}
+Если следующая за оставляемым разрядом цифра \(0 - 4\), разряд не меняют; если \(5 - 9\), увеличивают на \(1\), при необходимости перенося единицу в старший разряд.\par
+Любая периодическая десятичная дробь представляет рациональное число.\par
+{\small\textit{Пример: \(\frac{1}{3} = 0{,}(3)\). Цена \(100\) рублей после двух скидок по \(10 \%\): \(100 \cdot 0{,}9 \cdot 0{,}9 = 81\) рубль.}}\par
+\section{Перевод периодической дроби в обыкновенную}
+\begin{definition}\term{Период} (\emph{repetend; repeating block}) --- повторяющийся блок цифр; его записывают в скобках, например \(0{,}12(34)\). \par\term{Предпериод} (\emph{non-repeating part; preperiod}) --- конечный блок после запятой перед выбранным началом повторения; он может быть пустым.\end{definition}
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-262.png}
+\label{catflow:262}
+\end{wrapfigure}
+Перед переводом периодической дроби отдели целую часть, предпериод и повторяющийся блок. Нули в начале блока тоже считаются цифрами: у записи \(0{,}03(7)\) предпериод имеет длину два. Умножение на степень десяти переносит запятую и позволяет поставить одинаковые бесконечные хвосты друг под другом. После вычитания хвосты исчезают, а полученное линейное уравнение даёт точную дробь. Это не округление: в ответе должны сохраниться все разряды. Для отрицательного числа сначала удобно перевести его модуль, затем вернуть знак. Конечную десятичную запись можно считать периодической с повторяющимся нулём. Одно число иногда имеет разные десятичные записи, поэтому внешний вид хвоста сам по себе ещё не доказывает различие чисел.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<60mm\dp\CatFlowBox=\dimexpr60mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
+\Needspace{14\baselineskip}\begin{theorem}[Алгоритм перевода и рациональность]
+Пусть неотрицательное число имеет предпериод длины \(m\ge0\) и период длины \(k\ge1\). Пусть \(A\) --- целое число, образованное цифрами целой части и предпериода, а \(B\) --- целое число из тех же цифр с дописанным одним периодом. Тогда
+\[x=\frac{B-A}{10^m(10^k-1)}.\]
+Рациональное число имеет конечную или начиная с некоторого места периодическую десятичную запись, и обратно.
+\end{theorem}
+\begin{proof}Десятичные дробные хвосты \(10^m x\) и \(10^{m+k}x\) одинаковы. Разность равна \(B-A\), откуда формула. Операции можно обосновать сначала для конечных обрезаний: ошибка не превосходит постоянной, умноженной на \(10^{-n}\), и стремится к нулю. Обратно, при делении целого числителя на положительный знаменатель \(q\) остатки принадлежат конечному списку \(0,1,\ldots,q-1\). Нулевой остаток завершает запись; повтор ненулевого остатка повторяет все дальнейшие шаги и цифры. Отрицательное число отличается знаком.\end{proof}
+\begin{example}Для \(x=0{,}1(6)\) имеем \(10x=1{,}(6)\), \(100x=16{,}(6)\). Вычитаем: \(90x=15\), поэтому \(x=\frac16\). По общей формуле \(A=1,B=16,m=k=1\); получается тот же ответ \(\frac{16-1}{10(10-1)}\).\end{example}
+\begin{example}Пусть \(x=0{,}(9)\). Тогда \(10x-x=9\), то есть \(x=1\). Это точное равенство. После \(n\) девяток конечное обрезание меньше единицы на \(10^{-n}\), поэтому положительного постоянного зазора между единицей и бесконечной записью нет. Число \(1\) имеет записи \(1{,}000\ldots\) и \(0{,}999\ldots\).\end{example}
+\Needspace{7\baselineskip}\section*{Задачи}
+\begingroup\setlength{\parskip}{2pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.1.} Вычисли \(3{,}75 + 0{,}086\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.2.} Вычисли \(8 - 2{,}47\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.3.} Вычисли \(0{,}24 \cdot  0{,}5\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.4.} Вычисли \(4{,}2 : 0{,}07\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.5.} Запиши \(\dfrac{7}{8}\) десятичной дробью.\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[9]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-14.png}
+\label{catflow:14}
+\end{wrapfigure}
+\textbf{3.6.} Запиши \(0{,}125\) несократимой обыкновенной дробью.\par
+
+\textbf{3.7.} Запиши \(\dfrac{2}{3}\) периодической десятичной дробью.\par
+
+\textbf{3.8.} Округли \(3{,}14159\) до сотых и до тысячных.\par
+
+\textbf{3.9.} Найди \(15 \%\) от \(240\).\par
+
+\textbf{3.10.} \(30 \%\) числа равны \(54\). Найди число.\par
+
+\textbf{3.11.} Цена выросла с \(800\) до \(920\) рублей. На сколько процентов?\par
+
+\textbf{3.12.} Цену \(1000\) рублей повысили на \(20 \%\), затем снизили на \(20 \%\). Найди итоговую цену и изменение в процентах от исходной.\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.13.} Купили \(1{,}8\) кг яблок по \(125\) рублей за килограмм. Сколько заплатили?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.14.} Куртка стоит \(4800\) рублей. Скидка составляет \(15 \%\). Какова цена со скидкой?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.15.} Велосипедист проехал \(7{,}86\) км утром и \(5{,}47\) км вечером. Найди общий путь и округли его до десятых километра.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.16.}\starmark{} После скидки \(20 \%\) и следующей скидки \(10 \%\) товар стоит \(2160\) рублей. Найди исходную цену.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.17.}\starmark{} Цена выросла на \(25 \%\). На сколько процентов нужно снизить новую цену, чтобы получить исходную?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.18.}\starmark{} Смешали \(200\) г раствора с массовой долей соли \(10 \%\) и \(300\) г раствора с долей соли \(20 \%\). Найди массовую долю соли в смеси.\begin{center}\includegraphics[width=.7\linewidth,height=45mm,keepaspectratio]{images/cats-mixtures.png}\end{center}\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.19.} Положительная цена сначала выросла на \(p\%\), затем новая цена выросла на \(q\%\), где \(p,q\ge0\). Докажи, что общее увеличение составляет \(\left(p+q+\dfrac{pq}{100}\right)\%\) от исходной цены.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.20.}\starmark{} Пусть \(\dfrac pq\) --- положительная несократимая дробь с целыми \(p,q>0\). Докажи, что она имеет конечную десятичную запись тогда и только тогда, когда \(q=2^{\alpha}5^{\beta}\) для некоторых \(\alpha,\beta\in\mathbb N_0\). Можно пользоваться основной теоремой арифметики и свойствами делимости.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.21.} Переведи \(0{,}(27)\) в обыкновенную дробь.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.22.} Переведи \(0{,}2(3)\) в обыкновенную дробь.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.23.} Переведи \(1{,}0(6)\) в обыкновенную дробь.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.24.} Переведи \(-0{,}(12)\) в обыкновенную дробь.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.25.}\starmark{} Докажи точное равенство \(0{,}4(9)=0{,}5\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{3.26.} Найди период дроби \(\dfrac17\) делением с остатком.\par\end{minipage}\par
+\endgroup

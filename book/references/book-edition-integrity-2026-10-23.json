@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-23",
+  "title": "Алгебра перед математическим анализом для любимого котеночка",
+  "chapters": 25,
+  "physical_pages": 238,
+  "arabic_pages": 237,
+  "exercises": 648,
+  "theorems": 98,
+  "proofs": 97,
+  "explicit_unproved_theorem": "Abel–Ruffini",
+  "numbered_theorems_missing": [],
+  "bookmarks": 29,
+  "toc_links": 29,
+  "continuous_arabic_pagination": true,
+  "old_exercise_preservation": {
+    "inherited_exercises": 549,
+    "unexpected_changes": [],
+    "current_exercises": 648,
+    "added_exercises": 99
+  },
+  "unique_cats": 101,
+  "reading_pdf_sha256": "f9cd7756c96f6b5c7096db2354c8f2fcfca643dc9489516d71790b5b3f27aeaf",
+  "reading_pdf_bytes": 6753215,
+  "text_art_overlaps": [],
+  "colored_box_art_overlaps": [],
+  "outside_content": [],
+  "exercise_label_anomalies": {},
+  "gaps_over_three_pages": [],
+  "reading_pdf_character_inventories_preserved": true
+}

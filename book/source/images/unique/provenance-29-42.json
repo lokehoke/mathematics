@@ -1,0 +1,490 @@
+[
+  {
+    "id": 29,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-fcd50403-5ef9-4af0-80ad-634046bdb874.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "418ddeeb0679299637e875ff03513d3bdc7860efed0c0f9ce0f85eb26ee6b418",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-29.png",
+    "image": {
+      "id": 29,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-29.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1236,
+        1254
+      ],
+      "bytes": 2433120,
+      "sha256": "418ddeeb0679299637e875ff03513d3bdc7860efed0c0f9ce0f85eb26ee6b418"
+    }
+  },
+  {
+    "id": 30,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-7f3b65dd-0560-4946-b2a4-3d9d4499d863.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "e339ed98332e2ec04318cdd202908cc65677b83f26d9b5296005fa60999cb4c4",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-30.png",
+    "image": {
+      "id": 30,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-30.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1251,
+        1254
+      ],
+      "bytes": 2317894,
+      "sha256": "e339ed98332e2ec04318cdd202908cc65677b83f26d9b5296005fa60999cb4c4"
+    }
+  },
+  {
+    "id": 31,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-af93254b-4fe1-4653-b49c-cf20e7a3ca0d.png",
+    "accepted": false,
+    "reason": "Rejected: generator added an unrequested geometric solid. Regeneration required.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "fc6df24a80a48ff865301677fbeea378bfdfc8ba41521b536824cd622b917065"
+  },
+  {
+    "id": 32,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-25fd3efc-a426-4c6e-9743-9a75119ba78e.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "0b3a564f4a70068aacb43b8072eb10c3d6ab6d3d296724c90d788002d07046a7",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-32.png",
+    "image": {
+      "id": 32,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-32.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        17,
+        1254,
+        1254
+      ],
+      "bytes": 2219750,
+      "sha256": "0b3a564f4a70068aacb43b8072eb10c3d6ab6d3d296724c90d788002d07046a7"
+    }
+  },
+  {
+    "id": 33,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-67b9c21d-5bf1-4461-abf9-2c94051e665c.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "73d7e4348b9fe935e76d1c26926e2c3a489515433fc01544b697da7cf50f51c5",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-33.png",
+    "image": {
+      "id": 33,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-33.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        21,
+        1238,
+        1254
+      ],
+      "bytes": 2239965,
+      "sha256": "73d7e4348b9fe935e76d1c26926e2c3a489515433fc01544b697da7cf50f51c5"
+    }
+  },
+  {
+    "id": 34,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-d897abe3-f718-45c7-8510-d20caee03390.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "069f22b3cee3bf20e47822b84f92498855457fb85664fa4fdc0943e85e90b590",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-34.png",
+    "image": {
+      "id": 34,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-34.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1244,
+        1222
+      ],
+      "bytes": 2297975,
+      "sha256": "069f22b3cee3bf20e47822b84f92498855457fb85664fa4fdc0943e85e90b590"
+    }
+  },
+  {
+    "id": 35,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-cf21ba1b-8c4a-4bb9-a90e-b4777c483201.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "e368a4c18c31cee703a1d9b87af1353c600ab106930cba43a0208c0dbae272fe",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-35.png",
+    "image": {
+      "id": 35,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-35.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1246,
+        1254
+      ],
+      "bytes": 2447007,
+      "sha256": "e368a4c18c31cee703a1d9b87af1353c600ab106930cba43a0208c0dbae272fe"
+    }
+  },
+  {
+    "id": 36,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-ca5fc565-a33a-4502-9065-cf847bd77659.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "091faa788298a9a123826b8a04305bbba5711551e730d988f277a0729b358ed6",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-36.png",
+    "image": {
+      "id": 36,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-36.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1236,
+        1254
+      ],
+      "bytes": 1970180,
+      "sha256": "091faa788298a9a123826b8a04305bbba5711551e730d988f277a0729b358ed6"
+    }
+  },
+  {
+    "id": 37,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-43e6a01c-5079-4904-9cd7-cd28eaadf892.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "3ae49b8963399589dc186776881444684f21342dbf61d468f4ea2f14ea366dd1",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-37.png",
+    "image": {
+      "id": 37,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-37.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1240,
+        1238
+      ],
+      "bytes": 2484587,
+      "sha256": "3ae49b8963399589dc186776881444684f21342dbf61d468f4ea2f14ea366dd1"
+    }
+  },
+  {
+    "id": 38,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-76c35f09-dcaf-4493-944b-c5831681ad53.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "9fcf62a9f96ecc16d618eff2cb3c96978685d519963191aeb92ca7ebc2e82b91",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-38.png",
+    "image": {
+      "id": 38,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-38.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        12,
+        1253,
+        1254
+      ],
+      "bytes": 2138270,
+      "sha256": "9fcf62a9f96ecc16d618eff2cb3c96978685d519963191aeb92ca7ebc2e82b91"
+    }
+  },
+  {
+    "id": 39,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-740322b1-9200-41ca-944d-49e1313de270.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "7ce6bae85a7a5a585c05fdd2065442702d9b7271f4b2465791aad6789ed9f1e3",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-39.png",
+    "image": {
+      "id": 39,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-39.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        19,
+        1242,
+        1254
+      ],
+      "bytes": 1806091,
+      "sha256": "7ce6bae85a7a5a585c05fdd2065442702d9b7271f4b2465791aad6789ed9f1e3"
+    }
+  },
+  {
+    "id": 40,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-0a457f76-fdc4-44eb-9aac-568fb98486af.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "76ee4fc97bec6066aad85bd287d85034dc336a27a4db964e22ae58fcedb4dbf1",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-40.png",
+    "image": {
+      "id": 40,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-40.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        19,
+        1254,
+        1254
+      ],
+      "bytes": 2261488,
+      "sha256": "76ee4fc97bec6066aad85bd287d85034dc336a27a4db964e22ae58fcedb4dbf1"
+    }
+  },
+  {
+    "id": 31,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-9cdb0360-8681-4b74-948d-24936bb4f69c.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "retry_prompt",
+    "sha256": "2cf2b0a3f2adf8ae2e54e29ad650b0f6f2d8b45420afdf66fad21600f1593079",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-31.png",
+    "image": {
+      "id": 31,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-31.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1250,
+        1254
+      ],
+      "bytes": 2046051,
+      "sha256": "2cf2b0a3f2adf8ae2e54e29ad650b0f6f2d8b45420afdf66fad21600f1593079"
+    }
+  },
+  {
+    "id": 41,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-56f5bc02-3641-4d5e-a863-5aa087bd9320.png",
+    "accepted": false,
+    "reason": "Rejected: extra fifth paw visible below the frame. Regeneration required.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "a2b4c7ccbc59474fac72045ef701edc9b00de3e522dac8263c1acc2d87bf7b07"
+  },
+  {
+    "id": 42,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-5c778a46-73ab-405f-97aa-852a321be7c9.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "prompt",
+    "sha256": "147218e6f7e04ef0a7c7425c685fa62a4acbc8bb1f3eba50a82e9e7c28ea285f",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-42.png",
+    "image": {
+      "id": 42,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-42.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        17,
+        1254,
+        1254
+      ],
+      "bytes": 2142135,
+      "sha256": "147218e6f7e04ef0a7c7425c685fa62a4acbc8bb1f3eba50a82e9e7c28ea285f"
+    }
+  },
+  {
+    "id": 41,
+    "source": "/home/lokehoke/.codex/generated_images/01a16069-afe2-7d30-8154-1c6323ea0a28/exec-d02dcce6-3f0a-49af-b574-0c3ed999eb48.png",
+    "accepted": true,
+    "reason": "Accepted after visual inspection; exactly four paws.",
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "prompt_file": "prompts-29-42.json",
+    "prompt_key": "retry_prompt",
+    "sha256": "6f37ae0c3c0d91df5fda2fd7be7264388b7fb6697ee47a76b2ae0fcee3381bde",
+    "output": "/home/lokehoke/mathematics/sources/book/images/unique/art-41.png",
+    "image": {
+      "id": 41,
+      "path": "/home/lokehoke/mathematics/sources/book/images/unique/art-41.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        0,
+        21,
+        1240,
+        1254
+      ],
+      "bytes": 2023160,
+      "sha256": "6f37ae0c3c0d91df5fda2fd7be7264388b7fb6697ee47a76b2ae0fcee3381bde"
+    }
+  }
+]

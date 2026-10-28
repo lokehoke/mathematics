@@ -1,0 +1,8 @@
+{
+  "art": 96,
+  "prompt": "One unique watercolor spot illustration for inside a mathematics textbook: ONE realistic full-body kitten and its named prop only. Warm watercolor with fine ink, luminous soft fur, gentle expressive face, cream/navy/muted teal/ochre palette. Entire ears, paws, tail visible; compact subject, minimal transparent padding. True transparent alpha background, alpha zero outside kitten and prop. No backdrop, scenery, floor, paper rectangle, shadow patch, text, symbols, numbers or watermark. A white kitten studies a simple brass sundial with a raised triangular fin, seen in three-quarter profile.",
+  "path": "sources/book/images/unique/art-96.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-d6d10d84-5b8e-4ffd-9737-bf11ec192cc5.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

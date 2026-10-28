@@ -1,0 +1,9 @@
+{
+  "art": 302,
+  "subject": "A ginger kitten cuddling a small octahedral lantern with warm ochre glass, head tilted.",
+  "prompt": "One unique transparent watercolor illustration for an elegant mathematics textbook. A ginger kitten cuddling a small octahedral lantern with warm ochre glass, head tilted. Refined detailed hand-painted watercolor with fine pencil/ink details, soft fur and gentle expressive eyes. Match a cream, deep navy, muted teal, warm ochre palette. One complete anatomically believable kitten, complete prop, compact centered composition filling most of image. Real transparent alpha background, no background scene or floor, no text, no numbers, no equations, no logos or border. Every kitten illustration must be new and distinct.",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-0a755564-843e-4b5b-823f-886c97180a1c.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true,
+  "path": "sources/book/images/unique/art-302.png"
+}

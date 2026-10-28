@@ -1,0 +1,56 @@
+[
+  {
+    "year": 2026,
+    "url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2026/Mat_1_ege2026.zip",
+    "archive_sha256": "4c7a0742fcc079d41b5c0a65d41758c3977da66cc4c9e2f48a0a58bab44ea798",
+    "files": [
+      {
+        "archive_member": "МАпроф.pdf",
+        "path": "book/references/ege-profile-multiyear/2026-open/1.pdf",
+        "sha256": "34945a3a1592492a39e5d36bb3eed0da413de98a3019660192821ff8067bcbca"
+      },
+      {
+        "archive_member": "МАбаз.pdf",
+        "path": "book/references/ege-profile-multiyear/2026-open/2.pdf",
+        "sha256": "1ffa6f2d9052cbd85b6bc630baba9d501f7faade78b07b3954a2a075fd960099"
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "year": 2025,
+    "url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2025/Mat_1_ege2025.zip",
+    "archive_sha256": "97bce706655bc477862df38465dd286897faf2bff418d27a9d8498a7627abad6",
+    "files": [
+      {
+        "archive_member": "Математика (проф).pdf",
+        "path": "book/references/ege-profile-multiyear/2025-open/1.pdf",
+        "sha256": "1ec32c04aef27d5fe4420262f394a6765d896f03573057feeecdbc6b917b3f00"
+      },
+      {
+        "archive_member": "Математика (баз).pdf",
+        "path": "book/references/ege-profile-multiyear/2025-open/2.pdf",
+        "sha256": "d0cc100fd7e470f7bc9d9afb32392473d38a744e763a1f1c601c13871ab098e5"
+      }
+    ],
+    "status": "downloaded"
+  },
+  {
+    "year": 2024,
+    "url": "https://doc.fipi.ru/ege/otkrytyy-bank-zadaniy-ege/otkrytyye-varianty-kim-ege/2024/Mat_1_ege2024.zip",
+    "archive_sha256": "c7de9d1bce7e1025c15a7aad4cbf122f6870af041c6f06b644069258831fce54",
+    "files": [
+      {
+        "archive_member": "Математика (баз)_Вар.1_2024.pdf",
+        "path": "book/references/ege-profile-multiyear/2024-open/1.pdf",
+        "sha256": "42d8920c87075e25e0d32b10ed8176f9341fce73cbd70a1fb1fae8973ad0dee8"
+      },
+      {
+        "archive_member": "Математика (проф)_Вар.1_2024.pdf",
+        "path": "book/references/ege-profile-multiyear/2024-open/2.pdf",
+        "sha256": "9ef015c1e9fd3e7a10b88b7b992281391cbb59c65f122cc572aae659a86ef61d"
+      }
+    ],
+    "status": "downloaded"
+  }
+]

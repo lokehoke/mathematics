@@ -1,0 +1,8 @@
+{
+  "art": 94,
+  "prompt": "Create ONE new inside illustration for a mathematics textbook: ONE full-body natural kitten and its named prop only. Warm luminous watercolor with fine ink, soft detailed fur, expressive gentle face, realistic anatomy, cream/navy/muted teal/ochre palette matching a cozy watercolor cat book. Entire ears, paws and tail visible, compact large subject, minimal transparent padding. TRUE TRANSPARENT alpha background; alpha zero outside kitten and props. No floor, room, scenery, paper rectangle, backdrop wash, shadow patch, text, mathematical symbols, letters, numbers, or watermark. Subject: A gray tabby kitten tilts its head beside a small teal wind-up music box with an ochre winding key, sitting upright.",
+  "path": "sources/book/images/unique/art-94.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-fb73b3b6-19eb-4652-a907-51fc2875ff32.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

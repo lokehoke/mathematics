@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "tasks": 64,
+  "source_documents": 20,
+  "authoring_modules": [
+    "scripts/write_olympiad_selection.py",
+    "scripts/olympiad_school_more.py",
+    "scripts/olympiad_university.py"
+  ],
+  "selected_sha256": "1fcc2e8fde4c644c25b4e9864cb8afe9db43845a30d9d9556f5dde530b5569cf",
+  "notes": [
+    "Mathematical review reports retain their original independently reviewed snapshots.",
+    "Subsequent changes use stacked fractions, correct two grammatical phrases and explicitly specify integer exponents in the dyadic-rational definition.",
+    "Source-page corrections are audited separately; published problem numbers stay unchanged.",
+    "IMO1963#1 corrected after pixel verification: separate radicals, p in [0,4/3], full independently verified replacement. Norm dimension and construction wording clarified; source pages patched against all64 primary statements."
+  ]
+}

@@ -1,0 +1,2452 @@
+{
+  "checked_at": "2026-10-25",
+  "scope": "Source provenance and fidelity of64 selected tasks against local primary/official PDFs; mathematical solution review belongs to other reviewers. No new search or download, no manuscript/generator changes.",
+  "input_selected_path": "/home/lokehoke/mathematics/sources/book/data/olympiad-selected.json",
+  "input_selected_sha256": "5b7ae1ba76ea8311812373048b90fa3f5a93c8d257403b01fcb8d4cb0510888f",
+  "input_source_registry_path": "/home/lokehoke/mathematics/research/olympiad-book-sources.json",
+  "input_source_registry_sha256": "0550ab4955f4a8e57102bbba4bd4fc43a8759a8812522c80a383c0a74f6bb9c6",
+  "task_count": 64,
+  "source_document_count": 20,
+  "source_hash_matches": 20,
+  "wrong_year_round_number_or_grade_labels": 0,
+  "critical_statement_mismatches": 0,
+  "source_page_corrections": 14,
+  "page_definition": "verified_source_pages are the minimal physical pages carrying the problem statement; separately listed solution pages are not conflated with them.",
+  "sources": {
+    "mmo-early": {
+      "actual_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "expected_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "sha_match": true,
+      "physical_pages": 344,
+      "extracted_pages": 344,
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "source_form": "official_collection",
+      "source_language": "ru",
+      "document_note": "Прасолов В.В., Голенищева-Кутузова Т.И., Канель-Белов А.Я., Кудряшов Ю.Г., Ященко И.В. Московские математические олимпиады1935–1957г. М.:МЦНМО,2010; титулфиз1–2. Официально размещённый позднейший сборник, не оригинальный экзаменационный лист1935года."
+    },
+    "imo-1959": {
+      "actual_sha256": "19169b06cfe86e91349c092d624005650f3093870681fba9bb9073b2e5c1de4c",
+      "expected_sha256": "19169b06cfe86e91349c092d624005650f3093870681fba9bb9073b2e5c1de4c",
+      "sha_match": true,
+      "physical_pages": 2,
+      "extracted_pages": 2,
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1959/1959_eng.pdf",
+      "path": "olympiads/international/IMO/1959/problems_en_10ec31dc_1959_eng.pdf",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная англоязычная публикация условий; не фотокопия исторического экзаменационного листа."
+    },
+    "imo-1960": {
+      "actual_sha256": "ac7230389ed49c776407b288ea9a973cfdefdac671b300a8e9846fd3e4d11581",
+      "expected_sha256": "ac7230389ed49c776407b288ea9a973cfdefdac671b300a8e9846fd3e4d11581",
+      "sha_match": true,
+      "physical_pages": 2,
+      "extracted_pages": 2,
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1960/1960_eng.pdf",
+      "path": "olympiads/international/IMO/1960/problems_en_58a46716_1960_eng.pdf",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная англоязычная публикация условий; не фотокопия исторического экзаменационного листа."
+    },
+    "imo-1961": {
+      "actual_sha256": "65ae54152555e7348e67e9cc3f91f250317acd0e8bd1812582298121beb69633",
+      "expected_sha256": "65ae54152555e7348e67e9cc3f91f250317acd0e8bd1812582298121beb69633",
+      "sha_match": true,
+      "physical_pages": 2,
+      "extracted_pages": 2,
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf",
+      "path": "olympiads/international/IMO/1961/problems_en_0569ccb4_1961_eng.pdf",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная англоязычная публикация условий; не фотокопия исторического экзаменационного листа."
+    },
+    "imo-1962": {
+      "actual_sha256": "0ca650277953df8786d05ccb6a086509b3639edbfc86d373a39f8a62c9548461",
+      "expected_sha256": "0ca650277953df8786d05ccb6a086509b3639edbfc86d373a39f8a62c9548461",
+      "sha_match": true,
+      "physical_pages": 2,
+      "extracted_pages": 2,
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1962/1962_eng.pdf",
+      "path": "olympiads/international/IMO/1962/problems_en_4db459d4_1962_eng.pdf",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная англоязычная публикация условий; не фотокопия исторического экзаменационного листа."
+    },
+    "imo-1963": {
+      "actual_sha256": "025864e1fa8cb7cb05d7d2aeebe0801ee1bc0ef25f7d378ebb499770d104831d",
+      "expected_sha256": "025864e1fa8cb7cb05d7d2aeebe0801ee1bc0ef25f7d378ebb499770d104831d",
+      "sha_match": true,
+      "physical_pages": 2,
+      "extracted_pages": 2,
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1963/1963_eng.pdf",
+      "path": "olympiads/international/IMO/1963/problems_en_567cc49a_1963_eng.pdf",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная англоязычная публикация условий; не фотокопия исторического экзаменационного листа."
+    },
+    "imo-1964": {
+      "actual_sha256": "9caf56df2800875c557658453c27a46631096298416363a93b05b9e0a2655459",
+      "expected_sha256": "9caf56df2800875c557658453c27a46631096298416363a93b05b9e0a2655459",
+      "sha_match": true,
+      "physical_pages": 1,
+      "extracted_pages": 1,
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1964/1964_eng.pdf",
+      "path": "olympiads/international/IMO/1964/problems_en_da40b8b6_1964_eng.pdf",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная англоязычная публикация условий; не фотокопия исторического экзаменационного листа."
+    },
+    "imo-1965": {
+      "actual_sha256": "ff16464f08486765b03ec19d993e235b7060eb11e0ea1821ec134a079f716425",
+      "expected_sha256": "ff16464f08486765b03ec19d993e235b7060eb11e0ea1821ec134a079f716425",
+      "sha_match": true,
+      "physical_pages": 2,
+      "extracted_pages": 2,
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1965/1965_eng.pdf",
+      "path": "olympiads/international/IMO/1965/problems_en_1731e978_1965_eng.pdf",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная англоязычная публикация условий; не фотокопия исторического экзаменационного листа."
+    },
+    "apmo-1989": {
+      "actual_sha256": "96adc3fedd85c247ba56ca4656fc12d077a415aa1f2d479f528f50651a25da03",
+      "expected_sha256": "96adc3fedd85c247ba56ca4656fc12d077a415aa1f2d479f528f50651a25da03",
+      "sha_match": true,
+      "physical_pages": 1,
+      "extracted_pages": 1,
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1989_prb.pdf",
+      "path": "olympiads/international/APMO/1989/problems_en_748cc618_apmo1989_prb.pdf",
+      "source_authority": "Asian Pacific Mathematics Olympiad; apmo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная публикация условий APMO; год напечатан в заголовке."
+    },
+    "apmo-1991": {
+      "actual_sha256": "2452965d7634b455d93d9cfa7721d61bf2a755247b6d23cd5778ea7f5ea84c28",
+      "expected_sha256": "2452965d7634b455d93d9cfa7721d61bf2a755247b6d23cd5778ea7f5ea84c28",
+      "sha_match": true,
+      "physical_pages": 1,
+      "extracted_pages": 1,
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1991_prb.pdf",
+      "path": "olympiads/international/APMO/1991/problems_en_db464df9_apmo1991_prb.pdf",
+      "source_authority": "Asian Pacific Mathematics Olympiad; apmo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная публикация условий APMO; год напечатан в заголовке."
+    },
+    "apmo-1992": {
+      "actual_sha256": "0ae95a9dbd567aa00f492719dad3f214226d83bcd8e815c69f911f6a69775064",
+      "expected_sha256": "0ae95a9dbd567aa00f492719dad3f214226d83bcd8e815c69f911f6a69775064",
+      "sha_match": true,
+      "physical_pages": 2,
+      "extracted_pages": 2,
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1992_prb.pdf",
+      "path": "olympiads/international/APMO/1992/problems_en_35dde9a7_apmo1992_prb.pdf",
+      "source_authority": "Asian Pacific Mathematics Olympiad; apmo-official.org",
+      "source_form": "official_archive_problem_sheet",
+      "source_language": "en",
+      "document_note": "Официальная архивная публикация условий APMO; год напечатан в заголовке."
+    },
+    "mos-prob-2023-24": {
+      "actual_sha256": "55a9d93638971ea80ef0249152ff91fe7cc71b98b37fc668987645e7566d14a8",
+      "expected_sha256": "55a9d93638971ea80ef0249152ff91fe7cc71b98b37fc668987645e7566d14a8",
+      "sha_match": true,
+      "physical_pages": 15,
+      "extracted_pages": 15,
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "path": "olympiads/russia/mos_probability/documents/e83fdbce546b-zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_authority": "Лаборатория теории вероятностей МЦНМО; ptlab.mccme.ru",
+      "source_form": "official_problems_and_solutions",
+      "source_language": "ru",
+      "document_note": "Официальный документ заочной интернет-олимпиады с полными условиями и решениями; даты и название напечатаны на физ1."
+    },
+    "imc-1994": {
+      "actual_sha256": "be5e798c3736ce06e862fb79fb34cdc650b3de1cb6506a18cf1c28aa862f6f23",
+      "expected_sha256": "be5e798c3736ce06e862fb79fb34cdc650b3de1cb6506a18cf1c28aa862f6f23",
+      "sha_match": true,
+      "physical_pages": 9,
+      "extracted_pages": 9,
+      "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf",
+      "path": "olympiads/university/imc/1994/problems_and_solutions-prob_sol-b6d63ec353.pdf",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "source_form": "official_problems_and_solutions",
+      "source_language": "en",
+      "document_note": "Официальная публикация условий и решений организатора."
+    },
+    "imc-1995": {
+      "actual_sha256": "46960a1dec43044b7ef94fbfd2a6c0fa3d973decd01c7ccc27c938b21da6bb3d",
+      "expected_sha256": "46960a1dec43044b7ef94fbfd2a6c0fa3d973decd01c7ccc27c938b21da6bb3d",
+      "sha_match": true,
+      "physical_pages": 11,
+      "extracted_pages": 11,
+      "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf",
+      "path": "olympiads/university/imc/1995/problems_and_solutions-prob_sol-8d6b8ffe5a.pdf",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "source_form": "official_problems_and_solutions",
+      "source_language": "en",
+      "document_note": "Официальная публикация условий и решений организатора."
+    },
+    "imc-1996": {
+      "actual_sha256": "1520efe3a8763f5e8d3098775188ddf9a61ead1c577b7a2c8672ec7ba1c98447",
+      "expected_sha256": "1520efe3a8763f5e8d3098775188ddf9a61ead1c577b7a2c8672ec7ba1c98447",
+      "sha_match": true,
+      "physical_pages": 15,
+      "extracted_pages": 15,
+      "source_url": "https://www.imc-math.org.uk/imc1996/prob_sol.pdf",
+      "path": "olympiads/university/imc/1996/problems_and_solutions-prob_sol-97e51f78ff.pdf",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "source_form": "official_problems_and_solutions",
+      "source_language": "en",
+      "document_note": "Официальная публикация условий и решений организатора."
+    },
+    "imc-1997-d1": {
+      "actual_sha256": "64612053de6eaceaaa799af60796621b0cc51902d1609d7cbc5a5982994e35da",
+      "expected_sha256": "64612053de6eaceaaa799af60796621b0cc51902d1609d7cbc5a5982994e35da",
+      "sha_match": true,
+      "physical_pages": 8,
+      "extracted_pages": 8,
+      "source_url": "https://www.imc-math.org.uk/imc1997/prob_sol1.pdf",
+      "path": "olympiads/university/imc/1997/problems_and_solutions-prob_sol1-8d2e0ef6d8.pdf",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "source_form": "official_problems_and_solutions",
+      "source_language": "en",
+      "document_note": "Официальная публикация условий и решений организатора."
+    },
+    "imc-1998-d1": {
+      "actual_sha256": "f0e2e0f9cd1a9d14b94b407fb5800eba8aa1c8c6f5fe143d35ba04d89efa2bc4",
+      "expected_sha256": "f0e2e0f9cd1a9d14b94b407fb5800eba8aa1c8c6f5fe143d35ba04d89efa2bc4",
+      "sha_match": true,
+      "physical_pages": 3,
+      "extracted_pages": 3,
+      "source_url": "https://www.imc-math.org.uk/imc1998/prob_sol1.pdf",
+      "path": "olympiads/university/imc/1998/problems_and_solutions-prob_sol1-bb915e061a.pdf",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "source_form": "official_problems_and_solutions",
+      "source_language": "en",
+      "document_note": "Официальная публикация условий и решений организатора. В самом PDF отсутствует титул с годом/днём;1998/день1 подтверждаются официальным архивным URL imc1998/prob_sol1.pdf, а номера и условия — теломPDF."
+    },
+    "msu-algebra-2006": {
+      "actual_sha256": "8b9af618caa20283b74696c7fc7dc65a7d22032c4d4309660c0c50dcd386a300",
+      "expected_sha256": "8b9af618caa20283b74696c7fc7dc65a7d22032c4d4309660c0c50dcd386a300",
+      "sha_match": true,
+      "physical_pages": 5,
+      "extracted_pages": 5,
+      "source_url": "http://halgebra.math.msu.su/Olympiad/2006/solutions-06.pdf",
+      "path": "olympiads/university/msu-algebra/2006/solutions-solutions-06-09592a1748.pdf",
+      "source_authority": "Кафедра высшей алгебры механико-математического факультета МГУ; halgebra.math.msu.su",
+      "source_form": "official_solutions_with_statements",
+      "source_language": "ru",
+      "document_note": "Официальные «Решения задач первой олимпиады»; условие имеет печатный номер2006–1 и автораА.Э.Гутермана."
+    },
+    "putnam-2018": {
+      "actual_sha256": "1472019414c453ec5147c885e798e4eb7cc85718f6b15bd87601144f25617c53",
+      "expected_sha256": "1472019414c453ec5147c885e798e4eb7cc85718f6b15bd87601144f25617c53",
+      "sha_match": true,
+      "physical_pages": 10,
+      "extracted_pages": 10,
+      "source_url": "https://maa.org/wp-content/uploads/2024/10/2018PutnamProblemsSolutions.pdf",
+      "path": "olympiads/university/putnam-maa/2018/problems_and_solutions-2018PutnamProblemsSolutions-73cadd321f.pdf",
+      "source_authority": "Mathematical Association of America; maa.org",
+      "source_form": "official_problems_and_solutions_collection",
+      "source_language": "en",
+      "document_note": "Официальный сборник MAA с условиями и решениями. В первой странице нет отдельного титула с годом;2018 подтверждается официальным именем2018PutnamProblemsSolutions.pdf, номерA1 — теломPDF."
+    },
+    "mos-prob-2024-25": {
+      "actual_sha256": "b9da99156868ee29b5a3004ade655b53d97ba531fb268c1ea5a897b0cdb67a3a",
+      "expected_sha256": "b9da99156868ee29b5a3004ade655b53d97ba531fb268c1ea5a897b0cdb67a3a",
+      "sha_match": true,
+      "physical_pages": 12,
+      "extracted_pages": 12,
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xviii_olimpiada._2024-25._resheniya.pdf",
+      "path": "olympiads/russia/mos_probability/documents/1d7d0bbb33da-zaochnaya_internet-olimpiada._xviii_olimpiada._2024-25._resheniya.pdf",
+      "source_authority": "Лаборатория теории вероятностей МЦНМО; ptlab.mccme.ru",
+      "source_form": "official_problems_and_solutions",
+      "source_language": "ru",
+      "document_note": "Официальный документ заочной интернет-олимпиады с полными условиями и решениями; даты и название напечатаны на физ1."
+    }
+  },
+  "items": [
+    {
+      "uid": "olympiad.mmo.1935.II.B3",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1935, II тур, серия B, № 3",
+      "attribution_status": "verified",
+      "statement_status": "editorial_extension",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1935",
+        "round": "II тур",
+        "problem_number": 3,
+        "grade_group": null,
+        "series": "B"
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        11
+      ],
+      "verified_source_pages": [
+        11
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "В источнике требуется найти сумму; требование доказать именно математической индукцией добавлено в книге. Данные и сама сумма совпадают.",
+      "audited_statement_sha256": "397573f2a5500b242e51d1bc6e84608aba1a6640d7bf0d110cd5e99b3ad9bfa0",
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.mmo.1941.I.78.5",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1941, I тур, 7–8 классы, № 5",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1941",
+        "round": "I тур",
+        "problem_number": 5,
+        "grade_group": [
+          7,
+          8
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        18
+      ],
+      "verified_source_pages": [
+        18
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "f79b3fdd95d1508631dc18c134b543971d2dea5bca43872d2ea011e08ec8063c"
+    },
+    {
+      "uid": "olympiad.imo.1959.1",
+      "source_id": "imo-1959",
+      "label_in_book": "IMO, 1959, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1959",
+        "round": null,
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1959/1959_eng.pdf",
+      "source_path": "olympiads/international/IMO/1959/problems_en_10ec31dc_1959_eng.pdf",
+      "source_sha256": "19169b06cfe86e91349c092d624005650f3093870681fba9bb9073b2e5c1de4c",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "93edbb8e699021646d4ba1f9b406221d184accd28a3e6d986c782eebfaceebe1"
+    },
+    {
+      "uid": "olympiad.mmo.1940.I.78.3",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1940, I тур, 7–8 классы, № 3",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1940",
+        "round": "I тур",
+        "problem_number": 3,
+        "grade_group": [
+          7,
+          8
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        16
+      ],
+      "verified_source_pages": [
+        16
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "c408810861fc35dfc29085762c9997227e5ad8f7e430b4e9520f3c46891d6db2"
+    },
+    {
+      "uid": "olympiad.mmo.1940.I.78.1",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1940, I тур, 7–8 классы, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1940",
+        "round": "I тур",
+        "problem_number": 1,
+        "grade_group": [
+          7,
+          8
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        15
+      ],
+      "verified_source_pages": [
+        15
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "f7ef574e6562d37be8c9ec4424635f776b71f32f7cfa83b080170674ccc75a8e"
+    },
+    {
+      "uid": "olympiad.mmo.1946.I.78.5",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1946, I тур, 7–8 классы, № 5",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1946",
+        "round": "I тур",
+        "problem_number": 5,
+        "grade_group": [
+          7,
+          8
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        23
+      ],
+      "verified_source_pages": [
+        23
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "e83454398b0e2299495e68f4dedefac5528691d48db843b3219d6f14203660d5"
+    },
+    {
+      "uid": "olympiad.mmo.1935.II.B1",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1935, II тур, серия B, № 1",
+      "attribution_status": "verified",
+      "statement_status": "editorial_extension",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1935",
+        "round": "II тур",
+        "problem_number": 1,
+        "grade_group": null,
+        "series": "B"
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        11
+      ],
+      "verified_source_pages": [
+        11
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "В источнике спрашивается число действительных решений; просьба найти сами тройки — дополнительное учебное требование. Система совпадает.",
+      "audited_statement_sha256": "818d38eed7539d0eb6c9cdd4f79d4561f8911563e569fa34c3d6e7758ed40f0c",
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.mmo.1937.I.1",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1937, I тур, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1937",
+        "round": "I тур",
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        13
+      ],
+      "verified_source_pages": [
+        13
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "548582266e8d77842dab1cfcc91a3933d5679b663b0d73b1768690fb8815af83",
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.imo.1960.2",
+      "source_id": "imo-1960",
+      "label_in_book": "IMO, 1960, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1960",
+        "round": null,
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1960/1960_eng.pdf",
+      "source_path": "olympiads/international/IMO/1960/problems_en_58a46716_1960_eng.pdf",
+      "source_sha256": "ac7230389ed49c776407b288ea9a973cfdefdac671b300a8e9846fd3e4d11581",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "2dd799dd750a8383bab5354c005ffdfc51c0a9d0dd5055ddb2f45b7aaba618f9",
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.imo.1962.2",
+      "source_id": "imo-1962",
+      "label_in_book": "IMO, 1962, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1962",
+        "round": null,
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1962/1962_eng.pdf",
+      "source_path": "olympiads/international/IMO/1962/problems_en_4db459d4_1962_eng.pdf",
+      "source_sha256": "0ca650277953df8786d05ccb6a086509b3639edbfc86d373a39f8a62c9548461",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "08a9f477217b7b707bde92303d97c290aa18a527d132ac4504f69d12c2736ccd"
+    },
+    {
+      "uid": "olympiad.mmo.1935.II.C2",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1935, II тур, серия C, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1935",
+        "round": "II тур",
+        "problem_number": 2,
+        "grade_group": null,
+        "series": "C"
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        12
+      ],
+      "verified_source_pages": [
+        12
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "69478c99c6563a7efcb7e75a18363f9a44510b61044dff455fc33e3696233cd7"
+    },
+    {
+      "uid": "olympiad.mmo.1935.II.C1",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1935, II тур, серия C, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1935",
+        "round": "II тур",
+        "problem_number": 1,
+        "grade_group": null,
+        "series": "C"
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        11
+      ],
+      "verified_source_pages": [
+        11
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "f98c7122cca14262feaf5be31d2ed77a97a912e0afcc1801116d3581feef5a4d"
+    },
+    {
+      "uid": "olympiad.mmo.1935.I.v3.1",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1935, I тур, вариант 3, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1935",
+        "round": "I тур",
+        "problem_number": 1,
+        "grade_group": null,
+        "variant": 3
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        9
+      ],
+      "verified_source_pages": [
+        9
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "1585efef9f238bc1c24407e4eb0f6e24405ac867ed1a216093677463bc900fec"
+    },
+    {
+      "uid": "olympiad.mmo.1935.I.v2.1",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1935, I тур, вариант 2, № 1",
+      "attribution_status": "verified",
+      "statement_status": "editorial_extension",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1935",
+        "round": "I тур",
+        "problem_number": 1,
+        "grade_group": null,
+        "variant": 2
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        9
+      ],
+      "verified_source_pages": [
+        9
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Добавлена явная проверка допустимости исходных данных; скорости/длины/обозначения сохранены.",
+      "audited_statement_sha256": "c19313094c92e447b2a80cac1d856d28461598a0e286f855a64b4a9ff2f6f953"
+    },
+    {
+      "uid": "olympiad.mmo.1940.I.78.2",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1940, I тур, 7–8 классы, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1940",
+        "round": "I тур",
+        "problem_number": 2,
+        "grade_group": [
+          7,
+          8
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        16
+      ],
+      "verified_source_pages": [
+        16
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "c04a3c38a092d3f62a3e34725ae5329a8e7f833aa14f23545e8d1065b707a570"
+    },
+    {
+      "uid": "olympiad.mmo.1935.I.v1.1",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1935, I тур, вариант 1, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1935",
+        "round": "I тур",
+        "problem_number": 1,
+        "grade_group": null,
+        "variant": 1
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        9
+      ],
+      "verified_source_pages": [
+        9
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "69c8e2d6c399ea3236313027eb19c7efeb70ff7d5b4923f850d43abc8b371c0c"
+    },
+    {
+      "uid": "olympiad.mmo.1941.II.78.5",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1941, II тур, 7–8 классы, № 5",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1941",
+        "round": "II тур",
+        "problem_number": 5,
+        "grade_group": [
+          7,
+          8
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        19
+      ],
+      "verified_source_pages": [
+        19
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "635e5740f4edf461cfa960fc8e745fc5d6e0ce360f553b446e93c2a35950755a"
+    },
+    {
+      "uid": "olympiad.mmo.1946.I.78.3",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1946, I тур, 7–8 классы, № 3",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1946",
+        "round": "I тур",
+        "problem_number": 3,
+        "grade_group": [
+          7,
+          8
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        23
+      ],
+      "verified_source_pages": [
+        23
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "961c35e7a72e345ccad7e81d74cd74c1332f229366bf89dc67fe57b19f1b7ea5"
+    },
+    {
+      "uid": "olympiad.apmo.1989.1",
+      "source_id": "apmo-1989",
+      "label_in_book": "APMO, 1989, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1989",
+        "round": null,
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1989_prb.pdf",
+      "source_path": "olympiads/international/APMO/1989/problems_en_748cc618_apmo1989_prb.pdf",
+      "source_sha256": "96adc3fedd85c247ba56ca4656fc12d077a415aa1f2d479f528f50651a25da03",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "Asian Pacific Mathematics Olympiad; apmo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "1b78376f6a722d9a2e0c3407d48ca23242f09ae0d07fa0f31130c1a2a704a9b0"
+    },
+    {
+      "uid": "olympiad.apmo.1991.3",
+      "source_id": "apmo-1991",
+      "label_in_book": "APMO, 1991, № 3",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1991",
+        "round": null,
+        "problem_number": 3,
+        "grade_group": null
+      },
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1991_prb.pdf",
+      "source_path": "olympiads/international/APMO/1991/problems_en_db464df9_apmo1991_prb.pdf",
+      "source_sha256": "2452965d7634b455d93d9cfa7721d61bf2a755247b6d23cd5778ea7f5ea84c28",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "Asian Pacific Mathematics Olympiad; apmo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "1b5ca6244b7dc85af9ec5a7522bf51caa8ee956cf23c97e447453424439946ba"
+    },
+    {
+      "uid": "olympiad.apmo.1992.1",
+      "source_id": "apmo-1992",
+      "label_in_book": "APMO, 1992, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1992",
+        "round": null,
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1992_prb.pdf",
+      "source_path": "olympiads/international/APMO/1992/problems_en_35dde9a7_apmo1992_prb.pdf",
+      "source_sha256": "0ae95a9dbd567aa00f492719dad3f214226d83bcd8e815c69f911f6a69775064",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "Asian Pacific Mathematics Olympiad; apmo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "49c3e0cb4d3043738a49e1eed57ea585fc645b73bb2cc8213ae1e9755434f070"
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.1",
+      "source_id": "mos-prob-2023-24",
+      "label_in_book": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 1",
+      "attribution_status": "verified",
+      "statement_status": "model_formalization",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "2023-24",
+        "round": null,
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_path": "olympiads/russia/mos_probability/documents/e83fdbce546b-zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_sha256": "55a9d93638971ea80ef0249152ff91fe7cc71b98b37fc668987645e7566d14a8",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "Лаборатория теории вероятностей МЦНМО; ptlab.mccme.ru",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Железнодорожный сюжет заменён конечным неориентированным простым графом; отсутствие предположения связности явно оговорено в книге. Следует обозначать текст как математическую переформулировку.",
+      "audited_statement_sha256": "7ce665c31cc4e9a62704f2710cbcea93fafea022bdd89a7934e407766bcab3dc",
+      "verified_published_solution_pages": [
+        1
+      ],
+      "recommended_min_grade_by_part_in_source": {
+        "all": 7
+      }
+    },
+    {
+      "uid": "olympiad.imo.1964.4",
+      "source_id": "imo-1964",
+      "label_in_book": "IMO, 1964, № 4",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_model",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1964",
+        "round": null,
+        "problem_number": 4,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1964/1964_eng.pdf",
+      "source_path": "olympiads/international/IMO/1964/problems_en_da40b8b6_1964_eng.pdf",
+      "source_sha256": "9caf56df2800875c557658453c27a46631096298416363a93b05b9e0a2655459",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Переписана модель переписки 17 человек на граф с 17 вершинами и тремя цветами рёбер. Это эквивалентная математическая формулировка, не дословный перевод.",
+      "audited_statement_sha256": "71a8c98ee6cfaffbc35e6997124cdbe4c4ea133db5ccee700905fe32b072411f"
+    },
+    {
+      "uid": "olympiad.apmo.1992.4",
+      "source_id": "apmo-1992",
+      "label_in_book": "APMO, 1992, № 4",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1992",
+        "round": null,
+        "problem_number": 4,
+        "grade_group": null
+      },
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1992_prb.pdf",
+      "source_path": "olympiads/international/APMO/1992/problems_en_35dde9a7_apmo1992_prb.pdf",
+      "source_sha256": "0ae95a9dbd567aa00f492719dad3f214226d83bcd8e815c69f911f6a69775064",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "Asian Pacific Mathematics Olympiad; apmo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "501b670cf4f72805898e3bea1fa618cf68946aa2c23c7fcfdeb14a4349f5cde9"
+    },
+    {
+      "uid": "olympiad.apmo.1989.5",
+      "source_id": "apmo-1989",
+      "label_in_book": "APMO, 1989, № 5",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1989",
+        "round": null,
+        "problem_number": 5,
+        "grade_group": null
+      },
+      "source_url": "https://www.apmo-official.org/static/problems/apmo1989_prb.pdf",
+      "source_path": "olympiads/international/APMO/1989/problems_en_748cc618_apmo1989_prb.pdf",
+      "source_sha256": "96adc3fedd85c247ba56ca4656fc12d077a415aa1f2d479f528f50651a25da03",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "Asian Pacific Mathematics Olympiad; apmo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "6aa53489e3ed0fe3be2af37414ea79dc4f4ee9ff2a3ef201c28a2a26fd370b74"
+    },
+    {
+      "uid": "olympiad.mmo.1941.I.910.5",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1941, I тур, 9–10 классы, № 5",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1941",
+        "round": "I тур",
+        "problem_number": 5,
+        "grade_group": [
+          9,
+          10
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        18
+      ],
+      "verified_source_pages": [
+        18
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "fba50ad5528631729b087c70221c056571003b7cc062714d1d4d9ccd133425a9"
+    },
+    {
+      "uid": "olympiad.imo.1961.3",
+      "source_id": "imo-1961",
+      "label_in_book": "IMO, 1961, № 3",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1961",
+        "round": null,
+        "problem_number": 3,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf",
+      "source_path": "olympiads/international/IMO/1961/problems_en_0569ccb4_1961_eng.pdf",
+      "source_sha256": "65ae54152555e7348e67e9cc3f91f250317acd0e8bd1812582298121beb69633",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "fe714a07d48e87733d298688785ee19e206f8b12780f4708ae6cb2463affbc1e"
+    },
+    {
+      "uid": "olympiad.imo.1962.4",
+      "source_id": "imo-1962",
+      "label_in_book": "IMO, 1962, № 4",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1962",
+        "round": null,
+        "problem_number": 4,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1962/1962_eng.pdf",
+      "source_path": "olympiads/international/IMO/1962/problems_en_4db459d4_1962_eng.pdf",
+      "source_sha256": "0ca650277953df8786d05ccb6a086509b3639edbfc86d373a39f8a62c9548461",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "71a0bffcf06bd874052ae5baf5424e4288c573412e66919a5bc334039aa1aeb5"
+    },
+    {
+      "uid": "olympiad.mmo.1945.I.910.3",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1945, I тур, 9–10 классы, № 3",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1945",
+        "round": "I тур",
+        "problem_number": 3,
+        "grade_group": [
+          9,
+          10
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        21
+      ],
+      "verified_source_pages": [
+        21
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "b13af3e77c498cd457c72862a71a3f307073d2142cbf864f8a0f9e10eac73cd2"
+    },
+    {
+      "uid": "olympiad.imo.1963.1",
+      "source_id": "imo-1963",
+      "label_in_book": "IMO, 1963, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement_after_correction",
+      "status": "verified_after_source_correction",
+      "verified_metadata": {
+        "year": "1963",
+        "round": null,
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1963/1963_eng.pdf",
+      "source_path": "olympiads/international/IMO/1963/problems_en_567cc49a_1963_eng.pdf",
+      "source_sha256": "025864e1fa8cb7cb05d7d2aeebe0801ee1bc0ef25f7d378ebb499770d104831d",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Повторно прочитано актуальное selected.json: два отдельных корня восстановлены и совпадают с пикселями официальногоPDF. Решение исходного уравнения проверял другой математический рецензент; здесь удостоверена верность условия.",
+      "audited_statement_sha256": "b25b3c7bd8e1a9d6ee08cbc2ac2c8ac0f7dc5c5bf6006155cef299e90aa3ae79",
+      "required_statement_equation": "\\sqrt{x^2-p}+2\\sqrt{x^2-1}=x",
+      "pixel_evidence": "/home/lokehoke/tmp/pdfs/olympiad11/provenance-review/imo-1963-p001.png",
+      "source_pixels_checked": true,
+      "original_finding": "Критическое расхождение: в первоисточнике два отдельных квадратных корня; в книге ошибочно вложен второй корень в первый. Это меняет уравнение и его решения.",
+      "correction_rechecked": true,
+      "original_mismatched_equation_observed_before_correction": "\\sqrt{x^2-p+2\\sqrt{x^2-1}}=x",
+      "original_observation_note": "Зафиксировано первым прямым чтением selected.json в текущем аудите; исправление родительского агента произошло до записи итогового JSON. input_selected_sha256 относится к уже исправленному состоянию."
+    },
+    {
+      "uid": "olympiad.imo.1961.2",
+      "source_id": "imo-1961",
+      "label_in_book": "IMO, 1961, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1961",
+        "round": null,
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf",
+      "source_path": "olympiads/international/IMO/1961/problems_en_0569ccb4_1961_eng.pdf",
+      "source_sha256": "65ae54152555e7348e67e9cc3f91f250317acd0e8bd1812582298121beb69633",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "d0adf36f6a49525cbb11e556b1772df1cf761210a25a8dca1b21b7d56befd198"
+    },
+    {
+      "uid": "olympiad.mmo.1940.II.78.2",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1940, II тур, 7–8 классы, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1940",
+        "round": "II тур",
+        "problem_number": 2,
+        "grade_group": [
+          7,
+          8
+        ]
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        16
+      ],
+      "verified_source_pages": [
+        16
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "374d17c8df840448b966eca9908c50f827d52c40f5c1bc91ead7bf8516455ba6"
+    },
+    {
+      "uid": "olympiad.imo.1961.4",
+      "source_id": "imo-1961",
+      "label_in_book": "IMO, 1961, № 4",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1961",
+        "round": null,
+        "problem_number": 4,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf",
+      "source_path": "olympiads/international/IMO/1961/problems_en_0569ccb4_1961_eng.pdf",
+      "source_sha256": "65ae54152555e7348e67e9cc3f91f250317acd0e8bd1812582298121beb69633",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "b3457af5edb30710b12eefd98b8aa8640034a9fcd1812b9985b92316f26f31b9"
+    },
+    {
+      "uid": "olympiad.mmo.1935.I.v4.2",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1935, I тур, вариант 4, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1935",
+        "round": "I тур",
+        "problem_number": 2,
+        "grade_group": null,
+        "variant": 4
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        10
+      ],
+      "verified_source_pages": [
+        10
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "07094e55fd6409163d23433c111903ec240c475a39a2119b48116b0567c69989"
+    },
+    {
+      "uid": "olympiad.mmo.1938.II.1",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1938, II тур, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1938",
+        "round": "II тур",
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        14
+      ],
+      "verified_source_pages": [
+        14
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "9daa391f58ae87c99759fbfcaa2130f4723dd555706c6ec74f66cfa4215bbe56"
+    },
+    {
+      "uid": "olympiad.imo.1965.2",
+      "source_id": "imo-1965",
+      "label_in_book": "IMO, 1965, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1965",
+        "round": null,
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1965/1965_eng.pdf",
+      "source_path": "olympiads/international/IMO/1965/problems_en_1731e978_1965_eng.pdf",
+      "source_sha256": "ff16464f08486765b03ec19d993e235b7060eb11e0ea1821ec134a079f716425",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "ed0b1054bfe7ba30c362cfd91e8fed5ddb1b848612aca20b3eff835f6ad8331f"
+    },
+    {
+      "uid": "olympiad.mmo.1937.I.3",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1937, I тур, № 3",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1937",
+        "round": "I тур",
+        "problem_number": 3,
+        "grade_group": null
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        13
+      ],
+      "verified_source_pages": [
+        13
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "baeab077c9ba0e5ceb916e7758685d8f12cdd2e475a309a1b8c73dc708c9a731"
+    },
+    {
+      "uid": "olympiad.imo.1961.6",
+      "source_id": "imo-1961",
+      "label_in_book": "IMO, 1961, № 6",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1961",
+        "round": null,
+        "problem_number": 6,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf",
+      "source_path": "olympiads/international/IMO/1961/problems_en_0569ccb4_1961_eng.pdf",
+      "source_sha256": "65ae54152555e7348e67e9cc3f91f250317acd0e8bd1812582298121beb69633",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        2
+      ],
+      "verified_source_pages": [
+        2
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "4d6d62aae6f6c686f57e7f95b2595ea321464f07f38f64abd00d9d4274fe5292"
+    },
+    {
+      "uid": "olympiad.imo.1960.5",
+      "source_id": "imo-1960",
+      "label_in_book": "IMO, 1960, № 5",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1960",
+        "round": null,
+        "problem_number": 5,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1960/1960_eng.pdf",
+      "source_path": "olympiads/international/IMO/1960/problems_en_58a46716_1960_eng.pdf",
+      "source_sha256": "ac7230389ed49c776407b288ea9a973cfdefdac671b300a8e9846fd3e4d11581",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "871147f98d3bb3e3cae397c6b9c0c97a4d1890f2f6845a8694909ae18210e501"
+    },
+    {
+      "uid": "olympiad.imo.1960.6",
+      "source_id": "imo-1960",
+      "label_in_book": "IMO, 1960, № 6",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified_after_wording_clarification",
+      "verified_metadata": {
+        "year": "1960",
+        "round": null,
+        "problem_number": 6,
+        "grade_group": null
+      },
+      "source_url": "https://www.imo-official.org/assets/documents/problems/1960/1960_eng.pdf",
+      "source_path": "olympiads/international/IMO/1960/problems_en_58a46716_1960_eng.pdf",
+      "source_sha256": "ac7230389ed49c776407b288ea9a973cfdefdac671b300a8e9846fd3e4d11581",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_archive_problem_sheet",
+      "source_authority": "International Mathematical Olympiad; imo-official.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Повторно прочитано актуальное q: добавлены «прямой круговой конус» и «Найди и построй угол», теперь оба требования первоисточника сохранены.",
+      "audited_statement_sha256": "8fbab335108886a1ed018195250a2ae218ab3807684a558bba7181fe19fbae54",
+      "original_wording_note": "В первоисточнике cone of revolution: точнее написать «конус вращения (прямой круговой конус)». Последнее требование источника — construct the angle; в книге только «найди угол». Сохранить требование построения либо честно пометить адаптацию."
+    },
+    {
+      "uid": "olympiad.putnam.2018.A1",
+      "source_id": "putnam-2018",
+      "label_in_book": "Putnam, 2018, A1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "2018",
+        "round": "A",
+        "problem_number": "A1",
+        "grade_group": null
+      },
+      "source_url": "https://maa.org/wp-content/uploads/2024/10/2018PutnamProblemsSolutions.pdf",
+      "source_path": "olympiads/university/putnam-maa/2018/problems_and_solutions-2018PutnamProblemsSolutions-73cadd321f.pdf",
+      "source_sha256": "1472019414c453ec5147c885e798e4eb7cc85718f6b15bd87601144f25617c53",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions_collection",
+      "source_authority": "Mathematical Association of America; maa.org",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "bcc453113fd3c290c4760cbd76773a0ccb3069cc2dd258ff0ed5564b33a634c6",
+      "verified_published_solution_pages": [
+        1
+      ]
+    },
+    {
+      "uid": "olympiad.msu.2006.1",
+      "source_id": "msu-algebra-2006",
+      "label_in_book": "Алгебраическая олимпиада МГУ, 2006, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "2006",
+        "round": null,
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "http://halgebra.math.msu.su/Olympiad/2006/solutions-06.pdf",
+      "source_path": "olympiads/university/msu-algebra/2006/solutions-solutions-06-09592a1748.pdf",
+      "source_sha256": "8b9af618caa20283b74696c7fc7dc65a7d22032c4d4309660c0c50dcd386a300",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_solutions_with_statements",
+      "source_authority": "Кафедра высшей алгебры механико-математического факультета МГУ; halgebra.math.msu.su",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "7f3c251cecd9bc600a265e30e9861c4952f73aaf6bafa1efbec9568e7cfeddd7",
+      "verified_published_solution_pages": [
+        1
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1996.D2.3",
+      "source_id": "imc-1996",
+      "label_in_book": "IMC, 1996, день 2, № 3",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1996",
+        "round": "день 2",
+        "problem_number": 3,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1996/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1996/problems_and_solutions-prob_sol-97e51f78ff.pdf",
+      "source_sha256": "1520efe3a8763f5e8d3098775188ddf9a61ead1c577b7a2c8672ec7ba1c98447",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        11,
+        12
+      ],
+      "verified_source_pages": [
+        11
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "4e5decc9fd37e3a1594defac0cd2ac6a0bf84bf448503a267f6dc67303ac30dc",
+      "verified_published_solution_pages": [
+        11
+      ],
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.mmo.1935.II.B2",
+      "source_id": "mmo-early",
+      "label_in_book": "ММО, 1935, II тур, серия B, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1935",
+        "round": "II тур",
+        "problem_number": 2,
+        "grade_group": null,
+        "series": "B"
+      },
+      "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf",
+      "source_path": "olympiads/russia/mmo/documents/6b2f8bb9aaf1-mmo-35-57.pdf",
+      "source_sha256": "ef66aaa9c0328fee9c5aa057e0300ba6663497fb7de03dc8448df23735040a51",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_collection",
+      "source_authority": "МЦНМО; официальная библиотека Московской математической олимпиады",
+      "original_source_pages": [
+        11
+      ],
+      "verified_source_pages": [
+        11
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "579d64958d3ade96c47a0a7a845e038032153eddefc1c998c1487b1777f9d7c9",
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.imc.1995.D2.3",
+      "source_id": "imc-1995",
+      "label_in_book": "IMC, 1995, день 2, № 3",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1995",
+        "round": "день 2",
+        "problem_number": 3,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1995/problems_and_solutions-prob_sol-8d6b8ffe5a.pdf",
+      "source_sha256": "46960a1dec43044b7ef94fbfd2a6c0fa3d973decd01c7ccc27c938b21da6bb3d",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        7,
+        8
+      ],
+      "verified_source_pages": [
+        7
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "c81a9799e8cb296034618b82d815ec36b3c04776b019a1b2cbb7fa11b9aa73cc",
+      "verified_published_solution_pages": [
+        7,
+        8
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1994.D2.4",
+      "source_id": "imc-1994",
+      "label_in_book": "IMC, 1994, день 2, № 4",
+      "attribution_status": "verified",
+      "statement_status": "editorial_target_change",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1994",
+        "round": "день 2",
+        "problem_number": 4,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1994/problems_and_solutions-prob_sol-b6d63ec353.pdf",
+      "source_sha256": "be5e798c3736ce06e862fb79fb34cdc650b3de1cb6506a18cf1c28aa862f6f23",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        7,
+        8
+      ],
+      "verified_source_pages": [
+        7,
+        8
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Источник предъявляет формулу d_1^2+...+d_k^2 и просит её доказать; в книге предложено найти размерность. Исходные данные совпадают, но это учебная редакция вопроса. В книге также явно выбрано поле R, не названное в исходной формулировке.",
+      "audited_statement_sha256": "d4ba80b4416cfd4d9f9efea3c1e468db35df273e429ecf49278f30259fcabac3",
+      "verified_published_solution_pages": [
+        8
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1998.D1.1",
+      "source_id": "imc-1998-d1",
+      "label_in_book": "IMC, 1998, день 1, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1998",
+        "round": "день 1",
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1998/prob_sol1.pdf",
+      "source_path": "olympiads/university/imc/1998/problems_and_solutions-prob_sol1-bb915e061a.pdf",
+      "source_sha256": "f0e2e0f9cd1a9d14b94b407fb5800eba8aa1c8c6f5fe143d35ba04d89efa2bc4",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        1
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "eb7203232c5efc9243bf97d00c0169c5d70cfe6685d562c76cc32e196a3d61cf",
+      "verified_published_solution_pages": [
+        1
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1995.D1.1",
+      "source_id": "imc-1995",
+      "label_in_book": "IMC, 1995, день 1, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1995",
+        "round": "день 1",
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1995/problems_and_solutions-prob_sol-8d6b8ffe5a.pdf",
+      "source_sha256": "46960a1dec43044b7ef94fbfd2a6c0fa3d973decd01c7ccc27c938b21da6bb3d",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        2
+      ],
+      "verified_source_pages": [
+        2
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "334c0ddc473102004cb6616cd578681f6e416c96980936aee499f94879a6a4dd",
+      "verified_published_solution_pages": [
+        2
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1996.D1.3",
+      "source_id": "imc-1996",
+      "label_in_book": "IMC, 1996, день 1, № 3",
+      "attribution_status": "verified",
+      "statement_status": "domain_clarification",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1996",
+        "round": "день 1",
+        "problem_number": 3,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1996/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1996/problems_and_solutions-prob_sol-97e51f78ff.pdf",
+      "source_sha256": "1520efe3a8763f5e8d3098775188ddf9a61ead1c577b7a2c8672ec7ba1c98447",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        4,
+        5
+      ],
+      "verified_source_pages": [
+        4
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "В печатном условии поле пространства V не названо; книга явно выбирает действительное пространство. Это корректная для курса конкретизация; источник и оба пункта задачи совпадают.",
+      "audited_statement_sha256": "4c023b9c2fcc41a60a9326e7a4343bf14a5a1848ce81c18d4d7ded3b7f81f3bc",
+      "verified_published_solution_pages": [
+        4
+      ],
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.imc.1994.D1.2",
+      "source_id": "imc-1994",
+      "label_in_book": "IMC, 1994, день 1, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1994",
+        "round": "день 1",
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1994/problems_and_solutions-prob_sol-b6d63ec353.pdf",
+      "source_sha256": "be5e798c3736ce06e862fb79fb34cdc650b3de1cb6506a18cf1c28aa862f6f23",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        2
+      ],
+      "verified_source_pages": [
+        2
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "7dc0d153ed3dbf4f17086f0971397152830fdf0ad5661f15bf53d3e9b0adc850",
+      "verified_published_solution_pages": [
+        2
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1994.D2.1",
+      "source_id": "imc-1994",
+      "label_in_book": "IMC, 1994, день 2, № 1",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1994",
+        "round": "день 2",
+        "problem_number": 1,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1994/problems_and_solutions-prob_sol-b6d63ec353.pdf",
+      "source_sha256": "be5e798c3736ce06e862fb79fb34cdc650b3de1cb6506a18cf1c28aa862f6f23",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        6
+      ],
+      "verified_source_pages": [
+        6
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "5b60e53b2fab32d59692e9eb2ff43149d8d9a6cef1e4016bdd74ba39dc5b831b",
+      "verified_published_solution_pages": [
+        6
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1996.D1.2",
+      "source_id": "imc-1996",
+      "label_in_book": "IMC, 1996, день 1, № 2",
+      "attribution_status": "verified",
+      "statement_status": "removable_point_clarification",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1996",
+        "round": "день 1",
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1996/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1996/problems_and_solutions-prob_sol-97e51f78ff.pdf",
+      "source_sha256": "1520efe3a8763f5e8d3098775188ddf9a61ead1c577b7a2c8672ec7ba1c98447",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        3,
+        4
+      ],
+      "verified_source_pages": [
+        3
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Уточнение доопределения при x=0,+/-pi добавлено в книге; исходный интеграл, показатель 2^x и границы совпадают по пикселям.",
+      "audited_statement_sha256": "ca21b502c3b3948548cb8fb17ee30ad21393a3dcacc61768720eee89f3ed709e",
+      "verified_published_solution_pages": [
+        3,
+        4
+      ],
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.imc.1998.D1.6",
+      "source_id": "imc-1998-d1",
+      "label_in_book": "IMC, 1998, день 1, № 6",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1998",
+        "round": "день 1",
+        "problem_number": 6,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1998/prob_sol1.pdf",
+      "source_path": "olympiads/university/imc/1998/problems_and_solutions-prob_sol1-bb915e061a.pdf",
+      "source_sha256": "f0e2e0f9cd1a9d14b94b407fb5800eba8aa1c8c6f5fe143d35ba04d89efa2bc4",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        3
+      ],
+      "verified_source_pages": [
+        3
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "8115be3e4bfbccb03baeab46c5e03a6d6f3f682aa4c7a10fc3c99752e42fae8f",
+      "verified_published_solution_pages": [
+        3
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1995.D1.4",
+      "source_id": "imc-1995",
+      "label_in_book": "IMC, 1995, день 1, № 4",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1995",
+        "round": "день 1",
+        "problem_number": 4,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1995/problems_and_solutions-prob_sol-8d6b8ffe5a.pdf",
+      "source_sha256": "46960a1dec43044b7ef94fbfd2a6c0fa3d973decd01c7ccc27c938b21da6bb3d",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        3,
+        4
+      ],
+      "verified_source_pages": [
+        3
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "a9d60d1f59a4261a8488708ab2385220ab359db6f4a4e9a944ea9a6a3df51ff1",
+      "verified_published_solution_pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1995.D2.2",
+      "source_id": "imc-1995",
+      "label_in_book": "IMC, 1995, день 2, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1995",
+        "round": "день 2",
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1995/problems_and_solutions-prob_sol-8d6b8ffe5a.pdf",
+      "source_sha256": "46960a1dec43044b7ef94fbfd2a6c0fa3d973decd01c7ccc27c938b21da6bb3d",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        6,
+        7
+      ],
+      "verified_source_pages": [
+        6
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "2646a781df65ff80125aeac6883ee6e99a6f0bc9d0cf6639b06a6dd4dc0522a3",
+      "verified_published_solution_pages": [
+        7
+      ],
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.imc.1997.D1.2",
+      "source_id": "imc-1997-d1",
+      "label_in_book": "IMC, 1997, день 1, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_index_description",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1997",
+        "round": "день 1",
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1997/prob_sol1.pdf",
+      "source_path": "olympiads/university/imc/1997/problems_and_solutions-prob_sol1-8d2e0ef6d8.pdf",
+      "source_sha256": "64612053de6eaceaaa799af60796621b0cc51902d1609d7cbc5a5982994e35da",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        1,
+        2
+      ],
+      "verified_source_pages": [
+        2
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Две явно выписанные перестановки источника точно переписаны блоками {2^k+1,...,2^(k+1)} с сохранением a_1. Формулировка эквивалентна.",
+      "audited_statement_sha256": "ed907a808e5a27b6b5d19c26d02d3b3592e4baaead124e6e357d8020cd9018c8",
+      "verified_published_solution_pages": [
+        2
+      ],
+      "source_pixels_checked": true
+    },
+    {
+      "uid": "olympiad.imc.1994.D2.2",
+      "source_id": "imc-1994",
+      "label_in_book": "IMC, 1994, день 2, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "1994",
+        "round": "день 2",
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf",
+      "source_path": "olympiads/university/imc/1994/problems_and_solutions-prob_sol-b6d63ec353.pdf",
+      "source_sha256": "be5e798c3736ce06e862fb79fb34cdc650b3de1cb6506a18cf1c28aa862f6f23",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        6,
+        7
+      ],
+      "verified_source_pages": [
+        6
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "55ad9ac6f6275cab27ca6a2d0995eb24bf9480afb0291e15972de110b108ef77",
+      "verified_published_solution_pages": [
+        6,
+        7
+      ]
+    },
+    {
+      "uid": "olympiad.imc.1997.D1.5",
+      "source_id": "imc-1997-d1",
+      "label_in_book": "IMC, 1997, день 1, № 5",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified_after_wording_clarification",
+      "verified_metadata": {
+        "year": "1997",
+        "round": "день 1",
+        "problem_number": 5,
+        "grade_group": null
+      },
+      "source_url": "https://www.imc-math.org.uk/imc1997/prob_sol1.pdf",
+      "source_path": "olympiads/university/imc/1997/problems_and_solutions-prob_sol1-8d2e0ef6d8.pdf",
+      "source_sha256": "64612053de6eaceaaa799af60796621b0cc51902d1609d7cbc5a5982994e35da",
+      "source_sha_match": true,
+      "source_language": "en",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "International Mathematics Competition for University Students; imc-math.org.uk",
+      "original_source_pages": [
+        4,
+        5
+      ],
+      "verified_source_pages": [
+        5
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Повторно прочитано актуальное q: явно разрешён выбор подходящего n для каждого p<1 и явно определены конечные p-нормы и норма при p=бесконечность. Кванторы и определения совпадают с первоисточником.",
+      "audited_statement_sha256": "a39bce4b6e9c58b11d9f488a8822461b98fc244548b3f2f3072735b41bc570d5",
+      "verified_published_solution_pages": [
+        6,
+        7
+      ],
+      "source_pixels_checked": true,
+      "original_wording_note": "В пункте b источника явно требуется для каждого p выбрать некоторое n, затем x,y. В книге полезно явно восстановить «выбрав подходящее n», чтобы контрпример не читался как требование для заранее фиксированного n."
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.3",
+      "source_id": "mos-prob-2023-24",
+      "label_in_book": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 3",
+      "attribution_status": "verified",
+      "statement_status": "implicit_assumption_explicit",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "2023-24",
+        "round": null,
+        "problem_number": 3,
+        "grade_group": null
+      },
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_path": "olympiads/russia/mos_probability/documents/e83fdbce546b-zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_sha256": "55a9d93638971ea80ef0249152ff91fe7cc71b98b37fc668987645e7566d14a8",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "Лаборатория теории вероятностей МЦНМО; ptlab.mccme.ru",
+      "original_source_pages": [
+        2,
+        3
+      ],
+      "verified_source_pages": [
+        2
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "«Много» карт заменено минимально необходимым условием: каждого цвета не меньше16 (нужно раздать30 и открыть ещё2). Цвета, числа15/5/10/11 и знак сравнения с alpha сохранены.",
+      "audited_statement_sha256": "797dd01ca7aefd9a100ddd33841f2212acf804df6b10a12f41589c367967c939",
+      "verified_published_solution_pages": [
+        2,
+        3
+      ],
+      "recommended_min_grade_by_part_in_source": {
+        "a": 7,
+        "b": 9
+      }
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.8",
+      "source_id": "mos-prob-2023-24",
+      "label_in_book": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 8",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "2023-24",
+        "round": null,
+        "problem_number": 8,
+        "grade_group": null
+      },
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_path": "olympiads/russia/mos_probability/documents/e83fdbce546b-zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_sha256": "55a9d93638971ea80ef0249152ff91fe7cc71b98b37fc668987645e7566d14a8",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "Лаборатория теории вероятностей МЦНМО; ptlab.mccme.ru",
+      "original_source_pages": [
+        7,
+        8
+      ],
+      "verified_source_pages": [
+        7
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "05065824d48bf80aa2271c0e2ea36be0c2d160ee99289395249d3654c83d85c5",
+      "verified_published_solution_pages": [
+        7,
+        8
+      ],
+      "recommended_min_grade_by_part_in_source": {
+        "a": 8,
+        "b": 8
+      }
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.9",
+      "source_id": "mos-prob-2023-24",
+      "label_in_book": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 9",
+      "attribution_status": "verified",
+      "statement_status": "implicit_assumption_explicit",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "2023-24",
+        "round": null,
+        "problem_number": 9,
+        "grade_group": null
+      },
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_path": "olympiads/russia/mos_probability/documents/e83fdbce546b-zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_sha256": "55a9d93638971ea80ef0249152ff91fe7cc71b98b37fc668987645e7566d14a8",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "Лаборатория теории вероятностей МЦНМО; ptlab.mccme.ru",
+      "original_source_pages": [
+        8
+      ],
+      "verified_source_pages": [
+        8
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": false,
+      "review_note": "Независимость партий явно добавлена как стандартная вероятностная модель опубликованного решения; исходные вероятности1/2, игра до3побед и оба вопроса сохранены.",
+      "audited_statement_sha256": "cee35b55879171aaf50d5d8503bf41d6030de686965ed96bc5defbf337a5bd2e",
+      "verified_published_solution_pages": [
+        8
+      ],
+      "recommended_min_grade_by_part_in_source": {
+        "a": 8,
+        "b": 9
+      }
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.11",
+      "source_id": "mos-prob-2023-24",
+      "label_in_book": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 11",
+      "attribution_status": "verified",
+      "statement_status": "implicit_assumption_explicit",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "2023-24",
+        "round": null,
+        "problem_number": 11,
+        "grade_group": null
+      },
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_path": "olympiads/russia/mos_probability/documents/e83fdbce546b-zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_sha256": "55a9d93638971ea80ef0249152ff91fe7cc71b98b37fc668987645e7566d14a8",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "Лаборатория теории вероятностей МЦНМО; ptlab.mccme.ru",
+      "original_source_pages": [
+        9,
+        10
+      ],
+      "verified_source_pages": [
+        9
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Честность монеты и независимость бросков явно названы, что соответствует опубликованному решению источника. Правило остановки сохранено.",
+      "audited_statement_sha256": "1e92603e2cbe8c37889bc3541a8be896081f50014deea94a0578e89b1ad74a6c",
+      "verified_published_solution_pages": [
+        9,
+        10
+      ],
+      "recommended_min_grade_by_part_in_source": {
+        "all": 9
+      }
+    },
+    {
+      "uid": "olympiad.mosprob.2023-24.2",
+      "source_id": "mos-prob-2023-24",
+      "label_in_book": "МЦНМО, XVII заочная олимпиада по ТВиС, 2023/24, № 2",
+      "attribution_status": "verified",
+      "statement_status": "equivalent_restatement",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "2023-24",
+        "round": null,
+        "problem_number": 2,
+        "grade_group": null
+      },
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_path": "olympiads/russia/mos_probability/documents/e83fdbce546b-zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf",
+      "source_sha256": "55a9d93638971ea80ef0249152ff91fe7cc71b98b37fc668987645e7566d14a8",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "Лаборатория теории вероятностей МЦНМО; ptlab.mccme.ru",
+      "original_source_pages": [
+        1,
+        2
+      ],
+      "verified_source_pages": [
+        1
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Математические данные, ограничения, требуемое утверждение и номер совпадают с указанным первоисточником; русская формулировка не заявляется дословной цитатой.",
+      "audited_statement_sha256": "2b6f346ff727f8fbd5d8ad11af95f915c1407e08a1489ba7cf87fdc10109cefa",
+      "verified_published_solution_pages": [
+        1,
+        2
+      ],
+      "recommended_min_grade_by_part_in_source": {
+        "a": 7,
+        "b": 7,
+        "c": 8
+      }
+    },
+    {
+      "uid": "olympiad.mosprob.2024-25.3",
+      "source_id": "mos-prob-2024-25",
+      "label_in_book": "МЦНМО, XVIII заочная олимпиада по ТВиС, 2024/25, № 3",
+      "attribution_status": "verified",
+      "statement_status": "implicit_assumption_explicit",
+      "status": "verified",
+      "verified_metadata": {
+        "year": "2024-25",
+        "round": null,
+        "problem_number": 3,
+        "grade_group": null
+      },
+      "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xviii_olimpiada._2024-25._resheniya.pdf",
+      "source_path": "olympiads/russia/mos_probability/documents/1d7d0bbb33da-zaochnaya_internet-olimpiada._xviii_olimpiada._2024-25._resheniya.pdf",
+      "source_sha256": "b9da99156868ee29b5a3004ade655b53d97ba531fb268c1ea5a897b0cdb67a3a",
+      "source_sha_match": true,
+      "source_language": "ru",
+      "source_form": "official_problems_and_solutions",
+      "source_authority": "Лаборатория теории вероятностей МЦНМО; ptlab.mccme.ru",
+      "original_source_pages": [
+        2,
+        3
+      ],
+      "verified_source_pages": [
+        2
+      ],
+      "pages_are": "one-based physical PDF pages containing the statement, not printed page labels or approximate solution ranges",
+      "source_page_correction_needed": true,
+      "review_note": "Неотрицательность премий явно названа; исходный фонд80, число11 и все шесть строк окладов/численностей сохранены.",
+      "audited_statement_sha256": "ad2a0795782e91e965374e755fd2d5a2e674909a957b191b4aa311d68d38d949",
+      "verified_published_solution_pages": [
+        2,
+        3
+      ],
+      "recommended_min_grade_by_part_in_source": {
+        "a": 6,
+        "b": 7
+      }
+    }
+  ],
+  "critical_statement_mismatches_found": 1,
+  "unresolved_critical_statement_mismatches": 0,
+  "corrections_rechecked_against_current_selected": true,
+  "selected_statements_changed_since_initial_audit": [],
+  "latest_selected_sha256": "1fcc2e8fde4c644c25b4e9864cb8afe9db43845a30d9d9556f5dde530b5569cf"
+}

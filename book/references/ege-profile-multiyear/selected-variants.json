@@ -1,0 +1,80 @@
+[
+  {
+    "year": 2019,
+    "kind": "demo",
+    "archive_member": "2-Профильная/МА_ДЕМО_2019_проф.pdf",
+    "path": "book/references/ege-profile-multiyear/2019/1.pdf",
+    "sha256": "885ed2e8e6e2c55d0212b84a9acbe2e39d248610d62afde518ab5fafef17c796",
+    "bytes": 702900,
+    "selected_pdf": "book/references/ege-profile-multiyear/2019/profile-demo.pdf"
+  },
+  {
+    "year": 2020,
+    "kind": "demo",
+    "archive_member": "Профильный уровень/МА-11 ЕГЭ 2020_ДЕМО_проф.pdf",
+    "path": "book/references/ege-profile-multiyear/2020/4.pdf",
+    "sha256": "6eb1408d88e8f776b6addd71641626b4356e6eaa42848d68f15dfe81d5f94504",
+    "bytes": 1176446,
+    "selected_pdf": "book/references/ege-profile-multiyear/2020/profile-demo.pdf"
+  },
+  {
+    "year": 2021,
+    "kind": "demo",
+    "archive_member": "ma-ege-2021/МА-11 ЕГЭ 2021_ДЕМО_проф.pdf",
+    "path": "book/references/ege-profile-multiyear/2021/2.pdf",
+    "sha256": "64260b43a7e32f971311690f4a1e3f07c5c103cc2be84bcc2dc5df0d31f17369",
+    "bytes": 797113,
+    "selected_pdf": "book/references/ege-profile-multiyear/2021/profile-demo.pdf"
+  },
+  {
+    "year": 2022,
+    "kind": "demo",
+    "archive_member": "МА/МА-11 ЕГЭ 2022 ДЕМО_проф.pdf",
+    "path": "book/references/ege-profile-multiyear/2022/2.pdf",
+    "sha256": "14f2039ed7820fb74f0d98269d8add25041a1668b094b173852ea00fb15a36aa",
+    "bytes": 1700090,
+    "selected_pdf": "book/references/ege-profile-multiyear/2022/profile-demo.pdf"
+  },
+  {
+    "year": 2023,
+    "kind": "demo",
+    "archive_member": "МА-11 ЕГЭ 2023 ДЕМО_проф.pdf",
+    "path": "book/references/ege-profile-multiyear/2023/2.pdf",
+    "sha256": "9278f5cc60388da2ed63eaa946c82e0902f0867047fc9b5ea6051bae16e3b6b2",
+    "bytes": 964534,
+    "selected_pdf": "book/references/ege-profile-multiyear/2023/profile-demo.pdf"
+  },
+  {
+    "year": 2024,
+    "kind": "demo",
+    "archive_member": "МА-11 ЕГЭ 2024 ДЕМО_профильный.pdf",
+    "path": "book/references/ege-profile-multiyear/2024/2.pdf",
+    "sha256": "89698a59be7da5c5f6c628f752a6810534888c423cae31a181ef743c910c1ae3",
+    "bytes": 684418,
+    "selected_pdf": "book/references/ege-profile-multiyear/2024/profile-demo.pdf"
+  },
+  {
+    "year": 2025,
+    "kind": "demo",
+    "archive_member": "МА-11 ЕГЭ 2025 ДЕМО_профильный.pdf",
+    "path": "book/references/ege-profile-multiyear/2025/1.pdf",
+    "sha256": "d588a28792d716468d4a49293fa61a5d9e10b67124993264be0bca10a9ee04b6",
+    "bytes": 708164,
+    "selected_pdf": "book/references/ege-profile-multiyear/2025/profile-demo.pdf"
+  },
+  {
+    "year": 2026,
+    "kind": "demo",
+    "archive_member": "МА-11 ЕГЭ 2026 ДЕМО_профильный.pdf",
+    "path": "book/references/ege-profile-multiyear/2026/5.pdf",
+    "sha256": "f223ca76f3c703d136f05e7f197e8fb8bc7a8925b89b1bef533a58e99a5413d5",
+    "bytes": 871125,
+    "selected_pdf": "book/references/ege-profile-multiyear/2026/profile-demo.pdf"
+  },
+  {
+    "year": 2027,
+    "kind": "demo",
+    "path": "book/references/exam-sources-2027/ege-demo-profile.pdf",
+    "selected_pdf": "book/references/ege-profile-multiyear/2027/profile-demo.pdf"
+  }
+]

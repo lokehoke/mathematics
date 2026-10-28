@@ -1,0 +1,62 @@
+{
+  "parts": 7,
+  "chapters": 41,
+  "pages": 378,
+  "arabic_pages": 377,
+  "tasks": 995,
+  "retained_edition8_tasks": 790,
+  "changed_legacy_statements": [
+    {
+      "uid": "c18.1",
+      "now": "21.1"
+    },
+    {
+      "uid": "c18.2",
+      "now": "21.2"
+    },
+    {
+      "uid": "c18.4",
+      "now": "21.4"
+    },
+    {
+      "uid": "c18.7",
+      "now": "21.7"
+    },
+    {
+      "uid": "c18.8",
+      "now": "21.8"
+    },
+    {
+      "uid": "c18.15",
+      "now": "21.15"
+    },
+    {
+      "uid": "c18.16",
+      "now": "21.16"
+    },
+    {
+      "uid": "c18.28",
+      "now": "21.28"
+    },
+    {
+      "uid": "c26.20",
+      "now": "25.20"
+    }
+  ],
+  "new_tasks": 205,
+  "unique_cats": 193,
+  "new_cats": 58,
+  "all_art_transparent": true,
+  "theorems": 194,
+  "proofs": 188,
+  "notation_rows": 237,
+  "notation_groups": 22,
+  "named_destinations": 1223,
+  "bookmarks": 227,
+  "internal_links": 249,
+  "all_navigation_preserved": true,
+  "all_exercises_printed_twice": true,
+  "all_references_resolved": true,
+  "reading_pdf_sha256": "7ba2a66e48817819068d24911229f5ade55fce35498fae3caeb7d0a0cd5fc081",
+  "reading_pdf_bytes": 13261475
+}

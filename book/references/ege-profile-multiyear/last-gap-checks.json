@@ -1,0 +1,100 @@
+{
+  "checked_at": "2026-10-25",
+  "source": "book/source/data/review-ege-last-gap.json",
+  "sha256": "efe0862685ab70466b6b275e0e43f2e3dfa3c4c9e0d5972cf39025e9d3bb8906",
+  "tasks": 4,
+  "assertions": 960071,
+  "systems": [
+    {
+      "base": 2,
+      "A": 8,
+      "coefficient_abs": 7,
+      "constant": 1,
+      "coefficient_y": 8,
+      "unique_parameter": 1,
+      "unique_pair": [
+        0,
+        1
+      ],
+      "rejected_candidate": 17,
+      "three_rejection_witnesses": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "circle_samples": 100000,
+      "sampled_min": 1.0
+    },
+    {
+      "base": 3,
+      "A": 9,
+      "coefficient_abs": 5,
+      "constant": 2,
+      "coefficient_y": 18,
+      "unique_parameter": -7,
+      "unique_pair": [
+        0,
+        1
+      ],
+      "rejected_candidate": 29,
+      "three_rejection_witnesses": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "circle_samples": 100000,
+      "sampled_min": -7.0
+    },
+    {
+      "base": 2,
+      "A": 4,
+      "coefficient_abs": 2,
+      "constant": 3,
+      "coefficient_y": 4,
+      "unique_parameter": 3,
+      "unique_pair": [
+        0,
+        1
+      ],
+      "rejected_candidate": 11,
+      "three_rejection_witnesses": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "circle_samples": 100000,
+      "sampled_min": 3.0
+    }
+  ],
+  "source_evidence": "book/references/ege-profile-multiyear/2026-open/task18-evidence.json",
+  "figure_sha256": "a96c4bc9e4b727893c5c9a2972f3df0924c2f3cf91205e258133ae3684f87658",
+  "result": "passed",
+  "correction": "The earlier non-elementary numerical solution referred to a misread different expression7|x+1|. It is withdrawn as a solution of the official task. The official pixels show7|x|+1; the exact answer is a=1, obtained by symmetry and a sum of nonnegative terms, without derivatives."
+}

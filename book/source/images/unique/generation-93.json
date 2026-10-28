@@ -1,0 +1,8 @@
+{
+  "art": 93,
+  "prompt": "Create ONE new inside illustration for a mathematics textbook: ONE full-body natural kitten and its named prop only. Warm luminous watercolor with fine ink, soft detailed fur, expressive gentle face, realistic anatomy, cream/navy/muted teal/ochre palette matching a cozy watercolor cat book. Entire ears, paws and tail visible, compact large subject, minimal transparent padding. TRUE TRANSPARENT alpha background; alpha zero outside kitten and props. No floor, room, scenery, paper rectangle, backdrop wash, shadow patch, text, mathematical symbols, letters, numbers, or watermark. Subject: A white kitten delicately touches an open ochre paper hand fan with one paw, side view, tail curled forward.",
+  "path": "sources/book/images/unique/art-93.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-fe871cbd-beb1-44f0-99f1-64a919fd0878.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

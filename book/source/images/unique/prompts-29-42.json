@@ -1,0 +1,144 @@
+[
+  {
+    "id": 29,
+    "filename": "art-29.png",
+    "subject": "A soft grey tabby cat seated three-quarter view with a folded muted-blue paper fan held gently between its front paws; the folded fan is the sole prop.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A soft grey tabby cat seated three-quarter view with a folded muted-blue paper fan held gently between its front paws; the folded fan is the sole prop. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 30,
+    "filename": "art-30.png",
+    "subject": "A small white cat seated upright beside one small wooden and brass hourglass, turning its head curiously towards the sand.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A small white cat seated upright beside one small wooden and brass hourglass, turning its head curiously towards the sand. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 31,
+    "filename": "art-31.png",
+    "subject": "A ginger tabby cat standing in profile with all four paws visible and its long tail curving in one graceful arc above its back; the tail itself traces the arc, with no drawn line.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A ginger tabby cat standing in profile with all four paws visible and its long tail curving in one graceful arc above its back; the tail itself traces the arc, with no drawn line. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen",
+    "retry_prompt": "Use case: illustration-story. Asset type: a single transparent watercolor cat cutout. Reference image is STYLE ONLY: warm watercolor and very fine ink with realistic soft cat fur, matching the cover's ginger cat. Draw ONE entire ginger tabby cat in a walking profile pose, all four paws clearly visible and resting in empty transparent space. The cat's long raised fluffy tail bends into a smooth semicircular arc above its body. This is a cat-only illustration, ZERO objects or props. Do not include the cover's books, solids, pencils, furniture or any other reference objects. Whole animal including ears, tail and four paws fits comfortably inside a square canvas with transparent margin on every side. True transparent alpha background. No floor, ground, shadow, scenery, background patch, paper texture, border, text, symbols or formulas. Only the cat, no other content."
+  },
+  {
+    "id": 32,
+    "filename": "art-32.png",
+    "subject": "A grey tabby cat crouched compactly, looking at two simple overlapping wooden hoops resting beside its front paws; show two separate circular hoops overlapping without being linked.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A grey tabby cat crouched compactly, looking at two simple overlapping wooden hoops resting beside its front paws; show two separate circular hoops overlapping without being linked. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 33,
+    "filename": "art-33.png",
+    "subject": "A white fluffy cat sitting with both front paws near a pair of interlocking wooden rings, one linked through the other; the two rings are the only prop.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A white fluffy cat sitting with both front paws near a pair of interlocking wooden rings, one linked through the other; the two rings are the only prop. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 34,
+    "filename": "art-34.png",
+    "subject": "A ginger tabby cat sitting alertly beside a small empty open muted-teal wooden box, gently guarding it with one front paw on its edge; its inside is visibly empty.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A ginger tabby cat sitting alertly beside a small empty open muted-teal wooden box, gently guarding it with one front paw on its edge; its inside is visibly empty. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 35,
+    "filename": "art-35.png",
+    "subject": "A grey tabby cat seated with its head tilted toward one small branching bare twig lying beside its paws; no leaves, no plant pot.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A grey tabby cat seated with its head tilted toward one small branching bare twig lying beside its paws; no leaves, no plant pot. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 36,
+    "filename": "art-36.png",
+    "subject": "A white fluffy cat seated holding a single small blank folded ivory card gently between its front paws; the card has no symbols or markings.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A white fluffy cat seated holding a single small blank folded ivory card gently between its front paws; the card has no symbols or markings. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 37,
+    "filename": "art-37.png",
+    "subject": "A ginger tabby cat peering over a compact row of three different small wooden geometric solids: one cube, one sphere and one cone; all three are distinct and clearly visible.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A ginger tabby cat peering over a compact row of three different small wooden geometric solids: one cube, one sphere and one cone; all three are distinct and clearly visible. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 38,
+    "filename": "art-38.png",
+    "subject": "A grey tabby cat lying comfortably with four paws visible, resting its chin beside a single closed ochre book with a completely blank cover and spine.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A grey tabby cat lying comfortably with four paws visible, resting its chin beside a single closed ochre book with a completely blank cover and spine. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 39,
+    "filename": "art-39.png",
+    "subject": "A white fluffy cat seated with one front paw resting gently on one pan of a small brass balance scale; show the entire compact scale with two pans and the whole cat.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A white fluffy cat seated with one front paw resting gently on one pan of a small brass balance scale; show the entire compact scale with two pans and the whole cat. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 40,
+    "filename": "art-40.png",
+    "subject": "A ginger tabby cat lying with its front paws beside two muted-teal ribbons tied together in a small visible knot; exactly two ribbons, no extra objects.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A ginger tabby cat lying with its front paws beside two muted-teal ribbons tied together in a small visible knot; exactly two ribbons, no extra objects. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  {
+    "id": 41,
+    "filename": "art-41.png",
+    "subject": "A grey tabby cat sitting behind one small freestanding empty wooden rectangular frame, looking through its open center; the cat's whole body and all paws remain visible around or below the frame.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A grey tabby cat sitting behind one small freestanding empty wooden rectangular frame, looking through its open center; the cat's whole body and all paws remain visible around or below the frame. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen",
+    "retry_prompt": "Use case: illustration-story. Asset type: new transparent book ornament. Use the supplied cover as a STYLE reference ONLY: warm delicate watercolor, fine ink detail, soft realistic grey-tabby fur and green eyes. A single grey tabby cat sits compactly to the LEFT of a small freestanding EMPTY wooden rectangular frame on the right. The cat turns its head so that its face peeks sideways through the open center of the frame. Entire cat visible: exactly TWO FRONT PAWS together side by side at the front, and TWO HIND PAWS positioned naturally at the cat's rear sides. Exactly four paws total, no raised paw, no duplicated limb. Full tail curls beside the body, both ears visible. Whole simple wooden frame visible with its plain little supports. Cat plus empty frame only, no books or furniture. Compact close composition on a square canvas with transparent margin on all sides; no part cut off. Genuine transparent alpha background, no floor, shadows, scenery, paper patch, texture rectangle, text, numbers, symbols or formulas."
+  },
+  {
+    "id": 42,
+    "filename": "art-42.png",
+    "subject": "A white fluffy cat curled compactly beside one small brass drawing compass and one simple wooden pencil; four paws identifiable, ears and tail visible.",
+    "prompt": "Use case: illustration-story. Asset type: unique decorative cutout illustration for a mathematics book. Input image is STYLE REFERENCE ONLY: match the supplied cover's warm watercolor washes, very fine ink details, soft realistic storybook cat anatomy, delicate fur, gentle golden warmth and muted navy/teal/ochre palette. Create a NEW distinct composition, not a crop or copy of the cover. Subject: A white fluffy cat curled compactly beside one small brass drawing compass and one simple wooden pencil; four paws identifiable, ears and tail visible. Composition: close compact grouping filling most of a square image, generous safe transparent margin, entire cat including ears, tail and all four paws within frame, entire prop within frame; no cropping or duplicated limbs. Only this one cat and the named prop(s). Actual transparent alpha background; no scenery, room, floor, furniture, ground shadow, background color, paper texture rectangle, watercolor background patch, border or vignette. No text, letters, numbers, formulas, symbols or watermark. Elegant detailed watercolor and fine ink, sufficiently large and crisp for printed page ornaments. No invented extra objects.",
+    "reference": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+    "reference_role": "style_only",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  }
+]
