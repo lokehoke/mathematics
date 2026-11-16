@@ -1,0 +1,9 @@
+{
+  "art": 148,
+  "subject": "A white kitten follows a curved narrow teal ribbon rising over a small smooth wooden hill.",
+  "prompt": "Use case: illustration-story. Asset: large transparent watercolor kitten cutout inside a Russian mathematics textbook. ONE natural full-body kitten and the named props only. Warm luminous detailed watercolor and fine ink, realistic anatomy and soft fur, gentle expressive face. Cream, navy, muted teal and ochre palette, cozy elegant book style. Entire ears paws and tail visible, compact subject with minimal transparent padding. True transparent alpha background with zero alpha everywhere outside kitten and props. No floor, scenery, room, background wash, paper rectangle, shadow patch, text, symbols, letters, numbers or watermark. Subject: A white kitten follows a curved narrow teal ribbon rising over a small smooth wooden hill.",
+  "path": "sources/book/images/unique/art-148.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-d9c7f9bb-d3ca-42d7-b84a-822d01ccf5c3.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

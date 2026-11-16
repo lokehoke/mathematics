@@ -1,0 +1,9 @@
+{
+  "art": 299,
+  "subject": "A calico kitten sorting three delicate porcelain counting bowls, one paw lifted.",
+  "prompt": "One unique transparent watercolor illustration for an elegant mathematics textbook. A calico kitten sorting three delicate porcelain counting bowls, one paw lifted. Refined detailed hand-painted watercolor with fine pencil/ink details, soft fur and gentle expressive eyes. Match a cream, deep navy, muted teal, warm ochre palette. One complete anatomically believable kitten, complete prop, compact centered composition filling most of image. Real transparent alpha background, no background scene or floor, no text, no numbers, no equations, no logos or border. Every kitten illustration must be new and distinct.",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-f3bfed50-17ee-4d4b-b019-683464e93c23.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true,
+  "path": "sources/book/images/unique/art-299.png"
+}

@@ -1,0 +1,9 @@
+{
+  "art": 262,
+  "subject": "A ginger kitten sitting with one paw touching two large interlocking wooden jigsaw puzzle pieces, one navy and one muted teal, with ochre edges.",
+  "prompt": "Use case: illustration-story. One new large full-body watercolor kitten cutout for a mathematics textbook. Detailed warm luminous watercolor and fine ink, realistic anatomy and soft fur, gentle expressive face. Cream navy muted teal ochre cover palette. Entire ears paws tail and named props visible. Compact composition, minimal transparent padding. Truly transparent alpha outside kitten and props. No floor scenery room background wash paper rectangle shadow patch text letters numbers symbols watermark. Subject: A ginger kitten sitting with one paw touching two large interlocking wooden jigsaw puzzle pieces, one navy and one muted teal, with ochre edges.",
+  "path": "sources/book/images/unique/art-262.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-e8d87fc7-7c9d-4e4b-b0a7-cf9ef9899503.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

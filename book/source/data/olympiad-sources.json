@@ -1,0 +1,102 @@
+{
+  "mmo-early": {
+    "contest": "mmo",
+    "source_contest": "Московская математическая олимпиада",
+    "source_url": "https://mmo.mccme.ru/books/mmo-35-57.pdf"
+  },
+  "imo-1959": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1959/1959_eng.pdf"
+  },
+  "imo-1960": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1960/1960_eng.pdf"
+  },
+  "imo-1961": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1961/1961_eng.pdf"
+  },
+  "imo-1962": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1962/1962_eng.pdf"
+  },
+  "imo-1963": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1963/1963_eng.pdf"
+  },
+  "imo-1964": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1964/1964_eng.pdf"
+  },
+  "imo-1965": {
+    "contest": "IMO",
+    "source_contest": "IMO",
+    "source_url": "https://www.imo-official.org/assets/documents/problems/1965/1965_eng.pdf"
+  },
+  "apmo-1989": {
+    "contest": "APMO",
+    "source_contest": "APMO",
+    "source_url": "https://www.apmo-official.org/static/problems/apmo1989_prb.pdf"
+  },
+  "apmo-1991": {
+    "contest": "APMO",
+    "source_contest": "APMO",
+    "source_url": "https://www.apmo-official.org/static/problems/apmo1991_prb.pdf"
+  },
+  "apmo-1992": {
+    "contest": "APMO",
+    "source_contest": "APMO",
+    "source_url": "https://www.apmo-official.org/static/problems/apmo1992_prb.pdf"
+  },
+  "mos-prob-2023-24": {
+    "contest": "mos_probability",
+    "source_contest": "Московская олимпиада по вероятности и статистике",
+    "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xvii_olimpiada._2023-24._resheniya.pdf"
+  },
+  "imc-1994": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1994/prob_sol.pdf"
+  },
+  "imc-1995": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1995/prob_sol.pdf"
+  },
+  "imc-1996": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1996/prob_sol.pdf"
+  },
+  "imc-1997-d1": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1997/prob_sol1.pdf"
+  },
+  "imc-1998-d1": {
+    "contest": "imc",
+    "source_contest": "imc",
+    "source_url": "https://www.imc-math.org.uk/imc1998/prob_sol1.pdf"
+  },
+  "msu-algebra-2006": {
+    "contest": "msu-algebra",
+    "source_contest": "msu-algebra",
+    "source_url": "http://halgebra.math.msu.su/Olympiad/2006/solutions-06.pdf"
+  },
+  "putnam-2018": {
+    "contest": "putnam-maa",
+    "source_contest": "putnam-maa",
+    "source_url": "https://maa.org/wp-content/uploads/2024/10/2018PutnamProblemsSolutions.pdf"
+  },
+  "mos-prob-2024-25": {
+    "contest": "mos_probability",
+    "source_contest": "Московская олимпиада по вероятности и статистике",
+    "source_url": "https://ptlab.mccme.ru/sites/ptlab.mccme.ru/files/zaochnaya_internet-olimpiada._xviii_olimpiada._2024-25._resheniya.pdf"
+  }
+}

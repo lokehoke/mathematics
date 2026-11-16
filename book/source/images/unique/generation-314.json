@@ -1,0 +1,9 @@
+{
+  "art": 314,
+  "subject": "A white kitten gently unrolling a spiral of blank ochre paper, viewed from a low three-quarter angle.",
+  "prompt": "One unique transparent watercolor illustration for an elegant mathematics textbook. A white kitten gently unrolling a spiral of blank ochre paper, viewed from a low three-quarter angle. Refined detailed hand-painted watercolor with fine pencil/ink details, soft fur and gentle expressive eyes. Match a cream, deep navy, muted teal, warm ochre palette. One complete anatomically believable kitten, complete prop, compact centered composition filling most of image. Real transparent alpha background, no background scene or floor, no text, no numbers, no equations, no logos or border. Every kitten illustration must be new and distinct.",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-15d3f164-cd02-4113-b153-a9279b7b0fdc.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true,
+  "path": "sources/book/images/unique/art-314.png"
+}
