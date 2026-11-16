@@ -1,0 +1,251 @@
+\chapter{Делимость, простые числа, НОД и НОК}\label{chap:c02}\markright{Глава 10}
+\section{Делимость и кратность}
+
+\begin{definition}
+\term{Делимость нацело} (\emph{divisibility}): целое число \(b\) делится на целое число \(a\ne0\),
+если существует целое число \(k\), для которого
+\[
+b=ak.
+\]
+При этом \(a\) называют \term{делителем} (\emph{divisor}) числа \(b\).
+\end{definition}
+
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[11]{r}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-07.png}
+\label{catflow:7}
+\end{wrapfigure}
+Запись с тремя вертикальными точками \(b\mathrel{\vdots}a\) читается:
+«\(b\) делится на \(a\) нацело».
+В университетских курсах также используют запись \(a\mid b\): «\(a\) делит \(b\)».
+Порядок чисел в этих двух обозначениях противоположен:
+\[
+12\mathrel{\vdots}4\quad\Longleftrightarrow\quad4\mid12,
+\qquad 12=4\cdot3.
+\]
+Здесь знак \(\Longleftrightarrow\) означает, что записи выражают одно и то же утверждение.
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+\begin{definition}
+\term{Кратное} (\emph{multiple}) числа \(a\ne0\) --- целое число \(b\), которое можно представить как \(b=ak\)
+с целым \(k\). Иначе говоря, \(b\) кратно \(a\), если \(b\mathrel{\vdots}a\).
+\end{definition}
+
+Например, положительные кратные числа \(4\): \(4,8,12,16,\ldots\).
+Ноль также кратен любому ненулевому целому числу: \(0=a\cdot0\).
+В задачах на НОК рассматриваются только \emph{положительные} общие кратные.
+
+\section{Простые и составные числа}
+
+\begin{definition}
+\term{Простое число} (\emph{prime number}) --- натуральное число, имеющее ровно два положительных делителя:
+\(1\) и само это число.
+\end{definition}
+
+\begin{definition}
+\term{Составное число} (\emph{composite number}) --- натуральное число больше \(1\), имеющее положительный делитель,
+отличный от \(1\) и от самого числа.
+\end{definition}
+
+Число \(7\) простое: его положительные делители --- \(1\) и \(7\).
+Число \(9\) составное: кроме \(1\) и \(9\), оно делится на \(3\).
+Число \(1\) не является ни простым, ни составным.
+Число \(2\) --- единственное чётное простое число.
+
+\section{Наибольший общий делитель и наименьшее общее кратное}
+
+\begin{definition}
+\term{Наибольший общий делитель} (\emph{greatest common divisor, gcd}) положительных целых чисел \(a\) и \(b\) ---
+наибольшее положительное целое число, на которое оба числа делятся нацело.
+Обозначения: \(\text{НОД}(a,b)\) и \(\gcd(a,b)\).
+Английское название --- \emph{greatest common divisor}, сокращённо \emph{gcd}.
+\end{definition}
+
+Общие положительные делители чисел \(12\) и \(18\) --- \(1,2,3,6\), поэтому
+\[
+\text{НОД}(12,18)=\gcd(12,18)=6.
+\]
+
+\begin{definition}
+\term{Наименьшее общее кратное} (\emph{least common multiple, lcm}) положительных целых чисел \(a\) и \(b\) ---
+наименьшее положительное целое число, которое делится нацело и на \(a\), и на \(b\).
+Обозначения: \(\text{НОК}(a,b)\) и \(\operatorname{lcm}(a,b)\).
+Английское название --- \emph{least common multiple}, сокращённо \emph{lcm}.
+\end{definition}
+
+Положительные общие кратные чисел \(12\) и \(18\) --- \(36,72,108,\ldots\), поэтому
+\[
+\text{НОК}(12,18)=\operatorname{lcm}(12,18)=36.
+\]
+
+\begin{definition}
+\term{Взаимно простые числа} (\emph{coprime integers}) --- положительные целые числа, НОД которых равен \(1\).
+\end{definition}
+Например, \(8\) и \(15\) взаимно просты, хотя оба числа составные.
+
+\section{Основная теорема арифметики (ОТА)}
+
+\begin{theorem}[Предварительная лемма Евклида и Безу]\label{thm:bezout-preview}
+Для положительных целых \(a,b\) существуют целые \(u,v\), для которых \(ua+vb=\gcd(a,b)\).
+\end{theorem}
+\begin{proof}Разделим \(a\) на \(b\) с остатком: \(a=qb+r\), где \(0\le r<b\). Делитель обоих чисел \(a,b\) делит \(r=a-qb\), и обратно, общий делитель \(b,r\) делит \(a\). Поэтому пары \((a,b)\) и \((b,r)\) имеют одни и те же общие делители. Повторяем деление: ненулевые остатки строго уменьшаются, значит процесс заканчивается. Последний ненулевой делитель \(d\) (при первом делении без остатка это \(b\)) делит предыдущий, затем по равенствам деления и все более ранние, в том числе \(a,b\). Любой их общий делитель делит \(d\), поэтому \(d=\gcd(a,b)\). Каждый остаток есть целочисленная комбинация двух предыдущих; подставляя равенства в обратном порядке, выражаем \(d\) как \(ua+vb\). Например, \(30=18+12\), \(18=12+6\), \(12=2\cdot6\), откуда \(6=18-(30-18)=2\cdot18-30\).\end{proof}
+
+\begin{theorem}\label{thm:legacy-c02-1}
+Каждое натуральное число больше \(1\) можно представить произведением простых чисел.
+Такое разложение единственно с точностью до перестановки множителей.
+\end{theorem}
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[13]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-06.png}
+\label{catflow:6}
+\end{wrapfigure}
+\textit{Доказательство.} Существование докажем индукцией по числу: простое число уже разложено; составное имеет вид \(ab\), где \(1<a,b<n\), и к обоим множителям применяется предположение индукции. Для единственности используем следующий факт: если простое \(p\) делит \(ab\), то оно делит \(a\) или \(b\). Если \(p\nmid a\), то \(\gcd(p,a)=1\); обратная подстановка в алгоритме Евклида даёт целые \(u,v\) с \(up+va=1\). Умножение на \(b\) показывает, что \(p\mid b\). Теперь первый простой множитель одного разложения обязан совпасть с одним из множителей другого; сократим его и повторим. Все множители совпадут с точностью до порядка.\hfill\(\blacksquare\)
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+
+Например,
+\[
+60=2\cdot2\cdot3\cdot5=2^2\cdot3\cdot5.
+\]
+Множители \(2,3,5\) простые; запись \(60=4\cdot15\) ещё не является разложением на простые множители.
+
+\section{Вычисление НОД и НОК по разложению}
+
+Разложите каждое число на простые множители, объединив повторения в степени.
+Для НОД возьмите только общие простые множители в \emph{меньших} степенях.
+Для НОК возьмите все встречающиеся простые множители в \emph{больших} степенях.
+Если общих простых множителей нет, НОД равен \(1\).
+
+Например,
+\[
+12=2^2\cdot3,\qquad18=2\cdot3^2,
+\]
+\[
+\gcd(12,18)=2\cdot3=6,\qquad
+\operatorname{lcm}(12,18)=2^2\cdot3^2=36.
+\]
+Для нескольких положительных чисел правило такое же:
+в НОД входят множители, общие \emph{всем} числам, с наименьшими показателями;
+в НОК --- все встретившиеся множители с наибольшими показателями.
+
+\begin{theorem}\label{thm:legacy-c02-2}
+Для любых положительных целых чисел \(a,b\)
+\[
+\gcd(a,b)\operatorname{lcm}(a,b)=ab.
+\]
+\end{theorem}
+\begin{proof}Для каждого простого множителя обозначим его показатели в \(a,b\) через \(\alpha,\beta\), допуская показатель \(0\). В НОД его показатель \(\min(\alpha,\beta)\), в НОК — \(\max(\alpha,\beta)\). Их сумма равна \(\alpha+\beta\), то есть показателю того же простого в \(ab\). По единственности разложения произведения равны.\end{proof}
+Это равенство относится к двум числам; напрямую переносить его на три числа нельзя.
+
+\section{Алгоритм Евклида}
+
+Для нахождения НОД можно последовательно делить с остатком,
+каждый раз заменяя пару «делимое, делитель» парой «делитель, остаток».
+Когда остаток стал нулём, НОД равен последнему ненулевому делителю.
+Например,
+\[
+48=2\cdot18+12,\qquad
+18=1\cdot12+6,\qquad
+12=2\cdot6+0,
+\]
+поэтому \(\gcd(48,18)=6\).
+
+\section{Признаки делимости}
+
+В десятичной записи натурального числа действуют следующие признаки.
+Каждый из них даёт необходимое и достаточное условие: число делится на указанный делитель
+\emph{тогда и только тогда}, когда выполнена соответствующая проверка.
+
+\begin{itemize}[leftmargin=1.5em,itemsep=4pt]
+\item \textbf{На \(2\):} последняя цифра --- \(0,2,4,6\) или \(8\).
+\item \textbf{На \(3\):} сумма цифр делится на \(3\).
+\item \textbf{На \(4\):} число, образованное двумя последними цифрами, делится на \(4\).
+\item \textbf{На \(5\):} последняя цифра --- \(0\) или \(5\).
+\item \textbf{На \(6\):} число делится одновременно на \(2\) и на \(3\).
+\item \textbf{На \(8\):} число, образованное тремя последними цифрами, делится на \(8\).
+\item \textbf{На \(9\):} сумма цифр делится на \(9\).
+\item \textbf{На \(10\):} последняя цифра --- \(0\).
+\end{itemize}
+
+Если число содержит меньше двух или трёх цифр, в признаках на \(4\) и \(8\) проверяют само число.
+Например, \(123\mathrel{\vdots}3\), поскольку \(1+2+3=6\),
+но \(123\) не делится на \(9\), поскольку \(6\) не делится на \(9\).
+\section{Пример: алгоритм Евклида и НОК}
+\begin{example}Для чисел \(252\) и \(198\) выполняем деления: \(252=198+54\), \(198=3\cdot54+36\), \(54=36+18\), \(36=2\cdot18\). Последний ненулевой остаток \(18\) --- НОД. Так как \(ab=\gcd(a,b)\operatorname{lcm}(a,b)\) для положительных целых, НОК равен \(\frac{252\cdot198}{18}=2772\). Проверяем: \(2772=11\cdot252=14\cdot198\).\end{example}
+\Needspace{7\baselineskip}\section*{Задачи}
+\begingroup\setlength{\parskip}{2pt}
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.1.} Выпиши все положительные делители \(36\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.2.} Выпиши все положительные делители \(48\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.3.} Найди общие положительные делители \(20\) и \(30\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.4.} Выпиши кратные \(7\) между \(20\) и \(60\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.5.} Найди наименьшее трёхзначное число, кратное \(8\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.6.} Раздели на простые и составные: \(17,\allowbreak 25,\allowbreak 31,\allowbreak 39,\allowbreak 49,\allowbreak 51,\allowbreak 53\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.7.} Выпиши простые числа от \(20\) до \(40\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.8.} Может ли простое число оканчиваться на \(0\)? Объясни.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.9.} Любое ли нечётное число простое? Приведи контрпример.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.10.} Какие числа делятся на \(3\), а какие на \(9\): \(126,\allowbreak 234,\allowbreak 405,\allowbreak 517,\allowbreak 702\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.11.} Какие числа делятся на \(2\) и на \(5\) одновременно: \(125,\allowbreak 230,\allowbreak 342,\allowbreak 480,\allowbreak 705\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.12.} Какие цифры можно поставить вместо \(\square \) в \(43 \square \), чтобы число делилось на \(3\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.13.} Какая цифра вместо \(\square \) в \(7 \square  2\) даёт делимость на \(9\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.14.} Какие цифры вместо \(\square \) в \(12 \square \) дают делимость на \(2\) и на \(3\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.15.} Разложи \(72\) на простые множители.\par\end{minipage}\par
+\par\addvspace{5pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{5pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-08.png}
+\label{catflow:8}
+\end{wrapfigure}
+\textbf{10.16.} Разложи \(150\) на простые множители.\par
+
+\textbf{10.17.} Разложи \(252\) на простые множители.\par
+
+\textbf{10.18.} Заверши разложение \(90 = 2 \cdot  5 \cdot  9\) на простые множители.\par
+
+\textbf{10.19.} Найди НОД и НОК чисел \(24\) и \(36\).\par
+
+\textbf{10.20.} Найди НОД и НОК чисел \(18\) и \(45\).\par
+
+\textbf{10.21.} Найди НОД и НОК чисел \(8\) и \(15\).\par
+
+\textbf{10.22.} Найди НОД и НОК чисел \(12,\allowbreak 18\) и \(30\).\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<64mm\dp\CatFlowBox=\dimexpr64mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{5pt}
+
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.23.} Из \(24\) карандашей и \(36\) ручек собери максимум одинаковых наборов, использовав всё. Сколько наборов и что в каждом?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.24.} Автобусы отправились вместе в 9:00. Интервалы отправления: \(12\) и \(18\) минут. Когда следующее совместное отправление?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.25.} Прямоугольник \(60 \times  84\) см разрежь без остатка на одинаковые квадраты наибольшей стороны. Найди сторону и число квадратов.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.26.} Выпиши все положительные делители \(24\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.27.} Выпиши первые пять положительных кратных \(6\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.28.} Какие из чисел \(1,\allowbreak 2,\allowbreak 9,\allowbreak 13,\allowbreak 21,\allowbreak 29\) простые?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.29.} На какие числа из списка \(2,\allowbreak 3,\allowbreak 5,\allowbreak 9,\allowbreak 10\) делится \(450\)?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.30.} Разложи \(84\) на простые множители.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.31.} Найди НОД и НОК чисел \(12\) и \(18\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.32.} Для праздника есть \(42\) яблока и \(56\) мандаринов. Их нужно разложить без остатка в максимальное число одинаковых подарков. Сколько подарков получится и что будет в каждом?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.33.} Два индикатора загорелись одновременно. Один загорается каждые \(8\) секунд, другой каждые \(12\) секунд. Через сколько секунд они впервые снова загорятся вместе?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.34.} В коробке \(97\) деталей. Можно ли разложить их в одинаковые группы больше одной детали, получив больше одной группы, без остатка?\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.35.}\starmark{} Найди наименьшее натуральное число, которое при делении на \(6,\allowbreak 8\) и \(9\) даёт остаток \(1\) и при этом больше \(1\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.36.}\starmark{} НОД двух положительных целых чисел равен \(6\), НОК равен \(180\). Одно число \(30\). Найди второе.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.37.}\starmark{} Найди все цифры \(a\) и \(b\), чтобы четырёхзначное число \(\overline{3a5b}\) делилось на \(5\) и на \(9\).\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.38.} Пусть \(a>b>0\) --- целые числа. Докажи равенство \(\gcd(a,b)=\gcd(b,a-b)\), показав, что пары имеют одни и те же положительные общие делители.\par\end{minipage}\par
+\noindent\begin{minipage}[t]{\linewidth}\textbf{10.39.} Пусть \(p\) --- простое число, \(a,b\) --- положительные целые числа. Используя основную теорему арифметики, докажи: если \(p\mid ab\), то \(p\mid a\) или \(p\mid b\).\par\end{minipage}\par
+\par\Needspace{12\baselineskip}\section*{Олимпиадные задачи}
+\par\addvspace{2pt}\begin{lrbox}{\CatFlowBox}\begin{minipage}[t]{\linewidth}
+\setlength{\parskip}{2pt}\setlength{\columnsep}{4.5mm}\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[12]{l}{54mm}
+\includegraphics[width=54mm,height=58mm,keepaspectratio]{images/unique/art-297.png}
+\label{catflow:297}
+\end{wrapfigure}
+\textbf{10.40.} {\small\itshape\href{https://www.imo-official.org/assets/documents/problems/1959/1959_eng.pdf}{IMO, 1959, № 1}; перевод.}\par Докажи несократимость дроби \(\dfrac{21n+4}{14n+3}\) при каждом натуральном \(n\).\par
+
+\textbf{10.41.} {\small\itshape\href{https://mmo.mccme.ru/books/mmo-35-57.pdf}{ММО, 1940, I тур, 7–8 классы, № 3}; редакция условия.}\par Сколькими нулями оканчивается десятичная запись \(100!=1\cdot2\cdots100\)?\par
+\par\WFclear\end{minipage}\end{lrbox}%
+\ifdim\dimexpr\ht\CatFlowBox+\dp\CatFlowBox\relax<58mm\dp\CatFlowBox=\dimexpr58mm-\ht\CatFlowBox\relax\fi%
+\noindent\usebox{\CatFlowBox}\par\addvspace{2pt}
+
+\endgroup

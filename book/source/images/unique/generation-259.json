@@ -1,0 +1,9 @@
+{
+  "art": 259,
+  "subject": "A soft black kitten with a white chin looking at two separate small interlocking brass gears on a compact teal wooden stand.",
+  "prompt": "Use case: illustration-story. Asset: one new large transparent watercolor kitten cutout inside a Russian mathematics textbook. Warm luminous detailed watercolor and fine ink, realistic anatomy, soft fur and expressive eyes, cream navy muted teal and ochre cover palette. Entire ears paws tail visible, compact composition with minimal transparent padding. True transparent alpha background outside kitten and props. No floor scenery room background wash paper rectangle shadow patch text letters numbers symbols watermark. Subject: A soft black kitten with a white chin looking at two separate small interlocking brass gears on a compact teal wooden stand.",
+  "path": "sources/book/images/unique/art-259.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-5cd68df3-b9a0-4cb2-8c49-118aa0361245.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

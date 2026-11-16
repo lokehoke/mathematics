@@ -1,0 +1,11 @@
+*
+!.gitignore
+!/assemble_book.py
+!/build_book.py
+!/exam_style.py
+!/integrate_deep_review.py
+!/make_symbols.py
+!/publish_book.py
+!/restore_pdf_destinations.py
+!/restructure_book.py
+!/verify_book_layout.py

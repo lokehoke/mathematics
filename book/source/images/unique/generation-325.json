@@ -1,0 +1,9 @@
+{
+  "art": 325,
+  "subject": "A silver-gray kitten peering into a small brass kaleidoscope held between its paws.",
+  "prompt": "One unique transparent watercolor illustration for an elegant mathematics textbook. A silver-gray kitten peering into a small brass kaleidoscope held between its paws. Refined detailed hand-painted watercolor with fine pencil/ink details, soft fur and gentle expressive eyes. Match a cream, deep navy, muted teal, warm ochre palette. One complete anatomically believable kitten, complete prop, compact centered composition filling most of image. Real transparent alpha background, no background scene or floor, no text, no numbers, no equations, no logos or border. Every kitten illustration must be new and distinct.",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-be47ea1b-0eb7-49d2-b528-3465f041b434.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true,
+  "path": "sources/book/images/unique/art-325.png"
+}
