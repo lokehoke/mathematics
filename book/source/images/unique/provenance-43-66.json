@@ -1,0 +1,556 @@
+{
+  "assets": [
+    {
+      "art": 43,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-167d14bd-691a-4876-8caf-f6b80d344d96.png",
+      "path": "sources/book/images/unique/art-43.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "1a8e05db6a5920d3b4a1fee7eb69ec85c0d4b1843cebb3659302620d9db56bb8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 44,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-e35e8a1e-4512-4a0d-9250-60b15c6aeb20.png",
+      "path": "sources/book/images/unique/art-44.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "ce287d45a8a5eb388eab03ae616c2e33b2fa674146da0ab0f683b8b0c4127166",
+      "dimensions": [
+        1149,
+        1369
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1149,
+      "height": 1369,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 45,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-1c2001f1-9748-41e9-9cdd-97212463e343.png",
+      "path": "sources/book/images/unique/art-45.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "8752a758f84efe87a152b1f46ff574156464a167fd4f0dfaab2a323972eb056a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 46,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-cd20cdd1-81c2-430c-9014-485849b2acbc.png",
+      "path": "sources/book/images/unique/art-46.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "8e5308e291418b6a8c4d2786ee817e8b224ceafd89eb9db9a863419e481a018b",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 47,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-40a29298-7867-45ed-958e-0f35de78fd96.png",
+      "path": "sources/book/images/unique/art-47.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "33533b76d96dcdb214ed0fbf763efad28dd4c6e896aa7fd9bf467a62ce8c5f98",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 48,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-4942d68e-c083-45ba-8a55-a178fc9d225d.png",
+      "path": "sources/book/images/unique/art-48.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "27ef7b3b4d0d56f0cfab386e0de2ddd808bfb6ad6c1bf7757c1b18a44e2dd4f8",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 49,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-6837e1c1-40d6-4770-aab0-12823cbc2712.png",
+      "path": "sources/book/images/unique/art-49.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "02fa095fc99733015c08779760842aea348ea0ff6d4b7e12511f128f46c82fb2",
+      "dimensions": [
+        1374,
+        1145
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1374,
+      "height": 1145,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 50,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-a80eff6b-c22a-40c1-bb24-eb0e25cf8402.png",
+      "path": "sources/book/images/unique/art-50.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "58f955c587e42047a3e5e76db0fb02a298a1dea20b53aa2f2d4e0500815bd3a2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 51,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-7d7a871c-be08-453c-905c-d7ea47764896.png",
+      "path": "sources/book/images/unique/art-51.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "b1daad82a74e1babc7d9d27e5fb25bedcaab74bfa6a362fd2ce55cc5432c4932",
+      "dimensions": [
+        1375,
+        1144
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1375,
+      "height": 1144,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 52,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-44de9788-3988-429a-b289-1f814b0a335e.png",
+      "path": "sources/book/images/unique/art-52.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "d128a4b4a4757bdd476aeaf05de892a67be144ca1becbc7ab8c0caee27bc0625",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "width": 1024,
+      "height": 1536,
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 53,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-baa2c18d-edf1-4481-93f6-a45bf9068fbd.png",
+      "path": "sources/book/images/unique/art-53.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "e690299623684f011059395a393aeead9cd1aa6c6c138c9b02a28b44880a78e4",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1145,
+      "height": 1374,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 54,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-ac1ef78b-f976-460a-b073-ba460414af33.png",
+      "path": "sources/book/images/unique/art-54.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "4e314f35579310469f7a82ef8d87b62b3c1ac48932c64f100d4d9e16487a45f4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 55,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-472b6c02-24d6-4f24-a701-e25b1ef39947.png",
+      "path": "sources/book/images/unique/art-55.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "11da739a3d3e4427d46e4a726a33267c5daae5753c488851a118c88714a6325d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 56,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-94fbb68a-70bb-486d-a027-30ad72ea5dc3.png",
+      "path": "sources/book/images/unique/art-56.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "dbdf9887da7b8767b185b2988606b0bb0c1a584c134a1c50ccf67b338ab25b7f",
+      "dimensions": [
+        1245,
+        1263
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1245,
+      "height": 1263,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 57,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-f3f5266e-ea5d-4aec-82fe-0d7c73ac506c.png",
+      "path": "sources/book/images/unique/art-57.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "a85abc2c4f633865426a2600e7507eb37d86dfdf723d1b9b3c05b18125325447",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 58,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-c890e6ff-ebd2-4de9-bec9-bdb203dc6ba9.png",
+      "path": "sources/book/images/unique/art-58.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "7bbdbd2a0c89bead9ef615a99e5401bd41f13846328f2f0af91c61765bafef4f",
+      "dimensions": [
+        1186,
+        1327
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1186,
+      "height": 1327,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 59,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-f3aa262f-fb2f-49dd-bf58-7cfbdf4e7238.png",
+      "path": "sources/book/images/unique/art-59.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "d77e827eab8076400a126edd0f9f18d531be1b74c4dbf3d9ba924fa0405b1299",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1145,
+      "height": 1374,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 60,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-6ccab079-ba3e-47f0-bab7-78baa26b891e.png",
+      "path": "sources/book/images/unique/art-60.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "d1c0d16906c4bba37d5773f9c3403358f989ec9713b0105480d501f2267af7a2",
+      "dimensions": [
+        1374,
+        1145
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1374,
+      "height": 1145,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 61,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-36caaa74-17a2-45dc-9c48-5c38cd8a559f.png",
+      "path": "sources/book/images/unique/art-61.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "9662752fe5184a311190373cf1ae976760dea2e29475d040a7b8a73bf6685f93",
+      "dimensions": [
+        1218,
+        1291
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1218,
+      "height": 1291,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 62,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-05d1cb34-6370-4640-a30d-c69826f7d264.png",
+      "path": "sources/book/images/unique/art-62.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "81b2c708cd9a15f86541aa748eb3a25376e8a63a3bc399f54a8038786c0842b7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ]
+    },
+    {
+      "art": 63,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-5c5358f2-10e2-4952-b423-9870ac8c37a5.png",
+      "path": "sources/book/images/unique/art-63.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "39b973e1a1939fb05d77c522e962555992175bbb7d26f54cd84b98f715e2b230",
+      "dimensions": [
+        1225,
+        1284
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1225,
+      "height": 1284,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 64,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-af1d6065-19ce-4e02-8833-4cfcdf37ff03.png",
+      "path": "sources/book/images/unique/art-64.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "c2460ceb957001fc566580e8ec1317c233039f80be17df358ad7aff5e3f29cc4",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1312,
+      "height": 1199,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 65,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-cfe78cf1-bc5d-466c-b55f-c08e0e7a6ca6.png",
+      "path": "sources/book/images/unique/art-65.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "8a98f5fb58385b380846837f6d7c4ef655fb61e8cb6960d00106c524de4f8952",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "width": 1199,
+      "height": 1312,
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "art": 66,
+      "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-7e3ac396-786b-4284-a3f5-266db923a4e6.png",
+      "path": "sources/book/images/unique/art-66.png",
+      "tool": "builtin image_gen",
+      "transparent_background": true,
+      "sha256": "340d832e407fa335de1310b13f82081fb44dfd5deafde20f89f00b75e3bb98ef",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alpha_range": [
+        0,
+        254
+      ]
+    }
+  ]
+}

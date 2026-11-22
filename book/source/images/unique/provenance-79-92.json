@@ -1,0 +1,268 @@
+[
+  {
+    "art": 79,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A ginger kitten sits beside a small wooden cube puzzle with three chunky ochre and teal pieces, gently lifting one piece with a forepaw.",
+    "path": "sources/book/images/unique/art-79.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-e26b2064-460b-441e-ad39-b07dd827bf5a.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "bc6831394efdc0dce55a168ea6f96881f0665576b2482700177f665a7b64f7a0",
+    "dimensions": [
+      1224,
+      1285
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 80,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A white fluffy kitten crouches beside four plain rectangular wooden tiles arranged loosely as a rectangle, nudging the nearest tile with one paw.",
+    "path": "sources/book/images/unique/art-80.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-124d0f92-49f0-4901-b612-f991b9f522c0.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "900544e08d42256444f6991d8f61b38e8015b52e19376cf17bd915c72270d024",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 81,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A gray tabby kitten reclines holding two linked smooth wooden rings between its front paws, head tilted curiously.",
+    "path": "sources/book/images/unique/art-81.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-a18e12d9-49c2-41f3-9d0f-9c0088f6a882.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "4f7fecaddc5fab3489969881df8a0e24a26d9b5bc8972e4f044c25230e39ca6a",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 82,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A ginger kitten stands beside a tiny wooden toy with two plain brass levers on a navy base, reaching toward one lever.",
+    "path": "sources/book/images/unique/art-82.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-0d35465d-f646-44da-9722-c61a5ee434ec.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "0ec6150c5597ef783eedbb356f8bf5e1a43839aea3baf2cd8f7c4fff1132f2bf",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 83,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A white kitten sits and carefully studies a single loose overhand knot in a broad ochre ribbon laid between its front paws.",
+    "path": "sources/book/images/unique/art-83.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-aaadf072-32e0-42b6-af9d-587f45ec7344.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "58fd20bdf52f84bcfcf6a6c18c6ebce5f0294bcff1ee6d486a77b96128599ea5",
+    "dimensions": [
+      1211,
+      1299
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 84,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A gray kitten lies curled beside a pair of small navy and ochre horseshoe magnets, with its full tail visible. No markings on magnets.",
+    "path": "sources/book/images/unique/art-84.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-ad047e15-12f0-4cf9-8b4c-55c2f4c21989.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "4be0fe0c6a1935874c11a2fcac95d7c479515381ef79fe9c9928762f44e423b8",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 85,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A ginger kitten sits upright beside a small freestanding wooden gyroscope with three slender ochre and teal rings, touching one ring gently.",
+    "path": "sources/book/images/unique/art-85.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-4e1e51c3-ce5c-4d46-a965-c1cea092221a.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "b5c8db9502e607f47be02902d65ac38803d4591ff39754fcef2d7af17f76a1fa",
+    "dimensions": [
+      1295,
+      1214
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 86,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A white kitten lies on its belly and holds a tiny brass armillary sphere on a plain navy stand, watching the circular rings.",
+    "path": "sources/book/images/unique/art-86.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-1ec83ce8-45db-4d82-a91b-badf1374c5ef.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "76a8fd3f8397866230f4bd326eda238fd613589e91b7b2522c1e47d35551af72",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 87,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A gray tabby kitten stands on all four paws beside a wooden toy propeller with three broad teal blades on a short ochre pedestal, tail raised.",
+    "path": "sources/book/images/unique/art-87.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-5d8af46d-0b5c-4e52-ad33-a64d258dabdf.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "118492df21c3a337eebca164216c1992a2c54bb1a3e80a2f1b920465a36d448d",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 88,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A ginger kitten reclines with two different colored broad ribbons, teal and ochre, loosely tied to one smooth wooden hoop.",
+    "path": "sources/book/images/unique/art-88.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-dbd5e50f-14ed-4938-be80-4d1116c69766.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "77f4ebecf2ef7c08e9059c9b534ffe67d69a5db27c5bc3bd0d11ca91707bd5be",
+    "dimensions": [
+      1374,
+      1145
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 89,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A white fluffy kitten sits beside a small wooden wireframe octahedron, gently touching a vertex with one forepaw.",
+    "path": "sources/book/images/unique/art-89.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-f757f761-adac-40f1-a59a-a94ec57246dd.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "8b705457c93f163d82952b8e5ebeeaa41987230a3d821fae34d55a69bf0afbf1",
+    "dimensions": [
+      1374,
+      1145
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 90,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A gray kitten peeks playfully out of a small open navy and ochre cardboard cube, its entire head, ears, front paws and curled tail visible outside the opening.",
+    "path": "sources/book/images/unique/art-90.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-ce9b0b36-874a-4c76-a0d2-3a7585350832.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "e30d96c107ff9b9faff46edaabc2cc66c88848ab5bab7a3c2b8995ad561c9ff9",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 91,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A ginger kitten stretches one front paw toward a circular bracelet of smooth alternating cream and teal wooden beads, the whole body visible.",
+    "path": "sources/book/images/unique/art-91.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-5742046a-3a31-44ed-8ed8-1fb6f1c4797a.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "120f1ce3067631050610c139db1696cbae7e3cf725f0c275e2f3e61d5158dab8",
+    "dimensions": [
+      1374,
+      1145
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  },
+  {
+    "art": 92,
+    "prompt": "Create a new single illustration for the inside of a Russian mathematics textbook. ONE full-body kitten with the named prop only. Detailed warm luminous watercolor and fine ink, realistic natural kitten anatomy and expressive gentle face, soft fur, cream/navy/muted teal/ochre palette. Entire ears, paws and tail visible, compact large subject with minimal transparent safety padding. TRUE TRANSPARENT alpha background, alpha zero everywhere outside the kitten and props. No room, floor, scenery, paper rectangle, background wash, shadow patch, border, text, symbols, letters, numbers or watermark. This must be a transparent cutout, not a cover. Subject: A white kitten lies with a closed little navy atlas and an unmarked brass compass in front, looking toward the viewer, both forepaws relaxed.",
+    "path": "sources/book/images/unique/art-92.png",
+    "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-f72eb852-0db0-4535-ae5a-b874909b2781.png",
+    "tool": "builtin image_gen",
+    "transparent_background": true,
+    "sha256": "27a8c50eafef7c2f3d423248486335675110b4ca2b2cb4241e5e63b723f81439",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "visual_review": "Different kitten pose and prop, watercolor palette matched, transparent background verified"
+  }
+]

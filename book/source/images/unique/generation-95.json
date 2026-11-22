@@ -1,0 +1,8 @@
+{
+  "art": 95,
+  "prompt": "One unique watercolor spot illustration for inside a mathematics textbook: ONE realistic full-body kitten and its named prop only. Warm watercolor with fine ink, luminous soft fur, gentle expressive face, cream/navy/muted teal/ochre palette. Entire ears, paws, tail visible; compact subject, minimal transparent padding. True transparent alpha background, alpha zero outside kitten and prop. No backdrop, scenery, floor, paper rectangle, shadow patch, text, symbols, numbers or watermark. A ginger kitten lies on its back holding a small cream-and-teal fabric kite above its belly with both paws.",
+  "path": "sources/book/images/unique/art-95.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-7620d5c7-a785-4608-ab98-d1e3a05a5c2f.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

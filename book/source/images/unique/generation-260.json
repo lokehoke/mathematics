@@ -1,0 +1,9 @@
+{
+  "art": 260,
+  "subject": "A calico kitten carefully unfolding a small ochre carpenter's wooden folding ruler with blank unmarked segments.",
+  "prompt": "Use case: illustration-story. Asset: one new large transparent watercolor kitten cutout inside a Russian mathematics textbook. Warm luminous detailed watercolor and fine ink, realistic anatomy, soft fur and expressive eyes, cream navy muted teal and ochre cover palette. Entire ears paws tail visible, compact composition with minimal transparent padding. True transparent alpha background outside kitten and props. No floor scenery room background wash paper rectangle shadow patch text letters numbers symbols watermark. Subject: A calico kitten carefully unfolding a small ochre carpenter's wooden folding ruler with blank unmarked segments.",
+  "path": "sources/book/images/unique/art-260.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-55e07af1-183b-4a21-88d6-4f13a9ea46b5.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

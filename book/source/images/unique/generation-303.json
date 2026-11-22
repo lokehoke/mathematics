@@ -1,0 +1,9 @@
+{
+  "art": 303,
+  "subject": "A white kitten studying an opened folded-paper polyhedron with one navy paper flap, curious crouch.",
+  "prompt": "One unique transparent watercolor illustration for an elegant mathematics textbook. A white kitten studying an opened folded-paper polyhedron with one navy paper flap, curious crouch. Refined detailed hand-painted watercolor with fine pencil/ink details, soft fur and gentle expressive eyes. Match a cream, deep navy, muted teal, warm ochre palette. One complete anatomically believable kitten, complete prop, compact centered composition filling most of image. Real transparent alpha background, no background scene or floor, no text, no numbers, no equations, no logos or border. Every kitten illustration must be new and distinct.",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-a27dc02f-4d36-42cb-862f-1eff59c87fac.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true,
+  "path": "sources/book/images/unique/art-303.png"
+}

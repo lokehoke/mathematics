@@ -1,0 +1,9 @@
+{
+  "art": 194,
+  "subject": "A fluffy ginger kitten sitting and carefully examining a small brass beam balance with two empty teal bowls.",
+  "prompt": "Use case: illustration-story. Asset: one large transparent watercolor kitten cutout for a Russian mathematics textbook. Primary subject: A fluffy ginger kitten, full body, sitting and carefully examining a small brass beam balance with two empty teal bowls. Elegant warm watercolor with fine ink detail, realistic kitten anatomy, expressive soft eyes and detailed fur. Cream, navy, muted teal and ochre palette. Compact composition, entire ears paws and tail visible, minimal transparent padding. Truly transparent background, zero alpha outside kitten and balance. No floor, scenery, paper rectangle, background wash, shadow patch, text, letters, numbers or watermark. This is a new unique illustration; do not repeat a kitten holding a globe or armillary sphere.",
+  "path": "sources/book/images/unique/art-194.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-fb8e5679-bf5e-422c-ac4b-d2cd108079a6.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}

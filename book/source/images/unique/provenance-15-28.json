@@ -1,0 +1,516 @@
+{
+  "tool": "built-in image_gen",
+  "reference_image": "/home/lokehoke/mathematics/sources/book/images/cover-cats.png",
+  "reference_role": "style only",
+  "transparent_background": true,
+  "assets": [
+    {
+      "id": 15,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-7c0c0f34-f4fc-4d64-9557-cac919628874.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-15.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 15,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.5093,
+        "alpha_bbox": [
+          0,
+          19,
+          1243,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "f6dd44d8d3d4ed32138a058087ea06bd3104d58982b49c6d7563bfd4e17a5d79",
+        "bytes": 1819993
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 16,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-16c5c603-7ad7-49b3-a509-2ab228611559.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-16.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 16,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4679,
+        "alpha_bbox": [
+          0,
+          8,
+          1236,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "bbcc0b9a4f342256ae9005f7b4703989fc1e3591c33e0a5a2b173e4c59c5cd81",
+        "bytes": 2196185
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 17,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-58349106-fc19-4794-ba63-cf735ff52725.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-17.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 17,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.5057,
+        "alpha_bbox": [
+          0,
+          0,
+          1240,
+          1240
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "4fa22b869616f40409a51d0d6b2ec839e6397844d161815996024bc5c36fb17a",
+        "bytes": 2137279
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 18,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-87e7a901-210b-42ff-aa80-38be90959230.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-18.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 18,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4244,
+        "alpha_bbox": [
+          0,
+          2,
+          1244,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "8f55ef1b4b0cf4b0496c340cbc691201a297dab5516976720e3fa67d9934271b",
+        "bytes": 2033366
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 19,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-6c7eefee-31e5-4d8d-a18d-c20c64d735ad.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-19.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 19,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4444,
+        "alpha_bbox": [
+          0,
+          4,
+          1254,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "4c9e9592b6d343d85e68fbbb5f8d531df736a2f9326843ec81585fdbcdf22a44",
+        "bytes": 2180833
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 20,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-720e74a7-14b2-4aeb-80ed-13788aa7d818.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-20.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 20,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4224,
+        "alpha_bbox": [
+          0,
+          18,
+          1240,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "1527087b5595751875ecceb503763c3e6ff65b26732d8bbb40890afc1dce5973",
+        "bytes": 2422865
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 21,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-67759104-e858-4d8a-b4ab-1aed8c74c871.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-21.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 21,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4852,
+        "alpha_bbox": [
+          0,
+          19,
+          1254,
+          1230
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "b606c9ad135c8c5301bb673d47af527b56fed1fcec2bbd381ef2cae3f4fec1b7",
+        "bytes": 1985704
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 22,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-222bbaab-db15-47b9-a488-9e5df1f4c409.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-22.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 22,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4598,
+        "alpha_bbox": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "f2cfb71e430aa90682df7bb6d5163e292bd40aee6575ebb42ef36751017392a7",
+        "bytes": 2216768
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 23,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-f2c70737-efad-446a-85b3-18c6699d5c5c.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-23.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 23,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.3668,
+        "alpha_bbox": [
+          0,
+          0,
+          1250,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "1eec8d5a1affb90c0218b86f966ccf0fd4f3bd5ea68b6784e39a33bfc2f59447",
+        "bytes": 2519976
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 24,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-91d2c443-37e5-4329-9aee-3610429858b0.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-24.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 24,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4293,
+        "alpha_bbox": [
+          0,
+          0,
+          1240,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "1b6ebab9c1c64d70446f953963b296c2455e34198c70f8fced1db303382bfefa",
+        "bytes": 2089268
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 25,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-c1819db0-05f1-41f5-a0cd-bc4189440b11.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-25.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 25,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4249,
+        "alpha_bbox": [
+          0,
+          0,
+          1252,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "652104f28c20d918a366dd4f3120a11cb586904cfa1abcbdfeb0b3e577feffb7",
+        "bytes": 2146580
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 26,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-43ffe837-821d-451e-a125-bd66eb58ce50.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-26.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 26,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4711,
+        "alpha_bbox": [
+          0,
+          0,
+          1253,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "4ca74e3570da65415fa07ee9a63843fa3f39256cdefbe4fe460bce177e3677db",
+        "bytes": 2243902
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 27,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-627926a1-f656-480e-ac8b-8402cdb496d8.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-27.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 27,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.587,
+        "alpha_bbox": [
+          0,
+          0,
+          1253,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 36,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "4883829982222378b23a3946dbfdf83f5e68e1dab6427f1341284b92af01cd0b",
+        "bytes": 1544408
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    },
+    {
+      "id": 28,
+      "source_path": "/home/lokehoke/.codex/generated_images/01a1606e-e438-7730-aacb-18c60145d6b3/exec-507bd9f6-5edc-44cf-8064-e3728e9c6d58.png",
+      "target_path": "/home/lokehoke/mathematics/sources/book/images/unique/art-28.png",
+      "mode": "built-in image_gen",
+      "transparent_background": true,
+      "qa": {
+        "id": 28,
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.4168,
+        "alpha_bbox": [
+          0,
+          0,
+          1254,
+          1254
+        ],
+        "opaque_edge_pixels": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "sha256": "e20c005b3ed86441b457ffa5cf614aa4748ae40cdca18ec2001122d666a2cc44",
+        "bytes": 2418422
+      },
+      "byte_identical_to_original": true,
+      "visual_review": "accepted: unique specified subject, warm watercolor and fine ink style, transparent background; kitten silhouette is fully framed"
+    }
+  ],
+  "completed_at_utc": "2026-10-22T11:33:39.194305+00:00",
+  "reference_sha256": "7214735ada62bf02cb270b91cc5f0ca7c2ca79dc2937393fab4345c5959162f5",
+  "originals_preserved": true,
+  "file_copy_method": "Byte-for-byte copy of original returned saved path; no pixel editing."
+}

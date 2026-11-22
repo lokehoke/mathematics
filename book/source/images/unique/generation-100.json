@@ -1,0 +1,8 @@
+{
+  "art": 100,
+  "prompt": "Create ONE unique transparent inside illustration for a cozy mathematics book: ONE natural full-body kitten and the named prop only, warm luminous watercolor with fine ink, realistic gentle face and detailed soft fur. Cream/navy/muted teal/ochre palette. Entire ears paws tail visible, compact subject minimal padding. TRUE TRANSPARENT alpha background, alpha zero outside kitten and prop. No room, floor, scenery, background wash, paper rectangle, shadow patch, words, symbols, letters, numbers or watermark. A gray tabby kitten carefully examines a small brass sextant lying on its side, one paw raised inquisitively.",
+  "path": "sources/book/images/unique/art-100.png",
+  "source": "/home/lokehoke/.codex/generated_images/01a15add-3670-7c71-a4e9-91c63f9f6f5d/exec-7895b612-af7a-4d76-9bfa-b5d022fa74a6.png",
+  "tool": "builtin image_gen",
+  "transparent_background": true
+}
